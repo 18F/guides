@@ -1,35 +1,25 @@
 ---
-title: Contributing to the Handbook
+title: Contributing to 18F Approaches
 permalink: /contributing/
 cSpell: ignore Ooph,tada
 ---
 
-So you want to contribute to the Handbook? Great! We're glad you're here. This
-project is fully crowd-sourced, and thus its success hinges on whether people
-like you correct typos, update stale content, or make pages more readable.
-
 ## Introduction
+
+** This is contribution guide is a work in progress **
 
 ### How to update the handbook
 
-Everyone, inside and outside TTS, can submit contributions to
-https://github.com/18F/handbook as a pull request or
-[open an issue](https://github.com/18F/handbook/issues/new) with a suggestion.
-If you're part of TTS, you can also chat about ideas in
-{% slack_channel "tts-handbook" %}.
+Everyone, inside and outside 18F, can submit contributions to
+https://github.com/18F/approaches as a pull request or
+[open an issue](https://github.com/18F/approaches/issues/new) with a suggestion.
 
-There is no dedicated staff for the handbook; maintenance is done by TTS staff
-who are interested in helping.
-
-For long or important chunks of writing, consider asking the
-[18F Writing Lab](https://github.com/18F/writing-lab) to review and edit before
-you propose significant changes to the handbook.
 
 ### Disclaimers
 
 Before you make your contribution, there are a few things to remember:
 
-- This handbook website and repository are public
+- This website and repository are public
 - We're careful about publishing
   [information collected during research](https://handbook.tts.gsa.gov/research-guidelines/);
   [learn more](https://docs.google.com/document/d/1Xp4LxbW6cx61rXrsnnfIPCz6cglovHzZeEjCcnpIeaM/edit)
@@ -37,14 +27,14 @@ Before you make your contribution, there are a few things to remember:
   first
 - Try to avoid "click here" links. If necessary, be sure to follow the
   [A11Y Project Anchor Link Patterns](https://a11yproject.com/patterns/#anchors-links).
-- TTS-wide information should be public by default and link to Google Docs for
+- 18F-wide information should be public by default and link to Google Docs for
   anything that shouldn't be publicly visible.
 - We follow the structure outlined in the
   [18F Content Guide](https://content-guide.18f.gov/our-approach/structure-the-content/)
 
-There is also some information that should **not** be included in the Handbook:
+There is also some information that should **not** be included in the 18F approaches:
 
-- TTS staff should not include information that shouldn't be public. We already
+- 18F staff should not include information that shouldn't be public. We already
   get training on this, but here are a few reminders about things we shouldn't
   include here:
 
@@ -63,14 +53,14 @@ There is also some information that should **not** be included in the Handbook:
       phone numbers in the handbook
     - Information that is already well-covered on GSA InSite - link there
       instead of reproducing it
-    - Specific TTS org chart info (such as lists of names of supervisors and
+    - Specific 18F org chart info (such as lists of names of supervisors and
       facilitators). Link to the
-      [TTS org chart](https://handbook.tts.gsa.gov/tts-org-chart/), the internal
+      [18F org chart](https://handbook.tts.gsa.gov/tts-org-chart/), the internal
       [18F org chart](https://handbook.tts.gsa.gov/org-chart/), or the internal
       [Office of Solutions org chart](https://handbook.tts.gsa.gov/opp-org-chart/)
       instead
 
-{% capture alert_content %} If you plan on creating a new Handbook page, first
+{% capture alert_content %} If you plan on creating a new 18F Approaches page, first
 check out the
 [page templates](https://github.com/18F/handbook/tree/main/_templates). If the
 type of content you're creating -- for example, if you're documenting a new tool
@@ -78,20 +68,20 @@ type of content you're creating -- for example, if you're documenting a new tool
 {% include "alert.html" heading:"Creating a new page?" content:alert_content %}
 
 Now, assuming you've identified what you want to contribute -- if you haven't,
-check out the Handbook's [open issues](https://github.com/18F/handbook/issues)
+check out the 18F Approaches's [open issues](https://github.com/18F/handbook/issues)
 -- let's talk about GitHub, the mechanism by which you'll contribute.
 
 ## Helpers and shortcuts
 
-The backend of the Handbook is built using a tool called
+The backend of the 18F Approaches is built using a tool called
 [Eleventy](https://www.11ty.dev/), which uses a language called "Liquid" to
 enable shortcuts and helpers, making it easier and faster to add new content.
-Here are some of the helpers and shortcuts available in the Handbook. Please use
-them when possible as they will make it easier to maintain the Handbook over
+Here are some of the helpers and shortcuts available in the 18F Approaches. Please use
+them when possible as they will make it easier to maintain the 18F Approaches over
 time!
 
 - **Linking to another page**  
-  Linking to other pages within the Handbook can be a little tricky if you do it
+  Linking to other pages within the 18F Approaches can be a little tricky if you do it
   by hand because you need to know the page's absolute URL after it is built and
   published. To simplify this, you can use the `{{ "{% page %}" }}` short code:
 
@@ -102,9 +92,9 @@ time!
   ```
 
 - **Displaying images**  
-  To include an image that is unique to TTS in your content, first be sure that
+  To include an image that is unique to 18F in your content, first be sure that
   the image is located in the `_img` directory. (Images not hosted within the
-  Handbook can be included using the normal methods for images.) Then, use the
+  18F Approaches can be included using the normal methods for images.) Then, use the
   `{{ "{% image %}" }}` short code, like this:
 
   ```
@@ -139,7 +129,7 @@ time!
 
 - **Linking to a download**  
   If you need to link to a publicly-downloadable file, you can add the file to
-  the `downloads` directory in the Handbook repository. Then in your content,
+  the `downloads` directory in the 18F Approaches repository. Then in your content,
   you can use the `{{ '{% download %}' }}` short code to get the full URL to
   your file, like so:
 
@@ -150,7 +140,7 @@ time!
   ```
 
 - **Using a USWDS icon**  
-  The Handbook is built on [USWDS](https://designsystem.digital.gov/) 3. As a
+  The 18F Approaches is built on [USWDS](https://designsystem.digital.gov/) 3. As a
   result, it includes USWDS's icons. To make it easier to access the icons, you
   can use the `{{ "{% uswds_icon %}" }}` short code:
 
@@ -205,7 +195,7 @@ complicated.
 - After editing your first file as described above, navigate to the
   [list of branches](https://github.com/18F/handbook/branches), find the one you
   created above, and click it. This will display a list of all files in the
-  Handbook, but as they exist on your branch.
+  18F Approaches, but as they exist on your branch.
 - Browse the file tree to find the ones you want to edit. Click a filename to
   open a file viewer. From here, you can edit the file by clicking the pencil
   icon above the content.
@@ -222,7 +212,7 @@ Random technical details:
 
 ### Front matter
 
-The Handbook has a special `questions`
+The 18F Approaches has a special `questions`
 [front matter](https://www.11ty.dev/docs/data-frontmatter/) variable for pages:
 
 ```yaml
@@ -256,7 +246,7 @@ process should go in the `pages/18f` directory.
 
 ### Pull requests (PRs)
 
-Each pull request should be reviewed by at least one other TTS staff member
+Each pull request should be reviewed by at least one other 18F staff member
 before merging. Once a PR is approved, anyone can merge it (including the
 original submitter).
 
@@ -266,7 +256,7 @@ review.
 
 ### CODEOWNERS
 
-The TTS Handbook uses the GitHub
+The 18F Approaches uses the GitHub
 ["code owners" feature](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-code-owners)
 to automatically add content owners as a reviewer. This means that in most
 cases, you as a contributor should not need to manually add anyone for a review.
@@ -277,7 +267,7 @@ project.
 
 ### How to review and merge pull requests
 
-Any TTS staff member can review a pull request. If it's not your area of
+Any 18F staff member can review a pull request. If it's not your area of
 expertise, ask somebody who has expertise in that area (for instance, by
 commenting to tag a person or sharing the PR in Slack). If the author of the
 pull request added a specific person as a reviewer, hold off merging the pull
@@ -286,8 +276,7 @@ request until at least one specified reviewer has had a chance to review it.
 A note to submitters: If you need multiple people to see your PR before it's
 merged, please add a comment letting reviewers know!
 
-If you're not sure, ask for a second opinion in
-{% slack_channel "tts-handbook" %} first.
+If you're not sure, ask for a second opinion in **TODO**
 
 ## Content and accessibility
 
