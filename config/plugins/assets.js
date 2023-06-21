@@ -13,6 +13,7 @@ const build = async () =>
     outdir: "_site/assets",
     format: "iife",
     loader: {
+      ".jpg": "dataurl",
       ".png": "dataurl",
       ".svg": "dataurl",
       ".ttf": "dataurl",
