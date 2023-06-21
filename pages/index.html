@@ -1,0 +1,28 @@
+---
+permalink: /
+homepage: true
+title: 18F Approaches
+---
+
+<section class="grid-container usa-section usa-section--dark">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-4">
+      <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
+        A resource for TTS employees
+      </h2>
+    </div>
+    <div class="tablet:grid-col-8 usa-prose">
+      <p>
+        {{ site.description }}
+      </p>
+      <p>
+        <a href="{% page "/about/" %}">Read more about the Handbook. >></a>
+      </p>
+    </div>
+  </div>
+</section>
+<div class="layout-table-of-contents">
+  <div class="wrapper usa-prose">
+    {% render "nav.html", level:1 nav:navigation.primary %}
+  </div>
+</div>

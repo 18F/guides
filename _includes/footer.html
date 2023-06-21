@@ -1,0 +1,35 @@
+<footer class="usa-footer usa-footer--slim">
+  <div class="usa-footer__primary-section">
+    <div class="usa-footer__primary-container grid-row">
+      <div>
+        <nav class="usa-footer__nav" aria-label="footer navigation">
+          <ul class="grid-row grid-gap">
+            <li class="mobile=lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+              <a href="https://github.com/18F/handbook/issues/new" class="usa-footer__primary-link">File an issue</a>
+            </li>
+            <li class="mobile=lg:grid-col-6 desktop:grid-col-auto usa-footer__primary-content">
+              <a href="{% page "/contributing" %}" class="usa-footer__primary-link">Contributing</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="usa-footer-contact-links usa-width-one-half align-right">
+
+        <small>
+          <a
+            href="https://github.com/18F/handbook/edit/main/{{ page.inputPath | url }}"
+            class="usa-sidenav-edit"
+            target="_blank">
+            Edit this page
+          </a>
+        </small>
+
+      </div>
+    </div>
+   </div>
+</footer>

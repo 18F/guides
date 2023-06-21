@@ -1,0 +1,84 @@
+---
+date: git Last Modified
+---
+{% if redirect_to %}
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting&hellip;</title>
+    <link rel="canonical" href="{% link redirect_to %}" />
+    <script>
+      location = "{% link redirect_to %}";
+    </script>
+    <meta http-equiv="refresh" content="0; url={% link redirect_to %}" />
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <h1>Redirecting&hellip;</h1>
+    <a href="{% link redirect_to %}">Click here if you are not redirected.</a>
+  </body>
+</html>
+{% else %}
+<!DOCTYPE html>
+
+<html lang="en">
+  {% include "meta.html" %}
+
+  <body>
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+    
+    {% include "gov-site-banner.html" %}
+    
+    {% include "header.html" %}
+
+      <div class="usa-layout-docs usa-layout-docs__main usa-prose">
+      <div class="usa-section">
+        <div class="grid-container">
+          {% if sidebar %}
+            <div class="grid-row grid-gap">
+            {% include "sidenav.html" %}
+          {% endif %}
+          {% if page.inputPath == './pages/index.html' %} 
+            <div class="grid-row grid-gap flex-align-start">
+          {% else %}
+            <div class="usa-in-page-nav-container {% if sidebar %}tablet:grid-col-9{% endif %}">
+          {% endif %}
+            {{ content }}
+          </div>
+
+          {% if questions %}
+            <h2 id="questions">Questions?</h2>
+            <ul>
+              {% for contact in questions %}
+              <li>
+                {% if contact contains "@" %}
+                  <a href="mailto:{{contact}}">{{contact}}</a>
+                {% elsif contact.text %}
+                  <a href="{{contact.url}}">{{contact.text}}</a>
+                {% else %}
+                  {% slack_channel contact %}
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        {% if sidebar %}
+      </div>
+        {% endif %}
+      </div>
+    </div>
+
+    {% include "footer.html" %}
+    {% include "usa-identifier.html" %}
+    
+    {% comment %} Hide SVG Sprites {% endcomment %}
+    <div style="display: none">
+      {% usa_icons_sprite %} {% uswds_icons_sprite %}
+    </div>
+
+    {% include "scripts.html" %}
+  </body>
+</html>
+{% endif %}
