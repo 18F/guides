@@ -4,12 +4,12 @@ const esbuild = require('esbuild');
 const { sassPlugin } = require('esbuild-sass-plugin');
 
 // A recursive generator function to list all of the files in a directory
-async function* getFiles(dir) {
+async function* getFilesInDirectory(dir) {
   const dirents = await fs.readdir(dir, { withFileTypes: true });
   for (const dirent of dirents) {
     const res = path.join(dir, dirent.name);
     if (dirent.isDirectory()) {
-      yield* getFiles(res);
+      yield* getFilesInDirectory(res);
     } else {
       yield res;
     }
@@ -28,7 +28,7 @@ async function createAssetPaths() {
   const assetsFiles = await Promise.all(
     assetDirs.map(async (dir) => {
       const files = []
-      for await (const f of getFiles(path.join(__dirname, '../_site/assets',dir))) {
+      for await (const f of getFilesInDirectory(path.join(__dirname, '../_site/assets',dir))) {
         files.push(f);
       }
       return files.map((file) => {
