@@ -7,4 +7,4 @@ COPY package-lock.json .
 
 RUN npm ci
 
-CMD npm run start
+CMD npm run dev
