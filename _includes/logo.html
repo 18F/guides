@@ -1,6 +1,4 @@
-<div class="usa-logo display-flex flex-align-center" id="extended-logo">
-  {% image_with_class "assets/_common/_img/18f-logo.svg" "maxw-6 margin-right-105" "18f" %}
-
+<div class="usa-logo" id="extended-logo">
   {% if tags %}
     {% assign guide = tags %}
   {% else %}
@@ -8,5 +6,5 @@
   {% endif %}
   {% assign title = titles_roots[guide].title %}
   {% assign home =  titles_roots[guide].root %}
-  <em class="usa-logo__text"><a href="{{ home | url }}" title="Home" aria-label="Home">{{title}}</a></em>
+  <a class="display-flex flex-align-center" href="{{ home | url }}" title="Home" aria-label="Home">{% image_with_class "assets/_common/_img/18f-logo.svg" "maxw-6 margin-right-105" "18f" %}<em class="usa-logo__text">{{title}}</em></a>
 </div>
