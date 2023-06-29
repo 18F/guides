@@ -6,46 +6,24 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
   <nav>
     <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="" class="usa-current">Current page</a>
-        <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="" class="usa-current">Child link</a>
-            <ul class="usa-sidenav__sublist">
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="" class="usa-current">Grandchild link</a>
-              </li>
-              <li class="usa-sidenav__item">
-                <a href="">Grandchild link</a>
-              </li>
-            </ul>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="">Child link</a>
-          </li>
-        </ul>
-      </li>
-      <li class="usa-sidenav__item">
-        <a href="">Parent link</a>
-      </li>
+      {% if eleventyNavigation.parent %}
+        {% assign links = collections.all | eleventyNavigation: eleventyNavigation.parent %}
+      {% else %}
+        {% assign links = collections[eleventyNavigation.key] | eleventyNavigation %}
+      {% endif %}
+      {% for link in links %}
+        {% assign _current = false %}
+        {% if link.url == page.url %}
+          {% assign _current = true %}
+        {% endif %}
+        <li class="usa-sidenav__item">
+          <a href="{{ link.url | url }}"
+             {% if _current %} class="usa-current" {% endif %}
+          >
+           {{ link.title }}
+          </a>
+        </li>
+    {% endfor %}
     </ul>
   </nav>
 </aside>
