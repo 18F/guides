@@ -13,7 +13,7 @@ The home page uses wide.html layout, since it extends full width of page
   {% include "header.html" %}
 
   {% if tags %} 
-    {% assign primary_navigation = site.guides_navigation[tags] %}
+    {% assign primary_navigation = guide_navigation[tags] %}
   {% else %} 
     {% assign primary_navigation = site.primary_navigation %}
   {% endif %}
