@@ -1,0 +1,10 @@
+# Title for each guide that will appear in the header, as well as the root subdirectory for the guide
+default: 
+  title: 18F Approaches
+  root: /
+agile: 
+  title: Agile
+  root: /agile/
+derisking: 
+  title: De-risking guide
+  root: /derisking/

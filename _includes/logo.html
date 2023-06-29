@@ -1,11 +1,12 @@
 <div class="usa-logo display-flex flex-align-center" id="extended-logo">
   {% image_with_class "assets/_common/_img/18f-logo.svg" "maxw-6 margin-right-105" "18f" %}
-  {% assign home = '/' %}
+
   {% if tags %}
-    {% assign title = guide_titles[tags] %}
-    {% assign home = home | append: tags %}
+    {% assign guide = tags %}
   {% else %}
-    {% assign title = guides_titles.default %}
+    {% assign guide = 'default' %}
   {% endif %}
+  {% assign title = titles_roots[guide].title %}
+  {% assign home =  titles_roots[guide].root %}
   <em class="usa-logo__text"><a href="{{ home | url }}" title="Home" aria-label="Home">{{title}}</a></em>
 </div>
