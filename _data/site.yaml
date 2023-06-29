@@ -38,6 +38,14 @@ secondary_navigation:
     url: "#main-content"
   - name: Another secondary link
     url: "#main-content"
+      
+# guides navigation
+guides_navigation:
+  agile:
+    - name: Home
+      url: /agile/
+    - name: Other 18F guides
+      url: /other-guides/ 
 
 # Search.gov configuration
 #
