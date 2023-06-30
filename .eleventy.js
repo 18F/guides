@@ -18,6 +18,10 @@ module.exports = function (config) {
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   config.addPassthroughCopy({'./node_modules/@uswds/uswds/dist/js/uswds-init.js': 'assets/js/uswds-init.js'});
 
+  //
+  config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
+  config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
+
   // Add plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNavigation);
