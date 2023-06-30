@@ -1,6 +1,6 @@
 ---
 title: Introduction
-permalink: /agile/introduction
+permalink: /agile/
 layout: layouts/page
 sidenav: true
 tags: agile
