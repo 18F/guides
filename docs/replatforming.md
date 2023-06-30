@@ -1,4 +1,4 @@
-# Replatforming documentation
+# Replatforming
 This document captures the structure of the new platform for 18F approaches and outlines the process of migrating our existing content to the new platform. This document is a work in progress.
 
 ##  Content organization
@@ -32,7 +32,7 @@ _Examples:_
 De-risking guide content would have the front matter `tags: derisking`
 UX guide pages would have `tags: uxguide`
 
-### Sidenavs
+## Sidenavs
 We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to do this each collection should have a mock markdown file such as `agile.md`  or `state-handbook.md` which defines the collection’s parent `key` for `EleventyNavigation`. This file should containtain only this front matter and no real content. For example `agile.md` would contain:
 
 ```
