@@ -28,12 +28,8 @@ To run the site locally:
 If you are interested in contributing to this repository, you can read more at
 [CONTRIBUTING](CONTRIBUTING.md).
 
-### Linting
-
-We use [Prettier](https://prettier.io/) to format Markdown. You can fix your
-files locally with:
-
-    $ npm run lint
+## Replatforming 
+Documentation on the replatforming effort can be found in [/docs/replatforming.md](/docs/replatforming.md)
 
 ### Public domain
 

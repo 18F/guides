@@ -1,30 +1,15 @@
 <footer class="usa-footer site-footer" role="contentinfo">
   <div class="footer-section-bottom bg-base-lighter">
     <div class="grid-container">
-      <div class="grid-row padding-3">
-        <div class="tablet:grid-col">
-          <div class="logo-links">
-            <a class="footer-logo media_link" href="https://cloud.gov">
-              {% image_with_class "./assets/_common/_img/logo-img.png" "width-10 height-auto" "Agency logo" %}
-            </a>
-          </div>
-        </div>
-        <div class="tablet:grid-col"></div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
-        </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
+      <div class="grid-row">
+        <div class="grid-col">
+          <p class="margin-bottom-0"> This project is maintained by <a class="usa-link" href="https://18f.gsa.gov/">18F</a></p>
+          <p class="margin-top-05"> Have questions or would like to contact us? Email us at <a class="usa-link" href="18@gsa.gov">18F@gsa.gov</a>
+</p>
         </div>
       </div>
     </div>
   </div>
 </footer>
+
+{% include "usa_identifier.html" %}
