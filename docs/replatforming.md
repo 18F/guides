@@ -5,7 +5,7 @@ This document captures the structure of the new platform for 18F approaches and 
 The content for all of the guides is in the `content` folder, which is organized with subfolders for each guide. For example all of the content for the De-risking guide should be placed in `content/derisking/`.
 
 ## Guide titles and subdirectories
-The `_data/title_roots.yaml` file is used to set the title for each guide (i.e. what appears after the 18F logo in the header). In addition it defines the URL “subdirectory” that will be the “root” or homepage for the guide. A guide’s tag is used as a key which maps to the title and root. This is used to set the title, header, and homepage navigation for each guide.
+The `_data/titles_roots.yaml` file is used to set the title for each guide (i.e. what appears after the 18F logo in the header). In addition it defines the name of the URL “subdirectory” that will be the “root” or homepage for the guide. A guide’s tag is used as a key which maps to the title and root. This tag is referenced to set the title, header, and primary navigation for each guide.
 
 _Example:_
 ```
@@ -22,18 +22,17 @@ _Example:_
 agile:
   - name: Home
     url: /agile/
-
 ```
 
 ## Collections / tags
-11ty uses “collections” to create content groupings. We can create a distinct collection for each guide, which allows us to group relevant content together. Site pages can be added to a collection simply by adding a `tag` to the front matter with the appropriate guide name as the value. The tag name is used throughout the site to refer to each guide (for example to determine the guide’s title).
+11ty uses “[collections](https://www.11ty.dev/docs/collections/)” to create content groupings. We can create a distinct collection for each guide, which allows us to group relevant content together. Site pages can be added to a collection simply by adding a `tag` to the front matter with the appropriate guide name as the value. The tag name is used throughout the site to refer to each guide (for example to determine the guide’s title).
 
 _Examples:_
 De-risking guide content would have the front matter `tags: derisking`
 UX guide pages would have `tags: uxguide`
 
 ## Sidenavs
-We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to do this each collection should have a mock markdown file such as `agile.md`  or `state-handbook.md` which defines the collection’s parent `key` for `EleventyNavigation`. This file should containtain only this front matter and no real content. For example `agile.md` would contain:
+We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to do this, each collection should have a mock markdown file such as `agile.md`  or `state-handbook.md` which defines the collection’s parent `key` for `EleventyNavigation`. This file should containtain only this front matter and no real content. For example `agile.md` would contain:
 
 ```
 permalink: false
@@ -50,10 +49,10 @@ eleventyNavigation:
   title: Introduction
 ```
 In the above front matter:
-- `agile` is the name of the parent collection
-- `key` is this page’s unique key
-- `order` explicitly sets the order the page should appear in the sidenav
-- `title` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed
+- `parent: agile` references the name of the parent collection.
+- `key: Introduction` sets this page's unique key for the sidenav.
+- `order:1` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
+- `title: Introduction` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
 
 ## Content migration process
 
