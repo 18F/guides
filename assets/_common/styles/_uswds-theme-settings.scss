@@ -1,0 +1,32 @@
+/*---------------------------------------------------------
+# 18F colors
+----------------------------------------------------------*/
+$brand-color-light: #B3EFFF;
+$brand-color-bright: #00CFFF;
+$brand-color-medium: #046B99;
+$brand-color-dark: #1C304A;
+
+@use 'uswds-core' as * with (
+
+  /*---------------------------------------------------------
+  # Meta Settings
+  ----------------------------------------------------------*/
+  $theme-show-notifications: false,
+  $theme-font-path: '../../../node_modules/@uswds/uswds/dist/fonts',
+  $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
+
+  // TODO: remove 
+  $theme-hero-image: '../_img/hero.png',
+
+  /*---------------------------------------------------------
+  # Typography Settings
+  ----------------------------------------------------------*/
+  $theme-font-type-sans: 'helvetica',
+  $theme-font-role-heading: 'sans',
+
+  /*---------------------------------------------------------
+  # Color Settings
+  ----------------------------------------------------------*/
+  // TODO: Set colors
+
+);

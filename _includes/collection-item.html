@@ -1,6 +1,6 @@
 <li class="usa-collection__item">
   {% if post.data.image %}
-    {% assign imagepath="./_img/" | append: post.data.image %}
+    {% assign imagepath="./assets/_common/_img/" | append: post.data.image %}
     {% image_with_class imagepath "usa-collection__img" post.data.image_alt_text %}
   {% endif %}
   <div class="usa-collection__body">
