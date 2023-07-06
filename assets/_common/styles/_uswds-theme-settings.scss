@@ -1,6 +1,6 @@
-/*---------------------------------------------------------
+/*----------------------------------------------------------
 # 18F colors
-----------------------------------------------------------*/
+-----------------------------------------------------------*/
 $brand-color-light: #B3EFFF;
 $brand-color-bright: #00CFFF;
 $brand-color-medium: #046B99;
@@ -18,15 +18,46 @@ $brand-color-dark: #1C304A;
   // TODO: remove 
   $theme-hero-image: '../_img/hero.png',
 
+
+  /*---------------------------------------------------------
+  # Global Settings
+  ----------------------------------------------------------*/
+  $theme-global-link-styles: true,
+
+
   /*---------------------------------------------------------
   # Typography Settings
   ----------------------------------------------------------*/
   $theme-font-type-sans: 'helvetica',
   $theme-font-role-heading: 'sans',
+  $theme-body-font-size: 'md',
+
 
   /*---------------------------------------------------------
   # Color Settings
   ----------------------------------------------------------*/
-  // TODO: Set colors
 
+  /*------------------------------------------------
+  ## Primary color
+  -------------------------------------------------*/ 
+  $theme-color-primary-darkest: 'blue-90',
+  $theme-color-primary-darker: $brand-color-dark,
+  $theme-color-primary-dark: 'blue-70v',
+  $theme-color-primary: $brand-color-medium,
+  $theme-color-primary-light: 'blue-cool-40v',
+  $theme-color-primary-lighter: 'blue-cool-20v',
+  $theme-color-primary-lightest: $brand-color-light,
+
+  /*------------------------------------------------
+  ## Accent color
+  -------------------------------------------------*/ 
+  $theme-color-accent-cool-dark: 'cyan-50v',
+  $theme-color-accent-cool: $brand-color-bright,
+  $theme-color-accent-cool-light: 'cyan-20v',
+
+  /*------------------------------------------------
+  ## Error color
+  -------------------------------------------------*/ 
+   $theme-color-error-lighter: 'red-warm-5v',
 );
+
