@@ -5,6 +5,9 @@ default:
 agile: 
   title: Agile
   root: /agile/
+content-guide: 
+  title: Content guide
+  root: /content-guide/
 derisking: 
   title: De-risking guide
   root: /derisking/
