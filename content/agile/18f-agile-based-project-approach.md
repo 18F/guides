@@ -10,7 +10,6 @@ eleventyNavigation:
   order: 5
   title: 18F Agile based project approach
 ---
-# {{title}}
 
 The Agile Manifesto is realized at 18F in the combined practices of iterative software development, product management, user-centered design, and DevOps.
 
@@ -28,4 +27,4 @@ Having well-researched hypotheses beforehand allows us to be deliberate about wh
 
 A common pitfall is expecting agile to be a silver bullet to all that ails software development, and to expect agile to eliminate all project risks. We've seen teams try agile and, when the practices fail to eliminate all the challenges, write off agile entirely, claiming "agile doesn't work." In reality, agile does not eliminate risk completely; it provides techniques to manage risk more effectively than traditional waterfall processes. Unlike waterfall, agile accepts that the unknowns will lead to change. Agile treats change as an integral part of the process, as opposed to exceptions that need to be resolved via change control mechanisms. This enables agile teams to manage risk by allowing change to drive course corrections. However, some agile adoptions focus on the ceremonies as opposed to the intent. Incomplete, incorrect, or uninformed adoption of agile techniques can lead to an ineffective process we call “agilefall.” 18F has written a blog post about [how to avoid this pitfall](https://18f.gsa.gov/2015/12/29/is-your-project-using-agilefall/). Effective agile adoption will enable an organization to be nimble and respond effectively to the inevitable change that arises during software development.
 
-![agile and user centered design diagram](../assets/img/agile-ucd.png){:width="770px"}
+{% image_with_class "assets/agile/img/agile-ucd.png" "maxw-full" "agile and user centered design diagram" %}
