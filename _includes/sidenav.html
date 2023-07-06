@@ -22,6 +22,15 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
           >
            {{ link.title }}
           </a>
+          {% if on-page-nav and _current %}
+            {% for heading in on-page-nav %}
+            <ul class="usa-sidenav__sublist">
+              <li class="usa-sidenav__item border-0">
+                <a href="{{ heading.href }}"> {{ heading.text }} </a>
+              </li>
+            </ul>
+            {% endfor %}
+          {% endif %}
         </li>
     {% endfor %}
     </ul>
