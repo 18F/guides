@@ -1,0 +1,24 @@
+@use 'uswds-core' as * ;
+
+h1, h2, h3, h4, h5, h6 {
+  color: color('primary-darker');
+}
+
+.heading-permalink {
+  opacity: 0.4;
+
+  &:visited {
+    color: color('primary');
+  }
+
+  &:focus,
+  &:hover {
+    opacity: 1;
+  }
+
+  .usa-icon {
+    vertical-align: sub;
+    max-width: units(3);
+  }
+}
+
