@@ -7,7 +7,7 @@ sticky_sidenav: true
 tags: content-guide
 eleventyNavigation: 
   key: content-resources
-  parent: content-guide
+  parent: content-about
   order: 3
   title: Resources
 on-page-nav:

@@ -5,11 +5,11 @@ layout: layouts/page
 sidenav: true
 tags: content-guide
 eleventyNavigation: 
-  key: content-about
-  parent: content-guide
+  key: content-index
+  parent: content-about
   order: 1
   title: About this guide
-on-page-nav:
+subnav:
   - text: If you work at 18F
     href: '#if-you-work-at-18f'
   - text: If you work at another organization

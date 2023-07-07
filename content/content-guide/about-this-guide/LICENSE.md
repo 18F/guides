@@ -7,7 +7,7 @@ sticky_sidenav: true
 tags: content-guide
 eleventyNavigation: 
   key: content-license
-  parent: content-guide
+  parent: content-about
   order: 2
   title: License
 on-page-nav:
