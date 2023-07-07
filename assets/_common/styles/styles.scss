@@ -11,4 +11,7 @@ USWDS Source
 /*---------------------------------------------------------
 Custom styling
 ----------------------------------------------------------*/
-@forward "overrides/_hero.scss"
+@forward "custom-styles.scss";
+
+// TODO: Delete
+@forward "overrides/_hero.scss";
