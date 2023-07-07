@@ -4,3 +4,10 @@ agile:
     url: /agile/
   - name: More 18F guides
     url: https://18f.gsa.gov/guides/
+accessbility:
+  - name: Home
+    url: /accessbility/
+  - name: Other .Gov Accessibility Sites
+    url: /accessibility/gov-resources
+  - name: More 18F guides
+    url: https://18f.gsa.gov/guides/

@@ -7,6 +7,8 @@ const markdownItAnchor = require('markdown-it-anchor');
 const { headingLinks } = require("./config/headingLinks");
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
 module.exports = function (config) {
@@ -19,6 +21,9 @@ module.exports = function (config) {
   // Copy USWDS init JS so we can load it in HEAD to prevent banner flashing
   config.addPassthroughCopy({'./node_modules/@uswds/uswds/dist/js/uswds-init.js': 'assets/js/uswds-init.js'});
 
+  // Specific scripts to guides
+  config.addPassthroughCopy("./assets/_common/js/flashing.js");
+  config.addPassthroughCopy("./assets/_common/js/time-outs.js");
   //
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
   config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
@@ -40,6 +45,9 @@ module.exports = function (config) {
     svgSpriteShortcode: 'usa_icons_sprite',
     svgShortcode: 'usa_icons'
   });
+
+  // Plugin to style code blocks
+  config.addPlugin(syntaxHighlight);
 
   // Allow yaml to be used in the _data dir
   config.addDataExtension("yaml", contents => yaml.load(contents));
