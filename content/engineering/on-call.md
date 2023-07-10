@@ -1,6 +1,7 @@
 ---
 title: On call recommendations 
 sidenav: true
+permalink: /engineering/on-call/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

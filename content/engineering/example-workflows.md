@@ -1,7 +1,7 @@
 ---
 title: Example Workflows
 sidenav: true
-sticky_sidenav: true
+permalink: /engineering/example-workflows/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

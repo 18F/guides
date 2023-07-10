@@ -2,6 +2,7 @@
 title: Front-End Disciplines
 sidenav: true
 tags: engineering
+permalink: /engineering/frontend/
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach

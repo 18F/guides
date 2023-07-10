@@ -2,6 +2,7 @@
 title: Incident Reports
 sidenav: true
 tags: engineering
+permalink: /engineering/incident-reports/
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach

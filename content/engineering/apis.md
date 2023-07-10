@@ -2,6 +2,7 @@
 title: APIs
 sidenav: true
 tags: engineering
+permalink: /engineering/apis/
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach

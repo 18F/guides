@@ -2,6 +2,7 @@
 title: Releasing Software
 sidenav: true
 tags: engineering
+permalink: /engineering/release-strategies/
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach
