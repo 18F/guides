@@ -226,11 +226,7 @@ Some examples:
 ### Changing subdomains
 
 If we changed our name from 18F to 19G, we would change our domain, so
-this page would be located at
-`https://pages.19g.gov/content-guide/urls-and-filenames/`. We would keep
-the `18f.gov` domain running, but all it would do would redirect
-everything to `19g.gov`. Users who entered the old URL would be
-redirected and might not even notice the URL change.
+this page would be located at `https://pages.19g.gov/content-guide/urls-and-filenames/`. We would keep the `18f.gov` domain running, but all it would do would redirect everything to `19g.gov`. Users who entered the old URL would be redirected and might not even notice the URL change.
 
 If we decide to eliminate the pages subdomain and put this directly on
 `18f.gov`, we would do essentially the same thing, keeping this
@@ -303,8 +299,7 @@ to be delimited in the same way as URLs.
 
 Capitalization on a web page:
 
-> [gsa.gov](https://gsa.gov) is the General Services Administration
-> site.
+> [gsa.gov](https://gsa.gov) is the General Services Administration site.
 
 Capitalization in print:
 
@@ -312,15 +307,14 @@ Capitalization in print:
 
 Delimiting an awkward URL in email:
 
-> When you get the chance, could you redirect &lt;example.com/spaces in
-> URLs are bad/&gt; to &lt;example.com/spaces-in-urls-are-bad/&gt;, as
-> per our guidelines, and make the latter the definitive URL for the
-> page?
+> When you get the chance, could you redirect &lt;example.com/spaces in URLs are bad/&gt; to &lt;example.com/spaces-in-urls-are-bad/&gt;, as
+per our guidelines, and make the latter the definitive URL for the
+page?
 
 ### URL Structure
 
-1.  **The protocol.** For example `https://`, `http://`, or `ftp://`.
-    The `://` is always present.
+1.  **The protocol.** For example `https://`, `http://`, or `ftp://`. 
+The `://` is always present.
 2.  **The domain.** For example `18f.gsa.gov`. This is “where on the
     internet” the URL is referring to. Also called:
     -   site
