@@ -2,10 +2,13 @@
 title: About this guide
 permalink: /engineering/about/
 layout: layouts/page
-sidenav: about
+sidenav: true
 tags: engineering
+subnav:
+  - text: How we classify best practices
+    href: "#how-we-classify-best-practices"
 eleventyNavigation: 
-  parent: engineering
+  parent: engineering_about
   key: About this guide
   order: 1
   title: About this guide
