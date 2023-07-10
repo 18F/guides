@@ -32,27 +32,30 @@ De-risking guide content would have the front matter `tags: derisking`
 UX guide pages would have `tags: uxguide`
 
 ## Sidenavs
-We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to do this, each collection should have a mock markdown file such as `agile.md`  or `state-handbook.md` which defines the collection’s parent `key` for `EleventyNavigation`. This file should containtain only this front matter and no real content. For example `agile.md` would contain:
-
-```
-permalink: false
-eleventyNavigation:
-   key: agile
-```
-
-Each page within the collection can then reference the relevant parent. For example the introduction page for the agile guide would have the following front matter:
+We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to group pages within a subsection to together, all pages within a section should have a common `eleventyNavigation` `parent` key. For example the introduction page for the content guide "Our style" would include the following front matter:
 ```
 eleventyNavigation:
-  parent: agile
-  key: Introduction
+  key: content-style-index
+  parent: content-style
   order: 1
-  title: Introduction
+  title: Our style
+---
 ```
+and similarly, the "Active voice" page within that section would have the following in its front matter:
+
+```
+eleventyNavigation:
+  key: content-active
+  parent: content-style
+  order: 3
+  title: Active voice
+```
+
 In the above front matter:
-- `parent: agile` references the name of the parent collection.
-- `key: Introduction` sets this page's unique key for the sidenav.
-- `order:1` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
-- `title: Introduction` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
+- `parent: content-sytle` references the name of the parent section.
+- `key: content-active` sets this page's unique key for the sidenav.
+- `order: 3` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
+- `title: Active voice` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
 
 ## Content migration process
 
