@@ -4,7 +4,6 @@ permalink: /engineering/license/
 layout: layouts/page
 sidenav: true
 tags: engineering
-sticky_sidenav: true
 subnav:
   - text: No copyright
     href: "#no-copyright"
