@@ -21,13 +21,13 @@ subnav:
   - text: Tables
     href: '#tables'
   - text: "Don’t use FAQs"
-    href: '#dont-use-faqs'
+    href: "#don't-use-faqs"
 tags: content-guide
 eleventyNavigation:
-  key: TODO
-  parent: content-guide
-  order: TODO
-  title: TODO
+  key: content-structure
+  parent: content-approach
+  order: 9
+  title: Structure the content
 ---
 
 It can be a little confusing when we talk about the structure of content: most writers think of the structure of their writing along the lines of chapters, sections, headings and paragraphs. But we know that people read web content a little differently than, for example, a magazine essay. And HTML gives us tools to build pages that support readers, especially those who use assistive technologies. 

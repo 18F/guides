@@ -9,10 +9,10 @@ subnav:
     href: '#keep-sentences-short-and-sweet'
 tags: content-guide
 eleventyNavigation:
-  key: TODO
-  parent: content-guide
-  order: TODO
-  title: TODO
+  key: content-concise
+  parent: content-approach
+  order: 4
+  title: Be concise
 ---
 
 To keep content understandable, concise, and relevant, it should be:

@@ -6,10 +6,10 @@ sidenav: true
 sticky_sidenav: true
 tags: content-guide
 eleventyNavigation:
-  key: TODO
-  parent: content-guide
-  order: TODO
-  title: TODO
+  key: content-friendly
+  parent: content-approach
+  order: 7
+  title: Make content web-friendly
 ---
 
 One of the simplest ways to present accessible, maintainable information online is to use HTML.

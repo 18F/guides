@@ -11,10 +11,10 @@ subnav:
     href: '#archiving-and-deleting-content'
 tags: content-guide
 eleventyNavigation:
-  key: TODO
-  parent: content-guide
-  order: TODO
-  title: TODO
+  key: content-refining
+  parent: content-approach
+  order: 6
+  title: Keep refining
 ---
 
 Content design is an ongoing process, and even published content isn’t really “done,” in a traditional sense — it’s not a static entity. To ensure that your content is helping users, you need to keep refining it over time.

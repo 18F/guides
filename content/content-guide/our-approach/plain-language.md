@@ -15,10 +15,10 @@ subnav:
     href: '#additional-resources'
 tags: content-guide
 eleventyNavigation:
-  key: TODO
-  parent: content-guide
-  order: TODO
-  title: TODO
+  key: content-plain
+  parent: content-approach
+  order: 8
+  title: Use plain language
 ---
 
 U.S. government websites are for everyone. The content they contain should be as straightforward as possible.

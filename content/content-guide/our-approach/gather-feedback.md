@@ -11,10 +11,10 @@ subnav:
     href: '#how-to-receive-feedback'
 tags: content-guide
 eleventyNavigation:
-  key: TODO
-  parent: content-guide
-  order: TODO
-  title: TODO
+  key: content-feedback
+  parent: content-approach
+  order: 5
+  title: Gather feedback
 ---
 
 Giving and receiving feedback on writing is hard. Both need your time, energy, and care. That may feel daunting. But we all want our work to be strong and it only gets better with feedback.
