@@ -94,7 +94,7 @@ module.exports = function (config) {
   let markdownLibrary = markdownIt({
     html: true,
     breaks: true,
-    linkify: true,
+    linkify: false,
   }).use(markdownItAnchor, {
     permalink: headingLinks,
     slugify: config.getFilter('slug'),
