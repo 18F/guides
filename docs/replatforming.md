@@ -57,6 +57,12 @@ In the above front matter:
 - `order: 3` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
 - `title: Active voice` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
 
+
+## Ignoring assetPaths
+We want to avoid commiting the `assetPaths.json` file, but need to keep it out of the project `.gitignore` in order to allow eleventy to rebuild when it is changed. One way to resolve this issue is to add `assetPaths.json` to the git exclude list:
+1. Open up `.git/info/exclude`
+2. Add `assetPaths.json` to that file
+
 ## Content migration process
 
 The general steps for migrating a guide: 
