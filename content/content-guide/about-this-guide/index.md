@@ -3,6 +3,7 @@ title: About this guide
 permalink: /content-guide/
 layout: layouts/page
 sidenav: true
+sticky_sidenav: true
 tags: content-guide
 eleventyNavigation: 
   key: content-index

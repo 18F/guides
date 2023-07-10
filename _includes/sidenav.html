@@ -4,7 +4,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 {% endcomment %}
 
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
-  <nav>
+  <nav class="{% if sticky_sidenav %} position-sticky top-1 {% endif%} ">
     <ul class="usa-sidenav">
       {% if eleventyNavigation.parent %}
         {% assign links = collections.all | eleventyNavigation: eleventyNavigation.parent %}
