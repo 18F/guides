@@ -4,3 +4,17 @@ agile:
     url: /agile/
   - name: More 18F guides
     url: https://18f.gsa.gov/guides/
+
+engineering:
+  - name: Home
+    url: /engineering/
+  - name: About this guide
+    url: https://18f.gsa.gov/engineering/about/
+  - name: Our approach
+    url: https://18f.gsa.gov/engineering/workflow/
+  - name: Tools
+    url: https://18f.gsa.gov/engineering/integrations/
+  - name: Language & Runtimes
+    url: https://18f.gsa.gov/engineering/language-selection/
+  - name: Security
+    url: https://18f.gsa.gov/engineering/security/
