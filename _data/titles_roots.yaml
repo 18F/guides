@@ -5,6 +5,9 @@ default:
 agile: 
   title: Agile
   root: /agile/
+brand:
+  title: Brand
+  root: /brand/
 derisking: 
   title: De-risking guide
   root: /derisking/
