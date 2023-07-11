@@ -1,3 +1,7 @@
+---
+permalink: false
+eleventyExcludeFromCollections: true
+---
 # Replatforming
 This document captures the structure of the new platform for 18F approaches and outlines the process of migrating our existing content to the new platform. This document is a work in progress.
 
