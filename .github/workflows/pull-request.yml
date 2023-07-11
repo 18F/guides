@@ -44,7 +44,7 @@ jobs:
       - name: Install node dependencies
         run: npm install
       - name: Accessibility scan
-        run: npm run pa11y-ci:test
+        run: npm run test:pa11y-ci
 
 # Disabling for now. Reenable when the project is ready.
 
