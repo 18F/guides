@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: color
   parent: accessibility
-  order: 5
+  order: 6
   title: Color and contrast
 ---
 There are two main accessibility concerns for color, contrast and color dependence. Color contrast is the ratio of the foreground color(text) and the background color. Text should have a ratio of 4.5:1 or greater with the background.

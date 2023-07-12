@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: forms
   parent: accessibility
-  order: 6
+  order: 7
   title: Forms
 ---
 Making forms accessible is a simple process. Each form element should be associated with its instructions and errors, and everything should be accessible via the keyboard.

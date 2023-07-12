@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: training-videos
   parent: accessibility
-  order: 20
+  order: 22
   title: Trainings and videos
 ---
 

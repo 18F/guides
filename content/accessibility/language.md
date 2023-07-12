@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: language
   parent: accessibility
-  order: 13
+  order: 15
   title: Language
 ---
 Setting the language of your site allows assistive technology to interact with your content correctly. Assistive technology will read foreign languages, but it needs to know the main language of the page and when any content’s language differs from the default language for the page.

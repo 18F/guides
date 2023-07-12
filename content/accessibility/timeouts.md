@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: timeouts
   parent: accessibility
-  order: 12
+  order: 14
   title: Timeouts
 script: /assets/_common/js/time-outs.js
 ---

@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: page-titles
   parent: accessibility
-  order: 7
+  order: 9
   title: Page titles
 ---
 Page titles are important because they help a user navigate their browser. Most users have multiple tabs open at once. It's easier to jump between pages if each page title is unique. It's also helpful to have the unique portion first, usually the name of the page.

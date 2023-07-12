@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: css
   parent: accessibility
-  order: 15
+  order: 17
   title: CSS dependence
 ---
 Cascading style sheets ([CSS](https://www.section508.gov/content/glossary/#sectionC)) allow us to add and manage styles (e.g., fonts, colors, size, spacing) on web pages. CSS dependence refers to sites that rely on CSS to be functional or understandable. This is a concern for accessibility because most assistive technology ignores CSS. 

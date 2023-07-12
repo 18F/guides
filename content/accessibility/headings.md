@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: headings
   parent: accessibility
-  order: 8
+  order: 10
   title: Headings
 ---
 When laying out a page, headings provide a semantic way to lay out sections of content. A heading element briefly describes the topic of the section it introduces. Heading elements are used by users of AT to navigate a page quickly and to understand the structure of a page. Also see [Landmarks](../landmarks/).

@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: flashing
   parent: accessibility
-  order: 7
+  order: 8
   title: Flashing
 script: /assets/_common/js/flashing.js
 ---

@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: writing-guide
   parent: accessibility
-  order: 19
+  order: 21
   title: Writing guide
 ---
 

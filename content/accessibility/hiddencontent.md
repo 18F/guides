@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: hidden-content
   parent: accessibility
-  order: 9
+  order: 11
   title: Hidden content
 ---
 Hiding content is very useful for accessibility. We can hide things visually and only display it to screen reader users, we can hide content from screen reader users and only show it visually, or we can hide content from both. 
