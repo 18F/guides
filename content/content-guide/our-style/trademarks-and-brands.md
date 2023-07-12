@@ -6,7 +6,7 @@ sidenav: true
 sticky_sidenav: true
 subnav:
   - text: Common trademarked words
-    href: '#common-trademarked-words-with-alternative-terms'
+    href: '#common-trademarked-words-(with-alternative-terms)'
   - text: Guidelines
     href: '#guidelines'
 tags: content-guide
