@@ -1,10 +1,15 @@
 ---
-layout: layouts/page
 title: About this guide
 permalink: /product/
-sidenav: about
+layout: layouts/page
+sidenav: true
 sticky_sidenav: true
 tags: product
+eleventyNavigation:
+  key: product-about-index 
+  parent: product-about
+  order: 1
+  title: About this guide
 ---
 
 18F product managers lead cross-functional teams of researchers, designers, and engineers to help government agencies develop a product vision, craft a product strategy, and successfully deliver software using user-centered and agile approaches.
