@@ -21,3 +21,7 @@ This template is for a single page that does not have a date associated with it.
     </div>
   </div>
 </div>
+
+{% if script %}
+  <script src="{{ script | url }}"></script>
+{% endif %}
