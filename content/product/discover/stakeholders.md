@@ -1,15 +1,15 @@
 ---
-layout: layouts/page
 title: Understand your key stakeholders
 permalink: /product/discover/stakeholders/
+layout: layouts/page
 sidenav: true
 sticky_sidenav: true
 tags: product
 eleventyNavigation:
-  key: TODO
+  key: product-stakeholders
   parent: product-discover
-  order: TODO
-  title: TODO
+  order: 3
+  title: Understand your key stakeholders
 ---
 
 Many different people may have an interest in the outcome of your work or be able to affect the project’s direction or success. Determining who may be the key champions or skeptics of your work, and what their interests are, will allow you to navigate organization dynamics and build consensus.

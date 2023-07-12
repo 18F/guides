@@ -6,10 +6,10 @@ sidenav: true
 sticky_sidenav: true
 tags: product
 eleventyNavigation:
-  key: TODO
+  key: product-regulatory
   parent: product-discover
-  order: TODO
-  title: TODO
+  order: 5
+  title: Understand the regulatory landscape
 ---
 
 Laws, regulations, and policies may obligate or constrain what your partners are able to do.  You are likely to be told “that’s the way we have to do it” or “we’re not allowed to do it any other way.”  It will be important for you to understand what is truly legally required versus what is “just the way it’s always been done” so you can help your partners stay in compliance while also cutting through unnecessary layers of bureaucracy.    

@@ -1,15 +1,15 @@
 ---
-layout: layouts/page
 title: Understand the technical landscape
 permalink: /product/discover/technical/
+layout: layouts/page
 sidenav: true
 sticky_sidenav: true
 tags: product
 eleventyNavigation:
-  key: TODO
+  key: product-technical
   parent: product-discover
-  order: TODO
-  title: TODO
+  order: 4
+  title: Understand the technical landscape
 ---
 
 The partner’s technical landscape will impact how you plan for the future “to be” state.  You will want to work with your engineering lead to ensure that you have a solid understanding of your partner’s current systems and processes, and the implications for defining a path forward.  Understanding the technology they’re currently using and their interdependencies will help your team identify factors that complicate or constrain your options.  Understanding their security and privacy requirements and the processes they rely on to remain in compliance will help your team plan ahead and identify opportunities to “shift security left” to increase efficiency.  And understanding the resources and skill sets they have available will allow you, your engineer, and your acquisitions lead to consider strategies for maintenance and sustainability.  
