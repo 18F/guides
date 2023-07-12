@@ -11,3 +11,6 @@ content-guide:
 derisking: 
   title: De-risking guide
   root: /derisking/
+product: 
+  title: Product guide
+  root: /product/
