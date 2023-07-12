@@ -9,6 +9,7 @@ eleventyNavigation:
   parent: accessibility
   order: 12
   title: Timeouts
+script: /assets/_common/js/time-outs.js
 ---
 If timeouts are used, you must give the user at least 20 seconds to easily request more time.
 
