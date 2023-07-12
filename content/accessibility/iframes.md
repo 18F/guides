@@ -8,7 +8,7 @@ eleventyNavigation:
   key: iframes
   parent: accessibility
   order: 16
-  title: Inline frames (iframes)
+  title: Inline frames
 ---
 When using `iframe`s, it’s important that all content contained in them is accessible.
 

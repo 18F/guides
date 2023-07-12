@@ -7,7 +7,7 @@ tags: accessibility
 eleventyNavigation: 
   key: keyboard
   parent: accessibility
-  order: 4
+  order: 3
   title: Keyboard access
 ---
 
