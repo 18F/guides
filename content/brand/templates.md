@@ -1,7 +1,14 @@
 ---
+title: Templates
 permalink: /brand/templates/
 layout: layouts/page
-title: Templates
+sidenav: false
+tags: brand
+eleventyNavigation:
+  parent: brand
+  key: templates
+  order: 6
+  title: Templates
 ---
 ## Google Docs templates
 We have three Google Docs templates: a [basic outline](https://docs.google.com/a/gsa.gov/document/d/1lJBCZwgQzKsX5ggr7ykUaeuAUNqKsthENYCXMTA5Tbs/edit?usp=sharing), a [detailed example](https://docs.google.com/a/gsa.gov/document/d/1BovRM6thz0YWCyd32zwbh-6TYy4ON6GEc8ILDd3RLl8/edit?usp=sharing) with a table of contents, tables, typographic elements, and an appendix, and a [letterhead](https://docs.google.com/document/d/16rQOcP9XYu4qlPwrswTXKO7XBKegxejvXocxo98rW5c/edit?usp=sharing).

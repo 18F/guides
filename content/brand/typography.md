@@ -1,7 +1,15 @@
 ---
+title: Typography
 permalink: /brand/typography/
 layout: layouts/page
-title: Typography
+sidenav: false
+tags: brand
+eleventyNavigation:
+  parent: brand
+  key: typography
+  order: 4
+  title: Typography
+
 ---
 
 The primary font is **Helvetica Neue**, in bold and regular weights.

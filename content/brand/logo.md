@@ -6,7 +6,7 @@ sidenav: false
 tags: brand
 eleventyNavigation:
   parent: brand
-  key: Logo
+  key: logo
   order: 2
   title: Logo
 ---

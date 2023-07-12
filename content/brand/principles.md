@@ -1,7 +1,14 @@
 ---
+title: Visual design principles
 permalink: /brand/principles/
 layout: layouts/page
-title: Visual design principles
+sidenav: false
+tags: brand
+eleventyNavigation:
+  parent: brand
+  key: visual-design-principles
+  order: 8
+  title: Visual design principles
 ---
 
 These visual design principles provide guidance for applying and extending the 18F identity into other communication assets. They serve as a framework for evaluating potential design solutions against our core values and priorities.

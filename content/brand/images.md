@@ -1,7 +1,14 @@
 ---
+title: Images
 permalink: /brand/images/
 layout: layouts/page
-title: Images
+sidenav: false
+tags: brand
+eleventyNavigation:
+  parent: brand
+  key: images
+  order: 7
+  title: Images
 ---
 ## Virtual backgrounds
 A collection of images containing the 18F logo that can be used as virtual backgrounds for video calls.

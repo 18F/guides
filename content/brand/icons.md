@@ -1,7 +1,15 @@
 ---
+title: Icons
 permalink: /brand/icons/
 layout: layouts/page
-title: Icons
+sidenav: false
+tags: brand
+eleventyNavigation:
+  parent: brand
+  key: icons
+  order: 5
+  title: Icons
+
 ---
 
 18F uses a customized version of [Feather Icons](https://feathericons.com/) for its iconography. Feather Icons is [licensed under an MIT License](https://github.com/feathericons/feather/blob/master/LICENSE), with copyright belonging to Cole Bemis.
