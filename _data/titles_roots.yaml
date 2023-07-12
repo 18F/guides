@@ -2,6 +2,9 @@
 default: 
   title: 18F Approaches
   root: /
+accessibility: 
+  title: Accessibility
+  root: /accessibility/
 agile: 
   title: Agile
   root: /agile/
