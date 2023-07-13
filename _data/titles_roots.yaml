@@ -2,12 +2,15 @@
 default: 
   title: 18F Approaches
   root: /
-agile: 
-  title: Agile
-  root: /agile/
 accessibility: 
   title: Accessibility
   root: /accessibility/
+agile: 
+  title: Agile
+  root: /agile/
+content-guide: 
+  title: Content Guide
+  root: /content-guide/
 derisking: 
-  title: De-risking guide
+  title: De-risking Guide
   root: /derisking/

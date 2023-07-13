@@ -1,9 +1,4 @@
 # The primary navigation for each guide
-agile:
-  - name: Home
-    url: /agile/
-  - name: More 18F guides
-    url: https://18f.gsa.gov/guides/
 accessibility:
   - name: Home
     url: /accessibility/
@@ -11,3 +6,17 @@ accessibility:
     url: /accessibility/gov-resources
   - name: More 18F guides
     url: https://18f.gsa.gov/guides/
+
+agile:
+  - name: Home
+    url: /agile/
+  - name: More 18F guides
+    url: https://18f.gsa.gov/guides/
+
+content-guide:
+  - name: About this guide
+    url: /content-guide/
+  - name: Our approach
+    url: /content-guide/our-approach/
+  - name: Our style
+    url: /content-guide/our-style/
