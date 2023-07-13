@@ -20,9 +20,13 @@ manage your navigation system {% endcomment %}
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in primary_navigation %}
           {% unless nav_item.children %}
-        {% assign basedir = page.url | remove_first: '/' | split: '/' | first |
-        lstrip %} {% assign linkdir = nav_item.url | replace: "/", "" | lstrip
-        %}
+          {% if tags %}
+            {% assign basedir = page.url | remove: titles_roots[tags].root | split: '/' | first | lstrip %} 
+            {% assign linkdir = nav_item.url | remove: titles_roots[tags].root | replace: '/', '' | lstrip %}
+          {% else %}
+            {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %} 
+            {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
+          {% endif %}
         <li class="usa-nav__primary-item">
           <a
             class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
@@ -52,6 +56,7 @@ manage your navigation system {% endcomment %}
         {% endunless %} {% endfor %}
       </ul>
       <div class="usa-nav__secondary">
+        {% if secondary_navigation %}
         <ul class="usa-nav__secondary-links">
           {% for nav_item in secondary_navigation %}
           <li class="usa-nav__secondary-item">
@@ -61,6 +66,7 @@ manage your navigation system {% endcomment %}
           </li>
           {% endfor %}
         </ul>
+        {% endif %}
         {% include "searchgov/form.html" searchgov: site.searchgov %}
       </div>
     </div>
