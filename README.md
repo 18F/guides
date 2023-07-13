@@ -23,6 +23,17 @@ To run the site locally:
    ```
 4. Open http://localhost:8080
 
+### Accessiblity Scanning
+We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of 
+our CI setup (see .github/workflows/pull-request.yml) on every pull request, but it can 
+also be run locally. To run locally, type:
+
+```
+npm run test:pa11y-ci
+```
+
+Note that running `pa11y-ci` inside the docker container may not always work.
+
 ## Contributing
 
 If you are interested in contributing to this repository, you can read more at
@@ -31,7 +42,7 @@ If you are interested in contributing to this repository, you can read more at
 ## Replatforming 
 Documentation on the replatforming effort can be found in [/docs/replatforming.md](/docs/replatforming.md)
 
-### Public domain
+## Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in
 [CONTRIBUTING](https://handbook.tts.gsa.gov/contributing/):
