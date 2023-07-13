@@ -1,0 +1,18 @@
+@use 'uswds-core' as * ;
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: color('green-cool-60v');
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: color('primary');
+}
+
+
