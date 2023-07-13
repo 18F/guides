@@ -24,9 +24,9 @@ To run the site locally:
 4. Open http://localhost:8080
 
 ### Accessiblity Scanning
-We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of 
-our CI setup (see .github/workflows/pull-request.yml) on every pull request, but it can 
-also be run locally. To run locally, type:
+We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
+our CI setup (see the [pull-request.yml workflow](.github/workflows/pull-request.yml))
+on every pull request, but it can also be run locally. To run locally, type:
 
 ```
 npm run test:pa11y-ci
