@@ -1,5 +1,7 @@
 @use 'uswds-core' as * ;
 
+// Overrides to the default Prism theme to provide better color contrast
+
 .token.selector,
 .token.attr-name,
 .token.string,
@@ -15,4 +17,6 @@
   color: color('primary');
 }
 
-
+.token.punctuation {
+  color: color('base-dark');
+}
