@@ -5,6 +5,9 @@ default:
 agile: 
   title: Agile
   root: /agile/
+accessibility: 
+  title: Accessibility
+  root: /accessibility/
 derisking: 
   title: De-risking guide
   root: /derisking/
