@@ -71,6 +71,7 @@ When you’re looking at a particular page, think about the best way to meet use
 
 If you genuinely need to delete something, give users a path to find what they need. This could include:
 
+* URL redirects
 * Ceding ownership of the content to another organization who can maintain it
 * Keeping content around and adding context that it is depreciated or no longer maintained
 * Making the content available elsewhere with an archiving service like the National Archives and Records Administration’s [Government Web Harvests](https://www.webharvest.gov/) or the [Internet Archive](https://archive.org/)
