@@ -20,3 +20,8 @@
 .token.punctuation {
   color: color('base-dark');
 }
+
+.token.function,
+.token.class-name {
+  color: color('indigo-warm-60v');
+}
