@@ -66,7 +66,7 @@ Making forms accessible is a simple process. Each form element should be associa
 
 ### Fails
 
-<fieldset class="exampleFailure">
+<fieldset class="exampleFailure" data-pa11y-ignore>
   <legend>Name</legend>
   <label for="first_name-2">First</label>
   <input type='text' id='firstname-2'>

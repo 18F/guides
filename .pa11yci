@@ -3,6 +3,6 @@
     "concurrency": 1,
       "standard": "WCAG2AA",
       "runners": ["htmlcs"],
-      "hideElements": ".is-hidden, div[style*='display: none;']"
+      "hideElements": ".is-hidden, div[style*='display: none;'], [data-pa11y-ignore]"
   }
 }
