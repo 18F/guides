@@ -26,7 +26,7 @@ If timeouts are used, you must give the user at least 20 seconds to easily reque
 
 Fill out this form
 
-<form id='pForm'>
+<form id='pForm' data-pa11y-ignore>
 <label for='t1'>Field 1</label>&nbsp;<input type='text' id='t1'><br>
 <label for='t2'>Field 2</label>&nbsp;<input type='text' id='t2'><br>
 <label for='t3'>Field 3</label>&nbsp;<input type='text' id='t3'><br>
