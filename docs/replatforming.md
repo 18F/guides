@@ -79,4 +79,21 @@ The general steps for migrating a guide:
     ```
 6. Celebrate! Or edit this documentation to update any steps that may be missing.
 
+## Running pa11y
+We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
+our CI setup (see the [pull-request.yml workflow](.github/workflows/pull-request.yml))
+on every pull request, but it can also be run locally. To run locally, type:
 
+```
+npm run test:pa11y-ci
+```
+
+Note that running `pa11y-ci` inside the docker container may not always work.
+
+In cases where you want pa11y to ignore a certain element, such as in the accessibility guide which intentionally shows examples of accessibility issues, you can add the data attribute `data-pa11y-ignore` to the element that should be ignored.
+
+_Example:_
+
+```
+<span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails. </span>
+```
