@@ -1,9 +1,11 @@
 @use 'uswds-core' as * ;
 
+// Set heading colors
 h1, h2, h3, h4, h5, h6 {
   color: color('primary-darker');
 }
 
+// Anchor link icon styling
 .heading-permalink {
   opacity: 0.4;
 
@@ -22,3 +24,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+// usa-prose overrides
+.usa-prose {
+  blockquote {
+    max-width: measure(2);
+  }
+
+  code {
+    word-wrap: break-word;
+  }
+
+  h2 {
+    margin-top: units(5);
+  }
+
+  li p {
+    margin-bottom: 0;
+  }
+}
