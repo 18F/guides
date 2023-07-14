@@ -2,6 +2,10 @@
 
 // Overrides to the default Prism theme to provide better color contrast
 
+pre[class*="language-"] {
+  @include u-radius('md');
+}
+
 .token.selector,
 .token.attr-name,
 .token.string,
@@ -24,4 +28,12 @@
 .token.function,
 .token.class-name {
   color: color('indigo-warm-60v');
+}
+
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: color('base-darker');
 }
