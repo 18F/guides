@@ -101,6 +101,8 @@ Note that running `pa11y-ci` inside the docker container may not always work.
 
 In cases where you want pa11y to ignore a certain element, such as in the accessibility guide which intentionally shows examples of accessibility issues, you can add the data attribute `data-pa11y-ignore` to the element that should be ignored.
 
+In certain cases we may need `pa11y-ci` to ignore an element. For example, in the accessibility guide there are elements that violate a11y rules on purpose. We know those will fail and don't want to fix them because they are showing an example of a bad practice, and so we want `pa11y-ci` to ignore them. To do so we can the data attribute `data-pa11y-ignore` to the element that should be ignored.
+
 _Example:_
 
 ```
