@@ -43,6 +43,8 @@ jobs:
           node-version: '17.x'
       - name: Install node dependencies
         run: npm install
+      - name: Refresh assets?
+        run:  npm run assets:refresh
       - name: Accessibility scan
         run: npm run test:pa11y-ci
 
