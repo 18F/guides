@@ -1,7 +1,14 @@
 ---
 title: 'DATA Act Pilot: Simplicity is Key'
-sidenav: approach
-sticky_sidenav: true
+sidenav: true
+permalink: /engineering/data-act-pilot/
+tags: engineering
+layout: layouts/page
+eleventyNavigation: 
+  parent: engineering_approach
+  key: 'DATA Act Pilot: Simplicity is Key'
+  order: 6
+  title: 'DATA Act Pilot: Simplicity is Key'
 ---
 
 ## TL;DR

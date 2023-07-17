@@ -1,7 +1,14 @@
 ---
 title: 'Micro-purchase: Do one thing well'
-sidenav: approach
-sticky_sidenav: true
+sidenav:  true
+permalink: /engineering/micro-purchase/
+tags: engineering
+layout: layouts/page
+eleventyNavigation: 
+  parent: engineering_approach
+  key: 'Micro-purchase: Do one thing well'
+  order: 6
+  title:  'Micro-purchase: Do one thing well'
 ---
 
 ## TL;DR
