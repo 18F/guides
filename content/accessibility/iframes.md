@@ -23,7 +23,7 @@ When using `iframe`s, it’s important that all content contained in them is acc
 
 ### Failures
 
-<iframe src="../iframeform/" class="exampleFailure"></iframe>
+<iframe src="../iframeform/" class="exampleFailure" data-pa11y-ignore></iframe>
 
 ```html
 <iframe src="../iframeform/"></iframe>
@@ -31,7 +31,7 @@ When using `iframe`s, it’s important that all content contained in them is acc
 
 > This `iframe` doesn’t have a `title` or `name`.
 
-<iframe src="../iframeform/" name='Provide an address form' class="exampleFailure"></iframe>
+<iframe src="../iframeform/" name='Provide an address form' class="exampleFailure" data-pa11y-ignore></iframe>
 
 ```html
 <iframe src="../iframeform/" name='Provide an address form'></iframe>
