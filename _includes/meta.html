@@ -1,13 +1,13 @@
-{% comment %}
+{% comment -%}
 You shouldn't have to edit this page very often. But if you want
 to modify some of the meta-data for the site, this is the place to do it.
 {% endcomment %}
 
-{% if tags %} 
-  {% assign guide = tags %}
-{% else %}
-  {% assign guide = 'default' %}
-{% endif %}
+{%- if tags -%} 
+  {%- assign guide = tags -%}
+{%- else -%}
+  {%- assign guide = 'default' -%}
+{%- endif -%}
 
 <head>
   <!-- Basic Page Needs
