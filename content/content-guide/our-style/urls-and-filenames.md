@@ -7,6 +7,8 @@ sticky_sidenav: true
 subnav:
   - text: Creating URLs
     href: '#creating-urls'
+  - text: Maintaining URLs 
+    href: '#maintaining-urls'
   - text: Creating filenames
     href: '#creating-filenames'
   - text: Presenting URLs and filenames in text

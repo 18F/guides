@@ -1,6 +1,6 @@
 ---
 title: License
-permalink: /content-guide/license
+permalink: /content-guide/license/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

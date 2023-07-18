@@ -57,7 +57,7 @@ Before you archive or delete anything, review your site analytics to understand 
 * User bookmarks
 * Links from external sites
 
-Each of these can be addressed by ensuring you have [redirects from the old URLs]({{ "content-types/urls-and-filenames/#maintaining-urls" | url }}) to the latest content.
+Each of these can be addressed by ensuring you have [redirects from the old URLs]({{ "../../our-style/urls-and-filenames/#maintaining-urls" | url }}) to the latest content.
 
 When you’re looking at a particular page, think about the best way to meet user needs:
 
@@ -71,7 +71,7 @@ When you’re looking at a particular page, think about the best way to meet use
 
 If you genuinely need to delete something, give users a path to find what they need. This could include:
 
-* [URL redirects]({{ "content-types/urls-and-filenames/#maintaining-urls" | url }})
+* URL redirects
 * Ceding ownership of the content to another organization who can maintain it
 * Keeping content around and adding context that it is depreciated or no longer maintained
 * Making the content available elsewhere with an archiving service like the National Archives and Records Administration’s [Government Web Harvests](https://www.webharvest.gov/) or the [Internet Archive](https://archive.org/)

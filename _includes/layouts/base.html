@@ -27,7 +27,17 @@ The home page uses wide.html layout, since it extends full width of page
   {% comment %} Hide SVG Sprites {% endcomment %}
   <div style="display: none;">
     {% usa_icons_sprite %}
-    {% uswds_icons_sprite %}
+
+    {% comment %}
+
+    TODO: Remove once this set of icons once we've determined the usa_icons
+    above is enough. Currently, keeping both adds two sets of SVGs with duplicate IDs,
+    which is flagged as by pa11y as an accessibility error.
+
+      {% uswds_icons_sprite %}
+
+    {% endcomment %}
+
   </div>
 
   {% include "scripts.html" %}
