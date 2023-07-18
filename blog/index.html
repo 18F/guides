@@ -20,10 +20,12 @@ pagination:
   <div class="grid-row">
     <div class="desktop:grid-col-8 usa-prose padding-right-4">
       <!-- This loops through the paginated posts -->
+      <ul>
       {%- for post in posts %}
         {% include "collection-item.html" post: post %}
       {% endfor %}
       {% include "pagination-links.html" %}
+      </ul>
     </div>
     <article aria-label="Other site posts and related links" class="desktop:grid-col-fill margin-top-4 padding-right-4">
       <div
