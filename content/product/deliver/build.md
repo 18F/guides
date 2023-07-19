@@ -1,6 +1,6 @@
 ---
 title: Build the product
-permalink: deliver/build/
+permalink: /product/deliver/build/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true
