@@ -74,7 +74,6 @@ We want to avoid commiting the `assetPaths.json` file, but need to keep it out o
 The general steps for migrating a guide: 
 1. Add the guide to the `_data/titles_roots.yaml` file with the guide’s tag, name, and root (See [Guide titles and subdirectories](#guide-titles-and-subdirectories) for an example).
 2. Add the primary navigation for the guide to `_data/navigation.yaml`.
-3. Create a mock markdown file to establish the `eleventyNavigation` either for the guide or for the guide section. Each section that has a sidenav will need to have a mock file. (See [Sidenavs](#sidenavs) for more details).
 4. Copy over the markdown file for the guide into the appropriate subfolder.
 5. Open up the markdown file to edit the front matter:
     1. Change the layout to `layout/page` or whatever layout is most appropriate.
