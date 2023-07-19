@@ -3,6 +3,7 @@ title: Modern Software Product Development
 permalink: /agile/modern-software-product-development/
 layout: layouts/page
 sidenav: true
+sticky_sidenav: true
 tags: agile
 eleventyNavigation: 
   key: modern

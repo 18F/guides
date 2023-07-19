@@ -3,6 +3,7 @@ title: Agile fundamentals
 permalink: /agile/agile-fundamentals/
 layout: layouts/page
 sidenav: true
+sticky_sidenav: true
 tags: agile
 eleventyNavigation: 
   key: fundamentals

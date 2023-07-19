@@ -9,12 +9,12 @@ engineering:
   - name: Home
     url: /engineering/
   - name: About this guide
-    url: https://18f.gsa.gov/engineering/about/
+    url: /engineering/about/
   - name: Our approach
-    url: https://18f.gsa.gov/engineering/workflow/
+    url: /engineering/our-approach/
   - name: Tools
-    url: https://18f.gsa.gov/engineering/integrations/
+    url: /engineering/tools/
   - name: Language & Runtimes
-    url: https://18f.gsa.gov/engineering/language-selection/
+    url: /engineering/languages-runtimes/
   - name: Security
-    url: https://18f.gsa.gov/engineering/security/
+    url: /engineering/security/

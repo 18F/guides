@@ -1,7 +1,8 @@
 ---
 title: Output Encoding
 sidenav: true
-permalink: /engineering/output-encoding/
+sticky_sidenav: true
+permalink: /engineering/security/output-encoding/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

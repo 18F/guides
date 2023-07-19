@@ -1,6 +1,8 @@
 ---
 title: Incident Response Drills
-permalink: /engineering/incident-response-drills/
+sidenav: true
+sticky_sidenav: true
+permalink: /engineering/security/incident-response-drills/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

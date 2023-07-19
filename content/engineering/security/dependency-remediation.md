@@ -1,7 +1,8 @@
 ---
 title: Remediating vulnerable dependencies
 sidenav: true
-permalink: /engineering/dependency-remediation/
+sticky_sidenav: true
+permalink: /engineering/security/dependency-remediation/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

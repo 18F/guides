@@ -1,7 +1,8 @@
 ---
 title: Content Security Policy
 sidenav: true
-permalink: /engineering/content-security-policy/
+sticky_sidenav: true
+permalink: /engineering/security/content-security-policy/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

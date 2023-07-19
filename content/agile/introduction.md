@@ -3,6 +3,7 @@ title: Introduction
 permalink: /agile/
 layout: layouts/page
 sidenav: true
+sticky_sidenav: true
 tags: agile
 eleventyNavigation: 
   parent: agile

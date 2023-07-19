@@ -2,7 +2,7 @@
 title: Guidelines and Best Practices
 permalink: /engineering/
 layout: layouts/page
-sidenav: true
+sidenav: false
 tags: engineering
 eleventyNavigation: 
   parent: engineering
