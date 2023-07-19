@@ -3,7 +3,6 @@ title: Agile is something you are, not something you do
 permalink: /agile-is-something-you-are/
 layout: layouts/page
 sidenav: true
-sticky_sidenav: true
 tags: agile
 eleventyNavigation: 
   key: Something

@@ -3,7 +3,6 @@ title:  Agile lexicon
 permalink: /agile-lexicon/
 layout: layouts/page
 sidenav: true
-sticky_sidenav: true
 tags: agile
 eleventyNavigation: 
   key: lexicon

@@ -3,7 +3,6 @@ title: 18F Agile based project approach
 permalink: /agile/18f-agile-approach/
 layout: layouts/page
 sidenav: true
-sticky_sidenav: true
 tags: agile
 eleventyNavigation: 
   key: approach

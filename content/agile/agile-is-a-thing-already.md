@@ -3,7 +3,6 @@ title: Agile is a thing already
 permalink: /agile/agile-is-a-thing-already/
 layout: layouts/page
 sidenav: true
-sticky_sidenav: true
 tags: agile
 eleventyNavigation: 
   key: already
