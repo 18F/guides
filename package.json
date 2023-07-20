@@ -22,8 +22,8 @@
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:links": "npm run check-html-links _site --validate-externals",
-    "test:internal-links": "npm run check-html-links _site",
+    "test:links": "npx check-html-links _site --validate-externals",
+    "test:links-internal": "npx check-html-links _site",
     "test:html-validation": "html-validate _site/**/*.html",
     "test:pa11y-ci": "npx start-server-and-test start 8080 pa11y-ci:sitemap"
   },
@@ -36,6 +36,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "autoprefixer": "^10.4.14",
+    "check-html-links": "^0.2.4",
     "chokidar-cli": "^3.0.0",
     "eleventy-plugin-svg-sprite": "^1.3.1",
     "esbuild": "^0.18.11",
