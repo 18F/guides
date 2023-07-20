@@ -78,7 +78,7 @@ jobs:
       - name: Install node dependencies
         run: npm install
       - name: Test all links
-        run: ! npm run test:links 2>&1 | tee /dev/stderr | grep ❌ ; echo $?
+        run: npm run test:links
 #
 # Disabling for now. Reenable when the project is ready.
 
