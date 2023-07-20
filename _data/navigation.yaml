@@ -20,3 +20,19 @@ content-guide:
     url: /content-guide/our-approach/
   - name: Our style
     url: /content-guide/our-style/
+
+eng-hiring:
+  - name: Overview
+    url: /eng-hiring/
+  - name: 1. Resume review
+    url: /eng-hiring/resume-review/
+  - name: 2. Phone screen
+    url: /eng-hiring/phone-screens/
+  - name: 3. Technical pre-work
+    url: /eng-hiring/pre-work/
+  - name: 4. Interviews
+    url: /eng-hiring/interviews/
+  - name: 5. Debrief
+    url: /eng-hiring/debrief/
+  - name: 6. Final selection
+    url: /eng-hiring/selection/

@@ -14,3 +14,6 @@ content-guide:
 derisking: 
   title: De-risking Guide
   root: /derisking/
+eng-hiring:
+  title: Engineering Hiring Guide
+  root: /eng-hiring/
