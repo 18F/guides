@@ -24,9 +24,13 @@ module.exports = function (config) {
 
   // Specific scripts to guides
   config.addPassthroughCopy("./assets/_common/js/*");
-  //
+
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
   config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
+
+  // Download folders
+  // TODO: Is this the right way to configure it?
+  config.addPassthroughCopy("./assets/**/dist/*");
 
   // Add plugins
   config.addPlugin(pluginRss);
