@@ -25,10 +25,10 @@ product:
   - name: About this guide
     url: /product/
   - name: Discover the current state
-    url: /product/discover
+    url: /product/discover/
   - name: Define the future state
-    url: /product/define
+    url: /product/define/
   - name: Deliver the “right way”
-    url: /product/deliver
+    url: /product/deliver/
   - name: Enable partners
     url: /product/partners/
