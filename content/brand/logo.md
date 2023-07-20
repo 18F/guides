@@ -13,11 +13,9 @@ eleventyNavigation:
 
 Logo variations (PNG, SVG)
 
-site: {{ site.baseur l}}
+{% image_with_class "assets/brand/img/18F-Logo-M.png" ".display-logo" "" %}
 
-![]({{ site.baseurl }}/assets/img/18F-Logo-M.png){:.display-logo}
-
-[Download logo]({{ site.baseurl }}/assets/dist/18F_Logo.zip){:.usa-button }
+[Download logo]({{"/brand/assets/dist/18F_Logo.zip"}}){:.usa-button }
 
 ## Guidelines
 

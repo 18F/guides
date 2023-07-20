@@ -23,10 +23,10 @@ Most of the icons retain the base styling of Feather icons. The 18F version incl
 * Minimum of 2px between elements.
 
 ## Get the icons
-You can access a set of common icons in the [18F Google Slides template]({{ site.baseurl }}/templates/) (only available to GSA staff), or [download the full set]({{ site.baseurl }}/assets/dist/18F_feather.zip).
+You can access a set of common icons in the [18F Google Slides template]({{ "/brand/templates/" | url }}) (only available to GSA staff), or [download the full set]({{ "/brand/assets/dist/18F_feather.zip" | url }}).
 
 The download includes:
-* Searchable PDF sticker sheets of [all 300+ icons]({{ site.baseurl }}/assets/img/18F-Feather-Icons--all.pdf) and [top requested icons]({{ site.baseurl }}/assets/img/18F-Feather-Icons--top-hits.pdf). Icons with a "--c" name are customized.
+* Searchable PDF sticker sheets of [all 300+ icons]({{ "/brand/assets/img/18F-Feather-Icons--all.pdf" | url }}) and [top requested icons]({{ "/brand/assets/img/18F-Feather-Icons--top-hits.pdf" | url }}). Icons with a "--c" name are customized.
 * SVG and PNG exports of all icons, by color.
 * A sketch file of all icons for designers.
 
@@ -34,5 +34,5 @@ The download includes:
 In order to offer more diverse and expressive ways to represent humans, we created a custom set of 18F Avataaars based on [the work of Pablo Stanley](https://getavataaars.com/). These are great stand-ins for showing emotion and to represent anonymous user groups.
 
 These are available to GSA staff in two formats:
-* Via the [starter deck](https://docs.google.com/presentation/d/1CXXvxBbVjO3LjIUwRYEbk8WHpsG0AJdUc6SI_jAZDNQ/edit#slide=id.g5fdac3c814_0_209), which includes 10 characters and a range of emotions as well as guidance on different ways to represent humans. You can also get to this starter from the [18F Google Slides template]({{ site.baseurl }}/templates/).
+* Via the [starter deck](https://docs.google.com/presentation/d/1CXXvxBbVjO3LjIUwRYEbk8WHpsG0AJdUc6SI_jAZDNQ/edit#slide=id.g5fdac3c814_0_209), which includes 10 characters and a range of emotions as well as guidance on different ways to represent humans. You can also get to this starter from the [18F Google Slides template]({{ "/brand/templates/" | url }}).
 * Via the [full sketch library](https://drive.google.com/drive/folders/1MFGWlJ6Z1ZzIVXK0h0Xh8RsUiBZzYdbg) for designers.
