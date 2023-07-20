@@ -78,7 +78,7 @@ jobs:
       - name: Install node dependencies
         run: npm install
       - name: Test all links
-        run: npx run test:links
+        run: npx test:links
 #
 # Disabling for now. Reenable when the project is ready.
 
