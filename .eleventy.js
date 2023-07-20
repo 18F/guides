@@ -3,6 +3,7 @@ const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
 const { headingLinks } = require("./config/headingLinks");
 const yaml = require("js-yaml");
@@ -50,6 +51,55 @@ module.exports = function (config) {
 
   // Allow yaml to be used in the _data dir
   config.addDataExtension("yaml", contents => yaml.load(contents));
+
+  config.addFilter('contrastRatio', function(color1, color2) {
+    return contrastRatio(color1, color2);
+  });
+
+  // TODO: Where can we organize these functions so they're not in the main eleventy.js file?
+  function contrastRatio(hex1, hex2) {
+    lum1 = luminance(hex1)
+    lum2 = luminance(hex2)
+    if (lum1 >= lum2) {
+      lighter = lum1;
+      darker = lum2;
+    } else {
+      darker = lum1;
+      lighter = lum2;
+    }
+    return (lighter + 0.05) / (darker + 0.05)
+  }
+
+  function luminance(hex) {
+    const [r8, g8, b8] = hexToRgb(hex)
+    const [r, g, b] = [r8, g8, b8].map((component) => {
+      const value = component / 255;
+      return value <= 0.03928 ? value / 12.92 : Math.pow((value + 0.055) / 1.055, 2.4);
+    });
+    return r * 0.2126 + g * 0.7152 + b * 0.0722;
+  };
+
+  function hexToRgb(hex) {
+    hex = hex.slice(1);
+    const value = parseInt(hex, 16);
+    const r = (value >> 16) & 255;
+    const g = (value >> 8) & 255;
+    const b = value & 255;
+
+    return [r, g, b];
+  };
+
+  config.addFilter('humanReadableContrastRatio', function(ratio) {
+    // SMELL: I can't stand how this is coded.
+    if (ratio < 4) {
+      digits = 1
+    } else if (ratio < 5) {
+      digits = 2
+    } else {
+      digits = 0
+    }
+    `${ratio.toFixed(digits)}:1`
+  });
 
   config.addFilter('readableDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
@@ -105,7 +155,7 @@ module.exports = function (config) {
   }).use(markdownItAnchor, {
     permalink: headingLinks,
     slugify: config.getFilter('slug'),
-  });
+  }).use(markdownItAttrs);
   config.setLibrary('md', markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)

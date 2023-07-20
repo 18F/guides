@@ -65,7 +65,7 @@ We want to avoid commiting the `assetPaths.json` file, but need to keep it out o
 
 ## Content migration process
 
-The general steps for migrating a guide: 
+The general steps for migrating a guide:
 1. Add the guide to the `_data/titles_roots.yaml` file with the guide’s tag, name, and root (See [Guide titles and subdirectories](#guide-titles-and-subdirectories) for an example).
 2. Add the primary navigation for the guide to `_data/navigation.yaml`.
 3. Create a mock markdown file to establish the `eleventyNavigation` either for the guide or for the guide section. Each section that has a sidenav will need to have a mock file. (See [Sidenavs](#sidenavs) for more details).
@@ -74,9 +74,9 @@ The general steps for migrating a guide:
     1. Change the layout to `layout/page` or whatever layout is most appropriate.
     2. Add `tags: <collection-name>` where <collection-name> is the guide’s tag.
     2. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<page-name>`. Try to match the permalink of the original markdown file.
-    3. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) : 
+    3. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) :
     ```
-    eleventyNavigation: 
+    eleventyNavigation:
       parent: <collection-name>
       key: <unique-key>
       order: <#>
@@ -84,4 +84,13 @@ The general steps for migrating a guide:
     ```
 6. Celebrate! Or edit this documentation to update any steps that may be missing.
 
+## Adding new node modules
 
+It may turn out that you need to install an npm package to replicate functionality in the old guides. Here's how to do it!
+
+First, before your write any code or configuration that relies on the package, install the package via Docker Compose while the services are running:
+
+```sh
+$ docker compose up # If you haven't already
+$ docker compose exec guides npm install {your options here}
+```

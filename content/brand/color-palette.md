@@ -9,14 +9,29 @@ eleventyNavigation:
   key: color-palette
   order: 3
   title: Color palette
+
+palette:
+  - name: white
+    hex: 'FFFFFF'
+  - name: light
+    hex: 'B3EFFF'
+  - name: bright
+    hex: '00CFFF'
+  - name: medium
+    hex: '046B99'
+  - name: dark
+    hex: '1C304A'
+  - name: black
+    hex: '000000'
+
 ---
 
 For Adobe, Sketch, and Mac applications
 
-[Download color palettes]({{ site.baseurl }}/assets/dist/18F_Color_Palette.zip){:.usa-button }
+[Download color palettes]({{ "/brand/assets/dist/18F_Color_Palette.zip" | url }}){:.usa-button}
 
 <div class="usa-grid-full usa-color-row usa-primary-color-section">
-  {% for color in site.data.palette %}
+  {% for color in palette %}
   <div class="grid-gap-lg usa-color-square usa-color-{{ color.name }} {% cycle '', 'usa-mobile-end-row' %}">
     <div class="usa-color-inner-content">
       <p class="usa-color-name">{{ color.name }}</p>
