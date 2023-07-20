@@ -75,7 +75,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npx run test:links
+      - name: Install node dependencies
+        run: npm install
+      - name: Test all links
+        run: npx run test:links
 #
 # Disabling for now. Reenable when the project is ready.
 
