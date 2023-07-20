@@ -20,3 +20,15 @@ content-guide:
     url: /content-guide/our-approach/
   - name: Our style
     url: /content-guide/our-style/
+
+product:
+  - name: About this guide
+    url: /product/
+  - name: Discover the current state
+    url: /product/discover/
+  - name: Define the future state
+    url: /product/define/
+  - name: Deliver the “right way”
+    url: /product/deliver/
+  - name: Enable partners
+    url: /product/partners/
