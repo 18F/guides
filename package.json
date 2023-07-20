@@ -22,6 +22,8 @@
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test:links": "npx check-html-links _site --validate-externals",
+    "test:internal-links": "npx check-html-links _site",
     "test:html-validation": "html-validate _site/**/*.html",
     "test:pa11y-ci": "npx start-server-and-test start 8080 pa11y-ci:sitemap"
   },
