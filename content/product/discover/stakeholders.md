@@ -46,9 +46,9 @@ Sometimes your partner will have a good understanding of who these stakeholders 
 
 - Draw on what you’ve learned from your stakeholders to refine your initial stakeholder map.
 
-- Work with your partner to create a stakeholder engagement plan that tailors the content and frequency of your [communications]({{site.baseurl}}/deliver/collaborate) to their needs and interests.
+- Work with your partner to create a stakeholder engagement plan that tailors the content and frequency of your [communications]({{ '../../deliver/collaborate/' | url }}) to their needs and interests.
 
-- Incorporate your stakeholders’ needs and interests when defining the [future state]({{site.baseurl}}/define/).
+- Incorporate your stakeholders’ needs and interests when defining the [future state]({{ '../../define/' | url }}).
 
 ## Resources
 

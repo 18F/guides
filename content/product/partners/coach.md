@@ -46,7 +46,7 @@ Because product management practices are new to government, one of your most imp
 
 ## Incorporation: What to do next
 
-- Develop a plan to fully [transition]({{site.baseurl}}/partners/transition/) your partner to take over the product when 18F leaves.
+- Develop a plan to fully [transition]({{ '../transition/' | url }}) your partner to take over the product when 18F leaves.
 
 ## Resources
 

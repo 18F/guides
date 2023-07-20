@@ -25,7 +25,7 @@ Partners will need to handle the entire gamut of activities associated with prod
 
 - The partner has a long-term staffing strategy to appropriately support and staff the product when the 18F team leaves, either with people internal to the partner organization or with contractors/vendors.
 
-- If the partner is [working with a vendor]({{site.baseurl}}/partners/vendor/), they have established trust between the parties and good working practices to oversee and manage the vendor’s work.
+- If the partner is [working with a vendor]({{ '../vendor/' | url }}), they have established trust between the parties and good working practices to oversee and manage the vendor’s work.
 
 ## Activities: How to get there
 

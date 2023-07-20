@@ -50,4 +50,4 @@ When building and shipping, it’s important to balance the input coming from th
 
 - Proactively look for signs of team or stakeholder misalignment and work to remedy the situation.
 
-- [Coach the partner]({{site.baseurl}}/partners/coach/) to gradually take over more team management and communication responsibilities.
+- [Coach the partner]({{ '../../partners/coach/' | url }}) to gradually take over more team management and communication responsibilities.

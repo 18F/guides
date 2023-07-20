@@ -49,7 +49,7 @@ Technical discovery will typically be led by engineering, but product managers s
 
 - If gaps in knowledge or confidence exist, timebox a quick prototype (ideally with a real use case or data) to further assess technical feasibility.
 
-- Draw on your research to develop a technical roadmap that will help your partner reach their desired [future state]({{site.baseurl}}/define/).
+- Draw on your research to develop a technical roadmap that will help your partner reach their desired [future state]({{ '../../define/' | url }}).
 
 ## Resources
 

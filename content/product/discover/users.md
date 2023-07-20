@@ -60,7 +60,7 @@ Your partners likely have an incomplete view of the current state or what their 
 
 - Translate your findings into preliminary recommendations or decision points around the problems and use cases to support.
 
-- Draw on your research to help your partner articulate a concise problem statement, create an inspirational vision, and develop a strategy for achieving their desired [future state]({{site.baseurl}}/define/).
+- Draw on your research to help your partner articulate a concise problem statement, create an inspirational vision, and develop a strategy for achieving their desired [future state]({{ '../../define/' | url }}).
 
 ## Resources
 

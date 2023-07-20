@@ -42,7 +42,7 @@ You will be working on distributed teams comprised of designers, engineers, rese
 
 - Remove blockers that arise for your team so that work doesn’t stall.
 
-- Develop a go-live strategy that includes a QA testing plan, dependency tracker, technical readiness (e.g. DNS configuration changes, load testing, disaster recovery planning if the change needs to be reverted), as well as clear success [metrics]({{site.baseurl}}/deliver/measure/) to validate whether the changes deployed are meeting user needs.
+- Develop a go-live strategy that includes a QA testing plan, dependency tracker, technical readiness (e.g. DNS configuration changes, load testing, disaster recovery planning if the change needs to be reverted), as well as clear success [metrics]({{ '../measure/' | url }}) to validate whether the changes deployed are meeting user needs.
 
 - Use authorized tools/platforms (via FedRAMP, when possible) to support desired build methodology and get an ATO if necessary.
 

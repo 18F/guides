@@ -42,7 +42,7 @@ Developing strong product leadership and management capacity with your partners 
 
 ## Incorporation: What to do next
 
-- [Coach the product owner]({{site.baseurl}}/partners/coach/) to help them develop their product management skills.
+- [Coach the product owner]({{ '../coach/' | url }}) to help them develop their product management skills.
 
 ## Resources
 

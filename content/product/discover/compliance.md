@@ -36,4 +36,4 @@ Laws, regulations, and policies may obligate or constrain what your partners are
 
 - Report out findings to stakeholders to help them understand their constraints and opportunities.
 
-- Draw on your findings to help your partner define a path forward to achieve their desired [future state]({{site.baseurl}}/define/).
+- Draw on your findings to help your partner define a path forward to achieve their desired [future state]({{ '../../define/' | url }}).

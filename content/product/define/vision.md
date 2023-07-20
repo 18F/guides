@@ -50,7 +50,7 @@ Vision statements can be written at different levels or granularities, so you ma
 
 - Document the vision and keep it visible and central.
 
-- Refer to the vision regularly to prioritize work and [develop a strategy]({{site.baseurl}}/define/strategy) and [roadmap]({{site.baseurl}}/define/roadmap) to execute on the vision.
+- Refer to the vision regularly to prioritize work and [develop a strategy]({{ '../strategy/' | url }}) and [roadmap]({{ '../roadmap/' | url }}) to execute on the vision.
 
 - Regularly reconsider the vision and update as appropriate.
 
