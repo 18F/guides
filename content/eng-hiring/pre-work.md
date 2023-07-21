@@ -5,7 +5,7 @@ layout: layouts/page
 tags: eng-hiring
 eleventyNavigation: 
   parent: pre-work
-  key: eng-hiring-pre-work
+  key: eng-hiring-pre-work-home
   order: 1
   title: Technical pre-work
 sidenav: true

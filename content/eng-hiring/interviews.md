@@ -5,7 +5,7 @@ layout: layouts/page
 tags: eng-hiring
 eleventyNavigation: 
   parent: eng-hiring-interviews
-  key: eng-hiring-interviews
+  key: eng-hiring-interviews-home
   order: 1
   title: Overview of interviews
 sidenav: true
