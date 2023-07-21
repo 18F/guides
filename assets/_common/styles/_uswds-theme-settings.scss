@@ -15,7 +15,7 @@ $brand-color-dark: #1C304A;
   $theme-font-path: '../../../node_modules/@uswds/uswds/dist/fonts',
   $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
 
-  // TODO: remove 
+  // TODO: remove
   $theme-hero-image: '../_img/hero.png',
 
 
@@ -39,7 +39,7 @@ $brand-color-dark: #1C304A;
 
   /*------------------------------------------------
   ## Primary color
-  -------------------------------------------------*/ 
+  -------------------------------------------------*/
   $theme-color-primary-darkest: 'blue-90',
   $theme-color-primary-darker: $brand-color-dark,
   $theme-color-primary-dark: 'blue-70v',
@@ -50,14 +50,13 @@ $brand-color-dark: #1C304A;
 
   /*------------------------------------------------
   ## Accent color
-  -------------------------------------------------*/ 
+  -------------------------------------------------*/
   $theme-color-accent-cool-dark: 'cyan-50v',
   $theme-color-accent-cool: $brand-color-bright,
   $theme-color-accent-cool-light: 'cyan-20v',
 
   /*------------------------------------------------
   ## Error color
-  -------------------------------------------------*/ 
+  -------------------------------------------------*/
    $theme-color-error-lighter: 'red-warm-5v',
 );
-
