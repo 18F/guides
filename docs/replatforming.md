@@ -65,7 +65,7 @@ In the above front matter:
 Use `sticky_sidenav: true` to stick the sidenav to the top of the window when scrolling.
 
 ### Subnavs
-You can use the existing `subnav:` options in the original file's front matter to generate a subnav with the current page's anchor links.
+You can use the existing `subnav:` options in the original file's front matter to generate a subnav with the current page's anchor links. To prevent plugin overloading, ensure the `parent` and `key` values are different.
 
 ## Ignoring assetPaths
 We want to avoid commiting the `assetPaths.json` file, but need to keep it out of the project `.gitignore` in order to allow eleventy to rebuild when it is changed. One way to resolve this issue is to add `assetPaths.json` to the git exclude list:
