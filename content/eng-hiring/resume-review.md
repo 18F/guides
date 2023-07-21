@@ -10,8 +10,6 @@ eleventyNavigation:
   title: Resume review guide
 sidenav: true
 sticky_sidenav: true
-subnav:
-  - text: Resume review guide
 ---
 
 {% include './_includes/unconscious-bias-warning.html' %}
