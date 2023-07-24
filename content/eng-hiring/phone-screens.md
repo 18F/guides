@@ -133,7 +133,7 @@ Reinforce information from the job post and gauge the candidate’s level of com
 
 ## After the call
 
-**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will help prepare for [interviews](../eng-hiring/interviews/).
+**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will help prepare for [interviews]({{ '../interviews' | url }}).
 
 ## Other job role interview questions
 

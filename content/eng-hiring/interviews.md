@@ -136,7 +136,7 @@ When interviewing, **please take notes — the more detailed, the better**. Try 
 
 - Bad: “candidate is a good open source maintainer” (your feelings/interpretations of what they’ve done)
 
-When the interview is done, use your notes to complete the feedback form in the interview calendar invite, which will prepare you for the [debrief meeting](../eng-hiring/debrief/).
+When the interview is done, use your notes to complete the feedback form in the interview calendar invite, which will prepare you for the [debrief meeting]({{ '../debrief' | url }}).
 
 ## What to do if there is a disaster
 
