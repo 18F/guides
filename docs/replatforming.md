@@ -8,6 +8,11 @@ This document captures the structure of the new platform for 18F approaches and 
 ##  Content organization
 The content for all of the guides is in the `content` folder, which is organized with subfolders for each guide. For example all of the content for the De-risking guide should be placed in `content/derisking/`.
 
+### Guide-specific files
+If there are images and `include` files that only one guide uses, create a guide-specific folder within the site-wide `asset` or `_includes` folder.
+
+Call a guide-specific include by using `{% include '[guide-folder]/[include-name].html' %}`.
+
 ## Guide titles and subdirectories
 The `_data/titles_roots.yaml` file is used to set the title for each guide (i.e. what appears after the 18F logo in the header). In addition it defines the name of the URL “subdirectory” that will be the “root” or homepage for the guide. A guide’s tag is used as a key which maps to the title and root. This tag is referenced to set the title, header, and primary navigation for each guide.
 
@@ -34,6 +39,11 @@ agile:
 _Examples:_
 De-risking guide content would have the front matter `tags: derisking`
 UX guide pages would have `tags: uxguide`
+
+## Base URLs
+Eleventy does not use `{{site.baseurl}}` to refer to other pages. When linking to another page on the site, use Eleventy's `url` filter as such:
+- For the home `index.md` page, use `{{ '[Markdown filename]' | url }}`.
+- For any other page in `content/[guide]`, use `{{ '../[Markdown file name]' | url }}`
 
 ## Sidenavs
 We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to group pages within a subsection together, all pages within a section should have a common `eleventyNavigation` `parent` key. For example the introduction page for the content guide "Our style" would include the following front matter:
