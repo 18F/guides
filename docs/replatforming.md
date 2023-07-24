@@ -8,6 +8,8 @@ This document captures the structure of the new platform for 18F approaches and 
 ##  Content organization
 The content for all of the guides is in the `content` folder, which is organized with subfolders for each guide. For example all of the content for the De-risking guide should be placed in `content/derisking/`.
 
+Additionally, if a guide contains multiple sections, each section should have its own subfolder in that guide's folder. All pages that are part of a section should be placed into the section subfolder. For example, the "Federal Field Guide" is a section within the De-risking Guide, and "Basic principles" is a page in the "Federal Field Guide". So `basic-principles.md` would be placed in `content/derisking/federal-field-guide/`.
+
 ## Guide titles and subdirectories
 The `_data/titles_roots.yaml` file is used to set the title for each guide (i.e. what appears after the 18F logo in the header). In addition it defines the name of the URL “subdirectory” that will be the “root” or homepage for the guide. A guide’s tag is used as a key which maps to the title and root. This tag is referenced to set the title, header, and primary navigation for each guide.
 
@@ -77,13 +79,12 @@ We want to avoid commiting the `assetPaths.json` file, but need to keep it out o
 The general steps for migrating a guide: 
 1. Add the guide to the `_data/titles_roots.yaml` file with the guide’s tag, name, and root (See [Guide titles and subdirectories](#guide-titles-and-subdirectories) for an example).
 2. Add the primary navigation for the guide to `_data/navigation.yaml`.
-3. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
-4. Create a mock markdown file to establish the `eleventyNavigation` either for the guide or for the guide section. Each section that has a sidenav will need to have a mock file. (See [Sidenavs](#sidenavs) for more details).
+4. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
 5. Copy over the markdown file for the guide into the appropriate subfolder.
 6. Open up the markdown file to edit the front matter:
     1. Change the layout to `layout/page` or whatever layout is most appropriate.
     2. Add `tags: <collection-name>` where <collection-name> is the guide’s tag.
-    2. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<page-name>`. Try to match the permalink of the original markdown file.
+    2. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<section-name>/<page-name>`. Try to match the permalink of the original markdown file.
     3. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) : 
     ```
     eleventyNavigation: 
