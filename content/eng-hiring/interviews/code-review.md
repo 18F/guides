@@ -44,7 +44,7 @@ Before the interview, prepare by reviewing the code, trying to run it (and the t
 
 For the list of things to look for during code review, see [what to look for during code review](https://docs.google.com/document/d/1rP7_yYr_IbfDi-Tj-1troJG2rTDcfVRnI_iH7Ngrzds/edit#heading=h.6l09j457zrt).
 
-<a class="usa-button usa-button-primary" href="https://docs.google.com/document/d/1rP7_yYr_IbfDi-Tj-1troJG2rTDcfVRnI_iH7Ngrzds/copy">Make a copy for your notes</a>
+<a class="usa-button usa-button-primary" href="https://docs.google.com/document/d/1rP7_yYr_IbfDi-Tj-1troJG2rTDcfVRnI_iH7Ngrzds/copy" class=" private-link" title="This link is private to GSA.">Make a copy for your notes</a>
 
 ## Conversation outline
 
