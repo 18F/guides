@@ -1,3 +1,7 @@
+---
+permalink: false
+eleventyExcludeFromCollections: true
+---
 # Replatforming
 This document captures the structure of the new platform for 18F approaches and outlines the process of migrating our existing content to the new platform. This document is a work in progress.
 
@@ -32,36 +36,51 @@ De-risking guide content would have the front matter `tags: derisking`
 UX guide pages would have `tags: uxguide`
 
 ## Sidenavs
-We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to do this, each collection should have a mock markdown file such as `agile.md`  or `state-handbook.md` which defines the collection’s parent `key` for `EleventyNavigation`. This file should containtain only this front matter and no real content. For example `agile.md` would contain:
-
-```
-permalink: false
-eleventyNavigation:
-   key: agile
-```
-
-Each page within the collection can then reference the relevant parent. For example the introduction page for the agile guide would have the following front matter:
+We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to group pages within a subsection together, all pages within a section should have a common `eleventyNavigation` `parent` key. For example the introduction page for the content guide "Our style" would include the following front matter:
 ```
 eleventyNavigation:
-  parent: agile
-  key: Introduction
+  key: content-style-index
+  parent: content-style
   order: 1
-  title: Introduction
+  title: Our style
+---
 ```
+and similarly, the "Active voice" page within that section would have the following in its front matter:
+
+```
+eleventyNavigation:
+  key: content-active
+  parent: content-style
+  order: 3
+  title: Active voice
+```
+
 In the above front matter:
-- `parent: agile` references the name of the parent collection.
-- `key: Introduction` sets this page's unique key for the sidenav.
-- `order:1` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
-- `title: Introduction` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
+- `parent: content-sytle` references the name of the parent section.
+- `key: content-active` sets this page's unique key for the sidenav.
+- `order: 3` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
+- `title: Active voice` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
+
+### Sticky sidenavs
+Use `sticky_sidenav: true` to stick the sidenav to the top of the window when scrolling.
+
+### Subnavs
+You can use the existing `subnav:` options in the original file's front matter to generate a subnav with the current page's anchor links. To prevent errors in `eleventyNavigation`, ensure the `parent` and `key` values are different.
+
+## Ignoring assetPaths
+We want to avoid commiting the `assetPaths.json` file, but need to keep it out of the project `.gitignore` in order to allow eleventy to rebuild when it is changed. One way to resolve this issue is to add `assetPaths.json` to the git exclude list:
+1. Open up `.git/info/exclude`
+2. Add `assetPaths.json` to that file
 
 ## Content migration process
 
 The general steps for migrating a guide: 
 1. Add the guide to the `_data/titles_roots.yaml` file with the guide’s tag, name, and root (See [Guide titles and subdirectories](#guide-titles-and-subdirectories) for an example).
 2. Add the primary navigation for the guide to `_data/navigation.yaml`.
-3. Create a mock markdown file to establish the `eleventyNavigation` either for the guide or for the guide section. Each section that has a sidenav will need to have a mock file. (See [Sidenavs](#sidenavs) for more details).
-4. Copy over the markdown file for the guide into the appropriate subfolder.
-5. Open up the markdown file to edit the front matter:
+3. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
+4. Create a mock markdown file to establish the `eleventyNavigation` either for the guide or for the guide section. Each section that has a sidenav will need to have a mock file. (See [Sidenavs](#sidenavs) for more details).
+5. Copy over the markdown file for the guide into the appropriate subfolder.
+6. Open up the markdown file to edit the front matter:
     1. Change the layout to `layout/page` or whatever layout is most appropriate.
     2. Add `tags: <collection-name>` where <collection-name> is the guide’s tag.
     2. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<page-name>`. Try to match the permalink of the original markdown file.
@@ -73,6 +92,25 @@ The general steps for migrating a guide:
       order: <#>
       title: <Sidenav-title>
     ```
-6. Celebrate! Or edit this documentation to update any steps that may be missing.
+7. Celebrate! Or edit this documentation to update any steps that may be missing.
 
+## Running pa11y
+We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
+our CI setup (see the [pull-request.yml workflow](.github/workflows/pull-request.yml))
+on every pull request, but it can also be run locally. To run locally, type:
 
+```
+npm run test:pa11y-ci
+```
+
+Note that running `pa11y-ci` inside the docker container may not always work.
+
+In cases where you want pa11y to ignore a certain element, such as in the accessibility guide which intentionally shows examples of accessibility issues, you can add the data attribute `data-pa11y-ignore` to the element that should be ignored.
+
+In certain cases we may need `pa11y-ci` to ignore an element. For example, in the accessibility guide there are elements that violate a11y rules on purpose. We know those will fail and don't want to fix them because they are showing an example of a bad practice, and so we want `pa11y-ci` to ignore them. To do so we can the data attribute `data-pa11y-ignore` to the element that should be ignored.
+
+_Example:_
+
+```
+<span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails. </span>
+```

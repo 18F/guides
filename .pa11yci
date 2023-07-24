@@ -1,0 +1,8 @@
+{
+  "defaults": {
+    "concurrency": 1,
+      "standard": "WCAG2AA",
+      "runners": ["htmlcs"],
+      "hideElements": "div[style*='display: none;'], [data-pa11y-ignore]"
+  }
+}
