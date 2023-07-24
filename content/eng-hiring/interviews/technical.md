@@ -6,7 +6,7 @@ tags: eng-hiring
 eleventyNavigation: 
   parent: eng-hiring-interviews
   key: eng-hiring-technical
-  order: 2
+  order: 3
   title: Technical interview
 sidenav: true
 sticky_sidenav: true
