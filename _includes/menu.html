@@ -5,7 +5,7 @@ manage your navigation system {% endcomment %}
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
     {% include "logo.html" %}
-    <button class="usa-menu-btn">Menu</button>
+    <button type="button" class="usa-menu-btn">Menu</button>
   </div>
   <nav
     id="menu-navigation"
@@ -14,7 +14,7 @@ manage your navigation system {% endcomment %}
     class="usa-nav"
   >
     <div class="usa-nav__inner">
-      <button class="usa-nav__close">
+      <button type="button" class="usa-nav__close">
         {% image "./node_modules/@uswds/uswds/dist/img/usa-icons/close.svg" "close" %}
       </button>
       <ul class="usa-nav__primary usa-accordion">
@@ -40,6 +40,7 @@ manage your navigation system {% endcomment %}
             class="usa-accordion__button usa-nav__link"
             aria-expanded="false"
             aria-controls="{{ nav_id }}"
+            type="button"
           >
             <span>{{ nav_item.name | escape }}</span>
           </button>
