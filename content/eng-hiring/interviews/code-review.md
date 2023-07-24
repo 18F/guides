@@ -27,7 +27,7 @@ The goal of the code review interview is to explore the kind of code, thought pr
 
 ## Purpose
 
-The candidate [is instructed]({{site.baseurl}}/eng-hiring/pre-work/) to complete a coding exercise, or bring an existing code sample. As an interviewer, you'll receive that code at least a day before your interview with the candidate.
+The candidate [is instructed](../eng-hiring/pre-work/) to complete a coding exercise, or bring an existing code sample. As an interviewer, you'll receive that code at least a day before your interview with the candidate.
 
 The focus of the interview should be on their code, how it works, why they made the choices they did, and so forth. Before the interview, you should plan to spend an hour or two reading the candidate's code, running it, and preparing follow-up questions to ask when you interview them.
 
@@ -88,4 +88,4 @@ For the list of things to look for, see [what to look for during the code review
 
 ## After the interview
 
-**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting]({{site.baseurl}}/eng-hiring/debrief/).
+**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting](../eng-hiring/debrief/).

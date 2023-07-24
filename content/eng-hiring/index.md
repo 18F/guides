@@ -38,8 +38,8 @@ This guide covers the engineering selection process, from resume review to turni
 
 The process surrounding the standard engineering hiring process varies depending on the [hiring action](https://handbook.tts.gsa.gov/hiring/) used — but the standard process consists of:
 
-1. The 18F Engineering Hiring team performs a [resume review][resume-review-guide] to determine if a candidate will be phone screened. The TTS Talent team then performs a specialized experience review of the candidate, ensuring they will be able to be offered the position should they pass the interviews.
-1. The TTS Talent team schedules a [phone screen][phone-screen-guide] with the candidate and a representative from the 18F Engineering Hiring team. The 18F Engineering Hiring team then determines if the candidate will continue to the next round of interviews.
+1. The 18F Engineering Hiring team performs a [resume review][resume-review-eng-hiring] to determine if a candidate will be phone screened. The TTS Talent team then performs a specialized experience review of the candidate, ensuring they will be able to be offered the position should they pass the interviews.
+1. The TTS Talent team schedules a [phone screen][phone-screen-eng-hiring] with the candidate and a representative from the 18F Engineering Hiring team. The 18F Engineering Hiring team then determines if the candidate will continue to the next round of interviews.
 1. The TTS Talent team notifies the candidate of their selection, and passing candidates are asked to provide or perform [technical pre-work][pre-work-eng-hiring]. The candidate provides or completes the technical pre-work and shares the work with TTS.
 1. The TTS Talent team schedules the candidate for a round of interviews.
 2. The Interview team conducts [interviews][interview-eng-hiring] with the candidate to understand their [technical][technical-interviews-eng-hiring], [coding][coding-interviews-eng-hiring], and collaborative ([core-values][core-values-interviews-eng-hiring] and [wrap-up][wrap-interviews-eng-hiring]) skills and expereince.
@@ -95,17 +95,17 @@ This guide is more tailored to the shape of a consulting engineer - an engineer 
 Internal to TTS, some engineering hiring managers may want to take a look at the [engineering interviewing questions bank](https://docs.google.com/document/d/1oYmx_93-mq2QrqICCo8SNk8hHmnPPonPA1kg0vhy540/edit#).
 
 
-[resume-review-eng-hiring]: {{site.baseurl}}/eng-hiring/resume-review/
-[phone-screen-eng-hiring]: {{site.baseurl}}/eng-hiring/phone-screens/
-[interview-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/
-[core-values-interview-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/core-values/
-[technical-interview-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/technical/
-[code-review-interview-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/code-review/
-[wrap-up-interview-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/wrap-up/
-[debrief-eng-hiring]: {{site.baseurl}}/eng-hiring/debrief/
-[final-selection-eng-hiring]: {{site.baseurl}}/eng-hiring/selection/
-[pre-work-eng-hiring]: {{site.baseurl}}/eng-hiring/pre-work/
-[technical-interviews-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/technical/
-[coding-interviews-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/code-review/
-[core-values-interviews-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/core-values/
-[wrap-interviews-eng-hiring]: {{site.baseurl}}/eng-hiring/interviews/wrap-up/
+[resume-review-eng-hiring]: ../eng-hiring/resume-review/
+[phone-screen-eng-hiring]: ../eng-hiring/phone-screens/
+[interview-eng-hiring]: ../eng-hiring/interviews/
+[core-values-interview-eng-hiring]: ../eng-hiring/interviews/core-values/
+[technical-interview-eng-hiring]: ../eng-hiring/interviews/technical/
+[code-review-interview-eng-hiring]: ../eng-hiring/interviews/code-review/
+[wrap-up-interview-eng-hiring]: ../eng-hiring/interviews/wrap-up/
+[debrief-eng-hiring]: ../eng-hiring/debrief/
+[final-selection-eng-hiring]: ../eng-hiring/selection/
+[pre-work-eng-hiring]: ../eng-hiring/pre-work/
+[technical-interviews-eng-hiring]: ../eng-hiring/interviews/technical/
+[coding-interviews-eng-hiring]: ../eng-hiring/interviews/code-review/
+[core-values-interviews-eng-hiring]: ../eng-hiring/interviews/core-values/
+[wrap-interviews-eng-hiring]: ../eng-hiring/interviews/wrap-up/

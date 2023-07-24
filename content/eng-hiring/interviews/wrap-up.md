@@ -101,4 +101,4 @@ Make sure to leave time for the candidate to ask you any questions they might ha
 
 ## After the interview
 
-**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting]({{site.baseurl}}/eng-hiring/debrief/).
+**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting](../eng-hiring/debrief/).

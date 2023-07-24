@@ -158,4 +158,4 @@ Ask one or more of the following:
 
 ## After the interview
 
-**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting]({{site.baseurl}}/eng-hiring/debrief/).
+**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting](../eng-hiring/debrief/).
