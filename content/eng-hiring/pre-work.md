@@ -52,10 +52,10 @@ Your choices for code samples are:
 **Option 2**: Complete a short programming assignment. We re-use [coding problems developed by Ad Hoc](https://homework.adhoc.team), and add a few extra rules and restrictions of our own:
 
 - Choose from one of these exercises, and only complete a single exercise:
-   - [https://homework.adhoc.team/fetch/](https://homework.adhoc.team/fetch/)
-   - [https://homework.adhoc.team/hhbuilder/](https://homework.adhoc.team/hhbuilder/)
-   - [https://homework.adhoc.team/slcsp/](https://homework.adhoc.team/slcsp/)
-   - [https://homework.adhoc.team/noclist/](https://homework.adhoc.team/noclist/)
+   - [Fetch exercise](https://homework.adhoc.team/fetch/)
+   - [Hhbuilder exercise](https://homework.adhoc.team/hhbuilder/)
+   - [SLCSP exercise](https://homework.adhoc.team/slcsp/)
+   - [NOClist exercise](https://homework.adhoc.team/noclist/)
 
 - Each exercise has its own rules and instructions. Where our rules and Ad Hoc's
   differ, follow our rules. Let us know if you have questions!

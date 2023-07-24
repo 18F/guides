@@ -34,8 +34,14 @@ eng-hiring:
     children:
       - name: Overview
         url: /eng-hiring/interviews/
+      - name: Core values interview
+        url: /eng-hiring/interviews/core-values/
+      - name: Technical interview
+        url: /eng-hiring/interviews/technical/
       - name: Code review interview
         url: /eng-hiring/interviews/code-review/
+      - name: Wrap-up interview
+        url: /eng-hiring/interviews/wrap-up/
   - name: 5. Debrief
     url: /eng-hiring/debrief/
   - name: 6. Final selection
