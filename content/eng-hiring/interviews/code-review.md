@@ -48,6 +48,8 @@ For the list of things to look for during code review, see [what to look for dur
 
 ## Conversation outline
 
+{% include 'eng-hiring/notes-reminder.html' %}
+
 Begin by introducing yourself by saying this or something similar to it:
 
 > Hello! My name is \_\_\_, my pronouns are \_\_\_, and my role is \_\_\_.
