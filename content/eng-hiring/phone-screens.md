@@ -27,7 +27,7 @@ The goal of a phone screen is to assess a candidate's rough fit for the position
 
 Phone screens are performed by someone on the 18F Engineering Hiring team, and often the same person performs all phone screens for a given hiring group.
 
-{% include './_includes/unconscious-bias-warning.html' %}
+{% include 'eng-hiring/unconscious-bias-warning.html' %}
 
 ## Purpose
 

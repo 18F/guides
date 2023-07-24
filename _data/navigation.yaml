@@ -31,7 +31,11 @@ eng-hiring:
   - name: 3. Technical pre-work
     url: /eng-hiring/pre-work/
   - name: 4. Interviews
-    url: /eng-hiring/interviews/
+    children:
+      - name: Overview
+        url: /eng-hiring/interviews/
+      - name: Code review interview
+        url: /eng-hiring/interviews/code-review/
   - name: 5. Debrief
     url: /eng-hiring/debrief/
   - name: 6. Final selection

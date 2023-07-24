@@ -12,7 +12,7 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-{% include './_includes/unconscious-bias-warning.html' %}
+{% include 'eng-hiring/unconscious-bias-warning.html' %}
 
 In order to qualify for an appointment, candidates must demonstrate that they have position-specific Specialized Experience documented in their resumes.<sup>[1](#footnote-1)</sup> TTS Talent’s review will help ensure that the candidate’s offer will likely pass review by GSA HR following the interview round. The engineering hiring manager will review to see how the individual's experience would align with needs of the team or organization. (For candidates reading this, take a look at how to [prepare your resume](https://join.tts.gsa.gov/resume/).)
 
