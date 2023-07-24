@@ -1,8 +1,12 @@
 ---
 title: Government Accessibility Resources
-permalink: /accessibility/gov-resources
+permalink: /accessibility/gov-resources/
 layout: layouts/page
+sidenav: false
 tags: accessibility
+eleventyNavigation: 
+  key: gov-resources
+  parent: accessibility
 ---
 
 This 18F Accessibility Guide is just one of many helpful accessibility sites and resources available from the U.S. Government. Here are some others:
