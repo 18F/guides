@@ -88,4 +88,4 @@ For the list of things to look for, see [what to look for during the code review
 
 ## After the interview
 
-**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting]({{ '../debrief' | url }}).
+**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting]({{ '../../debrief' | url }}).
