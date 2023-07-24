@@ -38,13 +38,13 @@ This guide covers the engineering selection process, from resume review to turni
 
 The process surrounding the standard engineering hiring process varies depending on the [hiring action](https://handbook.tts.gsa.gov/hiring/) used — but the standard process consists of:
 
-1. The 18F Engineering Hiring team performs a [resume review][resume-review-eng-hiring] to determine if a candidate will be phone screened. The TTS Talent team then performs a specialized experience review of the candidate, ensuring they will be able to be offered the position should they pass the interviews.
-1. The TTS Talent team schedules a [phone screen][phone-screen-eng-hiring] with the candidate and a representative from the 18F Engineering Hiring team. The 18F Engineering Hiring team then determines if the candidate will continue to the next round of interviews.
-1. The TTS Talent team notifies the candidate of their selection, and passing candidates are asked to provide or perform [technical pre-work][pre-work-eng-hiring]. The candidate provides or completes the technical pre-work and shares the work with TTS.
+1. The 18F Engineering Hiring team performs a [resume review]({{ 'resume-review' | url }}) to determine if a candidate will be phone screened. The TTS Talent team then performs a specialized experience review of the candidate, ensuring they will be able to be offered the position should they pass the interviews.
+1. The TTS Talent team schedules a [phone screen]({{ 'phone-screens' | url }}) with the candidate and a representative from the 18F Engineering Hiring team. The 18F Engineering Hiring team then determines if the candidate will continue to the next round of interviews.
+1. The TTS Talent team notifies the candidate of their selection, and passing candidates are asked to provide or perform [technical pre-work]({{ 'pre-work' | url }}). The candidate provides or completes the technical pre-work and shares the work with TTS.
 1. The TTS Talent team schedules the candidate for a round of interviews.
-2. The Interview team conducts [interviews][interview-eng-hiring] with the candidate to understand their [technical][technical-interviews-eng-hiring], [coding][coding-interviews-eng-hiring], and collaborative ([core-values][core-values-interviews-eng-hiring] and [wrap-up][wrap-interviews-eng-hiring]) skills and expereince.
-3. The Interview team holds a [debrief meeting][debrief-eng-hiring] to share information gathered about the candidate through interviews.
-4. The 18F Engineering Hiring team meets with a representative from the TTS Talent team to perform [final selection][final-selection-eng-hiring]. Then, the candidate is provided to the General Service Administration (GSA)’s Office of Human Resources Management (OHRM) team, who performs the final review and extends an offer.
+2. The Interview team conducts [interviews]({{ 'interviews' | url }}) with the candidate to understand their [technical]({{ 'interviews/technical' | url }}), [coding]({{ 'interviews/code-review' | url }}), and collaborative ([core-values]({{ 'interviews/core-values' | url }}) and [wrap-up]({{ 'interviews/wrap-up' | url }})) skills and expereince.
+3. The Interview team holds a [debrief meeting]({{ 'debrief' | url }}) to share information gathered about the candidate through interviews.
+4. The 18F Engineering Hiring team meets with a representative from the TTS Talent team to perform [final selection]({{ 'selection' | url }}). Then, the candidate is provided to the General Service Administration (GSA)’s Office of Human Resources Management (OHRM) team, who performs the final review and extends an offer.
 
 The candidate is always notified of the outcome of each determination step, either of a continuation of the process, selection for an offer, or declination. We hope that candidates will have a positive experience of TTS regardless of the outcome, and consider re-applying for future positions.
 
@@ -54,11 +54,11 @@ There are a few people in play in the selection process:
 
 - The **candidate** who has applied for a job.
 - The **[TTS Talent](https://handbook.tts.gsa.gov/talent/) team**, who acts as the point-of-contact between candidates and others in the hiring process. They advocate on behalf of candidates while navigating the larger organization, keep everything in order, and are the glue that make hiring possible.
-- The **18F Engineering Hiring team**, who perform [resume reviews][resume-review-eng-hiring], [phone screens][phone-screen-eng-hiring], [wrap-up interviews][wrap-up-interview-eng-hiring], and [selection of qualified candidates][final-selection-eng-hiring] for job offers. Typically this team is made up of the Director of Engineering and at least one Engineering Supervisor who is handling hiring tasks.
+- The **18F Engineering Hiring team**, who perform [resume reviews]({{ 'resume-review' | url }}), [phone screens]({{ 'phone-screens' | url }}), [wrap-up interviews]({{ 'interviews/wrap-up' | url }}), and [selection of qualified candidates]({{ 'selection' | url }}) for job offers. Typically this team is made up of the Director of Engineering and at least one Engineering Supervisor who is handling hiring tasks.
 - The **Interview team**, who are made up of volunteers from 18F and the Technology Transformation Service:
-    - All team members can perform [core values][core-values-interview-eng-hiring] interviews.
-    - Engineers perform [code review][code-review-interview-eng-hiring] and [technical][technical-interview-eng-hiring] interviews.
-    - The 18F Engineering Hiring team performs the final [wrap-up interview][wrap-up-interview-eng-hiring].
+    - All team members can perform [core values]({{ 'interviews/core-values' | url }}) interviews.
+    - Engineers perform [code review]({{ 'interviews/code-review' | url }}) and [technical]({{ 'interviews/technical' | url }}) interviews.
+    - The 18F Engineering Hiring team performs the final [wrap-up interview]({{ 'interviews/wrap-up' | url }}).
 - The **GSA OHRM team**, who ensure selected candidates meet the legal requirements for eligibility for job offers and extend offers to candidates (among other duties).
 
 ## How candidates enter
@@ -93,19 +93,3 @@ These guides are [an open source project](https://github.com/18F/eng-hiring).
 This guide is more tailored to the shape of a consulting engineer - an engineer that has skills in modern open-source software engineering and in helping our government partners navigate the organizational and technical problems that arise in the course of our work. In some of the interview guides (especially the phone screen) we provide questions that are geared to understand the skills and experience of other engineering roles such as security and compliance, site reliability, and product development (front-end/back-end/full-stack). 
 
 Internal to TTS, some engineering hiring managers may want to take a look at the [engineering interviewing questions bank](https://docs.google.com/document/d/1oYmx_93-mq2QrqICCo8SNk8hHmnPPonPA1kg0vhy540/edit#).
-
-
-[resume-review-eng-hiring]: ../eng-hiring/resume-review/
-[phone-screen-eng-hiring]: ../eng-hiring/phone-screens/
-[interview-eng-hiring]: ../eng-hiring/interviews/
-[core-values-interview-eng-hiring]: ../eng-hiring/interviews/core-values/
-[technical-interview-eng-hiring]: ../eng-hiring/interviews/technical/
-[code-review-interview-eng-hiring]: ../eng-hiring/interviews/code-review/
-[wrap-up-interview-eng-hiring]: ../eng-hiring/interviews/wrap-up/
-[debrief-eng-hiring]: ../eng-hiring/debrief/
-[final-selection-eng-hiring]: ../eng-hiring/selection/
-[pre-work-eng-hiring]: ../eng-hiring/pre-work/
-[technical-interviews-eng-hiring]: ../eng-hiring/interviews/technical/
-[coding-interviews-eng-hiring]: ../eng-hiring/interviews/code-review/
-[core-values-interviews-eng-hiring]: ../eng-hiring/interviews/core-values/
-[wrap-interviews-eng-hiring]: ../eng-hiring/interviews/wrap-up/
