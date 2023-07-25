@@ -42,10 +42,3 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
   }
 }
-
-// Widen header title
-@media (min-width: 64em) {
-  .usa-header--extended .usa-logo {
-    max-width: 70%;
-  }
-}

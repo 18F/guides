@@ -99,4 +99,4 @@ If you are unclear of anyone’s stance on the candidate, you may ask:
 
 Thanks for your help in the interview process! It’s critically important to the future of our organization, and your help is _very much appreciated_.
 
-Please retain your notes until the [final selection meeting]({{ '../selection' | url }}) meeting has finished, in case there are discrepancies or further questions that come up.
+Please retain your notes until the [final selection meeting]({{ '../selection/' | url }}) meeting has finished, in case there are discrepancies or further questions that come up.

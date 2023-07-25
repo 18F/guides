@@ -16,7 +16,7 @@ subnav:
   - text: Using Slack appropriately
     href: "#using-slack-appropriately"
   - text: Quick DOs and DON'Ts
-    href: "#quick-dos-and-donts"
+    href: "#quick-dos-and-don'ts"
   - text: Preparing for the interview
     href: "#preparing-for-the-interview"
   - text: Follow the guides
@@ -136,7 +136,7 @@ When interviewing, **please take notes — the more detailed, the better**. Try 
 
 - Bad: “candidate is a good open source maintainer” (your feelings/interpretations of what they’ve done)
 
-When the interview is done, use your notes to complete the feedback form in the interview calendar invite, which will prepare you for the [debrief meeting]({{ '../debrief' | url }}).
+When the interview is done, use your notes to complete the feedback form in the interview calendar invite, which will prepare you for the [debrief meeting]({{ '../debrief/' | url }}).
 
 ## What to do if there is a disaster
 

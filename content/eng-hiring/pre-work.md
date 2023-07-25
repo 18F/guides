@@ -17,7 +17,7 @@ subnav:
 
 The goal of technical pre-work is to enable an interviewer to ask thoughtful questions about the kind of code, thought processes, and choices that the candidate will make at 18F.
 
-Candidates have two options: complete a coding exercise, or bring an existing code sample. Interviewers will have read your code, run it, and prepared follow-up questions to ask as described in [the interviewer’s guide]({{ '../interviews/code-review' | url }}).
+Candidates have two options: complete a coding exercise, or bring an existing code sample. Interviewers will have read your code, run it, and prepared follow-up questions to ask as described in [the interviewer’s guide]({{ '../interviews/code-review/' | url }}).
 
 ## Instructions to candidates
 
@@ -57,8 +57,7 @@ Your choices for code samples are:
    - [SLCSP exercise](https://homework.adhoc.team/slcsp/)
    - [NOClist exercise](https://homework.adhoc.team/noclist/)
 
-- Each exercise has its own rules and instructions. Where our rules and Ad Hoc's
-  differ, follow our rules. Let us know if you have questions!
+- Each exercise has its own rules and instructions. Where our rules and Ad Hoc's differ, follow our rules. Let us know if you have questions!
 
 - As mentioned above, please submit code written in the language we agreed upon.
 
