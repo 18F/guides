@@ -17,3 +17,10 @@ derisking:
 eng-hiring:
   title: Engineering Hiring Guide
   root: /eng-hiring/
+engineering:
+  title: Engineering
+  root: /engineering/
+product: 
+  title: Product Guide
+  root: /product/
+

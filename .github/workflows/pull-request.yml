@@ -48,21 +48,21 @@ jobs:
       - name: Accessibility scan
         run: npm run test:pa11y-ci
 
-# Disabling for now. Reenable when the project is ready.
+  validate_html:
+    needs: [build]
+    name: validate html
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache/restore@v3
+        with:
+          key: ${{ needs.build.outputs.cache_key }}
+          path: .
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm run test:html-validation
 
-#  validate_html:
-#    needs: [build]
-#    name: validate html
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/cache/restore@v3
-#        with:
-#          key: ${{ needs.build.outputs.cache_key }}
-#          path: .
-#      - uses: actions/setup-node@v3
-#        with:
-#          node-version: 18
-#      - run: npm run test:html-validation
+# Disabling for now. Reenable when the project is ready.
 
 #  validate_internal_links:
 #    needs: [build]

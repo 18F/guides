@@ -32,10 +32,10 @@ When using images on a page, you must provide an alternate method for that conte
 ## Examples
 
 ### Correct
-{% image_with_class "assets/_common/_img/warning-sign.jpg"  "Warning do not read this sign" %}
+{% image_with_class "assets/accessibility/img/warning-sign.jpg"  "Warning do not read this sign" %}
 
 ```html
-<img src="{{site.baseurl}}/images/warning-sign.jpg" alt="Warning do not read this sign">
+<img src="img/warning-sign.jpg" alt="Warning do not read this sign">
 ```
 
 > Preferred method for providing alternate content.
@@ -43,10 +43,10 @@ When using images on a page, you must provide an alternate method for that conte
 
 ---
 
-{% image_with_class "assets/_common/_img/warning-sign.jpg" "exampleFailure" "Warning do not read this sign" %}
+{% image_with_class "assets/accessibility/img/warning-sign.jpg" "exampleFailure" "Warning do not read this sign" %}
 
 ```html
-<img src="{{site.baseurl}}/images/warning-sign.jpg" title="Warning do not read this sign">
+<img src="img/warning-sign.jpg" title="Warning do not read this sign">
 ```
 
 > Acceptable, but less compatible with certain assistive technologies.
@@ -54,11 +54,11 @@ When using images on a page, you must provide an alternate method for that conte
 
 ---
 
-{% image_with_class "assets/_common/_img/warning-sign.jpg" "" %}
+{% image_with_class "assets/accessibility/img/warning-sign.jpg" "" %}
 <span>Warning do not read this sign</span>
 
 ```html
-<img src="{{site.baseurl}}/images/warning-sign.jpg" alt="">
+<img src="img/warning-sign.jpg" alt="">
 <span>Warning do not read this sign</span>
 ```
 
@@ -70,30 +70,30 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Incorrect
 
-{% image_with_class "assets/_common/_img/warning-sign.jpg" "" %}
+{% image_with_class "assets/accessibility/img/warning-sign.jpg" "" %}
 
 ```html
-<img src="{{site.baseurl}}/images/warning-sign.jpg">
+<img src="img/warning-sign.jpg">
 ```
 
 > Image is missing an `alt` attribute and alternative content
 
 ---
 
-{% image_with_class "assets/_common/_img/warning-sign.jpg"  "sign" %}
+{% image_with_class "assets/accessibility/img/warning-sign.jpg"  "sign" %}
 
 ```html
-<img src="{{site.baseurl}}/images/warning-sign.jpg" alt="sign">
+<img src="img/warning-sign.jpg" alt="sign">
 ```
 
 > `Alt` attribute is missing text from image
 
 ---
 
-{% image_with_class "assets/_common/_img/warning-sign.jpg"  "Image of sign that says WARNING DO NOT READ THIS SIG" %}
+{% image_with_class "assets/accessibility/img/warning-sign.jpg"  "Image of sign that says WARNING DO NOT READ THIS SIG" %}
 
 ```html
-<img src="{{site.baseurl}}/images/warning-sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
+<img src="img/warning-sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
 > Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter, i.e. W-A-R-N-I-N-G.
