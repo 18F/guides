@@ -11,7 +11,7 @@ The content for all of the guides is in the `content` folder, which is organized
 ### Guide-specific files
 If there are images and `include` files that only one guide uses, create a guide-specific folder within the site-wide `asset` or `_includes` folder.
 
-Call a guide-specific include by using `{% include '[guide-folder]/[include-name].html' %}`.
+Call a guide-specific include by using \`{% include '[guide-folder]/[include-name].html' %}`.
 
 Additionally, if a guide contains multiple sections, each section should have its own subfolder in that guide's folder. All pages that are part of a section should be placed into the section subfolder. For example, the "Federal Field Guide" is a section within the De-risking Guide, and "Basic principles" is a page in the "Federal Field Guide". So `basic-principles.md` would be placed in `content/derisking/federal-field-guide/`.
 
