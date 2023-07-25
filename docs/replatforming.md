@@ -84,6 +84,8 @@ We want to avoid commiting the `assetPaths.json` file, but need to keep it out o
 1. Open up `.git/info/exclude`
 2. Add `assetPaths.json` to that file
 
+If that doesn't work, type in `git update-index --assume-unchanged _data/assetPaths.json` into the terminal.
+
 ## Content migration process
 
 The general steps for migrating a guide: 
