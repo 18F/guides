@@ -99,7 +99,7 @@ The general steps for migrating a guide:
 Every pull request will trigger a build on Cloud.gov pages. Additionally, we have a github workflow in place that performs a number of tests on every pull request:
 - Automated accessbility test with`pa11y-ci`
 - HTML validation with `html-validate`
-- Internal and external link checking with `check-html-links`
+- Internal link checking with `check-html-links`
 
 ### Running pa11y
 We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
@@ -126,7 +126,7 @@ _Example:_
 `html-validate` will check for valid HTML. It is configured in `.htmlvalidate.json`.
 
 ### Link checking
-`check-html-links` will test both internal and external links on the site. The internal link check tests whether a target link file exists in the `_site` folder at the expected location. The external link check will test if the link returns a `200` HTTP response. Because the current version of `check-html-link` [does not return an error value](https://github.com/modernweb-dev/rocket/issues/166) when it finds broken links, the npm script for this check includes an additional grep search for a "✅" which would appear only if there are no broken links. With this (hopefully) temporary fix in place, github actions will report a failure if there are broken links.
+`check-html-links` will test both internal and external links on the site. The internal link check tests whether a target link file exists in the `_site` folder at the expected location. Because the current version of `check-html-link` [does not return an error value](https://github.com/modernweb-dev/rocket/issues/166) when it finds broken links, the npm script for this check includes an additional grep search for a "✅" which would appear only if there are no broken links. With this (hopefully) temporary fix in place, github actions will report a failure if there are broken links.
 
 If you'd like to run these locally you could run `npm run test:links`. Note that the external-link test takes significantly longer than the internal link check (around 40 seconds to a minute). If you'd like to only test for internal links you can run `npm run test:links-internal`.
 
