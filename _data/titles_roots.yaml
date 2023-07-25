@@ -23,4 +23,7 @@ engineering:
 product: 
   title: Product Guide
   root: /product/
+ux-guide:
+  title: UX Guide
+  root: /ux-guide/
 

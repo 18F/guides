@@ -31,7 +31,7 @@ The purpose of the debrief meeting is to:
 
 1. **Share and discuss interview evidence and data.** Each interview has a different purpose and goals, and collects data about different aspects of the candidate. When this data is combined, it creates a more full view of the candidate and allows us all to spot discrepancies in our understanding. Do not share your interpretations, thoughts, or judgments about the candidate’s actions until after you have presented the data and you are discussing your scoring.
 
-2. **Create a single, unified summary of a candidate, resolving any discrepancies in interview data.** This summary will be used by the 18F Engineering Hiring team to make a [final selection]({{ '../selection' | url }}).
+2. **Create a single, unified summary of a candidate, resolving any discrepancies in interview data.** This summary will be used by the 18F Engineering Hiring team to make a [final selection]({{ '../selection/' | url }}).
 
 ## Before the meeting
 
