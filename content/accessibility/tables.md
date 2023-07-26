@@ -121,47 +121,7 @@ If a table has text associated with it, ensure the text is programmatically link
     </th>
   </tr>
   <tr>
-    <th headers='name' scope='row'>
-      Walter
-    </th>
-    <td headers='height feet'>6</td>
-    <td headers='height inches'>4</td>
-    <td headers='age'>34</td>
-  </tr>
-  <tr>
-    <th headers='name' scope='row'>
-      Steve
-    </th>
-    <td headers='height feet'>5</td>
-    <td headers='height inches'>4</td>
-    <td headers='age'>30</td>
-  </tr>
-</table>
-
-```html
-<table>
-  <caption>User's Height and Weight</caption>
-  <tr>
-    <th rowspan='2' id='name'>
-      Name
-    </th>
-    <th colspan='2' id='height'>
-      Height
-    </th>
-    <th rowspan='2' id='age'>
-      Age
-    </th>
-  </tr>
-  <tr>
-    <th id='feet' headers='height'>
-      Feet
-    </th>
-    <th id='inches' headers='height'>
-      Inches
-    </th>
-  </tr>
-  <tr>
-    <th headers='name' id='walter'>
+    <th headers='name' scope='row' id='walter'>
       Walter
     </th>
     <td headers='height feet walter'>6</td>
@@ -169,7 +129,47 @@ If a table has text associated with it, ensure the text is programmatically link
     <td headers='age walter'>34</td>
   </tr>
   <tr>
-    <th headers='name' id='steve'>
+    <th headers='name' scope='row' id='steve'>
+      Steve
+    </th>
+    <td headers='height feet steve'>5</td>
+    <td headers='height inches steve'>4</td>
+    <td headers='age steve'>30</td>
+  </tr>
+</table>
+
+```html
+<table>
+  <caption>User’s Height and Weight</caption>
+  <tr>
+    <th rowspan='2' id='name' scope='col'>
+      Name
+    </th>
+    <th colspan='2' id='height' scope='col'>
+      Height
+    </th>
+    <th rowspan='2' id='age' scope='col'>
+      Age
+    </th>
+  </tr>
+  <tr>
+    <th id='feet' headers='height' scope='col'>
+      Feet
+    </th>
+    <th id='inches' headers='height' scope='col'>
+      Inches
+    </th>
+  </tr>
+  <tr>
+    <th headers='name' scope='row' id='walter'>
+      Walter
+    </th>
+    <td headers='height feet walter'>6</td>
+    <td headers='height inches walter'>4</td>
+    <td headers='age walter'>34</td>
+  </tr>
+  <tr>
+    <th headers='name' scope='row' id='steve'>
       Steve
     </th>
     <td headers='height feet steve'>5</td>

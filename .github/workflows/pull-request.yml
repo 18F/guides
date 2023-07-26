@@ -30,21 +30,39 @@ jobs:
           ELEVENTY_ENV: production
         run: npm run build
 
-# Disabling for now. Reenable when the project is ready.
+  pa11y-scan:
+    # Pinned to 20.04 because pa11y-ci fails to run on 22.04
+    # See the discussion on https://github.com/pa11y/pa11y-ci/issues/198
+    # and https://github.com/pa11y/pa11y/issues/651
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '17.x'
+      - name: Install node dependencies
+        run: npm install
+      - name: Refresh assets
+        run: npm run assets:refresh
+      - name: Accessibility scan
+        run: npm run test:pa11y-ci
 
-#  validate_html:
-#    needs: [build]
-#    name: validate html
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/cache/restore@v3
-#        with:
-#          key: ${{ needs.build.outputs.cache_key }}
-#          path: .
-#      - uses: actions/setup-node@v3
-#        with:
-#          node-version: 18
-#      - run: npm run test:html-validation
+  validate_html:
+    needs: [build]
+    name: validate html
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache/restore@v3
+        with:
+          key: ${{ needs.build.outputs.cache_key }}
+          path: .
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm run test:html-validation
+
+# Disabling for now. Reenable when the project is ready.
 
 #  validate_internal_links:
 #    needs: [build]

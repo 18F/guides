@@ -40,3 +40,55 @@ content-guide:
     url: /content-guide/our-approach/
   - name: Our style
     url: /content-guide/our-style/
+
+engineering:
+  - name: Home
+    url: /engineering/
+  - name: About this guide
+    url: /engineering/about/
+  - name: Our approach
+    url: /engineering/our-approach/
+  - name: Tools
+    url: /engineering/tools/
+  - name: Language & Runtimes
+    url: /engineering/languages-runtimes/
+  - name: Security
+    url: /engineering/security/
+
+eng-hiring:
+  - name: Overview
+    url: /eng-hiring/
+  - name: 1. Resume review
+    url: /eng-hiring/resume-review/
+  - name: 2. Phone screen
+    url: /eng-hiring/phone-screens/
+  - name: 3. Technical pre-work
+    url: /eng-hiring/pre-work/
+  - name: 4. Interviews
+    children:
+      - name: Overview
+        url: /eng-hiring/interviews/
+      - name: Core values interview
+        url: /eng-hiring/interviews/core-values/
+      - name: Technical interview
+        url: /eng-hiring/interviews/technical/
+      - name: Code review interview
+        url: /eng-hiring/interviews/code-review/
+      - name: Wrap-up interview
+        url: /eng-hiring/interviews/wrap-up/
+  - name: 5. Debrief
+    url: /eng-hiring/debrief/
+  - name: 6. Final selection
+    url: /eng-hiring/selection/
+
+product:
+  - name: About this guide
+    url: /product/
+  - name: Discover the current state
+    url: /product/discover/
+  - name: Define the future state
+    url: /product/define/
+  - name: Deliver the “right way”
+    url: /product/deliver/
+  - name: Enable partners
+    url: /product/partners/
