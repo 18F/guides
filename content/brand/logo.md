@@ -15,11 +15,11 @@ Logo variations (PNG, SVG)
 
 {% image_with_class "assets/brand/img/18F-Logo-M.png" ".display-logo" "" %}
 
-[Download logo]({{"/assets/brand/dist/18F_Logo.zip"}}){:.usa-button }
+[Download logo]({{"/assets/brand/dist/18F_Logo.zip"}}){.usa-button}
 
 ## Guidelines
 
-*	**Do** use the black version of the logo over a white background as your default. Bright blue (#00cfff) and white do not have enough contrast to meet accessibility requirements for low-vision users. Even though logos can be an exception to this rule, we prefer to follow best practices, and use black as our primary logo color. The bright blue version of the logo should only be used if you are using a dark page background. You can see an example of this in our [presentation templates]({{ site.baseurl }}/templates/).
+*	**Do** use the black version of the logo over a white background as your default. Bright blue (#00cfff) and white do not have enough contrast to meet accessibility requirements for low-vision users. Even though logos can be an exception to this rule, we prefer to follow best practices, and use black as our primary logo color. The bright blue version of the logo should only be used if you are using a dark page background. You can see an example of this in our [presentation templates]({{ "/brand/templates/" | url }}).
 
 *	**Do** keep adequate white space around the logo. At any size, there should be half a logo&rsquo;s-width of white space between the logo and any other object or border.
 

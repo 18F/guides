@@ -14,6 +14,7 @@ eleventyNavigation:
 
 The primary font is **Helvetica Neue**, in bold and regular weights.
 We use one typeface to keep things simple, and use different font sizes and weights to create hierarchy.
+
 Helvetica Neue is a system font on all Apple devices, so you don't need to download or install anything. On Windows devices, if Helvetica Neue is not available, use Arial as a replacement.
 
 <div class="grid-row grid-gap typography-specimen">

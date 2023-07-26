@@ -27,7 +27,7 @@ palette:
 
 For Adobe, Sketch, and Mac applications
 
-[Download color palettes]({{ "/assets/brand/dist/18F_Color_Palette.zip" | url }}){:.usa-button}
+[Download color palettes]({{ "/assets/brand/dist/18F_Color_Palette.zip" | url }}){.usa-button}
 
 <div class="usa-grid-full usa-color-row usa-primary-color-section">
   {% for color in palette %}

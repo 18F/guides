@@ -1,11 +1,12 @@
-const { DateTime } = require('luxon');
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
+const { readableDate, htmlDateString, head, min, filterTagList } = require("./config/filters");
 const { headingLinks } = require("./config/headingLinks");
+const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -28,8 +29,8 @@ module.exports = function (config) {
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
   config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
 
-  // Download folders
-  // TODO: Is this the right way to configure it?
+  // Set download paths
+  // Place files for download in assets/{guide}/dist/{filename.ext}
   config.addPassthroughCopy("./assets/**/dist/*");
 
   // Add plugins
@@ -56,90 +57,18 @@ module.exports = function (config) {
   // Allow yaml to be used in the _data dir
   config.addDataExtension("yaml", contents => yaml.load(contents));
 
-  config.addFilter('contrastRatio', function(color1, color2) {
-    return contrastRatio(color1, color2);
-  });
-
-  // TODO: Where can we organize these functions so they're not in the main eleventy.js file?
-  function contrastRatio(hex1, hex2) {
-    lum1 = luminance(hex1)
-    lum2 = luminance(hex2)
-    if (lum1 >= lum2) {
-      lighter = lum1;
-      darker = lum2;
-    } else {
-      darker = lum1;
-      lighter = lum2;
-    }
-    return (lighter + 0.05) / (darker + 0.05)
-  }
-
-  function luminance(hex) {
-    const [r8, g8, b8] = hexToRgb(hex)
-    const [r, g, b] = [r8, g8, b8].map((component) => {
-      const value = component / 255;
-      return value <= 0.03928 ? value / 12.92 : Math.pow((value + 0.055) / 1.055, 2.4);
-    });
-    return r * 0.2126 + g * 0.7152 + b * 0.0722;
-  };
-
-  function hexToRgb(hex) {
-    hex = hex.slice(1);
-    const value = parseInt(hex, 16);
-    const r = (value >> 16) & 255;
-    const g = (value >> 8) & 255;
-    const b = value & 255;
-
-    return [r, g, b];
-  };
-
-  config.addFilter('humanReadableContrastRatio', function(ratio) {
-    // SMELL: I can't stand how this is coded.
-    if (ratio < 4) {
-      digits = 1
-    } else if (ratio < 5) {
-      digits = 2
-    } else {
-      digits = 0
-    }
-    `${ratio.toFixed(digits)}:1`
-  });
-
-  config.addFilter('readableDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-      'dd LLL yyyy'
-    );
-  });
-
+  // Filters
+  // Add filter function defintions to config/filters.js, then add the functions
+  // to the import statement above and define like the other filters.
+  config.addFilter('readableDate', readableDate);
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  config.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
-  });
-
-  // Get the first `n` elements of a collection.
-  config.addFilter('head', (array, n) => {
-    if (!Array.isArray(array) || array.length === 0) {
-      return [];
-    }
-    if (n < 0) {
-      return array.slice(n);
-    }
-
-    return array.slice(0, n);
-  });
-
-  // Return the smallest number argument
-  config.addFilter('min', (...numbers) => {
-    return Math.min.apply(null, numbers);
-  });
-
-  function filterTagList(tags) {
-    return (tags || []).filter(
-      (tag) => ['all', 'nav', 'post', 'posts'].indexOf(tag) === -1
-    );
-  }
-
+  config.addFilter('htmlDateString', htmlDateString);
+  config.addFilter('head', head); // Get the first `n` elements of a collection.
+  config.addFilter('min', min); // Return the smallest number argument
   config.addFilter('filterTagList', filterTagList);
+  // Color contrast checkers for the color matrix in the Brand guide
+  config.addFilter('contrastRatio', contrastRatio);
+  config.addFilter('humanReadableContrastRatio', humanReadableContrastRatio);
 
   // Create an array of all tags
   config.addCollection('tagList', function (collection) {
@@ -151,7 +80,7 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
-  // Customize Markdown library and settings:
+  // Customize Markdown library and settings
   let markdownLibrary = markdownIt({
     html: true,
     breaks: true,

@@ -82,7 +82,8 @@ The general steps for migrating a guide:
       order: <#>
       title: <Sidenav-title>
     ```
-6. Celebrate! Or edit this documentation to update any steps that may be missing.
+6. If your guide offers any downloads, add the files for download to `/assets/{guide}/dist/{filename}`, and set the download links to point to the same path.
+7. Celebrate! Or edit this documentation to update any steps that may be missing.
 
 ## Adding new node modules
 

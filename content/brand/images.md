@@ -15,14 +15,14 @@ A collection of images containing the 18F logo that can be used as virtual backg
 
 {% image_with_class "assets/brand/img/18F_VideoBG_6Illo.png" "" "" %}
 
-[Download virtual backgrounds]({{ "/assets/brand/dist/18F_VideoBackgrounds.zip" | url }}){:.usa-button }
+[Download virtual backgrounds]({{ "/assets/brand/dist/18F_VideoBackgrounds.zip" | url }}){.usa-button}
 
 ## Desktop Art
 A variety of wallpaper images for MacBooks and Apple Displays.
 
 {% image_with_class "assets/brand/img/18FDesktop-Preview.png" "" "" %}
 
-[Download desktop art]({{ "/assets/brand/dist/18F_Desktop_Art.zip" | url }}){:.usa-button }
+[Download desktop art]({{ "/assets/brand/dist/18F_Desktop_Art.zip" | url }}){.usa-button}
 
 ### Instructions
 1. In **System Preferences**, open **Desktop &amp; Screensaver**.
