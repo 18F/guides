@@ -13,7 +13,7 @@ sidenav: true
 sticky_sidenav: true
 subnav:
   - text: Reviewing what’s already known
-    href: '#reviewing-whats-already-known'
+    href: "#reviewing-what's-already-known"
   - text: Designing your research sessions
     href: '#designing-your-research-sessions'
   - text: Doing a practice session
