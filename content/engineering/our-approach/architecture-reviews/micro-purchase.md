@@ -115,7 +115,7 @@ for instance, a NullBid object with similar methods to the Bid model is
 returned when the auction’s winning bid is not available. Do you notice the
 trend? 
 
-![Objects playing the role of Controller, Service, Validator, and Rule]({{site.baseurl}}/architecture-reviews/micro-purchase/roles.png)
+{% image_with_class "assets/engineering/img/micro-purchase/roles.png"  "Objects playing the role of Controller, Service, Validator, and Rule" %}
 
 ## Population control
 As with any design decision, the PORO approach has trade-offs. While we gain
@@ -207,7 +207,7 @@ solution? Service Objects! Each interface (web UI, API versions) call into
 shared Service Objects (which contains all of the shared code); the controller
 just needs to convert the input/output as appropriate.
 
-![Both API and HTML controllers use PlaceBid Service]({{site.baseurl}}/architecture-reviews/micro-purchase/service.png)
+{% image_with_class "assets/engineering/img/micro-purchase/service.png"  "Both API and HTML controllers use PlaceBid Service" %}
 
 ## Other applications
 While we didn’t want to create a single-page app, we knew we’d leverage
