@@ -3,7 +3,6 @@ title: Document with Sidenav
 permalink: /document-with-sidenav/
 layout: layouts/page
 sidenav: true
-sticky_sidenav: true
 ---
 
 # Section heading (h1)

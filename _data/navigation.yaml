@@ -13,20 +13,6 @@ agile:
   - name: More 18F guides
     url: https://18f.gsa.gov/guides/
 
-engineering:
-  - name: Home
-    url: /engineering/
-  - name: About this guide
-    url: /engineering/about/
-  - name: Our approach
-    url: /engineering/our-approach/
-  - name: Tools
-    url: /engineering/tools/
-  - name: Language & Runtimes
-    url: /engineering/languages-runtimes/
-  - name: Security
-    url: /engineering/security/
-
 content-guide:
   - name: About this guide
     url: /content-guide/
@@ -72,4 +58,3 @@ product:
     url: /product/deliver/
   - name: Enable partners
     url: /product/partners/
-
