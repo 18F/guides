@@ -15,7 +15,7 @@ Logo variations (PNG, SVG)
 
 {% image_with_class "assets/brand/img/18F-Logo-M.png" ".display-logo" "" %}
 
-[Download logo]({{"/assets/brand/dist/18F_Logo.zip"}}){.usa-button}
+[Download logo]({{"/assets/brand/dist/18F_Logo.zip" | url }}){.usa-button}
 
 ## Guidelines
 
