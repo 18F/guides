@@ -3,6 +3,7 @@ version: "3"
 services:
   guides:
     build: ./
+    platform: linux/amd64
     working_dir: /src
     volumes:
       - ./:/src
