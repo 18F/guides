@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
     parent: ux-guide-research
     key: ux-guide-do
-    order: 3
+    order: 4
     title: Do
 sidenav: true
 sticky_sidenav: true

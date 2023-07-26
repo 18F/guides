@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
     parent: ux-guide-research
     key: ux-guide-plan
-    order: 2
+    order: 3
     title: Plan
 sidenav: true
 sticky_sidenav: true

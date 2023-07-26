@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
     parent: ux-guide-research
     key: ux-guide-actionable
-    order: 4
+    order: 5
     title: Make research actionable
 sidenav: true
 sticky_sidenav: true

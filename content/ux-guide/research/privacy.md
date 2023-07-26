@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
     parent: ux-guide-research
     key: ux-guide-privacy
-    order: 6
+    order: 7
     title: Privacy
 sidenav: true
 sticky_sidenav: true

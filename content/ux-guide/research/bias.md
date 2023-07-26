@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
     parent: ux-guide-research
     key: ux-guide-bias
-    order: 7
+    order: 8
     title: Bias
 sidenav: true
 sticky_sidenav: true

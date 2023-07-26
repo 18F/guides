@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
     parent: ux-guide-research
     key: ux-guide-legal
-    order: 5
+    order: 6
     title: Legal
 sidenav: true
 sticky_sidenav: true
