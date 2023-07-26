@@ -21,13 +21,16 @@ subnav:
     href: "#references"
 description: "How 18F user experience (UX) designers improve interactions between our government and the public"
 ---
+{% comment %}
+    Need to update site.baseurls after replatforming all the pages
+{% endcomment %}
 
 18F designers join cross-functional teams to improve interactions between government agencies and the people they serve. The 18F UX Guide, or User Experience Guide, helps us get this job done. It’s a starting point for design research at 18F: doing it, discussing it, and ensuring it’s done to a consistent level of quality. Throughout this guide we use “design research” as a substitute and broader  term for “user research” to show the focus of our research work is making designs better for people.
 
 
 ## What this guide is
 
-Like [our 18F Content Guide]({{ '../../content-guide/' | url }}), the 18F User Experience guide is written for our internal designers, but we hope it’s a useful reference for anyone. Our working assumptions for this guide include that 18F designers are expected to possess, among other things:
+Like [our 18F Content Guide]({{ '../../../content-guide/' | url }}), the 18F User Experience guide is written for our internal designers, but we hope it’s a useful reference for anyone. Our working assumptions for this guide include that 18F designers are expected to possess, among other things:
 
 * design research skills
 * the ability to skillfully navigate organizational relationships
