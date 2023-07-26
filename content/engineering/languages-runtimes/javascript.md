@@ -234,8 +234,7 @@ editor and build system, as described at
 [http://eslint.org/docs/user-guide/integrations](http://eslint.org/docs/user-guide/integrations).
 Using an eslint plugin with your editor makes it easier to quickly see
 non-conforming lines of code on the spot, as shown below:
-
-![Atom eslint plugin screenshot]({{ site.baseurl }}/javascript/atom-eslint-example.png)
+{% image_with_class "assets/engineering/img/javascript/atom-eslint-example.png"  "Atom eslint plugin screenshot" %}
 
 ## Why both?
 

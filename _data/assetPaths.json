@@ -1,14 +1,8 @@
 {
-  "admi.js": "/assets/_common/js/admin.js",
-  "ap.js": "/assets/_common/js/app.js",
-  "flashin.js": "/assets/_common/js/flashing.js",
-  "keyboard.js": "/assets/_common/js/keyboard-access.js",
-  "time.js": "/assets/_common/js/time-outs.js",
   "admin.js": "/assets/js/admin-VORXAOYD.js",
   "admin.map": "/assets/js/admin-VORXAOYD.js.map",
   "app.js": "/assets/js/app-YXRMX4J5.js",
   "app.map": "/assets/js/app-YXRMX4J5.js.map",
-  "uswds.js": "/assets/js/uswds-init.js",
   "styles.css": "/assets/styles/styles-44B5HTBZ.css",
   "styles.map": "/assets/styles/styles-44B5HTBZ.css.map"
 }
