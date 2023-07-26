@@ -13,7 +13,7 @@ sidenav: true
 sticky_sidenav: true
 subnav:
   - text: Personally Identifiable Information (PII)
-    href: '#personally-identifiable-information-pii'
+    href: '#personally-identifiable-information-(pii)'
   - text: Guidelines
     href: '#guidelines'
   - text: Additional reading
