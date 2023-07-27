@@ -130,3 +130,5 @@ _Example:_
 
 If you'd like to run these locally you could run `npm run test:links`. Note that the external-link test takes significantly longer than the internal link check (around 40 seconds to a minute). If you'd like to only test for internal links you can run `npm run test:links-internal`.
 
+If there is a link that is still to be deteremined as we are moving guides, you can use '/TODO/' as the URL. This will visually highlight the link as TODO, and the link will be ignored in the link test.
+
