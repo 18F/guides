@@ -12,9 +12,9 @@ eleventyNavigation:
 sidenav: true
 sticky_sidenav: true
 subnav:
-  - text: Lean Design at 18F
+  - text: Lean design at 18F
     href: '#lean-design-at-18f'
-  - text: Lean Design Principles
+  - text: Lean design principles
     href: '#lean-design-principles'
   - text: Acknowledgements
     href: '#acknowledgements'
@@ -26,7 +26,7 @@ subnav:
 18F designers take a collaborative, outcome-focused approach to our work. We manage risk through continuous learning. Each new iteration builds on the people-validated research of the previous iteration. Incrementally identifying and challenging assumptions helps keep the cost of change low. The Lean UX process, which is described below, incorporates ongoing research into each phase of work and fits nicely into the rhythms of agile product management and development processes (scrum, kanban, extreme programming, etc.) and helps to inform larger investments and areas of opportunity within the service delivery itself. 
 
 
-## Lean Design at 18F
+## Lean design at 18F
 
 18F engagements generally transition between two phases: [Path Analysis](https://18f.gsa.gov/how-we-work/#path-analysis) (PA), during which the problem is framed, and Experiment & Iterate, when solutions are explored. The first stage of any effort is to do research and identify the highest-impact opportunity areas.
 
@@ -49,7 +49,7 @@ Problem statements can be expressed in this format:
 You can read more about defining problems in the [18F Product Guide](https://product-guide.18f.gov/define/problem/#define-the-problem).
 
 
-### Identifying Assumptions
+### Identifying assumptions
 
 An iterative approach requires that we make assumptions based on the information available to us at any given moment.
 
@@ -89,7 +89,7 @@ We validate or invalidate our hypotheses through experimentation. These experime
 The application of these experiments brings us back to the research phase and feeds into another iteration of testing and learning. Lean UX can be used to identify and test the riskiest assumptions in each iteration. This process of ongoing learning allows our teams to be truly agile and responsive to our emerging understanding of the problems we are solving for our users. The ability to continually test and learn and adjust our approach increases our teams’ efficiency and effectiveness while managing risk for our partners.
 
 
-## Lean Design Principles
+## Lean design principles
 
 In addition to our team principles, the following principles from Lean Design are especially important in our work:
 

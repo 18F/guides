@@ -331,7 +331,7 @@ Note: If there are two notetakers available for a session, consider having one p
 
 Content audits frequently use **spreadsheet notes:** these are used to track insights and quality of existing content.
 
-### Remote Observer Guidelines
+### Remote observer guidelines
 
 Participating in research as an observer can be invaluable for understanding user needs and product requirements, whether you’re a product manager, engineer, or stakeholder. Before you take part, review the guidelines for how to participate in research as an observer.
 
