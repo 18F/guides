@@ -1,7 +1,7 @@
 @use 'uswds-core' as * ;
 
 // Highlight TODO links to make them visually standout
-a[href="/TODO/"] {
+a[href*="/TODO/"] {
   color: color('blue-80v') !important;
   background-color: color('gold-10v') !important;
   padding: 0 units(0.5);
