@@ -37,3 +37,10 @@ pre[class*="language-"] {
 .token.cdata {
   color: color('base-darker');
 }
+
+.token.regex,
+.token.important,
+.token.variable { 
+  color: color('orange-60v');
+}
+
