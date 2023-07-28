@@ -17,7 +17,7 @@ eleventyNavigation:
 * [Why do Incident Response Drills?](#why-do-incident-response-drills)
 * [How to Build Incident Response Drills](#how-to-run-an-incident-response-drill)
 * [Example Incident Response Drills](#example-incident-response-drills)
-* [Using this Drill as Part of Your ATO](#congratulations-you-accidentally-did-compliance-too)
+* [Using this Drill as Part of Your ATO](#congratulations-you-accidentally-did-compliance-too!)
 
 ## Why do Incident Response Drills?
 
@@ -80,12 +80,12 @@ Send an email recapping the drill to all stakeholders. Include the outcomes of t
 
 Scenarios worth practicing for a web app include:
 
-* [Scenario: A Deploy Goes Wrong](#scenario-a-deploy-goes-wrong)
-* [Scenario: API Keys or Passwords Exposed](#scenario-api-keys-or-passwords-exposed)
-* [Scenario: Compromised Account](#scenario-compromised-account)
-* [Scenario: PII Exposed](#scenario-pii-exposed)
-* [Scenario: Oops, I Deleted the Database](#scenario-oops-i-deleted-the-database)
-* [Scenario: Oops, I Erased the S3 Bucket](#scenario-oops-i-erased-the-s3-bucket)
+* [Scenario: A Deploy Goes Wrong](#scenario:-a-deploy-goes-wrong)
+* [Scenario: API Keys or Passwords Exposed](#scenario:-api-keys-or-passwords-exposed)
+* [Scenario: Compromised Account](#scenario:-compromised-account)
+* [Scenario: PII Exposed](#scenario:-pii-exposed)
+* [Scenario: Oops, I Deleted the Database](#scenario:-oops-i-deleted-the-database)
+* [Scenario: Oops, I Erased the S3 Bucket](#scenario:-oops-i-erased-the-s3-bucket)
 
 You don't need to drill each and every one of these scenarios each time, but they are good to plan for.
 
