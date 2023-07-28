@@ -89,24 +89,39 @@ If that doesn't work, type in `git update-index --assume-unchanged _data/assetPa
 
 ## Content migration process
 
-The general steps for migrating a guide: 
+The general steps for migrating a guide:
 1. Add the guide to the `_data/titles_roots.yaml` file with the guide’s tag, name, and root (See [Guide titles and subdirectories](#guide-titles-and-subdirectories) for an example).
 2. Add the primary navigation for the guide to `_data/navigation.yaml`.
-4. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
-5. Copy over the markdown file for the guide into the appropriate subfolder.
-6. Open up the markdown file to edit the front matter:
+3. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
+4. Copy over the markdown file for the guide into the appropriate subfolder.
+5. Open up the markdown file to edit the front matter:
     1. Change the layout to `layout/page` or whatever layout is most appropriate.
     2. Add `tags: <collection-name>` where <collection-name> is the guide’s tag.
-    2. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<section-name>/<page-name>`. Try to match the permalink of the original markdown file.
-    3. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) : 
+    3. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<section-name>/<page-name>`. Try to match the permalink of the original markdown file.
+    4. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) :
     ```
-    eleventyNavigation: 
+    eleventyNavigation:
       parent: <collection-name>
       key: <unique-key>
       order: <#>
       title: <Sidenav-title>
     ```
+6. If your guide offers any downloads, add the files for download to `/assets/{guide}/dist/{filename}`, and set the download links to point to the same path.
 7. Celebrate! Or edit this documentation to update any steps that may be missing.
+
+## Adding new node modules
+
+It may turn out that you need to install an npm package to replicate functionality in the old guides. Here's how to do it!
+
+First, before your write any code or configuration that relies on the package, install the package via Docker Compose while the services are running:
+
+```sh
+# If you haven't already
+$ docker compose up
+
+# In another tab
+$ docker compose exec guides npm install {your options here}
+```
 
 ## CI/CD
 Every pull request will trigger a build on Cloud.gov pages. Additionally, we have a github workflow in place that performs a number of tests on every pull request:
@@ -131,8 +146,8 @@ In certain cases we may need `pa11y-ci` to ignore an element. For example, in th
 
 _Example:_
 
-```
-<span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails. </span>
+```html
+<span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails.</span>
 ```
 
 ### HTML Validation

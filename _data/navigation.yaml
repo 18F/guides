@@ -13,6 +13,34 @@ agile:
   - name: More 18F guides
     url: https://18f.gsa.gov/guides/
 
+brand:
+  - name: Introduction
+    url: /brand/
+  - name: Logo
+    url: /brand/logo/
+  - name: Color palette
+    url: /brand/color-palette/
+  - name: Typography
+    url: /brand/typography/
+  - name: Icons
+    url: /brand/icons/
+  - name: Templates
+    url: /brand/templates/
+  - name: Images
+    url: /brand/images/
+  - name: Principles
+    url: /brand/principles/
+  - name: More 18F guides
+    url: https://18f.gsa.gov/guides/
+
+content-guide:
+  - name: About this guide
+    url: /content-guide/
+  - name: Our approach
+    url: /content-guide/our-approach/
+  - name: Our style
+    url: /content-guide/our-style/
+
 engineering:
   - name: Home
     url: /engineering/
@@ -26,14 +54,6 @@ engineering:
     url: /engineering/languages-runtimes/
   - name: Security
     url: /engineering/security/
-
-content-guide:
-  - name: About this guide
-    url: /content-guide/
-  - name: Our approach
-    url: /content-guide/our-approach/
-  - name: Our style
-    url: /content-guide/our-style/
 
 eng-hiring:
   - name: Overview
@@ -72,4 +92,3 @@ product:
     url: /product/deliver/
   - name: Enable partners
     url: /product/partners/
-
