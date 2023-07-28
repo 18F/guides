@@ -1,17 +1,20 @@
 # Title for each guide that will appear in the header, as well as the root subdirectory for the guide
-default: 
+default:
   title: 18F Approaches
   root: /
-accessibility: 
+accessibility:
   title: Accessibility
   root: /accessibility/
-agile: 
+agile:
   title: Agile
   root: /agile/
-content-guide: 
+brand:
+  title: Visual identity
+  root: /brand/
+content-guide:
   title: Content Guide
   root: /content-guide/
-derisking: 
+derisking:
   title: De-risking Guide
   root: /derisking/
 eng-hiring:
