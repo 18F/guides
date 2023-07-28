@@ -42,3 +42,30 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
   }
 }
+
+
+// usa-section overrides
+.hero .section__heading--white {
+  color: color('white');
+}
+
+// accent button
+a.usa-button--accent {
+  color: color('primary-darker');
+  background-color: color('accent-cool');
+
+  &:visited {
+    color: color('primary-darker');
+    background-color: inherit;
+  }
+
+  &:focus,
+  &:hover {
+    color: color('primary-darker');
+    background-color: color('accent-cool-lighter');
+  }
+
+  &:active {
+    background-color: color('accent-cool-lightest');
+  }
+}
