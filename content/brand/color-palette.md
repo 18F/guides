@@ -65,4 +65,4 @@ We recommend using a higher standard when using the 18F palette:
 
 Below is an outline of accessible 18F color combinations.
 
-{% include './_includes/color-matrix.html' %}
+{% include 'brand/color-matrix.html' %}
