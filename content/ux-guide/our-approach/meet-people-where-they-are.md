@@ -139,7 +139,7 @@ As our work moves closer to production, our partners may ask us to help them obt
 - Our partner agency’s existing policies around account management
 - Our partner’s use of tools authorized government-wide via the [FedRAMP](https://marketplace.fedramp.gov/) authorization program.
 
-We discuss privacy norms and relevant information practices to ensure mutual understanding of essential concepts and identify differences in each agency's approaches. However, our norms are not our partner’s norms; and just because GSA’s Privacy Office sanctions our design research program doesn’t mean that our partner agency’s privacy office will do the same (see [legal]({{site.baseurl}}/research/legal/) and [privacy]({{site.baseurl}}/research/privacy/)). As we conduct design research on behalf of our agency partners, we may need to prompt conversation between the following GSA offices and their counterparts at our partner agencies:
+We discuss privacy norms and relevant information practices to ensure mutual understanding of essential concepts and identify differences in each agency's approaches. However, our norms are not our partner’s norms; and just because GSA’s Privacy Office sanctions our design research program doesn’t mean that our partner agency’s privacy office will do the same (see [legal]({{ '../../research/legal/' | url }}) and [privacy]({{ '../../research/privacy/' | url }})). As we conduct design research on behalf of our agency partners, we may need to prompt conversation between the following GSA offices and their counterparts at our partner agencies:
 
 - Privacy office
 - Office of General Counsel
@@ -154,7 +154,7 @@ Practicing user-centered design in government is complex. In some cases, we can 
 As we collaboratively design with partners, we should ask:
 
 - Which policies will shape our design? (See [Digital.gov's list of requirements for federal government websites](https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/))
-- Which policies will shape our design process? (Are we considering a research design that will require approval from our partner’s Paperwork Reduction Act Desk Officer? See [legal](https://ux-guide.18f.gov/research/legal/) page for considerations.)
+- Which policies will shape our design process? (Are we considering a research design that will require approval from our partner’s Paperwork Reduction Act Desk Officer? See [legal]({{ '../../research/legal/' | url }}) page for considerations.)
 - Whose permission will be required if we need a policy exception?
 
 We recognize our partners are working to deliver their missions in a complex ecosystem of regulatory, organizational, and technological policies and constraints. Taking the time upfront to agree on tools and practices helps set the foundation for a strong collaboration.

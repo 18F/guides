@@ -35,7 +35,7 @@ Design research can feel overwhelming, even to people who’ve done it before! C
 ## What it is
 Essentially, when we say design research, we mean the process of thoughtful exploration and learning with people to inform decisions. Design research explores possibilities, tests assumptions, and reduces risk by actively and systematically engaging with the world. It includes qualitative and quantitative methods, investigating tools and systems, and interacting with members of the public.
 
-All 18F teams do design research. [Design involves continuous decision-making]({{site.baseurl}}/our-approach/defining-design), and those decisions are made better when they’re informed by people's perspectives. As a result, we’re committed to continuous research. Rather than seeing designed products or services themselves as the goal, we view the products or services we’re designing as the result of our continued effort to identify, understand, and address people's needs.
+All 18F teams do design research. [Design involves continuous decision-making]({{ '../../our-approach/defining-design/' | url }}), and those decisions are made better when they’re informed by people's perspectives. As a result, we’re committed to continuous research. Rather than seeing designed products or services themselves as the goal, we view the products or services we’re designing as the result of our continued effort to identify, understand, and address people's needs.
 
 
 ## A team activity
@@ -99,9 +99,9 @@ Evaluative research helps you ask:
 
 The following steps are repeated as necessary throughout each 18F engagement:
 
-1. [Plan]({{site.baseurl}}/research/plan). Agree on the questions you want answered, the methods you’ll employ, how the team will contribute, etc. Decide who should participate.
-2. [Do]({{site.baseurl}}/research/do). Design and practice the research sessions. Correspond and engage with participants. Debrief after each session.
-3. [Make research actionable]({{site.baseurl}}/research/make-research-actionable). Review the data you’ve collected, look for patterns, write a summary of what you’ve learned, share it broadly, and delete recordings afterward.
+1. [Plan]({{ '../../research/plan/' | url }}). Agree on the questions you want answered, the methods you’ll employ, how the team will contribute, etc. Decide who should participate.
+2. [Do]({{ '../../research/do/' | url }}). Design and practice the research sessions. Correspond and engage with participants. Debrief after each session.
+3. [Make research actionable]({{ '../../research/make-research-actionable/' | url }}). Review the data you’ve collected, look for patterns, write a summary of what you’ve learned, share it broadly, and delete recordings afterward.
 
 
 ## The environment
@@ -135,4 +135,4 @@ We prefer in-person research when we want to better understand the environment i
 
   Note: Because some of our work involves creating solutions that are used by government employees, our users are not always the public. Avoid relying on stakeholders to speak on behalf of users, or expecting users to be aware of your stakeholders’ organizational constraints.
 - **Make time for “research operations.”** Continuous research requires ongoing attention to planning, participant recruiting, informing consent, managing data, and more, in addition to time spent on research itself.
-- **Review government-specific considerations.** Government-led research must account for [legal]({{site.baseurl}}/research/legal), [bias]({{site.baseurl}}/research/bias), [ethical]({{site.baseurl}}/research/ethics), and [privacy]({{site.baseurl}}/research/privacy) considerations. Read these documents and engage your team in conversations about how you’ll account for them.
+- **Review government-specific considerations.** Government-led research must account for [legal]({{ '../../research/legal/' | url }}), [bias]({{ '../../research/bias/' | url }}), [ethical]({{ '../../research/ethics/' | url }}), and [privacy]({{ '../../research/privacy/' | url }}) considerations. Read these documents and engage your team in conversations about how you’ll account for them.

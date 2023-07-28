@@ -43,7 +43,7 @@ At 18F this generally involves:
 3. [Affinity diagramming [18F design methods]](https://methods.18f.gov/decide/affinity-mapping/) to identify emergent themes, patterns, and insights
 4. Developing a shared understanding as a group
 
-Making meaning always happens in relation to the research questions and/or problem statements identified during [research planning]({{site.baseurl}}/research/plan). Some questions you might ask:
+Making meaning always happens in relation to the research questions and/or problem statements identified during [research planning]({{ '../../research/plan/' | url }}). Some questions you might ask:
 
 - What notable experiences did people share? What were outliers?
 - What is the root cause of those experiences?
@@ -64,14 +64,14 @@ Finding patterns in research is a great time to involve partners and team member
 
 - Create an inclusive team where everyone’s feedback is heard. 
 - Build consensus within the team with frequent check-ins and showing how data turns into insights.
-- Correct for[bias]({{site.baseurl}}/research/bias) by ensuring research insights aren’t influenced by individual preferences and including reviews from multiple perspectives.
+- Correct for [bias]({{ '../../research/bias/' | url }}) by ensuring research insights aren’t influenced by individual preferences and including reviews from multiple perspectives.
 - Increase the value of research for your teammates by making research visible and involving them in the review of data.
 
-When inviting partners, think about how exposed they were to the research process and set clear expectations on how you would like them to engage. Be mindful of power dynamics and your [ethical obligation]({{site.baseurl}}/research/ethics) to respect the people who participated in your research. For example, you might want to be careful when involving a CIO in analyzing data you collected while interviewing their employees.
+When inviting partners, think about how exposed they were to the research process and set clear expectations on how you would like them to engage. Be mindful of power dynamics and your [ethical obligation]({{ '../../research/ethics/' | url }}) to respect the people who participated in your research. For example, you might want to be careful when involving a CIO in analyzing data you collected while interviewing their employees.
 
 ### De-identifying data
 
-Before conducting shared analysis or synthesis, make sure that any quote could be attributable to multiple participants so no one person can be identified as the person that said it. This is especially important if your stakeholders know your participants or you are working with people from [underserved communities]({{site.baseurl}}/research/plan/#recruitment-within-underserved-communities) who might be negatively impacted if they can be identified. For example, you might want to be careful when involving a CIO in analyzing data you collected while interviewing their employees.
+Before conducting shared analysis or synthesis, make sure that any quote could be attributable to multiple participants so no one person can be identified as the person that said it. This is especially important if your stakeholders know your participants or you are working with people from [underserved communities]({{ '../../research/plan/#recruitment-within-underserved-communities' | url }}) who might be negatively impacted if they can be identified. For example, you might want to be careful when involving a CIO in analyzing data you collected while interviewing their employees.
 
 ### Choosing methods
 
@@ -123,7 +123,7 @@ After each round of research, the whole team should identify how the research fi
 Artifacts are most useful when you act on them. For example, a current-state service blueprint could highlight the lengthy amount of time it takes for the public to receive certain benefits, while also highlighting the constraints that staff experience processing applications. What do you do next with these learnings? Here are some activities your team could do to act on these opportunity areas: 
 - __Develop user stories:__ A user story is one or more sentences in the language of the user that captures what a user needs to accomplish. You can write it like this: “As a [X], I need [Y] so that I (can) [benefit].” Based on the learnings from the service blueprint, you can create user stories for the public and staff that can inspire recommendations. These user stories can be incorporated into sprint planning at the ticket level, where you can also link back to the service blueprint that inspired these user stories. 
 - __Conduct a prioritization exercise:__ Your team may have a variety of ideas to reduce the time it takes to deliver benefits for both the public and staff. You can set up a two-by-two matrix on a virtual or physical whiteboard, with “level of effort” on the x-axis and “level of impact” on the y-axis. With input from your team’s product owner and any teams impacted by these ideas, like a representative from the staff processing benefit applications, you can plot the ideas from your service blueprint on this matrix. During this exercise, it is important to consider how proposed changes to the product or service could impact the staff delivering the service, which is why it is important to have a representative from the staff participate. Ideas with high impact and low effort could make sense to prioritize first, while ideas with high impact and high effort could be revisited later.
-- __Incorporate recommendations into the product roadmap:__ Based on the results of your prioritization exercise, you can slot recommendations into your [roadmap](https://product-guide.18f.gov/define/roadmap/), using a “Soon/next/later” framework.
+- __Incorporate recommendations into the product roadmap:__ Based on the results of your prioritization exercise, you can slot recommendations into your [roadmap]({{ '../../../product/define/roadmap/' | url }}), using a “Soon/next/later” framework.
 - __Keep your metrics up to date:__ Review what you are measuring over time and evolve them if new ways of measuring impact become more useful. What is important to measure may change over time or when better data becomes available.
 
 ## Sharing research
@@ -134,7 +134,7 @@ Communicating your proposals is critical to seeing them come to life; even the m
 
 At this point it is a good practice to delete any recordings from the sessions to further protect the privacy of your participants (and be sure to ask that anyone you shared recordings with to do the same).
 
-We always try to make sure we are on the same page as the partner in protecting [PII before publishing]({{site.baseurl}}/research/privacy)!
+We always try to make sure we are on the same page as the partner in protecting [PII before publishing]({{ '../../research/privacy/' | url }})!
 
 ### Understanding your audience
 
@@ -178,7 +178,7 @@ One of the ways we do this at 18F is sharing a “weekly ship” of what the tea
 
 Data collected from research participants of specific groups should be available to them to use in ways they seek fit. While it’s not always relevant or practical to shareback primary data collected with all research participants, it’s crucial to the efforts of [Tribal data sovereignty](https://bja.ojp.gov/doc/tribal-data-sovereignty-presentation.pdf). Indigenous data sovereignty is the right of a nation to govern the collection, ownership, and application of its own data. 
 
-Tribal Nations have not historically had complete control or autonomy over their data and knowledge. In order to fulfill [Federal trust and treaty responsibilities to Tribal Nations](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/26/memorandum-on-tribal-consultation-and-strengthening-nation-to-nation-relationships/), federal employees should promote [ethical research]({{site.baseurl}}/research/ethics) and enhance the research capacity of Tribal governments by providing people who participate in research with the opportunity to have the data collected from them. 
+Tribal Nations have not historically had complete control or autonomy over their data and knowledge. In order to fulfill [Federal trust and treaty responsibilities to Tribal Nations](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/26/memorandum-on-tribal-consultation-and-strengthening-nation-to-nation-relationships/), federal employees should promote [ethical research]({{ '../../research/ethics/' | url }}) and enhance the research capacity of Tribal governments by providing people who participate in research with the opportunity to have the data collected from them. 
 
 
 ## Publishing on GitHub

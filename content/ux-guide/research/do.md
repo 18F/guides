@@ -28,7 +28,11 @@ subnav:
     href: '#additional-reading'
 ---
 
-[Planning]({{site.baseurl}}/research/plan) research helps you identify the team’s goals, methods, etc. for its research. Doing research involves engaging with previously agreed upon knowledge, participants, and data.
+{% comment %}
+  Need to update resource link site.baseurls after all pages are moved. Also need to update Methods links
+{% endcomment %}
+
+[Planning]({{ '../../research/plan/' | url }}) research helps you identify the team’s goals, methods, etc. for its research. Doing research involves engaging with previously agreed upon knowledge, participants, and data.
 This article covers tasks agreed to and implied during research planning such as:
 
 - Reviewing what’s already known
@@ -57,7 +61,7 @@ Research sessions enable you to directly engage people in facilitated conversati
 
 ### Describe participant context
 
-Before designing your sessions, consider the context(s) of your [target groups]({{site.baseurl}}/research/plan/#participants-and-recruiting). You may be able to rely on your team, including your agency partners, or you may need to ask participants themselves during recruitment. Consider especially:
+Before designing your sessions, consider the context(s) of your [target groups]({{ '../../research/plan/#participants-and-recruiting' | url }}). You may be able to rely on your team, including your agency partners, or you may need to ask participants themselves during recruitment. Consider especially:
 
 - Location(s) and norms
 - Roles in and (expected) understanding of existing business processes
@@ -86,11 +90,11 @@ Design your sessions to encourage as much team involvement as possible without b
 
 For sessions where you’ll interact with participants one-at-a-time, such as in-depth interviews and usability tests, clarify which team members will moderate, take notes, and observe:
 
-- **Moderators** facilitate the session. Don’t let just anyone moderate; be honest about whether or not moderation will be difficult for someone. For example, the product owner may find it difficult to moderate without introducing [interviewer bias]({{site.baseurl}}/research/bias/#interviewer-bias)
+- **Moderators** facilitate the session. Don’t let just anyone moderate; be honest about whether or not moderation will be difficult for someone. For example, the product owner may find it difficult to moderate without introducing [interviewer bias]({{ '../../research/bias/#interviewer-bias/' | url }})
 - **Notetakers** document, usually word-for-word, what happens during the session. If you’re fortunate enough to have multiple notetakers, you might ask each notetaker to make notes about specific aspects of the session. For example, one notetaker might capture verbatim notes of what the participant says while another might capture what the participant does while interacting with a prototype.
 - **Observers** pay attention during the session, and ask questions when given time by the moderator
 
-Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{ site.baseurl }}/research/assist) to people who are brand new to research.
+Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{site.baseurl}}/research/assist/) to people who are brand new to research.
 
 ### Preparing a workshop
 
@@ -100,7 +104,7 @@ Time moves fast in workshops, so be clear about what you want to accomplish and 
 
 ### Preparing a wireframe or prototype
 
-Identify in your [research plan]({{site.baseurl}}/research/plan) if your sessions will require the creation or use of [wireframes [18F design methods]](https://methods.18f.gov/make/wireframing/) or [prototypes]({{site.baseurl}}/design/build-a-prototype). This helps manage the team’s expectations, and gives the people creating those artifacts time to prepare them.
+Identify in your [research plan]({{ '../../research/plan/' | url }}) if your sessions will require the creation or use of [wireframes [18F design methods]](https://methods.18f.gov/make/wireframing/) or [prototypes]({{ '../../design/build-a-prototype/' | url }}). This helps manage the team’s expectations, and gives the people creating those artifacts time to prepare them.
 
 In evaluative research such as [usability testing [18F design methods]](https://methods.18f.gov/validate/usability-testing/), prototypes often suggest how users might complete specific tasks. In this case:
 
@@ -122,7 +126,7 @@ Most 18F interview guides include these sections:
 
 - Introductory preamble covers:
     - You are not testing them, and that there are no wrong answers
-    - Explain whether their participation qualifies them for [compensation]({{site.baseurl}}/research/plan/#compensating-research-participants) (and if so discuss how/when they will receive it)
+    - Explain whether their participation qualifies them for [compensation]({{ '../../research/plan/#compensating-research-participants' | url }}) (and if so discuss how/when they will receive it)
     - They are in control of their participation: they can tell you if they'd prefer not to answer a question, they can take a break any time, and they can decide at any point that they no longer want to participate. If they have been offered compensation, explain that they will receive compensation even if they don't answer a question or end their participation early.
 - Consent for note-taking or recording explains:
     - How you’ll use the notes, who will have access to the notes, and for how long the notes will be kept
@@ -176,11 +180,11 @@ Make a list of places where participants are likely to be, both on- and offline.
 
 Next, go to those locations and get people interested in the research. This often involves the creation of an intercept (“research call-to-action”). For example, if you’re doing pop-up research in a GSA building, you might print your intercept on a poster; if you’re doing remote research, you might place a pop-up directly on the website itself using the GSA approved [Touchpoints tool](https://touchpoints.digital.gov/).
 
-Note that while it can be tempting to include additional form fields on your intercept to help with screening, this can introduce a delay due to The Paperwork Reduction Act of 1995 (PRA). See [Legal]({{site.baseurl}}/research/legal) for more information. All you really need to collect from people is their contact information, which isn’t subject to PRA (per [this Office of Management and Budget memo [Archives.gov]](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf)) if it’s collected on its own. A tweet-length intercept might read:
+Note that while it can be tempting to include additional form fields on your intercept to help with screening, this can introduce a delay due to The Paperwork Reduction Act of 1995 (PRA). See [Legal]({{ '../../research/legal/' | url }}) for more information. All you really need to collect from people is their contact information, which isn’t subject to PRA (per [this Office of Management and Budget memo [Archives.gov]](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf)) if it’s collected on its own. A tweet-length intercept might read:
 
     “Help us improve the design of OPM.gov! Sign up to participate in a remote feedback session by emailing participate-18F@gsa.gov. Learn more about how we’ll protect your information at https://www.gsa.gov/reference/gsa-privacy-program/Privacy-act-statement-for-design-research”
 
-You can find out more about what makes a good tweet-length intercept [here in our Legal article]({{site.baseurl}}/research/legal/#intercepts).
+You can find out more about what makes a good tweet-length intercept [here in our Legal article]({{ '../../research/legal/#intercepts' | url }}).
 
 Here is a [template for introducing yourself]({{ site.baseurl }}/resources/email-templates/researcher-introduces-themselves)<br />([Google Docs template for introducing yourself](https://drive.google.com/open?id=1aiK07pszR331v1d1J2tT6HUQ5JGsSjKjeFBzOwCwHLg)) to potential participants.
 
@@ -194,9 +198,9 @@ The third and final step is identifying interested people and determine if they 
 Getting informed consent ensures that:
 
 - Participants understand what they’re signing up for, making our sessions more effective
-- The research is ethically sound (see [Ethics]({{site.baseurl}}/research/ethics))
-- The research complies with The Privacy Act of 1974 (see [Privacy]({{site.baseurl}}/research/privacy))
-- The research complies with The Antideficiency Act (see [Legal]({{site.baseurl}}/research/legal))
+- The research is ethically sound (see [Ethics]({{ '../../research/ethics/' | url }}))
+- The research complies with The Privacy Act of 1974 (see [Privacy]({{ '../../research/privacy/' | url }}))
+- The research complies with The Antideficiency Act (see [Legal]({{ '../../research/legal/' | url }}))
 
 Copy and customize one of the participant agreements below to reflect your research design. This is the agreement you'll ask participants to sign before they participate.
 
@@ -230,7 +234,7 @@ If your plans for keeping research-related records changes later, it’s your re
 
 ### Scheduling
 
-Aim to help participants arrive at your sessions well prepared, but with an open mind; be especially mindful of your ability to prime participants and introduce [bias]({{site.baseurl}}/research/bias).
+Aim to help participants arrive at your sessions well prepared, but with an open mind; be especially mindful of your ability to prime participants and introduce [bias]({{ '../../research/bias/' | url }}).
 
 Research participants are doing us a favor, so you should do everything you can to ensure that they have a good experience during their session. Before scheduling them for a session, make sure that you inform participants:
 
@@ -244,7 +248,7 @@ Also remember to:
 
 - Make sure calendar invites are clear, both to participants and to your team. For PII protection, it can sometimes make sense to use separate team-facing and participant-facing invites and set appointments to “private” visibility. [Google Suite instructions for how to do change privacy settings](https://support.google.com/calendar/answer/34580?co=GENIE.Platform%3DDesktop&hl=en).
 - Schedule a little more time than you think you’ll need — it can take a few minutes to get everyone on the line, or you may have to work through technical issues. An extra 15 minutes can keep it from feeling rushed.
-- Your calendar’s appointment feature may help you cut down on the email correspondence when scheduling sessions with multiple participants. Google calendar instructions on appointment slots](https://support.google.com/calendar/answer/190998?hl=en). If you use this feature, note that you can’t set the appointments to be private beforehand; you’ll need to change the privacy after participants have signed up for a slot.
+- Your calendar’s appointment feature may help you cut down on the email correspondence when scheduling sessions with multiple participants. [Google calendar instructions on appointment slots](https://support.google.com/calendar/answer/190998?hl=en). If you use this feature, note that you can’t set the appointments to be private beforehand; you’ll need to change the privacy after participants have signed up for a slot.
 - Confirm with participants that they’ll be able to use conferencing, video, or screen sharing tools and test the setup ahead of your session; create a backup plan if they can’t.
 - Consider including a “tech check” list of tasks directly in the meeting invite asking participants to:
     - Try connecting to the remote meeting
@@ -265,7 +269,7 @@ Before each session, you should double-check:
 - Your primary documentation method
 - That you have a backup documentation method (such as a notepad and a pen)
 
-Moderating a research session can be nuanced, but we encourage all team members to be involved. Make sure participants are comfortable and that facilitators, notetakers, and other team members are prepared. We created [a checklist of best practices for interviews]({{ site.baseurl }}/interview-checklist). ([a checklist of best practices for interviews](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)). The checklist includes:
+Moderating a research session can be nuanced, but we encourage all team members to be involved. Make sure participants are comfortable and that facilitators, notetakers, and other team members are prepared. We created [a checklist of best practices for interviews]({{ site.baseurl }}/interview-checklist). ([Google Doc of the checklist of best practices for interviews](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)). The checklist includes:
 
 - Keep an eye on the time. Decide beforehand which questions or activities you must cover and which ones you can cut if you run out of time.
 - Be curious. Ask clarifying questions about the stories behind answers but don’t dig on unnecessary details beyond your project scope.
@@ -305,7 +309,7 @@ Because our partner organizations often have national audiences and our teams ar
 - If you are asking participants to share their screen, double-check to make sure they still are able to and are okay with it.
 - If the participant consents to sharing their screen, remind them to close, minimize or hide any windows or information they do not want to share.
 
-Note: Remote-only research can exclude some people with visual or hearing impairments. Try to use a variety of approaches to make sure your [research is inclusive]({{site.baseurl}}/research/bias/#sampling-bias).
+Note: Remote-only research can exclude some people with visual or hearing impairments. Try to use a variety of approaches to make sure your [research is inclusive]({{ '../../research/bias/#sampling-bias' | url }}).
 
 ### Tips for in-person research
 
@@ -374,7 +378,7 @@ Thank you for observing! Your team appreciates your participation.
 
 ## Debriefing
 
-Debriefing is a useful way to discuss and capture what everyone took away from a session. It is important to debrief shortly after each session, while the details are still fresh in everyone’s minds. To mitigate [bias]({{ site.baseurl }}/research/bias) while debriefing, use your notes from the session to ensure you are not relying solely on recall to form your impressions and insights. Keep in mind, debriefing is not synthesis — unless you're doing continuous synthesis, it's good to keep it descriptive only and move assessment until later in the research process.
+Debriefing is a useful way to discuss and capture what everyone took away from a session. It is important to debrief shortly after each session, while the details are still fresh in everyone’s minds. To mitigate [bias]({{ '../../research/bias/' | url }}) while debriefing, use your notes from the session to ensure you are not relying solely on recall to form your impressions and insights. Keep in mind, debriefing is not synthesis — unless you're doing continuous synthesis, it's good to keep it descriptive only and move assessment until later in the research process.
 
 Here are a few high-level things to capture in a debrief:
 

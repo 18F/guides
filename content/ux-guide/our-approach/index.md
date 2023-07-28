@@ -13,4 +13,4 @@ sidenav: true
 sticky_sidenav: true
 ---
 
-**Our approach** describes essential aspects that shape our design practice: [our team values and principles]({{site.baseurl}}/our-approach/values-and-principles), our [definitions of design]({{site.baseurl}}/our-approach/defining-design), and our commitment to [staying lean]({{site.baseurl}}/our-approach/stay-lean). It describes how we [meet partners where they are]({{site.baseurl}}/our-approach/meet-partners-where-they-are).
+**Our approach** describes essential aspects that shape our design practice: [our team values and principles]({{ '../our-approach/values-and-principles/' | url }}), our [definitions of design]({{ '../our-approach/defining-design/' | url }}), and our commitment to [staying lean]({{ '../our-approach/stay-lean/' | url }}). It describes how we [meet partners where they are]({{ '../our-approach/meet-partners-where-they-are/' | url }}).

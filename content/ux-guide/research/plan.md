@@ -26,7 +26,7 @@ subnav:
     href: '#additional-reading'
 ---
 {% comment %}
-  Update baseurl links and other guide links later
+  Update other guide links later
 {% endcomment %}
 
 Planning ensures that everyone’s time is respected throughout the research process, and helps the team adapt its approach in response to the real world.
@@ -65,17 +65,17 @@ Make sure your goals work towards concrete positive change for your audiences. G
 
 Research can also have subgoals. For example, some agencies choose to work with 18F to learn more about our approach. Explicitly stating these kinds of subgoals helps provide an honest account of the coaching work that the team will undertake alongside the research itself.
 
-Everyone on the team should agree on the research goals. Clarifying [research types]({{site.baseurl}}/research/clarify-the-basics/#research-types) is a useful starting point for this conversation.
+Everyone on the team should agree on the research goals. Clarifying [research types]({{ '../../research/clarify-the-basics/#research-types' | url }}) is a useful starting point for this conversation.
 
 ### Ethical considerations
 
-Research affords your team powerful opportunities to interact with people and to explore what’s possible. While 18F’s UX team agrees on our own [ethical principles for design research]({{site.baseurl}}/research/ethics), these are just our own. Discuss and clarify ethical principles with your team and your partners. Note any ethical dilemmas or concerns. Identify potential hazards in your product/service and ensure that your research will not bring harm to participants. 
+Research affords your team powerful opportunities to interact with people and to explore what’s possible. While 18F’s UX team agrees on our own [ethical principles for design research]({{ '../../research/ethics/' | url }}), these are just our own. Discuss and clarify ethical principles with your team and your partners. Note any ethical dilemmas or concerns. Identify potential hazards in your product/service and ensure that your research will not bring harm to participants. 
 
-Next, engage your team in a conversation about bias. Bias is always present in research, but you can help mitigate it by discussing the [types of bias]({{site.baseurl}}/research/bias) we actively work to mitigate. Power dynamics are always at play when people interact with government. As a researcher in the federal government, be aware that [people’s willingness to share may change depending on their level of trust as we discuss further on our blog](https://18f.gsa.gov/2016/03/10/what-people-think-about-before-sharing-personal-information/) in government.
+Next, engage your team in a conversation about bias. Bias is always present in research, but you can help mitigate it by discussing the [types of bias]({{ '../../research/bias/' | url }}) we actively work to mitigate. Power dynamics are always at play when people interact with government. As a researcher in the federal government, be aware that [people’s willingness to share may change depending on their level of trust as we discuss further on our blog](https://18f.gsa.gov/2016/03/10/what-people-think-about-before-sharing-personal-information/) in government.
 
 ### Research questions
 
-Research questions are high-level questions that reflect what you want to learn to make better evidence-based decisions. Research questions are different from interview questions. Research questions should be relevant, actionable, and practical. They should also be [ethical]({{site.baseurl}}/research/ethics): consider whether answering your research questions would put participants in a compromising position. For example, studying the degree to which participants adhere to a law or policy enforced by the researcher’s own office or institution could jeopardize participants’ careers and/or pose authority and coercion issues. Take care when asking participants questions that might unintentionally exclude or harm interviewees. It’s your responsibility to make sure that participants' experience in your research session as smooth and painless as possible expecially when asking about what isn’t working about a product/service, or bringing up potentially sensitive emotional experiences. 
+Research questions are high-level questions that reflect what you want to learn to make better evidence-based decisions. Research questions are different from interview questions. Research questions should be relevant, actionable, and practical. They should also be [ethical]({{ '../../research/ethics/' | url }}): consider whether answering your research questions would put participants in a compromising position. For example, studying the degree to which participants adhere to a law or policy enforced by the researcher’s own office or institution could jeopardize participants’ careers and/or pose authority and coercion issues. Take care when asking participants questions that might unintentionally exclude or harm interviewees. It’s your responsibility to make sure that participants' experience in your research session as smooth and painless as possible expecially when asking about what isn’t working about a product/service, or bringing up potentially sensitive emotional experiences. 
 
 - **Bad question:** How do we get unemployed adults interested in our website?
 (This question is bad because it isn’t directly focused on users and their goals; it also assumes that a website is the right solution for unemployed adults.)
@@ -83,32 +83,32 @@ Research questions are high-level questions that reflect what you want to learn 
 
 Consider holding a research alignment workshop to help stakeholders share and discuss what they’re interested in learning. Regardless of how you build alignment, focus on the value of obtaining useful information.
 
-- [Research alignment workshop plan]({{ site.baseurl }}/research/alignment-workshop).  ([Research alignment workshop plan in Google Docs](https://docs.google.com/document/d/1NI_riUcrxaMaHihxzHOsr5Gr1n-FxAIqGZ5wzKt3wh4/edit#heading=h.aou5xt3rvfpf))
+- [Research alignment workshop plan]({{site.baseurl}}/research/alignment-workshop/).  ([Research alignment workshop plan in Google Docs](https://docs.google.com/document/d/1NI_riUcrxaMaHihxzHOsr5Gr1n-FxAIqGZ5wzKt3wh4/edit#heading=h.aou5xt3rvfpf))
 - [Research alignment presentation slides](https://docs.google.com/presentation/d/16z-oauPeHeBeVxYS3TFRXGFld4uVUEsUjAFZ87fM_IE/edit#slide=id.g4c9bb7ecb1_0_4)
 
 ### Methods
 
-Choose one or more methods appropriate for meeting your goals and answering your research questions. Multiple methods can help you challenge or verify information collected and create a more complete understanding. [18F’s Methods](https://methods.18f.gov/) provide an overview of our preferred research and design methods. Use these as a starting point, not as a list of constraints. See the [Research types](https://ux-guide.18f.gov/research/clarify-the-basics/#research-types) section of UX Guide for more on which methods might be the best fit for the type of research you are doing.
+Choose one or more methods appropriate for meeting your goals and answering your research questions. Multiple methods can help you challenge or verify information collected and create a more complete understanding. [18F’s Methods](https://methods.18f.gov/) provide an overview of our preferred research and design methods. Use these as a starting point, not as a list of constraints. See the [Research types]({{ '../../research/clarify-the-basics/#research-types' | url }}) section of UX Guide for more on which methods might be the best fit for the type of research you are doing.
 
 ### Team participation
 
 Good research is collaborative. People who help accomplish the research are more likely to agree with its outputs.
 
-When planning your research, review with your partners [the typical activities involved in 18F’s research]({{site.baseurl}}/research/clarify-the-basics/#a-team-activity), and determine which members of your partner agency’s team will help at each stage of the research process (that is, plan; do; analyze, synthesize, and share). Including partners in this process helps meet our team’s principles of [designing together]({{site.baseurl}}/our-approach/values-and-principles/#we-design-together) and [coaching advocates]({{site.baseurl}}/our-approach/values-and-principles/#we-coach-advocates).   
+When planning your research, review with your partners [the typical activities involved in 18F’s research]({{ '../../research/clarify-the-basics/#a-team-activity' | url }}), and determine which members of your partner agency’s team will help at each stage of the research process (that is, plan; do; analyze, synthesize, and share). Including partners in this process helps meet our team’s principles of [designing together]({{ '../../our-approach/values-and-principles/#we-design-together' | url }}) and [coaching advocates]({{ '../../our-approach/values-and-principles/#we-coach-advocates' | url }}).   
 
 Consider whose perspective might be missing from the planning process. Identify opportunities to include people who have direct experience using the product or service. Involve people who interact directly and regularly with end users. Ideally we are designing and building _with_ the people who will be impacted by the outcomes of our research, not just _for_ them.
 
-Run a [frames of reference bias identification workshop](https://docs.google.com/presentation/d/1l9UrizeRtiYrdclCRb7LIxPQF6XTvCI5A58ty-blRj4/edit?usp=sharing) so the team can avoid influencing the evidence they gather based on the things they presume to be true. The team should also collectively review this guide's [bias](https://ux-guide.18f.gov/research/bias/) and [ethics](https://ux-guide.18f.gov/research/ethics/) pages to ensure these are accounted for in the research.
+Run a [frames of reference bias identification workshop](https://docs.google.com/presentation/d/1l9UrizeRtiYrdclCRb7LIxPQF6XTvCI5A58ty-blRj4/edit?usp=sharing) so the team can avoid influencing the evidence they gather based on the things they presume to be true. The team should also collectively review this guide's [bias]({{ '../../research/bias/' | url }}) and [ethics]({{ '../../research/ethics/' | url }}) pages to ensure these are accounted for in the research.
 
 ### Timeline
 
-Your timeline should provide a useful estimate of how your research process will unfold. Remind everyone that the timeline is just an estimate, and that the actual timeline will depend on a few things outside of your control, like your [partners’ ability to participate]({{site.baseurl}}/our-approach/meet-partners-where-they-are/#ability-to-participate), your participants’ availability (if applicable), etc.
+Your timeline should provide a useful estimate of how your research process will unfold. Remind everyone that the timeline is just an estimate, and that the actual timeline will depend on a few things outside of your control, like your [partners’ ability to participate]({{ '../../our-approach/meet-partners-where-they-are/#ability-to-participate' | url }}), your participants’ availability (if applicable), etc.
 
 Plan more time than you think you need, and consider especially:
 
 - If your research is meant to inform a decision, note when the team anticipates that it will make that decision (for example, is your research due before the next quarterly planning meeting?)
-- How you plan to involve the team in any level-setting exercises, such as [hopes and fears [18F methods]](https://methods.18f.gov/discover/hopes-and-fears/), [provisional personas [18F blog]](https://18f.gsa.gov/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/), etc.)
-- How you plan to handle any participant-related logistics (such as [inviting participation]({{site.baseurl}}/research/do/#inviting-participation), [getting informed consent]({{site.baseurl}}/research/do/#getting-informed-consent), and [scheduling]({{site.baseurl}}/research/do/#scheduling))
+- How you plan to involve the team in any level-setting exercises, such as [hopes and fears [18F methods]](https://methods.18f.gov/discover/hopes-and-fears/), [provisional personas [18F blog]](https://18f.gsa.gov/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/), etc.
+- How you plan to handle any participant-related logistics (such as [inviting participation]({{ '../../research/do/#inviting-participation' | url }}), [getting informed consent]({{ '../../research/do/#getting-informed-consent' | url }}), and [scheduling]({{ '../../research/do/#scheduling' | url }}))
 - If your research involves workshops and/or fieldwork:
     - Who needs to be where and when?
     - What do they need to do?
@@ -141,7 +141,7 @@ At 18F we often design for the diverse U.S. public. It's our responsibility to i
 
 ### Identifying participant groups
 
-Because of the time-limited nature of 18F engagements, participant groups can depend on the [type of research]({{site.baseurl}}/research/clarify-the-basics/#research-types) you're doing and where you’re at in the overall design process. For example, if you’re doing stakeholder interviews as part of a Path Analysis project, you’re likely to learn more about who you need to talk to with each interview you do. We recommend asking “Who else should we speak with?” in these discovery issues. This can help you learn of groups whose needs should be considered. You might focus future rounds of research on learning from people within these groups.
+Because of the time-limited nature of 18F engagements, participant groups can depend on the [type of research]({{ '../../research/clarify-the-basics/#research-types' | url }}) you're doing and where you’re at in the overall design process. For example, if you’re doing stakeholder interviews as part of a Path Analysis project, you’re likely to learn more about who you need to talk to with each interview you do. We recommend asking “Who else should we speak with?” in these discovery issues. This can help you learn of groups whose needs should be considered. You might focus future rounds of research on learning from people within these groups.
 
 Once you've [framed a problem](https://github.com/18F/path-analysis/blob/master/approach.md#2-draft-a-problem-statement) or research hypothesis, it’s important that your participant groups include people who represent the make-up of the public who may experience the problem or need to use the related service. User profiles and personas are a good place to start, if they are based on existing data. Revise them as you learn more about the users of your service.
 
@@ -154,11 +154,11 @@ Consider especially:
 - People who may need help using the service in question
 - People who have limited internet access
 
-[The Access Board's Section 508 standards](https://www.section508.gov/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your research and usability testing. To learn more about inclusive design, visit [Digital.gov's Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide](https://accessibility.18f.gov/), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
+[The Access Board's Section 508 standards](https://www.section508.gov/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your research and usability testing. To learn more about inclusive design, visit [Digital.gov's Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '../../../accessibility/index/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
 
 ### Defining recruitment criteria
 
-Recruitment criteria specify the people you want to participate in your research. This depends on your research questions. How specific you are in defining your target audiences can differ at different stages of a project. When you’re just getting started with [foundational research](https://ux-guide.18f.gov/research/clarify-the-basics/#research-types), your understanding of who you need to recruit might be pretty high-level, but you’ll develop a deeper understanding of the perspectives you’ll want to include in future stages of research.
+Recruitment criteria specify the people you want to participate in your research. This depends on your research questions. How specific you are in defining your target audiences can differ at different stages of a project. When you’re just getting started with [foundational research]({{ '../../research/clarify-the-basics/#research-types' | url }}), your understanding of who you need to recruit might be pretty high-level, but you’ll develop a deeper understanding of the perspectives you’ll want to include in future stages of research.
 
 Example criteria might include:
 
@@ -285,13 +285,13 @@ Underserved communities often have limited time and resources, so it is importan
 - Working with interpreters if people would participate more fully in a language other than English
 - Publicizing the dollar amount you’ll compensate each participant and in what form they will receive it. (And take note of any language limitations for your gift card provider. You may need to figure out some workarounds if they don’t offer content in your participants’ preferred language.
 
-To learn about various strategies for creating recruitment materials and screening potential participants, see the “[Corresponding with participants](https://ux-guide.18f.gov/research/do/#corresponding-with-participants)” section.
+To learn about various strategies for creating recruitment materials and screening potential participants, see the “[Corresponding with participants]({{ '../../research/do/#corresponding-with-participants' | url }})” section.
 
 ### Compensating research participants
 
 GSA can compensate members of the public for participating in design research. We can not compensate government employees. <strong>We must do research with people who will actually use our services</strong>. See the TTS Handbook for specifics on the process we use to [compensate research participants](https://handbook.tts.gsa.gov/18f/how-18f-works/research-guidelines/#compensating-user-research-participants).
 
-[Section 508 standards](https://www.access-board.gov/ict/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your design research and usability testing. To learn more about inclusive design, visit [Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide](https://accessibility.18f.gov/), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
+[Section 508 standards](https://www.access-board.gov/ict/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your design research and usability testing. To learn more about inclusive design, visit [Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '../../../accessibility/index/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
 
 #### Why do we offer compensation?
 
@@ -299,7 +299,7 @@ Compensating participants helps us reduce bias in our research. Not compensating
 
 #### Providing value to participants 
 
-In addition to [financial compensation]({{ site.baseurl }}/research/plan/#compensating-research-participants), there are additional ways you can recognize the value of participants’ knowledge and experience that help you with your research. The people who are the focus of our product/service can be left out of the design process once their feedback is initially collected and never know how valuable their contribution was. 
+In addition to [financial compensation]({{ '../../research/plan/#compensating-research-participants' | url }}), there are additional ways you can recognize the value of participants’ knowledge and experience that help you with your research. The people who are the focus of our product/service can be left out of the design process once their feedback is initially collected and never know how valuable their contribution was. 
 
 - Give credit to the people who would like their participation identified and quote/attribute with care so the research participants recognize their voices while providing the level of anonymity they prefer 
 - Share decision making with participants where possible, such as making time for topics that they would like to share that are not on your research question list
@@ -320,12 +320,12 @@ We follow a lean, iterative process, which allows the team to be more responsive
 
 ## Involving partners in research planning
 
-Hold a meeting to bring the team — including your agency partners — together to agree on the research plan. Tailor the agenda to your project’s history and your partner’s [design maturity]({{site.baseurl}}/our-approach/meet-partners-where-they-are/#design-maturity). For example, if your partner doesn’t yet have personas, you might create provisional personas before the planning meeting; if your partner hasn’t ever planned research before, you might draft a plan for them to respond to. Be ready to educate your partners on the methods you chose and why you chose them, provide example outputs from prior research, etc.
+Hold a meeting to bring the team — including your agency partners — together to agree on the research plan. Tailor the agenda to your project’s history and your partner’s [design maturity]({{ '../../our-approach/meet-partners-where-they-are/#design-maturity/' | url }}). For example, if your partner doesn’t yet have personas, you might create provisional personas before the planning meeting; if your partner hasn’t ever planned research before, you might draft a plan for them to respond to. Be ready to educate your partners on the methods you chose and why you chose them, provide example outputs from prior research, etc.
 
 Create an agenda and invite anyone who has an interest in the team’s research. Depending on where you’re at in the design process, you might begin the meeting with level-setting exercises such as:
 
 - [Hopes and fears exercise [18F Design methods]](https://methods.18f.gov/discover/hopes-and-fears/)
-- [Research-alignment exercise]({{ site.baseurl }}/research/alignment-workshop)
+- [Research-alignment exercise]({{site.baseurl}}/research/alignment-workshop/)
 - User groups identification
 
 Next, review and confirm elements listed in the research plan. It’s especially important to confirm:
@@ -357,14 +357,14 @@ An example agenda for a research planning meeting might include:
 
 A roster is a spreadsheet to collect participants’ names, titles, contact information, and to track whether they’ve been contacted, interviewed, thanked, etc. A roster should note if specific people have opted out of the research.
 
-Create a folder to contain your roster, interview guides, session recordings and notes, etc. This folder should also be accessible only to the core team, as it will likely contain personally identifiable information (PII); see [Privacy]({{site.baseurl}}/research/privacy). A good way to share interview notes without jeopardizing PII is to assign each participant a participant number, e.g. "p1," and refer to those in calendar invitations and notes documents. Destroy this roster at the end of the engagement.
+Create a folder to contain your roster, interview guides, session recordings and notes, etc. This folder should also be accessible only to the core team, as it will likely contain personally identifiable information (PII); see [Privacy]({{ '../../research/privacy/' | url }}). A good way to share interview notes without jeopardizing PII is to assign each participant a participant number, e.g. "p1," and refer to those in calendar invitations and notes documents. Destroy this roster at the end of the engagement.
 
 ### Documenting the sessions
 
 Session documentation can take many forms. We often conduct research that may cover sensitive topics or information. Consider the following as you decide how you will document your sessions:
 
-- What is the lightest-weight way to document your sessions and still capture the information you need to create your desired outputs, conduct shared [analysis]({{site.baseurl}}/research/make-research-actionable), etc.?
-- What type of documentation will your participants be most comfortable with (see [Privacy]({{site.baseurl}}/research/privacy))?
+- What is the lightest-weight way to document your sessions and still capture the information you need to create your desired outputs, conduct shared [analysis]({{ '../../research/make-research-actionable/' | url }}), etc.?
+- What type of documentation will your participants be most comfortable with (see [Privacy]({{ '../../research/privacy/' | url }}))?
 - Did you ask your participants for [consent]({{ site.baseurl }}/participant-agreement) for this form of documentation?
 
 ### Documentation methods
@@ -388,7 +388,7 @@ Regardless of the method you choose, keep in mind the overall reasons why we doc
 - When even attendees’ memories eventually fade, we can refer back to the notes; and
 - We create a starting point for analysis and synthesis.
 
-While most of 18F research methods are exempt under the [Paperwork Reduction Act (PRA)](https://pra.digital.gov/) clearance process, be sure to review [legal](https://ux-guide.18f.gov/research/legal/) considerations at the start and throughout the process to avoid any possible issues. Individual [methods’ pages](https://methods.18f.gov/) may have further PRA considerations.
+While most of 18F research methods are exempt under the [Paperwork Reduction Act (PRA)](https://pra.digital.gov/) clearance process, be sure to review [legal]({{ '../../research/legal/' | url }}) considerations at the start and throughout the process to avoid any possible issues. Individual [methods’ pages](https://methods.18f.gov/) may have further PRA considerations.
 
 ## Additional reading
 

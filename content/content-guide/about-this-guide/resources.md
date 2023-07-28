@@ -36,7 +36,7 @@ As we created this guide, we also referred to these resources:
 
 ## Related links
 
-* [18F Accessibility Guide](https://accessibility.18f.gov/)
+* [18F Accessibility Guide]({{ '../../../accessibility/index/' | url }})
 * [18F Visual Identity Guide](https://brand.18f.gov/)
 * [U.S. Web Design System](https://designsystem.digital.gov/)
 * [18F Blog: Content Design](https://18f.gsa.gov/tags/content-design/)

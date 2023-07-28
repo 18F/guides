@@ -35,10 +35,10 @@ In addition to the resources provided in each section, here are more general res
 
 - [Project Start Guide](https://docs.google.com/document/d/1jFGksReKrt2PY_QVe7fj1aOCcyjHlGPf5hkKgv7nuMA/edit?pli=1#)
 - [18F De-risking Government Technology Guide](https://derisking-guide.18f.gov/)
-- [18F User Experience Design Guide](https://ux-guide.18f.gov)
+- [18F User Experience Design Guide]({{ '../../about/' | url }})
 - [18F Content Guide](https://content-guide.18f.gov/)
 - [TTS Engineering Guide Front-end practices](https://frontend.18f.gov/)
 - [18F Analytics standards](https://github.com/18F/analytics-standards/)
-- [18F Accessibility Guide](https://accessibility.18f.gov/)
+- [18F Accessibility Guide]({{ '../../accessibility/index' | url }})
 - [Agile Principles and 18F Practices](https://agile.18f.gov/)
 - [Before You Ship: TTS guide to launching software](https://before-you-ship.18f.gov/)

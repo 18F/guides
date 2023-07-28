@@ -19,7 +19,7 @@ subnav:
 ---
 
 {% comment %}
-  Need to update Methods links and baseurls
+  Need to update Methods links, baseurls, and 18F website
 {% endcomment %}
 
 We believe good design helps government better serve the public. 18F designers join cross-functional teams to improve interactions between government agencies and the people they serve. Together, we’re helping build a 21st century government that works for all.
@@ -74,4 +74,4 @@ We work on cross-agency teams with civil servants who are experts in their field
 
 ### We finish with the diverse needs of real people
 
-We hold ourselves and our teams accountable to the public. We accept that a goal has been achieved when we confirm — via [design research]({{site.baseurl}}/research/) — that people with real needs can accomplish their goals with minimal frustration.
+We hold ourselves and our teams accountable to the public. We accept that a goal has been achieved when we confirm — via [design research]({{ '../../research/' | url }}) — that people with real needs can accomplish their goals with minimal frustration.

@@ -22,7 +22,7 @@ subnav:
 description: "How 18F user experience (UX) designers improve interactions between our government and the public"
 ---
 {% comment %}
-    Need to update site.baseurls after replatforming all the pages
+    Need to update site.baseurls and GH links after replatforming all the pages.
 {% endcomment %}
 
 18F designers join cross-functional teams to improve interactions between government agencies and the people they serve. The 18F UX Guide, or User Experience Guide, helps us get this job done. It’s a starting point for design research at 18F: doing it, discussing it, and ensuring it’s done to a consistent level of quality. Throughout this guide we use “design research” as a substitute and broader  term for “user research” to show the focus of our research work is making designs better for people.
@@ -53,9 +53,9 @@ This guide includes information that may be new to the designers we hire (who ma
 We created this guide for our reference. It’s here for a refresher on [ways to protect research participant privacy]({{ 'research/privacy/' | url }}), or for quick access to [design-related templates, presentations, etc.]({{site.baseurl}}/resources/) You’re also welcome to read it from start to finish if you like.
 
 This guide is divided into three sections:
-- **Our Approach** describes essential components that shape our design practice: our [team values and principles]({{ 'our-approach/values-and-principles' | url }}), our [definitions of design]({{ 'our-approach/defining-design/' | url }}), and our commitment to [staying lean]({{ 'our-approach/stay-lean/' | url }}). It also describes how we [meet partners where they are]({{site.baseurl}}/our-approach/meet-partners-where-they-are/).
-- **Research** describes the process by which we systematically frame problems, explore options, and evaluate solutions. It includes articles on research [basics]({{ 'research/clarify-the-basics/' | url }}) (working definitions) and how we [plan]({{ 'research/plan/' | url }}), [do]({{site.baseurl}}/research/do), and [analyze, synthesize, and share]({{site.baseurl}}/research/make-research-actionable) research.
-- **Design** describes how we communicate and clarify what we’re building throughout the design process. It includes articles on how we [build prototypes]({{site.baseurl}}/design/build-a-prototype) and [use design systems]({{site.baseurl}}/design/use-a-design-system).
+- **Our Approach** describes essential components that shape our design practice: our [team values and principles]({{ 'our-approach/values-and-principles' | url }}), our [definitions of design]({{ 'our-approach/defining-design/' | url }}), and our commitment to [staying lean]({{ 'our-approach/stay-lean/' | url }}). It also describes how we [meet partners where they are]({{ 'our-approach/meet-partners-where-they-are/' | url }}).
+- **Research** describes the process by which we systematically frame problems, explore options, and evaluate solutions. It includes articles on research [basics]({{ 'research/clarify-the-basics/' | url }}) (working definitions) and how we [plan]({{ 'research/plan/' | url }}), [do]({{ 'research/do/' | url }}), and [analyze, synthesize, and share]({{ 'research/make-research-actionable/' | url }}) research.
+- **Design** describes how we communicate and clarify what we’re building throughout the design process. It includes articles on how we [build prototypes]({{ 'design/build-a-prototype/' | url }} ) and [use design systems]({{ 'design/use-a-design-system/' | url }}).
 
 If you have any suggestions or want to get involved, read [our contributing page on GitHub](https://github.com/18F/ux-guide/blob/main/CONTRIBUTING.md#non-18F-contributors); find us on our TTS Slack in either #ux, #ux-guide, #service-design, or #g-research; or [create an issue in GitHub](https://github.com/18F/ux-guide/issues).
 

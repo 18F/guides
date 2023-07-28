@@ -46,7 +46,7 @@ Most research focuses on the mindsets, behaviors and experiences of people and g
 
 ## Design depends on context
 
-What’s the right approach? It depends. We use [design research]({{site.baseurl}}/research/clarify-the-basics#what-it-is) to better understand the problems we might solve, the systems those problems connect to, and what the opportunities for technical and service changes are. We actively validate the success of our solutions with people through ongoing and iterative design research.
+What’s the right approach? It depends. We use [design research]({{ '../../research/clarify-the-basics#what-it-is' | url }}) to better understand the problems we might solve, the systems those problems connect to, and what the opportunities for technical and service changes are. We actively validate the success of our solutions with people through ongoing and iterative design research.
 
 
 ## Design supports people's needs
@@ -57,7 +57,7 @@ Stakeholders are anyone with a legitimate interest in what we’re designing. St
 
 ## Design should be cross-functional
 
-When design is practiced together, it creates shared understanding. We bring together cross-functional teams, including a range of different types of designers, to arrive at more well-informed, less [biased]({{site.baseurl}}/research/bias/) decisions. Outside of the range of methodologies that come from different design approaches, cross-functional teams allow for two kinds of thinking:
+When design is practiced together, it creates shared understanding. We bring together cross-functional teams, including a range of different types of designers, to arrive at more well-informed, less [biased]({{ '../../research/bias/' | url }}) decisions. Outside of the range of methodologies that come from different design approaches, cross-functional teams allow for two kinds of thinking:
 - **Divergent thinking** helps us to identify opportunities for decision making, and to explore possible choices
 - **Convergent thinking** helps us narrow our choices, and follow through on our decisions
 
@@ -71,7 +71,7 @@ Products and services impose requirements on the organizations that support them
 
 ## Design is never done
 
-We don’t have all the answers. And that’s okay. We take an iterative, cyclical, participatory, [lean]({{site.baseurl}}/our-approach/stay-lean) approach. We try things out and learn from them. We commit to continuous improvement using critiques, [wireframes](https://methods.18f.gov/make/wireframing/), [prototypes](https://methods.18f.gov/make/prototyping/), [usability tests](https://methods.18f.gov/usability-testing), service blueprints, etc. and we strive to build the capacity of our partners to do the same. 
+We don’t have all the answers. And that’s okay. We take an iterative, cyclical, participatory, [lean]({{ '../../our-approach/stay-lean' | url }}) approach. We try things out and learn from them. We commit to continuous improvement using critiques, [wireframes](https://methods.18f.gov/make/wireframing/), [prototypes](https://methods.18f.gov/make/prototyping/), [usability tests](https://methods.18f.gov/usability-testing), service blueprints, etc. and we strive to build the capacity of our partners to do the same. 
 
 {% image_with_class "assets/ux-guide/iterative-design.png"  "A conceptual image that describes iterative design. The phrase 'iterative design' is surrounded by four labels connected by a circle of clockwise-pointing arrows. Starting at the top, the labels read 'concept', 'try it out', 'gather feedback', 'incorporate feedback" %}
 

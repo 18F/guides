@@ -46,7 +46,7 @@ Problem statements can be expressed in this format:
 
 > We have observed that [product/service/organization] isn’t meeting [these goals/needs], which is causing [this adverse effect]. How might we improve so that our product/service/team/organization is more successful based on [these measurable criteria]?
 
-You can read more about defining problems in the [18F Product Guide](https://product-guide.18f.gov/define/problem/#define-the-problem).
+You can read more about defining problems in the [18F Product Guide]({{ '../../../product/define/problem/' | url }}).
 
 
 ### Identifying assumptions
@@ -69,7 +69,8 @@ Those assumptions may include:
 - What features we think will be most important
 - Our mission, vision, business model, etc.
 
-Assumptions are a necessary part of the process; [bias](https://ux-guide.18f.gov/research/bias/) is unavoidable. But it is important to identify and validate (or invalidate) our assumptions through ongoing experimentation and research.
+Assumptions are a necessary part of the process; [bias]({{ '../../research/bias/' | url }}) is unavoidable. But it is important to identify and validate (or invalidate) our assumptions through ongoing experimentation and research.
+
 Any proposed solution is an assumption until it’s validated through research with users. Before deciding what to test (building hypotheses), it’s important to consider all of our team’s potential assumptions — especially about our users.
 
 Once assumptions have been identified, we have to prioritize which are most important to test first. When prioritizing we should consider which of our assumptions create the biggest risks.
