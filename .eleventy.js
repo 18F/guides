@@ -83,7 +83,7 @@ module.exports = function (config) {
   // Customize Markdown library and settings
   let markdownLibrary = markdownIt({
     html: true,
-    breaks: true,
+    breaks: false,
     linkify: false,
   }).use(markdownItAnchor, {
     permalink: headingLinks,
