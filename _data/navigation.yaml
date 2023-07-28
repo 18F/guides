@@ -41,19 +41,15 @@ content-guide:
   - name: Our style
     url: /content-guide/our-style/
 
-engineering:
+derisking:
   - name: Home
-    url: /engineering/
-  - name: About this guide
-    url: /engineering/about/
-  - name: Our approach
-    url: /engineering/our-approach/
-  - name: Tools
-    url: /engineering/tools/
-  - name: Language & Runtimes
-    url: /engineering/languages-runtimes/
-  - name: Security
-    url: /engineering/security/
+    url: /derisking/
+  - name: State Software Budgeting
+    url: /state-software-budgeting/
+  - name: Federal Field Guide
+    url: /federal-field-guide/
+  - name: QASP
+    url: /qasp/
 
 eng-hiring:
   - name: Overview
@@ -80,6 +76,20 @@ eng-hiring:
     url: /eng-hiring/debrief/
   - name: 6. Final selection
     url: /eng-hiring/selection/
+
+engineering:
+  - name: Home
+    url: /engineering/
+  - name: About this guide
+    url: /engineering/about/
+  - name: Our approach
+    url: /engineering/our-approach/
+  - name: Tools
+    url: /engineering/tools/
+  - name: Language & Runtimes
+    url: /engineering/languages-runtimes/
+  - name: Security
+    url: /engineering/security/
 
 product:
   - name: About this guide
