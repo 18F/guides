@@ -3,7 +3,7 @@ title: Core values interview guide
 permalink: /eng-hiring/interviews/core-values/
 layout: layouts/page
 tags: eng-hiring
-eleventyNavigation: 
+eleventyNavigation:
   parent: eng-hiring-interviews
   key: eng-hiring-core-values
   order: 2
@@ -158,4 +158,4 @@ Ask one or more of the following:
 
 ## After the interview
 
-**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting]({{ '../../debrief' | url }}).
+**Thank you for your focus!** Use your notes to fill out the feedback form linked in the calendar invitation, which will prepare you for the [debrief meeting]({{ '/eng-hiring/debrief/' | url }}).

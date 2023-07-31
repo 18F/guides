@@ -3,7 +3,7 @@ title: Overview
 permalink: /eng-hiring/
 layout: layouts/page
 tags: eng-hiring
-eleventyNavigation: 
+eleventyNavigation:
   parent: eng-hiring
   key: eng-hiring-overview
   order: 1
@@ -38,7 +38,7 @@ This guide covers the engineering selection process, from resume review to turni
 
 The process surrounding the standard engineering hiring process varies depending on the [hiring action](https://handbook.tts.gsa.gov/hiring/) used — but the standard process consists of:
 
-1. The 18F Engineering Hiring team performs a [resume review]({{ 'resume-review' | url }}) to determine if a candidate will be phone screened. The TTS Talent team then performs a specialized experience review of the candidate, ensuring they will be able to be offered the position should they pass the interviews.
+1. The 18F Engineering Hiring team performs a [resume review]({{ 'resume-review/' | url }}) to determine if a candidate will be phone screened. The TTS Talent team then performs a specialized experience review of the candidate, ensuring they will be able to be offered the position should they pass the interviews.
 1. The TTS Talent team schedules a [phone screen]({{ 'phone-screens/' | url }}) with the candidate and a representative from the 18F Engineering Hiring team. The 18F Engineering Hiring team then determines if the candidate will continue to the next round of interviews.
 1. The TTS Talent team notifies the candidate of their selection, and passing candidates are asked to provide or perform [technical pre-work]({{ 'pre-work/' | url }}). The candidate provides or completes the technical pre-work and shares the work with TTS.
 1. The TTS Talent team schedules the candidate for a round of interviews.
@@ -90,6 +90,6 @@ These guides are [an open source project](https://github.com/18F/eng-hiring).
 
 ### Forking our work
 
-This guide is more tailored to the shape of a consulting engineer - an engineer that has skills in modern open-source software engineering and in helping our government partners navigate the organizational and technical problems that arise in the course of our work. In some of the interview guides (especially the phone screen) we provide questions that are geared to understand the skills and experience of other engineering roles such as security and compliance, site reliability, and product development (front-end/back-end/full-stack). 
+This guide is more tailored to the shape of a consulting engineer - an engineer that has skills in modern open-source software engineering and in helping our government partners navigate the organizational and technical problems that arise in the course of our work. In some of the interview guides (especially the phone screen) we provide questions that are geared to understand the skills and experience of other engineering roles such as security and compliance, site reliability, and product development (front-end/back-end/full-stack).
 
 Internal to TTS, some engineering hiring managers may want to take a look at the [engineering interviewing questions bank](https://docs.google.com/document/d/1oYmx_93-mq2QrqICCo8SNk8hHmnPPonPA1kg0vhy540/edit#).

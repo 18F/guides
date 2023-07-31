@@ -5,7 +5,7 @@ sticky_sidenav: true
 tags: engineering
 permalink: /engineering/our-approach/frontend/
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_approach
   key: Front-End Disciplines
   order: 7
@@ -41,6 +41,6 @@ should be able to help with debugging, testing, and performance
 optimization of the code base.
 
 ## Related topics
-* [CSS]({{site.baseurl}}/css)
-* [JavaScript]({{site.baseurl}}/javascript)
-* [Security]({{site.baseurl}}/security)
+* [CSS]({{ "/engineering/languages-runtimes/css/" | url }})
+* [JavaScript]({{ "/engineering/languages-runtimes/javascript/" | url }})
+* [Security]({{ "/engineering/security/" | url }})

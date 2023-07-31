@@ -5,7 +5,7 @@ sticky_sidenav: true
 permalink: /engineering/tools/accessibility-scanning/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_tools
   key: Accessibility Scanning
   order: 7
@@ -13,11 +13,11 @@ eleventyNavigation:
 ---
 
 Building a website or application that is easy accessible to everyone is  not only an important of the user
-experience, but also a requirement of all federally funded projects. GSA provides a helpful 
+experience, but also a requirement of all federally funded projects. GSA provides a helpful
 [Section 508](https://section508.gov) portal. Accessibility should not just be an afterthought! Start thinking
 about how to make your projects accessible before you begin any development.
 
-While coding a site to be accessible is a responsibility for engineers, accessibility is not just a concern 
+While coding a site to be accessible is a responsibility for engineers, accessibility is not just a concern
 for engineering. [Accessibility for Teams](https://accessibility.digital.gov/front-end/getting-started/)
 is a GSA-owned guide that gives explicit suggestions for the whole team product team can approach accessibility.
 It lists out ways to manually test your site, as well as giving automated testing guidance.
@@ -26,10 +26,10 @@ A more exhaustive list of elements and tools can be found at the [18F Accessibil
 
 # Recommended Tools
 
-## Pa11y With aXe-core {%include "components/tag-standard.html" %}
+## Pa11y With aXe-core {% include "components/tag-standard.html" %}
 
 [Pa11y](https://pa11y.org/) maintains a handful of open-source automated testing tools that scan your
-sites to check for accessibility problems. Their tools can be setup on your machine locally or remotely 
+sites to check for accessibility problems. Their tools can be setup on your machine locally or remotely
 using a CI tool.
 
 We are going to focus on [Pa11y-ci](https://github.com/pa11y/pa11y-ci), which is more geared towards use on
@@ -40,7 +40,7 @@ incorporate pa11y tests into an integration testing framework. ([See below](#pa1
 
 While Pa11y gives you the option of different test runners, we recommend using aXe-core.
 
-### aXe-core {%include "components/tag-standard.html" %}
+### aXe-core {% include "components/tag-standard.html" %}
 [aXe-core](https://github.com/dequelabs/axe-core) is an open source accessibility testing engine; it includes
 a set of accessibility rules that Pa11y will test against. It is also possible to incorporate aXe-core directly
 into your integration tests as well.
@@ -56,7 +56,7 @@ into your integration tests as well.
 
 If you are not familiar with GitHub Actions, you may want to start by reading their [quick start guide](https://docs.github.com/en/actions/quickstart).
 
-Thanks to Daniel Mundra and the folks at CivicActions Accessibility and their [comprehensive documentation](https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe) 
+Thanks to Daniel Mundra and the folks at CivicActions Accessibility and their [comprehensive documentation](https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe)
 on setting up Pa11y-ci with GitHub Actions. Much of the below code is taken from that blog post; read through for more details.
 
 Their instructions are specific to Jekyll but can be leveraged for other types of projects.
@@ -250,7 +250,7 @@ and then you can run it against a live site.
 
 > ```
 > $ pa11y https://engineering.18f.gov/
-> 
+>
 > Welcome to Pa11y
 >
 > > Running Pa11y on URL https://engineering.18f.gov/

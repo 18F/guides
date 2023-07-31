@@ -5,7 +5,7 @@ sticky_sidenav: true
 tags: engineering
 permalink: /engineering/our-approach/incident-reports/
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_approach
   key: Incident Reports
   order: 5
@@ -59,10 +59,7 @@ together and easy to reference by both the team and interested stakeholders.
 Don't make folks search for the information.
 
 ## Examples
-* [C2](./C2/c2-outage-report-2016-08-10.pdf)
-{% comment %}
-This link above doesnt work. need to fix this
-{% endcomment %}
+* [C2]({{ "/assets/engineering/dist/c2-outage-report-2016-08-10.pdf" | url }})
 
 ## Additional resources
 * John Allspaw's [introduction](https://codeascraft.com/2012/05/22/blameless-postmortems/)
