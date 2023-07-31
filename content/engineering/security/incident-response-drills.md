@@ -5,7 +5,7 @@ sticky_sidenav: true
 permalink: /engineering/security/incident-response-drills/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_security
   key: Incident Response Drills
   order: 6
@@ -17,7 +17,7 @@ eleventyNavigation:
 * [Why do Incident Response Drills?](#why-do-incident-response-drills)
 * [How to Build Incident Response Drills](#how-to-run-an-incident-response-drill)
 * [Example Incident Response Drills](#example-incident-response-drills)
-* [Using this Drill as Part of Your ATO](#congratulations-you-accidentally-did-compliance-too!)
+* [Using this Drill as Part of Your ATO](#congratulations-you-accidentally-did-compliance-too)
 
 ## Why do Incident Response Drills?
 
@@ -63,7 +63,7 @@ Follow the steps in the drill, making sure good notes are taken.
 
 Team members can rotate being the "driver" who shares their screen and walks through the steps in the drill.
 
-![Image of a hardware drill]({{site.baseurl}}/assets/images/drill-small-wikimedia.png)
+![Image of a hardware drill]({{ image_with_class "assets/engineering/img/drill-small-wikimedia.png" "" "" }})
 <caption>
   <i>This is a drill. <br/> Image attribution: Włodzimierz Wysocki. License: CC BY-SA 3.0</i>
 </caption>
@@ -80,16 +80,16 @@ Send an email recapping the drill to all stakeholders. Include the outcomes of t
 
 Scenarios worth practicing for a web app include:
 
-* [Scenario: A Deploy Goes Wrong](#scenario:-a-deploy-goes-wrong)
-* [Scenario: API Keys or Passwords Exposed](#scenario:-api-keys-or-passwords-exposed)
-* [Scenario: Compromised Account](#scenario:-compromised-account)
-* [Scenario: PII Exposed](#scenario:-pii-exposed)
-* [Scenario: Oops, I Deleted the Database](#scenario:-oops-i-deleted-the-database)
-* [Scenario: Oops, I Erased the S3 Bucket](#scenario:-oops-i-erased-the-s3-bucket)
+* [Scenario: A Deploy Goes Wrong](#scenario-a-deploy-goes-wrong)
+* [Scenario: API Keys or Passwords Exposed](#scenario-api-keys-or-passwords-exposed)
+* [Scenario: Compromised Account](#scenario-compromised-account)
+* [Scenario: PII Exposed](#scenario-pii-exposed)
+* [Scenario: Oops, I Deleted the Database](#scenario-oops-i-deleted-the-database)
+* [Scenario: Oops, I Erased the S3 Bucket](#scenario-oops-i-erased-the-s3-bucket)
 
 You don't need to drill each and every one of these scenarios each time, but they are good to plan for.
 
-These examples are for a web application hosted on [cloud.gov](https://cloud.gov) that generally follows [our approach](/workflow).
+These examples are for a web application hosted on [cloud.gov](https://cloud.gov) that generally follows [our approach]({{ "/engineering/our-approach/" | url }}).
 
 Please adjust for your infrastructure.
 
@@ -97,7 +97,7 @@ Please adjust for your infrastructure.
 
 It turns out, the new release doesn't deploy properly. It has successfully deployed in all the other environments. Let's re-deploy.
 
-![Rerun job workflow in CircleCI]({{site.baseurl}}/assets/images/rerun-workflow-circleci-screenshot.png)
+![Rerun job workflow in CircleCI]({{ image_with_class "assets/engineering/img/rerun-workflow-circleci-screenshot.png" "" "" }})
 <caption>
   <i>Screenshot of how to re-run a workflow in a CI/CD tool (in this case, CircleCI)</i>
 </caption>
@@ -136,7 +136,7 @@ An API Key for an AWS service was accidentally committed to our public code repo
 
 The website has been hacked due to a compromised key! Now instead of our link to submit a report, we have a cute image of a cat and a spam link to follow cute cats on instagram.
 
-![Screenshot of Engineering Practices Guide homepage with cute cat photo in the middle of it]({{site.baseurl}}/assets/images/screenshot-fake-epg-hacked.png)
+![Screenshot of Engineering Practices Guide homepage with cute cat photo in the middle of it]({{ image_with_class "assets/engineering/img/screenshot-fake-epg-hacked.png" "" "" }})
 <caption>
   <i>Oh no! Who added this cute cat photo to our website?!? <br/> Photo attribution: Tran Mau Tri Tam. Unsplash License.</i>
 </caption>

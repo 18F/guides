@@ -49,7 +49,7 @@ You should make a habit of listening to users, too. Conduct [usability testing](
 
 You may occasionally need to archive or delete outdated content. Maybe it’s irrelevant after a recent policy change or redundant with other pages on your site. Avoid moving or deleting content without a good reason, because it can cause a lot of frustration for users. Changes to site structure may also slow down users who’ve learned specific navigation paths on your site.
 
-As part of ongoing site maintenance, you should [audit your content](https://methods.18f.gov/#content-audit) to keep everything updated and identify [potential duplication]({{ "our-approach/avoid-duplication/" | url }}). Depending on the size of your site, you may want to review everything on a yearly basis, for example, or look at one or two sections at a time.
+As part of ongoing site maintenance, you should [audit your content](https://methods.18f.gov/#content-audit) to keep everything updated and identify [potential duplication]({{ "/content-guide/our-approach/avoid-duplication/" | url }}). Depending on the size of your site, you may want to review everything on a yearly basis, for example, or look at one or two sections at a time.
 
 Before you archive or delete anything, review your site analytics to understand how users are accessing the content now, and check in with the content owner or author to come up with a plan together. Be sure to consider cases that may not show up in analytics data too, such as:
 

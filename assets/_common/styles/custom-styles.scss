@@ -1,5 +1,21 @@
 @use 'uswds-core' as * ;
 
+// Highlight TODO links to make them visually standout
+.todo-link,
+a[href*="/TODO/"] {
+  color: color('blue-80v') !important;
+  background-color: color('gold-10v') !important;
+  padding: 0 units(0.5);
+
+  &:after  {
+    content: ' [link TBD]';
+  }
+
+  &:visited {
+    color: color('blue-80v') !important;
+  }
+}
+
 // Set heading colors
 h1, h2, h3, h4, h5, h6 {
   color: color('primary-darker');
@@ -40,5 +56,32 @@ h1, h2, h3, h4, h5, h6 {
 
   li p {
     margin-bottom: 0;
+  }
+}
+
+
+// usa-section overrides
+.hero .section__heading--white {
+  color: color('white');
+}
+
+// accent button
+a.usa-button--accent {
+  color: color('primary-darker');
+  background-color: color('accent-cool');
+
+  &:visited {
+    color: color('primary-darker');
+    background-color: inherit;
+  }
+
+  &:focus,
+  &:hover {
+    color: color('primary-darker');
+    background-color: color('accent-cool-lighter');
+  }
+
+  &:active {
+    background-color: color('accent-cool-lightest');
   }
 }

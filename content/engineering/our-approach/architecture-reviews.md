@@ -5,7 +5,7 @@ sticky_sidenav: true
 permalink: /engineering/our-approach/architecture-reviews/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_approach
   key: Architecture Reviews
   order: 6
@@ -13,16 +13,16 @@ eleventyNavigation:
 ---
 
 Maintainable technology projects require handoffs between developers, and with new teammates comes fresh perspectives. Building a [transparent and remote-friendly
-workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) is a great start to assist in knowledge transfer, as well as keeping projects as simple and obvious as possible and documenting key decisions. 
+workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) is a great start to assist in knowledge transfer, as well as keeping projects as simple and obvious as possible and documenting key decisions.
 
 ## Simplicity
 
-We’ve done two projects exploring different aspects of simplicity — first, the [DATA Act Pilot: Simplicity is Key]({{site.baseurl}}/architecture-reviews/data-act-pilot) (2016) project explored the ideas of:
+We’ve done two projects exploring different aspects of simplicity — first, the [DATA Act Pilot: Simplicity is Key]({{ "/engineering/data-act-pilot/" | url }}) (2016) project explored the ideas of:
 
-- Building for a least common denominator (CSVs) gave the project reach (more users could participate) and reduced code complexity. 
-- Pulling out validation rules into a separate, easy-to-modify format made the product flexible and simple to maintain. 
+- Building for a least common denominator (CSVs) gave the project reach (more users could participate) and reduced code complexity.
+- Pulling out validation rules into a separate, easy-to-modify format made the product flexible and simple to maintain.
 
-The second explores the idea of simplifying acquisitions in [Micro-purchase: Do one thing well]({{site.baseurl}}/architecture-reviews/micro-purchase) (2016) by using code boundaries in projects to define lines between micro-purchases of developer time. 
+The second explores the idea of simplifying acquisitions in [Micro-purchase: Do one thing well]({{ "/engineering/micro-purchase/" | url }}) (2016) by using code boundaries in projects to define lines between micro-purchases of developer time.
 
 ## Documenting key decisions
 

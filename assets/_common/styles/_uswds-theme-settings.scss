@@ -49,16 +49,29 @@ $brand-color-dark: #1C304A;
   $theme-color-primary-lightest: $brand-color-light,
 
   /*------------------------------------------------
+  ## Ink color
+  -------------------------------------------------*/ 
+  $theme-color-base-ink: 'blue-90',
+
+  /*------------------------------------------------
   ## Accent color
   -------------------------------------------------*/
+  $theme-color-accent-cool-darkest: 'cyan-80v',
+  $theme-color-accent-cool-darker: 'cyan-70v',
   $theme-color-accent-cool-dark: 'cyan-50v',
   $theme-color-accent-cool: $brand-color-bright,
   $theme-color-accent-cool-light: 'cyan-20v',
+  $theme-color-accent-cool-lighter: 'cyan-10v',
+  $theme-color-accent-cool-lightest: 'blue-5',
 
   /*------------------------------------------------
   ## Error color
   -------------------------------------------------*/
    $theme-color-error-lighter: 'red-warm-5v',
+   
+  /*---------------------------------------------------------
+  # Component Settings
+  ----------------------------------------------------------*/
 
   /*------------------------------------------------
   ## Header width

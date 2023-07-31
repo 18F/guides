@@ -62,50 +62,19 @@ jobs:
           node-version: 18
       - run: npm run test:html-validation
 
-# Disabling for now. Reenable when the project is ready.
 
-#  validate_internal_links:
-#    needs: [build]
-#    name: validate internal links
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/cache/restore@v3
-#        with:
-#          key: ${{ needs.build.outputs.cache_key }}
-#          path: .
-#      - uses: actions/setup-node@v3
-#        with:
-#          node-version: 18
-#      - run: npm run test:internal-links
+  check_links:
+    needs: [build]
+    name: Check all links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache/restore@v3
+        with:
+          key: ${{ needs.build.outputs.cache_key }}
+          path: .
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Test all links
+        run: npm run test:links
 
-#  validate_links_use_helper:
-#    needs: [build]
-#    name: validate links use helper
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/cache/restore@v3
-#        with:
-#          key: ${{ needs.build.outputs.cache_key }}
-#          path: .
-#      - uses: actions/setup-node@v3
-#        with:
-#          node-version: 18
-#      - run: npm run test:prefixed-links
-
-#  check_spelling:
-#    needs: [build]
-#    name: "Check Spelling"
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/cache/restore@v3
-#        with:
-#          key: ${{ needs.build.outputs.cache_key }}
-#          path: .
-#      - uses: actions/setup-node@v3
-#        name: Setup node
-#        with:
-#          node-version: 18
-#      - name: Install cSpell
-#        run: npm install -g cspell
-#      - name: Run cSpell
-#        run: cspell --config ./cSpell.json "pages/**/*.md" --no-progress
