@@ -88,7 +88,7 @@ Consider holding a research alignment workshop to help stakeholders share and di
 
 ### Methods
 
-Choose one or more methods appropriate for meeting your goals and answering your research questions. Multiple methods can help you challenge or verify information collected and create a more complete understanding. [18F’s Methods](https://methods.18f.gov/) provide an overview of our preferred research and design methods. Use these as a starting point, not as a list of constraints. See the [Research types]({{ '../../research/clarify-the-basics/#research-types' | url }}) section of UX Guide for more on which methods might be the best fit for the type of research you are doing.
+Choose one or more methods appropriate for meeting your goals and answering your research questions. Multiple methods can help you challenge or verify information collected and create a more complete understanding. [18F’s Methods](https://methods.18f.gov/TODO/) provide an overview of our preferred research and design methods. Use these as a starting point, not as a list of constraints. See the [Research types]({{ '../../research/clarify-the-basics/#research-types' | url }}) section of UX Guide for more on which methods might be the best fit for the type of research you are doing.
 
 ### Team participation
 
@@ -107,7 +107,7 @@ Your timeline should provide a useful estimate of how your research process will
 Plan more time than you think you need, and consider especially:
 
 - If your research is meant to inform a decision, note when the team anticipates that it will make that decision (for example, is your research due before the next quarterly planning meeting?)
-- How you plan to involve the team in any level-setting exercises, such as [hopes and fears [18F methods]](https://methods.18f.gov/discover/hopes-and-fears/), [provisional personas [18F blog]](https://18f.gsa.gov/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/), etc.
+- How you plan to involve the team in any level-setting exercises, such as [hopes and fears [18F methods]](https://methods.18f.gov/discover/hopes-and-fears/TODO/), [provisional personas [18F blog]](https://18f.gsa.gov/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/), etc.
 - How you plan to handle any participant-related logistics (such as [inviting participation]({{ '../../research/do/#inviting-participation' | url }}), [getting informed consent]({{ '../../research/do/#getting-informed-consent' | url }}), and [scheduling]({{ '../../research/do/#scheduling' | url }}))
 - If your research involves workshops and/or fieldwork:
     - Who needs to be where and when?
@@ -324,7 +324,7 @@ Hold a meeting to bring the team — including your agency partners — together
 
 Create an agenda and invite anyone who has an interest in the team’s research. Depending on where you’re at in the design process, you might begin the meeting with level-setting exercises such as:
 
-- [Hopes and fears exercise [18F Design methods]](https://methods.18f.gov/discover/hopes-and-fears/)
+- [Hopes and fears exercise [18F Design methods]](https://methods.18f.gov/discover/hopes-and-fears/TODO/)
 - [Research-alignment exercise]({{site.baseurl}}/research/alignment-workshop/)
 - User groups identification
 
@@ -388,7 +388,7 @@ Regardless of the method you choose, keep in mind the overall reasons why we doc
 - When even attendees’ memories eventually fade, we can refer back to the notes; and
 - We create a starting point for analysis and synthesis.
 
-While most of 18F research methods are exempt under the [Paperwork Reduction Act (PRA)](https://pra.digital.gov/) clearance process, be sure to review [legal]({{ '../../research/legal/' | url }}) considerations at the start and throughout the process to avoid any possible issues. Individual [methods’ pages](https://methods.18f.gov/) may have further PRA considerations.
+While most of 18F research methods are exempt under the [Paperwork Reduction Act (PRA)](https://pra.digital.gov/) clearance process, be sure to review [legal]({{ '../../research/legal/' | url }}) considerations at the start and throughout the process to avoid any possible issues. Individual [methods’ pages](https://methods.18f.gov/TODO/) may have further PRA considerations.
 
 ## Additional reading
 
