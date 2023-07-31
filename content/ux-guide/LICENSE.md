@@ -4,10 +4,10 @@ permalink: /ux-guide/license/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide
-    key: ux-guide-home
-    order: 2
-    title: License
+  parent: ux-guide
+  key: ux-guide-home
+  order: 2
+  title: License
 sidenav: true
 sticky_sidenav: true
 subnav:
