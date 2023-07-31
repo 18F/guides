@@ -12,14 +12,14 @@ eleventyNavigation:
 sidenav: true
 sticky_sidenav: true
 subnav:
-- text: Communicating with prototypes
-  href: '#communicating-with-prototypes'
-- text: Building prototypes with Cloud.gov Pages
-  href: '#building-prototypes-with-cloud.gov-pages'
-- text: Getting started with Cloud.gov Pages
-  href: '#getting-started-with-cloud.gov-pages'
-- text: Authorized prototyping tools
-  href: '#authorized-prototyping-tools'
+  - text: Communicating with prototypes
+    href: '#communicating-with-prototypes'
+  - text: Building prototypes with Cloud.gov Pages
+    href: '#building-prototypes-with-cloud-gov-pages'
+  - text: Getting started with Cloud.gov Pages
+    href: '#getting-started-with-cloud-gov-pages'
+  - text: Authorized prototyping tools
+    href: '#authorized-prototyping-tools'
 ---
 {% comment %}
 Need to update all the Methods links once that's replatformed too.
