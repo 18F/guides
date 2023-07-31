@@ -5,6 +5,11 @@ layout: layouts/page
 sidenav: true
 sticky_sidenav: true
 tags: derisking
+eleventyNavigation:
+  key: derisking-state-index
+  parent: derisking-state
+  order: 1
+  title: Introduction
 ---
 
 By **Robin Carnahan**, **Randy Hart** and **Waldo Jaquith**<br>
