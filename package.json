@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "@uswds/uswds": "3.5.0",
+    "markdown-it-footnote": "^3.0.3",
     "netlify-cms": "^2.10.192"
   }
 }
