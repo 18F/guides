@@ -5,7 +5,7 @@ sticky_sidenav: true
 permalink: /engineering/languages-runtimes/nodejs/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_languages
   key: Node.js
   order: 4
@@ -13,7 +13,7 @@ eleventyNavigation:
 ---
 
 ## Related topics
-* [JavaScript]({{site.baseurl}}/javascript)
+* [JavaScript]({{ "/engineering/languages-runtimes/javascript/" | url }})
 
 ## Introduction
 

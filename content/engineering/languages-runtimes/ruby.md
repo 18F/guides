@@ -5,7 +5,7 @@ sticky_sidenav: true
 permalink: /engineering/languages-runtimes/ruby/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_languages
   key: Ruby
   order: 5
@@ -21,7 +21,7 @@ A guide for writing and maintaining Ruby and Rails applications
 
 Follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) and
 enforce it via static analysis tools such as [Code Climate] and [Rubocop]. You
-can copy the [recommended Rubocop configuration](rubocop.yml) in your Ruby
+can copy the [recommended Rubocop configuration]({{ "/assets/engineering/dist/rubocop.yml" | url }}) in your Ruby
 project and make any changes based on your team's preferences.
 
 Note that the Rubocop configuration linked above only includes settings that
@@ -41,4 +41,4 @@ the [test page] for more details.
 
 [Code Climate]: https://codeclimate.com
 [Rubocop]: https://github.com/bbatsov/rubocop
-[test page]: /tests#html-output-ruby
+[test page]: /engineering/tools/tests/

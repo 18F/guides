@@ -29,7 +29,7 @@ In titles, subheadings, and interface labels, we use numerals instead of spellin
 
 ### Ranges
 
-For ranges of numbers, see [Punctuation > Dashes](https://content-guide.18f.gov/our-style/punctuation/#dashes).
+For ranges of numbers, see [Punctuation > Dashes]({{ "/content-guide/our-style/punctuation/#dashes" | url }}).
 
 ## Percentages
 

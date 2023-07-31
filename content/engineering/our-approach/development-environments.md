@@ -5,7 +5,7 @@ sidenav: true
 sticky_sidenav: true
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_approach
   key: Development Enivorment
   order: 4
@@ -16,7 +16,7 @@ Development environments should be designed so as as to be _Easy to set up_, _We
 
 These principles help keep your colleagues happy, save you time from supporting developer ramp-up, make your repo much more likely to receive open source contributions, and will make it easier to find and fix bugs.
 
-We elaborate on each principle below. In a related guide section, we show how [Docker is a good supporting tool](../docker/) to achieve these aims.
+We elaborate on each principle below. In a related guide section, we show how [Docker is a good supporting tool]({{ "/engineering/tools/docker/" | url }}) to achieve these aims.
 
 ## Principles
 

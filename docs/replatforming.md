@@ -123,7 +123,13 @@ $ docker compose up
 $ docker compose exec guides npm install {your options here}
 ```
 
-## Running pa11y
+## CI/CD
+Every pull request will trigger a build on Cloud.gov pages. Additionally, we have a github workflow in place that performs a number of tests on every pull request:
+- Automated accessbility test with`pa11y-ci`
+- HTML validation with `html-validate`
+- Internal link checking with `check-html-links`
+
+### Running pa11y
 We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
 our CI setup (see the [pull-request.yml workflow](.github/workflows/pull-request.yml))
 on every pull request, but it can also be run locally. To run locally, type:
@@ -143,3 +149,14 @@ _Example:_
 ```html
 <span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails.</span>
 ```
+
+### HTML Validation
+`html-validate` will check for valid HTML. It is configured in `.htmlvalidate.json`.
+
+### Link checking
+`check-html-links` will test internal links on the site. The internal link check tests whether a target link file exists in the `_site` folder at the expected location. Because the current version of `check-html-link` [does not return an error value](https://github.com/modernweb-dev/rocket/issues/166) when it finds broken links, the npm script for this check includes an additional grep search for a "✅" which would appear only if there are no broken links. With this (hopefully) temporary fix in place, github actions will report a failure if there are broken links.
+
+If you'd like to run these locally you could run `npm run test:links`. Alternatively you could use `npm run test:links-internal`, which will run the test with colorized output if you find that helpful, but note that it will not return an accurate exit code.
+
+If there is a link that is still to be deteremined as we are moving guides, you can use '/TODO/' as the URL. This will visually highlight the link as TODO, and the link will be ignored in the link test.
+
