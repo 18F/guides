@@ -198,7 +198,7 @@ Research handoffs occur when wrapping up a round of research or an engagement, w
 - Where and how do files containing PII need to be stored in order to maintain privacy? Was all identifying information removed from data that hasn’t been stored securely?
 - Who should have access to what data? How will we get it to them?
 - Can this information be used to generalize or stereotype groups? What can be done to prevent misuse? 
-- How can I support [US Indigenous and Tribal data sovereignty](#tribal-data-sovereignty-and-sharing-with-participants)? 
+- How can I support [US Indigenous and Tribal data sovereignty](https://bja.ojp.gov/doc/tribal-data-sovereignty-presentation.pdf)? 
 
 In addition to the above considerations, providing an introduction or tour of the work is a helpful way to transfer knowledge to new team members or vendors. Consider writing a [GitHub README](https://github.com/ONRR/doi-extractives-data/blob/dev/README.md) document which new team members can read and refer to for project background, context, history, and quick links to important files or resources.  
 
