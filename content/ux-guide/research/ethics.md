@@ -60,7 +60,7 @@ Design research should never be covert or manipulative. We provide clear descrip
 
 ### Ways to demonstrate honesty:
 
-- Acknowledge that all research is subject to [bias]({{ '../../research/bias/' | url }}), and actively work to counter it
+- Acknowledge that all research is subject to [bias]({{ '../../research/bias/' | url }}), and actively work to counter&nbsp;it
 - Be honest about what you can and cannot conclude based on your research. Do not overstate your findings.
 - Be careful of the conclusions you draw from any one study
 - Be transparent in conversations with your research participants about how you plan to use the data you collect (for example, by sharing a [Privacy Act Notice [GSA.gov]](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research))
