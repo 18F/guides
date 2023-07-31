@@ -49,7 +49,7 @@ and look at the pros and cons of each one.
 
 ### Text blocks
 
-![Text Box](text_box.png)
+{% image_with_class "assets/engineering/img/sharepoint/text_box.png" ""  "Text Box" %}
 
 We can build a SharePoint site as a traditional website where content is
 written in blocks of text and links are created in that text as ordinary HTML
@@ -61,7 +61,7 @@ needs to be updated individually.
 
 ### SharePoint Lists
 
-![SharePoint List](sharepoint_list.png)
+{% image_with_class "assets/engineering/img/sharepoint/sharepoint_list.png" "" "SharePoint List" %}
 
 SharePoint has a built-in data format called a List. The list is a standard
 column-oriented data type similar to what would be seen in a spreadsheet. A
@@ -76,7 +76,7 @@ not at all easy to set up.
 
 ### Document Embedding
 
-![Embedded Excel Document](embedded_excel.png)
+{% image_with_class "assets/engineering/img/sharepoint/embedded_excel.png" "" "Embedded Excel Document" %}
 
 Microsoft Office documents from the SharePoint document library can be
 embedded on SharePoint pages using a File View web part. There is some
@@ -92,7 +92,7 @@ document.
 
 ### Client-side Web Parts (SharePointFramework)
 
-![Client-side Web Part](client_side.png)
+{% image_with_class "assets/engineering/img/sharepoint/client_side.png" "" "Client-side Web Part" %}
 
 One of Microsoft’s newest offerings, SharePointFramework is a complete
 application platform that is available hosted by SharePoint. Using the
@@ -111,7 +111,7 @@ developers skilled in those technologies.
 
 ### Power Apps
 
-![Power App](power_app.png)
+{% image_with_class "assets/engineering/img/sharepoint/power_app.png" "" "Power App" %}
 
 Microsoft’s PowerApps is an application development framework that is
 "low-code/no-code", where a web and mobile friendly application can be
@@ -129,7 +129,7 @@ flexibility isn’t available.
 
 ### Power BI
 
-![Power BI screenshot](power_bi.png)
+{% image_with_class "assets/engineering/img/sharepoint/power_bi.png" "" "Power BI screenshot" %}
 
 Power BI is a Microsoft tool for visualizing data. It can connect to many
 different data sources including databases and files in Office 365. It offers
@@ -197,7 +197,7 @@ when they are ready, they are moved into the production sites. This lets
 developers make changes more freely without having to worry that what they do
 will affect people who are actually using the production sites.
 
-![Development Architecture](dev_architecture.png)
+{% image_with_class "assets/engineering/img/sharepoint/dev_architecture.png" "" "Development Architecture" %}
 
 <details>
 <summary>Source for diagram</summary><br/>
@@ -233,7 +233,7 @@ As mentioned above, the principles of effective software engineering need to
 be enforced here by convention. We describe here a series of stages for each
 piece of work to help follow these conventions and principles.
 
-![Workflow](dev_workflow.png)
+{% image_with_class "assets/engineering/img/sharepoint/dev_workflow.png" "" "Workflow" %}
 
 <details>
 <summary>Source for diagram</summary><br/>

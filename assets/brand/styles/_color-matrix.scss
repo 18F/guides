@@ -1,0 +1,270 @@
+//// background color helpers
+.usa-color-white {
+  background-color: $color-white;
+  box-shadow: inset 0 0 0 1px $color-gray-divider;
+}
+
+.usa-color-light {
+  background-color: $color-light;
+}
+
+.usa-color-bright {
+  background-color: $color-bright;
+}
+
+.usa-color-medium {
+  background-color: $color-medium;
+}
+
+.usa-color-dark {
+  background-color: $color-dark;
+}
+
+.usa-color-black {
+  background-color: $color-black;
+}
+
+.usa-color-short {
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+
+//// color palette display
+
+.usa-color-name {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+.usa-color-hex {
+  margin-bottom: 1em;
+  margin-top: 0;
+
+  @include at-media(tablet) {
+    margin: 0;
+  }
+}
+
+.usa-color-row {
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+
+#color-guidance {
+  margin-top: 5rem;
+}
+
+.usa-primary-color-section {
+  @include at-media(tablet) {
+    margin-bottom: 8rem;
+  }
+  margin-bottom: 0;
+
+  .usa-color-square {
+    margin-bottom: 7rem;
+    padding-bottom: 50%;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    position: relative;
+
+    @include at-media(tablet) {
+      width: 14.66%;
+      margin-bottom: 0;
+      padding-bottom: 14.66%;
+    }
+  }
+}
+
+.usa-color-inner-content {
+  position: absolute;
+  top: 100%;
+}
+
+//// color matrix
+
+.usa-sr-invisible[aria-hidden="true"] {
+  display: block !important;
+}
+
+.usa-matrix-foreground-white {
+  color: $color-white;
+
+  // https://css-tricks.com/adding-stroke-to-web-text/
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.usa-matrix-foreground-light {
+  color: $color-light;
+}
+
+.usa-matrix-foreground-bright {
+  color: $color-bright;
+}
+
+.usa-matrix-foreground-medium {
+  color: $color-medium;
+}
+
+.usa-matrix-foreground-dark {
+  color: $color-dark;
+}
+
+.usa-matrix-foreground-black {
+  color: $color-black;
+}
+
+.usa-matrix td {
+  vertical-align: top;
+}
+
+.usa-matrix-square {
+  width: 3.5em;
+  height: 3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: units(1);
+
+  strong {
+    text-shadow: none;
+  }
+}
+
+.usa-matrix-symbol-definitions {
+  display: none;
+}
+
+.usa-prose .usa-matrix-legend {
+  display: flex;
+  margin-top: 0.5em;
+  justify-content: flex-start;
+  align-items: top;
+
+  svg, p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  svg{
+    flex: 0 0 auto;
+    width: 35px;
+    height: 35px;
+  }
+
+  p {
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: measure(6);
+    margin-left: 1em;
+    font-size: .85em;
+  }
+}
+
+.usa-matrix-legend.legend-bad-contrast {
+  display: none;
+}
+
+
+td[scope="row"] > div {
+  display: flex;
+}
+
+.usa-matrix td.usa-matrix-valid-color-combo,
+.usa-matrix td.usa-matrix-invalid-color-combo {
+  padding: .5em .25em;
+}
+
+.usa-matrix-desc {
+  font-size: .85em;
+  flex: 1;
+  line-height: lh('body', 3);
+}
+
+.usa-matrix p {
+  font-size: .85em;
+  line-height: lh('body', 3);
+}
+
+
+table.usa-matrix {
+  display: block;
+
+  thead {
+    display: none;
+  }
+
+  tbody {
+    display: block;
+
+    tr {
+      display: block;
+
+      td.usa-matrix-valid-color-combo,
+      td.usa-matrix-invalid-color-combo, {
+        display: flex;
+        align-items: center;
+
+        .usa-matrix-color-combo-description {
+          flex: 1;
+          padding-left: 1em;
+        }
+      }
+
+      td.usa-matrix-invalid-color-combo {
+        display: none;
+      }
+
+      td[scope="row"] {
+        display: none;
+      }
+    }
+  }
+}
+
+@include at-media('tablet-lg') {
+.usa-prose .usa-matrix-legend  {
+  align-items: center;
+}
+
+.usa-matrix-legend.legend-bad-contrast {
+    display: flex;
+  }
+
+  table.usa-matrix {
+    display: table;
+
+    thead {
+      display: table-header-group;
+    }
+
+    tbody {
+      display: table-row-group;
+
+      tr {
+        display: table-row;
+
+
+        td.usa-matrix-valid-color-combo,
+        td.usa-matrix-invalid-color-combo, {
+          display: table-cell;
+
+          .usa-matrix-color-combo-description {
+            flex: 1;
+            padding-left: 0;
+          }
+        }
+
+        td[scope="row"] {
+          display: table-cell;
+        }
+      }
+    }
+  }
+}

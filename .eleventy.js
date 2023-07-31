@@ -1,10 +1,12 @@
-const { DateTime } = require('luxon');
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
+const { readableDate, htmlDateString, head, min, filterTagList } = require("./config/filters");
 const { headingLinks } = require("./config/headingLinks");
+const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
 const yaml = require("js-yaml");
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -23,9 +25,13 @@ module.exports = function (config) {
 
   // Specific scripts to guides
   config.addPassthroughCopy("./assets/_common/js/*");
-  //
+
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
   config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });
+
+  // Set download paths
+  // Place files for download in assets/{guide}/dist/{filename.ext}
+  config.addPassthroughCopy("./assets/**/dist/*");
 
   // Add plugins
   config.addPlugin(pluginRss);
@@ -51,41 +57,18 @@ module.exports = function (config) {
   // Allow yaml to be used in the _data dir
   config.addDataExtension("yaml", contents => yaml.load(contents));
 
-  config.addFilter('readableDate', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
-      'dd LLL yyyy'
-    );
-  });
-
+  // Filters
+  // Add filter function defintions to config/filters.js, then add the functions
+  // to the import statement above and define like the other filters.
+  config.addFilter('readableDate', readableDate);
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  config.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
-  });
-
-  // Get the first `n` elements of a collection.
-  config.addFilter('head', (array, n) => {
-    if (!Array.isArray(array) || array.length === 0) {
-      return [];
-    }
-    if (n < 0) {
-      return array.slice(n);
-    }
-
-    return array.slice(0, n);
-  });
-
-  // Return the smallest number argument
-  config.addFilter('min', (...numbers) => {
-    return Math.min.apply(null, numbers);
-  });
-
-  function filterTagList(tags) {
-    return (tags || []).filter(
-      (tag) => ['all', 'nav', 'post', 'posts'].indexOf(tag) === -1
-    );
-  }
-
+  config.addFilter('htmlDateString', htmlDateString);
+  config.addFilter('head', head); // Get the first `n` elements of a collection.
+  config.addFilter('min', min); // Return the smallest number argument
   config.addFilter('filterTagList', filterTagList);
+  // Color contrast checkers for the color matrix in the Brand guide
+  config.addFilter('contrastRatio', contrastRatio);
+  config.addFilter('humanReadableContrastRatio', humanReadableContrastRatio);
 
   // Create an array of all tags
   config.addCollection('tagList', function (collection) {
@@ -97,15 +80,15 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
-  // Customize Markdown library and settings:
+  // Customize Markdown library and settings
   let markdownLibrary = markdownIt({
     html: true,
-    breaks: true,
+    breaks: false,
     linkify: false,
   }).use(markdownItAnchor, {
     permalink: headingLinks,
     slugify: config.getFilter('slug'),
-  });
+  }).use(markdownItAttrs);
   config.setLibrary('md', markdownLibrary);
 
   // Override Browsersync defaults (used only with --serve)

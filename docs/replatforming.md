@@ -10,6 +10,11 @@ The content for all of the guides is in the `content` folder, which is organized
 
 Additionally, if a guide contains multiple sections, each section should have its own subfolder in that guide's folder. All pages that are part of a section should be placed into the section subfolder. For example, the "Federal Field Guide" is a section within the De-risking Guide, and "Basic principles" is a page in the "Federal Field Guide". So `basic-principles.md` would be placed in `content/derisking/federal-field-guide/`.
 
+### Guide-specific files
+If there are images and `include` files that only one guide uses, create a guide-specific folder within the site-wide `asset` or `_includes` folder.
+
+Call a guide-specific include by using `{% include '[guide-folder]/[include-name].html' %}`. An example is in the Engineering Hiring Guide, where there is a warning about unconscious biases displayed on several pages. The file `unconscious-bias-warning.html` is located in `_includes/eng-hiring/`. The pages that use it will contain the line `{% include 'eng-hiring/unconscious-bias-warning.html' %}`
+
 ## Guide titles and subdirectories
 The `_data/titles_roots.yaml` file is used to set the title for each guide (i.e. what appears after the 18F logo in the header). In addition it defines the name of the URL “subdirectory” that will be the “root” or homepage for the guide. A guide’s tag is used as a key which maps to the title and root. This tag is referenced to set the title, header, and primary navigation for each guide.
 
@@ -35,7 +40,13 @@ agile:
 
 _Examples:_
 De-risking guide content would have the front matter `tags: derisking`
-UX guide pages would have `tags: uxguide`
+UX guide pages would have `tags: ux-guide`
+
+## Base URLs
+Eleventy does not use `{{site.baseurl}}` to refer to other pages. When linking to another page on the site, use Eleventy's `url` filter as such:
+- For the home `index.md` page, use `{{ '[Markdown filename]' | url }}`.
+- For any other page in `content/[guide]`, use `{{ '../[Markdown file name]/' | url }}` (remember the trailing slash!)
+- For pages in their own section within each guide, use `{{ '../../[Markdown file name]/' | url }}` (remember the trailing slash!). An example is in the Engineering Hiring guide, where there are several pages in `content/eng-hiring/interviews/`. Any page within the `interviews` folder needs to use `../../` to link to other pages in `content/eng-hiring/`
 
 ## Sidenavs
 We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to group pages within a subsection together, all pages within a section should have a common `eleventyNavigation` `parent` key. For example the introduction page for the content guide "Our style" would include the following front matter:
@@ -74,26 +85,43 @@ We want to avoid commiting the `assetPaths.json` file, but need to keep it out o
 1. Open up `.git/info/exclude`
 2. Add `assetPaths.json` to that file
 
+If that doesn't work, type in `git update-index --assume-unchanged _data/assetPaths.json` into the terminal.
+
 ## Content migration process
 
-The general steps for migrating a guide: 
+The general steps for migrating a guide:
 1. Add the guide to the `_data/titles_roots.yaml` file with the guide’s tag, name, and root (See [Guide titles and subdirectories](#guide-titles-and-subdirectories) for an example).
 2. Add the primary navigation for the guide to `_data/navigation.yaml`.
-4. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
-5. Copy over the markdown file for the guide into the appropriate subfolder.
-6. Open up the markdown file to edit the front matter:
+3. Add a link to the new guide in `_includes/guidelist.html` so it will be easier to find.
+4. Copy over the markdown file for the guide into the appropriate subfolder.
+5. Open up the markdown file to edit the front matter:
     1. Change the layout to `layout/page` or whatever layout is most appropriate.
     2. Add `tags: <collection-name>` where <collection-name> is the guide’s tag.
-    2. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<section-name>/<page-name>`. Try to match the permalink of the original markdown file.
-    3. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) : 
+    3. Update the `permalink` to the link that should be displayed. Generally this will be `/<guide-root>/<section-name>/<page-name>`. Try to match the permalink of the original markdown file.
+    4. Add the `eleventyNavigation` front matter (See [Sidenavs](#sidenavs) for more details) :
     ```
-    eleventyNavigation: 
+    eleventyNavigation:
       parent: <collection-name>
       key: <unique-key>
       order: <#>
       title: <Sidenav-title>
     ```
+6. If your guide offers any downloads, add the files for download to `/assets/{guide}/dist/{filename}`, and set the download links to point to the same path.
 7. Celebrate! Or edit this documentation to update any steps that may be missing.
+
+## Adding new node modules
+
+It may turn out that you need to install an npm package to replicate functionality in the old guides. Here's how to do it!
+
+First, before your write any code or configuration that relies on the package, install the package via Docker Compose while the services are running:
+
+```sh
+# If you haven't already
+$ docker compose up
+
+# In another tab
+$ docker compose exec guides npm install {your options here}
+```
 
 ## Running pa11y
 We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
@@ -112,6 +140,6 @@ In certain cases we may need `pa11y-ci` to ignore an element. For example, in th
 
 _Example:_
 
-```
-<span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails. </span>
+```html
+<span style = "color:#58AA02" class="exampleFailure" data-pa11y-ignore>This text fails.</span>
 ```

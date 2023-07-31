@@ -14,7 +14,7 @@ This guide is where the TTS Engineering Practices Guild collects its best practi
 
 {% comment %}
 TODO TICKET 338 HERE
-{% endcomment %}
+
 
 <div class="grid-container">
   <div class="grid-row">
@@ -29,3 +29,4 @@ TODO TICKET 338 HERE
     {% include "categorylinks.html" links=site.data.navigation.security %}
   </div>
 </div> 
+{% endcomment %}
