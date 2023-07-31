@@ -1,28 +1,28 @@
 ---
-title: Cloud Services 
+title: Cloud Services
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/security/cloud-services/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_security
   key: Cloud Services
   order: 5
   title: Cloud Services
 ---
 A common practice is storing files in the cloud; places like [Amazon Simple Storage Service](https://docs.aws.amazon.com/s3/index.html)
-(Amazon S3), [Google Cloud](https://cloud.google.com/storage/docs/introduction), or 
+(Amazon S3), [Google Cloud](https://cloud.google.com/storage/docs/introduction), or
 [Azure Storage](https://docs.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature).
 These services give developer an easy way to store data in the cloud, and download it when needed. But this
 introduces security considerations.
 
 When thinking about how to upload or download data in your application, there are always tradeoffs to think about -- often
-processes that are easier to use are less secure; likewise a workflow that is more complex is often more secure. 
+processes that are easier to use are less secure; likewise a workflow that is more complex is often more secure.
 
 These tradeoffs get more significant depending on the FISMA level of your system.
 
-## Presigned URLs 
+## Presigned URLs
 A common method of allowing users to transfer data without credentials is to use [presigned urls](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html).
 (Azure refers to these as [shared access signatures](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-storage-sharedaccesssignature-permissions), but they are a similar concept.)
 
@@ -36,13 +36,13 @@ been our most common use case and is supported by [cloud.gov](https://cloud.gov/
 * There is no default file size limit on uploads
 * Uploads use PUT by default
 
-A presigned URL is an *easily-shareable* URL that is generated with an authenticated user's security credentials. They 
+A presigned URL is an *easily-shareable* URL that is generated with an authenticated user's security credentials. They
 are created with specific actions attached to them, as well as an expiration date and time; the URL will remain valid
 until that expiration moment.
 
 A shareable URL that bypasses security authentication is very convenient to use! However, the tradeoff is that anyone
 with access to that URL can use it. If a user for some reason decided to post a presigned upload URL to the internet,
-anyone could use that URL to upload data to your bucket until the expiration time was passed. 
+anyone could use that URL to upload data to your bucket until the expiration time was passed.
 
 This introduces a "user error" or "insider threat" security vulnerability to your system. Even if your users are good actors,
 some attack vectors could be:
@@ -61,11 +61,11 @@ Really consider the tradeoffs. What kind of adverse impact might happen if a bad
 * Can they upload junk data or other harmful information?
 
 If you've thought things through and it's the best or only option, proceed but definitely take [mitigation steps](#mitigation-steps)
-to secure your system. 
+to secure your system.
 
 ### FISMA High:
-{%include "components/tag-caution.html" %} We do not recommend using presigned URLs for this kind of system. The only real barrier 
-between a bad actor and user data is the obscurity/randomness of the URL and the expiration duration. 
+{% include "components/tag-caution.html" %} We do not recommend using presigned URLs for this kind of system. The only real barrier
+between a bad actor and user data is the obscurity/randomness of the URL and the expiration duration.
 
 ### Mitigation Steps
 **All Actions**
@@ -81,8 +81,8 @@ between a bad actor and user data is the obscurity/randomness of the URL and the
 
 ## Proxying the file download
 
-This option is less "convenient" in that there is no easily-shareable URL that is generated. However, if your 
-system has a higher FISMA impact level, or if you don't need to generate a shareable URL, this is often a more 
+This option is less "convenient" in that there is no easily-shareable URL that is generated. However, if your
+system has a higher FISMA impact level, or if you don't need to generate a shareable URL, this is often a more
 secure option.
 
 This will be more specific to your server, but the basic steps are:

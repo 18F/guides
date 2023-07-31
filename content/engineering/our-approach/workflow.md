@@ -5,7 +5,7 @@ layout: layouts/page
 sidenav: true
 sticky_sidenav: true
 tags: engineering
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_approach
   key: Our approach
   order: 1
@@ -17,7 +17,7 @@ around deployments, git etiquette, and similar workflow conventions.
 
 ## Continuous Integration & Deployment
 
-### All Projects {%include "components/tag-standard.html" %}
+### All Projects {% include "components/tag-standard.html" %}
 
 - Ensure that your project is running **automated tests** in CI. Successful
   test completion should be a requirement for deployment.
@@ -34,15 +34,15 @@ around deployments, git etiquette, and similar workflow conventions.
   docs](https://circleci.com/docs/2.0/configuration-reference/#schedule) for
   details.
 
-## Git & GitHub {%include "components/tag-standard.html" %}
+## Git & GitHub {% include "components/tag-standard.html" %}
 
 Git is our version control system of choice and
 GitHub is our current repository platform, but how to use these tools can be spelled out
 in a bit more detail. Note that we are looking to consolidate this with our existing
-documentation on [code review]({{site.baseurl}}/code-review) and [example
+documentation on [code review]({{ "/engineering/our-approach/code-review/" | url }}) and [example
 workflows]({{site.baseurl}}/example-workflows).
 
-### Security {%include "components/tag-requirement.html" %}
+### Security {% include "components/tag-requirement.html" %}
 
 _For best practices on protecting sensitive information, check out the [TTS
 Handbook](https://handbook.tts.gsa.gov/sensitive-information/#protecting-tts-systems)._
@@ -57,7 +57,7 @@ by passing CI and peer review.
 
 ### Other considerations
 
-#### {%include "components/tag-standard.html" %}
+#### {% include "components/tag-standard.html" %}
 * Default to **public** for new repositories. See our
   [guidelines](https://github.com/18F/open-source-policy/blob/master/practice.md)
   about open source for more detail.
@@ -69,7 +69,7 @@ files specific to your dev environment (e.g. `.DS_Store`).
   key](https://help.github.com/articles/signing-commits-with-gpg/)
 
 
-#### {%include "components/tag-suggestion.html" %}
+#### {% include "components/tag-suggestion.html" %}
 * When in doubt, use feature branches and [**gitflow**](http://nvie.com/posts/a-successful-git-branching-model/) as your branch naming scheme.
 * Follow [this
   guidance](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) about **good commit messages**.
@@ -77,4 +77,4 @@ files specific to your dev environment (e.g. `.DS_Store`).
 
 ## Code style
 
-{%include "components/tag-standard.html" %}  Use an opinionated automated code formatter whenever possible. This saves teams from wasting time arguing about code style, and makes it easy to comply. Specific suggestions in [the pages for each language]({{site.baseurl}}/language-selection/).
+{% include "components/tag-standard.html" %}  Use an opinionated automated code formatter whenever possible. This saves teams from wasting time arguing about code style, and makes it easy to comply. Specific suggestions in [the pages for each language]({{site.baseurl}}/language-selection/).

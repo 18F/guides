@@ -5,7 +5,7 @@ sticky_sidenav: true
 permalink: /engineering/languages-runtimes/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_languages
   key: Languages & Runtimes
   order: 1
@@ -49,7 +49,7 @@ The following are used widely in TTS:
 
 | Purpose                              | Tool                                                                                                         |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| CSS framework                        | [_More info_]({{site.baseurl}}/css/#frameworks)                                                              |
+| CSS framework                        | [_More info_]({{ "/engineering/languages-runtimes/css/#frameworks" | url }})                                 |
 | Infrastructure/configuration as code | [Terraform](https://www.terraform.io/)                                                                       |
 | Static site generator                | [Jekyll](https://jekyllrb.com/) (with the [uswds-jekyll](https://github.com/18F/uswds-jekyll) theme) or Hugo |
 
@@ -62,7 +62,7 @@ we should be conservative in our language selection. These projects warrant
 our most standard approach, which generally translates to the selection of one
 of our primary languages.  On the other hand, if writing a one-off script or
 small internal project, we have significantly more latitude to try
-experimental languages. 
+experimental languages.
 
 Let's consider some examples for reference. As a
 reminder, in almost all situations, selecting one of our primary languages is
@@ -116,7 +116,7 @@ particular order:
 * Hand-off considerations - is our agency partner comfortable with a
   particular framework? If they already know how to deploy
   XYZ apps (and hire XYZ developers), it behooves us to
-  write an XYZ app. 
+  write an XYZ app.
 
 ## Other impact
 

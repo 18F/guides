@@ -70,7 +70,7 @@ Be consistent with how you phrase titles. If your guide or tutorial has several 
 * Nouns: _Policies_, _Teams_, _Offices_
 * Verbs: _Create an account_, _File a report_, _Download our data_
 
-[Use sentence case]({{ "../capitalization#headings" | url }}) for headings. (If you’re writing articles for the 18F Handbook or 18F Pages, the table of contents will auto-generate based on your `<h2>`, `<h3>`, and `<h4>` tags or Markdown headings.)
+[Use sentence case]({{ "/content-guide/our-style/capitalization/#headings" | url }}) for headings. (If you’re writing articles for the 18F Handbook or 18F Pages, the table of contents will auto-generate based on your `<h2>`, `<h3>`, and `<h4>` tags or Markdown headings.)
 
 ### Introduction
 
@@ -80,7 +80,7 @@ Include a short two- or three-sentence summary about the document to help the re
 
 Use [backticks](https://help.github.com/articles/basic-writing-and-formatting-syntax/#quoting-code) to style text and code snippets readers may want to copy and paste. For example:
 
->  Use the `legend` element to offer a label within each form element.  
+>  Use the `legend` element to offer a label within each form element.
 
 > Copy and paste `mkdir /home/foo/doc/bar && cd $_` into Terminal.
 
@@ -103,7 +103,7 @@ Use [straight quotes](http://smartquotesforsmartpeople.com/) within code blocks 
 
 The same rules apply to pieces of text that must be used exactly as presented, such as passwords or Wi-Fi network names:
 
-> `someCl3v3rN4me` is the name of our Wi-Fi network.  
+> `someCl3v3rN4me` is the name of our Wi-Fi network.
 > Your password is `PleaseChangeMeSoon`.
 
 ### Interface elements
@@ -117,8 +117,8 @@ Use clear verbs to tell readers how to interact with interface elements:
 
 In the 18F Handbook, we emphasize the name of the interface label like so:
 
-> 1. In the **File** menu, choose **Save**.  
-> 2. Select **I agree**.  
+> 1. In the **File** menu, choose **Save**.
+> 2. Select **I agree**.
 > 3. Click **Continue**.
 
 ### Tables

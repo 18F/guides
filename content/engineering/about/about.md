@@ -8,7 +8,7 @@ tags: engineering
 subnav:
   - text: How we classify best practices
     href: "#how-we-classify-best-practices"
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_about
   key: About this guide
   order: 1
@@ -24,24 +24,24 @@ These documents are structured by topic; under topics we have classified we indi
 "Standard", "Default", "Suggestion", and "Caution".
 
 If a classification is not present on a topic or a reference to a tool or practice, it should be presumed
-to be a {%include "components/tag-suggestion.html" %} and the decision is left at your discretion. If you are unsure, ask in #dev, as the topic or tool may be a good candidate for classification.
+to be a {% include "components/tag-suggestion.html" %} and the decision is left at your discretion. If you are unsure, ask in #dev, as the topic or tool may be a good candidate for classification.
 
-{%include "components/tag-requirement.html" %} indicates practices that _must_ be done for
+{% include "components/tag-requirement.html" %} indicates practices that _must_ be done for
 regulatory, legal, compliance, or other reasons.
 
-{%include "components/tag-standard.html" %} signifies practices that have a strong consensus across TTS; they
+{% include "components/tag-standard.html" %} signifies practices that have a strong consensus across TTS; they
 should generally be followed to ease the ATO process and make on-boarding
 simpler.
 
-{%include "components/tag-default.html" %} practices are safe selections that tend to be used by a large number of our
+{% include "components/tag-default.html" %} practices are safe selections that tend to be used by a large number of our
 projects; you may find yourself with a better or more tailored solution,
 however.
 
-{%include "components/tag-suggestion.html" %} indicates examples that have worked well on a project or two;
+{% include "components/tag-suggestion.html" %} indicates examples that have worked well on a project or two;
 they're not widely used enough to be defaults, but are worth considering.
 
-{%include "components/tag-caution.html" %} marks approaches that have significant pitfalls or should not be used for
+{% include "components/tag-caution.html" %} marks approaches that have significant pitfalls or should not be used for
 security/compliance reasons.
 
 If a specific classification is not present on a topic or reference to a tool or practice, it should be presumed
-to be a {%include "components/tag-suggestion.html" %}.
+to be a {% include "components/tag-suggestion.html" %}.

@@ -4,7 +4,7 @@ permalink: /accessibility/checklist/
 layout: layouts/page
 sidenav: true
 tags: accessibility
-eleventyNavigation: 
+eleventyNavigation:
   key: checklist
   parent: accessibility
   order: 2
@@ -13,7 +13,7 @@ eleventyNavigation:
 
 This checklist helps developers identify potential accessibility issues affecting their websites or applications. It's broken down into three sections of decreasing importance: A, B and C. Please check and address these issues in the order in which they appear.
 
-For more detail on accessibility standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) 
+For more detail on accessibility standards, please see [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/)
 
  * A - Critical issues that will cause serious problems and/or stop most users of assistive technology from using the site
  * B - Issues that may cause problems or increased frustration for certain users
@@ -61,9 +61,12 @@ It is important to note, while B and C are noted as less critical, they are stil
 5. <a href='../links/'>Links are unique and contextual</a>
     * All links can be understood taken alone, e.g., 'Read more - about 508'
 6. <a href='../page-titles/'>Page titles are descriptive</a>
-7. <a href='../plugins/'>Required plugins are linked on the page</a>
+{% comment %}
+  Removed <a href='../plugins/'></a> from around this text.
+{% endcomment %}
+7. Required plugins are linked on the page
 
 ### Checklist for accessible files
-We also need to create accessible files and assets. This includes slides, documents, forms, charts, and diagrams. 
+We also need to create accessible files and assets. This includes slides, documents, forms, charts, and diagrams.
 
-Use this [GSA only: Google tools checklist](https://docs.google.com/document/d/1DXiU7pBxMQogH5G4MFC79ki5xCMt1VlED5Mq-XUINmA/edit?usp=sharing) for creating more accessible files and assets. 
+Use this [GSA only: Google tools checklist](https://docs.google.com/document/d/1DXiU7pBxMQogH5G4MFC79ki5xCMt1VlED5Mq-XUINmA/edit?usp=sharing) for creating more accessible files and assets.
