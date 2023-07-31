@@ -61,10 +61,7 @@ It is important to note, while B and C are noted as less critical, they are stil
 5. <a href='../links/'>Links are unique and contextual</a>
     * All links can be understood taken alone, e.g., 'Read more - about 508'
 6. <a href='../page-titles/'>Page titles are descriptive</a>
-{% comment %}
-  Removed <a href='../plugins/'></a> from around this text.
-{% endcomment %}
-7. Required plugins are linked on the page
+7. <a href='/TODO/'>Required plugins are linked on the page</a>
 
 ### Checklist for accessible files
 We also need to create accessible files and assets. This includes slides, documents, forms, charts, and diagrams.
