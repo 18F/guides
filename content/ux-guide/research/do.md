@@ -90,7 +90,7 @@ Design your sessions to encourage as much team involvement as possible without b
 
 For sessions where you’ll interact with participants one-at-a-time, such as in-depth interviews and usability tests, clarify which team members will moderate, take notes, and observe:
 
-- **Moderators** facilitate the session. Don’t let just anyone moderate; be honest about whether or not moderation will be difficult for someone. For example, the product owner may find it difficult to moderate without introducing [interviewer bias]({{ '../../research/bias/#interviewer-bias/' | url }})
+- **Moderators** facilitate the session. Don’t let just anyone moderate; be honest about whether or not moderation will be difficult for someone. For example, the product owner may find it difficult to moderate without introducing [interviewer bias]({{ '../../research/bias/#interviewer-bias' | url }})
 - **Notetakers** document, usually word-for-word, what happens during the session. If you’re fortunate enough to have multiple notetakers, you might ask each notetaker to make notes about specific aspects of the session. For example, one notetaker might capture verbatim notes of what the participant says while another might capture what the participant does while interacting with a prototype.
 - **Observers** pay attention during the session, and ask questions when given time by the moderator
 

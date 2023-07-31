@@ -154,7 +154,7 @@ Consider especially:
 - People who may need help using the service in question
 - People who have limited internet access
 
-[The Access Board's Section 508 standards](https://www.section508.gov/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your research and usability testing. To learn more about inclusive design, visit [Digital.gov's Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '../../../accessibility/index/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
+[The Access Board's Section 508 standards](https://www.section508.gov/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your research and usability testing. To learn more about inclusive design, visit [Digital.gov's Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '/accessibility/index/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
 
 ### Defining recruitment criteria
 
@@ -320,7 +320,7 @@ We follow a lean, iterative process, which allows the team to be more responsive
 
 ## Involving partners in research planning
 
-Hold a meeting to bring the team — including your agency partners — together to agree on the research plan. Tailor the agenda to your project’s history and your partner’s [design maturity]({{ '../../our-approach/meet-partners-where-they-are/#design-maturity/' | url }}). For example, if your partner doesn’t yet have personas, you might create provisional personas before the planning meeting; if your partner hasn’t ever planned research before, you might draft a plan for them to respond to. Be ready to educate your partners on the methods you chose and why you chose them, provide example outputs from prior research, etc.
+Hold a meeting to bring the team — including your agency partners — together to agree on the research plan. Tailor the agenda to your project’s history and your partner’s [design maturity]({{ '../../our-approach/meet-partners-where-they-are/#design-maturity' | url }}). For example, if your partner doesn’t yet have personas, you might create provisional personas before the planning meeting; if your partner hasn’t ever planned research before, you might draft a plan for them to respond to. Be ready to educate your partners on the methods you chose and why you chose them, provide example outputs from prior research, etc.
 
 Create an agenda and invite anyone who has an interest in the team’s research. Depending on where you’re at in the design process, you might begin the meeting with level-setting exercises such as:
 

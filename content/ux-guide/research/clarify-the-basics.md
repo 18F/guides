@@ -129,7 +129,7 @@ We prefer in-person research when we want to better understand the environment i
     - Example research question: _How do medical librarians find and make use of academic journal literature in answering questions for their patrons?_
     - Example interview question: _Tell me about the last time you helped a patron answer a question that required you to review academic journal literature._
 - **Be clear about who your research participants are.** How we approach our research will depend on whether we are interacting with:
-    - [Stakeholders]({{ '/product/discover/stakeholders/#understand-your-key-stakeholders' | url }}) (generally our agency partners)
+    - [Stakeholders]({{ '/product/discover/stakeholders/' | url }}) (generally our agency partners)
     - Users (those interacting with the system or product we’re investigating)
     - The public at large
 
