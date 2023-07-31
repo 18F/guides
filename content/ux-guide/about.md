@@ -38,7 +38,7 @@ Like [our 18F Content Guide]({{ '/content-guide/' | url }}), the 18F User Experi
 * consulting and coaching skills, especially supporting those new to research, design, and/or modern development practices
 * the ability to deliver artifacts that guide development and service improvements, like wireframes, service blueprints, and prototypes
 
-This guide includes information that may be new to the designers we hire (who may be new to government), and useful starting points for conversations with the people we work with (who may be new to design). For details of specific UX and service activities and how to conduct them, see [18F's methods](https://methods.18f.gov/).
+This guide includes information that may be new to the designers we hire (who may be new to government), and useful starting points for conversations with the people we work with (who may be new to design). For details of specific UX and service activities and how to conduct them, see [18F's methods](https://methods.18f.gov/TODO/).
 
 18F staff should consult the following additional guidance:
 
