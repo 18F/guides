@@ -27,6 +27,6 @@ product:
   title: Product Guide
   root: /product/
 ux-guide:
-  title: UX Guide
+  title: User Experience Design Guide
   root: /ux-guide/
 
