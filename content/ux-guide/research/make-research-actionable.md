@@ -5,10 +5,10 @@ permalink: /ux-guide/research/make-research-actionable/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-actionable
-    order: 5
-    title: Make research actionable
+  parent: ux-guide-research
+  key: ux-guide-actionable
+  order: 5
+  title: Make research actionable
 sidenav: true
 sticky_sidenav: true
 subnav:

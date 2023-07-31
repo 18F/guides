@@ -5,10 +5,10 @@ permalink: /ux-guide/our-approach/meet-partners-where-they-are/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-approach
-    key: ux-guide-approach-meet
-    order: 5
-    title: Meet partners where they are
+  parent: ux-guide-approach
+  key: ux-guide-approach-meet
+  order: 5
+  title: Meet partners where they are
 sidenav: true
 sticky_sidenav: true
 subnav:

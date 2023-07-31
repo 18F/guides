@@ -5,10 +5,10 @@ permalink: /ux-guide/design/use-a-design-system/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-design
-    key: ux-guide-design-system
-    order: 3
-    title: Use a design system
+  parent: ux-guide-design
+  key: ux-guide-design-system
+  order: 3
+  title: Use a design system
 sidenav: true
 sticky_sidenav: true
 subnav:

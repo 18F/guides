@@ -5,10 +5,10 @@ permalink: /ux-guide/our-approach/values-and-principles/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-approach
-    key: ux-guide-approach-values
-    order: 2
-    title: Values and principles
+  parent: ux-guide-approach
+  key: ux-guide-approach-values
+  order: 2
+  title: Values and principles
 sidenav: true
 sticky_sidenav: true
 subnav:

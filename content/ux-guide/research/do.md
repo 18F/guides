@@ -5,10 +5,10 @@ permalink: /ux-guide/research/do/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-do
-    order: 4
-    title: Do
+  parent: ux-guide-research
+  key: ux-guide-do
+  order: 4
+  title: Do
 sidenav: true
 sticky_sidenav: true
 subnav:

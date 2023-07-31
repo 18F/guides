@@ -5,10 +5,10 @@ permalink: /ux-guide/research/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-research-home
-    order: 1
-    title: Research
+  parent: ux-guide-research
+  key: ux-guide-research-home
+  order: 1
+  title: Research
 sidenav: true
 sticky_sidenav: true
 ---

@@ -5,10 +5,10 @@ permalink: /ux-guide/research/ethics/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-ethics
-    order: 9
-    title: Ethics
+  parent: ux-guide-research
+  key: ux-guide-ethics
+  order: 9
+  title: Ethics
 sidenav: true
 sticky_sidenav: true
 subnav:

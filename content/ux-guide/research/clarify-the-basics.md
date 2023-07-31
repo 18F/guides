@@ -5,10 +5,10 @@ permalink: /ux-guide/research/clarify-the-basics/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-clarify
-    order: 2
-    title: Clarify the basics
+  parent: ux-guide-research
+  key: ux-guide-clarify
+  order: 2
+  title: Clarify the basics
 sidenav: true
 sticky_sidenav: true
 subnav:

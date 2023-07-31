@@ -5,10 +5,10 @@ permalink: /ux-guide/our-approach/defining-design/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-approach
-    key: ux-guide-approach-define
-    order: 3
-    title: Defining design
+  parent: ux-guide-approach
+  key: ux-guide-approach-define
+  order: 3
+  title: Defining design
 sidenav: true
 sticky_sidenav: true
 subnav:

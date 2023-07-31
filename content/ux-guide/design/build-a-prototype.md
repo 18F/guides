@@ -5,10 +5,10 @@ permalink: /ux-guide/design/build-a-prototype/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-design
-    key: ux-guide-design-prototype
-    order: 2
-    title: Build a prototype
+  parent: ux-guide-design
+  key: ux-guide-design-prototype
+  order: 2
+  title: Build a prototype
 sidenav: true
 sticky_sidenav: true
 subnav:

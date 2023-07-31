@@ -5,10 +5,10 @@ permalink: /ux-guide/research/privacy/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-privacy
-    order: 7
-    title: Privacy
+  parent: ux-guide-research
+  key: ux-guide-privacy
+  order: 7
+  title: Privacy
 sidenav: true
 sticky_sidenav: true
 subnav:

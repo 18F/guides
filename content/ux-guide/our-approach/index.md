@@ -5,10 +5,10 @@ permalink: /ux-guide/our-approach/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-approach
-    key: ux-guide-approach-home
-    order: 1
-    title: Our approach
+  parent: ux-guide-approach
+  key: ux-guide-approach-home
+  order: 1
+  title: Our approach
 sidenav: true
 sticky_sidenav: true
 ---

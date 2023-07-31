@@ -5,10 +5,10 @@ permalink: /ux-guide/research/plan/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-plan
-    order: 3
-    title: Plan
+  parent: ux-guide-research
+  key: ux-guide-plan
+  order: 3
+  title: Plan
 sidenav: true
 sticky_sidenav: true
 subnav:

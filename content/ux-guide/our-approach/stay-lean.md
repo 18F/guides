@@ -5,10 +5,10 @@ permalink: /ux-guide/our-approach/stay-lean/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-approach
-    key: ux-guide-approach-lean
-    order: 4
-    title: Stay lean
+  parent: ux-guide-approach
+  key: ux-guide-approach-lean
+  order: 4
+  title: Stay lean
 sidenav: true
 sticky_sidenav: true
 subnav:
