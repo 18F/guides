@@ -45,11 +45,11 @@ derisking:
   - name: Home
     url: /derisking/
   - name: State Software Budgeting
-    url: /derisking/state-software-budgeting/
+    url: /derisking/state-software-budgeting/TODO/
   - name: Federal Field Guide
-    url: /derisking/federal-field-guide/
+    url: /derisking/federal-field-guide/TODO/
   - name: QASP
-    url: /derisking/qasp/
+    url: /derisking/qasp/TODO/
 
 eng-hiring:
   - name: Overview
