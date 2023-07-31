@@ -23,7 +23,7 @@ around deployments, git etiquette, and similar workflow conventions.
   test completion should be a requirement for deployment.
 - Generally, **CI should perform deployments**. This ensures the deployments
   are repeatable and don’t rely on individual development environments. See
-  our [documentation on continuous deployment]({{site.baseurl}}/continuous-deployment) for
+  our [documentation on continuous deployment]({{ "/engineering/tools/continuous-deployment/" | url }}) for
   details on how to set this up.
 - Deployments should be **zero-downtime**, achievable through tools like
   [Cloud Foundry's rolling deployment process](https://docs.cloudfoundry.org/devguide/deploy-apps/rolling-deploy.html).
@@ -40,7 +40,7 @@ Git is our version control system of choice and
 GitHub is our current repository platform, but how to use these tools can be spelled out
 in a bit more detail. Note that we are looking to consolidate this with our existing
 documentation on [code review]({{ "/engineering/our-approach/code-review/" | url }}) and [example
-workflows]({{site.baseurl}}/example-workflows).
+workflows]({{ "/engineering/our-approach/example-workflows/" | url }}).
 
 ### Security {% include "components/tag-requirement.html" %}
 
@@ -77,4 +77,4 @@ files specific to your dev environment (e.g. `.DS_Store`).
 
 ## Code style
 
-{% include "components/tag-standard.html" %}  Use an opinionated automated code formatter whenever possible. This saves teams from wasting time arguing about code style, and makes it easy to comply. Specific suggestions in [the pages for each language]({{site.baseurl}}/language-selection/).
+{% include "components/tag-standard.html" %}  Use an opinionated automated code formatter whenever possible. This saves teams from wasting time arguing about code style, and makes it easy to comply. Specific suggestions in [the pages for each language]({{ "/engineering/languages-runtimes/" | url }}).

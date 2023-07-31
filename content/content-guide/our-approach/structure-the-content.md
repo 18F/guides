@@ -21,7 +21,7 @@ subnav:
   - text: Tables
     href: '#tables'
   - text: "Don’t use FAQs"
-    href: "#don't-use-faqs"
+    href: "#don-t-use-faqs"
 tags: content-guide
 eleventyNavigation:
   key: content-structure
@@ -30,7 +30,7 @@ eleventyNavigation:
   title: Structure the content
 ---
 
-It can be a little confusing when we talk about the structure of content: most writers think of the structure of their writing along the lines of chapters, sections, headings and paragraphs. But we know that people read web content a little differently than, for example, a magazine essay. And HTML gives us tools to build pages that support readers, especially those who use assistive technologies. 
+It can be a little confusing when we talk about the structure of content: most writers think of the structure of their writing along the lines of chapters, sections, headings and paragraphs. But we know that people read web content a little differently than, for example, a magazine essay. And HTML gives us tools to build pages that support readers, especially those who use assistive technologies.
 
 In this section, we will explain how to make it easier for all users to read your content.
 
@@ -44,7 +44,7 @@ Online, people tend to scan text until they find the information they need. No m
 We recommend using the “inverted pyramid” style, putting the most important information at the beginning, and the second most important second, until the very least important information is delivered in the last thought. Hopefully you will have the research you need about your users to tell you what’s most important to them. Plan for user testing after launch to make sure you’ve got it right.
 
 ## Short, punchy paragraphs
-You might think of webpages as a series of little inverted pyramids, so that, as the reader’s eye lands on a particular chunk of text, they see the information that (we believe) is most important to them. 
+You might think of webpages as a series of little inverted pyramids, so that, as the reader’s eye lands on a particular chunk of text, they see the information that (we believe) is most important to them.
 
 ## Descriptive headings
 When readers are scanning your short paragraphs, it’s helpful for them to see a header that lets them know what they will find there. It’s better to be clear than clever here; your readers will be grateful that you saved them time by showing them where to find the thing they were looking for.

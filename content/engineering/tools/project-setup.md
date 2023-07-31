@@ -42,7 +42,7 @@ visual regression tests don't make sense for an API).
 1. Build scripts
 1. Unit test setup for each programming language
 1. Linter setup (e.g., [`flake8`](http://flake8.pycqa.org/en/latest/),
-   [`rubocop`](../ruby/rubocop.yml),
+   [`rubocop`]({{ "/assets/engineering/dist/rubocop.yml" | url }}),
    [`eslint`](https://github.com/airbnb/javascript/blob/master/linters/.eslintrc) {% include "components/tag-suggestion.html" %})
 1. Docker
    - Dockerfiles
@@ -52,7 +52,7 @@ visual regression tests don't make sense for an API).
    - [Manifests](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html), one per deployment environment (e.g., [18F/fec-cms](https://github.com/18F/fec-cms), [18F/culper](https://github.com/18F/culper/tree/develop/conf/manifests))
    - [`.cfignore`](https://docs.cloudfoundry.org/devguide/deploy-apps/prepare-to-deploy.html#-ignore-unnecessary-files-when-pushing) (can be a symlink to `.gitignore` to get started)
 1. Deploy scripts
-1. [Continuous Integration/Continuous Deployment](#continuous-integrationcontinuous-deployment)
+1. [Continuous Integration/Continuous Deployment](#continuous-integration-continuous-deployment)
 1. [Code coverage metrics](#code-coverage-metrics)
 1. [Static analysis for code quality](#static-analysis-for-code-quality)
 1. [Static security analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/)

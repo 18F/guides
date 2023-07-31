@@ -87,7 +87,7 @@ module.exports = function (config) {
     linkify: false,
   }).use(markdownItAnchor, {
     permalink: headingLinks,
-    slugify: config.getFilter('slug'),
+    slugify: config.getFilter('slugify'),
   }).use(markdownItAttrs);
   config.setLibrary('md', markdownLibrary);
 
