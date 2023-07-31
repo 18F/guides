@@ -30,7 +30,7 @@ description: "How 18F user experience (UX) designers improve interactions betwee
 
 ## What this guide is
 
-Like [our 18F Content Guide]({{ '../../../content-guide/' | url }}), the 18F User Experience guide is written for our internal designers, but we hope it’s a useful reference for anyone. Our working assumptions for this guide include that 18F designers are expected to possess, among other things:
+Like [our 18F Content Guide]({{ '/content-guide/' | url }}), the 18F User Experience guide is written for our internal designers, but we hope it’s a useful reference for anyone. Our working assumptions for this guide include that 18F designers are expected to possess, among other things:
 
 * design research skills
 * the ability to skillfully navigate organizational relationships
