@@ -58,10 +58,10 @@ Note: You can customize this template, but it must include a Privacy Act stateme
 Looking for PRA (Paperwork Reduction Act) information? See the [UX Guide Legal page]({{site.baseurl}}/research/legal).
 
 ### Interviews
-[Interview checklist]({{ '/ux-guide/interview-checklist' | url }}). ([Google Doc Interview checklist](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)).  
+[Interview checklist]({{ '/ux-guide/interview-checklist/' | url }}). ([Google Doc interview checklist](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)).  
 A checklist for planning and conducting in-depth interviews.
 
-[Interview guide]({{ site.baseurl }}/interview-script). ([Interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).  
+[Interview guide]({{ '/ux-guide/interview-script/' | url }}). ([Google Doc interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).  
 An example guide for moderating in-depth interviews with users.
 
 [Interview debrief guide]({{ '/ux-guide/interview-debrief/' | url }}). ([Interview debrief guide](https://docs.google.com/document/d/1f5Ue2vbeg4-95EevvlURzvl6yMLwMOXtiNwe6OMnb9E/edit)).  
