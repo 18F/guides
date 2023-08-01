@@ -5,15 +5,15 @@ permalink: /ux-guide/research/privacy/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-privacy
-    order: 7
-    title: Privacy
+  parent: ux-guide-research
+  key: ux-guide-privacy
+  order: 7
+  title: Privacy
 sidenav: true
 sticky_sidenav: true
 subnav:
   - text: Personally Identifiable Information (PII)
-    href: '#personally-identifiable-information-(pii)'
+    href: '#personally-identifiable-information-pii'
   - text: Guidelines
     href: '#guidelines'
   - text: Additional reading

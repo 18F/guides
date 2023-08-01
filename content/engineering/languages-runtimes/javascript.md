@@ -5,7 +5,7 @@ sticky_sidenav: true
 permalink: /engineering/languages-runtimes/javascript/
 tags: engineering
 layout: layouts/page
-eleventyNavigation: 
+eleventyNavigation:
   parent: engineering_languages
   key: JavaScript
   order: 2
@@ -34,17 +34,17 @@ consistent JS across TTS. The styleguide should be treated as a guide
 The word "dependency" refers to all of the frameworks, libraries, and other tools that your project relies on. *Dependency management* is the process by which tools are incorporated into your project, removed and updated (for instance, when you need a new version of [jQuery]). Here are the tools that we recommend for managing dependencies:
 
 ## Bower
-{%include "components/tag-caution.html" %} __Do not use Bower.__
+{% include "components/tag-caution.html" %} __Do not use Bower.__
 
 It's not needed and should be phased out and replaced by npm. More information can be found here: [Why We Should Stop Using Bower – And How to Do It](http://gofore.com/ohjelmistokehitys/stop-using-bower/).
 
 
 ## npm
-{%include "components/tag-default.html" %} [npm] informally stands for *N*ode *P*ackage *M*anager, and is the package manager node uses. Its usage is very similar to Bower because the latter was inspired by the former.
+{% include "components/tag-default.html" %} [npm] informally stands for *N*ode *P*ackage *M*anager, and is the package manager node uses. Its usage is very similar to Bower because the latter was inspired by the former.
 
 ### Install npm
 
-{%include "components/tag-standard.html" %}
+{% include "components/tag-standard.html" %}
 We recommend installing both node and npm through a tool called nvm. nvm (which stands for Node version manager) is a software that allows you to run multiple versions of node in different projects on the same computer. Its benefits include
 
 - Installs npm in a manner that doesn't require running sudo to install global packages.
@@ -58,7 +58,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.6/install.sh | b
 
 ### npm instructions
 
-{%include "components/tag-caution.html" %} If you can't use nvm, you can install node and npm globally.
+{% include "components/tag-caution.html" %} If you can't use nvm, you can install node and npm globally.
 
 1. Get [Node.js].
 2. To initialize your project, run `npm init` in your project directory, which will create a `package.json`.
@@ -139,7 +139,7 @@ Many dependencies consist of a single file and can be more easily incorporated s
 When choosing a JavaScript web framework, also consider if vanilla JavaScript would satisfy your project needs. "Vanilla JavaScript" (or "vanilla JS") refers to using just JavaScript and the [Web APIs](https://developer.mozilla.org/en-US/docs/Web/API) provided natively by web browsers. For simpler project, vanilla JavaScript helps avoid overengineering, can reduce security and compliance complexity, and may reduce maintenance costs by making it possible for any JavaScript developer to work on it. However, vanilla JavaScript can be unwieldy in complex applications.
 
 ## React
-{%include "components/tag-default.html" %}
+{% include "components/tag-default.html" %}
 [React](https://reactjs.org/) (sometimes styled React.js or ReactJS) is an open-source JavaScript library for creating user interfaces that aims to address challenges encountered in developing single-page applications ([Wikipedia](https://en.wikipedia.org/wiki/React_(JavaScript_library))).
 
 ### When to use:
@@ -165,7 +165,7 @@ When choosing a JavaScript web framework, also consider if vanilla JavaScript wo
     - When all state changes result in cheap re-rendering
 
 ## Angular
-{%include "components/tag-suggestion.html" %}
+{% include "components/tag-suggestion.html" %}
 [Angular](https://angular.io/) (sometimes styled Angular 2+) is an open-source web application framework maintained by Google and by a community of individual developers and corporations to address many of the challenges encountered in developing single-page applications ([Wikipedia](https://en.wikipedia.org/wiki/Angular_(web_framework))
 
 We don't work with Angular a lot ourselves, but it is a well-maintained, highly-used modern framework and we should not discourage or frown on its use by our partners. In our consulting and acquisition work, we view Angular as a solid choice for a frontend web framework, given the considerations below.
@@ -202,13 +202,13 @@ We don't work with Angular a lot ourselves, but it is a well-maintained, highly-
 
 ## AngularJS
 
-{%include "components/tag-caution.html" %}
+{% include "components/tag-caution.html" %}
 AngularJS is the legacy version of Angular and is not actively developed. Maintenance will be discontinued on July 21, 2021. New projects should not use AngularJS.
 
 ([Wikipedia](http://en.wikipedia.org/wiki/AngularJS)).
 
 # Style
-{%include "components/tag-standard.html" %}
+{% include "components/tag-standard.html" %}
 We recommend combining [Prettier](https://prettier.io) with the
 [Airbnb JavaScript style guide](https://github.com/airbnb/javascript) plugins
 for [eslint](https://eslint.org).
@@ -302,4 +302,4 @@ For more information on configuring `eslint`, see its documentation at
 }
 
 # Related topics
-* [Node.js]({{site.baseurl}}/nodejs)
+* [Node.js]({{ "/engineering/languages-runtimes/nodejs/" | url }})

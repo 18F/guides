@@ -3,7 +3,7 @@ title: Overview of interviews
 permalink: /eng-hiring/interviews/
 layout: layouts/page
 tags: eng-hiring
-eleventyNavigation: 
+eleventyNavigation:
   parent: eng-hiring-interviews
   key: eng-hiring-interviews-home
   order: 1
@@ -16,7 +16,7 @@ subnav:
   - text: Using Slack appropriately
     href: "#using-slack-appropriately"
   - text: Quick DOs and DON'Ts
-    href: "#quick-dos-and-don'ts"
+    href: "#quick-dos-and-don-ts"
   - text: Preparing for the interview
     href: "#preparing-for-the-interview"
   - text: Follow the guides

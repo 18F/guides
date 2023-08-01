@@ -5,10 +5,10 @@ permalink: /ux-guide/research/bias/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-bias
-    order: 8
-    title: Bias
+  parent: ux-guide-research
+  key: ux-guide-bias
+  order: 8
+  title: Bias
 sidenav: true
 sticky_sidenav: true
 subnav:

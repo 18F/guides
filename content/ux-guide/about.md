@@ -4,10 +4,10 @@ permalink: /ux-guide/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide
-    key: ux-guide-home
-    order: 1
-    title: About this guide
+  parent: ux-guide
+  key: ux-guide-home
+  order: 1
+  title: About this guide
 sidenav: true
 sticky_sidenav: true
 subnav:
@@ -30,7 +30,7 @@ description: "How 18F user experience (UX) designers improve interactions betwee
 
 ## What this guide is
 
-Like [our 18F Content Guide]({{ '../../../content-guide/' | url }}), the 18F User Experience guide is written for our internal designers, but we hope it’s a useful reference for anyone. Our working assumptions for this guide include that 18F designers are expected to possess, among other things:
+Like [our 18F Content Guide]({{ '/content-guide/' | url }}), the 18F User Experience guide is written for our internal designers, but we hope it’s a useful reference for anyone. Our working assumptions for this guide include that 18F designers are expected to possess, among other things:
 
 * design research skills
 * the ability to skillfully navigate organizational relationships
@@ -38,7 +38,7 @@ Like [our 18F Content Guide]({{ '../../../content-guide/' | url }}), the 18F Use
 * consulting and coaching skills, especially supporting those new to research, design, and/or modern development practices
 * the ability to deliver artifacts that guide development and service improvements, like wireframes, service blueprints, and prototypes
 
-This guide includes information that may be new to the designers we hire (who may be new to government), and useful starting points for conversations with the people we work with (who may be new to design). For details of specific UX and service activities and how to conduct them, see [18F's methods](https://methods.18f.gov/).
+This guide includes information that may be new to the designers we hire (who may be new to government), and useful starting points for conversations with the people we work with (who may be new to design). For details of specific UX and service activities and how to conduct them, see [18F's methods](https://methods.18f.gov/TODO/).
 
 18F staff should consult the following additional guidance:
 
@@ -53,7 +53,7 @@ This guide includes information that may be new to the designers we hire (who ma
 We created this guide for our reference. It’s here for a refresher on [ways to protect research participant privacy]({{ 'research/privacy/' | url }}), or for quick access to [design-related templates, presentations, etc.]({{site.baseurl}}/resources/) You’re also welcome to read it from start to finish if you like.
 
 This guide is divided into three sections:
-- **Our Approach** describes essential components that shape our design practice: our [team values and principles]({{ 'our-approach/values-and-principles' | url }}), our [definitions of design]({{ 'our-approach/defining-design/' | url }}), and our commitment to [staying lean]({{ 'our-approach/stay-lean/' | url }}). It also describes how we [meet partners where they are]({{ 'our-approach/meet-partners-where-they-are/' | url }}).
+- **Our Approach** describes essential components that shape our design practice: our [team values and principles]({{ 'our-approach/values-and-principles/' | url }}), our [definitions of design]({{ 'our-approach/defining-design/' | url }}), and our commitment to [staying lean]({{ 'our-approach/stay-lean/' | url }}). It also describes how we [meet partners where they are]({{ 'our-approach/meet-partners-where-they-are/' | url }}).
 - **Research** describes the process by which we systematically frame problems, explore options, and evaluate solutions. It includes articles on research [basics]({{ 'research/clarify-the-basics/' | url }}) (working definitions) and how we [plan]({{ 'research/plan/' | url }}), [do]({{ 'research/do/' | url }}), and [analyze, synthesize, and share]({{ 'research/make-research-actionable/' | url }}) research.
 - **Design** describes how we communicate and clarify what we’re building throughout the design process. It includes articles on how we [build prototypes]({{ 'design/build-a-prototype/' | url }} ) and [use design systems]({{ 'design/use-a-design-system/' | url }}).
 

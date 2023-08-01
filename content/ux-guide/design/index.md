@@ -5,10 +5,10 @@ permalink: /ux-guide/design/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-design
-    key: ux-guide-design-home
-    order: 1
-    title: Design
+  parent: ux-guide-design
+  key: ux-guide-design-home
+  order: 1
+  title: Design
 sidenav: true
 sticky_sidenav: true
 ---

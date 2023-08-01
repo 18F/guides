@@ -5,10 +5,10 @@ permalink: /ux-guide/research/make-research-actionable/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-actionable
-    order: 5
-    title: Make research actionable
+  parent: ux-guide-research
+  key: ux-guide-actionable
+  order: 5
+  title: Make research actionable
 sidenav: true
 sticky_sidenav: true
 subnav:
@@ -40,7 +40,7 @@ At 18F this generally involves:
 
 1. Highlighting key quotes in transcripts (based on your research goals) and from other research such as quantitative analysis and secondary research
 2. Gathering quotes and other data into a shared document/space
-3. [Affinity diagramming [18F design methods]](https://methods.18f.gov/decide/affinity-mapping/) to identify emergent themes, patterns, and insights
+3. [Affinity diagramming [18F design methods]](https://methods.18f.gov/decide/affinity-mapping/TODO/) to identify emergent themes, patterns, and insights
 4. Developing a shared understanding as a group
 
 Making meaning always happens in relation to the research questions and/or problem statements identified during [research planning]({{ '../../research/plan/' | url }}). Some questions you might ask:
@@ -75,14 +75,14 @@ Before conducting shared analysis or synthesis, make sure that any quote could b
 
 ### Choosing methods
 
-Making meaning out of research can involve any number of different [methods [18F design methods]](https://methods.18f.gov). The most basic method is writing a summary of what you found. Write a brief summary of the data you collected that, when read together with your [research plan]({{ site.baseurl }}/resources/research-plan/TODO/), documents the research itself: the questions you started with, how you went about answering them, what you learned, and why it matters. Aim for true and useful, rather than comprehensive.
+Making meaning out of research can involve any number of different [methods [18F design methods]](https://methods.18f.gov/TODO/). The most basic method is writing a summary of what you found. Write a brief summary of the data you collected that, when read together with your [research plan]({{ site.baseurl }}/resources/research-plan/TODO/), documents the research itself: the questions you started with, how you went about answering them, what you learned, and why it matters. Aim for true and useful, rather than comprehensive.
 
 Outside of writing a summary, you should choose your methods based on the desired outputs and outcomes of your research. For example:
 
-- To build empathy for users and inform future design strategy, you might create a [mental model [18F design methods]](https://methods.18f.gov/decide/mental-modeling/) diagram, by combing through transcripts looking for reasonings, reactions, and guiding principles
-- To create reusable archetypes for grounding user stories and scenarios, you might create a [persona [18F design methods]](https://methods.18f.gov/decide/personas/), by reviewing transcripts for goals, behaviors, and pain points
-- To find themes in your data via a bottom-up process, try [affinity diagramming [18F design methods]](https://methods.18f.gov/decide/affinity-mapping/). Record ideas, quotes, or observations from your research on sticky notes (one idea per sticky note), place them on a wall or whiteboard, and then move the sticky notes into related groups. If working virtually, you can use digital whiteboarding tools such as Mural. Once you have the groupings, you can label them according to a theme or pattern.
-- To make the complexities of a work process or service visible, you might use [task flow analysis [18F design methods]](https://methods.18f.gov/decide/task-flow-analysis/), service blueprints, or [journey mapping [18F design methods]](https://methods.18f.gov/decide/journey-mapping/): these show connections between stakeholders or across organizational silos. Once you’ve visualized the process or journey, you can analyze for key interactions, pain points, and dependencies.
+- To build empathy for users and inform future design strategy, you might create a [mental model [18F design methods]](https://methods.18f.gov/decide/mental-modeling/TODO/) diagram, by combing through transcripts looking for reasonings, reactions, and guiding principles
+- To create reusable archetypes for grounding user stories and scenarios, you might create a [persona [18F design methods]](https://methods.18f.gov/decide/personas/TODO/), by reviewing transcripts for goals, behaviors, and pain points
+- To find themes in your data via a bottom-up process, try [affinity diagramming [18F design methods]](https://methods.18f.gov/decide/affinity-mapping/TODO/). Record ideas, quotes, or observations from your research on sticky notes (one idea per sticky note), place them on a wall or whiteboard, and then move the sticky notes into related groups. If working virtually, you can use digital whiteboarding tools such as Mural. Once you have the groupings, you can label them according to a theme or pattern.
+- To make the complexities of a work process or service visible, you might use [task flow analysis [18F design methods]](https://methods.18f.gov/decide/task-flow-analysis/TODO/), service blueprints, or [journey mapping [18F design methods]](https://methods.18f.gov/decide/journey-mapping/TODO/): these show connections between stakeholders or across organizational silos. Once you’ve visualized the process or journey, you can analyze for key interactions, pain points, and dependencies.
 - To get buy-in from agency stakeholders or to validate insights and opportunities further with groups most impacted by the work, consider storytelling approaches within reporting, blog posts or press releases, presentations, or sharing sessions. 
 
 Whichever method you use, introduce it to your partner as well so they can build their research skills.
@@ -102,16 +102,16 @@ Turning insights into action helps us answer and communicate:
 Artifacts that we use to do this include:
 
 - [Research findings presentation template in Google Slides](https://docs.google.com/presentation/d/1hB0tX65pHGRESHc2e_tGlO65Q4AGwSWFuqhSNImNuRk/edit#slide=id.g9af2006e6a_1_238)
-- [Design hypotheses [18F design methods]](https://methods.18f.gov/decide/design-hypothesis/)
-- [Design principles [18F design methods]](https://methods.18f.gov/decide/design-principles/)
-- [Personas [18F design methods]](https://methods.18f.gov/decide/personas/)
-- [Mental models [18F design methods]](https://methods.18f.gov/decide/mental-modeling/)
-- [User scenarios [18F design methods]](https://methods.18f.gov/decide/user-scenarios/)
+- [Design hypotheses [18F design methods]](https://methods.18f.gov/decide/design-hypothesis/TODO/)
+- [Design principles [18F design methods]](https://methods.18f.gov/decide/design-principles/TODO/)
+- [Personas [18F design methods]](https://methods.18f.gov/decide/personas/TODO/)
+- [Mental models [18F design methods]](https://methods.18f.gov/decide/mental-modeling/TODO/)
+- [User scenarios [18F design methods]](https://methods.18f.gov/decide/user-scenarios/TODO/)
 - User stories
-- [Storyboards [18F design methods]](https://methods.18f.gov/decide/storyboarding/)
-- [Journey maps [18F design methods]](https://methods.18f.gov/decide/journey-mapping/)
+- [Storyboards [18F design methods]](https://methods.18f.gov/decide/storyboarding/TODO/)
+- [Journey maps [18F design methods]](https://methods.18f.gov/decide/journey-mapping/TODO/)
 - Service blueprints 
-- [Prototypes [18F design methods]](https://methods.18f.gov/make/prototyping/)
+- [Prototypes [18F design methods]](https://methods.18f.gov/make/prototyping/TODO/)
 - Other creative outputs
 
 These artifacts are tools for communicating the answers to your research questions and prioritizing opportunities for action. When choosing which artifacts to make, consider your audience and think about what will best create a shared understanding of your findings. For example, imagine you are describing an experience that is often a challenge for a specific group of users. In this case, personas accompanied by a journey map may be more effective than a set of design principles.

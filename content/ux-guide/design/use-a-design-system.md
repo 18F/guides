@@ -5,15 +5,15 @@ permalink: /ux-guide/design/use-a-design-system/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-design
-    key: ux-guide-design-system
-    order: 3
-    title: Use a design system
+  parent: ux-guide-design
+  key: ux-guide-design-system
+  order: 3
+  title: Use a design system
 sidenav: true
 sticky_sidenav: true
 subnav:
   - text: The U.S. Web Design System
-    href: '#the-u.s.-web-design-system'
+    href: '#the-u-s-web-design-system'
 ---
 
 A design system can help your team prototype faster, scale, manage front-end design debt, and apply consistency across your applications. As a project grows, designers and engineers often find themselves managing dozens of variations of the same button, for example, across hundreds of lines of code. This can create duplication that slows down the build process, requiring extra work to ensure consistent styles across all the appropriate states, and adds more things to check as you’re making sure every screen of your application is accessible to all.

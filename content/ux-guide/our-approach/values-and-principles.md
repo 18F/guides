@@ -5,10 +5,10 @@ permalink: /ux-guide/our-approach/values-and-principles/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-approach
-    key: ux-guide-approach-values
-    order: 2
-    title: Values and principles
+  parent: ux-guide-approach
+  key: ux-guide-approach-values
+  order: 2
+  title: Values and principles
 sidenav: true
 sticky_sidenav: true
 subnav:
@@ -52,7 +52,7 @@ In more depth:
 
 ### We start with the diverse needs of real people
 
-We always begin by identifying the needs of the people we serve, in context. Through a variety of [research methods outlined in depth on the 18F methods site](https://methods.18f.gov/), we explore how to best meet those needs with those people and communities. We start by seeking to understand, then collaboratively figure out how to deliver effective solutions. 
+We always begin by identifying the needs of the people we serve, in context. Through a variety of [research methods outlined in depth on the 18F methods site](https://methods.18f.gov/TODO/), we explore how to best meet those needs with those people and communities. We start by seeking to understand, then collaboratively figure out how to deliver effective solutions. 
 
 We work to primarily support those who need it most. By centering real people's needs, with them, we can work within constraints while also testing ways to change those constraints.
 
@@ -68,7 +68,7 @@ A flexible vision is critical. We use data and direct conversations with relevan
 
 ### We coach advocates
 
-To better serve the public, we share practices that we've proven work. We publish living documentation of our [design methods](https://methods.18f.gov/) and [UX approaches]({{ '../../our-approach/' | url }}) so others across government and beyond can benefit. 
+To better serve the public, we share practices that we've proven work. We publish living documentation of our [design methods](https://methods.18f.gov/TODO/) and [UX approaches]({{ '../../our-approach/' | url }}) so others across government and beyond can benefit. 
 
 We work on cross-agency teams with civil servants who are experts in their field. Collaborating closely allows us a glimpse into their expertise and them into ours. This shared understanding allows us to recommend next steps and them to advocate for better design practices or policy changes to their colleagues. This advocacy helps other parts of government adopt human-centered design approaches.
 

@@ -5,15 +5,15 @@ permalink: /ux-guide/research/do/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-do
-    order: 4
-    title: Do
+  parent: ux-guide-research
+  key: ux-guide-do
+  order: 4
+  title: Do
 sidenav: true
 sticky_sidenav: true
 subnav:
   - text: Reviewing what’s already known
-    href: "#reviewing-what's-already-known"
+    href: "#reviewing-what-s-already-known"
   - text: Designing your research sessions
     href: '#designing-your-research-sessions'
   - text: Doing a practice session
@@ -46,7 +46,7 @@ This article covers tasks agreed to and implied during research planning such as
 
 Reviewing what’s already known helps your team draw connections and contribute new, original thought. The most fundamental technique for identifying what's already known (such as relevant business, technology, user, and content considerations) is in-depth interviews with stakeholders. It’s also generally helpful to review the current product or service, including its existing content or training materials.
 
-A knowledge inventory session helps capture what your team, including your agency partners, already knows about your research questions. To facilitate this session, you might bring the team together and ask everyone to independently make a mind map of what they know relative to the team’s research questions. Alternatively, you might ask the team to collaboratively create things like a swimlane diagram or a [journey map [18F design methods]](https://methods.18f.gov/decide/journey-mapping/).
+A knowledge inventory session helps capture what your team, including your agency partners, already knows about your research questions. To facilitate this session, you might bring the team together and ask everyone to independently make a mind map of what they know relative to the team’s research questions. Alternatively, you might ask the team to collaboratively create things like a swimlane diagram or a [journey map [18F design methods]](https://methods.18f.gov/decide/journey-mapping/TODO/).
 
 Finally, ask your agency partners for any trusted sources, or proprietary information they’ve collected about your area of focus. You might also review:
 
@@ -90,11 +90,11 @@ Design your sessions to encourage as much team involvement as possible without b
 
 For sessions where you’ll interact with participants one-at-a-time, such as in-depth interviews and usability tests, clarify which team members will moderate, take notes, and observe:
 
-- **Moderators** facilitate the session. Don’t let just anyone moderate; be honest about whether or not moderation will be difficult for someone. For example, the product owner may find it difficult to moderate without introducing [interviewer bias]({{ '../../research/bias/#interviewer-bias/' | url }})
+- **Moderators** facilitate the session. Don’t let just anyone moderate; be honest about whether or not moderation will be difficult for someone. For example, the product owner may find it difficult to moderate without introducing [interviewer bias]({{ '../../research/bias/#interviewer-bias' | url }})
 - **Notetakers** document, usually word-for-word, what happens during the session. If you’re fortunate enough to have multiple notetakers, you might ask each notetaker to make notes about specific aspects of the session. For example, one notetaker might capture verbatim notes of what the participant says while another might capture what the participant does while interacting with a prototype.
 - **Observers** pay attention during the session, and ask questions when given time by the moderator
 
-Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{site.baseurl}}/research/assist/) to people who are brand new to research.
+Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{site.baseurl}}/research/assist/TODO/) to people who are brand new to research.
 
 ### Preparing a workshop
 
@@ -104,7 +104,7 @@ Time moves fast in workshops, so be clear about what you want to accomplish and 
 
 ### Preparing a wireframe or prototype
 
-Identify in your [research plan]({{ '../../research/plan/' | url }}) if your sessions will require the creation or use of [wireframes [18F design methods]](https://methods.18f.gov/make/wireframing/) or [prototypes]({{ '../../design/build-a-prototype/' | url }}). This helps manage the team’s expectations, and gives the people creating those artifacts time to prepare them.
+Identify in your [research plan]({{ '../../research/plan/' | url }}) if your sessions will require the creation or use of [wireframes [18F design methods]](https://methods.18f.gov/make/wireframing/TODO/) or [prototypes]({{ '../../design/build-a-prototype/' | url }}). This helps manage the team’s expectations, and gives the people creating those artifacts time to prepare them.
 
 In evaluative research such as [usability testing [18F design methods]](https://methods.18f.gov/validate/usability-testing/), prototypes often suggest how users might complete specific tasks. In this case:
 
@@ -137,7 +137,7 @@ Most 18F interview guides include these sections:
 - Concluding thanks, questions, and opportunities to follow up
 - Ask who else you should meet with (if appropriate)
 
-For starting points, see this [example interview guide [18F design methods]](https://methods.18f.gov/interview-script/) ([Google Docs example interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).
+For starting points, see this [example interview guide [18F design methods]](https://methods.18f.gov/interview-script/TODO/) ([Google Docs example interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).
 
 When interviewing stakeholders, ask about their work as it relates to your research area of focus. Ask about business processes in which they play a role, the information and tools they use, the things they produce or make, and the decisions they’re responsible for. Ask about the people they work with on a regular basis and any challenges they face.
 
@@ -204,7 +204,7 @@ Getting informed consent ensures that:
 
 Copy and customize one of the participant agreements below to reflect your research design. This is the agreement you'll ask participants to sign before they participate.
 
-- [Example design research participant agreement]({{ site.baseurl }}/participant-agreement/TODO/)<br /> ([Google Docs Example design research participant agreement](https://docs.google.com/document/d/1EPElAVthOF2ojcoamRitDHSYK4lT9c5yFY8IBwbJNqE/edit))
+- [Example design research participant agreement]({{ site.baseurl }}/participant-agreement)<br /> ([Google Docs Example design research participant agreement](https://docs.google.com/document/d/1EPElAVthOF2ojcoamRitDHSYK4lT9c5yFY8IBwbJNqE/edit))
 - [Spanish version of participant agreement]({{ site.baseurl }}/participant-agreement-spanish)<br />  ([Google Docs Spanish version of participant agreement](https://docs.google.com/forms/d/13ra4T0BVWbjSPBfOuNj8zVclU5J4TquX_tFbHUQWUpc/edit))
 
 Correspond with participants ahead of time to explain things that might otherwise get lost in the agreement-signing process. Provide participants with as much context as possible to avoid misleading them and to protect their privacy. In the event that a participant has not signed an agreement ahead of the interview, obtain their verbal consent. In order to give their informed consent, participants need to understand:
@@ -281,7 +281,7 @@ Moderating a research session can be nuanced, but we encourage all team members 
 
 - If appropriate, ask if they know others who would be good for your team to talk to.
 
-While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://methods.18f.gov). We’ve also created a breakdown of [usability test quality heuristics]({{ site.baseurl }}/usability-test-quality-heuristics/TODO/) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research)) is a great place to find collaborators.
+While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://methods.18f.gov). We’ve also created a breakdown of [usability test quality heuristics]({{ site.baseurl }}/usability-test-quality-heuristics/) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research)) is a great place to find collaborators.
 
 ### Moderating sensitive research sessions
 

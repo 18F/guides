@@ -5,10 +5,10 @@ permalink: /ux-guide/research/legal/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-    parent: ux-guide-research
-    key: ux-guide-legal
-    order: 6
-    title: Legal
+  parent: ux-guide-research
+  key: ux-guide-legal
+  order: 6
+  title: Legal
 sidenav: true
 sticky_sidenav: true
 subnav:
