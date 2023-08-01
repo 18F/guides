@@ -64,7 +64,7 @@ A checklist for planning and conducting in-depth interviews.
 [Interview guide]({{ site.baseurl }}/interview-script). ([Interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).  
 An example guide for moderating in-depth interviews with users.
 
-[Interview debrief guide]({{ site.baseurl }}/interview-debrief). ([Interview debrief guide](https://docs.google.com/document/d/1f5Ue2vbeg4-95EevvlURzvl6yMLwMOXtiNwe6OMnb9E/edit)).  
+[Interview debrief guide]({{ '/ux-guide/interview-debrief/' | url }}). ([Interview debrief guide](https://docs.google.com/document/d/1f5Ue2vbeg4-95EevvlURzvl6yMLwMOXtiNwe6OMnb9E/edit)).  
 An example guide for teams leading a post-interview debrief.
 
 ### Findings presentation
