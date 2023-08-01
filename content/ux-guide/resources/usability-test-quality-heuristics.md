@@ -6,7 +6,7 @@ layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
   parent: ux-guide-test-heuristics
-  key: uux-guide-test-heuristics-home
+  key: ux-guide-test-heuristics-home
   order: 1
   title: Usability Test Quality Heuristics
 sidenav: true
