@@ -58,7 +58,7 @@ Note: You can customize this template, but it must include a Privacy Act stateme
 Looking for PRA (Paperwork Reduction Act) information? See the [UX Guide Legal page]({{site.baseurl}}/research/legal).
 
 ### Interviews
-[Interview checklist]({{ site.baseurl }}/interview-checklist). ([Interview checklist](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)).  
+[Interview checklist]({{ '/ux-guide/interview-checklist' | url }}). ([Google Doc Interview checklist](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)).  
 A checklist for planning and conducting in-depth interviews.
 
 [Interview guide]({{ site.baseurl }}/interview-script). ([Interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).  
