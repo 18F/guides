@@ -204,8 +204,8 @@ Getting informed consent ensures that:
 
 Copy and customize one of the participant agreements below to reflect your research design. This is the agreement you'll ask participants to sign before they participate.
 
-- [Example design research participant agreement]({{ '/ux-guide/participant-agreement' | url }})<br /> ([Google Docs Example design research participant agreement](https://docs.google.com/document/d/1EPElAVthOF2ojcoamRitDHSYK4lT9c5yFY8IBwbJNqE/edit))
-- [Spanish version of participant agreement]({{ '/ux-guide/participant-agreement-spanish' | url }})<br />  ([Google Docs Spanish version of participant agreement](https://docs.google.com/forms/d/13ra4T0BVWbjSPBfOuNj8zVclU5J4TquX_tFbHUQWUpc/edit))
+- [Example design research participant agreement]({{ '/ux-guide/participant-agreement/' | url }})<br /> ([Google Docs Example design research participant agreement](https://docs.google.com/document/d/1EPElAVthOF2ojcoamRitDHSYK4lT9c5yFY8IBwbJNqE/edit))
+- [Spanish version of participant agreement]({{ '/ux-guide/participant-agreement-spanish/' | url }})<br />  ([Google Docs Spanish version of participant agreement](https://docs.google.com/forms/d/13ra4T0BVWbjSPBfOuNj8zVclU5J4TquX_tFbHUQWUpc/edit))
 
 Correspond with participants ahead of time to explain things that might otherwise get lost in the agreement-signing process. Provide participants with as much context as possible to avoid misleading them and to protect their privacy. In the event that a participant has not signed an agreement ahead of the interview, obtain their verbal consent. In order to give their informed consent, participants need to understand:
 

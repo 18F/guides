@@ -27,7 +27,7 @@ subnav:
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
 {% endcomment %}
 
-This document includes example questions grouped along key moments often found in our in-depth interviews: introductions, warm-up, topic-specific questions, demos, etc. Edit these questions as you see fit. If your questions are specific or your participant’s time scarce, consider sharing some questions ahead of time. See [this checklist]({{ '/ux-guide/interview-checklist' | url }}) for running an in-depth interview. GSA Staff, please see this [Google Doc Template (GSA/TTS Access only)](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)
+This document includes example questions grouped along key moments often found in our in-depth interviews: introductions, warm-up, topic-specific questions, demos, etc. Edit these questions as you see fit. If your questions are specific or your participant’s time scarce, consider sharing some questions ahead of time. See [this checklist]({{ '/ux-guide/interview-checklist/' | url }}) for running an in-depth interview. GSA Staff, please see this [Google Doc Template (GSA/TTS Access only)](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)
 
 ## Introduction
 Hello, my name’s `[moderator]`, and I’m going to walk you through today’s session. As I mentioned over email, my office is currently working with `[partner]` to `[broad purpose; for example, inform a redesign of agency.gov]`. Joining us on the call are `[observers, and their affiliation]`.
