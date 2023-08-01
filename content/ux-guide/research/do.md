@@ -110,7 +110,7 @@ In evaluative research such as [usability testing [18F design methods]](https://
 
 1. **Clarify the tasks your sessions will investigate.** Tasks are often included in artifacts such as personas or user stories. If your team doesn’t yet have those artifacts, ask them to identify “the most essential things that people need to do” relative to your research area of focus. Then pick the top two or three tasks the prototype will need to depict.
 2. **Prepare a scenario for each task.** Scenarios help your team create a more believable prototype; they also help moderators prepare research participants during the sessions themselves. If applicable, incorporate your scenarios into the guide you’ll use to moderate the session.
-[Example usability test guide.]({{ site.baseurl }}/usability-test-script/TODO/) ([Google Docs example usability test guide.](https://docs.google.com/document/d/1VimyVSt7qK3iKc2uZkobLWM0zuJuvO03vFk_R_EjhOU/)).
+[Example usability test guide.]({{ '/ux-guide/usability-test-script/' | url }}) ([Google Docs example usability test guide.](https://docs.google.com/document/d/1VimyVSt7qK3iKc2uZkobLWM0zuJuvO03vFk_R_EjhOU/)).
 3. **Discuss with your team how and when you’ll share the prototype** (for example, sharing a link to an online prototype or sending a document).
 
 Prototypes create dependencies in your research. When doing research involving prototypes, you will need to:

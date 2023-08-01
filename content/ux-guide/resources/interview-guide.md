@@ -56,7 +56,7 @@ What’s one thing you wish were more straightforward about `[topic]`?
 
 ## Demo
 
-_Note: If you’re running a usability test, consider this [example usability test script]({{ site.baseurl }}/usability-test-script) instead._
+_Note: If you’re running a usability test, consider this [example usability test script]({{ '/ux-guide/usability-test-script/' | url }}) instead._
 
 Thanks. Now I’m going to ask you to consider how you might respond to the following scenarios using this website. I’m going to read each scenario out loud, and I’ll also share the text of the scenario via chat.
 
