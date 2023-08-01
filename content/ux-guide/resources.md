@@ -79,7 +79,7 @@ An email for stakeholders to introduce and legitimize 18F design researchers to 
 [Researcher introduces themselves to a participant]({{ '/ux-guide/resources/email-templates/researcher-introduces-themselves/' | url }}). ([Researcher introduces themselves to a participant](https://docs.google.com/document/d/1aiK07pszR331v1d1J2tT6HUQ5JGsSjKjeFBzOwCwHLg/edit#)).  
 An email for introducing yourself to potential participants (for example, people who responded to your invitation to participate in the research) and finding a good time for them to participate in a moderated research session.
 
-[Researcher sends agreement to participant]({{ site.baseurl }}/resources/email-templates/researcher-sends-agreement). ([Researcher sends agreement to participant](https://docs.google.com/document/d/1t01t_eLYWJXuKdJkhiyBqkWf4Yr5XsFAbNv-BDAZqzE/edit#)).  
+[Researcher sends agreement to participant]({{ '/ux-guide/resources/email-templates/researcher-sends-agreement/' | url }}). ([Researcher sends agreement to participant](https://docs.google.com/document/d/1t01t_eLYWJXuKdJkhiyBqkWf4Yr5XsFAbNv-BDAZqzE/edit#)).  
 An email asking participants to review and sign a participant agreement before they participate in moderated research.
 
 ## Design
