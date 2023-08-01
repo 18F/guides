@@ -75,7 +75,7 @@ Before conducting shared analysis or synthesis, make sure that any quote could b
 
 ### Choosing methods
 
-Making meaning out of research can involve any number of different [methods [18F design methods]](https://methods.18f.gov/TODO/). The most basic method is writing a summary of what you found. Write a brief summary of the data you collected that, when read together with your [research plan]({{ site.baseurl }}/resources/research-plan), documents the research itself: the questions you started with, how you went about answering them, what you learned, and why it matters. Aim for true and useful, rather than comprehensive.
+Making meaning out of research can involve any number of different [methods [18F design methods]](https://methods.18f.gov/TODO/). The most basic method is writing a summary of what you found. Write a brief summary of the data you collected that, when read together with your [research plan]({{ site.baseurl }}/resources/research-plan/TODO/), documents the research itself: the questions you started with, how you went about answering them, what you learned, and why it matters. Aim for true and useful, rather than comprehensive.
 
 Outside of writing a summary, you should choose your methods based on the desired outputs and outcomes of your research. For example:
 

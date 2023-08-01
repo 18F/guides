@@ -31,7 +31,7 @@ subnav:
 
 See the [TTS handbook for requirements around compensating research participants.](https://handbook.tts.gsa.gov/18f/how-18f-works/research-guidelines/#compensating-user-research-participants)
 
-Ask participants for signed or verbal confirmation of [informed consent]({{ '../../research/do/#getting-informed-consent' | url }}). Our [example design research participant agreement]({{ site.baseurl }}/participant-agreement) is available in both English and Spanish. 
+Ask participants for signed or verbal confirmation of [informed consent]({{ '../../research/do/#getting-informed-consent' | url }}). Our [example design research participant agreement]({{ site.baseurl }}/participant-agreement/TODO/) is available in both English and Spanish. 
 
 ## The Paperwork Reduction Act of 1995
 

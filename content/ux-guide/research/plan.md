@@ -46,7 +46,7 @@ A research plan (sometimes also called a research protocol), describes the desig
 - Ethics considerations
 - Outputs and outcomes
 
-18F maintains [a research plan template]({{ site.baseurl }}/resources/research-plan) ([Research plan in Google Doc](https://docs.google.com/document/d/1M3GP1JWW9mlZAAONklogurd8qXZLLgBqcKfU5HiS9h0/edit#heading=h.qjlo8a1jasd5)). Your research plans do not have to follow this template. What’s important is that you create a plan at all. Research planning helps you and your team:
+18F maintains [a research plan template]({{ site.baseurl }}/resources/research-plan/TODO/) ([Research plan in Google Doc](https://docs.google.com/document/d/1M3GP1JWW9mlZAAONklogurd8qXZLLgBqcKfU5HiS9h0/edit#heading=h.qjlo8a1jasd5)). Your research plans do not have to follow this template. What’s important is that you create a plan at all. Research planning helps you and your team:
 
 - Openly commit to learning more about the problem(s) at hand
 - Agree on which information is most useful for informing future decisions
@@ -154,7 +154,7 @@ Consider especially:
 - People who may need help using the service in question
 - People who have limited internet access
 
-[The Access Board's Section 508 standards](https://www.section508.gov/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your research and usability testing. To learn more about inclusive design, visit [Digital.gov's Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '/accessibility/index/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
+[The Access Board's Section 508 standards](https://www.section508.gov/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your research and usability testing. To learn more about inclusive design, visit [Digital.gov's Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '/accessibility/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
 
 ### Defining recruitment criteria
 
@@ -291,7 +291,7 @@ To learn about various strategies for creating recruitment materials and screeni
 
 GSA can compensate members of the public for participating in design research. We can not compensate government employees. <strong>We must do research with people who will actually use our services</strong>. See the TTS Handbook for specifics on the process we use to [compensate research participants](https://handbook.tts.gsa.gov/18f/how-18f-works/research-guidelines/#compensating-user-research-participants).
 
-[Section 508 standards](https://www.access-board.gov/ict/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your design research and usability testing. To learn more about inclusive design, visit [Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '../../../accessibility/index/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
+[Section 508 standards](https://www.access-board.gov/ict/) require that our designs are accessible to people with disabilities. The best way to make sure our products and services are accessible is to design for these users from the start. Include people with disabilities in your design research and usability testing. To learn more about inclusive design, visit [Accessibility for Teams](https://accessibility.digital.gov/), [18F's Accessibility Guide]({{ '/accessibility/' | url }}), or the TTS Accessibility guild [#g-accessibility](https://gsa-tts.slack.com/archives/C02BT4H5Q).
 
 #### Why do we offer compensation?
 
@@ -365,7 +365,7 @@ Session documentation can take many forms. We often conduct research that may co
 
 - What is the lightest-weight way to document your sessions and still capture the information you need to create your desired outputs, conduct shared [analysis]({{ '../../research/make-research-actionable/' | url }}), etc.?
 - What type of documentation will your participants be most comfortable with (see [Privacy]({{ '../../research/privacy/' | url }}))?
-- Did you ask your participants for [consent]({{ site.baseurl }}/participant-agreement) for this form of documentation?
+- Did you ask your participants for [consent]({{ site.baseurl }}/participant-agreement/TODO/) for this form of documentation?
 
 ### Documentation methods
 
