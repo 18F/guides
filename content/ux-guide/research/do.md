@@ -94,7 +94,7 @@ For sessions where you’ll interact with participants one-at-a-time, such as in
 - **Notetakers** document, usually word-for-word, what happens during the session. If you’re fortunate enough to have multiple notetakers, you might ask each notetaker to make notes about specific aspects of the session. For example, one notetaker might capture verbatim notes of what the participant says while another might capture what the participant does while interacting with a prototype.
 - **Observers** pay attention during the session, and ask questions when given time by the moderator
 
-Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{site.baseurl}}/research/assist/) to people who are brand new to research.
+Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{site.baseurl}}/research/assist/TODO/) to people who are brand new to research.
 
 ### Preparing a workshop
 
@@ -205,7 +205,7 @@ Getting informed consent ensures that:
 Copy and customize one of the participant agreements below to reflect your research design. This is the agreement you'll ask participants to sign before they participate.
 
 - [Example design research participant agreement]({{ site.baseurl }}/participant-agreement/TODO/)<br /> ([Google Docs Example design research participant agreement](https://docs.google.com/document/d/1EPElAVthOF2ojcoamRitDHSYK4lT9c5yFY8IBwbJNqE/edit))
-- [Spanish version of participant agreement]({{ site.baseurl }}/participant-agreement-spanish)<br />  ([Google Docs Spanish version of participant agreement](https://docs.google.com/forms/d/13ra4T0BVWbjSPBfOuNj8zVclU5J4TquX_tFbHUQWUpc/edit))
+- [Spanish version of participant agreement]({{ site.baseurl }}/participant-agreement-spanish/TODO/)<br />  ([Google Docs Spanish version of participant agreement](https://docs.google.com/forms/d/13ra4T0BVWbjSPBfOuNj8zVclU5J4TquX_tFbHUQWUpc/edit))
 
 Correspond with participants ahead of time to explain things that might otherwise get lost in the agreement-signing process. Provide participants with as much context as possible to avoid misleading them and to protect their privacy. In the event that a participant has not signed an agreement ahead of the interview, obtain their verbal consent. In order to give their informed consent, participants need to understand:
 
@@ -281,7 +281,7 @@ Moderating a research session can be nuanced, but we encourage all team members 
 
 - If appropriate, ask if they know others who would be good for your team to talk to.
 
-While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://methods.18f.gov/TODO/). We’ve also created a breakdown of [usability test quality heuristics]({{ site.baseurl }}/usability-test-quality-heuristics/TODO/) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research)) is a great place to find collaborators.
+While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://methods.18f.gov/TODO/). We’ve also created a breakdown of [usability test quality heuristics]({{ site.baseurl }}/usability-test-quality-heuristics/TODO/) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research) is a great place to find collaborators.
 
 ### Moderating sensitive research sessions
 

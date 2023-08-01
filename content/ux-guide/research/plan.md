@@ -83,7 +83,7 @@ Research questions are high-level questions that reflect what you want to learn 
 
 Consider holding a research alignment workshop to help stakeholders share and discuss what they’re interested in learning. Regardless of how you build alignment, focus on the value of obtaining useful information.
 
-- [Research alignment workshop plan]({{site.baseurl}}/research/alignment-workshop/).  ([Research alignment workshop plan in Google Docs](https://docs.google.com/document/d/1NI_riUcrxaMaHihxzHOsr5Gr1n-FxAIqGZ5wzKt3wh4/edit#heading=h.aou5xt3rvfpf))
+- [Research alignment workshop plan]({{site.baseurl}}/research/alignment-workshop/TODO/).  ([Research alignment workshop plan in Google Docs](https://docs.google.com/document/d/1NI_riUcrxaMaHihxzHOsr5Gr1n-FxAIqGZ5wzKt3wh4/edit#heading=h.aou5xt3rvfpf))
 - [Research alignment presentation slides](https://docs.google.com/presentation/d/16z-oauPeHeBeVxYS3TFRXGFld4uVUEsUjAFZ87fM_IE/edit#slide=id.g4c9bb7ecb1_0_4)
 
 ### Methods
