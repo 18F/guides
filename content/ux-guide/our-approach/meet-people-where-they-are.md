@@ -43,7 +43,7 @@ We view our partners as co-creators of our design process. We are especially min
 
 ## Ability to participate
 
-Partner participation is essential to our [team's principle]({{ '../../our-approach/values-and-principles' | url }}) of training design advocates. But just because an agency enters into an agreement with 18F doesn’t mean we take their ongoing participation as a given—we actively work to engage our partners at every step of the way.
+Partner participation is essential to our [team's principle]({{ '../../our-approach/values-and-principles/' | url }}) of training design advocates. But just because an agency enters into an agreement with 18F doesn’t mean we take their ongoing participation as a given—we actively work to engage our partners at every step of the way.
 
 At a high level, to encourage participation we:
 

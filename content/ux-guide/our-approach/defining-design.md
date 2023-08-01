@@ -46,7 +46,7 @@ Most research focuses on the mindsets, behaviors and experiences of people and g
 
 ## Design depends on context
 
-What’s the right approach? It depends. We use [design research]({{ '../../research/clarify-the-basics#what-it-is' | url }}) to better understand the problems we might solve, the systems those problems connect to, and what the opportunities for technical and service changes are. We actively validate the success of our solutions with people through ongoing and iterative design research.
+What’s the right approach? It depends. We use [design research]({{ '../../research/clarify-the-basics/#what-it-is' | url }}) to better understand the problems we might solve, the systems those problems connect to, and what the opportunities for technical and service changes are. We actively validate the success of our solutions with people through ongoing and iterative design research.
 
 
 ## Design supports people's needs
