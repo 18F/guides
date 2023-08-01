@@ -10,7 +10,7 @@ tags: ux-guide
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
 {% endcomment %}
 
-[English version]({{site.baseurl}}/participant-agreement/)
+[English version]({{ '/ux-guide/participant-agreement/' | url }})
 
 
 El objeto de este contrato es la participación en una entrevista con la Administración General de Servicios de EE. UU. (GSA, sigla en inglés). La entrevista tiene como objetivo __________________. Le pedimos que lea y firme este contrato para que sepa cuáles son sus derechos o lo que debe esperar de nosotros.  Si tiene alguna duda o pregunta, por favor déjenos saber antes de firmar.
