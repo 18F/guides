@@ -154,5 +154,5 @@ We most commonly share our work via presentations. These presentations can vary 
 - [Lab@OPM's HCD Discovery Concept Guide](https://the-lab-at-opm.github.io/HCD-Discovery-Concept-Guide/)
 - [Lab@OPM's HCD Discovery Operations Guide](https://the-lab-at-opm.github.io/HCD-Discovery-Operations-Guide/)
 - [NYC Civic Service Design: Tools and Tactics](https://www1.nyc.gov/assets/servicedesign/)
-- [Gov.uk Service Manual: User Research](https://www.gov.uk/service-manual/user-research)
+- [GOV.UK Service Manual: User Research](https://www.gov.uk/service-manual/user-research)
 - [18F UX Guide References](https://docs.google.com/document/d/1IYt7kcHMtVAKQdWPUZQB-u9qOvoUx6u3IR9UzF6EwO8/edit#heading=h.xr0ztr7noxa6)
