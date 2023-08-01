@@ -6,6 +6,8 @@ function setCurrentLink(){
   if (!document.querySelector('.usa-sidenav')) { return; }
 
   let h3s = document.querySelectorAll('h3');
+  if (h3s.length <= 1) { return; }
+
   let scrollPos = document.documentElement.scrollTop;
   let topHead = h3s[0];
   let i = 0;
@@ -31,7 +33,7 @@ function setCurrentLink(){
 /**
  * Add the event listener to find the nearest heading on user scroll
  */
-if (document.querySelector('.usa-sidenav')) {
+if (document.querySelector('.usa-sidenav') && document.querySelectorAll('h3').length > 1){
   window.addEventListener('scroll',setCurrentLink);
 }
 
