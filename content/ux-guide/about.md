@@ -50,7 +50,7 @@ This guide includes information that may be new to the designers we hire (who ma
 
 ## How to use this guide
 
-We created this guide for our reference. It’s here for a refresher on [ways to protect research participant privacy]({{ 'research/privacy/' | url }}), or for quick access to [design-related templates, presentations, etc.]({{site.baseurl}}/resources/) You’re also welcome to read it from start to finish if you like.
+We created this guide for our reference. It’s here for a refresher on [ways to protect research participant privacy]({{ 'research/privacy/' | url }}), or for quick access to [design-related templates, presentations, etc.]({{site.baseurl}}/resources/TODO/) You’re also welcome to read it from start to finish if you like.
 
 This guide is divided into three sections:
 - **Our Approach** describes essential components that shape our design practice: our [team values and principles]({{ 'our-approach/values-and-principles/' | url }}), our [definitions of design]({{ 'our-approach/defining-design/' | url }}), and our commitment to [staying lean]({{ 'our-approach/stay-lean/' | url }}). It also describes how we [meet partners where they are]({{ 'our-approach/meet-partners-where-they-are/' | url }}).
