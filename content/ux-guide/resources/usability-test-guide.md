@@ -1,14 +1,35 @@
 ---
-title: Usability Test Guide [Template]
+title: Usability test guide [Template]
 description: An example script for use while moderating a usability testing
 permalink: /ux-guide/usability-test-script/
 layout: layouts/page
 tags: ux-guide
+eleventyNavigation: 
+  parent: ux-guide-usability-test
+  key: ux-guide-usability-test-home
+  order: 1
+  title: Usability test guide
+sidenav: true
+sticky_sidenav: true
+subnav:
+  - text: Introduction
+    href: "#introduction"
+  - text: Warm-up
+    href: "#warm-up"
+  - text: Setup screen sharing
+    href: "#setup-screen-sharing"
+  - text: Task completion
+    href: "#task-completion-2-3-tasks"
+  - text: Follow up
+    href: "#follow-up"
+  - text: Wrap-up
+    href: "#wrap-up"
+  - text: References
+    href: "#references"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
 {% endcomment %}
-
 
 This document provides example questions grouped along the key moments usually found in a usability test: introductions, warm up, task completion, follow up, and wrap up. If your participant’s time is scarce, consider sharing a few questions ahead of time. See also this [checklist for running an interview]({{ site.baseurl }}/interview-checklist). GSA staff, please see this [Google Doc Template](https://docs.google.com/document/d/1VimyVSt7qK3iKc2uZkobLWM0zuJuvO03vFk_R_EjhOU/edit#).
 
@@ -33,7 +54,7 @@ Finally, I want to confirm that you’ve received a participant agreement — is
 
 Great. Do you have any questions for me at this time?
 
-## Warm up
+## Warm-up
 Before we take a look at the site, I’d like to hear a little bit about you — what’s your occupation? What do you do all day?
 
 Does your work require a specific kind of training or experience?
@@ -55,12 +76,12 @@ Great, we’re finished with the bulk of the test. You mentioned [something they
 
 What are your thoughts about these concepts, generally?
 
-## Wrap up
+## Wrap-up
 Thank you so much for your time. Before we finish, what did we forget to ask about?
 
 Would you be open to speaking with us again in the future?
 
 Who else should we talk to?
 
-### References
+## References
 - [Steve Krug’s Usability Test Script](https://sensible.com/downloads/test-script-web.pdf)
