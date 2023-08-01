@@ -39,6 +39,6 @@ In addition to the resources provided in each section, here are more general res
 - [18F Content Guide]({{ '/content-guide/' | url }})
 - [TTS Engineering Guide Front-end practices]({{ '/engineering/our-approach/frontend/' | url }})
 - [18F Analytics standards](https://github.com/18F/analytics-standards/)
-- [18F Accessibility Guide]({{ '../../accessibility/index' | url }})
+- [18F Accessibility Guide]({{ '/accessibility/' | url }})
 - [Agile Principles and 18F Practices]({{ '/agile/' | url }})
 - [Before You Ship: TTS guide to launching software](https://before-you-ship.18f.gov/)
