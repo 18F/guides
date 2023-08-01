@@ -11,7 +11,7 @@ Thanks for offering to assist in research. At a high level, you will likely be e
 - **Act as an observer:** Listen to the interview, usability test, etc. without interruption unless the research lead asks if you have questions to add.  
 - **Act as a notetaker:** Take verbatim notes as much you can. Don’t paraphrase. If it’s a remote test, turn off your microphone to mute the keyboard noises. If there is already a notetaker, it can be useful to take note of specific parts of the session. For example, during a usability test you might take note of the time it takes participants to complete specific tasks.
 
-Before the research begins, work with the [research lead]({{ '/ux-guide/research/clarify-the-basics/#good-practices' | url }}) to understand the research design and how you can best offer assistance:
+Before the research begins, work with the [research lead]({{ '/ux-guide/research/lead/' | url }}) to understand the research design and how you can best offer assistance:
 
 1. Ask the research lead for a copy of the [research plan]({{ site.baseurl }}/resources/research-plan), [interview guide]({{ site.baseurl }}/interview-script), and/or access to concepts (wireframes, prototypes, etc.) being tested
 2. Review these materials, and note any questions
