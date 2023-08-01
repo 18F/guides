@@ -4,6 +4,24 @@ description: An example script for use while leading a user interview
 permalink: /ux-guide/interview-script/
 layout: layouts/page
 tags: ux-guide
+eleventyNavigation: 
+  parent: ux-guide-interview-script
+  key: ux-guide-interview-script-home
+  order: 1
+  title: Interview guide
+sidenav: true
+sticky_sidenav: true
+subnav:
+  - text: Introduction
+    href: "#introduction"
+  - text: Warm-up
+    href: "#warm-up"
+  - text: A specific topic
+    href: "#a-specific-topic"
+  - text: Demo
+    href: "#demo"
+  - text: Wrap-up
+    href: "#wrap-up"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
@@ -12,7 +30,6 @@ Note that the permalink here does not include /resources/ so there's no indicati
 This document includes example questions grouped along key moments often found in our in-depth interviews: introductions, warm-up, topic-specific questions, demos, etc. Edit these questions as you see fit. If your questions are specific or your participant’s time scarce, consider sharing some questions ahead of time. See [this checklist]({{ '/ux-guide/interview-checklist' | url }}) for running an in-depth interview. GSA Staff, please see this [Google Doc Template (GSA/TTS Access only)](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)
 
 ## Introduction
-
 Hello, my name’s `[moderator]`, and I’m going to walk you through today’s session. As I mentioned over email, my office is currently working with `[partner]` to `[broad purpose; for example, inform a redesign of agency.gov]`. Joining us on the call are `[observers, and their affiliation]`.
 
 I’d like to begin by thanking you for making time to speak with us. Your feedback is valuable, and will help us determine if our website functions as intended. Just to confirm, we’d like to keep this interview to `[duration; for example, 30 minutes]`. Does that still work for you?
@@ -33,10 +50,7 @@ Finally, I want to confirm that you’ve received a participant agreement — is
 
 Great. Do you have any questions for me at this time?
 
-
-
-## Warm up
-
+## Warm-up
 To start, I’d like to hear a little bit about you — what’s your occupation? What do you do all day?
 
 What kind of person does your kind of work, generally? Is this something that requires a specific kind of training or experience?
@@ -44,7 +58,6 @@ What kind of person does your kind of work, generally? Is this something that re
 What are your goals in doing your work? What motivates you?
 
 ## A specific topic
-
 Thanks for that context. Now, I’d like to ask you a few questions about `[topic]`. If you had to explain this in the simplest terms possible, how would you do it?
 
 How does `[topic]` tie back to your goals in doing your work?
@@ -53,9 +66,7 @@ What do you do when you have questions about `[topic]`?
 
 What’s one thing you wish were more straightforward about `[topic]`?
 
-
 ## Demo
-
 _Note: If you’re running a usability test, consider this [example usability test script]({{ '/ux-guide/usability-test-script/' | url }}) instead._
 
 Thanks. Now I’m going to ask you to consider how you might respond to the following scenarios using this website. I’m going to read each scenario out loud, and I’ll also share the text of the scenario via chat.
@@ -66,9 +77,7 @@ Do you mind sharing your screen? [...] You can do that by clicking “Present no
 
 Can you show me how you do `[task]`?
 
-
-## Wrap up
-
+## Wrap-up
 Thank you so much for your time. Before we finish, what did we forget to ask about?
 
 Would you be open to speaking with us again in the future?
