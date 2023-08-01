@@ -55,7 +55,7 @@ Please note: you should run substantial customizations by your supervisor, GSAâ€
 Example agreement for people participating in moderated design research.  
 Note: You can customize this template, but it must include a Privacy Act statement. If the interview is with a Federal employee, or otherwise will not include compensation, the agreement must also include an Anti-deficiency Act clause.
 
-Looking for PRA (Paperwork Reduction Act) information? See the [UX Guide Legal page]({{site.baseurl}}/research/legal).
+Looking for PRA (Paperwork Reduction Act) information? See the [UX Guide Legal page]({{ '/ux-guide/research/legal/' | url }}).
 
 ### Interviews
 [Interview checklist]({{ '/ux-guide/interview-checklist/' | url }}). ([Google Doc interview checklist](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)).  

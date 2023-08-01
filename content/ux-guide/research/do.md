@@ -29,7 +29,7 @@ subnav:
 ---
 
 {% comment %}
-  Need to update resource link site.baseurls after all pages are moved. Also need to update Methods links
+  Need to update Methods links after replatformed.
 {% endcomment %}
 
 [Planning]({{ '../../research/plan/' | url }}) research helps you identify the team’s goals, methods, etc. for its research. Doing research involves engaging with previously agreed upon knowledge, participants, and data.
@@ -94,7 +94,7 @@ For sessions where you’ll interact with participants one-at-a-time, such as in
 - **Notetakers** document, usually word-for-word, what happens during the session. If you’re fortunate enough to have multiple notetakers, you might ask each notetaker to make notes about specific aspects of the session. For example, one notetaker might capture verbatim notes of what the participant says while another might capture what the participant does while interacting with a prototype.
 - **Observers** pay attention during the session, and ask questions when given time by the moderator
 
-Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{site.baseurl}}/research/assist/TODO/) to people who are brand new to research.
+Make time to meet with any team members who were not involved with designing the sessions but will help with research in order to explain the objectives of the research and review the structure of the sessions, session materials, etc. This helps observers contribute to the comfort level of the session and to correctly interpret interactions between moderators and participants. Consider passing along this one-pager about [assisting in research]({{ '/ux-guide/research/assist/' | url }}) to people who are brand new to research.
 
 ### Preparing a workshop
 
@@ -186,7 +186,7 @@ Note that while it can be tempting to include additional form fields on your int
 
 You can find out more about what makes a good tweet-length intercept [here in our Legal article]({{ '../../research/legal/#intercepts' | url }}).
 
-Here is a [template for introducing yourself]({{ site.baseurl }}/resources/email-templates/researcher-introduces-themselves/TODO/)<br />([Google Docs template for introducing yourself](https://drive.google.com/open?id=1aiK07pszR331v1d1J2tT6HUQ5JGsSjKjeFBzOwCwHLg)) to potential participants.
+Here is a [template for introducing yourself]({{ '/ux-guide/resources/email-templates/researcher-introduces-themselves/' | url }})<br />([Google Docs template for introducing yourself](https://drive.google.com/open?id=1aiK07pszR331v1d1J2tT6HUQ5JGsSjKjeFBzOwCwHLg)) to potential participants.
 
 The third and final step is identifying interested people and determine if they meet your recruitment criteria. Once you’ve got a list of interested people and their contact information, you can easily screen them by having brief, unstructured conversations with them. Once you’ve determined that someone is qualified to participate in the session, you’ll need to get their informed consent.
 
@@ -204,8 +204,8 @@ Getting informed consent ensures that:
 
 Copy and customize one of the participant agreements below to reflect your research design. This is the agreement you'll ask participants to sign before they participate.
 
-- [Example design research participant agreement]({{ site.baseurl }}/participant-agreement)<br /> ([Google Docs Example design research participant agreement](https://docs.google.com/document/d/1EPElAVthOF2ojcoamRitDHSYK4lT9c5yFY8IBwbJNqE/edit))
-- [Spanish version of participant agreement]({{ site.baseurl }}/participant-agreement-spanish)<br />  ([Google Docs Spanish version of participant agreement](https://docs.google.com/forms/d/13ra4T0BVWbjSPBfOuNj8zVclU5J4TquX_tFbHUQWUpc/edit))
+- [Example design research participant agreement]({{ '/ux-guide/participant-agreement' | url }})<br /> ([Google Docs Example design research participant agreement](https://docs.google.com/document/d/1EPElAVthOF2ojcoamRitDHSYK4lT9c5yFY8IBwbJNqE/edit))
+- [Spanish version of participant agreement]({{ '/ux-guide/participant-agreement-spanish' | url }})<br />  ([Google Docs Spanish version of participant agreement](https://docs.google.com/forms/d/13ra4T0BVWbjSPBfOuNj8zVclU5J4TquX_tFbHUQWUpc/edit))
 
 Correspond with participants ahead of time to explain things that might otherwise get lost in the agreement-signing process. Provide participants with as much context as possible to avoid misleading them and to protect their privacy. In the event that a participant has not signed an agreement ahead of the interview, obtain their verbal consent. In order to give their informed consent, participants need to understand:
 
@@ -226,7 +226,7 @@ You must also let participants know:
 - Whether and how the session is being recorded
 - If you will ask participants to share their screen (some organizations lack the technology or may have policies preventing screen sharing).
 
-Here is a [template for passing along a participant agreement]({{ site.baseurl }}/resources/email-templates/researcher-sends-agreement/TODO/)<br /> ([Google Doc template for passing along a participant agreement](https://docs.google.com/document/d/1t01t_eLYWJXuKdJkhiyBqkWf4Yr5XsFAbNv-BDAZqzE/edit))
+Here is a [template for passing along a participant agreement]({{ '/ux-guide/resources/email-templates/researcher-sends-agreement/' | url }})<br /> ([Google Doc template for passing along a participant agreement](https://docs.google.com/document/d/1t01t_eLYWJXuKdJkhiyBqkWf4Yr5XsFAbNv-BDAZqzE/edit))
 
 Remember to cover the information listed above. Ask participants if they have any questions. Ensure they don’t feel pressure to participate in ways that make them uncomfortable and they understand that participation is 100% voluntary and there are no repercussions for opting out. If someone is uncomfortable with or prefers not to sign a participant agreement, consider offering them alternative opportunities to participate that don't involve you recording or taking notes. 
 
@@ -256,7 +256,7 @@ Also remember to:
     - Download and install any necessary software (eg. Zoom if you are using Zoom for your sessions)
 - If you conduct research sessions via Google Meet and initiate a screen recording, the video will be saved to the Google Drive of the person who created the meeting. A link to the video will be added to the calendar event after the meeting.
 
-Your agency partners can often assist in the scheduling process, particularly when setting up sessions with stakeholders. Don’t hesitate to ask them for help! You can provide them with a tailored version of this [email where stakeholder introduces researcher]({{ site.baseurl }}/resources/email-templates/stakeholder-introduces-researcher/TODO/). ([Google Docs email where stakeholder introduces researcher](https://docs.google.com/document/d/1AEq-h3wuOxl8CCR9Gg4RPO7NaHJnedC4UbXN0UFQ24Y/edit)).
+Your agency partners can often assist in the scheduling process, particularly when setting up sessions with stakeholders. Don’t hesitate to ask them for help! You can provide them with a tailored version of this [email where stakeholder introduces researcher]({{ '/ux-guide/resources/email-templates/stakeholder-introduces-researcher/' | url }}). ([Google Docs email where stakeholder introduces researcher](https://docs.google.com/document/d/1AEq-h3wuOxl8CCR9Gg4RPO7NaHJnedC4UbXN0UFQ24Y/edit)).
 
 ## Moderating research sessions
 
@@ -269,7 +269,7 @@ Before each session, you should double-check:
 - Your primary documentation method
 - That you have a backup documentation method (such as a notepad and a pen)
 
-Moderating a research session can be nuanced, but we encourage all team members to be involved. Make sure participants are comfortable and that facilitators, notetakers, and other team members are prepared. We created [a checklist of best practices for interviews]({{ site.baseurl }}/interview-checklist/TODO/). ([Google Doc of the checklist of best practices for interviews](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)). The checklist includes:
+Moderating a research session can be nuanced, but we encourage all team members to be involved. Make sure participants are comfortable and that facilitators, notetakers, and other team members are prepared. We created [a checklist of best practices for interviews]({{ '/ux-guide/interview-checklist/' | url }}). ([Google Doc of the checklist of best practices for interviews](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)). The checklist includes:
 
 - Keep an eye on the time. Decide beforehand which questions or activities you must cover and which ones you can cut if you run out of time.
 - Be curious. Ask clarifying questions about the stories behind answers but don’t dig on unnecessary details beyond your project scope.
@@ -281,7 +281,7 @@ Moderating a research session can be nuanced, but we encourage all team members 
 
 - If appropriate, ask if they know others who would be good for your team to talk to.
 
-While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://methods.18f.gov). We’ve also created a breakdown of [usability test quality heuristics]({{ site.baseurl }}/usability-test-quality-heuristics/) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research)) is a great place to find collaborators.
+While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://methods.18f.gov). We’ve also created a breakdown of [usability test quality heuristics]({{ '/ux-guide/usability-test-quality-heuristics/' | url }}) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research)) is a great place to find collaborators.
 
 ### Moderating sensitive research sessions
 
@@ -388,7 +388,7 @@ Here are a few high-level things to capture in a debrief:
 - What new questions do we have?
 - Are there any new people we should talk to?
 
-You may want to use this [example interview debrief worksheet]({{ site.baseurl }}/interview-debrief/TODO/) ([Google Doc example interview debrief worksheet](https://docs.google.com/document/d/1axCpR-pqdDIDRAAktlpbDEe1LbDCTZB7WxH6S4owIrU/edit?usp=sharing)); feel free to modify it to your team’s needs. When determining which team members to include, default to a more diverse group. If a team member wasn’t part of the session, their role can be focused on asking questions and documenting.
+You may want to use this [example interview debrief worksheet]({{ '/ux-guide/interview-debrief/' | url }}) ([Google Doc example interview debrief worksheet](https://docs.google.com/document/d/1axCpR-pqdDIDRAAktlpbDEe1LbDCTZB7WxH6S4owIrU/edit?usp=sharing)); feel free to modify it to your team’s needs. When determining which team members to include, default to a more diverse group. If a team member wasn’t part of the session, their role can be focused on asking questions and documenting.
 
 ### Make space for the team to process 
 

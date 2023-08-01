@@ -31,7 +31,7 @@ subnav:
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
 {% endcomment %}
 
-This document provides example questions grouped along the key moments usually found in a usability test: introductions, warm up, task completion, follow up, and wrap up. If your participant’s time is scarce, consider sharing a few questions ahead of time. See also this [checklist for running an interview]({{ site.baseurl }}/interview-checklist). GSA staff, please see this [Google Doc Template](https://docs.google.com/document/d/1VimyVSt7qK3iKc2uZkobLWM0zuJuvO03vFk_R_EjhOU/edit#).
+This document provides example questions grouped along the key moments usually found in a usability test: introductions, warm up, task completion, follow up, and wrap up. If your participant’s time is scarce, consider sharing a few questions ahead of time. See also this [checklist for running an interview]({{ '/ux-guide/interview-checklist/' | url }}). GSA staff, please see this [Google Doc Template](https://docs.google.com/document/d/1VimyVSt7qK3iKc2uZkobLWM0zuJuvO03vFk_R_EjhOU/edit#).
 
 ## Introduction
 Hello, my name’s `[moderator]`, and I’m going to walk you through today’s session. As I mentioned over email, my office is currently working with `[partner]` to `[broad purpose; for example, inform a redesign of agency.gov]`. Joining us on the call are `[observers, and their affiliation]`.

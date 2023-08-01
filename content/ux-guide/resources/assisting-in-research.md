@@ -13,7 +13,7 @@ Thanks for offering to assist in research. At a high level, you will likely be e
 
 Before the research begins, work with the [research lead]({{ '/ux-guide/research/lead/' | url }}) to understand the research design and how you can best offer assistance:
 
-1. Ask the research lead for a copy of the [research plan]({{ site.baseurl }}/resources/research-plan), [interview guide]({{ site.baseurl }}/interview-script), and/or access to concepts (wireframes, prototypes, etc.) being tested
+1. Ask the research lead for a copy of the [research plan]({{ '/ux-guide/resources/research-plan/' | url }}), [interview guide]({{ '/ux-guide/interview-script/' | url }}), and/or access to concepts (wireframes, prototypes, etc.) being tested
 2. Review these materials, and note any questions
 3. Schedule a meeting with the research lead to run a practice session, and clarify any points of confusion
 

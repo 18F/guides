@@ -35,7 +35,7 @@ Each piece of collected or stored PII increases the risk of privacy violations. 
 [The Privacy Act of 1974](https://www.justice.gov/opcl/privacy-act-1974) provides protection to individuals by ensuring that Federal agencies:
 
 - Collect PII only when it is both legally authorized and necessary
-- Present [Privacy Act Notices]({{ site.baseurl }}/resources/privacy-act-notice/TODO/) whenever they collect PII (in order to allow for informed consent)
+- Present [Privacy Act Notices]({{ '/ux-guide/resources/privacy-act-notice/' | url }}) whenever they collect PII (in order to allow for informed consent)
 - Protect agency-held PII against anticipated threats to security or integrity which could result in substantial harm, embarrassment, inconvenience, or unfairness to the participant.
 - 18F complies with the Privacy Act by following the information practices outlined in our [Privacy Act Statement for Design Research on GSA.gov](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research).
 
@@ -45,11 +45,11 @@ Each piece of collected or stored PII increases the risk of privacy violations. 
 
 The following guidelines, drawn from our Privacy Impact Assessment for Design Research, help us build trust and protect privacy. This list isn’t exhaustive, but it’s a good place to start:
 
-- Ask key stakeholders to introduce you before conducting interviews with their team. [Email template: Stakeholder introduces researcher]({{ site.baseurl }}/resources/email-templates/stakeholder-introduces-researcher/TODO/)
-- Build rapport with research participants in advance of the research session — for example, by emailing participants to see if they have any questions about the research, or briefly meeting with participants before the session begins to go over any logistical requirements. [Email template: Researcher sends agreement to a participant]({{ site.baseurl }}/resources/email-templates/researcher-sends-agreement/TODO/)
+- Ask key stakeholders to introduce you before conducting interviews with their team. [Email template: Stakeholder introduces researcher]({{ '/ux-guide/resources/email-templates/stakeholder-introduces-researcher/' | url }})
+- Build rapport with research participants in advance of the research session — for example, by emailing participants to see if they have any questions about the research, or briefly meeting with participants before the session begins to go over any logistical requirements. [Email template: Researcher sends agreement to a participant]({{ '/ux-guide/resources/email-templates/researcher-sends-agreement/' | url }})
 - Whenever you collect PII, store it digitally on [GSA’s approved systems for PII](https://www.gsa.gov/reference/gsa-privacy-program/systems-of-records-privacy-act/system-of-records-notices-sorns-privacy-act) and actively remove access to PII from anyone not on your project team; and always place paper documents with PII in locked file cabinets
 - Store design research administrative data (for example, contact information collected during research participant recruiting) separate from study data (for example, recorded video of a usability test); share research-related records on a need-to-know basis
-- Collect the [informed consent]({{ '../../research/do/#getting-informed-consent' | url }}) of anyone who participates in moderated research; we generally do this with a [participant agreement]({{ site.baseurl }}/participant-agreement/TODO/)
+- Collect the [informed consent]({{ '../../research/do/#getting-informed-consent' | url }}) of anyone who participates in moderated research; we generally do this with a [participant agreement]({{ '/ux-guide/participant-agreement/' | url }})
 - When scheduling research sessions via Google calendar, set the event visibility to “Private” (since invitations include the participant’s name and email address)
 - Before using a website to collect data, read its Terms of service and Privacy policy. For example, monitoring forum traffic is a great way to learn about users, but our use of these systems must comply with applicable privacy policies.
 - Use pseudonyms or participant codes (for example, “Participant 1”) when naming recordings, transcribing audio files, and writing reports

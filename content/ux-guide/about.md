@@ -22,7 +22,7 @@ subnav:
 description: "How 18F user experience (UX) designers improve interactions between our government and the public"
 ---
 {% comment %}
-    Need to update site.baseurls and GH links after replatforming all the pages.
+    Need to update GH links after replatforming all the pages.
 {% endcomment %}
 
 18F designers join cross-functional teams to improve interactions between government agencies and the people they serve. The 18F UX Guide, or User Experience Guide, helps us get this job done. It’s a starting point for design research at 18F: doing it, discussing it, and ensuring it’s done to a consistent level of quality. Throughout this guide we use “design research” as a substitute and broader  term for “user research” to show the focus of our research work is making designs better for people.
@@ -50,7 +50,7 @@ This guide includes information that may be new to the designers we hire (who ma
 
 ## How to use this guide
 
-We created this guide for our reference. It’s here for a refresher on [ways to protect research participant privacy]({{ 'research/privacy/' | url }}), or for quick access to [design-related templates, presentations, etc.]({{site.baseurl}}/resources/TODO/) You’re also welcome to read it from start to finish if you like.
+We created this guide for our reference. It’s here for a refresher on [ways to protect research participant privacy]({{ 'research/privacy/' | url }}), or for quick access to [design-related templates, presentations, etc.]({{ '/ux-guide/resources/' | url }}) You’re also welcome to read it from start to finish if you like.
 
 This guide is divided into three sections:
 - **Our Approach** describes essential components that shape our design practice: our [team values and principles]({{ 'our-approach/values-and-principles/' | url }}), our [definitions of design]({{ 'our-approach/defining-design/' | url }}), and our commitment to [staying lean]({{ 'our-approach/stay-lean/' | url }}). It also describes how we [meet partners where they are]({{ 'our-approach/meet-partners-where-they-are/' | url }}).
