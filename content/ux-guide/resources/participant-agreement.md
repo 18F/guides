@@ -1,9 +1,21 @@
 ---
-title: Example Design Research Participant Agreement
+title: Example design research participant agreement
 description: An example design research participant agreement
 permalink: /ux-guide/participant-agreement/
 layout: layouts/page
 tags: ux-guide
+eleventyNavigation: 
+  parent: ux-guide-participant-agreement
+  key: ux-guide-participant-agreement-home
+  order: 1
+  title: Example design research participant agreement
+sidenav: true
+sticky_sidenav: true
+subnav:
+  - text: Without participant compensation
+    href: "#without-participant-compensation"
+  - text: With participant compensation
+    href: "#with-participant-compensation"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
@@ -17,6 +29,8 @@ English version:
 [Spanish version]({{ '/ux-guide/participant-agreement-spanish/' | url }}) 
 
 ---
+
+## Without participant compensation
 
 This agreement relates to your participation in a U.S. General Services Administration (GSA) design research project. The project will take place between `<project start date>` and `<project end date>`. Our session with you is scheduled for `<session duration>`. The project’s purpose is to better understand `<area of inquiry>`. We ask that you read, sign, and return this agreement so you know your rights and what to expect from us. 
 
@@ -53,7 +67,7 @@ Your signature below means that you understand your rights and agree to the abov
 
 ---
 
-# Example Design Research Participant Agreement (_with participant compensation_)
+## With participant compensation
 
 This agreement relates to your participation in a U.S. General Services Administration (GSA) design research project. The project will take place between `<project start date>` and `<project end date>`. Our session with you is scheduled for `<session duration>`. The project’s purpose is to better understand `<area of inquiry>`. We ask that you read, sign, and return this agreement so you know your rights and what to expect from us. 
 
