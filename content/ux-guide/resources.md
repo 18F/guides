@@ -73,13 +73,13 @@ A starting point for sharing what you learned during a path analysis or discover
 
 ## Email templates
 
-[Stakeholder introduces researcher]({{ site.baseurl }}/resources/email-templates/stakeholder-introduces-researcher). ([Stakeholder introduces researcher](https://docs.google.com/document/d/1AEq-h3wuOxl8CCR9Gg4RPO7NaHJnedC4UbXN0UFQ24Y/edit)).  
+[Stakeholder introduces researcher]({{ '/ux-guide/resources/email-templates/stakeholder-introduces-researcher/' | url }}). ([Google Doc: Stakeholder introduces researcher](https://docs.google.com/document/d/1AEq-h3wuOxl8CCR9Gg4RPO7NaHJnedC4UbXN0UFQ24Y/edit)).  
 An email for stakeholders to introduce and legitimize 18F design researchers to their staff.
 
-[Researcher introduces themselves to a participant]({{ '/ux-guide/resources/email-templates/researcher-introduces-themselves/' | url }}). ([Researcher introduces themselves to a participant](https://docs.google.com/document/d/1aiK07pszR331v1d1J2tT6HUQ5JGsSjKjeFBzOwCwHLg/edit#)).  
+[Researcher introduces themselves to a participant]({{ '/ux-guide/resources/email-templates/researcher-introduces-themselves/' | url }}). ([Google Doc: Researcher introduces themselves to a participant](https://docs.google.com/document/d/1aiK07pszR331v1d1J2tT6HUQ5JGsSjKjeFBzOwCwHLg/edit#)).  
 An email for introducing yourself to potential participants (for example, people who responded to your invitation to participate in the research) and finding a good time for them to participate in a moderated research session.
 
-[Researcher sends agreement to participant]({{ '/ux-guide/resources/email-templates/researcher-sends-agreement/' | url }}). ([Researcher sends agreement to participant](https://docs.google.com/document/d/1t01t_eLYWJXuKdJkhiyBqkWf4Yr5XsFAbNv-BDAZqzE/edit#)).  
+[Researcher sends agreement to participant]({{ '/ux-guide/resources/email-templates/researcher-sends-agreement/' | url }}). ([Google Doc: Researcher sends agreement to participant](https://docs.google.com/document/d/1t01t_eLYWJXuKdJkhiyBqkWf4Yr5XsFAbNv-BDAZqzE/edit#)).  
 An email asking participants to review and sign a participant agreement before they participate in moderated research.
 
 ## Design
