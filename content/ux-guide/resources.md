@@ -51,7 +51,7 @@ Please note: you should run substantial customizations by your supervisor, GSAâ€
 - [GSA Privacy Impact Assessment for Design Research](https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia)
 
 [Design research participant agreement]({{ site.baseurl }}/participant-agreement). 
-[Design research participant agreement in Spanish]({{ site.baseurl }}/participant-agreement-spanish).  
+[Design research participant agreement in Spanish]({{ '/ux-guide/participant-agreement-spanish/' | url }}).  
 Example agreement for people participating in moderated design research.  
 Note: You can customize this template, but it must include a Privacy Act statement. If the interview is with a Federal employee, or otherwise will not include compensation, the agreement must also include an Anti-deficiency Act clause.
 
