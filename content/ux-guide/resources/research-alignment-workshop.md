@@ -4,6 +4,30 @@ description: "Use this workshop to help you collect meaningful information about
 permalink: /ux-guide/research/alignment-workshop/
 layout: layouts/page
 tags: ux-guide
+eleventyNavigation: 
+  parent: ux-guide-research-alignment-workshop
+  key: ux-guide-research-alignment-workshop-home
+  order: 1
+  title: Research alignment workshop
+sidenav: true
+sticky_sidenav: true
+subnav:
+  - text: What you'll need
+    href: "#what-you-ll-need"
+  - text: Prep-work
+    href: "#prep-work-10-15-minutes"
+  - text: Opening
+    href: "#opening-5-minutes"
+  - text: Question sharing
+    href: "#question-sharing-25-minutes"
+  - text: Prioritization and voting
+    href: "#prioritization-and-voting-20-minutes"
+  - text: After the workshop
+    href: "#after-the-workshop-10-minutes"
+  - text: Additional workshop benefits
+    href: "#additional-workshop-benefits"
+  - text: Credit
+    href: "#credit"
 ---
 {% comment %}
 Note that the permalink here uses /research/ so it's misleading about where this page actually sits. Also contains unformatted checkboxes.
@@ -13,9 +37,7 @@ As researchers, it's our role to collect *meaningful* information about our user
 
 A research alignment workshop publicizes team questions and prioritizes research themes, setting you up to create a research plan that drives maximum value for your team.
 
-
 ## What you'll need
-
 - [ ] 1 hour with all key stakeholders + 15 minutes of prep-work
 - [ ] A large room with plenty of white board space
 - [ ] A dedicated note-taker (since you'll be playing the facilitator role, it's extremely helpful to have someone to help you document the session)
@@ -24,17 +46,13 @@ A research alignment workshop publicizes team questions and prioritizes research
 - [ ] Whiteboard markers
 - [ ] Dot voting stickers
 
-
 ## Prep-work - 10-15 minutes
-
 In the workshop, participants (including you!) will be sharing their burning research questions with the team. Prior to the workshop day, have each team member spend 10-15 minutes on a short homework assignment to maximize the efficiency of your workshop and ensure that team members bring thoughtful questions to the session.  
 
-#### Assignment template
+### Assignment template
+Over the next `[timeframe]` we'll be working together to `[key project objectives]`. I'm sure you have a ton of questions you'd like answered about `[key user groups]` and `[experience under study]`. To prepare for our Research Alignment Workshop on `[date]`, please take some time to document these questions.
 
-> Over the next `[timeframe]` we'll be working together to `[key project objectives]`. I'm sure you have a ton of questions you'd like answered about `[key user groups]` and `[experience under study]`. To prepare for our Research Alignment Workshop on `[date]`, please take some time to document these questions.
-
-#### Instructions
-
+### Instructions
 1. Set a timer for 5 minutes
 1. Brainstorm questions that you feel we need answered in order to create a successful *[feature, product, idea]*
 1. Select your top questions (3-5) and write them on sticky notes (1 question per sticky)
@@ -43,9 +61,7 @@ In the workshop, participants (including you!) will be sharing their burning res
 
 **Note:** Calendar blocking, slack reminders, and in-person reminders are all really effective ways to ensure that your team members complete their homework!
 
-
 ## Opening ~ 5 minutes
-
 Open with a brief discussion about the need for collaboration in the development of a solid research strategy (research success = team success). Then, spend a few minutes on the following:
 
 - **Discuss the workshop objectives:**
@@ -57,8 +73,7 @@ Open with a brief discussion about the need for collaboration in the development
 	- Get ready to share
 	- ["Yes, and..."](https://en.wikipedia.org/wiki/Yes,_and...) the conversation
 
-## Question Sharing ~ 25 minutes
-
+## Question sharing ~ 25 minutes
 At this time, you'll ask the group to get out their post-it notes. Team members will each take a turn acting as the reader, while the rest of the group will act as the listeners.
 
 **The reader:** Read the question out loud. Then, repeat it so the group can fully absorb the question.   
@@ -68,7 +83,6 @@ At this time, you'll ask the group to get out their post-it notes. Team members 
 **The facilitator:** If necessary, probe the reader about the intent of their question. Keep in mind that people's questions may not reflect what they actually want to know. They may be leading or completely misdirected - it's your job to understand the spirit behind the question and work with the reader to rephrase their question, if necessary.
 
 **Example**
-
 You're developing a mentorship tool to connect youth with adult mentors in a field of interest.
 
 > *Reader:* My question to our young users is, "How often do you meet with adults 1:1, in person?"
@@ -88,7 +102,7 @@ In this example, our reader just needed some guidance to articulate their questi
 After a few people have shared,  you will start to see similar questions emerge. Continue to group post-its into themes as the activity progresses. Allow a few minutes for the group to share any new questions that were sparked while listening to their colleagues. Once you have all your questions on the board and grouped into themes, you can move onto the next phase of the activity.
 
 
-## Prioritization and Voting ~ 20 minutes
+## Prioritization and voting ~ 20 minutes
 
 > "You can do anything - but not everything" - David Allen
 
@@ -100,9 +114,7 @@ Tally up the dots and prioritize your research scope. Depending on the length of
 
 *Note:* Be direct and honest about the scope you will take on (and what you won't!), as you will be held accountable for delivering on these promises.
 
-
 ## After the workshop ~ 10 minutes
-
 Immediately following the workshop, document everything! Record all key questions, themes and prioritization. Send a follow-up e-mail to your team reviewing the research scope you've committed to. You're now ready to begin the research planning phase!
 
 ## Additional workshop benefits
@@ -112,5 +124,4 @@ Immediately following the workshop, document everything! Record all key question
 - **A documented process:** Capturing the meaningful conversations around scope allows you to confidently answer questions from stakeholders that may arise later on, such as,*"why didn't we explore [topic]"* or *"I thought we were going to ask users about [topic]"*
 
 ## Credit
-
 This workshop template is courtesy of Danielle Juneau and The Working Group. The template originally appears in [The Working Group's user research playbook](https://twg-x-uxr.gitbook.io/plays/research-alignment-workshop).
