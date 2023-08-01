@@ -5,6 +5,9 @@ permalink: /ux-guide/participant-agreement/
 layout: layouts/page
 tags: ux-guide
 ---
+{% comment %}
+Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
+{% endcomment %}
 
 ---
 English version:

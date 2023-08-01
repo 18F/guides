@@ -44,7 +44,7 @@ A list of indicators to help you and your team determine if your usability test 
 ### Privacy and informed consent
 18F’s Design Research is covered by [GSA's Privacy Act Statement for Design Research.](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research)
 
-[Privacy Act Notice Example]({{ site.baseurl }}/resources/privacy-act-notice). ([Privacy Act Notice Example](https://docs.google.com/document/d/1uWusmU9o-kTaiiM6d-XlW13wma_NL5MJpTLtzyD0L2M/edit?usp=sharing)).  
+[Privacy Act Notice Example]({{ '/ux-guide/resources/privacy-act-notice/' | url }}). ([Privacy Act Notice Example](https://docs.google.com/document/d/1uWusmU9o-kTaiiM6d-XlW13wma_NL5MJpTLtzyD0L2M/edit?usp=sharing)).  
 Example of a statement to include in your participant agreement.  
 Please note: you should run substantial customizations by your supervisor, GSA’s Privacy Office, and GSA’s Office of General Counsel.  
 - [Legal notes from GSA OGC](https://drive.google.com/a/gsa.gov/open?id=13FWBP5wMf_MgDToVBBrkOafFe5T8NsldzttGENhGgSU)
