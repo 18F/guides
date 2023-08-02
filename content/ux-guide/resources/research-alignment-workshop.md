@@ -30,7 +30,7 @@ subnav:
     href: "#credit"
 ---
 {% comment %}
-Note that the permalink here uses /research/ so it's misleading about where this page actually sits. Also contains unformatted checkboxes.
+Note that the permalink here uses /research/ so it's misleading about where this page actually sits. Also contains unformatted checkboxes. The sidenav in the Jekyll site also does not contain this page, so I'm just leaving the internal sidenav here.
 {% endcomment %}
 
 As researchers, it's our role to collect *meaningful* information about our users and problem space so that our team can make better product decisions. To do this effectively, we must involve team members and stakeholders in the development of our initial research strategy.
@@ -50,7 +50,7 @@ A research alignment workshop publicizes team questions and prioritizes research
 In the workshop, participants (including you!) will be sharing their burning research questions with the team. Prior to the workshop day, have each team member spend 10-15 minutes on a short homework assignment to maximize the efficiency of your workshop and ensure that team members bring thoughtful questions to the session.  
 
 ### Assignment template
-Over the next `[timeframe]` we'll be working together to `[key project objectives]`. I'm sure you have a ton of questions you'd like answered about `[key user groups]` and `[experience under study]`. To prepare for our Research Alignment Workshop on `[date]`, please take some time to document these questions.
+> Over the next `[timeframe]` we'll be working together to `[key project objectives]`. I'm sure you have a ton of questions you'd like answered about `[key user groups]` and `[experience under study]`. To prepare for our Research Alignment Workshop on `[date]`, please take some time to document these questions.
 
 ### Instructions
 1. Set a timer for 5 minutes

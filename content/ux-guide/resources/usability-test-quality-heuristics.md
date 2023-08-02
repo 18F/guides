@@ -4,22 +4,22 @@ description: A list of indicators to help you and your team determine if your us
 permalink: /ux-guide/usability-test-quality-heuristics/
 layout: layouts/page
 tags: ux-guide
-eleventyNavigation: 
-  parent: ux-guide-test-heuristics
-  key: ux-guide-test-heuristics-home
-  order: 1
-  title: Usability Test Quality Heuristics
-sidenav: true
-sticky_sidenav: true
-subnav:
-  - text: Study design
-    href: "#study-design"
-  - text: Moderator style
-    href: "#moderator-style"
-  - text: Team participation
-    href: "#team-participation"
-  - text: Sensemaking
-    href: "#sensemaking"
+# eleventyNavigation: 
+#   parent: ux-guide-test-heuristics
+#   key: ux-guide-test-heuristics-home
+#   order: 1
+#   title: Usability Test Quality Heuristics
+# sidenav: true
+# sticky_sidenav: true
+# subnav:
+#   - text: Study design
+#     href: "#study-design"
+#   - text: Moderator style
+#     href: "#moderator-style"
+#   - text: Team participation
+#     href: "#team-participation"
+#   - text: Sensemaking
+#     href: "#sensemaking"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.

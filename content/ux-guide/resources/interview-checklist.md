@@ -4,28 +4,28 @@ description: Helpful reminders for moderating interviews
 permalink: /ux-guide/interview-checklist/
 layout: layouts/page
 tags: ux-guide
-eleventyNavigation: 
-  parent: ux-guide-interview-checklist
-  key: ux-guide-interview-checklist-home
-  order: 1
-  title: Interview checklist
-sidenav: true
-sticky_sidenav: true
-subnav:
-  - text: Pre-interview preparation
-    href: "#pre-interview-preparation"
-  - text: Introductions
-    href: "#introductions"
-  - text: Warm-up/icebreaker
-    href: "#warm-up-icebreaker"
-  - text: Activities or topic-specific questions
-    href: "#activities-or-topic-specific-questions"
-  - text: Wrap-up
-    href: "#wrap-up"
-  - text: Contributors
-    href: "#contributors"
-  - text: References
-    href: "#references"
+#eleventyNavigation: 
+#  parent: ux-guide-interview-checklist
+#  key: ux-guide-interview-checklist-home
+#  order: 1
+#  title: Interview checklist
+#sidenav: true
+#sticky_sidenav: true
+#subnav:
+#  - text: Pre-interview preparation
+#    href: "#pre-interview-preparation"
+#  - text: Introductions
+#    href: "#introductions"
+#  - text: Warm-up/icebreaker
+#    href: "#warm-up-icebreaker"
+#  - text: Activities or topic-specific questions
+#    href: "#activities-or-topic-specific-questions"
+#  - text: Wrap-up
+#    href: "#wrap-up"
+#  - text: Contributors
+#    href: "#contributors"
+#  - text: References
+#    href: "#references"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits. Also contains unformatted checklist items. This is also very similar (or identical) to the Interview Checklist at https://methods.18f.gov/interview-checklist/

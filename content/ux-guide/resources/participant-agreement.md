@@ -4,18 +4,18 @@ description: An example design research participant agreement
 permalink: /ux-guide/participant-agreement/
 layout: layouts/page
 tags: ux-guide
-eleventyNavigation: 
-  parent: ux-guide-participant-agreement
-  key: ux-guide-participant-agreement-home
-  order: 1
-  title: Example design research participant agreement
-sidenav: true
-sticky_sidenav: true
-subnav:
-  - text: Without participant compensation
-    href: "#without-participant-compensation"
-  - text: With participant compensation
-    href: "#with-participant-compensation"
+# eleventyNavigation: 
+#   parent: ux-guide-participant-agreement
+#   key: ux-guide-participant-agreement-home
+#   order: 1
+#   title: Example design research participant agreement
+# sidenav: true
+# sticky_sidenav: true
+# subnav:
+#   - text: Without participant compensation
+#     href: "#without-participant-compensation"
+#   - text: With participant compensation
+#     href: "#with-participant-compensation"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.

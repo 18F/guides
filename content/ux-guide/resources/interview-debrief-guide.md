@@ -4,22 +4,22 @@ description: An example worksheet to engage research teams in post-moderated res
 permalink: /ux-guide/interview-debrief/
 layout: layouts/page
 tags: ux-guide
-eleventyNavigation: 
-  parent: ux-guide-interview-debrief
-  key: ux-guide-interview-debrief-home
-  order: 1
-  title: Interview debrief guide
-sidenav: true
-sticky_sidenav: true
-subnav:
-  - text: Warm-up
-    href: "#warm-up-4-minutes"
-  - text: Concept test or demo
-    href: "#concept-test-or-demo-4-minutes"
-  - text: Retrospective
-    href: "#retrospective-4-minutes"
-  - text: Acknowledgements
-    href: "#acknowledgements"
+# eleventyNavigation: 
+#   parent: ux-guide-interview-debrief
+#   key: ux-guide-interview-debrief-home
+#   order: 1
+#   title: Interview debrief guide
+# sidenav: true
+# sticky_sidenav: true
+# subnav:
+#   - text: Warm-up
+#     href: "#warm-up-4-minutes"
+#   - text: Concept test or demo
+#     href: "#concept-test-or-demo-4-minutes"
+#   - text: Retrospective
+#     href: "#retrospective-4-minutes"
+#   - text: Acknowledgements
+#     href: "#acknowledgements"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
