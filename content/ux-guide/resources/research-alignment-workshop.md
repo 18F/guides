@@ -30,7 +30,7 @@ subnav:
     href: "#credit"
 ---
 {% comment %}
-Note that the permalink here uses /research/ so it's misleading about where this page actually sits. Also contains unformatted checkboxes. The sidenav in the Jekyll site also does not contain this page, so I'm just leaving the internal sidenav here.
+Note that the permalink here uses /research/ so it's misleading about where this page actually sits. Also contains unformatted checkboxes /TODO/. The sidenav in the Jekyll site also does not contain this page, so I'm just leaving the internal sidenav here.
 {% endcomment %}
 
 As researchers, it's our role to collect *meaningful* information about our users and problem space so that our team can make better product decisions. To do this effectively, we must involve team members and stakeholders in the development of our initial research strategy.
