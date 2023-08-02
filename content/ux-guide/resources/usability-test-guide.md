@@ -4,28 +4,28 @@ description: An example script for use while moderating a usability testing
 permalink: /ux-guide/usability-test-script/
 layout: layouts/page
 tags: ux-guide
-eleventyNavigation: 
-  parent: ux-guide-usability-test
-  key: ux-guide-usability-test-home
-  order: 1
-  title: Usability test guide
-sidenav: true
-sticky_sidenav: true
-subnav:
-  - text: Introduction
-    href: "#introduction"
-  - text: Warm-up
-    href: "#warm-up"
-  - text: Setup screen sharing
-    href: "#setup-screen-sharing"
-  - text: Task completion
-    href: "#task-completion-2-3-tasks"
-  - text: Follow up
-    href: "#follow-up"
-  - text: Wrap-up
-    href: "#wrap-up"
-  - text: References
-    href: "#references"
+# eleventyNavigation: 
+#   parent: ux-guide-usability-test
+#   key: ux-guide-usability-test-home
+#   order: 1
+#   title: Usability test guide
+# sidenav: true
+# sticky_sidenav: true
+# subnav:
+#   - text: Introduction
+#     href: "#introduction"
+#   - text: Warm-up
+#     href: "#warm-up"
+#   - text: Setup screen sharing
+#     href: "#setup-screen-sharing"
+#   - text: Task completion
+#     href: "#task-completion-2-3-tasks"
+#   - text: Follow up
+#     href: "#follow-up"
+#   - text: Wrap-up
+#     href: "#wrap-up"
+#   - text: References
+#     href: "#references"
 ---
 {% comment %}
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.

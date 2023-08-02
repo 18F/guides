@@ -5,9 +5,9 @@ permalink: /ux-guide/resources/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-  parent: ux-guide-resources
+  parent: ux-guide
   key: ux-guide-resources-home
-  order: 1
+  order: 3
   title: Resources
 sidenav: true
 sticky_sidenav: true
