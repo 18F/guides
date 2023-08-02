@@ -26,7 +26,7 @@ subnav:
     href: "#additional-reading"
 ---
 
-We’ve collected the following templates, presentations, checklists, etc. as starting points — feel free to [contribute to this guide via GitHub](https://github.com/18F/ux-guide/blob/main/CONTRIBUTING.md) and help us keep this list up-to-date!
+We’ve collected the following templates, presentations, checklists, etc. as starting points — feel free to [contribute to this guide via GitHub](https://github.com/18F/ux-guide/blob/main/CONTRIBUTING.md/TODO/) and help us keep this list up-to-date!
 
 As indicated below, some of these resources are available only to staff of GSA (General Services Administration) or TTS (Technology Transformation Services).
 

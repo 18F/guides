@@ -21,7 +21,7 @@ Analysis and experimentation conducted during the 1990’s suggested that the <a
 
 ## Open Source and Contributing
 
-This project is [open source](https://github.com/18F/agile), and we welcome contributions from the public.
+This project is [open source](https://github.com/18F/agile/TODO/), and we welcome contributions from the public.
 
 ### License
 
