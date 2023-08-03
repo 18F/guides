@@ -9,7 +9,7 @@ tags: derisking
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/qasp-checks.svg" %}
 
-Per [the "Require demos, not memos" best practice]({{ "/derisking/state-field-guide/#require-demos-not-memos" | url }}), here is a sample QASP, which should be incorporated into agile software RFPs.
+Per [the "Require demos, not memos" best practice]({{ "/derisking/state-field-guide/budgeting-tech/#require-demos-not-memos" | url }}), here is a sample QASP, which should be incorporated into agile software RFPs.
 
 | **Deliverable** | **Performance Standard(s)** | **Acceptable Quality Level** | **Method of Assessment** |
 | --- | --- | --- | --- |

@@ -98,17 +98,17 @@ Building IT systems using loosely coupled parts, connected by open and available
 
 ### Modular contracting
 
-By combining user-centered design, agile, product ownership, DevOps, and building with loosely coupled parts, it’s possible to break up a large, risky contract into a handful of smaller contracts. A contract should be small enough that the agency will have no compunction about giving no further work to a non-performing vendor, replacing them with a new vendor. (See "[Procure services, not software]({{site.baseurl}}/state-field-guide/#procure-services-not-software)" for how this is done.) The rest of the vendors will continue working, so the total loss of velocity will be minimal. A new vendor should have no difficulty taking over for the old one, since the old one was delivering completed, documented, tested software every two weeks. Another benefit is that small contracts may come in under your state’s simplified procurement threshold, meaning that agencies can write a request for proposals, publish it, and award a contract, all within 90 days or so.
+By combining user-centered design, agile, product ownership, DevOps, and building with loosely coupled parts, it’s possible to break up a large, risky contract into a handful of smaller contracts. A contract should be small enough that the agency will have no compunction about giving no further work to a non-performing vendor, replacing them with a new vendor. (See "[Procure services, not software]({{ "/derisking/state-field-guide/#procure-services-not-software" | url }} for how this is done.) The rest of the vendors will continue working, so the total loss of velocity will be minimal. A new vendor should have no difficulty taking over for the old one, since the old one was delivering completed, documented, tested software every two weeks. Another benefit is that small contracts may come in under your state’s simplified procurement threshold, meaning that agencies can write a request for proposals, publish it, and award a contract, all within 90 days or so.
 
 There are vendor teams that specialize in working as we’ve described here. As a rule of thumb, an agile development team of 5–9 people costs between \$1–2M/year, depending on their geographic location.
 
 This approach will require coordination and buy-in from your procurement teams. Procurement personnel are often accustomed to the traditional approach of outsourcing IT projects: one large procurement based on lengthy RFP documents, asking for lengthy proposals and outdated, waterfall-style certifications and qualifications from vendors. Generally, vendors that use agile, user-centered methods don’t have any idea what "CMMI" or "EVMS" is — such standards are no longer considered best practices for creating flexible and cost-effective software systems. This is a barrier to entry for many of the vendors that might be new to government and don’t want to expend all of the resources required to write a proposal.
 
-<p align="center">* * *</p>
+<p align="center" aria-hidden="true">* * *</p>
 
 Modern software development processes are founded on user-centered design, agile software development, product ownership, DevOps, building with loosely coupled parts, and modular contracting. By understanding those core concepts, you’re in a great position to understand how to budget for software more effectively, and to understand the rest of this handbook.
 
-**Next**: [Budgeting and overseeing tech projects]({{site.baseurl}}/state-field-guide/budgeting-tech/)
+**Next**: [Budgeting and overseeing tech projects]({{ "/derisking/state-field-guide/budgeting-tech/" | url }})
 
 ### Footnotes
 [^research]: A user story reads in form of "as a [role], I need [this thing], so I can [accomplish this]." For example, "as a social worker, I need case notes to be cached on my phone, so that I can access case notes in areas without mobile phone service." All technical work is done in the service of addressing a user story.

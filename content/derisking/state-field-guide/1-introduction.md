@@ -40,7 +40,7 @@ This handbook also gives you the tools you need to start tackling related proble
 - Security threats
 - Hiring, staffing, and other resource constraints
 
-This is written specifically for procurement of custom software, but it’s important to recognize that commercial off-the-shelf software (COTS) is often custom and Software as a Service (SaaS) often requires custom code. Once any customization is made, the bulk of this advice in this handbook applies to these commercial offerings. (See "[Beware the customized commercial software trap]({{ "/derisking/state-field-guide/#beware-the-customized-commercial-software-trap/" | url }})" for details.)
+This is written specifically for procurement of custom software, but it’s important to recognize that commercial off-the-shelf software (COTS) is often custom and Software as a Service (SaaS) often requires custom code. Once any customization is made, the bulk of this advice in this handbook applies to these commercial offerings. (See "[Beware the customized commercial software trap]({{ "/derisking/state-field-guide/budgeting-tech/#beware-the-customized-commercial-software-trap" | url }})" for details.)
 
 As government leaders, we must be good stewards of public money by demanding easy-to-use, cost-effective, sustainable digital tools for use by the public and civil servants. This handbook will help you do just that.
 

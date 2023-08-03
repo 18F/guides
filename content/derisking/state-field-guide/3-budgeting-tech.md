@@ -82,7 +82,7 @@ Your RFP should describe the overall goal of the work, and should include a firs
 
 The RFP should use a Statement of Objectives rather than a Statement of Work — that is, it should state the objectives of the project, rather than the specifics of a product that the vendor should produce. Using a SOO instead of a SOW eliminates "change orders" from vendors, because the scope of work is whatever the team is directed to do. (If an ostensibly "agile" vendor mentions change orders, that’s a red flag.)
 
-To ensure vendors deliver work that meets the needed technical specifications, it is important that the RFP include a Quality Assessment Surveillance Plan (QASP) that is appropriate for agile development methods, requiring that the software be inspected at the end of each sprint to ensure that it is tested, secure, accessible, documented, and deployed.[^deployed] (See [sample QASP]({{ site.baseurl }}/qasp/).) Meeting this requirement requires regular demonstrations of actual, working software, not memos or descriptions of what a system is supposed to do in the future.
+To ensure vendors deliver work that meets the needed technical specifications, it is important that the RFP include a Quality Assessment Surveillance Plan (QASP) that is appropriate for agile development methods, requiring that the software be inspected at the end of each sprint to ensure that it is tested, secure, accessible, documented, and deployed.[^deployed] (See [sample QASP]({{ "/derisking/qasp/" | url }}).) Meeting this requirement requires regular demonstrations of actual, working software, not memos or descriptions of what a system is supposed to do in the future.
 
 Historically, there has been pressure to only use firm fixed price contracts, on the assumption that this reduces risk. However, if you are in a position to constantly measure software quality, then a time and materials contract — with a ceiling on total spending — allows for more flexibility for the software development team. A time and materials contract also allows for much easier escape clauses if the direction of the work changes or the vendor team is not producing quality software. If a vendor team’s work is inadequate, or their skills prove inappropriate, then no further work need be assigned to that vendor (effectively terminating the contract), and the vendor can be replaced.
 
@@ -137,7 +137,7 @@ Historically, progress in software development projects has been measured by com
 
 A better philosophy is _demos, not memos._ Instead of measuring progress by looking at purpose-made artifacts, look at the actual work that is being done. Join the reviews that are held at the end of each sprint, where the work done in that sprint is demonstrated to the project team and invited end users. Try out the website. Install the app. Ask for a "[burn down chart](https://en.wikipedia.org/wiki/Burn_down_chart)" — a graph of work that remains to be done and how much time that will take.
 
-An important part of ensuring that progress isn’t illusory is for the contract to include a Quality Assurance Surveillance Plan (QASP) that requires, at the end of each sprint, that all work meet specific standards. The QASP describes the method by which the government will determine that the vendor’s work is of sufficient quality to accept at the end of each sprint, enabling the vendor to perform those same tests to ensure that there will be no surprises. (See [sample QASP]({{site.baseurl}}/qasp/).)
+An important part of ensuring that progress isn’t illusory is for the contract to include a Quality Assurance Surveillance Plan (QASP) that requires, at the end of each sprint, that all work meet specific standards. The QASP describes the method by which the government will determine that the vendor’s work is of sufficient quality to accept at the end of each sprint, enabling the vendor to perform those same tests to ensure that there will be no surprises. (See [sample QASP]({{ "/derisking/qasp/" | url }}).)
 
 The QASP does not require producing any artifacts explicitly for the purpose of monitoring the work — the way to monitor the work is by _seeing if it actually works._ This is a very different way to monitor the progress of a technology project. It has the added benefit of being a more objective, observable, functional test than requiring subjective or legal interpretations about whether the work satisfies a long series of system requirements.
 
@@ -379,7 +379,7 @@ Ultimately, this can provide agencies with a predictable source of funding for s
 
 ### Ask technical questions of agencies
 
-Budget requests for custom software often feature non-technical people making a technical proposal to other non-technical people. This process doesn’t lend itself to asking key questions, such as many of those found throughout this handbook. It is important to ask all of those difficult technical questions, and to insist on getting the right answers ([see "Questions to ask" for sample questions and answers]({{site.baseurl}}/state-field-guide/questions-to-ask/).
+Budget requests for custom software often feature non-technical people making a technical proposal to other non-technical people. This process doesn’t lend itself to asking key questions, such as many of those found throughout this handbook. It is important to ask all of those difficult technical questions, and to insist on getting the right answers ([see "Questions to ask" for sample questions and answers]({{ "/derisking/state-field-guide/questions-to-ask/" | url }}).
 
 It is no kindness to fund a project that is going to fail. If the agency doesn’t know exactly what they want to buy, they’re not going to get it.
 
@@ -402,7 +402,7 @@ It is no kindness to fund a project that is going to fail. If the agency doesn�
 - How much will it cost to move to a new system?
 - What are you doing to avoid paying expensive change fees in the future?
 
-**Next**: [Questions to ask]({{site.baseurl}}/state-field-guide/questions-to-ask/)
+**Next**: [Questions to ask]({{ "/derisking/state-field-guide/questions-to-ask/" | url }})
 
 ### Footnotes
 [^failure]: For details, see the U.S. Department of Health &amp; Human Services’ Office of the Inspector General report about the Healthcare.gov failure, "<a href="https://oig.hhs.gov/oei/reports/oei-06-14-00350.asp">Case Study of CMS Management of the Federal Marketplace</a>" and Harvard Business School case study, "<a href="https://hbswk.hbs.edu/item/the-spectacular-fall-and-fix-of-healthcare-gov">The Spectacular Fall and Fix of HealthCare.gov</a>."
