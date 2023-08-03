@@ -56,7 +56,7 @@ Goals of a post-award kick-off:
 
 **Publicly empower the product owner**: Make it clear to the team that the product owner is empowered to make decisions, that they are the agency's go-to person, and that the agency expects the product to evolve over time through learning and iteration with users.
 
-**Make time for the contractual kick-off:** If this is held as a single meeting, cover whatever the CO would like to discuss–this can include security, legal concerns, and the COR's and the CO's contractual responsibilities. 
+**Make time for the contractual kick-off:** If this is held as a single meeting, cover whatever the CO would like to discuss — this can include security, legal concerns, and the COR's and the CO's contractual responsibilities. 
 
 **Establish initial working practices:** Discuss folks' preferred communication methods and working hours; plan tools and technology.
 
@@ -114,7 +114,7 @@ Agile software development rejects this feature-deadline paradigm. Instead, agil
 
 For example, a project team may initially plan to complete a specific feature within a few months, but subsequent user research may reveal that the work is of low value, and not worth doing.
 
-There is no way to marry the standard model of software development oversight with agile software development–they are inherently at odds.
+There is no way to marry the standard model of software development oversight with agile software development — they are inherently at odds.
 
 Even if it were possible, we would not want to keep this standard oversight model. Our research revealed that new agile program managers spend most of their time not managing the product development effort, but working on reports to their oversight bodies and funders to document compliance. This documentation is likely to report things are going well, regardless of the actual project state, and offers little utility. 
 
@@ -144,14 +144,14 @@ The United Kingdom's National Audit Office's [Governance for Agile delivery](htt
 > 
 > - the skills and experience of the team;
 > 
-> - the team dynamics–frequency and nature of communication inside and outside of the delivery team, and the level of input to the
+> - the team dynamics — frequency and nature of communication inside and outside of the delivery team, and the level of input to the
 > delivery team from the business;
 > 
-> - the organisational culture–the level of commitment and openness;
+> - the organisational culture — the level of commitment and openness;
 > 
-> - the timing and nature of quality control by the delivery team–the testing and release framework;
+> - the timing and nature of quality control by the delivery team — the testing and release framework;
 > 
-> - the order in which the team tackled the tasks–prioritisation of actions and deliverables, the amount of actions in the backlog list;
+> - the order in which the team tackled the tasks — prioritisation of actions and deliverables, the amount of actions in the backlog list;
 > 
 > - the way the team changes its activity in response to the results achieved in each iteration; and
 > 
@@ -179,7 +179,7 @@ There are a number of documents that are likely to be produced and maintained co
 
 Documentation is also key to securing adequate data rights in the code that the team intends to retain, thereby helping to avoid vendor lock-in. While the contracting team will add the appropriate clauses to the contract, the responsibility falls to the product team to assign, or map, each deliverable or piece of code to the correct clause. This should be done on an ongoing basis as each piece of code or deliverable is submitted for acceptance.
 
-For example, if the code is completely new–i.e., what the FAR calls "first produced in the performance of the contract"–its acceptance paperwork should state that it is delivered with "unlimited rights in accordance with the FAR clause at 52.227-14(c)(1)" (if that clause is in the contract). If the code or deliverable is derived from pre-existing software that has license terms attached–*including open-source software that comes with an open-source license*– the acceptance paperwork should state that the code is "delivered with the rights specified in the [associated license agreement], which constitutes a "collateral agreement" for purposes of the FAR clause at 52.227-14(c)(2)." Engage the contracting folks early and often to determine which data rights clause is in the contract and which part of it your code falls under.
+For example, if the code is completely new — i.e., what the FAR calls "first produced in the performance of the contract" — its acceptance paperwork should state that it is delivered with "unlimited rights in accordance with the FAR clause at 52.227-14(c)(1)" (if that clause is in the contract). If the code or deliverable is derived from pre-existing software that has license terms attached — *including open-source software that comes with an open-source license* —  the acceptance paperwork should state that the code is "delivered with the rights specified in the [associated license agreement], which constitutes a "collateral agreement" for purposes of the FAR clause at 52.227-14(c)(2)." Engage the contracting folks early and often to determine which data rights clause is in the contract and which part of it your code falls under.
 
 ###### Throwing in the towel
 
@@ -241,7 +241,7 @@ By **Miatta Myers**, **Vicki McFadden**, and **Mark Hopson**
 
 #### Executive summary
 
-- Proper post-award contract administration requires more time and effort in agile than in traditional government contracts. Working this way brings many benefits: more flexibility, more control of the product, more transparency into day-to-day work, sufficient data rights remain with the government so vendor lock-in is difficult, and outcomes are better–and delivered faster–for end users. 
+- Proper post-award contract administration requires more time and effort in agile than in traditional government contracts. Working this way brings many benefits: more flexibility, more control of the product, more transparency into day-to-day work, sufficient data rights remain with the government so vendor lock-in is difficult, and outcomes are better — and delivered faster — for end users. 
 
 #### Recommendation
 
@@ -272,7 +272,7 @@ With agile contracts, the contract award is just the first step that allows the 
 
 The role of government looks something like this:
 
-**Product Owner:** The government product owner (PO) works closely with the contractor development team to iteratively identify, build, and deliver functionality. The contract period of performance is static. The functionality to be delivered is discovered throughout the project and varies. The price the government pays–because of time and material contract type–is variable, based on team size and hours worked, within the confines of a not-to-exceed cost ceiling. The government PO has discretion over when and what functionality is delivered to end users.
+**Product Owner:** The government product owner (PO) works closely with the contractor development team to iteratively identify, build, and deliver functionality. The contract period of performance is static. The functionality to be delivered is discovered throughout the project and varies. The price the government pays — because of time and material contract type — is variable, based on team size and hours worked, within the confines of a not-to-exceed cost ceiling. The government PO has discretion over when and what functionality is delivered to end users.
 
 Transparency and open dialogue are paramount in agile practices. The government PO is a member of the development team and plays an active role in setting the vision, prioritizing user stories, and clearing the team's blockers. Alignment between the government and contractor happens daily, so misalignments are quickly identified and resolved. 
 
@@ -290,7 +290,7 @@ But there are many benefits: more flexibility, more control of the product, more
 ### Monitor conformance with the QASP at the end of every sprint
 By **Miatta Myers**, **Vicki McFadden**, **Waldo Jaquith**, and **Mark Hopson**
 
-**Challenge:** The quality assurance surveillance plan (QASP) is different–and requires active oversight–in agile development.
+**Challenge:** The quality assurance surveillance plan (QASP) is different — and requires active oversight — in agile development.
 {.guide-highlight}
 
 #### Executive summary
@@ -323,7 +323,7 @@ In addition to having a government PO, we also like to assign a technical lead, 
 
 At the end of the sprint, this technical lead will review all the code produced by the contractor team to ensure it conforms with the QASP before the code is accepted. If any of the performance standards are not met, the code will be returned for the contractor team to fix and resubmit. 
 
-This is not a full-time job, but will likely take 4--8 hours per scrum team, per sprint.
+This is not a full-time job, but will likely take 4–8 hours per scrum team, per sprint.
 
 **Next**: [Appendix]({{ "/derisking/federal-field-guide/appendix/" | url }})
 

@@ -20,7 +20,7 @@ subnav:
 - text: Default to open
   href: '#default-to-open'
 - text: Infrastructure-as-code
-  href: '#require-infrastructure-as-code-single-command-deployment-and--per-sprint-government-verification-offunctionality'
+  href: '#require-infrastructure-as-code-single-command-deployment-and-per-sprint-government-verification-of-functionality'
 - text: Leadership’s role
   href: '#leadership-should-set-direction-and-empower-teams'
 - text: Scope efforts
@@ -62,13 +62,13 @@ The goal of a [product owner](https://18f.gsa.gov/2020/03/10/ask-18f-po-vs-cor/)
 
 A common problem government custom software development projects face is that leadership has not set up the product owner to succeed.
 
-Product ownership is often treated as "other duties as assigned," but it is a full-time job. Product owners can't work on several products at any given time, especially if it's a new role for them. Their days should be filled with scrum ceremonies (sprint planning, sprint review, retro, daily stand-ups), clearing blockers for the team, attending usability sessions, meeting with users, communicating with stakeholders, and refining the backlog. Expecting someone to lead a product development team with only a fraction of their time is setting them–and the product--- up for failure.
+Product ownership is often treated as "other duties as assigned," but it is a full-time job. Product owners can't work on several products at any given time, especially if it's a new role for them. Their days should be filled with scrum ceremonies (sprint planning, sprint review, retro, daily stand-ups), clearing blockers for the team, attending usability sessions, meeting with users, communicating with stakeholders, and refining the backlog. Expecting someone to lead a product development team with only a fraction of their time is setting them — and the product — up for failure.
 
 Another common problem is requiring the product owner to work through a governance board to make changes in product direction. Often, governance boards will vote on requirements, not based on any understanding of user needs, and give those requirements to product owners to execute against. That is at odds with an agile approach. Agile methods require that product owners are empowered to act on their understanding of the end users' needs. They should be empowered to say "no" to feature requests that do not meet user needs, and do so often, no matter who in the organization is making the request. This should be well understood and accepted. The product team should be empowered to adjust course throughout a project, based on what they learn. They should be able to communicate freely with their end users. This autonomous product team and product owner role requires cooperation with executive stakeholders. Without this autonomy and support, it is more difficult to deliver the right product to end users.
 
 Product owners come from all walks of life. To serve in this role, they don't need a specific education or work experience background, but they do need to understand the needs of users, be able to lead a team effectively, clear blockers, and deliver results.
 
-They also need a willingness to learn and have the time and space to experiment, make mistakes, and grow. They should also receive training–there are many excellent scrum product owner offerings available–and would benefit from working with an experienced scrum master and/or agile coach as they begin to master this new skill.
+They also need a willingness to learn and have the time and space to experiment, make mistakes, and grow. They should also receive training — there are many excellent scrum product owner offerings available — and would benefit from working with an experienced scrum master and/or agile coach as they begin to master this new skill.
 
 ### Involve end users early and often in software development efforts
 By **Waldo Jaquith**, **Peter Rowland**, **Miatta Myers**, **Vicki McFadden**, **Mark&nbsp;Hopson**
@@ -84,9 +84,9 @@ By **Waldo Jaquith**, **Peter Rowland**, **Miatta Myers**, **Vicki McFadden**, *
 
 #### Recommendation
 
-A wide variety of users are likely to interact with government software. For government programs, an end user of a given product could differ–it could be the public, a warfighter, a field employee, or one of dozens of other groups. Today, end users are not sufficiently involved in government agile projects. Projects that get funded are not always driven by end user needs. It's common to find "agile" projects that lack sufficient — sometimes _any_ — end user feedback.
+A wide variety of users are likely to interact with government software. For government programs, an end user of a given product could differ — it could be the public, a warfighter, a field employee, or one of dozens of other groups. Today, end users are not sufficiently involved in government agile projects. Projects that get funded are not always driven by end user needs. It's common to find "agile" projects that lack sufficient — sometimes _any_ — end user feedback.
 
-Without regular and ongoing feedback from actual end users, an agency can't be agile. No level of stakeholder priority-setting or requirements review board processes can substitute for active and continuous end user feedback loops. Someone who had the job of an end user 10--20 years ago cannot serve as a proxy. Surveys do not bring sufficient user feedback into the development efforts. By not communicating with end users, teams could be solving the wrong problems. Under that approach, there is no feedback loop to validate whether the end user is satisfied, which is the primary definition of success in an agile project. This is an extremely risky way of developing software.
+Without regular and ongoing feedback from actual end users, an agency can't be agile. No level of stakeholder priority-setting or requirements review board processes can substitute for active and continuous end user feedback loops. Someone who had the job of an end user 10–20 years ago cannot serve as a proxy. Surveys do not bring sufficient user feedback into the development efforts. By not communicating with end users, teams could be solving the wrong problems. Under that approach, there is no feedback loop to validate whether the end user is satisfied, which is the primary definition of success in an agile project. This is an extremely risky way of developing software.
 
 Every effort should start with end user research. Every user story in the product backlog should be based on current end user needs. End users should be continuously asked for feedback on product direction to shape the product to their needs. Development teams should be empowered to make changes in direction based on the feedback of end users. In many cases, end users should be included in every sprint review, so they can see the product mature iteratively, and provide feedback on direction.
 
@@ -100,7 +100,7 @@ By **Waldo Jaquith**, **Peter Rowland**, **Miatta Myers**, **Vicki McFadden**, *
 
 -   Custom development versus "commercial-off-the-shelf" or COTS is often a false paradigm. Often, agencies will buy COTS and then also pay for custom software development to make the software meet their needs.
 
--   Agencies should be wary of customizing COTS solutions to meet their needs–this software is difficult to maintain and may leave the agency locked into a long-term, sole-source relationship with the contractor.
+-   Agencies should be wary of customizing COTS solutions to meet their needs — this software is difficult to maintain and may leave the agency locked into a long-term, sole-source relationship with the contractor.
 
 -   Most government purchases are _commercial_, not _non-commercial_, and should leverage simplified acquisition procedures.
 
@@ -183,7 +183,7 @@ By **Ian Lee**, **Ryan Johnson**, **Rebecca Refoy**
 18F asked a few of our partner agencies[^agencies] about how open source has worked for them and what the future looks like across the executive branch:
 
 **Department of the Interior's Office of Natural Resources Revenue:**
->"...the principles of transparency–emblematic in both the open data and open code that power the site–continue to inform our approach. We want the site to embody openness and transparency both in the content provided and in the way we build. For that reason, we use open source software to build the site, and we use GitHub to manage our code and workflow in the open."
+>"...the principles of transparency — emblematic in both the open data and open code that power the site — continue to inform our approach. We want the site to embody openness and transparency both in the content provided and in the way we build. For that reason, we use open source software to build the site, and we use GitHub to manage our code and workflow in the open."
 
 **Department of Justice's Office of Information Policy (OIP):**
 >"Working in the open to get active and frequent feedback from public and government stakeholders was the perfect match for the [National FOIA Portal project](https://github.com/usdoj/foia.gov). Given the core purpose of the FOIA, to shed light on government activities, it was very important to us to develop the first government-wide [National FOIA Portal](https://www.foia.gov/) in the most transparent and open way. Working collaboratively in the open with our diverse stakeholders, we were able to create a dynamic website that meets actual user needs."
@@ -196,11 +196,11 @@ By **Ian Lee**, **Ryan Johnson**, **Rebecca Refoy**
 
 ##### Benefits
 
-The public funds government projects, and the government should allow the public to use what it has paid for. The public–and other agencies–should be able to leverage these investments for their own purposes. Re-use reduces redundancies across the public sector for similar investments and facilitates innovation in the private sector.
+The public funds government projects, and the government should allow the public to use what it has paid for. The public — and other agencies — should be able to leverage these investments for their own purposes. Re-use reduces redundancies across the public sector for similar investments and facilitates innovation in the private sector.
 
 Developing work in the open allows agencies to own their code and reduces the risk of future vendor lock-in.
 
-Building with open source technologies, and building in an open code repository, may make the final product better. By using open software and working in the open, agencies allow critical evaluation and participation from others. Inviting critique from others can be uncomfortable, but it increases the likelihood that the final product is better–bugs and vulnerabilities are found and fixed quicker and security is improved.
+Building with open source technologies, and building in an open code repository, may make the final product better. By using open software and working in the open, agencies allow critical evaluation and participation from others. Inviting critique from others can be uncomfortable, but it increases the likelihood that the final product is better — bugs and vulnerabilities are found and fixed quicker and security is improved.
 
 Open source software also shows a developer's skills. Skilled developers want to work on open source projects to demonstrate their skills to colleagues, their current employer, and future employers. When their code is available for anyone to check, their personal standards go up and other developers can contribute to the project to improve outcomes.
 
@@ -312,7 +312,7 @@ Instead of this tried-and-true approach that nearly guarantees failure, we advoc
 
 A few rules:
 
-1.  **No big up-front design:** Under waterfall development, agencies spend months or years getting infrastructure procured and deployed so software development can happen. But this becomes trivial with cloud hosting–instead of spending a lot of time figuring out infrastructure, database, business logic, user interface, etc., those can be created by the scrum team as they work on user stories as "slices" that cut across these layers.
+1.  **No big up-front design:** Under waterfall development, agencies spend months or years getting infrastructure procured and deployed so software development can happen. But this becomes trivial with cloud hosting — instead of spending a lot of time figuring out infrastructure, database, business logic, user interface, etc., those can be created by the scrum team as they work on user stories as "slices" that cut across these layers.
 
 {% image_with_class "assets/derisking/img/story-slices.svg" "" "User stories include all of layers" %}
 
@@ -332,7 +332,7 @@ At this point, agencies often face two challenges:
 
     If several teams are told to adopt agile at the same time, that does not allow for this important learning to occur and scale naturally. A large-scale, simultaneous agile transition requires every team to undergo the same painful and frustrating learning process. These teams will probably develop their own solutions that will be based on the path of least resistance, rather than what is right for the enterprise.
 
-1.  **Don't consolidate contracts.** There is no "economy of scale" when buying professional services. There is no reason to combine several product teams' needs into a single contract award. It does not reduce complexity–rather, it hides the complexity inherent in any development effort. Consolidating contracts increases risk by creating a single point of failure. And it does not allow the agency to buy specialized skills that it might need for just one team.
+1.  **Don't consolidate contracts.** There is no "economy of scale" when buying professional services. There is no reason to combine several product teams' needs into a single contract award. It does not reduce complexity — rather, it hides the complexity inherent in any development effort. Consolidating contracts increases risk by creating a single point of failure. And it does not allow the agency to buy specialized skills that it might need for just one team.
 
 ##### Pricing the cost of an agile software development team
 
@@ -364,7 +364,7 @@ With agile development, an agency can give a reasonable estimate for cost and sc
 
 **Schedule** is the entire period of performance or some subset of that. For example, some agencies want to deliver a minimally viable product (MVP) in the first 9 months of a software development effort. That's great: it gives the agile software development team a timeboxed window to complete a useful but limited set of functionality for users. But the agency should know that the product will not be done at this time, and will continue to get refined and have new features added post-MVP.
 
-**Performance** is unknown at the start of the project. The agency will have a product vision and a sense of the outcomes they're trying to create for end users, but specific functionality–and the order in which that functionality will be delivered–is unknown and unknowable. Over time, however, an agile software team should be able to provide some estimates about when certain functionality should be delivered.
+**Performance** is unknown at the start of the project. The agency will have a product vision and a sense of the outcomes they're trying to create for end users, but specific functionality — and the order in which that functionality will be delivered — is unknown and unknowable. Over time, however, an agile software team should be able to provide some estimates about when certain functionality should be delivered.
 
 Product owners should develop a product roadmap and share it with stakeholders. Agencies should not use product roadmaps to forecast  what will be delivered when, but use them to help communicate the priority order in which work is anticipated to be done. They are designed to help deliver the highest value to users within a given budget or time constraint.
 
@@ -400,7 +400,7 @@ The prototype should answer these questions:
 
 ##### Ask detailed questions
 
-Pull together a meeting with the relevant individuals at the partner agency–technical, security, Continuous Integration/Continuous Deployment (CI/CD), etc.–to get clarity on the following questions.
+Pull together a meeting with the relevant individuals at the partner agency — technical, security, Continuous Integration/Continuous Deployment (CI/CD), etc. — to get clarity on the following questions.
 
 -   How are existing products hosted and deployed? Who is involved in those processes?
 
@@ -463,7 +463,7 @@ Agencies should determine which collaboration tools their teams need and make th
 
 #### Executive summary
 
--   Compiling several smaller software development projects into a single large project might seem easier–one budget request and one vendor contract–but it increases the risk of failure.
+-   Compiling several smaller software development projects into a single large project might seem easier — one budget request and one vendor contract — but it increases the risk of failure.
 
 -   Instead of a "lift and shift" approach to planning costs, use a risk mitigation budgeting strategy to incrementally discover needs, gather information, and increase the likelihood of successful modernization.
 
@@ -511,7 +511,7 @@ This presents many challenges for agencies. For example, agencies that want to m
 
 These two contractors may have different contracts, different working styles, and no incentive to work together effectively. It often leads to a lot of finger-pointing and frustration.
 
-To avoid the extra effort of requesting funding, awarding, and managing a new contract for these improvements, many agencies simply modify their existing O&M contract for needed enhancements, and hope the cost is low enough so no one notices–or cares–that they agency should have made a DME request.
+To avoid the extra effort of requesting funding, awarding, and managing a new contract for these improvements, many agencies simply modify their existing O&M contract for needed enhancements, and hope the cost is low enough so no one notices — or cares — that they agency should have made a DME request.
 
 A single agency system may combine annual software licenses, software-as-a-service tools, and custom code. Hiding this complexity with a single contract / vendor makes untangling knots and making improvements very difficult.
 
@@ -563,7 +563,7 @@ The first meaningful step to provide the federal government with the same world-
 [^budget]: The A-11 memo section related to Information Technology can be found [here](https://www.whitehouse.gov/wp-content/uploads/2020/11/FY22ITBudget_CapitalPlanningGuidance.pdf).
 [^constitution]:  As a way to enforce its power of the purse on the executive, there is a significant body of law, called fiscal law, that controls how agencies may obligate Congressional appropriations. Examples include: the Purpose statute (31 U.S.C. § 1301(a)), Antideficiency Act (31 U.S.C. § 1341), Adequacy of Appropriations Act (41 USC 11), Miscellaneous Receipts Act (31 U.S.C. § 3302(b)), Bona Fide Needs (whose statutory basis is found at 31 U.S.C. § 1502, but is defined and interpreted through numerous GAO opinions), and Account Closing (31 U.S.C. § 1555). While readers should consult with their General Counsel on specific application or interpretation of laws, these topics are worth highlighting potential issues they present for modern software acquisitions in agencies.
 [^certainly]:Since 1977, the first year under the current system, Congress has passed appropriation bills on-time 4 times: 1977, 1989, 1995, 1997
-[^RDTE]: See [FY 2019 IT Budget – Capital Planning Guidance](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/egov_docs/fy19_it_budget_guidance.pdf) for specifics.
+[^RDTE]: See [FY 2019 IT Budget — Capital Planning Guidance](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/egov_docs/fy19_it_budget_guidance.pdf) for specifics.
 [^OM]: See the U.S. Government Accountability Office's report [Federal Agencies Need to Address Aging Legacy Systems](https://www.gao.gov/assets/680/677574.pdf) at 18 for specifics.
 [^funding]: See the U.S. Government Accountability Office's report [Federal Agencies Need to Address Aging Legacy Systems](https://www.gao.gov/assets/680/677574.pdf) at 18 for specifics.
 [^percent]: See the U.S. Government Accountability Office's report [Federal Agencies Need to Address Aging Legacy Systems](https://www.gao.gov/assets/680/677574.pdf) at 13 for specifics.

@@ -173,7 +173,7 @@ As a best practice, government buyers should rely on multiple primary sources as
 
 - Case studies
 
-To put this into context, consider a major purchase in someone's personal life–buying a car.
+To put this into context, consider a major purchase in someone's personal life — buying a car.
 
 Unfortunately, given the way that many government employees conduct market research and government contracting would be like someone walking into a single dealership they happened to be near, go to a single car model on the showroom floor, and pay the posted price for that car on the window immediately.
 
@@ -231,7 +231,7 @@ Salespeople can play an important role in helping to better educate potential cu
 
 But sales capture is also rife for potential abuse especially in the public sector where large amounts of government funds are being spent (the U.S. government is the largest buying entity in the world).
 
-Government employees are working on behalf of someone else–the American public. This means that government employees have ethical and professional standards by which they must conduct themselves.
+Government employees are working on behalf of someone else — the American public. This means that government employees have ethical and professional standards by which they must conduct themselves.
 
 Numerous laws and regulations guide the communication or actions of government employees. If they don't adhere to these standards, such as FAR 9.5 for Organizational Conflict of Interest guidance, they may face civil or criminal penalties depending on the violation. This could mean fines, suspension, firing, and, sometimes, even felony prison time.
 
@@ -243,7 +243,7 @@ Considerations for any direct conversations with contractors:
 
 - All federal personnel have a responsibility to protect proprietary or confidential information, and not share such information with companies or potential competitors.
 
-- Federal personnel must avoid appearance of commitment–only someone with a specific type of legal authority can obligate or commit the U.S. government through a contract (warranted Contracting Officer).
+- Federal personnel must avoid appearance of commitment — only someone with a specific type of legal authority can obligate or commit the U.S. government through a contract (warranted Contracting Officer).
 
 Sample approaches to use:
 
@@ -337,21 +337,21 @@ Performance-based service contracting (PBSC) emphasizes that all aspects of an a
 
 This proven methodology has yet to be fully implemented governmentwide for a variety of reasons, including inexperience in writing performance-based solicitations, cultural inertia, and concerns about more open and interactive communication with industry throughout the acquisition process.[^process]
 
-The problems caused by not using performance-based methods is especially acute when it comes to the software development professional services. Government solicitations to procure non-performance based custom software are often long and complicated, include many pages of requirements, and can take months – even years – to write.
+The problems caused by not using performance-based methods is especially acute when it comes to the software development professional services. Government solicitations to procure non-performance based custom software are often long and complicated, include many pages of requirements, and can take months — even years — to write.
 
 ##### Structuring solicitations for agile projects
 
-A quicker, more outcome-oriented method, such as 18F's [agile contract format](https://18f.gsa.gov/assets/presentations/agile-software-development-solicitation-template.docx), would allow an agency to acquire an agile software contractor with a solicitation that's only a dozen pages and written in an afternoon. It can be executed under existing procurement regulations and within Contracting Officers' (CO) existing authority. It can save enormous amounts of time, and the contract structure supports–not impedes–agile development efforts.
+A quicker, more outcome-oriented method, such as 18F's [agile contract format](https://18f.gsa.gov/assets/presentations/agile-software-development-solicitation-template.docx), would allow an agency to acquire an agile software contractor with a solicitation that's only a dozen pages and written in an afternoon. It can be executed under existing procurement regulations and within Contracting Officers' (CO) existing authority. It can save enormous amounts of time, and the contract structure supports — not impedes — agile development efforts.
 
 The format is simple but contains a major shift in how agencies procure agile software development services. In our experience, these elements are needed to align the solicitation with agile software development best practices:
 
-**Use a Statement of Objectives – not a Statement of Work or Performance Work Statement**[^statement] – because, with agile, an agency doesn't know exactly what needs to be done, and can't possibly define it up front. The product owner, working with the development team, will determine on a sprint-by-sprint basis what work needs to be done. Anything else wouldn't be agile.
+**Use a Statement of Objectives — not a Statement of Work or Performance Work Statement**[^statement] — because, with agile, an agency doesn't know exactly what needs to be done, and can't possibly define it up front. The product owner, working with the development team, will determine on a sprint-by-sprint basis what work needs to be done. Anything else wouldn't be agile.
 
  **Contract for time and materials, not a firm-fixed-price.** In most cases when an agency is purchasing for a software project, they're not buying a defined product, but instead buying a software development teams' time. Agencies can use a time-and-materials contract, as the CO may prefer, or a labor hour contract. Historically, the default contract types for IT projects were firm-fixed-price, based on the assumption that this reduces risk and aligns with the way software licenses have historically been offered.
 
-However, if an agency is in a position to constantly measure ("inspect and accept" in agile) software quality, a time and materials contract – with a ceiling on total spending (or not-to-exceed ceiling) – allows for more flexibility for the software development team. A time and materials contract also allows for much easier escape clauses if the direction of the work changes or the contractor team does not produce quality software. If their work is inadequate, or their skills prove inappropriate, then no further work needs to be assigned to that contractor (effectively terminating the contract), and the contractor can be replaced. See our sample[ Determinations & Findings](https://18f.gsa.gov/assets/presentations/determinations-findings-for-a-time-and-materials-contract-type-sample.docx) for more information on time and material contracts.
+However, if an agency is in a position to constantly measure ("inspect and accept" in agile) software quality, a time and materials contract — with a ceiling on total spending (or not-to-exceed ceiling) — allows for more flexibility for the software development team. A time and materials contract also allows for much easier escape clauses if the direction of the work changes or the contractor team does not produce quality software. If their work is inadequate, or their skills prove inappropriate, then no further work needs to be assigned to that contractor (effectively terminating the contract), and the contractor can be replaced. See our sample[ Determinations & Findings](https://18f.gsa.gov/assets/presentations/determinations-findings-for-a-time-and-materials-contract-type-sample.docx) for more information on time and material contracts.
 
-**Have a short base period of performance, usually between 6--12 months.** A couple of options to extend are fine, but keep them short, and never exceed a total contract length of three years. The agency is hiring a team to achieve a defined set of objectives and then leave. The government product owner should be heavily engaged throughout the project so contractor transitions should be relatively easy.
+**Have a short base period of performance, usually between 6–12 months.** A couple of options to extend are fine, but keep them short, and never exceed a total contract length of three years. The agency is hiring a team to achieve a defined set of objectives and then leave. The government product owner should be heavily engaged throughout the project so contractor transitions should be relatively easy.
 
 **Maintain a nominal appendix of the backlog of user stories.** User stories allow contractors to understand the specifics of the work that they're being asked to do, beyond whatever brief summary exists in the introduction. An agency must make it clear that the backlog has been included to illustrate the work that is presently believed will need to be done, but that it is only an illustration, and not a list of tasks that must be completed. It's a mistake to inventory user stories up front, rather than as part of performance. There's no way to know up front what work will need to be done, as is inherent to agile (design, build, test; inspect; repeat). The language provided in the agile contract format allows for this flexibility, since the backlog accounts for evolving outcomes rather than a predefined list of needs.
 
@@ -361,15 +361,15 @@ Historically, the process of preparing software for use by its intended audience
 
 We publish [a sample QASP]({{ "/derisking/qasp/" | url }}) that can be incorporated as-is. We will continue to update this QASP as we discover additional, meaningful, and objective quality metrics.
 
-**Key personnel should include, at a minimum, the lead developer, and quite possibly the project manager.** The agency is buying people's time, and wants to make sure that it's getting the people who were advertised. Be wary of specifying too many key personnel, though – this requires that the contractors put those people on the project if they get the contract, which can mean that they're functionally benched until the contract is awarded.
+**Key personnel should include, at a minimum, the lead developer, and quite possibly the project manager.** The agency is buying people's time, and wants to make sure that it's getting the people who were advertised. Be wary of specifying too many key personnel, though — this requires that the contractors put those people on the project if they get the contract, which can mean that they're functionally benched until the contract is awarded.
 
-In a truly agile project, the project manager plays a very different role than in a waterfall project. Agile teams are self-organizing, which eliminates a major role traditionally played by a project manager. Instead, the project manager should serve as the contractor's interface to the client, be responsible for unblocking tasks and overseeing – but not controlling – the work performed by the vendor team. In many agencies, the project manager's role is usually required to prove that the agency is not engaged in personal services.
+In a truly agile project, the project manager plays a very different role than in a waterfall project. Agile teams are self-organizing, which eliminates a major role traditionally played by a project manager. Instead, the project manager should serve as the contractor's interface to the client, be responsible for unblocking tasks and overseeing — but not controlling — the work performed by the vendor team. In many agencies, the project manager's role is usually required to prove that the agency is not engaged in personal services.
 
-**Allow for a distributed team**, whenever possible. We advocate for remote development, rather than requiring the contractor team to be onsite at the agency's location. The best development resources are not in your city – they're spread out across your state and even the country. (There's a [150% difference in the salary of software developers](https://www.bls.gov/oes/current/oes151132.htm#IDX701) between the most-expensive and least-expensive states in the United States.)
+**Allow for a distributed team**, whenever possible. We advocate for remote development, rather than requiring the contractor team to be onsite at the agency's location. The best development resources are not in your city — they're spread out across your state and even the country. (There's a [150% difference in the salary of software developers](https://www.bls.gov/oes/current/oes151132.htm#IDX701) between the most-expensive and least-expensive states in the United States.)
 
 Using a modern technology suite, collaboration is easy. The product owner should always know what the team is working on, and the team should be readily available to answer questions or huddle on any issue that arises. They can do this with video calling for face-to-face collaboration (e.g. Google Meet, Zoom, etc.); instant messaging (e.g. Slack, Google Chat, etc.); task management (e.g. GitHub, Trello, etc.); and collaborative document editing (e.g. Google Docs, Office 365, etc.).
 
-**All work products must be published under an open source license** – or, if using traditional proprietary code, the contract must secure sufficient data rights for the government in the work product to allow for use as intended and future development.
+**All work products must be published under an open source license** — or, if using traditional proprietary code, the contract must secure sufficient data rights for the government in the work product to allow for use as intended and future development.
 
 **All work will be committed to a public code repository** at least daily.
 
@@ -398,7 +398,7 @@ By **Mark Hopson**, **Vicki McFadden**, **Alan Atlas**, and **Waldo Jaquith**
 
 #### Executive summary
 
-- Use time and material (T&M) contracts with a not-to-exceed ceiling. If there is an engaged government product owner on the development team, they will know what the team is working on every day, so the historical risk of T&M contracts – costs spinning out of control – is reduced.
+- Use time and material (T&M) contracts with a not-to-exceed ceiling. If there is an engaged government product owner on the development team, they will know what the team is working on every day, so the historical risk of T&M contracts — costs spinning out of control — is reduced.
 
 - Your team won't know the exact requirements for a software product before development, so don't use firm-fixed-price (FFP) for agile software development.
 
@@ -414,15 +414,15 @@ Instead, there is a product backlog comprised of user stories, which the product
 
 In agile software development, an agency does not buy a defined product. Instead, it buys development teams' (developers, designers, content strategists, etc.) time. Therefore, the most appropriate contract type is T&M. The government, through an engaged product owner, can constantly prioritize the work to be done and measure software quality. The product owner should know what the development team is working on every day.
 
-The traditional government fear of T&M contracts is that costs spin out of control. The empowered product owner[^owner] reduces this risk though daily communication, and frequent–every sprint–inspection of performance against a quality assurance surveillance plan (QASP). We also encourage using a not-to-exceed ceiling to put an additional cap on expenses to protect the government's interest.
+The traditional government fear of T&M contracts is that costs spin out of control. The empowered product owner[^owner] reduces this risk though daily communication, and frequent — every sprint — inspection of performance against a quality assurance surveillance plan (QASP). We also encourage using a not-to-exceed ceiling to put an additional cap on expenses to protect the government's interest.
 
 In addition to flexibility, another T&M benefit is that it allows for development team flexibility to scale up and down as needed. Stable teams are a core tenet of agile development. agile frowns on changing team structures more often than needed, but T&M allows the product owner to do so if necessary.
 
-A real-life example: a new government product owner rightly determined that they could only manage one scrum team since the role was new. Six months into the project, the government product owner had mastered the role and was confident in their abilities. They decided to add an additional scrum team to speed development work. Once the key functionality has been built, the government product owner plans to return to one scrum team, likely smaller than the original. These changes are made possible by using T&M. No modifications are necessary because the agency is paying for the time humans spend building out the product–the number of humans and which roles are filled can change.
+A real-life example: a new government product owner rightly determined that they could only manage one scrum team since the role was new. Six months into the project, the government product owner had mastered the role and was confident in their abilities. They decided to add an additional scrum team to speed development work. Once the key functionality has been built, the government product owner plans to return to one scrum team, likely smaller than the original. These changes are made possible by using T&M. No modifications are necessary because the agency is paying for the time humans spend building out the product — the number of humans and which roles are filled can change.
 
 T&M allows agencies to save money, too. The contractor can only bill for time spent building a product. If there are delays hiring a new team member or a person goes on extended leave, the government is not paying for that time. T&M provides the opportunity for costs to come in under budget, which never happens with FFP.
 
-A final T&M benefit is that if the contractor is not producing quality software–if their work is inadequate or their skills prove to not fit the work needed–no more work needs be assigned to the contractor, which effectively terminates the contract. There is no work in the product backlog, and the contractor cannot bill their time to the government. There is no need to terminate for convenience or cause.
+A final T&M benefit is that if the contractor is not producing quality software — if their work is inadequate or their skills prove to not fit the work needed — no more work needs be assigned to the contractor, which effectively terminates the contract. There is no work in the product backlog, and the contractor cannot bill their time to the government. There is no need to terminate for convenience or cause.
 
 To be clear, T&M does require more active management than the FFP "set it and forget it" contracts. The government must know what is going on, and review and approve invoices appropriately. Luckily, with agile development, this should already be happening. Read more about this shift in our recommendation on [post-award management](/federal-field-guide/doing-the-work/#post-award-contract-administration-looks-different-in-agile).
 
@@ -450,7 +450,7 @@ Both scenarios result in unnecessary gamesmanship and fighting between the contr
 
 An astounding number of projects are beleaguered by a desire to avoid using the most logical contract type (T&M), due to its reputation for cost overruns in projects that were not adequately monitored.
 
-With FFP contracts, agencies don't have the flexibility to change the contractor software development team size over time based on product needs. If the contractor is not performing, agencies can't simply stop assigning them work and move onto another contractor – they must terminate for convenience or cause.
+With FFP contracts, agencies don't have the flexibility to change the contractor software development team size over time based on product needs. If the contractor is not performing, agencies can't simply stop assigning them work and move onto another contractor — they must terminate for convenience or cause.
 
 The only repeatable, standard, objective, scalable, universal way to measure work during a sprint is total effort-hours, which is not appropriate for firm-fixed-pricing. This is the purpose of time-and-materials or labor hour contracts.
 
@@ -468,7 +468,7 @@ By **Waldo Jaquith**, **Randy Hart**, **Mark Hopson**, **Vicki McFadden**, **Kel
 
 Scenario: An agency has received contractors' proposals and their evaluation team is about to embark on the important mission of determining which contractor is best suited to meet the agency's needs.
 
-This overview supports the evaluation team and helps them identify both indicators that show a strong proposal and red flags that indicate a weak proposal. This list is not exhaustive – every procurement is different.
+This overview supports the evaluation team and helps them identify both indicators that show a strong proposal and red flags that indicate a weak proposal. This list is not exhaustive — every procurement is different.
 
 #### Evaluation process
 
@@ -478,7 +478,7 @@ Note: *Your agency can only use this process if your agency intends to use GSA S
 
 Don't use a point system to score proposals. Instead, each evaluation team member should review each proposal and list its advantages and disadvantages. Then, the whole evaluation team can discuss each proposal's advantages and disadvantages, and determine the strongest proposals.
 
-A narrative review provides a detailed, defensible justification for the government's contractor selection in a way that numeric or color scoring schemes don't capture. It also allows the government to give feedback to the contractors that did not receive the award: the agency simply discusses the proposal's documented advantages and disadvantages. We encourage evaluation teams to use whatever materials they have available to make their decisions – websites, news articles, samples of prior work – and not only the proposals.
+A narrative review provides a detailed, defensible justification for the government's contractor selection in a way that numeric or color scoring schemes don't capture. It also allows the government to give feedback to the contractors that did not receive the award: the agency simply discusses the proposal's documented advantages and disadvantages. We encourage evaluation teams to use whatever materials they have available to make their decisions — websites, news articles, samples of prior work — and not only the proposals.
 
 Invite the companies with the most highly rated proposals for an interview. This is when the agency can verify that the contractor can perform to the level proposed in their bid.
 
@@ -502,7 +502,7 @@ What to look for:
 
 - A lack of novelty. The best approaches will recommend time-tested software and infrastructure, employing design patterns that are known to work.
 
-- A lack of certainty. Maybe the contractor's idea is a good one, maybe it's a bad one – they can't really know yet, and they need to be aware that they can't know. A contractor will show they understand this by highlighting weak points or areas of uncertainty in their technical approach.
+- A lack of certainty. Maybe the contractor's idea is a good one, maybe it's a bad one — they can't really know yet, and they need to be aware that they can't know. A contractor will show they understand this by highlighting weak points or areas of uncertainty in their technical approach.
 
 - A vision. The contractor needs to see the intended outcomes in a way that can act as a catalyst to the agency's vision.
 
@@ -584,7 +584,7 @@ Red flags:
 
 - Overstaffing the bid. A team that consists of people with far more experience than necessary or more people than necessary means that the contractor either doesn't understand this way of working or is trying to over-staff the engagement.
 
-- Proposing positions that do not belong in iterative development–business analysts, enterprise architects, delivery managers, etc.
+- Proposing positions that do not belong in iterative development — business analysts, enterprise architects, delivery managers, etc.
 
 - Poorly designed websites for the company, proposed subcontractor, or proposed staff qualifications.
 

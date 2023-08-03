@@ -27,9 +27,9 @@ Edited by: **Mark Hopson**, **Victoria McFadden**, **Rebecca Refoy** and **Alici
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/pie-chart-circle-1.svg" %}
 
-Only 13% of large government software projects are successful.[^successful] Modern software development practices reduce that risk by delivering working code every few weeks and getting feedback from end users to ensure that the product meets their needs. Federal agencies are recognizing that their legacy development practices are risky and are shifting to this agile software development model. However, the ecosystems in place at agencies–budgeting, procurement, and oversight structures–do not support agile development practices, so our success rate remains low. 
+Only 13% of large government software projects are successful.[^successful] Modern software development practices reduce that risk by delivering working code every few weeks and getting feedback from end users to ensure that the product meets their needs. Federal agencies are recognizing that their legacy development practices are risky and are shifting to this agile software development model. However, the ecosystems in place at agencies – budgeting, procurement, and oversight structures – do not support agile development practices, so our success rate remains low.
 
-In the federal government, technology isn't the challenge–outdated practices are. This guide provides instructions to federal agencies in how to budget for, procure, and oversee software development projects, to reduce risk and wasteful spending, support teams effectively, and improve outcomes for end users. 
+In the federal government, technology isn't the challenge – outdated practices are. This guide provides instructions to federal agencies in how to budget for, procure, and oversee software development projects, to reduce risk and wasteful spending, support teams effectively, and improve outcomes for end users.
 
 ### About the editors
 
