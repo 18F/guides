@@ -10,8 +10,8 @@ eleventyNavigation:
   order: 4
   title: Questions to ask
 ---
-# State Software Budgeting Handbook
-{.usa-sr-only}
+
+# State Software Budgeting Handbook {.usa-sr-only}
 
 ## Questions to ask
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/questions.svg" %}

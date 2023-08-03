@@ -43,7 +43,6 @@ subnav:
   href: '#footnotes'
 ---
 
-
 # State Software Budgeting Handbook {.usa-sr-only}
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/agile-best-practices.svg" %}
