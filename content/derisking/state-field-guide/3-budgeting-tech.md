@@ -1,18 +1,15 @@
 ---
-layout: layouts/page
-title: State Software Budgeting Handbook
-old_title: "Budgeting and overseeing tech projects | De-risking government technology:State Software Budgeting Handbook | 18F"
+title: Budgeting and overseeing tech projects
 permalink: /derisking/state-field-guide/budgeting-tech/
-
+layout: layouts/page
+sidenav: true
+sticky_sidenav: true
 tags: derisking
 eleventyNavigation:
-  key: 3-budgeting-tech
+  key: derisking-state-budgeting
   parent: derisking-state
   order: 3
   title: Budgeting and overseeing tech projects
-
-sidenav: state
-sticky_sidenav: true
 subnav:
 - text: Risk
   href: '#think-about-risk-in-a-new-way'
@@ -46,14 +43,10 @@ subnav:
   href: '#footnotes'
 ---
 
-# State Software Budgeting Handbook
-{.usa-sr-only}
 
-## Budgeting and overseeing tech projects
+# State Software Budgeting Handbook {.usa-sr-only}
 
-<div markdown="1" class="chapter__img-container">
-  {% image_with_class "assets/derisking/img/agile-best-practices.svg" "chapter__img" "" %}
-</div>
+{% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/agile-best-practices.svg" %}
 
 ### Think about risk in a new way
 

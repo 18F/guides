@@ -1,18 +1,15 @@
 ---
+title: Basic principles of modern software design
 layout: layouts/page
-title: State Software Budgeting Handbook
-old_title: "Basic principles of modern software design | De-risking government technology:State Software Budgeting Handbook | 18F"
 permalink: /derisking/state-field-guide/basic-principles/
-
+sidenav: true
+sticky_sidenav: true
 tags: derisking
 eleventyNavigation:
-  key: 2-basic-principles
+  key: derisking-state-basics
   parent: derisking-state
   order: 2
   title: Basic principles of modern software design
-
-sidenav: state
-sticky_sidenav: true
 subnav:
 - text: User-centered design
   href: '#user-centered-design'
@@ -29,14 +26,9 @@ subnav:
 - text: Footnotes
   href: '#footnotes'
 ---
-# State Software Budgeting Handbook
-{.usa-sr-only}
+# State Software Budgeting Handbook {.usa-sr-only}
 
-## Basic principles of modern software&nbsp;design
-
-<div markdown="1" class="chapter__img-container">
-  {% image_with_class "assets/derisking/img/agile-basics.svg" "chapter__img" "" %}
-</div>
+{% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/agile-basics.svg" %}
 
 A technology project’s odds of success improve when the "non-technical" government leaders who fund and oversee it understand six basics concepts of modern software development: **user-centered design**, **agile software development**, **DevOps**, **building with loosely coupled parts**, **modular contracting**, and **product ownership**. You don’t have to be a technologist to understand these general concepts. Once you grasp them, it’ll feel like you’ve gained a new super power, allowing you to cut through the jargon and technical detail, and stay focused on the basics of successfully guiding any software project.
 
@@ -54,7 +46,7 @@ Detailed, long-term plans for major, custom software projects have long been the
 
 Planning an entire project upfront is known as "waterfall" development. Imagine planning a month-long family vacation of driving around the United States. Under waterfall, this would entail planning up front each day’s agenda, including the route driven, booking every hotel room, pre-paying for every meal, pre-buying tickets for admission to attractions, etc. This would never work because things change, unexpected options come up, and no rational person would want to lock in every decision at the start of the journey when they don’t know what the journey holds. Instead, most people would map out the general route to be taken and plan a few major stops — the specifics would be sorted out as they progressed along the way.
 
-"[Agile software development](https://agile.18f.gov/)" refers to using this trip-planning methodology for building and modernizing software systems. Instead of relying on years of costly planning and "requirements gathering" before beginning to write actual software, agile development projects are planned only in broad strokes, with a well defined description of the overall project goal and a strong preference for _just getting started_. A small, empowered, self-motivated team (usually 5-9 people, including developers, product managers, user researchers, writers, and/or security experts) is dedicated to accomplishing that goal, using user-centered design, working in two-week cycles to deliver some actual working software.
+"[Agile software development]({{ '/agile/' | url }})" refers to using this trip-planning methodology for building and modernizing software systems. Instead of relying on years of costly planning and "requirements gathering" before beginning to write actual software, agile development projects are planned only in broad strokes, with a well defined description of the overall project goal and a strong preference for _just getting started_. A small, empowered, self-motivated team (usually 5-9 people, including developers, product managers, user researchers, writers, and/or security experts) is dedicated to accomplishing that goal, using user-centered design, working in two-week cycles to deliver some actual working software.
 
 On day one, the team plans only what they’ll do for the next two weeks. (The length of a project’s cycles can be as brief as one week or as long as four weeks — two weeks is the most common.) Each task they’ll work on is in the form of a "user story" — a specific user need revealed by user research.[^research] The entire collection of user stories to be worked on is called the "backlog."
 
@@ -112,7 +104,7 @@ There are vendor teams that specialize in working as we’ve described here. As 
 
 This approach will require coordination and buy-in from your procurement teams. Procurement personnel are often accustomed to the traditional approach of outsourcing IT projects: one large procurement based on lengthy RFP documents, asking for lengthy proposals and outdated, waterfall-style certifications and qualifications from vendors. Generally, vendors that use agile, user-centered methods don’t have any idea what "CMMI" or "EVMS" is — such standards are no longer considered best practices for creating flexible and cost-effective software systems. This is a barrier to entry for many of the vendors that might be new to government and don’t want to expend all of the resources required to write a proposal.
 
-<p align="center">* * \*</p>
+<p align="center">* * *</p>
 
 Modern software development processes are founded on user-centered design, agile software development, product ownership, DevOps, building with loosely coupled parts, and modular contracting. By understanding those core concepts, you’re in a great position to understand how to budget for software more effectively, and to understand the rest of this handbook.
 

@@ -1,26 +1,21 @@
 ---
-layout: layouts/page
-title: State Software Budgeting Handbook
-old_title: "Questions to ask | De-risking government technology: State software budgeting handbook | 18F"
+title: Questions to ask
 permalink: /derisking/state-field-guide/questions-to-ask/
-
-tags: derisking
+layout: layouts/page
+sidenav: true
+sticky_sidenav: true
 eleventyNavigation:
-  key: 4-questions-to-ask
+  key: derisking-state-questions
   parent: derisking-state
   order: 4
   title: Questions to ask
-sidenav: state
-sticky_sidenav: true
 ---
-
 # State Software Budgeting Handbook
 {.usa-sr-only}
 
 ## Questions to ask
-<div markdown="1" class="chapter__img-container">
-  {% image_with_class "assets/derisking/img/questions.svg" "chapter__img" "" %}
-</div>
+{% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/questions.svg" %}
+
 When you are considering a budget request for a custom software project, it will be difficult to consult this entire handbook to find the right questions to ask. Here are some basic, open-ended questions that you can ask to determine if a project is set up for success.
 
 ### What are the goals of the project? What outcomes are prioritized?

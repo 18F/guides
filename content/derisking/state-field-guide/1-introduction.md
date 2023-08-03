@@ -1,33 +1,27 @@
 ---
 title: State Software Budgeting Handbook
-old_title: "Introduction | De-risking government technology: State Software Budgeting Handbook | 18F"
+first_page_style: true
 permalink: /derisking/state-field-guide/
 layout: layouts/page
-sidenav: state
+sidenav: true
 sticky_sidenav: true
-
 tags: derisking
 eleventyNavigation:
-  key: 1-introduction
+  key: derisking-state-index
   parent: derisking-state
   order: 1
   title: Introduction
 ---
 
-# State Software Budgeting Handbook
-
 By **Robin Carnahan**, **Randy Hart** and **Waldo Jaquith**<br>
 18F, Technology Transformation Service, General Services Administration
-{.guide-authors}
 
-{% image_with_class "assets/derisking/img/book-open-3.svg" "guide__download__img" "" %}Download this guide as a [printable pdf]({{ "assets/derisking/dist/state-software-budgeting-handbook.pdf" | url }})
-{.guide__download__bg}
+{% include 'derisking/download_guide.html' pdf_path: "/assets/derisking/dist/state-software-budgeting-handbook.pdf" %}
 
 ## Introduction
 
-<div markdown="1" class="chapter__img-container">
-  {% image_with_class "assets/derisking/img/pie-chart-circle-1.svg" "chapter__img" "" %}
-</div>
+{% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/pie-chart-circle-1.svg" %}
+
 
 Only 13% of large government software projects are successful.[^13pct] State IT projects, in particular, are often challenged because states lack basic knowledge about modern software development, relying on outdated procurement processes. Every year, the federal government matches billions of dollars in funding to state and local governments to maintain and modernize IT systems used to implement federal programs such as Medicaid, child welfare benefits, housing, and unemployment insurance. Efforts to modernize those legacy systems fail at an alarmingly high rate and at great cost to the federal budget.
 
