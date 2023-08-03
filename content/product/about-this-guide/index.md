@@ -44,7 +44,7 @@ This guide and our approach to product management are informed by several framew
 
 - **[Low-risk technology acquisition](https://derisking-guide.18f.gov/federal-field-guide/basic-principles/#modular-contracting)**: ensure that purchasing software services or off the shelf products is low risk and contracts are structured modularly.
 
-If you have any suggestions for improving this guide or want to get involved, read our [contributing page](https://github.com/18F/product-guide/blob/18f-pages/CONTRIBUTING.md); find us on Slack in #product; or [create an issue in GitHub](https://github.com/18F/product-guide/issues).
+If you have any suggestions for improving this guide or want to get involved, read our [contributing page](https://github.com/18F/product-guide/blob/18f-pages/CONTRIBUTING.md/TODO/); find us on Slack in #product; or [create an issue in GitHub](https://github.com/18F/product-guide/issues/TODO/).
 
 ## Reusing this guide in other organizations
 
