@@ -1,6 +1,7 @@
 ---
 layout: layouts/page
 title: Deciding what to buy
+page_title_tag: h2
 tags: derisking
 permalink: /derisking/federal-field-guide/deciding-what-to-buy/
 eleventyNavigation:

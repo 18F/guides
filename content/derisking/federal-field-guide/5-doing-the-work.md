@@ -1,6 +1,7 @@
 ---
 layout: layouts/page
 title: Doing the work
+page_title_tag: h2
 tags: derisking
 permalink: /derisking/federal-field-guide/doing-the-work/
 eleventyNavigation:

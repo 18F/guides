@@ -1,5 +1,6 @@
 ---
 title: Basic principles of modern software design
+page_title_tag: h2
 tags: derisking
 permalink: /derisking/state-field-guide/basic-principles/
 layout: layouts/page
@@ -26,6 +27,7 @@ subnav:
 - text: Footnotes
   href: '#footnotes'
 ---
+
 # State Software Budgeting Handbook {.usa-sr-only}
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/agile-basics.svg" %}

@@ -9,16 +9,19 @@ This template is for a single page that does not have a date associated with it.
 <div id="main-content" class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
-      {% if sidenav == true %}
-      {% include "sidenav.html" %}
-      {% endif %}
+      {%- if sidenav == true -%}
+        {%- include "sidenav.html" -%}
+      {%- endif -%}
       <main class="usa-layout-docs__main desktop:grid-col-9
                   {% if first_page_style %} first_page {% endif %}
                   usa-prose measure-5 {{tags[0] -}}"
       >
-        {% if title %} 
-          <h1> {{ title }} </h1> 
-        {% endif %}
+        {%- unless page_title_tag -%}
+          {% assign page_title_tag = "h1" %}
+        {%- endunless -%}
+        {%- if title -%}
+          <{{page_title_tag}} class="page-title {{tags[0]}}">{{ title }}</{{page_title_tag}}>
+        {%- endif -%}
         {{ content }}
       </main>
     </div>
@@ -26,6 +29,6 @@ This template is for a single page that does not have a date associated with it.
 </div>
 
   <script src={{ '/assets/_common/js/current-link.js' | url }}></script>
-{% if script %}
+{%- if script -%}
   <script src="{{ script | url }}"></script>
-{% endif %}
+{%- endif -%}

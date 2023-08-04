@@ -1,5 +1,6 @@
 ---
 title: Questions to ask
+page_title_tag: h2
 tags: derisking
 permalink: /derisking/state-field-guide/questions-to-ask/
 layout: layouts/page
@@ -14,7 +15,6 @@ eleventyNavigation:
 
 # State Software Budgeting Handbook {.usa-sr-only}
 
-## Questions to ask
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/questions.svg" %}
 
 When you are considering a budget request for a custom software project, it will be difficult to consult this entire handbook to find the right questions to ask. Here are some basic, open-ended questions that you can ask to determine if a project is set up for success.
