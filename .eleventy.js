@@ -4,6 +4,7 @@ const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItFootnote = require('markdown-it-footnote');
 const { readableDate, htmlDateString, head, min, filterTagList } = require("./config/filters");
 const { headingLinks } = require("./config/headingLinks");
 const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
@@ -88,8 +89,14 @@ module.exports = function (config) {
   }).use(markdownItAnchor, {
     permalink: headingLinks,
     slugify: config.getFilter('slugify'),
-  }).use(markdownItAttrs);
+  }).use(markdownItAttrs).use(markdownItFootnote);
   config.setLibrary('md', markdownLibrary);
+
+  // Override Footnote opener
+  markdownLibrary.renderer.rules.footnote_block_open = () => (
+  '<section class="footnotes">\n' +
+  '<ol class="footnotes-list">\n'
+  );
 
   // Override Browsersync defaults (used only with --serve)
   config.setBrowserSyncConfig({
