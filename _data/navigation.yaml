@@ -102,3 +102,13 @@ product:
     url: /product/deliver/
   - name: Enable partners
     url: /product/partners/
+
+ux-guide:
+  - name: Overview
+    url: /ux-guide/
+  - name: Our approach
+    url: /ux-guide/our-approach/
+  - name: Research
+    url: /ux-guide/research/
+  - name: Design
+    url: /ux-guide/design/

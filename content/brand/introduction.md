@@ -28,7 +28,7 @@ Feel free to use the format of this guide with your own branding and identity. P
 ## Feedback or questions
 This is not a complete brand style guide, and it&rsquo;s still an early draft. We&rsquo;ll continue adding to this as we can, but there is no dedicated team at the moment.
 
-We welcome your feedback and contributions so that we can continue to chip away at the highest priority needs for the 18F team. If you have any suggestions or are interested in getting involved, please chat us in [#18f-branding](https://18f.slack.com/archives/18f-branding) or [create an issue in GitHub](https://github.com/18F/brand/issues/new).
+We welcome your feedback and contributions so that we can continue to chip away at the highest priority needs for the 18F team. If you have any suggestions or are interested in getting involved, please chat us in [#18f-branding](https://18f.slack.com/archives/18f-branding) or [create an issue in GitHub](https://github.com/18F/brand/issues/new/TODO/).
 
 ### Related links
 * [18F Content Guide](https://pages.18f.gov/content-guide/)

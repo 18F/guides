@@ -17,7 +17,7 @@ Accessibility works best when incorporated into an agile production environment.
 
 The Web Content Accessibility Guidelines (WCAG) have long been the gold standard for accessibility on the web. Here at 18F we follow [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our minimum standard for accessibility.  
 
-If you have questions about accessibility or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).
+If you have questions about accessibility or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility/TODO/).
 
 __Disclaimer:__ This resource is intended to help 18F develop accessible products and is not a replacement for the standards defined by the U.S. Access Board. Please visit the [Access Board's Section 508 Standards for ICT](https://www.access-board.gov/ict/) for more information.
 
