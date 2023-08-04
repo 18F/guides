@@ -424,7 +424,7 @@ T&M allows agencies to save money, too. The contractor can only bill for time sp
 
 A final T&M benefit is that if the contractor is not producing quality software — if their work is inadequate or their skills prove to not fit the work needed — no more work needs be assigned to the contractor, which effectively terminates the contract. There is no work in the product backlog, and the contractor cannot bill their time to the government. There is no need to terminate for convenience or cause.
 
-To be clear, T&M does require more active management than the FFP "set it and forget it" contracts. The government must know what is going on, and review and approve invoices appropriately. Luckily, with agile development, this should already be happening. Read more about this shift in our recommendation on [post-award management](/federal-field-guide/doing-the-work/#post-award-contract-administration-looks-different-in-agile).
+To be clear, T&M does require more active management than the FFP "set it and forget it" contracts. The government must know what is going on, and review and approve invoices appropriately. Luckily, with agile development, this should already be happening. Read more about this shift in our recommendation on [post-award management]({{ "/derisking/federal-field-guide/doing-the-work/#post-award-contract-administration-looks-different-in-agile" | url }}).
 
 Find more information in our sample  [T&M determination and findings](https://18f.gsa.gov/assets/presentations/determinations-findings-for-a-time-and-materials-contract-type-sample.docx), which agencies can modify for their needs.
 
