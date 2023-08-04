@@ -1,5 +1,6 @@
 ---
 title: Questions to ask
+tags: derisking
 permalink: /derisking/state-field-guide/questions-to-ask/
 layout: layouts/page
 sidenav: true

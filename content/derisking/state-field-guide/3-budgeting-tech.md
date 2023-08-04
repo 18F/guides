@@ -1,10 +1,10 @@
 ---
 title: Budgeting and overseeing tech projects
+tags: derisking
 permalink: /derisking/state-field-guide/budgeting-tech/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true
-tags: derisking
 eleventyNavigation:
   key: derisking-state-budgeting
   parent: derisking-state
@@ -42,7 +42,6 @@ subnav:
 - text: Footnotes
   href: '#footnotes'
 ---
-
 
 # State Software Budgeting Handbook {.usa-sr-only}
 

@@ -1,10 +1,10 @@
 ---
 title: Basic principles of modern software design
-layout: layouts/page
+tags: derisking
 permalink: /derisking/state-field-guide/basic-principles/
+layout: layouts/page
 sidenav: true
 sticky_sidenav: true
-tags: derisking
 eleventyNavigation:
   key: derisking-state-basics
   parent: derisking-state
