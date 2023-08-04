@@ -69,7 +69,7 @@ eleventyNavigation:
 ```
 
 In the above front matter:
-- `parent: content-sytle` references the name of the parent section.
+- `parent: content-style` references the name of the parent section.
 - `key: content-active` sets this page's unique key for the sidenav.
 - `order: 3` explicitly sets the order the page should appear in the sidenav (in this case it'll be first).
 - `title: Active voice` controls what text is displayed in the sidenav. This field is optional, and if it’s omitted the `key` value will be displayed.
@@ -79,6 +79,10 @@ Use `sticky_sidenav: true` to stick the sidenav to the top of the window when sc
 
 ### Subnavs
 You can use the existing `subnav:` options in the original file's front matter to generate a subnav with the current page's anchor links. To prevent errors in `eleventyNavigation`, ensure the `parent` and `key` values are different.
+
+### Other front matter
+See more about front matter options in [/docs/front-matter].
+
 
 ## Ignoring assetPaths
 We want to avoid commiting the `assetPaths.json` file, but need to keep it out of the project `.gitignore` in order to allow eleventy to rebuild when it is changed. One way to resolve this issue is to add `assetPaths.json` to the git exclude list:
