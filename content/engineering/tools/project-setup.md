@@ -1,5 +1,5 @@
 ---
-title: Project Setup
+title: Project setup
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/project-setup/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_tools
-  key: Project Setup
+  key: Project setup
   order: 3
-  title: Project Setup
+  title: Project setup
 ---
 
 While the specific setup for each TTS project varies widely, there are certain

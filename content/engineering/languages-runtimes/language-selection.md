@@ -1,5 +1,5 @@
 ---
-title: Languages & Runtimes
+title: Languages & runtimes
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_languages
-  key: Languages & Runtimes
+  key: Languages & runtimes
   order: 1
-  title: Languages & Runtimes
+  title: Languages & runtimes
 ---
 
 Many factors should influence how TTS engineers make technology selections

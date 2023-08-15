@@ -1,5 +1,5 @@
 ---
-title: Feedback Guide
+title: Feedback guide
 permalink: /engineering/our-approach/people/
 layout: layouts/page
 sidenav: true
@@ -7,9 +7,9 @@ sticky_sidenav: true
 tags: engineering
 eleventyNavigation:
   parent: engineering_approach
-  key: Feedback Guide
+  key: Feedback guide
   order: 2
-  title: Feedback Guide
+  title: Feedback guide
 ---
 Here are some attributes of giving feedback in a highly constructive way that we have learned and used over the years.
 

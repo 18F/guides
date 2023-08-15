@@ -1,5 +1,5 @@
 ---
-title: Browser Testing
+title: Browser testing
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/browser-testing/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
-  key: Browser Testing
+  key: Browser testing
   order: 5
-  title: Browser Testing
+  title: Browser testing
 ---
 
 Regular cross-browser testing helps ensures your web site or application is accessible and functional to a broad audience, especially as Internet Explorer 11 is pervasive in federal government but TTS developers use Chrome on macOS almost exclusively.

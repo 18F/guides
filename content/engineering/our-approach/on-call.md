@@ -1,5 +1,5 @@
 ---
-title: On call recommendations 
+title: On-call recommendations 
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/on-call/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach
-  key: On call recommendations 
+  key: On-call recommendations 
   order: 4
-  title: On call recommendations 
+  title: On-call recommendations 
 ---
 Different types of projects have unique on-call support needs.
 Regardless of the type of project, there are a number of things that

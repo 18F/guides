@@ -1,5 +1,5 @@
 ---
-title: Output Encoding
+title: Output encoding
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/security/output-encoding/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_security
-  key: Output Encoding
+  key: Output encoding
   order: 3
-  title: Output Encoding
+  title: Output encoding
 ---
 
 ## What is cross site scripting (XSS)?

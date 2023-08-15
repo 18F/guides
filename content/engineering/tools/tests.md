@@ -1,5 +1,5 @@
 ---
-title: Automated Testing
+title: Automated testing
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/tests/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
-  key: Automated Testing
+  key: Automated testing
   order: 6
-  title: Automated Testing
+  title: Automated testing
 ---
 
 There are many different types of automated testing, which all have

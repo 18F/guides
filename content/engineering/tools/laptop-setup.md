@@ -1,5 +1,5 @@
 ---
-title: Laptop Setup 
+title: Laptop setup 
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/laptop-setup/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
-  key: Laptop Setup 
+  key: Laptop setup 
   order: 2
-  title: Laptop Setup 
+  title: Laptop setup 
 ---
 
 While you are welcome to customize your laptop, here are some tools that have worked for others on the engineering team!

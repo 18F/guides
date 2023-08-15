@@ -1,5 +1,5 @@
 ---
-title: Incident Response Drills
+title: Incident response drills
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/security/incident-response-drills/
@@ -7,17 +7,17 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_security
-  key: Incident Response Drills
+  key: Incident response drills
   order: 6
-  title: Incident Response Drills
+  title: Incident response drills
 ---
 
 *Table of Contents*
 
-* [Why do Incident Response Drills?](#why-do-incident-response-drills)
-* [How to Build Incident Response Drills](#how-to-run-an-incident-response-drill)
-* [Example Incident Response Drills](#example-incident-response-drills)
-* [Using this Drill as Part of Your ATO](#congratulations-you-accidentally-did-compliance-too)
+* [Why do incident response drills?](#why-do-incident-response-drills)
+* [How to build incident response drills](#how-to-run-an-incident-response-drill)
+* [Example incident response drills](#example-incident-response-drills)
+* [Using this drill as part of your ATO](#congratulations-you-accidentally-did-compliance-too)
 
 ## Why do Incident Response Drills?
 

@@ -1,5 +1,5 @@
 ---
-title: Python Development Guide
+title: Python development guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/python/

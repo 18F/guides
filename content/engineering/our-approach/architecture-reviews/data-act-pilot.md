@@ -1,5 +1,5 @@
 ---
-title: 'DATA Act Pilot: Simplicity is Key'
+title: 'DATA Act Pilot: Simplicity is key'
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/data-act-pilot/

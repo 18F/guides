@@ -1,5 +1,5 @@
 ---
-title: Example Workflows
+title: Example workflows
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/example-workflows/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach
-  key: Example Workflows
+  key: Example workflows
   order: 11
-  title: Example Workflows
+  title: Example workflows
 ---
 Here we've collected descriptions of team processes (particularly around
 submitting code) that various projects have used in the past. Please consider

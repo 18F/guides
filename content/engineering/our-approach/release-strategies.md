@@ -1,5 +1,5 @@
 ---
-title: Releasing Software
+title: Releasing software
 sidenav: true
 sticky_sidenav: true
 tags: engineering
@@ -7,9 +7,9 @@ permalink: /engineering/our-approach/release-strategies/
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Releasing Software
+  key: Releasing software
   order: 10
-  title: Releasing Software
+  title: Releasing software
 ---
 
 Releasing software is hard. Over time, we have developed strategies that can help reduce risk and uncertainity in the release process.

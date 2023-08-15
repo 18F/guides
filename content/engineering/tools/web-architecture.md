@@ -1,5 +1,5 @@
 ---
-title: Choosing a Web App Architecture
+title: Choosing a web app architecture
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/web-architecture/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_tools
-  key: Choosing a Web App Architecture
+  key: Choosing a web app architecture
   order: 10
-  title: Choosing a Web App Architecture
+  title: Choosing a web app architecture
 ---
 The goal of this guide is to help you decide how to approach a web application’s architecture, driving towards simplicity.
 

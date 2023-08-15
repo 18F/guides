@@ -1,5 +1,5 @@
 ---
-title: Architecture Reviews
+title: Architecture reviews
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/architecture-reviews/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Architecture Reviews
+  key: Architecture reviews
   order: 6
-  title: Architecture Reviews
+  title: Architecture reviews
 ---
 
 Maintainable technology projects require handoffs between developers, and with new teammates comes fresh perspectives. Building a [transparent and remote-friendly

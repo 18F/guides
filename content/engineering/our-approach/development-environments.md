@@ -1,5 +1,5 @@
 ---
-title: Development Environments
+title: Development environments
 permalink: /engineering/our-approach/development-enivorments/
 sidenav: true
 sticky_sidenav: true
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Development Enivorment
+  key: Development environments
   order: 4
-  title: Development Enivorment
+  title: Development environments
 ---
 
 Development environments should be designed so as as to be _Easy to set up_, _Well-documented_, and _Reproducible_.

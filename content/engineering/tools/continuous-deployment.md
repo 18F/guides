@@ -1,5 +1,5 @@
 ---
-title: Continuous Deployment
+title: Continuous deployment
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/continuous-deployment/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_tools
-  key: Continuous Deployment
+  key: Continuous deployment
   order: 8
-  title: Continuous Deployment
+  title: Continuous deployment
 ---
 
 ## Pre-requisites

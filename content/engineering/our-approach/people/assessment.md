@@ -1,5 +1,5 @@
 ---
-title: 18F Engineering End of Year Assessment Guide
+title: 18F Engineering end of year assessment guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/people/assessment/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach
-  key: Assessment Guide
+  key: Assessment guide
   order: 10
-  title: Assessment Guide
+  title: Assessment guide
 
 ---
 

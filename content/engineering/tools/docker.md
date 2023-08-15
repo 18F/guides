@@ -1,5 +1,5 @@
 ---
-title: Docker for Development
+title: Docker for development
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/docker/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
-  key: Docker for Development
+  key: Docker for development
   order: 4
-  title: Docker for Development
+  title: Docker for development
 redirect_from:
   - /project-setup/docker/
 ---

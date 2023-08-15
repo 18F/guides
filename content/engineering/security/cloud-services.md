@@ -1,5 +1,5 @@
 ---
-title: Cloud Services
+title: Cloud services
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/security/cloud-services/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_security
-  key: Cloud Services
+  key: Cloud services
   order: 5
-  title: Cloud Services
+  title: Cloud services
 ---
 A common practice is storing files in the cloud; places like [Amazon Simple Storage Service](https://docs.aws.amazon.com/s3/index.html)
 (Amazon S3), [Google Cloud](https://cloud.google.com/storage/docs/introduction), or

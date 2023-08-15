@@ -1,5 +1,5 @@
 ---
-title: A Modern SharePoint Primer
+title: A modern SharePoint primer
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/sharepoint/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
-  key: SharePoint Primer
+  key: SharePoint primer
   order: 11
-  title: SharePoint Primer
+  title: SharePoint primer
 subnav:
   - text: SharePoint Presentation Methods
     href: "#sharepoint-presentation-methods"

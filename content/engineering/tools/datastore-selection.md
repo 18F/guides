@@ -1,5 +1,5 @@
 ---
-title: Datastore Selection
+title: Datastore selection
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/datastore-selection/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
-  key: Datastore Selection
+  key: Datastore selection
   order: 9
-  title: Datastore Selection
+  title: Datastore selection
 ---
 
 We're fortunate to have dozens of battle-tested datastores available to us,

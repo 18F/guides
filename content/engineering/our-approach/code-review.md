@@ -1,12 +1,12 @@
 ---
-title: Code Review
+title: Code review
 permalink: /engineering/our-approach/code-review/
 sidenav: true
 sticky_sidenav: true
 tags: engineering
 layout: layouts/page
 subnav:
-  - text: Why Reviews?
+  - text: Why reviews?
     href: "#why-reviews"
   - text: Discuss code review with your team
     href: "#discuss-code-review-with-your-team"
@@ -18,9 +18,9 @@ subnav:
     href: "#reviewing-code"
 eleventyNavigation: 
   parent: engineering_approach
-  key: Code Review
+  key: Code review
   order: 3
-  title: Code Review
+  title: Code review
 ---
 
 _A friendly guide for reviewing code — and not each other — at TTS._

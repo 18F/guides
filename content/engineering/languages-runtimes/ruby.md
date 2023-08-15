@@ -1,5 +1,5 @@
 ---
-title: Ruby Guide
+title: Ruby guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/ruby/

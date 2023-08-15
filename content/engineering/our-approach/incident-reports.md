@@ -1,5 +1,5 @@
 ---
-title: Incident Reports
+title: Incident reports
 sidenav: true
 sticky_sidenav: true
 tags: engineering
@@ -7,9 +7,9 @@ permalink: /engineering/our-approach/incident-reports/
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Incident Reports
+  key: Incident reports
   order: 5
-  title: Incident Reports
+  title: Incident reports
 redirect_from:
   /incident-reports/cloud-gov/
 ---

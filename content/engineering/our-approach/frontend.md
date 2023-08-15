@@ -1,5 +1,5 @@
 ---
-title: Front-End Disciplines
+title: Front-end disciplines
 sidenav: true
 sticky_sidenav: true
 tags: engineering
@@ -7,9 +7,9 @@ permalink: /engineering/our-approach/frontend/
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Front-End Disciplines
+  key: Front-end disciplines
   order: 7
-  title: Front-End Disciplines
+  title: Front-end disciplines
 ---
 
 ## What is front end?

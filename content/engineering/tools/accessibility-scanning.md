@@ -1,5 +1,5 @@
 ---
-title: Accessibility Scanning
+title: Accessibility scanning
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/accessibility-scanning/
@@ -7,9 +7,9 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_tools
-  key: Accessibility Scanning
+  key: Accessibility scanning
   order: 7
-  title: Accessibility Scanning
+  title: Accessibility scanning
 ---
 
 Building a website or application that is easy accessible to everyone is  not only an important of the user
