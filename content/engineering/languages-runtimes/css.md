@@ -47,39 +47,24 @@ subnav:
     href: "#variables"
 ---
 
-The purpose of the CSS coding styleguide is to create consistent CSS or
-preprocessor CSS code (such as [Sass]) in your projects. The styleguide should be treated as a guide
-&mdash; rules can be modified according to project needs.
+The purpose of the CSS coding styleguide is to create consistent CSS or preprocessor CSS code (such as [Sass]) in your projects. The styleguide should be treated as a guide &mdash; rules can be modified according to project needs.
 
-# Architecture
-A site's architecture should be based on its goals and purposes. This means the
-guidance here should be adapted to different sites and situations.
+## Architecture
+A site's architecture should be based on its goals and purposes. This means the guidance here should be adapted to different sites and situations.
 
-## Modular or component architecture
-When using a modular or component architecture, every page is broken into a
-series of modular components. There are two sets of these components:
-`components` and `modules`. The architecture starts out with basic HTML element
-rules: HTML, p, a, form, etc tags that than have components and modules written
-on top of them. Components are very basic structure such as buttons, blurbs,
-navs, and positioning structures like insets, island, and enclosure.  From
-here, modules are built with these components. This architecture also attempts
-to keep the specificity trend in an upwards curve as you move down in the file
-(more on this to come).
+### Modular or component architecture
+When using a modular or component architecture, every page is broken into a series of modular components. There are two sets of these components: `components` and `modules`. The architecture starts out with basic HTML element rules: HTML, p, a, form, etc tags that than have components and modules written on top of them. Components are very basic structure such as buttons, blurbs, navs, and positioning structures like insets, island, and enclosure.  From here, modules are built with these components. This architecture also attempts to keep the specificity trend in an upwards curve as you move down in the file (more on this to come).
 
 - Start with an elements file for all tag rules (a, h1-h5, p, \*, html, body).
-- Create component files for each structural element, such as buttons, navs,
-  etc. These are mainly class-based and use [BEM] or another naming scheme.
-- Create more specific structure with modules. For instance, if the logo image
-  and text needs very specific treatment, use a module.
-  - Build modules from components through mixins, extends, and HTML.
+- Create component files for each structural element, such as buttons, navs, etc. These are mainly class-based and use [BEM] or another naming scheme.
+- Create more specific structure with modules. For instance, if the logo image and text needs very specific treatment, use a module.
+  - Build modules from components through mixins, extends, and HTML. 
   - Modules can have higher specificity, it’s fine to use deeper nesting.
-- Have an overrides file or folder comprised of global rules that are meant to
-  override components and modules.
+- Have an overrides file or folder comprised of global rules that are meant to override components and modules.
   - These can be generic utilities.
-  - A good thing to put here are breakpoint-specific rules, such as hiding
-    something at small breakpoints.
+  - A good thing to put here are breakpoint-specific rules, such as hiding something at small breakpoints.
 
-### File structure
+#### File structure
 ```sh
 _elements.scss
 _mixins.scss
@@ -113,8 +98,7 @@ util/_center.scss
 util/_clearfix.scss
 ```
 
-
-## Importing
+### Importing
 As you likely know, CSS rules that are later in the file override earlier
 rules. This means Sass imports can be used to control inheritance and
 specificity.
@@ -139,18 +123,18 @@ specificity.
 ```
 
 [BEM]: http://getbem.com/introduction/
-}
 
-# Documentation
-## Sass Comments
+
+## Documentation
+### Sass Comments
 Be intentional when you use `//` (silent comments) versus `/* */`
 (which are preserved in the CSS output). When in doubt, use `//`.
 
-## KSS
+### KSS
 Use KSS for documentation. More information on KSS can be found on the
 [official site](http://warpspire.com/kss/).
 
-### Example
+#### Example
 
 ```scss
 // Button
@@ -173,12 +157,12 @@ Use KSS for documentation. More information on KSS can be found on the
 }
 ```
 
-### Rationale
+#### Rationale
 KSS is the most common CSS documentation method to date. While it’s not perfect,
 the generated documentation can be modified through templates.
-}
 
-# Frameworks
+
+## Frameworks
 TTS recommends using the [U.S. Web Design System (USWDS)](https://github.com/uswds/uswds) as it is specifically designed to help build fast, accessible, mobile-friendly federal government websites.
 
 Sometimes, projects utilize other CSS frameworks such as:
@@ -194,12 +178,12 @@ frameworks, through modular design and excellent documentation, make it easy
 for the designer or developer to only use the parts that they need, rather than
 including a hefty library.
 
-## Do not use Bootstrap
+### Do not use Bootstrap
 
 18F specifically does not recommend using [Bootstrap](http://getbootstrap.com/) for production work
 because it can be difficult to adapt its opinionated styles to bespoke design work.
 
-# Formatting
+## Formatting
 We recommend using [Prettier](https://prettier.io), and enabling it in your
 editor by default. Prettier is an automatic code formatter that will make your
 code format consistent. This way we don't have to argue over how to format our
@@ -245,7 +229,7 @@ $align_top: 100%;
 }
 ```
 
-## Order
+### Order
 
 - Use the following ordering:
 
@@ -308,8 +292,8 @@ $align_top: 100%;
 }
 ```
 
-# Inheritance
-## Mixins
+## Inheritance
+### Mixins
 - Use mixins for groups of properties that appear together intentionally and
   are used multiple times.
 
@@ -367,11 +351,11 @@ the difference will often be negligible once the output file has been gzipped.
 [mixins]: http://sass-lang.com/guide#mixins
 [placeholders]: http://thesassway.com/intermediate/understanding-placeholder-selectors
 
-# Linting
+## Linting
 Using a linter will ensure that CSS code conforms to some consistent rules. A linting tool like 
 (Stylelint)[https://stylelint.io/] can issue warnings wherever your code differs from established rules.
 
-## Setting up Stylelint locally
+### Setting up Stylelint locally
 1. Run `npm install --save-dev stylelint stylelint-config-standard` to download the package and save it to your package.json
 2. Create a .stylelintrc.json configuration file in the root of your project with the following content:
 ```json
@@ -389,7 +373,7 @@ files, you can utilize custom syntaxes or write your own.
 Stylelint has a [user guide](https://stylelint.io/user-guide/get-started) that will give you more
 details about how to configure and extend your linting rules.
 
-# Naming 
+## Naming 
 - HTML elements should be in lowercase.
 
   ```scss
@@ -482,13 +466,13 @@ details about how to configure and extend your linting rules.
   ```
 
 
-## Naming Methodologies
+### Naming Methodologies
 
 When it comes to naming, the most important thing is consistency. The
 recommended way to do this is using an existing methodology like [BEM](#bem),
 or use a custom one that’s clearly defined.
 
-### BEM
+#### BEM
 
 [BEM][BEM] (**B**lock, **E**lement, **M**odifier) structures CSS such that
 every entity is composed of (you guessed it) blocks, elements and modifiers.
@@ -535,8 +519,7 @@ Here is an example of BEM in SCSS:
 }
 ```
 
-
-### Suggested custom methodology
+#### Suggested custom methodology
 
 The TTS recommendation for a naming methodology is a modified version of BEM.
 It still uses blocks, sections within blocks and modifiers, but with an
@@ -552,14 +535,12 @@ abbreviated syntax.
 .nav_bar-link-clicked
 ```
 
-
-
-### Naming methodology resources
+#### Naming methodology resources
 - [article explaining BEM][mindbemding]
 - [BEM website][BEM]
 
 
-## js- flagged classes
+### js- flagged classes
 Don't attach styles to classes with a `js-` flag. These classes are reserved for javascript.
 
 ```css
@@ -569,10 +550,10 @@ Don't attach styles to classes with a `js-` flag. These classes are reserved for
 }
 ```
 
-### Rationale
+#### Rationale
 A `js-` flagged class needs to be highly portable. Adding styles to it breaks that portability.
 
-## test- flagged classes
+### test- flagged classes
 Don't attach styles to classes with a `test-` flag. These classes are reserved for testing hooks such as those used by selenium.
 
 ```css
@@ -582,11 +563,10 @@ Don't attach styles to classes with a `test-` flag. These classes are reserved f
 }
 ```
 
-
 [BEM]: https://en.bem.info/method/
 [mindbemding]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
-# Preprocessors 
+## Preprocessors 
 The most supported CSS preprocessor at TTS is [Sass]. Using this preprocessor means you'll
 get supported resources such as frameworks, libraries, tutorials, and a comprehensive styleguide
 as support.
@@ -597,21 +577,21 @@ and has community support._
 [Dart Sass](https://sass-lang.com/dart-sass) is the primary implementation of Sass and is
 recommended for use in your projects. 
 
-## Command line installation 
+### Command line installation 
 
-### With npm
+#### With npm
 
 * run: `npm install -g sass`
 
-### With homebrew
+#### With homebrew
 
 * run `brew install sass/sass/sass`
 
-### Other installations
+#### Other installations
 
 You can read about other installation methods on [their website](https://sass-lang.com/install). 
 
-# Specificity 
+## Specificity 
 - IDs should be reserved for JavaScript. Don’t use IDs for styles.
 
   ```scss
@@ -657,7 +637,7 @@ You can read about other installation methods on [their website](https://sass-la
   .component.component { }
   ```
 
-## Specificity graph
+### Specificity graph
 An easy rule to use when dealing with specificity is to start from a low
 specificity and curve to higher specificity as you move towards the bottom of
 the output file. Since CSS rules get replaced by rules further down in the
@@ -667,11 +647,11 @@ There’s a tool that can graph your files’ specificity, [CSS specificity
 graph](http://jonassebastianohlsson.com/specificity-graph/). Run your final
 output file through this tool and strive for a curve trending upwards.
 
-### Resources
+#### Resources
 * [CSS specificity graph](http://jonassebastianohlsson.com/specificity-graph/)
 * [Explanation](http://csswizardry.com/2014/10/the-specificity-graph/)
 
-## Rationale
+### Rationale
 With specificity comes great responsibility. Broad selectors allow us to be
 efficient, yet can have adverse consequences if not tested. Location-specific
 selectors can save us time, but will quickly lead to a cluttered stylesheet.
@@ -697,8 +677,8 @@ between contributing to the overall style and layout of the DOM.
   co-exist in the same code in peace. If you must use an id selector (`#id`)
   make sure that you have no more than one in your rule declaration.
 
-# Units 
-## Measurements
+## Units 
+### Measurements
 - Use **rem** units for font sizes with a px fallback. This can be done with
   the following mixin:
 
@@ -789,7 +769,7 @@ between contributing to the overall style and layout of the DOM.
   ```
 
 
-## Colors
+### Colors
 - Use **hex** notation first, or then **rgb(a)**, or **hsl(a)**.
 - Both three-digit and six-digit hexadecimal notation are acceptable.
 - When denoting color using hexadecimal notation, use all lowercase letters.
@@ -824,7 +804,7 @@ color: $secondary;
   }
   ```
 
-# Variables 
+## Variables 
 - Create new variables in the following circumstances:
   - The value is repeated twice
   - The value is likely to be updated at least once
@@ -884,7 +864,7 @@ color: $secondary;
   $z_index-show: $z_index-1;
   ```
 
-## Responsive Design & Breakpoints
+### Responsive Design & Breakpoints
 - Set variables for breakpoints at the top of your stylesheet. This
   functionality is built into Bourbon.
 
