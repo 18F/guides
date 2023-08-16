@@ -20,11 +20,11 @@ We elaborate on each principle below. In a related guide section, we show how [D
 
 ## Principles
 
-**Easy to set up**
+### Easy to set up
 
 Dependencies should be easy to install, and a new developer should be able to clone the application and run its "hello world" equivalent with just a few commands. Seed data creation, database schema migrations, and configuration should be automated. Configuration that requires the developer to obtain keys from an external source (such as signing up for an API) should be kept to a minimum. If possible, try to use a mocked version of any external services by default. Many of the good practices for testing (e.g. don't rely on external services) can and should be applied to the development environment.
 
-**Well-documented**
+### Well-documented
 
 At minimum, there should be a README.md file describing what the software does, how to run its "hello world" equivalent, how to run tests, and all external dependencies (like APIs it talks to). If the software is easy to set up, the documentation need not be very long, which is easier to maintain and to keep accurate.
 
@@ -72,6 +72,5 @@ before_script:
 
 Now each set of scripts are much easier run in other environments: locally, in a different CI environment, etc. Moreover, think of the YAML keys as annotations for the scripts.
 
-**Reproducible**
-
+### Reproducible
 A good development environment should be reproducible across different computers, platforms, and environments. Reproducibility helps ensure that bugs are not idiosyncratic to any one person's bespoke computing environment--rather they are intrinsic to the repository itself such that time can be spent debugging the repository code and not the environment on a person's computer. Pinning dependencies such as language runtimes and databases to specific versions is a great way to help achieve this.

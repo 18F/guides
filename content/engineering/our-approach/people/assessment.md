@@ -79,7 +79,6 @@ Please remind reviewers to aim to be as specific as possible — ask for specifi
 If necessary, you can arrange short (15-30 minute) meetings with a reviewer to go over their feedback and gather specific examples. Whether you need to do this will depend on how good and specific written feedback is. Arranging a meeting can be a good method of chasing a response: it takes less time for the reviewer to tell you feedback than for them to write it up.
 
 ### 3. Synthesize feedback and draft a written review
-
 Now you’ve got a bunch of feedback, so the next step is to synthesize it down into a coherent written review.
 
 First, you’ll want to review all that feedback along with the person’s facilitator (if applicable). You’re looking for patterns, commonalities, or feedback that aligns with what you or the facilitator have personally observed. You’re looking to distill down all that feedback into a review for each critical element in the person’s performance profile. Include as many specific examples of behavior as possible — good feedback is specific and actionable (for a deeper treatment if this idea, see this article on [The Situation-Impact-Feedback Tool](https://www.mindtools.com/pages/article/situation-behavior-impact-feedback.htm)).

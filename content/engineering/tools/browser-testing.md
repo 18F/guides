@@ -19,7 +19,6 @@ Using a responsive web design and a standards-based approach will result in wide
 A few options are available at TTS that allow testing on multiple browser platforms. An automated testing solution is ideal, but even manual cross-browser testing remains valuable.
 
 ## Windows
-
 To test with Windows-native browsers like Internet Explorer or Microsoft Edge: 
 
 - [Citrix Workspace](https://handbook.tts.gsa.gov/vmware-horizon/)
@@ -39,20 +38,15 @@ To test with Windows-native browsers like Internet Explorer or Microsoft Edge:
     * Takes a bit of setup
 
 ## Android 
-
 For Google Chrome for Android:
-
 - [Android Studio](https://developer.android.com/studio) with [AVD Manager](https://developer.android.com/studio/run/managing-avds)
   * The GSA IT Helpdesk will need to configure policy on your macOS workstation in order for the Android emulator to run.
 
 ## iOS
-
 For Safari on iOS:
-
 - [Xcode](https://developer.apple.com/xcode/) with Simulator
   * If you are using the latest version of macOS currently released by Apple, Xcode is available in the Mac App Store. Otherwise, find the version of Xcode that maps to your macOS version on [Apple Developer](https://developer.apple.com/download/). 
 
 ## Chrome-family browsers and Firefox
-
 - [Cypress](https://www.cypress.io/features)
   * The command-line test runner and local GUI is [approved for use](https://handbook.tts.gsa.gov/software/search/#cypress). However, the [Cypress Dashboard SaaS](https://www.cypress.io/dashboard/) is not.

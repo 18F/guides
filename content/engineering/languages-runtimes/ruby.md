@@ -15,8 +15,8 @@ Help us make this section better by [submitting an issue](https://github.com/18F
 
 A guide for writing and maintaining Ruby and Rails applications
 
-## Style Guide
-Follow the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) and enforce it via static analysis tools such as [Code Climate] and [Rubocop]. You can copy the [recommended Rubocop configuration] ({{ "/assets/engineering/dist/rubocop.yml" | url }}) in your Ruby project and make any changes based on your team's preferences.
+## Style guide
+Follow the [Ruby style guide](https://github.com/bbatsov/ruby-style-guide) and enforce it via static analysis tools such as [Code Climate] and [Rubocop]. You can copy the [recommended Rubocop configuration] ({{ "/assets/engineering/dist/rubocop.yml" | url }}) in your Ruby project and make any changes based on your team's preferences.
 
 Note that the Rubocop configuration linked above only includes settings that differ from the default configuration. We tend to agree with most of the default settings.
 

@@ -16,7 +16,6 @@ eleventyNavigation:
 * [JavaScript]({{ "/engineering/languages-runtimes/javascript/" | url }})
 
 ## Introduction
-
 This is a **WORK IN PROGRESS**. Help us make it better by [submitting an issue](https://github.com/18F/development-guide) or joining us in the [#javascript](https://gsa-tts.slack.com/messages/C032KSPPQ) channel!
 
 This document is structured by topic; under each, we include “Standards”, “Defaults”, and “Suggestions”.
@@ -42,7 +41,6 @@ Finally, in an effort to ensure our deployments are repeatable, our code **stand
 * [vendoring dependencies](http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring) (though this is only a partial solution)
 
 ## Style
-
 Our **standard** tool for ensuring consistency across Node code bases is [eslint](http://eslint.org/), using the [AirBnB style guide](https://github.com/airbnb/javascript) as a **default** configuration. See the [Front End Guide](https://frontend.18f.gov/javascript/style/) for installation instructions.
 
 ## Libraries

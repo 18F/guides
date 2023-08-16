@@ -55,8 +55,7 @@ While you are welcome to customize your laptop, here are some tools that have wo
 [Virtualenvwrapper]: http://virtualenvwrapper.readthedocs.org/en/latest/#
 [Zsh]: http://www.zsh.org/
 
-## Licensed Software
-
+## Licensed software
 * [Docker] for all your containerization needs
 
   The docker daemon and docker CLI tools are available on a free license.
@@ -67,7 +66,6 @@ While you are welcome to customize your laptop, here are some tools that have wo
 [Docker Desktop]: https://www.docker.com/products/docker-desktop/
 
 ## Other customizations
-
 * [Atom] - GitHub's open source text editor
 * [Exuberant Ctags] for indexing files for vim tab completion
 * [Firefox] for testing your website on a browser other than Chrome

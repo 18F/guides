@@ -59,7 +59,6 @@ The `default-src` directive should always be defined! This directive acts as a f
 
 It might be useful to test your policies before letting them loose on your users. To do this, use the `Content-Security-Policy-Report-Only` HTTP header. Combined with the reporting information in the next section, you can monitor the kinds of content your user's are encountering and tweak the your policy accordingly.
 
-
 ### Reporting
 CSP can also be configured to send reports to an endpoint you control when content that violates your policies is encountered.
 
@@ -83,14 +82,14 @@ This data can of course be mixed with other request metadata, like IP address or
 
 Reporting can only be enabled via HTTP header, not inside a `<meta>` tag!
 
-### Client-side Implementation
+### Client-side implementation
 To implement CSP on the client, add a `<meta>` tag to your web site's `<head>`. Your policy will be a doubled-quoted string placed inside the `content` attribute of the tag.
 
 `<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">`
 
 You're done!
 
-### Server-side Implementation
+### Server-side implementation
 To include a CSP headers on the server, simply return a `Content-Security-Policy: {my-policy-string}` HTTP header in your web responses.
 
 <br>
@@ -121,8 +120,7 @@ This technique will allow those scripts to load, with the following caveats:
 As each project has its own needs, you should always perform your own research on a per-project basis to determine the best way to handle third-party scripts!
 
 
-## Further Reading
-
+## Further reading
 The information contained is this guide is only a primer, and was sourced from the following articles:
 - [MDN CSP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 - [Google CSP Guide](https://developers.google.com/web/fundamentals/security/csp/)

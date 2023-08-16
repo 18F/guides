@@ -19,7 +19,6 @@ eleventyNavigation:
 This guide evolved from work spearheaded by the 18F Engineering Chapter and the 18F Front-End Guild, with additional content adapted from the [Consumer Financial Protection Bureau (CFPB)](https://github.com/cfpb/development/).
 
 ## Related links
-
 - [Launching software at TTS](https://handbook.tts.gsa.gov/#launching-software)
 - [18F De-risking guide](https://derisking-guide.18f.gov/)
 - [Agile Principles and 18F Practices](https://agile.18f.gov/)
