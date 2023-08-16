@@ -10,6 +10,11 @@ eleventyNavigation:
   key: Ruby
   order: 5
   title: Ruby
+subnav:
+  - text: Style guide
+    href: "#style-guide"
+  - text: Testing
+    href: "#testing"
 ---
 Help us make this section better by [submitting an issue](https://github.com/18F/development-guide) or joining us in the [#ruby](https://18f.slack.com/messages/ruby/) channel!
 

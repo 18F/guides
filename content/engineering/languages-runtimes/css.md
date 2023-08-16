@@ -315,7 +315,7 @@ You can use [mixins] in place of selectors. While mixins will copy more code, th
 [placeholders]: http://thesassway.com/intermediate/understanding-placeholder-selectors
 
 ## Linting
-Using a linter will ensure that CSS code conforms to some consistent rules. A linting tool like (Stylelint)[https://stylelint.io/] can issue warnings wherever your code differs from established rules.
+Using a linter will ensure that CSS code conforms to some consistent rules. A linting tool like [Stylelint](https://stylelint.io/) can issue warnings wherever your code differs from established rules.
 
 ### Setting up Stylelint locally
 1. Run `npm install --save-dev stylelint stylelint-config-standard` to download the package and save it to your package.json

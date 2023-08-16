@@ -1,14 +1,33 @@
 ---
 title: 'Micro-purchase: Do one thing well'
 sidenav:  true
+sticky_sidenav: true
 permalink: /engineering/micro-purchase/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 
-  parent: engineering_approach
+  parent: engineering_approach_projects
   key: 'Micro-purchase: Do one thing well'
-  order: 6
+  order: 2
   title:  'Micro-purchase: Do one thing well'
+subnav:
+  - text: TL;DR
+    href: "#tl-dr"
+  - text: Our purpose
+    href: "#our-purpose"
+  - text: Lonely models, views, and controllers
+    href: "#lonely-models-views-and-controllers"
+  - text: "Examples: View-, Service-, Rule- and Null Objects"
+    href: "#examples-view-service-rule-and-null-objects"
+  - text: Population control
+    href: "#population-control"
+  - text: Different APIs, same solution
+    href: "#different-apis-same-solution"
+  - text: Other applications
+    href: "#other-applications"
+  - text: Conclusion
+    href: "#conclusion"
+  
 ---
 
 ## TL;DR

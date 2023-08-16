@@ -10,6 +10,21 @@ eleventyNavigation:
   key: Node.js
   order: 4
   title: Node.js
+subnav:
+  - text: Related topics
+    href: "#related-topics"
+  - text: Introduction
+    href: "#introduction"
+  - text: Versions
+    href: "#versions"
+  - text: Style
+    href: "#style"
+  - text: Libraries
+    href: "#libraries"
+  - text: Scaffolding your application
+    href: "#scaffolding-your-application"
+  - text: Type support
+    href: "#type-support"
 ---
 
 ## Related topics

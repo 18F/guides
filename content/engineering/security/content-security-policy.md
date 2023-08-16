@@ -128,6 +128,6 @@ The information contained is this guide is only a primer, and was sourced from t
 - [CSP Quick reference guide](https://content-security-policy.com/)
 - [Wikipedia reference](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
-_the following links are fairly old, but pretty short and worth skimming_
+_The following links are fairly old, but pretty short and worth skimming_
 - [Twitter CSP blog post](https://blog.twitter.com/engineering/en_us/a/2011/improving-browser-security-with-csp.html)
 - [GitHub CSP blog post](https://blog.twitter.com/engineering/en_us/a/2011/improving-browser-security-with-csp.html)

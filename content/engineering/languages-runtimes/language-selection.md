@@ -10,6 +10,17 @@ eleventyNavigation:
   key: Languages & runtimes
   order: 1
   title: Languages & runtimes
+subnav:
+  - text: Our strongest languages
+    href: "#our-strongest-languages"
+  - text: Frequently-used frameworks
+    href: "#frequently-used-frameworks"
+  - text: Project scope
+    href: "#project-scope"
+  - text: Factors
+    href: "#factors"
+  - text: Other impact
+    href: "#other-impact"
 ---
 
 Many factors should influence how TTS engineers make technology selections for their projects. Here, we discuss recommendations on how to select the _language_ used in your projects. This document doesn't offer hard-and-fast rules, focusing instead on several language aspects which should be balanced against each other. Also, we explicitly note that language selection is ultimately the decision (and responsibility) of the project team. The guidance below is meant to _assist_ your team make this decision.

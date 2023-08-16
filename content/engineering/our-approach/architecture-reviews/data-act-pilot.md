@@ -6,10 +6,23 @@ permalink: /engineering/data-act-pilot/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 
-  parent: engineering_approach
+  parent: engineering_approach_projects
   key: 'DATA Act Pilot: Simplicity is Key'
-  order: 6
+  order: 1
   title: 'DATA Act Pilot: Simplicity is Key'
+subnav:
+  - text: TL;DR
+    href: "#tl-dr"
+  - text: Purpose
+    href: "#purpose"
+  - text: Minimum viable product
+    href: "#minimum-viable-product"
+  - text: Simplicity avoids scary
+    href: "#simplicity-avoids-scary"
+  - text: Validation rules
+    href: "#validation-rules"
+  - text: Conclusion
+    href: "#conclusion"
 ---
 
 ## TL;DR
