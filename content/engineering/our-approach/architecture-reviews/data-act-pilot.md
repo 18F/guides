@@ -6,7 +6,7 @@ permalink: /engineering/data-act-pilot/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 
-  parent: engineering_approach_projects
+  parent: architecture_reviews
   key: 'DATA Act Pilot: Simplicity is Key'
   order: 1
   title: 'DATA Act Pilot: Simplicity is Key'

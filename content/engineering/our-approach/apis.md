@@ -10,6 +10,33 @@ eleventyNavigation:
   key: APIs
   order: 8
   title: APIs
+subnav:
+  - text: Design for common use cases
+    href: "#design-for-common-use-cases"
+  - text: Using one's own API
+    href: "#using-one-s-own-api"
+  - text: Point of contact
+    href: "#point-of-contact"
+  - text: Notifications of updates
+    href: "#notifications-of-updates"
+  - text: API endpoints
+    href: "#api-endpoints"
+  - text: Always use HTTPS
+    href: "#always-use-https"
+  - text: Use UTF-8
+    href: "#use-utf-8"
+  - text: Just use JSON
+    href: "#just-use-json"
+  - text: Use a consistent date format
+    href: "#use-a-consistent-date-format"
+  - text: CORS
+    href: "#cors"
+  - text: API keys
+    href: "#api-keys"
+  - text: Pagination
+    href: "#pagination"
+  - text: Error handling
+    href: "#error-handling"
 ---
 
 APIs, like other web applications, vary greatly in implementation and design, depending on the situation and the problem the application is solving.

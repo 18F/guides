@@ -6,10 +6,10 @@ permalink: /engineering/micro-purchase/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 
-  parent: engineering_approach_projects
+  parent: architecture_reviews
   key: 'Micro-purchase: Do one thing well'
   order: 2
-  title:  'Micro-purchase: Do one thing well'
+  title: 'Micro-purchase: Do one thing well'
 subnav:
   - text: TL;DR
     href: "#tl-dr"

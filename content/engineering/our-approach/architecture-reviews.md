@@ -7,10 +7,23 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Architecture reviews
+  key: architecture_reviews
   order: 6
   title: Architecture reviews
+subnav:
+  - text: Simplicity
+    href: "#simplicity"
+  - text: "DATA Act Pilot: Simplicity is key"
+    href: "/engineering/data-act-pilot/"
+  - text: "Micro-purchase: Do one thing well"
+    href: "/engineering/micro-purchase/"
+  - text: Documenting key decisions
+    href: "#documenting-key-decisions"
+
 ---
+{% comment %}
+  Need to revisit the DATA Act and micropurchase project links in the sidenav
+{% endcomment %}
 
 Maintainable technology projects require handoffs between developers, and with new teammates comes fresh perspectives. Building a [transparent and remote-friendly workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) is a great start to assist in knowledge transfer, as well as keeping projects as simple and obvious as possible and documenting key decisions.
 
