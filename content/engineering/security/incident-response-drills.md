@@ -10,14 +10,17 @@ eleventyNavigation:
   key: Incident response drills
   order: 6
   title: Incident response drills
+subnav:
+  - text: Why do incident response drills?
+    href: "#why-do-incident-response-drills"
+  - text: How to run an incident response drill
+    href: "#how-to-run-an-incident-response-drill"
+  - text: Example incident response drills
+    href: "#example-incident-response-drills"
+  - text: Congratulations, you accidentally did compliance too!
+    href: "#congratulations-you-accidentially-did-compliance-too"
+
 ---
-
-*Table of Contents*
-
-* [Why do incident response drills?](#why-do-incident-response-drills)
-* [How to build incident response drills](#how-to-run-an-incident-response-drill)
-* [Example incident ressponse drills](#example-incident-response-drills)
-* [Using this drill as part of your ATO](#congratulations-you-accidentally-did-compliance-too)
 
 ## Why do incident response drills?
 You don't want to be creating or testing recovery processes while things are on fire. 🔥
@@ -59,9 +62,10 @@ Follow the steps in the drill, making sure good notes are taken.
 
 Team members can rotate being the "driver" who shares their screen and walks through the steps in the drill.
 
-![Image of a hardware drill]({{ image_with_class "assets/engineering/img/drill-small-wikimedia.png" "" "" }})
+{% image_with_class "assets/engineering/img/drill-small-wikimedia.png" "" "Image of a hardware drill" %}
+
 <caption>
-  <i>This is a drill. <br/> Image attribution: Włodzimierz Wysocki. License: CC BY-SA 3.0</i>
+  This is a drill. <br/> Image attribution: Włodzimierz Wysocki. License: CC BY-SA 3.0
 </caption>
 
 ### After the drill
@@ -87,7 +91,7 @@ These examples are for a web application hosted on [cloud.gov](https://cloud.gov
 
 Please adjust for your infrastructure.
 
-## Scenario: A deploy goes wrong
+### Scenario: A deploy goes wrong
 
 It turns out, the new release doesn't deploy properly. It has successfully deployed in all the other environments. Let's re-deploy.
 
@@ -96,32 +100,32 @@ It turns out, the new release doesn't deploy properly. It has successfully deplo
   <i>Screenshot of how to re-run a workflow in a CI/CD tool (in this case, CircleCI)</i>
 </caption>
 
-### Example mitigation steps
+#### Example mitigation steps
 Re-deploy last successful release from  your CI/CD pipeline. (You are deploying from a CI/CD pipeline, right?)
 
 1. Go to `<<Insert CI/CD URL>>` to view recent deploys.
 1. Rerun the deploy step for the last known-good deploy.
 1. If necessary, roll back the database to the correct version. `<<Insert rollback steps for your application>>`
 
-### Example drill
+#### Example drill
 Follow the mitigation steps above in a development environment.
 
-## Scenario: API keys or passwords exposed
+### Scenario: API keys or passwords exposed
 An API Key for an AWS service was accidentally committed to our public code repository! (Use tools like [caulking](https://github.com/cloud-gov/caulking) to prevent issues like this from happening in the first place.)
 
-### Example mitigation steps
+#### Example mitigation steps
 1. Contact `<<Insert email of POC laid out in Agency policies>>` and inform them of a breach.
 1. Write down which keys and services were exposed.
 1. Rotate all exposed keys.
 1. Remove any exposed keys from the commit history.
 
-### Example drill steps
+#### Example drill steps
 1. Acknowledge that the first step would be to inform points of contact; establish that everyone knows who to inform in the event of an incident.
 1. To simulate the real thing, push up a file to GitHub or whichever code repository is in use with a fake service key. (No using real keys for drills, please.)
 1. Practice rotating the keys for that service in a development context.
 1. Practice scrubbing the fake key from the commit history.
 
-## Scenario: Compromised account
+### Scenario: Compromised account
 The website has been hacked due to a compromised key! Now instead of our link to submit a report, we have a cute image of a cat and a spam link to follow cute cats on instagram.
 
 ![Screenshot of Engineering Practices Guide homepage with cute cat photo in the middle of it]({{ image_with_class "assets/engineering/img/screenshot-fake-epg-hacked.png" "" "" }})
@@ -131,7 +135,7 @@ The website has been hacked due to a compromised key! Now instead of our link to
 
 What happened? Was a GitHub account compromised? A cloud.gov account? A deploy key?
 
-### Example mitigation steps
+#### Example mitigation steps
 1. Contact `<<Insert email of POC laid out in Agency policies>>` and inform them of a breach.
 1. The first priority is to remove the unauthorized access so that there can't be further damage or information leakage. Figure out where the deploy came from.
   * *If the deploy was triggered from GitHub*, you would be able to see it in CI/CD history. In this case, the GitHub admin should immediately remove the account that triggered the malicious deployment. Rotate any deploy credentials that may have been compromised.
@@ -143,16 +147,16 @@ What happened? Was a GitHub account compromised? A cloud.gov account? A deploy k
   * Rename the instance. (This will preserve forensics as you redeploy.)
 
 
-### Example drill steps
+#### Example drill steps
 1. Acknowledge that the first step would be to inform points of contact; establish that everyone knows who to inform in the event of an incident.
 1. Choose a scenario to drill: compromised GitHub account, compromised cloud.gov account, or compromised deploy key. (Compromised deploy key might be easiest to drill.)
 1. Practice the steps to remove compromised accounts or credentials, for example, by deleting the current deployment keys, remaking them, and adding them to CI/CD.
 1. Using a development application instance, practice removing the route to a instance that may have been compromised and then renaming it to preserve forensics.
 
-## Scenario: PII exposed
+### Scenario: PII exposed
 It's discovered that PII is being leaked to unauthorized users through the site.
 
-### Example mitigation steps
+#### Example mitigation steps
 1. Contact `<<Insert email of POC laid out in Agency policies>>` and inform them of a breach.
 1. Stop the exposure.
   * Assess the severity and impact of the potential leak.
@@ -161,33 +165,33 @@ It's discovered that PII is being leaked to unauthorized users through the site.
 1. Identify root cause of the issue and deploy a hotfix.
 1. Take necessary corrective action as directed by your agency security team. If there are corrective actions that the PO is able to handle in terms of contacting the affected users, do so.
 
-### Example drill steps
+#### Example drill steps
 1. Acknowledge that the first step would be to inform points of contact; establish that everyone knows who to inform in the event of an incident.
 1. In a development environment, practice putting the site into a maintenance mode or removing/hiding a page on the site, whichever would be most relevant to your project.
 1. Review any relevant corrective action / affected user notification procedures.
 
-## Scenario: Oops, I deleted the database
+### Scenario: Oops, I deleted the database
 The database needs to be restored from a backup.
 
-### Example mitigation steps
+#### Example mitigation steps
 1. If you're using cloud.gov, follow [cloud.gov database backup procedures](https://cloud.gov/docs/services/relational-database/#backups).
 
-### Example drill steps
+#### Example drill steps
 Assuming you have a staging database using a dedicated cloud.gov database plan:
 
 1. Delete some data from your staging database. (No deleting data from a production database, please.)
 2. Reach out to cloud.gov using the [the non-emergency email address provided in thir docs](https://cloud.gov/docs/services/relational-database/#backups); request a backup.
 3. Practice restoring the staging database to the point in time before you deleted the data.
 
-## Scenario: Oops, I erased the S3 bucket
+### Scenario: Oops, I erased the S3 bucket
 Let's re-create and restore from a backup.
 
-### Example mitigation steps
+#### Example mitigation steps
 1. If the bucket no longer exists, create a new bucket in cloud.gov in the space where the bucket was deleted, ideally using infrastructure-as-code or a deploy script.
 2. Restore bucket contents from a backup.
 3. Verify the bucket settings, permissions, and contents are correct.
 
-### Example drill steps
+#### Example drill steps
 Follow the mitigation steps above in a development environment.
 
 ## Congratulations, you accidentally did compliance too!
