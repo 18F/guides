@@ -10,6 +10,9 @@ eleventyNavigation:
   key: Development environments
   order: 4
   title: Development environments
+subnav:
+  - text: Principles
+    href: "#principles"
 ---
 
 Development environments should be designed so as as to be _Easy to set up_, _Well-documented_, and _Reproducible_.

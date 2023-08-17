@@ -10,6 +10,15 @@ eleventyNavigation:
   key: Content Security Policy (CSP)
   order: 2
   title: Content Security Policy (CSP)
+subnav:
+  - text: What is Content Security Policy?
+    href: "#what-is-content-security-policy"
+  - text: Usage
+    href: "#usage"
+  - text: Caveats
+    href: "#caveats"
+  - text: Further reading
+    href: "#further-reading"
 ---
 
 ## What is Content Security Policy?
@@ -118,7 +127,6 @@ This technique will allow those scripts to load, with the following caveats:
 * Inline the SHAs of multiple scripts adds bloat to the policy, and increases the number of bytes needed to transmit the header to the browser.
 
 As each project has its own needs, you should always perform your own research on a per-project basis to determine the best way to handle third-party scripts!
-
 
 ## Further reading
 The information contained is this guide is only a primer, and was sourced from the following articles:

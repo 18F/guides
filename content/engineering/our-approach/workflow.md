@@ -10,6 +10,13 @@ eleventyNavigation:
   key: Our approach
   order: 1
   title: Our approach
+subnav:
+  - text: Continuous integration & deployment
+    href: "#continuous-integration-and-deployment"
+  - text: Git & GitHub
+    href: "#git-and-github-standard"
+  - text: Code style
+    href: "#code-style"
 ---
 
 Project teams may vary, but across TTS engineering we aim for consistency around deployments, git etiquette, and similar workflow conventions.

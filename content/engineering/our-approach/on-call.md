@@ -9,7 +9,14 @@ eleventyNavigation:
   parent: engineering_approach
   key: On-call recommendations 
   order: 4
-  title: On-call recommendations 
+  title: On-call recommendations
+subnav:
+  - text: Staffing/resourcing phase
+    href: "#staffing-resourcing-phase"
+  - text: Development phase
+    href: "#development-phase"
+  - text: Support phase
+    href: "#support-phase"
 ---
 Different types of projects have unique on-call support needs. Regardless of the type of project, there are a number of things that could be considered at different stages of development that would allow any type of team and product to be set up for on-call success.
 

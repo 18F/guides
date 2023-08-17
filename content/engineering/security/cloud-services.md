@@ -10,6 +10,11 @@ eleventyNavigation:
   key: Cloud services
   order: 5
   title: Cloud services
+subnav:
+  - text: Presigned URLs
+    href: "#presigned-urls"
+  - text: Proxying the file download
+    href: "#proxying-the-file-download"
 ---
 A common practice is storing files in the cloud; places like [Amazon Simple Storage Service](https://docs.aws.amazon.com/s3/index.html) (Amazon S3), [Google Cloud](https://cloud.google.com/storage/docs/introduction), or [Azure Storage](https://docs.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature). These services give developer an easy way to store data in the cloud, and download it when needed. But this introduces security considerations.
 

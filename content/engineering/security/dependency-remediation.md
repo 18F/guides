@@ -10,6 +10,17 @@ eleventyNavigation:
   key: Vulnerable dependency remediation
   order: 4
   title: Vulnerable dependency remediation
+subnav:
+  - text: Apply a patch
+    href: "#apply-a-patch"
+  - text: Use selective resolutions
+    href: "#use-selective-resolutions"
+  - text: Check if it is a false positive
+    href: "#check-if-it-is-a-false-positive"
+  - text: Pull upstream
+    href: "#pull-upstream"
+  - text: Accept the risk
+    href: "#accept-the-risk"
 ---
 
 Your application should have dependency scanning to ensure that the libraries your code relies on do not have vulnerabilities within them. For more on how to set up vulnerability scanning see the [Before You Ship guide](https://before-you-ship.18f.gov/security/static-analysis/#dependency-analysis)’s suggestions.

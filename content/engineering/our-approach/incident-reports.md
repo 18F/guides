@@ -12,6 +12,13 @@ eleventyNavigation:
   title: Incident reports
 redirect_from:
   /incident-reports/cloud-gov/
+subnav:
+  - text: Key components
+    href: "#key-components"
+  - text: Examples
+    href: "#examples"
+  - text: Additional resources
+    href: "#additional-resources"
 ---
 
 Though we fully expect to write dependable applications, every project will experience service disruptions and other significant failings. In all cases, we want to learn from our mistakes both within our projects and more broadly. Incident reports, which detail the events and how they were resolved, are an excellent mechanism for sharing this information.

@@ -10,6 +10,11 @@ eleventyNavigation:
   key: Releasing software
   order: 10
   title: Releasing software
+subnav:
+  - text: Small, iterative releases
+    href: "#small-iterative-releases"
+  - text: Big Bang releases
+    href: "#big-bang-releases"
 ---
 
 Releasing software is hard. Over time, we have developed strategies that can help reduce risk and uncertainity in the release process.

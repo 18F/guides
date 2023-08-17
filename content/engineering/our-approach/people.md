@@ -10,6 +10,21 @@ eleventyNavigation:
   key: Feedback guide
   order: 2
   title: Feedback guide
+subnav:
+  - text: Timely
+    href: "#timely"
+  - text: Evidence
+    href: "#evidence"
+  - text: Behaviors
+    href: "#behaviors"
+  - text: Results
+    href: "#results"
+  - text: Future focus
+    href: "#future-focus"
+  - text: Top performers
+    href: "#top-performers"
+  - text: End of year assessment guides
+    href: "#end-of-year-assessment-guides"
 ---
 Here are some attributes of giving feedback in a highly constructive way that we have learned and used over the years.
 
@@ -32,7 +47,6 @@ Don't dwell on the past, but focus on the future. The future can be altered, the
 Giving constructive feedback to a top performer is not nitpicking, it is actually some of the highest leverage work we can do. Most folks (not everyone of course) are eager to hear ways they can keep growing. We don't help folks by having no ideas for them.
 
 ## End of year assessment guides
-
 TTS, as a part of GSA, has a mature [performance management and recognition system](https://insite.gsa.gov/portal/content/500278).
 This includes an end-of-year performance assessment.
 
