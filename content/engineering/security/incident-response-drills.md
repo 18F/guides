@@ -18,7 +18,7 @@ subnav:
   - text: Example incident response drills
     href: "#example-incident-response-drills"
   - text: Congratulations, you accidentally did compliance too!
-    href: "#congratulations-you-accidentially-did-compliance-too"
+    href: "#congratulations-you-accidentally-did-compliance-too"
 
 ---
 
@@ -62,11 +62,12 @@ Follow the steps in the drill, making sure good notes are taken.
 
 Team members can rotate being the "driver" who shares their screen and walks through the steps in the drill.
 
+<figure>
 {% image_with_class "assets/engineering/img/drill-small-wikimedia.png" "" "Image of a hardware drill" %}
-
-<caption>
+  <figcaption>
   This is a drill. <br/> Image attribution: Włodzimierz Wysocki. License: CC BY-SA 3.0
-</caption>
+  </figcaption>
+</figure>
 
 ### After the drill
 You could end the drill with a practice "blameless post-incident retrospective." This is a low-pressure way to figure out your team's format for conducting retrospectives after an incident.
@@ -95,10 +96,12 @@ Please adjust for your infrastructure.
 
 It turns out, the new release doesn't deploy properly. It has successfully deployed in all the other environments. Let's re-deploy.
 
-![Rerun job workflow in CircleCI]({{ image_with_class "assets/engineering/img/rerun-workflow-circleci-screenshot.png" "" "" }})
-<caption>
-  <i>Screenshot of how to re-run a workflow in a CI/CD tool (in this case, CircleCI)</i>
-</caption>
+<figure>
+{% image_with_class "assets/engineering/img/rerun-workflow-circleci-screenshot.png" "" "Rerun job workflow in CircleCI" %}
+  <figcaption>
+    Screenshot of how to re-run a workflow in a CI/CD tool (in this case, CircleCI)
+  </figcaption>
+</figure>
 
 #### Example mitigation steps
 Re-deploy last successful release from  your CI/CD pipeline. (You are deploying from a CI/CD pipeline, right?)
@@ -128,10 +131,12 @@ An API Key for an AWS service was accidentally committed to our public code repo
 ### Scenario: Compromised account
 The website has been hacked due to a compromised key! Now instead of our link to submit a report, we have a cute image of a cat and a spam link to follow cute cats on instagram.
 
-![Screenshot of Engineering Practices Guide homepage with cute cat photo in the middle of it]({{ image_with_class "assets/engineering/img/screenshot-fake-epg-hacked.png" "" "" }})
-<caption>
-  <i>Oh no! Who added this cute cat photo to our website?!? <br/> Photo attribution: Tran Mau Tri Tam. Unsplash License.</i>
-</caption>
+<figure>
+{% image_with_class "assets/engineering/img/screenshot-fake-epg-hacked.png" "" "Screenshot of Engineering Practices Guide homepage with cute cat photo in the middle of it" %}
+  <figcaption>
+    Oh no! Who added this cute cat photo to our website?!? <br/> Photo attribution: Tran Mau Tri Tam. Unsplash License.
+  </figcaption>
+</figure>
 
 What happened? Was a GitHub account compromised? A cloud.gov account? A deploy key?
 
