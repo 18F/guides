@@ -10,6 +10,11 @@ eleventyNavigation:
   key: Tools
   order: 1
   title: Tools
+subnav:
+  - text: Standards
+    href: "#standards"
+  - text: Defaults
+    href: "#defaults"
 ---
 
 Our software is built on the shoulders of giants. We use several third parties to perform continuous monitoring, host our apps, etc.

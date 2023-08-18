@@ -10,6 +10,12 @@ eleventyNavigation:
   key: Output encoding
   order: 3
   title: Output encoding
+subnav:
+  - text: What is cross site scripting?
+    href: "#what-is-cross-site-scripting-xss"
+  - text: How to correctly encode output
+    href: "#how-to-correctly-encode-output"
+  
 ---
 
 ## What is cross site scripting (XSS)?

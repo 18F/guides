@@ -10,6 +10,19 @@ eleventyNavigation:
   key: Choosing a web app architecture
   order: 10
   title: Choosing a web app architecture
+subnav:
+  - text: Why push for simplicity
+    href: "#why-push-for-simplicity"
+  - text: How to choose an approach
+    href: "#how-to-choose-an-approach"
+  - text: Static site
+    href: "#if-you-can-make-it-a-static-site-you-should"
+  - text: Server-rendered app
+    href: "#if-you-can-t-it-should-probably-be-a-server-rendered-app"
+  - text: Using JavaScript
+    href: "#if-your-use-case-requires-a-bit-of-client-side-interactivity-use-the-above-options-with-a-bit-of-javascript"
+  - text: Conclusion
+    href: "#conclusion"
 ---
 The goal of this guide is to help you decide how to approach a web application’s architecture, driving towards simplicity.
 

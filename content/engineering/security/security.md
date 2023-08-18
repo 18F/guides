@@ -10,6 +10,11 @@ eleventyNavigation:
   key: Security
   order: 1
   title: Security
+subnav:
+  - text: FISMA
+    href: "#fisma"
+  - text: When should I be thinking about security?
+    href: "#when-should-i-be-thinking-about-security"
 ---
 
 Security is everybody's responsibility at TTS but if you're not used to thinking about security in your day-to-day job, that's understandable. We come from a range of different backgrounds, some of which involved security more than others. 

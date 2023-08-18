@@ -12,6 +12,17 @@ eleventyNavigation:
   title: Docker for development
 redirect_from:
   - /project-setup/docker/
+subnav:
+  - text: Why?
+    href: "#why"
+  - text: Recommendations
+    href: "#recommendations"
+  - text: Examples
+    href: "#examples"
+  - text: Docker Hub
+    href: "#docker-hub"
+  - text: Additional reading
+    href: "#additional-reading"
 ---
 
 Below we lay out recommendations for using Docker to wrap development dependencies. Unfortunately, this is a relatively new space and we don't have a consistent, end-to-end setup at the moment. Instead, we'll provide pointers, partial solutions, and examples. We intend to flesh out complete solutions as they become apparent in addition to a comprehensive introduction.

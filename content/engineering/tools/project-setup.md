@@ -10,6 +10,25 @@ eleventyNavigation:
   key: Project setup
   order: 3
   title: Project setup
+subnav:
+  - text: Source code management
+    href: "#source-code-management"
+  - text: Repository checklist
+    href: "#repository-checklist"
+  - text: Branch protection
+    href: "#branch-protection-requirement"
+  - text: Project management tool
+    href: "#project-management-tool"
+  - text: Continuous Integration/Continuous Deployment
+    href: "#continuous-integration-continuous-deployment"
+  - text: Code coverage metrics
+    href: "#code-coverage-metrics"
+  - text: Static analysis for code quality
+    href: "#static-analysis-for-code-quality"
+  - text: Dependency management
+    href: "#dependency-management"
+  - text: Deployment infrastructure
+    href: "#deployment-infrastructure"
 ---
 
 While the specific setup for each TTS project varies widely, there are certain elements that should be present in all source code repositories. This document aims to detail those elements and suggest corresponding tools and resources.
@@ -72,7 +91,6 @@ Choose a tool that will work for you and your partner. Remember, they will be th
 - [GitHub Issues](https://guides.github.com/features/issues/) {% include "components/tag-default.html" %}
 - [Trello](https://trello.com/) {% include "components/tag-suggestion.html" %}
 - [Jira](https://www.atlassian.com/software/jira) {% include "components/tag-suggestion.html" %}
-
 
 ## Continuous Integration/Continuous Deployment
 Developers don't always remember to run the test suite. That's why we have Continuous Integration services to run the tests automatically after each commit. CI also helps ensure there's nothing specific to the developer's machine that makes the tests pass.

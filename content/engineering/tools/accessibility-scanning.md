@@ -10,6 +10,9 @@ eleventyNavigation:
   key: Accessibility scanning
   order: 7
   title: Accessibility scanning
+subnav:
+  - text: Recommended tools
+    href: "#recommended-tools"
 ---
 
 Building a website or application that is easy accessible to everyone is  not only an important of the user experience, but also a requirement of all federally funded projects. GSA provides a helpful [Section 508](https://section508.gov) portal. Accessibility should not just be an afterthought! Start thinking about how to make your projects accessible before you begin any development.
@@ -18,9 +21,9 @@ While coding a site to be accessible is a responsibility for engineers, accessib
 
 A more exhaustive list of elements and tools can be found at the [18F Accessibility Guide](https://accessibility.18f.gov/).
 
-# Recommended tools
+## Recommended tools
 
-## Pa11y with aXe-core {% include "components/tag-standard.html" %}
+### Pa11y with aXe-core {% include "components/tag-standard.html" %}
 
 [Pa11y](https://pa11y.org/) maintains a handful of open-source automated testing tools that scan your sites to check for accessibility problems. Their tools can be setup on your machine locally or remotely using a CI tool.
 
@@ -30,16 +33,16 @@ Pa11y also maintains [Pa11y](https://github.com/pa11y/pa11y) that allows you to 
 
 While Pa11y gives you the option of different test runners, we recommend using aXe-core.
 
-### aXe-core {% include "components/tag-standard.html" %}
+#### aXe-core {% include "components/tag-standard.html" %}
 [aXe-core](https://github.com/dequelabs/axe-core) is an open source accessibility testing engine; it includes a set of accessibility rules that Pa11y will test against. It is also possible to incorporate aXe-core directly into your integration tests as well.
 
-### Running pa11y in CI
+#### Running pa11y in CI
 - [GitHub Actions](#github-actions-on-every-pull-request)
   - [Jekyll Specific Setup](#jekyll-specific-setup)
   - [Eleventy Specific Setup](#eleventy-specific-setup)
 - [Circle CI](#circle-ci-setup-instructions)
 
-#### GitHub Actions on every pull request
+##### GitHub Actions on every pull request
 If you are not familiar with GitHub Actions, you may want to start by reading their [quick start guide](https://docs.github.com/en/actions/quickstart).
 
 Thanks to Daniel Mundra and the folks at CivicActions Accessibility and their [comprehensive documentation](https://accessibility.civicactions.com/posts/automated-accessibility-testing-leveraging-github-actions-and-pa11y-ci-with-axe) on setting up Pa11y-ci with GitHub Actions. Much of the below code is taken from that blog post; read through for more details.
@@ -92,7 +95,7 @@ jobs:
 
 Depending on the type of technology you have built your site in, the rest of this file will vary.
 
-##### Jekyll-specific setup
+###### Jekyll-specific setup
 
 Add pa11y-specific scripts to `package.json`:
 
@@ -131,7 +134,7 @@ This installs Ruby and JavaScript dependencies, then starts Jekyll with the `sta
 To see a pa11y.yml live in the wild, check out [18F Accessibility site's pa11y.yml](https://github.com/18F/accessibility/blob/18f-pages/.github/workflows/pa11y.yml/TODO/).
 
 
-##### Eleventy-specific setup
+###### Eleventy-specific setup
 
 Install `start-server-and-test`:
 
@@ -169,7 +172,7 @@ Eleventy does not have a `--detach` option unlike Jekyll, so therefore we use `s
 
 You can see an example of this setup in the [Federal Audit Clearinghouse Front-End repository](https://github.com/GSA-TTS/FAC-Frontend).
 
-#### Circle CI setup instructions
+##### Circle CI setup instructions
 
 If you want to run pa11y-ci per pull request on your project:
 
@@ -210,12 +213,12 @@ If you want to run pa11y-ci per pull request on your project:
           - npm run --harmony accessibility-scan
    ```
 
-### Travis CI setup instructions(to be written)
+#### Travis CI setup instructions(to be written)
 
-## Adding pa11y to the compliance viewer(to be written)
+### Adding pa11y to the compliance viewer(to be written)
 
 
-### Pa11y CLI
+#### Pa11y CLI
 If you'd like to test a live website, whether or not you have accesss to the code, the Pa11y CLI can help!
 
 The CLI requires [Node.js](http://nodejs.org/) 8+, which you can install with homebrew or nvm.

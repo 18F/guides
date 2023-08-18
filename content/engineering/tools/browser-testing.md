@@ -10,6 +10,15 @@ eleventyNavigation:
   key: Browser testing
   order: 5
   title: Browser testing
+subnav:
+  - text: Windows
+    href: "#windows"
+  - text: Android
+    href: "#android"
+  - text: iOS
+    href: "#ios"
+  - text: Chrome-family browsers and Firefox
+    href: "#chrome-family-browsers-and-firefox"
 ---
 
 Regular cross-browser testing helps ensures your web site or application is accessible and functional to a broad audience, especially as Internet Explorer 11 is pervasive in federal government but TTS developers use Chrome on macOS almost exclusively.

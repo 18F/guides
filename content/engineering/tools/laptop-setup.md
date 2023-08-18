@@ -10,6 +10,11 @@ eleventyNavigation:
   key: Laptop setup 
   order: 2
   title: Laptop setup 
+subnav:
+  - text: Licensed software
+    href: "#licensed-software"
+  - text: Other customizations
+    href: "#other-customizations"
 ---
 
 While you are welcome to customize your laptop, here are some tools that have worked for others on the engineering team!
