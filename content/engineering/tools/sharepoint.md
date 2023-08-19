@@ -89,10 +89,12 @@ Within each SharePoint Online tenant, the next level of organization in SharePoi
 #### Development architecture
 In order to separate development work from active production sites, we need to create separate hub sites and team sites for development purposes. New features, pages, and configurations will be developed in these dev sites and when they are ready, they are moved into the production sites. This lets developers make changes more freely without having to worry that what they do will affect people who are actually using the production sites.
 
+<figure>
 {% image_with_class "assets/engineering/img/sharepoint/dev_architecture.png" "" "Development Architecture" %}
-
+<figcaption>
 <details>
-<summary>Source for diagram</summary><br/>
+<summary>Source for diagram</summary>
+
 This diagram was created with [Graphviz](https://graphviz.org/), and the source is below for future edits. Use an online editor, such as [Edotor](https://edotor.net/), and download the resulting graph SVG to update the image. Don’t forget to copy-paste the source back into this page for next time an edit is needed!
 
 ```dot
@@ -108,27 +110,32 @@ graph dev_architecture {
     devhub -- bdev
 }
 ```
-</details><br/>
+</details>
+</figcaption>
+</figure>
 
 The development sites only need to reproduce whatever production functionality is needed to make sure that they work correctly, so they don’t need a development version of every single team or communication site.
 
 ### Workflow
 As mentioned above, the principles of effective software engineering need to be enforced here by convention. We describe here a series of stages for each piece of work to help follow these conventions and principles.
 
-{% image_with_class "assets/engineering/img/sharepoint/dev_workflow.png" "" "Workflow" %}
+<figure>
+  {% image_with_class "assets/engineering/img/sharepoint/dev_workflow.png" "" "Workflow" %}
+<figcaption>
+  <details>
+  <summary>Source for diagram</summary>
 
-<details>
-<summary>Source for diagram</summary><br/>
+  This diagram was created with [Graphviz](https://graphviz.org/), and the source is below for future edits. Use an online editor, such as [Edotor](https://edotor.net/), and download the resulting graph SVG to update the image. Don’t forget to copy-paste the source back into this page for next time an edit is needed!
 
-This diagram was created with [Graphviz](https://graphviz.org/), and the source is below for future edits. Use an online editor, such as [Edotor](https://edotor.net/), and download the resulting graph SVG to update the image. Don’t forget to copy-paste the source back into this page for next time an edit is needed!
-
-```dot
-digraph dev_workflow {
-    rankdir=LR; node [shape="box"];
-    Development -> "Pull Request" -> "Review/Testing" -> "Deployment" -> Testing;
-}
-```
-</details><br/>
+  ```dot
+  digraph dev_workflow {
+      rankdir=LR; node [shape="box"];
+      Development -> "Pull Request" -> "Review/Testing" -> "Deployment" -> Testing;
+  }
+  ```
+  </details>
+</figcaption>
+</figure>
 
 #### 1. Development
 This is the stage where a developer is making changes only in the development sites to accomplish a particular goal. Because there isn’t source code available as a reference to what has been changed, developers need to take particular care to document the changes that they have made so that the same changes can be made in production.

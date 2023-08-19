@@ -19,7 +19,6 @@ eleventyNavigation:
 Getting new practices into the guide is pretty light on process. Feel free to raise a topic in Slack or at a guild meeting and drive to some consensus. Once you've done that, document your findings, submit a PR, and ask in #dev for a quick review. If you think a proposal might be controversial after getting some consensus prior, please post the draft PR to #dev (and elsewhere if you don’t think target audience is in that channel) and solicit feedback.
 
 ## How we classify best practices
-
 These documents are structured by topic; under topics we have classified we indicate "Requirement", "Standard", "Default", "Suggestion", and "Caution".
 
 If a classification is not present on a topic or a reference to a tool or practice, it should be presumed to be a {% include "components/tag-suggestion.html" %} and the decision is left at your discretion. If you are unsure, ask in #dev, as the topic or tool may be a good candidate for classification.
