@@ -50,7 +50,7 @@ sources, and a usable sample policy could look something like this:
 
 Let's break this down:
 
-```
+```http
   default-src self : Only load content from the current
     origin, exluding subdomains
 
