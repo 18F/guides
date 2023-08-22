@@ -29,15 +29,19 @@ to modify some of the meta-data for the site, this is the place to do it.
       {% assign page_title = title | append : ' | 18F ' %}
     {% endif %}
 
+    {% if description %}
+      {% assign page_description = description %}
+    {% endif %}
+
     <title>{{page_title}}{{ titles_roots[guide].title }} </title>
   <meta property="og:title" content="{{page_title}}" />
-  <meta name="description" content="{{page.description}}" />
-  <meta property="og:description" content="{{page.description}}" />
+  <meta name="description" content="{{page_description}}" />
+  <meta property="og:description" content="{{page_description}}" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{{title}}" />
-  <meta name="twitter:description" content="{{page.description}}" />
+  <meta name="twitter:description" content="{{page_description}}" />
 
   <meta property="og:type" content="article" />
   <link rel="canonical" href="{{ page.url }}" />
