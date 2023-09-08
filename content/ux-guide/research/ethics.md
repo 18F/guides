@@ -68,7 +68,7 @@ As a designer, you have power and privilege to influence and decide how someone 
   - Expand the range of [diverse perspectives]({{ '../plan/#recruitment-for-demographic-diversity' | url }}) that inform your research, from participation in design activities to decision making, e.g., how diverse are the observers in research interviews or your sources from desk research?
 
 - Share power
-  - Understand the [power]({{ '../power/' | url }}) difference between you and your research participants and move towards partnership 
+  - Understand the [power]({{ '../share-power/' | url }}) difference between you and your research participants and move towards partnership 
   - Ensure that people participate in our research willingly and understand how the research will be conducted and that they have control over their participation through [informed consent]({{ '../do/#getting-informed-consent' | url }}). Be clear on how the information they share will be used and who will have access to it. Allow them to opt out.
   - Provide value to [participants]({{ '../plan/#providing-value-to-participants' | url }}) to recognize and honor  their knowledge and experience
 - Reduce harm
