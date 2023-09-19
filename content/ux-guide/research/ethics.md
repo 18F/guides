@@ -41,7 +41,7 @@ Without active reflection and resistance, it can be easy to unintentionally perp
 - Team tension or discontentment
 - Questioning whether or not the work is having a meaningful impact
 - Focusing on budget, timeline, and resources without thinking through potential tradeoffs on what that means with regards to equity
-- When the lack of diversity on a team including, but not limited to gender, age, socio-economic status, culture, neuro-diversity and subject matter expertise either comes in to question or impedes the progress of a project
+- When the lack of diversity on a team including, but not limited to gender, age, socio-economic status, culture, neuro-diversity and subject matter expertise either comes into question or impedes the progress of a project
 
 You’ll find specific ethical practices to reduce harm embedded throughout our UX guide. They are centered on  [values and principles]({{ '../../our-approach/values-and-principles/' | url }}) that guide how we work and how we want to show up in our work. 
 
@@ -51,7 +51,7 @@ Ethics requires us to consider our role(s) in the impact we create with our work
 
 ### You as a government employee
 
-As a government employee, you are the face of the government and represent the history of actions and inaction by the government to different groups of the public. The people you interact with in your role may make assumptions about you based on their past experiences with the government. They may also not distinguish between their experiences with different federal agencies or between federal, state or local government. 
+As a government employee, you are the face of the government and represent the history of actions and inaction by the government to different groups of the public. The people you interact with in your role may make assumptions about you based on their past experiences with the government. They may also not distinguish between their experiences with different federal agencies or between federal, state, or local government. 
 
 
 - Learn and acknowledge the relationship between the federal government and the different groups. Understanding the history of a group and the challenges before engaging with them to avoid asking basic questions you can learn from background research. Consider [partnering with a community organization]({{ '../plan/#partnering-with-community-organizations' | url }}) to build trust and create more impact with your project.
@@ -69,18 +69,18 @@ As a designer, you have power and privilege to influence and decide how someone 
 
 - Share power
   - Understand the [power]({{ '../share-power/' | url }}) difference between you and your research participants and move towards partnership 
-  - Ensure that people participate in our research willingly and understand how the research will be conducted and that they have control over their participation through [informed consent]({{ '../do/#getting-informed-consent' | url }}). Be clear on how the information they share will be used and who will have access to it. Allow them to opt out.
+  - Ensure that people participate in your research willingly and understand how the research will be conducted and that they have control over their participation through [informed consent]({{ '../do/#getting-informed-consent' | url }}). Be clear on how the information they share will be used and who will have access to it. Allow them to opt out.
   - Provide value to [participants]({{ '../plan/#providing-value-to-participants' | url }}) to recognize and honor  their knowledge and experience
 - Reduce harm
   - Respect participants’ experience, values and needs as more important than achieving your research goals by mitigating the chances of potential harms to participants when [moderating sensitive research sessions]({{ '../do/#moderating-sensitive-research-sessions' | url }})
-  - Recruit for your [participant safety]({{ '../plan/#participant-safety-as-a-recruitment-factor' | url }}) to avoid the chances of triggering a trauma response
+  - Consider [participant safety]({{ '../plan/#participant-safety-as-a-recruitment-factor' | url }}) as a recruitment factor to avoid the chances of triggering a trauma response
   - Debriefing to intentionally [make space for the team to process]({{ '../do/#make-space-for-the-team-to-process' | url }}) how they might be impacted by difficult research sessions so the team can be emotionally centered and know if/when they need a break
 
   ### You as a member of the public
 
   In addition to your roles at the office, your lived experiences inform your work. Your personal perspectives might give you valuable insights into the different communities you are a part of but also might lead to making more assumptions. Review the [types of bias in research]({{ '../bias/#types-of-bias-in-research' | url }}) to consider how your background impacts the perspective you bring to the work.
 
-  You may be on a project where your background or experience has overlap with the people using your product/service. For example, if you are redesigning a benefits program that you once participated in, you may find yourself in a dual role as a designer on a project team and as someone with lived experience similar to your research participants. It would be unethical to try and to translate a participant's experience based on your own but your dual role might give you a better sense of their context. This may also create added stress if colleagues lean on you to sit in both roles and be a translator of a participant's experience. Be clear with your colleagues about the line you want to walk with how much of your personal experience you are willing to bring in as your role as a team member.  
+  You may be on a project where your background or experience has overlap with the people using your product/service. For example, if you are redesigning a benefits program that you once participated in, you may find yourself in a dual role as a designer on a project team and as someone with lived experience similar to your research participants. It would be unethical to try and to translate a participant's experience based on your own but your dual role might give you a better sense of their context. This may also create added stress if colleagues lean on you to sit in both roles and be a translator of a participant's experience. Be clear with your colleagues about the line you want to walk with how much of your personal experience you are willing to bring into your role as a team member.  
 
 ## Further reading 
 
