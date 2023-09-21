@@ -1,10 +1,12 @@
-    <div class="tablet:grid-col">
-      {% for link in include.links %}
-        {% if forloop.first == true %}
-          <h2 class = "usa-prose">{{ link.text }}</h2>
-          <a href = "{{ link.href }}">Overview</a><br />
-        {% else %}
-          <a href = "{{ link.href }}">{{ link.text }}</a><br />
-        {% endif %}
-      {% endfor %}
-    </div>
+<div class="tablet:grid-col">
+  {% for link in links %}
+    {%- if forloop.first == true -%}
+      <h2 class = "usa-prose">{{ link.title }}</h2>
+      <a href = "{{ link.url }}">Overview</a>
+    {%- else -%}
+      <p class="margin-bottom-05 margin-top-0">
+        <a href = "{{ link.url }}">{{ link.title }}</a>
+      </p>
+    {%- endif -%}
+  {% endfor %}
+</div>
