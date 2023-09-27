@@ -4,7 +4,7 @@ A work in progress repository for consolidating the 18F Guides and Methods
 
 ## How do I update this content?
 
-The [CODEOWNERS file](.github/CODEOWNERS) keeps track of who is in review & approver roles for content in this repository — if you’re not receiving a timely review or notice the list is outdated, reach out to 18F’s Chief of Delivery for assistance. These reviewers will be automatically tagged appropriately when opening pull requests. 
+The [CODEOWNERS file](.github/CODEOWNERS) keeps track of who is in review & approver roles for content in this repository — if you’re not receiving a timely (within two weeks) review or notice the list is outdated, reach out to 18F’s Chief of Delivery for assistance. These reviewers will be automatically tagged appropriately when opening pull requests. 
 
 ## Development
 
