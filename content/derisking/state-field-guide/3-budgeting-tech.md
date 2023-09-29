@@ -1,6 +1,7 @@
 ---
 title: Budgeting and overseeing tech projects
 page_title_tag: h2
+seo_title: Budgeting and overseeing state-level tech projects
 tags: derisking
 permalink: /derisking/state-field-guide/budgeting-tech/
 layout: layouts/page

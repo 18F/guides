@@ -24,6 +24,7 @@ agile:
   title: Agile
   root: /agile/
 ```
+
 ## Guide primary navigation
 
 The `_data/navigation.yaml` file is used to define the primary navigation for each guide. The guide’s tag is used as a key which maps to its list of link names and urls.
@@ -83,6 +84,12 @@ You can use the existing `subnav:` options in the original file's front matter t
 ### Other front matter
 See more about front matter options in [/docs/front-matter].
 
+## Page titles
+By default, the page's `<title>` tag will use the `title` set in the page's front matter. 
+
+You can also set a custom page title using `seo_title` in the front matter, to improve the experience for people skimming search results. Reasons to write a custom page title include:
+- The `title` is more than 30-35 characters long
+- The `title` is too similar to titles on other guides. (Examples are "Introduction" or "Planning.")
 
 ## Ignoring assetPaths
 We want to avoid commiting the `assetPaths.json` file, but need to keep it out of the project `.gitignore` in order to allow eleventy to rebuild when it is changed. One way to resolve this issue is to add `assetPaths.json` to the git exclude list:
