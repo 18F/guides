@@ -61,15 +61,13 @@ This doesn’t mean agencies need to do all the work in-house; however, it does 
 
 Technical knowledge is cheap and abundant, but knowing how to run a state agency is a rare and valuable skill. Government must embrace and own its responsibility and risk of failure, recognizing that technology vendors are hired only to help and should be easily replaceable if they don’t deliver.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The project has a dedicated, empowered product owner who is an employee of the mission agency — not a contractor, and not an employee of the state’s IT agency
 - Stakeholders recognize that the existing approach (waterfall development) fails the majority of the time, and that moving to agile development and modular procurement is, in fact, significantly less risky
 - Stakeholders regard outside vendors as interchangeable tools to accomplish a goal, rather than as the "owners" of a project or its outcome
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Are there identified and trained government employees (not contractors) that will serve as dedicated and empowered product owners to set direction, prioritize, and oversee the work of the development team?
 - Is there a chain of support for this new approach within the agency all the way up to the governor’s office, central IT, legal and procurement offices, as well as the legislature? Are any of those stakeholders able to block adoption of this new approach? If so, what is the path to escalating issues, ensuring alignment, and preventing those internal blockers from putting the project at risk?
@@ -87,8 +85,7 @@ To ensure vendors deliver work that meets the needed technical specifications, i
 
 Historically, there has been pressure to only use firm fixed price contracts, on the assumption that this reduces risk. However, if you are in a position to constantly measure software quality, then a time and materials contract — with a ceiling on total spending — allows for more flexibility for the software development team. A time and materials contract also allows for much easier escape clauses if the direction of the work changes or the vendor team is not producing quality software. If a vendor team’s work is inadequate, or their skills prove inappropriate, then no further work need be assigned to that vendor (effectively terminating the contract), and the vendor can be replaced.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The project has a dedicated, empowered product owner who is an employee of the agency — not a contractor, and not an employee of the state’s IT agency — whose job it is to prioritize work for the development team
 - An agency contracting officer has embraced this project, and is enthusiastic about procuring software in new ways
@@ -99,8 +96,7 @@ Historically, there has been pressure to only use firm fixed price contracts, on
 - A time and materials contract (with a cap) will be used
 - The simplest available procurement vehicle that provides access to the targeted vendors will be used
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Is the product owner empowered to rapidly make authoritative decisions on behalf of the agency?
 - Is the product owner prepared to spend most of their work hours fulfilling the requirements of this new role?
@@ -119,14 +115,12 @@ Instead of mandating any one solution at the budgeting stage, give agencies the 
 
 It may well make sense to use COTS or SaaS as the core of a major new agency system. But the legislature and the agency needs to go into that with eyes wide open, recognizing that they’re not likely to get a completely turnkey COTS or SaaS solution for specialized agency software.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The budget allocation does not mandate the use of COTS, SaaS, or custom software, but allows the agency to fund a combination of those as they find necessary
 - Vendors’ claims that their COTS or SaaS product will work immediately, without burdensome modification or customization, are independently investigated by talking to other states and agencies that have used those products and gone through the customization and deployment process
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - How will COTS software updates be made once the product has been customized to meet the agency’s needs? How much further customization will be required to integrate those modifications, and who will pay for those updates?
 - What happens if the SaaS vendor goes out of business one day without warning?
@@ -142,8 +136,7 @@ An important part of ensuring that progress isn’t illusory is for the contract
 
 The QASP does not require producing any artifacts explicitly for the purpose of monitoring the work — the way to monitor the work is by _seeing if it actually works._ This is a very different way to monitor the progress of a technology project. It has the added benefit of being a more objective, observable, functional test than requiring subjective or legal interpretations about whether the work satisfies a long series of system requirements.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - An empowered, dedicated government employee will serve as the product owner
 - There will be no planning or reporting requirements that run counter to agile (i.e., there are no dates by which specific tasks are to be completed and no specifications of exact functionality that will be required — whether in the RFP, the acquisition plan, or legislation)
@@ -151,8 +144,7 @@ The QASP does not require producing any artifacts explicitly for the purpose of 
 - People providing oversight, above the level of the government product owner, are willing to primarily receive "reports" in the form of demonstrations of functioning software and burn down charts, combined with a review of user stories that have been completed and those that remain to be completed
 - There is an identified person within the agency who is prepared to provide repeated explanations of progress to each level of oversight, because artifacts of measuring progress on an agile project are unfamiliar to people accustomed to waterfall projects
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Is it feasible to provide the end-to-end support for such a radically different approach to measuring progress, from the agency to the governor’s office to the legislature? Is there anybody with the power to dig in their heels and demand a Gantt chart, thus potentially making agile methodology non-viable?
 - Whose job will it be to report progress up and out of the agency, e.g., to a legislative oversight committee?
@@ -175,15 +167,13 @@ Although software is never "done" — you’ll always need to adapt to changing 
 
 For larger projects, you’ll need to contract for a development team indefinitely, under the oversight of a government product owner. Under waterfall, this travels under the name of "Operations and Maintenance," but under agile, O&amp;M is simply continued user research, design, software development, etc.[^etc]
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - There are one or more budget-office employees with experience developing complex, custom software in an agile environment who will assist in evaluating custom-software budget requests
 - If there are no budget-office employees with relevant experience, the legislature has a contract with a non-conflicted vendor — one with no other contracts with the state and no ties or partnerships with any COTS products
 - The agency has identified a specific government employee who will be providing technical leadership for the project, along with evidence of their experience developing custom software in an agile environment
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - When a vendor delivers code at the end of every sprint, which _specific_ government employee will inspect that code to ensure quality?
 - If an agency says they need \$10 million to complete a specific software project, which budget office employee is equipped to know whether that’s an appropriate price? Which _specific_ legislative budget committee employee is equipped to know whether that’s an appropriate price?
@@ -199,8 +189,7 @@ Technology changes, government policies change, regulations change, laws change,
 
 So rather than acquiring one giant piece of proprietary software, insist that your vendors default to practices like using open-source software and service-oriented architecture. That way, you can optimize for reducing the cost of updating and changing the system from the beginning.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 
 - Systems, whether cloud-native or being moved to the cloud, will use service-oriented architecture (SOA) that is vendor- and product-agnostic
@@ -210,8 +199,7 @@ So rather than acquiring one giant piece of proprietary software, insist that yo
 - Government will own all vendor work products
 - If using COTS components, the vendor will provide a path to leave for a competitor — both contractually and technologically — with a cost-effective way to export all stored data
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - What is the plan for reducing the time and cost of future updates to the system due to technology, policy, or vendor changes?
 - How much will it cost to change the system to reflect needed technology or policy changes?
@@ -225,8 +213,7 @@ Value shouldn’t come at the end of a project — it must be provided to end us
 
 Don’t measure progress in "story points," lines of code written, person-hours of work, etc. The only measure of success that matters is what value has been delivered to end users. This is best assessed by attending semi-weekly sprint reviews and talking to both the scrum master and the government product owner.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The vendor team will use agile
 - The vendor will be required to deploy functioning software into a government-owned environment at the end of each sprint
@@ -234,8 +221,7 @@ Don’t measure progress in "story points," lines of code written, person-hours 
 - The RFP will have no mention of a detailed project schedule, and there will be no mention of Gantt charts or Independent Validation and Verification (IV&amp;V) contracts
 - A legislative staffer will be assigned to provide oversight of the project, and will coordinate with project leadership to monitor progress by periodically attending sprint reviews
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Can the requesting agency deliver value to end users within six months? What, specifically, is that value?
 - Is the agency prepared for the vendor to continuously interview and test their work with actual end users of the software — perhaps including agency employees?
@@ -244,13 +230,11 @@ Don’t measure progress in "story points," lines of code written, person-hours 
 
 The greater the amount of money spent on a software project, the greater the odds of failure. As a general rule, plan to spend no more than \$10 million on an entire project.[^project] (There are rare exceptions for extraordinarily complex systems like unemployment insurance, Medicaid Eligibility &amp; Enrollment, and Medicaid Management Information Systems.)
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The requesting agency understands they’re not being given a small percentage of the resources they believe they need — instead, they’re being given an entirely new process to procure software, as well as adequate funding under that model
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - If the project "requires" \$20 million in funding, what value can be delivered to end users with \$10 million? Or \$2 million? (If the answer is "none," then this is a project doomed to fail)
 - When this spending is matched by federal dollars — especially at a highly-leveraged rate, like the 9:1 match provided by the Centers for Medicare &amp; Medicaid Services for Medicaid Management Information Systems — is anybody going to get in trouble for leaving money on the table?
@@ -266,16 +250,14 @@ In addition to preventing lock-in, there’s another benefit to using smaller co
 
 As the number of people who work on a project increases, so does the amount of time that all of those people have to spend coordinating with each other. The solution to this is to have them work in parallel, which is possible when building with loosely coupled parts. Having more than one vendor team working on your project also provides you with more competitive options if you need to change vendors.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - If the project will require multiple contracts, the scope of the first contract has been identified, and there is a general idea of what some other contracts may be comprised of
 - If there will be more than one development team, service-oriented architecture (SOA) will be employed
 - When possible, contracts will be sized within the simplified procurement threshold so they can be awarded quickly and easily
 - The identified first project has relatively low technical complexity, low political risk, and high end-user value, so that teams can start practicing working this way while experimenting and learning in a relatively low-risk environment
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Have the relevant contracting officers read this handbook?
 - Do the contracting officers understand that they’re not being asked to do all of the work that goes into a \$50 million contract? Do they understand that \$2 million contracts are far easier to award and that, under agile, they’ll also be much easier to manage?
@@ -284,16 +266,14 @@ As the number of people who work on a project increases, so does the amount of t
 
 Don’t replace the old legacy system with a new legacy system. Insist on loosely coupled systems that are built incrementally. That way, they’ll never need to be replaced wholesale — they’ll just replace individual components as the need arises.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - Each contract will be written to deliver value to end users — they’re not for "maintaining servers" or "setting up a database," but for "adding a web-based permit application system" or "simplifying the intake process"
 - There will be no single "enterprise architect," because the architecture will emerge iteratively throughout the agile process
 - If the project is large enough that it will include multiple scrum teams working simultaneously, there is no expectation that all members of all teams will ever be in meetings together
 - The RFP will specify the use of service-oriented architecture for each component
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Is there a single point of failure that can bring the whole system down? (If so, that’s probably monolith, not a system.)
 - If one vendor’s contract needs to be terminated for non-performance, can the others continue to work without interruption?
@@ -310,8 +290,7 @@ How do you find those qualified small businesses? There are a number of cities a
 
 Although the procurement team will be tempted to seek out vendors who have previously built a near-identical system, that’s both unnecessary and limits the vendor pool to just a few big, international companies. Instead, they should widen their scope to look for vendors that have built something analogous. A vendor that has built a website to book rental cars can build a website to apply for backcountry camping permits. A lead developer who has built a database to track the positions of comets can build a database to track state-owned vehicles. By seeking relevant expertise with this axis, the procurement team will find plenty of developers who can get the job done.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The RFP will be streamlined (no more than 20 pages), and comprehensible by software developers who do not normally work with government
 - The acquisition plan includes reaching out to small vendors to encourage them to bid
@@ -321,8 +300,7 @@ Although the procurement team will be tempted to seek out vendors who have previ
 - Vendor employees will not be required to work on-site at a government facility
 - Vendor teams and the government product owner will be permitted to use a desktop-based video call service, a real-time chat tool, and a public, Git-based version-control system, such as [those available for use by remote employees of the General Service Administration](https://www.gsa.gov/reference/for-gsa-employees/on-the-go) and [other tools commonly used by agile development teams](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF#page=3)
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Are there any benefits — political or otherwise — to awarding contracts to in-state vendors, or even requirements to do so? Might that limit the degree to which you can expand your vendor pool?
 - Is \$1 million per year savings for each scrum team sufficient to overcome any objections to remote teams?
@@ -334,16 +312,14 @@ An agency’s software is likely to be useful, in whole or in part, to other age
 
 If the software is published openly, vendors’ employees will be eager to work on it — it becomes a rare case of work that they can add to their portfolio for future jobs or share with friends, which helps to ensure that you’re getting their best work. Also, additional RFPs issued for the project can direct vendors to the code that’s already been written, allowing them to see exactly what they’ll be working on or interfacing with. A federal agency funding the work may be eager to find ways to share your software with other states that they’re also funding.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The RFP will require that software source code be written and maintained in public on a social-coding platform (e.g., [GitHub](http://github.com/) or [GitLab](https://gitlab.com/)), from day one
 - The RFP will require that software be explicitly dedicated to the public domain or published under an [open source license](https://opensource.org/licenses)
 - The RFP will use best security practices by requiring that software be strictly separated from data and secrets (e.g., passwords), with automated testing to make sure that separation is maintained
 - The RFP will require that software be documented sufficiently well that a developer with no connection to the project can use it to run their own copy of the software
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Will the state or agency security office bristle at the prospect of publishing open-source software and block deployment of the software?
 - Are there other agencies in the state or elsewhere around the country who are likely to benefit from this software? Can they be consulted prior to and during the development process?
@@ -362,8 +338,7 @@ Rule of thumb: a "scrum team" of 5–9 developers costs
 
 Ultimately, this can provide agencies with a predictable source of funding for software projects — replacing unpredictable capital expenditures — while simultaneously providing the legislature with a predictable annual cost for all agency software projects.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The agency recognizes that software must be improved continuously as long as it is in use, because "maintenance" is functionally the same as building software in the first place
 - The agency plans to procure agile development services
@@ -371,8 +346,7 @@ Ultimately, this can provide agencies with a predictable source of funding for s
 - This approach has been coordinated with the governor’s office, the budget office, agencies, and the state IT agency — this is likely a radical change that will require trust and cooperation between all parties
 - If an agency’s request is at a high risk of failure, you will allocate only a few million dollars in the first year, increasing funding as the project delivers value
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - Is the requested funding going to be spent within a single budget period?
 - Perhaps \$50 million is being requested, but what value can be delivered to end users with \$2 million? And the next \$2 million? And so on?
@@ -384,8 +358,7 @@ Budget requests for custom software often feature non-technical people making a 
 
 It is no kindness to fund a project that is going to fail. If the agency doesn’t know exactly what they want to buy, they’re not going to get it.
 
-#### Checklist
-{.guide-checklist}
+#### Checklist {.guide-checklist}
 
 - The agency will rely on the U.S. Digital Service’s [Digital Services Playbook](https://playbook.cio.gov/)
 - If building a website, the agency will direct the vendor to use the [United States Web Design System (USWDS)](https://designsystem.digital.gov/)
@@ -393,8 +366,7 @@ It is no kindness to fund a project that is going to fail. If the agency doesn�
 - The agency has read this handbook
 - The rules and questions found in the Defense Innovation Board’s "[Detecting Agile BS](https://media.defense.gov/2018/Oct/09/2002049591/-1/-1/0/DIB_DETECTING_AGILE_BS_2018.10.05.PDF)" guide have been applied to and asked of the agency, and their answers are satisfactory
 
-#### Key questions
-{.key-questions}
+#### Key questions {.key-questions}
 
 - What exactly does the agency want to buy? Why? Who will benefit?
 - Which parts of the system will be custom? Which will be actual (not customized) COTS? How much will those updates cost? What will be done when a commercial component ends production — e.g., if the database company goes out of business?
