@@ -2,6 +2,7 @@
 layout: layouts/page
 title: Appendix
 page_title_tag: h2
+hidden_guide_title: Federal Field Guide
 tags: derisking
 permalink: /derisking/federal-field-guide/appendix/
 eleventyNavigation:
@@ -15,8 +16,6 @@ subnav:
 - text: Verbal Interview Question Bank
   href: '#verbal-interview-question-bank'
 ---
-
-# Federal Field Guide {.usa-sr-only}
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/fed5-appendix.svg" %}
 

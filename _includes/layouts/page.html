@@ -20,6 +20,9 @@ This template is for a single page that does not have a date associated with it.
           {% assign page_title_tag = "h1" %}
         {%- endunless -%}
         {%- if title -%}
+          {%- if hidden_guide_title -%}
+          <h1 class="usa-sr-only">{{ hidden_guide_title }}</h1>
+          {%- endif -%}
           <{{page_title_tag}} class="page-title {{tags[0]}}">{{ title }}</{{page_title_tag}}>
         {%- endif -%}
         {{ content }}

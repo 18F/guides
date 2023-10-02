@@ -1,6 +1,7 @@
 ---
 title: Budgeting and overseeing tech projects
 page_title_tag: h2
+hidden_guide_title: State Software Budgeting Handbook
 seo_title: Budgeting and overseeing state-level tech projects
 tags: derisking
 permalink: /derisking/state-field-guide/budgeting-tech/
@@ -44,8 +45,6 @@ subnav:
 - text: Footnotes
   href: '#footnotes'
 ---
-
-# State Software Budgeting Handbook {.usa-sr-only}
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/agile-best-practices.svg" %}
 

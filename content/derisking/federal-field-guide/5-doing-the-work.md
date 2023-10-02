@@ -2,6 +2,7 @@
 layout: layouts/page
 title: Doing the work
 page_title_tag: h2
+hidden_guide_title: Federal Field Guide
 tags: derisking
 permalink: /derisking/federal-field-guide/doing-the-work/
 eleventyNavigation:
@@ -23,8 +24,6 @@ subnav:
 - text: Footnotes
   href: '#footnotes'
 ---
-
-# Federal Field Guide {.usa-sr-only}
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/fed4-work.svg" %}
 

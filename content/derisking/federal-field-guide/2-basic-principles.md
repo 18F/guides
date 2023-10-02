@@ -2,6 +2,7 @@
 layout: layouts/page
 title: Basic principles of modern software design
 page_title_tag: h2
+hidden_guide_title: Federal Field Guide
 tags: derisking
 permalink: /derisking/federal-field-guide/basic-principles/
 eleventyNavigation:
@@ -27,8 +28,6 @@ subnav:
 - text: Footnotes
   href: '#footnotes'
 ---
-
-# Federal Field Guide {.usa-sr-only}
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/agile-basics.svg" %}
 
