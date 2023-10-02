@@ -5,6 +5,9 @@ eleventyExcludeFromCollections: true
 # Replatforming
 This document captures the structure of the new platform for 18F approaches and outlines the process of migrating our existing content to the new platform. This document is a work in progress.
 
+Content for the guides is written using markdown, and pages are styled based on the layouts which are stored in `/includes/layouts`. Individual guide pages are customized using front matter, which is the set of key-value pairs you see at the top of many pages and posts. Front matter is written in YAML format and sets up some configuration for the page. 
+
+
 ##  Content organization
 The content for all of the guides is in the `content` folder, which is organized with subfolders for each guide. For example all of the content for the De-risking guide should be placed in `content/derisking/`.
 
@@ -81,15 +84,29 @@ Use `sticky_sidenav: true` to stick the sidenav to the top of the window when sc
 ### Subnavs
 You can use the existing `subnav:` options in the original file's front matter to generate a subnav with the current page's anchor links. To prevent errors in `eleventyNavigation`, ensure the `parent` and `key` values are different.
 
-### Other front matter
-See more about front matter options in [/docs/front-matter].
-
 ## Page titles
 By default, the page's `<title>` tag will use the `title` set in the page's front matter. 
 
 You can also set a custom page title using `seo_title` in the front matter, to improve the experience for people skimming search results. Reasons to write a custom page title include:
 - The `title` is more than 30-35 characters long
 - The `title` is too similar to titles on other guides. (Examples are "Introduction" or "Planning.")
+
+By default, the `title` front matter will be rendered as an `h1` element. There are two additional front matter options that control how the markup for the title.:
+
+- `page_title_tag`: When you need the title of the page to be something other than H1, use this. This takes the name of the tag only, like `h2` or `div` — don't set the full tag like `<h3>`.
+- `hidden_guide_title`: If added, this will take the value of `hidden_guide_title` and render a screen reader only `h1` element before teh `page_title_tag`. This option is meant to be used together with the `page_title_tag`. 
+
+Example usage:
+```
+title: Questions to ask
+page_title_tag: h2
+hidden_guide_title: State Software Budgeting Handbook
+```
+Which will render the following html:
+```
+<h1 class="usa-sr-only">State Software Budgeting Handbook</h1>
+<h2 class="page-title derisking">Questions to ask</h2>
+```
 
 ## Ignoring assetPaths
 We want to avoid commiting the `assetPaths.json` file, but need to keep it out of the project `.gitignore` in order to allow eleventy to rebuild when it is changed. One way to resolve this issue is to add `assetPaths.json` to the git exclude list:
