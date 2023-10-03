@@ -91,7 +91,7 @@ You can also set a custom page title using `seo_title` in the front matter, to i
 - The `title` is more than 30-35 characters long
 - The `title` is too similar to titles on other guides. (Examples are "Introduction" or "Planning.")
 
-By default, the `title` front matter will be rendered as an `h1` element. There are two additional front matter options that control how the markup for the title.:
+By default, the `title` front matter will be rendered as an `h1` element. There are two additional front matter options that control the markup for the title:
 
 - `page_title_tag`: When you need the title of the page to be something other than H1, use this. This takes the name of the tag only, like `h2` or `div` — don't set the full tag like `<h3>`.
 - `hidden_guide_title`: If added, this will take the value of `hidden_guide_title` and render a screen reader only `h1` element before teh `page_title_tag`. This option is meant to be used together with the `page_title_tag`. 
