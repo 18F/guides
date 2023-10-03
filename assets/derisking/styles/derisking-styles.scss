@@ -45,22 +45,12 @@ $bullet-spacing: 1.25rem;
     color: color('primary');
   }
 
- // Overriding default nested usa-prose list styles, extra specificty
+ // Extra specificty to override the nested list style in usa-prose without having
+ // to add a class for every nested list
   ul li ul li p {
     margin: 0 0 units(1) 0;
   }
 }
-
-
-// .first_page > h1 {
-//   @include u-font('sans', '3xl');
-// }
-
-// .first_page > h2 {
-//   @include u-font('sans', '2xl');
-//   border-top: 1px solid color('primary-dark');
-//   padding-top: units(1.5);
-// }
 
 #footnotes {
   @include u-font('sans', 'md');
