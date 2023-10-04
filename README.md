@@ -17,13 +17,12 @@ Ensure that you have the latest version of [Node](https://nodejs.org/en/download
 To run the site locally:
 
 1. Clone this repo
-2. Run `npm install`
-3. From the repo directory, run:
+2. From the repo directory, run:
    ```sh
    npm install
    npm run dev
    ```
-4. Open http://localhost:8080
+3. Open http://localhost:8080
 
 ### Codespaces
 [Codespaces](https://github.com/features/codespaces) allows you to set up a development environment easily and without dependencies on a local machine.
@@ -31,15 +30,15 @@ To run the site locally:
 #### Start a GitHub Codespace
 1. From this repo, Click "Code" and then the "Codespaces" tab.
 2. Click the "+" icon, agree to the terms.
-3. You should then see the repo interface. At the bottom, check the branch you are currently viewing.
+3. You should then see the repo interface. At the bottom, check the branch you are currently viewing or create a new one.
 
 #### Start the application and preview the site
 1. Give this a few minutes to warm up. At first, it will have a message "Welcome to Codespaces."  If you wait a bit, you'll see it recognize the environment and start to install libraries for you.
-2. Once it finishes installing the libraries, click on the "terminal" and type ```npm start```.
+2. Once it finishes installing the libraries, click on the "terminal" and type ```npm start```. 
 3. It will think for 10 - 20 seconds and then you should see a message pop up on the right side that the site is available.  Click "open in the browser.
 
 #### Make changes, preview them
-1. Select a file from the file explorer that you want to edit.  Make some changes!  You should be able to refresh the preview tab to see them immediately.
+1. Select a file from the file explorer that you want to edit.  Make some changes!  You should be able to refresh the preview tab to see them immediately. If you will be making changes to styles, you will need to restart the server via ```npm run dev``` for those to be reflected.
 
 #### Commit your changes
 1. When you’re happy with how things look, switch on the left-hand menu to the "sourcecode" view. It will show you any changes you have made. Click the file name (on the left) to view things you've removed/added to that file.
