@@ -39,7 +39,6 @@ npm run test:pa11y-ci
 Note that running `pa11y-ci` inside the docker container may not always work.
 
 ## Contributing
-
 If you are interested in contributing to this repository, you can read more at
 [CONTRIBUTING](CONTRIBUTING.md).
 

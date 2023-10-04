@@ -4,6 +4,7 @@ permalink: /accessibility/keyboard/
 layout: layouts/page
 sidenav: true
 tags: accessibility
+script: /assets/accessibility/js/keyboard-access.js
 eleventyNavigation: 
   key: keyboard
   parent: accessibility
