@@ -122,3 +122,12 @@ figcaption {
 figcaption details {
   font-style: normal;
 }
+
+// Engineering Guide
+.heading-md {
+  @include u-font('sans', 'md');
+}
+
+h2.heading-md {
+  margin-top: units(2);
+}
