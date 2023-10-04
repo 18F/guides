@@ -22,7 +22,7 @@ subnav:
 
 ---
 {% comment %}
-  Need to revisit the DATA Act and micropurchase project links in the sidenav
+  TODO: Need to revisit the DATA Act and micropurchase project links in the sidenav
 {% endcomment %}
 
 Maintainable technology projects require handoffs between developers, and with new teammates comes fresh perspectives. Building a [transparent and remote-friendly workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) is a great start to assist in knowledge transfer, as well as keeping projects as simple and obvious as possible and documenting key decisions.
