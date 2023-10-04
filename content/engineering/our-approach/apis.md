@@ -95,7 +95,7 @@ Some examples of these principles in action:
 * [Sunlight Congress API methods](https://sunlightlabs.github.io/congress/#using-the-api)
 
 ## Always use HTTPS
-{% include "components/tag-requirement.html" %} Any new API should use and require [HTTPS encryption](https://en.wikipedia.org/wiki/HTTP_Secure). HTTPS provides:
+{% include "engineering/tag-requirement.html" %} Any new API should use and require [HTTPS encryption](https://en.wikipedia.org/wiki/HTTP_Secure). HTTPS provides:
 
 * **Security**. The contents of the request are encrypted across the Internet.
 * **Authenticity**. A stronger guarantee that a client is communicating with the real API.
@@ -108,7 +108,7 @@ The CIO Council provides two relevant guides:
 * **[Migrating APIs to HTTPS](https://https.cio.gov/apis/)** covering moving existing HTTP-only APIs to HTTPS.
 
 ## Use UTF-8
-{% include "components/tag-requirement.html" %} Just [use UTF-8](http://utf8everywhere.org).
+{% include "engineering/tag-requirement.html" %} Just [use UTF-8](http://utf8everywhere.org).
 
 An API should tell clients to expect UTF-8 by including a charset notation in the `Content-Type` header for responses. For example, an API that returns JSON should use:
 
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
 Even if you do not believe your API will ever return data outside the ASCII character set, you should assume it could and return data encoded as UTF-8.
 
 ## Just use JSON 
-{% include "components/tag-standard.html" %} [JSON](https://en.wikipedia.org/wiki/JSON) is an excellent, widely supported transport format, suitable for many web APIs.
+{% include "engineering/tag-standard.html" %} [JSON](https://en.wikipedia.org/wiki/JSON) is an excellent, widely supported transport format, suitable for many web APIs.
 
 Supporting JSON and only JSON is a practical default for APIs, and generally reduces complexity for both the API provider and consumer.
 
@@ -130,7 +130,7 @@ General JSON guidelines:
 * **Use consistent case for keys**. Whether you use `under_score` or `CamelCase` for your API keys, make sure you are consistent.
 
 ## Use a consistent date format
-{% include "components/tag-standard.html" %} Specifically, [use ISO 8601](https://xkcd.com/1179/), in UTC.
+{% include "engineering/tag-standard.html" %} Specifically, [use ISO 8601](https://xkcd.com/1179/), in UTC.
 
 For dates, that looks like `{{ site.time | date: '%Y-%m-%d' }}`. For dates with times, that's of the form 
 `{{ site.time | date: '%Y-%m-%dT%TZ' }}`.

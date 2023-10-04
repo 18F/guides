@@ -23,7 +23,7 @@ A more exhaustive list of elements and tools can be found at the [18F Accessibil
 
 ## Recommended tools
 
-### Pa11y with aXe-core {% include "components/tag-standard.html" %}
+### Pa11y with aXe-core {% include "engineering/tag-standard.html" %}
 
 [Pa11y](https://pa11y.org/) maintains a handful of open-source automated testing tools that scan your sites to check for accessibility problems. Their tools can be setup on your machine locally or remotely using a CI tool.
 
@@ -33,7 +33,7 @@ Pa11y also maintains [Pa11y](https://github.com/pa11y/pa11y) that allows you to 
 
 While Pa11y gives you the option of different test runners, we recommend using aXe-core.
 
-#### aXe-core {% include "components/tag-standard.html" %}
+#### aXe-core {% include "engineering/tag-standard.html" %}
 [aXe-core](https://github.com/dequelabs/axe-core) is an open source accessibility testing engine; it includes a set of accessibility rules that Pa11y will test against. It is also possible to incorporate aXe-core directly into your integration tests as well.
 
 #### Running pa11y in CI
