@@ -19,13 +19,13 @@ This guide is where the TTS Engineering Practices Guild collects its best practi
 {% assign security_links = collections.all | eleventyNavigation: 'engineering_security' %}
 
 <div class="grid-row">
-  {%- include "categorylinks.html" links: about_links  -%}
-  {%- include "categorylinks.html" links: approach_links -%}
+  {%- include "engineering/categorylinks.html" links: about_links  -%}
+  {%- include "engineering/categorylinks.html" links: approach_links -%}
 </div>
 <div class="grid-row">
-  {%- include "categorylinks.html" links: tools_links  -%}
-  {%- include "categorylinks.html" links: languages_links  -%}
+  {%- include "engineering/categorylinks.html" links: tools_links  -%}
+  {%- include "engineering/categorylinks.html" links: languages_links  -%}
 </div>
 <div class="grid-row">
-  {%- include "categorylinks.html" links: security_links -%}
+  {%- include "engineering/categorylinks.html" links: security_links -%}
 </div>
