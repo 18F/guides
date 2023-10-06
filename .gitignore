@@ -120,3 +120,6 @@ web_modules/
 _site
 public
 node_modules
+
+# utils
+utils/test_redirects_output.csv
