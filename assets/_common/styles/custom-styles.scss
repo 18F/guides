@@ -52,6 +52,13 @@ h1, h2, h3, h4, h5, h6 {
 
   h2 {
     margin-top: units(5);
+    &.page-title {
+      margin-top: units(0);
+      &.derisking {
+        padding-top: units(1);
+        border-top: 1px solid #1C304A;
+      }
+    }
   }
 
   li p {
@@ -90,7 +97,6 @@ a.usa-button--accent {
 .width-200 {
   width: 200px;
 }
-
 
 // De-risking guide
 .first_page > h1 {

@@ -4,6 +4,7 @@
  */
 function setCurrentLink(){
   if (!document.querySelector('.usa-sidenav')) { return; }
+  if (!document.querySelector('.usa-sidenav__sublist')) { return; }
 
   let h3s = document.querySelectorAll('h3');
   if (h3s.length <= 1) { return; }

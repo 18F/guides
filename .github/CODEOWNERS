@@ -1,0 +1,37 @@
+# This file defines what approvals are needed to update both code and content.
+#
+# GitHub will automatically tag these people for review when anyone opens a pull request,
+# so no need to use this file directly unless you are updating it.
+# 
+# The 18F Chief of Delivery, as Product Owner, is ultimately accountable for keeping
+# this list up-to-date. If you spot anything outdated or are handing off your responsibility, 
+# feel free to make changes to this file and open a pull request, file an issue on GitHub,
+# or notify the Chief of Delivery. 
+# 
+# There are no additional approvals needed outside of those listed in this document. Of
+# course, feel free to request a review of your changes from anyone who you would like,
+# given the content of the changes you are making.
+
+# Unless another rule applies below, request review from someone on the TLC crew 
+# or the Chief of Delivery.
+* @18F/18f-tlc-crew @adunkman
+
+# Guides are currently organized by general topic area, and content approvals are 
+# delegated to relevant subject matter experts.
+
+/content/accessibility/**/*.md   @jasnakai
+/content/agile/**/*.md           @adunkman
+/content/brand/**/*.md           @igorkorenfeld
+/content/content-guide/**/*.md   @michelle-rago
+/content/derisking/**/*.md       @adunkman
+/content/design/**/*.md          @MelissaBraxton
+/content/eng-hiring/**/*.md      @amymok
+/content/engineering/**/*.md     @amymok
+/content/product/**/*.md         @allisonnorman
+/content/ux-guide/**/*.md        @juliaklindpaintner
+
+# The pull request template and CODEOWNERS files should be reviewed by the Chief of Delivery;
+# placed at the end of the file to ensure they are not overridden by another rule.
+/.github/pull_request_template.md @adunkman
+/.github/CODEOWNERS @adunkman
+
