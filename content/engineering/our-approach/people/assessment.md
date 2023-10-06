@@ -1,5 +1,5 @@
 ---
-title: 18F Engineering End of Year Assessment Guide
+title: 18F Engineering end of year assessment guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/people/assessment/
@@ -7,27 +7,23 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach
-  key: Assessment Guide
+  key: Assessment guide
   order: 10
-  title: Assessment Guide
-
+  title: Assessment guide
+subnav:
+  - text: Desired outcomes
+    href: "#desired-outcomes"
+  - text: Process
+    href: "#process"
+  - text: Continuous feedback
+    href: "#continuous-feedback"
 ---
 
-18F, as a part of GSA, has a mature [performance management and recognition system](https://insite.gsa.gov/topics/hr-pay-and-leave/employee-performance-management). 
-This includes an end-of-year performance assessment. 18F Engineering’s goals for the end-of-year assessment are to have 
-engineers talk with their facilitator and supervisor about the past year and create actionable plans for career growth 
-in the coming year. These reviews ideally build on a robust, granular, continuous feedback loop between an engineer, their 
-facilitator, and other coworkers.
+18F, as a part of GSA, has a mature [performance management and recognition system](https://insite.gsa.gov/topics/hr-pay-and-leave/employee-performance-management). This includes an end-of-year performance assessment. 18F Engineering’s goals for the end-of-year assessment are to have engineers talk with their facilitator and supervisor about the past year and create actionable plans for career growth in the coming year. These reviews ideally build on a robust, granular, continuous feedback loop between an engineer, their facilitator, and other coworkers.
 
-This guide is *historical* although still largely applicable, although there may be changes from current practices.
-Please submit a PR if you see an explanation or process that needs updating! 
+This guide is *historical* although still largely applicable, although there may be changes from current practices. Please submit a PR if you see an explanation or process that needs updating! 
 
-Assessments are based on an individual’s performance plan. GSA’s Office of Human Resources Management (OHRM) has a 
-[set of appraisal materials](https://insite.gsa.gov/topics/hr-pay-and-leave/performance-management/performance-management-appraising) applicable to all of GSA. These include a 
-good guide on [Appraising Objectively and Fairly](https://insite.gsa.gov/cdnstatic/insite/Appraising_Objectively_and_Fairly.pdf), 
-and the requirement to evaluate performance on a 5 point scale. Performance plans have what GSA calls “critical elements.” Each “critical element” in the performance plan is rated, and there is also a summary rating. 
-Some ratings can earn performance awards. You can find more detail, including what each rating number means, in the 
-[Appraisal Rating System & Performance Awards](https://docs.google.com/document/d/1YtnP2RoSJZh5IiKWVJwxyAksjafCqlmBXspCV8nlhZM/edit) document. 
+Assessments are based on an individual’s performance plan. GSA’s Office of Human Resources Management (OHRM) has a [set of appraisal materials](https://insite.gsa.gov/topics/hr-pay-and-leave/performance-management/performance-management-appraising) applicable to all of GSA. These include a good guide on [Appraising Objectively and Fairly](https://insite.gsa.gov/cdnstatic/insite/Appraising_Objectively_and_Fairly.pdf), and the requirement to evaluate performance on a 5 point scale. Performance plans have what GSA calls “critical elements.” Each “critical element” in the performance plan is rated, and there is also a summary rating. Some ratings can earn performance awards. You can find more detail, including what each rating number means, in the [Appraisal Rating System & Performance Awards](https://docs.google.com/document/d/1YtnP2RoSJZh5IiKWVJwxyAksjafCqlmBXspCV8nlhZM/edit) document. 
 
 
 ## Desired outcomes
@@ -89,7 +85,6 @@ Please remind reviewers to aim to be as specific as possible — ask for specifi
 If necessary, you can arrange short (15-30 minute) meetings with a reviewer to go over their feedback and gather specific examples. Whether you need to do this will depend on how good and specific written feedback is. Arranging a meeting can be a good method of chasing a response: it takes less time for the reviewer to tell you feedback than for them to write it up.
 
 ### 3. Synthesize feedback and draft a written review
-
 Now you’ve got a bunch of feedback, so the next step is to synthesize it down into a coherent written review.
 
 First, you’ll want to review all that feedback along with the person’s facilitator (if applicable). You’re looking for patterns, commonalities, or feedback that aligns with what you or the facilitator have personally observed. You’re looking to distill down all that feedback into a review for each critical element in the person’s performance profile. Include as many specific examples of behavior as possible — good feedback is specific and actionable (for a deeper treatment if this idea, see this article on [The Situation-Impact-Feedback Tool](https://www.mindtools.com/pages/article/situation-behavior-impact-feedback.htm)).
@@ -115,5 +110,4 @@ Finally, discuss their answers to the “engineering climate” questions. There
 Lastly, the engineer will need to sign the review. You’ll store those PDFs in a Google Drive folder (Talent will send us the link), Talent’s tracking spreadsheet, and CHRIS.
 
 ## Continuous feedback
-
 Our intention for this process is that it is part of a regular, granular feedback system. Engineers deserve frequent feedback on their performance. Our structure, where engineers will have an established relationship with their facilitator and supervisor, allows us to ensure that feedback happens. Providing regular feedback makes the annual review process a simple extension of regular feedback, as it is a culmination of the year’s progress.

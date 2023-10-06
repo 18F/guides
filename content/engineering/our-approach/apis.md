@@ -10,6 +10,33 @@ eleventyNavigation:
   key: APIs
   order: 8
   title: APIs
+subnav:
+  - text: Design for common use cases
+    href: "#design-for-common-use-cases"
+  - text: Using one's own API
+    href: "#using-one-s-own-api"
+  - text: Point of contact
+    href: "#point-of-contact"
+  - text: Notifications of updates
+    href: "#notifications-of-updates"
+  - text: API endpoints
+    href: "#api-endpoints"
+  - text: Always use HTTPS
+    href: "#always-use-https"
+  - text: Use UTF-8
+    href: "#use-utf-8"
+  - text: Just use JSON
+    href: "#just-use-json"
+  - text: Use a consistent date format
+    href: "#use-a-consistent-date-format"
+  - text: CORS
+    href: "#cors"
+  - text: API keys
+    href: "#api-keys"
+  - text: Pagination
+    href: "#pagination"
+  - text: Error handling
+    href: "#error-handling"
 ---
 
 APIs, like other web applications, vary greatly in implementation and design, depending on the situation and the problem the application is solving.
@@ -28,25 +55,21 @@ For APIs that syndicate data, consider several common client use cases:
 * **Driving expensive actions.** What would happen if a client wanted to automatically send text messages to thousands of people or light up the side of a skyscraper every time a new record appears? Consider whether the API's records will always be in a reliable unchanging order, and whether they tend to appear in clumps or in a steady stream. Generally speaking, consider the "entropy" an API client would experience.
 
 ## Using one's own API
-
 The #1 best way to understand and address the weaknesses in an API's design and implementation is to use it in a production system.
 
 Whenever feasible, design an API in parallel with an accompanying integration of that API.
 
 ## Point of contact
-
 Have an obvious mechanism for clients to report issues and ask questions about the API.
 
 When using GitHub for an API's code, use the associated issue tracker. In addition, publish an email address for direct, non-public inquiries.
 
 ## Notifications of updates
-
 Have a simple mechanism for clients to follow changes to the API.
 
 Common ways to do this include a mailing list, or a [dedicated developer blog](https://developer.github.com/changes/) with an RSS feed.
 
 ## API endpoints
-
 An "endpoint" is a combination of two things:
 
 * The verb (e.g. `GET` or `POST`)
@@ -72,8 +95,7 @@ Some examples of these principles in action:
 * [Sunlight Congress API methods](https://sunlightlabs.github.io/congress/#using-the-api)
 
 ## Always use HTTPS
-
-{% include "components/tag-requirement.html" %} Any new API should use and require [HTTPS encryption](https://en.wikipedia.org/wiki/HTTP_Secure). HTTPS provides:
+{% include "engineering/tag-requirement.html" %} Any new API should use and require [HTTPS encryption](https://en.wikipedia.org/wiki/HTTP_Secure). HTTPS provides:
 
 * **Security**. The contents of the request are encrypted across the Internet.
 * **Authenticity**. A stronger guarantee that a client is communicating with the real API.
@@ -86,8 +108,7 @@ The CIO Council provides two relevant guides:
 * **[Migrating APIs to HTTPS](https://https.cio.gov/apis/)** covering moving existing HTTP-only APIs to HTTPS.
 
 ## Use UTF-8
-
-{% include "components/tag-requirement.html" %} Just [use UTF-8](http://utf8everywhere.org).
+{% include "engineering/tag-requirement.html" %} Just [use UTF-8](http://utf8everywhere.org).
 
 An API should tell clients to expect UTF-8 by including a charset notation in the `Content-Type` header for responses. For example, an API that returns JSON should use:
 
@@ -98,8 +119,7 @@ Content-Type: application/json; charset=utf-8
 Even if you do not believe your API will ever return data outside the ASCII character set, you should assume it could and return data encoded as UTF-8.
 
 ## Just use JSON 
-
-{% include "components/tag-standard.html" %} [JSON](https://en.wikipedia.org/wiki/JSON) is an excellent, widely supported transport format, suitable for many web APIs.
+{% include "engineering/tag-standard.html" %} [JSON](https://en.wikipedia.org/wiki/JSON) is an excellent, widely supported transport format, suitable for many web APIs.
 
 Supporting JSON and only JSON is a practical default for APIs, and generally reduces complexity for both the API provider and consumer.
 
@@ -110,8 +130,7 @@ General JSON guidelines:
 * **Use consistent case for keys**. Whether you use `under_score` or `CamelCase` for your API keys, make sure you are consistent.
 
 ## Use a consistent date format
-
-{% include "components/tag-standard.html" %} Specifically, [use ISO 8601](https://xkcd.com/1179/), in UTC.
+{% include "engineering/tag-standard.html" %} Specifically, [use ISO 8601](https://xkcd.com/1179/), in UTC.
 
 For dates, that looks like `{{ site.time | date: '%Y-%m-%d' }}`. For dates with times, that's of the form 
 `{{ site.time | date: '%Y-%m-%dT%TZ' }}`.
@@ -119,7 +138,6 @@ For dates, that looks like `{{ site.time | date: '%Y-%m-%d' }}`. For dates with 
 This date format is used all over the web, and puts each field in consistent order -- from least granular to most granular.
 
 ## CORS
-
 For clients to be able to use an API from inside web browsers, the API must [enable CORS](http://enable-cors.org).
 
 For the simplest and most common use case, where the entire API should be accessible from inside the browser, enabling CORS is as simple as including this HTTP header in all responses:
@@ -133,7 +151,6 @@ It's supported by [every modern browser](http://enable-cors.org/client.html).
 For more advanced configuration, see the [W3C spec](http://www.w3.org/TR/cors/) or [Mozilla's guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS).
 
 ## API keys
-
 If keys are used to manage and authenticate API access, the API should allow some sort of unauthenticated access, without keys.
 
 This allows newcomers to use and experiment with the API in demo environments and with simple `curl` / `wget` / etc. requests.
@@ -141,11 +158,9 @@ This allows newcomers to use and experiment with the API in demo environments an
 Consider whether one of your product goals is to allow a certain level of normal production use of the API without enforcing advanced registration by clients.
 
 ## Pagination
-
 If pagination is required to navigate datasets, use the method that makes the most sense for the API's data.
 
 ### Parameters
-
 Common patterns:
 
 * `page` and `per_page`. Intuitive for many use cases. Links to "page 2" may not always contain the same data.
@@ -153,7 +168,6 @@ Common patterns:
 * `since` and `limit`. Get everything "since" some ID or timestamp. Useful when it's a priority to let clients efficiently stay "in sync" with data. Generally requires result set order to be very stable.
 
 ### Metadata
-
 Include enough metadata so that clients can calculate how much data there is, and how and whether to fetch the next set of results.
 
 Example of how that might be implemented:
@@ -170,7 +184,6 @@ Example of how that might be implemented:
 ```
 
 ## Error handling
-
 Handle all errors (including otherwise uncaught exceptions) and return a data structure in the same format as the rest of the API.
 
 For example, a JSON API might provide the following when an uncaught exception occurs:

@@ -78,8 +78,6 @@ eng-hiring:
     url: /eng-hiring/selection/
 
 engineering:
-  - name: Home
-    url: /engineering/
   - name: About this guide
     url: /engineering/about/
   - name: Our approach

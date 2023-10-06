@@ -1,5 +1,5 @@
 ---
-title: Architecture Reviews
+title: Architecture reviews
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/architecture-reviews/
@@ -7,25 +7,36 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Architecture Reviews
+  key: architecture_reviews
   order: 6
-  title: Architecture Reviews
----
+  title: Architecture reviews
+subnav:
+  - text: Simplicity
+    href: "#simplicity"
+  - text: "DATA Act Pilot: Simplicity is key"
+    href: "/engineering/data-act-pilot/"
+  - text: "Micro-purchase: Do one thing well"
+    href: "/engineering/micro-purchase/"
+  - text: Documenting key decisions
+    href: "#documenting-key-decisions"
 
-Maintainable technology projects require handoffs between developers, and with new teammates comes fresh perspectives. Building a [transparent and remote-friendly
-workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) is a great start to assist in knowledge transfer, as well as keeping projects as simple and obvious as possible and documenting key decisions.
+---
+{% comment %}
+  TODO: Need to revisit the DATA Act and micropurchase project links in the sidenav
+{% endcomment %}
+
+Maintainable technology projects require handoffs between developers, and with new teammates comes fresh perspectives. Building a [transparent and remote-friendly workplace](https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/) is a great start to assist in knowledge transfer, as well as keeping projects as simple and obvious as possible and documenting key decisions.
 
 ## Simplicity
 
 We’ve done two projects exploring different aspects of simplicity — first, the [DATA Act Pilot: Simplicity is Key]({{ "/engineering/data-act-pilot/" | url }}) (2016) project explored the ideas of:
 
-- Building for a least common denominator (CSVs) gave the project reach (more users could participate) and reduced code complexity.
-- Pulling out validation rules into a separate, easy-to-modify format made the product flexible and simple to maintain.
+- Building for a least common denominator (CSVs) gave the project reach (more users could participate) and reduced code complexity
+- Pulling out validation rules into a separate, easy-to-modify format made the product flexible and simple to maintain
 
 The second explores the idea of simplifying acquisitions in [Micro-purchase: Do one thing well]({{ "/engineering/micro-purchase/" | url }}) (2016) by using code boundaries in projects to define lines between micro-purchases of developer time.
 
 ## Documenting key decisions
-
 Some 18F projects have found success using [Architecture Decision Records](https://adr.github.io/) to capture key decisions and the context to which they were made, with the goal of allowing future project developers to know if a decision should be revisited or not. The decision records are typically stored in the repository alongside the code, using [this template](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-michael-nygard/index.md). For example:
 
 - [18F/piipan](https://github.com/18F/piipan/tree/main/docs/adr)

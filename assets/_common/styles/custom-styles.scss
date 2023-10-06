@@ -98,4 +98,42 @@ a.usa-button--accent {
   width: 200px;
 }
 
+// De-risking guide
+.first_page > h1 {
+  @include u-font('sans', '3xl');
+}
 
+.first_page > h2 {
+  @include u-font('sans', '2xl');
+  border-top: 1px solid color('primary-dark');
+  padding-top: units(1.5);
+}
+
+#footnotes {
+  @include u-font('sans', 'md');
+  border-top: 1px solid color('primary-dark');
+  padding-top: units(1.5);
+}
+
+.footnotes-list {
+  @include u-font('sans', 'xs');
+  max-width: measure(5);
+  padding-left: units(2);
+}
+
+figcaption {
+  font-style: italic;
+}
+
+figcaption details {
+  font-style: normal;
+}
+
+// Engineering Guide
+.heading-md {
+  @include u-font('sans', 'md');
+}
+
+h2.heading-md {
+  margin-top: units(2);
+}

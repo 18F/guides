@@ -1,5 +1,5 @@
 ---
-title: Incident Response Drills
+title: Incident response drills
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/security/incident-response-drills/
@@ -7,29 +7,31 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_security
-  key: Incident Response Drills
+  key: Incident response drills
   order: 6
-  title: Incident Response Drills
+  title: Incident response drills
+subnav:
+  - text: Why do incident response drills?
+    href: "#why-do-incident-response-drills"
+  - text: How to run an incident response drill
+    href: "#how-to-run-an-incident-response-drill"
+  - text: Example incident response drills
+    href: "#example-incident-response-drills"
+  - text: Congratulations, you accidentally did compliance too!
+    href: "#congratulations-you-accidentally-did-compliance-too"
+
 ---
 
-*Table of Contents*
-
-* [Why do Incident Response Drills?](#why-do-incident-response-drills)
-* [How to Build Incident Response Drills](#how-to-run-an-incident-response-drill)
-* [Example Incident Response Drills](#example-incident-response-drills)
-* [Using this Drill as Part of Your ATO](#congratulations-you-accidentally-did-compliance-too)
-
-## Why do Incident Response Drills?
-
+## Why do incident response drills?
 You don't want to be creating or testing recovery processes while things are on fire. 🔥
 
 When things are on fire, you want to be able to focus on fixing the issues and getting your system back online and in working order as soon as possible. Having an already established incident recovery practice will allow you and your team to focus on the problem, rather than the process.
 
 Preparing and practicing ahead of time is a good idea. Running incident response drills on an annual basis at the very least is a good idea!
 
-## How to Run an Incident Response Drill
+## How to run an incident response drill
 
-### Identify Your Top Risks
+### Identify your top risks
 
 First, create a [boundary diagram](https://www.fedramp.gov/assets/resources/documents/CSP_A_FedRAMP_Authorization_Boundary_Guidance.pdf) if you don't already have one. You will very likely need to create a boundary diagram as part of your system's security and compliance process, anyway.
 
@@ -39,16 +41,13 @@ Look at each box and each connection on the diagram separately. Figure out how s
 
 This will help you build a set of incident scenarios to practice recovering from.
 
-### Gather Organizational Policies
-
+### Gather organizational policies
 It is likely that your Agency or OCIO has existing policies around reporting for security or data breach incidents. Gather them to ensure they are built into your response.
 
-### Create the Drill
+### Create the drill
+See [example incident response drills](#example-incident-response-drills) for inspiration!
 
-See [Example Incident Response Drills](#example-incident-response-drills) for inspiration!
-
-### Invite Everyone to the Drill
-
+### Invite everyone to the drill
 Be sure to invite developers, infrastructure, and compliance professionals on your team to the drill. An open invitation for your team is a good idea! Letting the team know that you're doing this kind of activity builds confidence and assurance that the team takes security seriously.
 
 Give advance warning to any third parties that might want to know that you're planning an incident response drill, such as cloud.gov or login.gov.
@@ -57,35 +56,35 @@ Schedule more time than you think you will need! If you schedule half a day, you
 
 Ask for a volunteer to take notes throughout the incident response drill.
 
-### Conduct the Drill
+### Conduct the drill
 
 Follow the steps in the drill, making sure good notes are taken.
 
 Team members can rotate being the "driver" who shares their screen and walks through the steps in the drill.
 
-![Image of a hardware drill]({{ image_with_class "assets/engineering/img/drill-small-wikimedia.png" "" "" }})
-<caption>
-  <i>This is a drill. <br/> Image attribution: Włodzimierz Wysocki. License: CC BY-SA 3.0</i>
-</caption>
+<figure>
+{% image_with_class "assets/engineering/img/drill-small-wikimedia.png" "" "Image of a hardware drill" %}
+  <figcaption>
+  This is a drill. <br/> Image attribution: Włodzimierz Wysocki. License: CC BY-SA 3.0
+  </figcaption>
+</figure>
 
-### After the Drill
-
+### After the drill
 You could end the drill with a practice "blameless post-incident retrospective." This is a low-pressure way to figure out your team's format for conducting retrospectives after an incident.
 
 [cloud.gov's retrospective meeting guide](https://cloud.gov/docs/ops/service-disruption-guide/#retrospective-meeting-guide) has ideas and checklists for organizing a successful post-incident retrospective.
 
 Send an email recapping the drill to all stakeholders. Include the outcomes of the drill, what you learned from the drill, and any follow-up actions.
 
-## Example Incident Response Drills
-
+## Example incident response drills
 Scenarios worth practicing for a web app include:
 
-* [Scenario: A Deploy Goes Wrong](#scenario-a-deploy-goes-wrong)
-* [Scenario: API Keys or Passwords Exposed](#scenario-api-keys-or-passwords-exposed)
-* [Scenario: Compromised Account](#scenario-compromised-account)
-* [Scenario: PII Exposed](#scenario-pii-exposed)
-* [Scenario: Oops, I Deleted the Database](#scenario-oops-i-deleted-the-database)
-* [Scenario: Oops, I Erased the S3 Bucket](#scenario-oops-i-erased-the-s3-bucket)
+* [Scenario: A deploy goes wrong](#scenario-a-deploy-goes-wrong)
+* [Scenario: API keys or passwords exposed](#scenario-api-keys-or-passwords-exposed)
+* [Scenario: Compromised account](#scenario-compromised-account)
+* [Scenario: PII exposed](#scenario-pii-exposed)
+* [Scenario: Oops, I deleted the database](#scenario-oops-i-deleted-the-database)
+* [Scenario: Oops, I erased the S3 bucket](#scenario-oops-i-erased-the-s3-bucket)
 
 You don't need to drill each and every one of these scenarios each time, but they are good to plan for.
 
@@ -93,58 +92,55 @@ These examples are for a web application hosted on [cloud.gov](https://cloud.gov
 
 Please adjust for your infrastructure.
 
-## Scenario: A Deploy Goes Wrong
+### Scenario: A deploy goes wrong
 
 It turns out, the new release doesn't deploy properly. It has successfully deployed in all the other environments. Let's re-deploy.
 
-![Rerun job workflow in CircleCI]({{ image_with_class "assets/engineering/img/rerun-workflow-circleci-screenshot.png" "" "" }})
-<caption>
-  <i>Screenshot of how to re-run a workflow in a CI/CD tool (in this case, CircleCI)</i>
-</caption>
+<figure>
+{% image_with_class "assets/engineering/img/rerun-workflow-circleci-screenshot.png" "" "Rerun job workflow in CircleCI" %}
+  <figcaption>
+    Screenshot of how to re-run a workflow in a CI/CD tool (in this case, CircleCI)
+  </figcaption>
+</figure>
 
-### Example mitigation steps:
-
+#### Example mitigation steps
 Re-deploy last successful release from  your CI/CD pipeline. (You are deploying from a CI/CD pipeline, right?)
 
 1. Go to `<<Insert CI/CD URL>>` to view recent deploys.
 1. Rerun the deploy step for the last known-good deploy.
 1. If necessary, roll back the database to the correct version. `<<Insert rollback steps for your application>>`
 
-### Example drill:
-
+#### Example drill
 Follow the mitigation steps above in a development environment.
 
-## Scenario: API Keys or Passwords Exposed
-
+### Scenario: API keys or passwords exposed
 An API Key for an AWS service was accidentally committed to our public code repository! (Use tools like [caulking](https://github.com/cloud-gov/caulking) to prevent issues like this from happening in the first place.)
 
-### Example mitigation steps:
-
+#### Example mitigation steps
 1. Contact `<<Insert email of POC laid out in Agency policies>>` and inform them of a breach.
 1. Write down which keys and services were exposed.
 1. Rotate all exposed keys.
 1. Remove any exposed keys from the commit history.
 
-### Example drill steps:
-
+#### Example drill steps
 1. Acknowledge that the first step would be to inform points of contact; establish that everyone knows who to inform in the event of an incident.
 1. To simulate the real thing, push up a file to GitHub or whichever code repository is in use with a fake service key. (No using real keys for drills, please.)
 1. Practice rotating the keys for that service in a development context.
 1. Practice scrubbing the fake key from the commit history.
 
-## Scenario: Compromised Account
-
+### Scenario: Compromised account
 The website has been hacked due to a compromised key! Now instead of our link to submit a report, we have a cute image of a cat and a spam link to follow cute cats on instagram.
 
-![Screenshot of Engineering Practices Guide homepage with cute cat photo in the middle of it]({{ image_with_class "assets/engineering/img/screenshot-fake-epg-hacked.png" "" "" }})
-<caption>
-  <i>Oh no! Who added this cute cat photo to our website?!? <br/> Photo attribution: Tran Mau Tri Tam. Unsplash License.</i>
-</caption>
+<figure>
+{% image_with_class "assets/engineering/img/screenshot-fake-epg-hacked.png" "" "Screenshot of Engineering Practices Guide homepage with cute cat photo in the middle of it" %}
+  <figcaption>
+    Oh no! Who added this cute cat photo to our website?!? <br/> Photo attribution: Tran Mau Tri Tam. Unsplash License.
+  </figcaption>
+</figure>
 
 What happened? Was a GitHub account compromised? A cloud.gov account? A deploy key?
 
-### Example mitigation steps:
-
+#### Example mitigation steps
 1. Contact `<<Insert email of POC laid out in Agency policies>>` and inform them of a breach.
 1. The first priority is to remove the unauthorized access so that there can't be further damage or information leakage. Figure out where the deploy came from.
   * *If the deploy was triggered from GitHub*, you would be able to see it in CI/CD history. In this case, the GitHub admin should immediately remove the account that triggered the malicious deployment. Rotate any deploy credentials that may have been compromised.
@@ -156,19 +152,16 @@ What happened? Was a GitHub account compromised? A cloud.gov account? A deploy k
   * Rename the instance. (This will preserve forensics as you redeploy.)
 
 
-### Example drill steps:
-
+#### Example drill steps
 1. Acknowledge that the first step would be to inform points of contact; establish that everyone knows who to inform in the event of an incident.
 1. Choose a scenario to drill: compromised GitHub account, compromised cloud.gov account, or compromised deploy key. (Compromised deploy key might be easiest to drill.)
 1. Practice the steps to remove compromised accounts or credentials, for example, by deleting the current deployment keys, remaking them, and adding them to CI/CD.
 1. Using a development application instance, practice removing the route to a instance that may have been compromised and then renaming it to preserve forensics.
 
-## Scenario: PII Exposed
-
+### Scenario: PII exposed
 It's discovered that PII is being leaked to unauthorized users through the site.
 
-### Example mitigation steps:
-
+#### Example mitigation steps
 1. Contact `<<Insert email of POC laid out in Agency policies>>` and inform them of a breach.
 1. Stop the exposure.
   * Assess the severity and impact of the potential leak.
@@ -177,45 +170,36 @@ It's discovered that PII is being leaked to unauthorized users through the site.
 1. Identify root cause of the issue and deploy a hotfix.
 1. Take necessary corrective action as directed by your agency security team. If there are corrective actions that the PO is able to handle in terms of contacting the affected users, do so.
 
-### Example drill steps:
-
+#### Example drill steps
 1. Acknowledge that the first step would be to inform points of contact; establish that everyone knows who to inform in the event of an incident.
 1. In a development environment, practice putting the site into a maintenance mode or removing/hiding a page on the site, whichever would be most relevant to your project.
 1. Review any relevant corrective action / affected user notification procedures.
 
-
-## Scenario: Oops, I Deleted the Database
-
+### Scenario: Oops, I deleted the database
 The database needs to be restored from a backup.
 
-### Example mitigation steps:
-
+#### Example mitigation steps
 1. If you're using cloud.gov, follow [cloud.gov database backup procedures](https://cloud.gov/docs/services/relational-database/#backups).
 
-### Example drill steps:
-
+#### Example drill steps
 Assuming you have a staging database using a dedicated cloud.gov database plan:
 
 1. Delete some data from your staging database. (No deleting data from a production database, please.)
 2. Reach out to cloud.gov using the [the non-emergency email address provided in thir docs](https://cloud.gov/docs/services/relational-database/#backups); request a backup.
 3. Practice restoring the staging database to the point in time before you deleted the data.
 
-## Scenario: Oops, I Erased the S3 Bucket
-
+### Scenario: Oops, I erased the S3 bucket
 Let's re-create and restore from a backup.
 
-### Example mitigation steps:
-
+#### Example mitigation steps
 1. If the bucket no longer exists, create a new bucket in cloud.gov in the space where the bucket was deleted, ideally using infrastructure-as-code or a deploy script.
 2. Restore bucket contents from a backup.
 3. Verify the bucket settings, permissions, and contents are correct.
 
-### Example drill steps:
-
+#### Example drill steps
 Follow the mitigation steps above in a development environment.
 
 ## Congratulations, you accidentally did compliance too!
-
 For your project, you will need an [ATO](https://before-you-ship.18f.gov/ato/). Part of that ATO is providing required documentation of controls. Controls are different security considerations. This process varies from agency to agency, so, work with your security partners to know which controls they need documented. Don't forget that you can inherit a substantial number of [controls by using cloud.gov](https://cloud.gov/docs/security/conforming-federal-security-regulations/) and you just need to reference that it's covered. The [Before You Ship guide](https://before-you-ship.18f.gov/) is a great resource for ATOs.
 
 By doing this exercise, you have artifacts (proof that you are in compliance) and documentation that you can reference or pull from for your System Security Plan. Based on the needs of your security partners and the project, you may also need additional documentation or to reference cloud.gov or AWS GovCloud's controls. The following examples are just meant as a starting point.
