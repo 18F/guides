@@ -10,6 +10,8 @@ The [CODEOWNERS file](.github/CODEOWNERS) keeps track of who is in review & appr
 
 ### Docker
 
+:warning: **Docker development is currently broken because of [Zscaler issues](https://docs.google.com/document/d/1u8UBS46NnmglyIPEGw5WfgQaKEChH2WbtzgesniyKOE/edit#heading=h.wm2hpcqy6pew).**
+
 1. Clone this repo
 2. Run `docker compose up`
 3. Open http://localhost:8080
