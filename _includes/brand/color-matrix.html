@@ -52,7 +52,9 @@
   </svg>
 
   <p class="usa-sr-invisible font-sans-xs measure-6" aria-hidden="true">
-    <strong>Don&rsquo;t</strong> use these color combinations. They don&rsquo;t have enough contrast to meet accessibility standards, and some people will have difficulty reading the text.
+    <strong>Don&rsquo;t</strong> use these color combinations.
+    They don&rsquo;t have enough contrast to meet accessibility standards, and
+    some people will have difficulty reading the text.
   </p>
 </div>
 
@@ -68,7 +70,9 @@
             #{{ foreground.hex }}
            </p>
           </div>
-          <strong class="brand-foreground-{{ foreground.name }} usa-sr-invisible" aria-hidden="true">
+          <strong class="brand-foreground-{{ foreground.name }} usa-sr-invisible"
+                  aria-hidden="true"
+          >
             Aa
           </strong>
         </td>
@@ -84,15 +88,17 @@
         <div class="display-flex">
           <div class="color-matrix-square brand-background-{{ background.name }} margin-right-1"></div>
           <div class="color-matrix-desc">
-            <p class="font-sans-xs line-height-sans-3 margin-y-0">{{ background.name | capitalize }} background<br>
-            #{{ background.hex }}</p>
+            <p class="font-sans-xs line-height-sans-3 margin-y-0">
+              {{ background.name | capitalize }} background<br>
+              #{{ background.hex }}
+            </p>
           </div>
         </div>
       </td>
       {%- for foreground in palette -%}
       {%- assign ratio = foreground.hex | contrastRatio: background.hex -%}
       {%- if ratio >= 3.1 -%}
-      <td class="color-matrix-valid-color-combo text-top">
+      <td class="color-combo text-top">
         {%- if ratio >= 4.5 -%}
           <div class="color-matrix-square brand-background-{{ background.name }} usa-sr-invisible"
                title="The contrast ratio of {{ foreground.name }} on {{ background.name }} is {{ ratio | humanReadableContrastRatio }}."
@@ -100,13 +106,14 @@
           >
             <p>
               <strong class="brand-foreground-{{ foreground.name }} usa-sr-invisible" aria-hidden="true">
-              Aa ★
+                Aa ★
               </strong>
             </p>
           </div>
-          <div class="color-matrix-color-combo-description">
+          <div class="color-combo-description">
             <p class="font-sans-xs line-height-sans-3">
-              <strong>{{ foreground.name | capitalize }}  </strong> elements on&nbsp;<strong>{{ background.name }}</strong> background
+              <strong>{{ foreground.name | capitalize }} </strong> elements on&nbsp;
+              <strong>{{ background.name }}</strong> background
             </p>
             <span class="usa-sr-only">
               is 508-compliant, with a contrast ratio of {{ ratio | humanReadableContrastRatio }}.
@@ -115,26 +122,41 @@
         {%- else -%}
           <div class= "color-matrix-square usa-sr-invisible" aria-hidden="true">
           <svg viewBox="0 0 100 100">
-              <rect width="100" height="100" fill="#f0f0f0"/>
-              <polygon points="100,0, 100,100, 0,100" style="fill: #{{background.hex}};" />
-              <text x="55" y="80" style="fill: #{{ foreground.hex }}; font-family:Helvetica Neue, Helvetica, Roboto, Arial, sans-serif; font-size:1.75em; " >★</text>
+            <rect width="100" height="100" fill="#f0f0f0"/>
+            <polygon points="100,0, 100,100, 0,100" style="fill: #{{background.hex}};" />
+            <text x="55" y="80"
+                  style="fill: #{{ foreground.hex }}; font-family:Helvetica Neue, Helvetica, Roboto, Arial, sans-serif; font-size:1.75em;"
+            >
+              ★
+            </text>
           </svg>
           </div>
-          <div class="color-matrix-color-combo-description">
-            <p class="font-sans-xs line-height-sans-3"><strong>{{ foreground.name | capitalize }}</strong> elements on&nbsp;<strong>{{ background.name }}</strong> background</p>
-            <span class="usa-sr-only">is 508-compliant, with a contrast ratio of {{ ratio | humanReadableContrastRatio }}. We recommend using this combination only for non-text elements. </span>
+          <div class="color-combo-description">
+            <p class="font-sans-xs line-height-sans-3">
+              <strong>{{ foreground.name | capitalize }}</strong> elements on&nbsp;
+              <strong> {{ background.name }}</strong> background
+            </p>
+            <span class="usa-sr-only">
+              is 508-compliant, with a contrast ratio of
+              {{ ratio | humanReadableContrastRatio }}. We recommend using this
+              combination only for non-text elements.
+            </span>
           </div>
         {%- endif -%}
       </td>
       {%- else -%}
-      <td class="color-matrix-invalid-color-combo text-top">
-        <div class="usa-sr-invisible" title="The contrast ratio of {{ foreground.name }} on {{ background.name }} is {{ ratio | humanReadableContrastRatio }}, which does not conform with the standards of Section 508 for body text." role="presentation" aria-hidden="true">
-          <svg class="color-matrix-square maxh-8 usa-sr-invisible">
+      <td class="color-combo color-combo--invalid text-top">
+        <div class="usa-sr-invisible"
+              title="The contrast ratio of {{ foreground.name }} on {{ background.name }} is {{ ratio | humanReadableContrastRatio }}, which does not conform with the standards of Section 508 for body text."
+              role="presentation" aria-hidden="true"
+        >
+          <svg class="color-matrix-square usa-sr-invisible">
             <use xlink:href="#color-matrix-bad-contrast-ratio"/>
           </svg>
         </div>
         <div class="usa-sr-only">
-          Do not use {{ foreground.name }} text on {{ background.name }} background; it is not 508-compliant, with a contrast ratio of {{ ratio | humanReadableContrastRatio }}.
+          Do not use {{ foreground.name }} text on {{ background.name }} background;
+          it is not 508-compliant, with a contrast ratio of {{ ratio | humanReadableContrastRatio }}.
         </div>
       </td>
       {%- endif -%}

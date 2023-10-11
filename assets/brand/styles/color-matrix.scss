@@ -259,19 +259,18 @@ table.color-matrix {
     tr {
       display: block;
 
-      td.color-matrix-valid-color-combo,
-      td.color-matrix-invalid-color-combo, {
+      td.color-combo {
         display: flex;
         align-items: center;
         padding-left: 0;
 
-        .color-matrix-color-combo-description {
+        .color-combo-description {
         //   flex: 1;
           padding-left: 1em;
         }
       }
 
-      td.color-matrix-invalid-color-combo {
+      td.color-combo--invalid {
         display: none;
       }
 
@@ -308,11 +307,10 @@ table.color-matrix {
       tr {
         display: table-row;
 
-        td.color-matrix-valid-color-combo,
-        td.color-matrix-invalid-color-combo, {
+        td.color-combo {
           display: table-cell;
 
-          .color-matrix-color-combo-description {
+          .color-combo-description {
             flex: 1;
             padding-left: 0;
           }
