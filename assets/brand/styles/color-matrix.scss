@@ -1,59 +1,27 @@
 @use '../../_common/styles/brand-colors' as *;
 @use 'uswds-core' as * ;
-//// background color helpers
 
-// $brand-color-light: #B3EFFF; // primary-lightest
-// $brand-color-bright: #00CFFF; // accent-cool
-// $brand-color-medium: #046B99; // primary
-// $brand-color-dark: #1C304A; // primary-darker
+$brand-colors: (
+  "white": white,
+  "light": $brand-color-light,
+  "bright": $brand-color-bright,
+  "medium": $brand-color-medium,
+  "dark": $brand-color-dark,
+  "black": black,
+);
 
-.brand-background-white {
-  background-color: white;
-  box-shadow: inset 0 0 0 1px color('base-light');
-}
+// Generate helper background and foreground classes
+@each $name, $brand-color in $brand-colors {
+  .brand-background-#{$name} {
+    background-color: $brand-color;
+    @if $name == "white" {
+      box-shadow: inset 0 0 0 1px color('base-light');
+    }
+  }
 
-.brand-background-light {
-  background-color: $brand-color-light;
-}
-
-.brand-background-bright {
-  background-color: $brand-color-bright;
-}
-
-.brand-background-medium {
-  background-color: $brand-color-medium;
-}
-
-.brand-background-dark {
-  background-color: $brand-color-dark;
-}
-
-.brand-background-black {
-  background-color: black;
-}
-
-.brand-foreground-white {
-  color: white;
-}
-
-.brand-foreground-light {
-  color: $brand-color-light;
-}
-
-.brand-foreground-bright {
-  color: $brand-color-bright;
-}
-
-.brand-foreground-medium {
-  color: $brand-color-medium;
-}
-
-.brand-foreground-dark {
-  color: $brand-color-dark;
-}
-
-.brand-foreground-black {
-  color: black;
+  .brand-foreground-#{$name} {
+    color: $brand-color;
+  }
 }
 
 .color-matrix-square {
@@ -70,6 +38,7 @@
   width: 100%;
   padding-bottom: 100%;
 }
+
   // @include at-media(tablet) {
   //   padding-bottom: units(10) + units(3);
   //   width: units(10) + units(3);
