@@ -268,6 +268,17 @@ table.color-matrix {
       td[scope="col"] {
         padding-left: units(1);
       }
+
+      // https://css-tricks.com/adding-stroke-to-web-text/
+      .brand-foreground-white,
+      .brand-foreground-light,
+      .brand-foreground-bright {
+        text-shadow:
+          -1px -1px 0 color(base-darker),
+          1px -1px 0 color(base-darker),
+          -1px 1px 0 color(base-darker),
+          1px 1px 0 color(base-darker);
+      }
     }
 
     tbody {
