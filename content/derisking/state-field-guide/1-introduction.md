@@ -1,7 +1,6 @@
 ---
 title: State Software Budgeting Handbook
 tags: derisking
-first_page_style: true
 permalink: /derisking/state-field-guide/
 layout: layouts/page
 sidenav: true

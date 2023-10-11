@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: accessibility
   order: 8
   title: Flashing
-script: /assets/_common/js/flashing.js
+script: /assets/accessibility/js/flashing.js
 ---
 Flashing is generally a bad idea. It can cause all sorts of issues, from seizures to motion sickness. If you absolutely must have a flashing element there are a few things to consider.
 ## Testing

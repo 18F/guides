@@ -47,7 +47,7 @@ derisking:
   - name: State Software Budgeting
     url: /derisking/state-field-guide/
   - name: Federal Field Guide
-    url: /derisking/federal-field-guide/TODO/
+    url: /derisking/federal-field-guide/
   - name: QASP
     url: /derisking/qasp/
 
@@ -78,8 +78,6 @@ eng-hiring:
     url: /eng-hiring/selection/
 
 engineering:
-  - name: Home
-    url: /engineering/
   - name: About this guide
     url: /engineering/about/
   - name: Our approach

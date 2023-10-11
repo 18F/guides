@@ -10,8 +10,6 @@ The [CODEOWNERS file](.github/CODEOWNERS) keeps track of who is in review & appr
 The re-platformed sites use 11ty. If you could run Jekyll, you should be able to run 11ty! There are two approaches to working with the guides: [Local installation](#local-installation) and [Codespaces](#codespaces).
 
 
-### Local installation
-
 Ensure that you have the latest version of [Node](https://nodejs.org/en/download) installed. 
 
 To run the site locally:
@@ -54,7 +52,6 @@ on every pull request, but it can also be run locally. To run locally, type:
 npm run test:pa11y-ci
 ```
 ## Contributing
-
 If you are interested in contributing to this repository, you can read more at
 [CONTRIBUTING](CONTRIBUTING.md).
 
