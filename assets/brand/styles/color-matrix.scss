@@ -7,40 +7,74 @@
 // $brand-color-medium: #046B99; // primary
 // $brand-color-dark: #1C304A; // primary-darker
 
-.color-matrix-white {
+.brand-background-white {
   background-color: white;
   box-shadow: inset 0 0 0 1px color('base-light');
 }
 
-.color-matrix-light {
+.brand-background-light {
   background-color: $brand-color-light;
 }
 
-.color-matrix-bright {
+.brand-background-bright {
   background-color: $brand-color-bright;
 }
 
-.color-matrix-medium {
+.brand-background-medium {
   background-color: $brand-color-medium;
 }
 
-.color-matrix-dark {
+.brand-background-dark {
   background-color: $brand-color-dark;
 }
 
-.color-matrix-black {
+.brand-background-black {
   background-color: black;
 }
 
-.color-matrix-square {
-  padding-bottom: 100%;
-  width: 100%;
+.brand-foreground-white {
+  color: white;
+}
 
+.brand-foreground-light {
+  color: $brand-color-light;
+}
+
+.brand-foreground-bright {
+  color: $brand-color-bright;
+}
+
+.brand-foreground-medium {
+  color: $brand-color-medium;
+}
+
+.brand-foreground-dark {
+  color: $brand-color-dark;
+}
+
+.brand-foreground-black {
+  color: black;
+}
+
+.color-matrix-square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+  height: units(7);
+  width: units(7);
+  max-width: units(7);
+}
+
+.palette-square {
+  width: 100%;
+  padding-bottom: 100%;
+}
   // @include at-media(tablet) {
   //   padding-bottom: units(10) + units(3);
   //   width: units(10) + units(3);
   // }
-}
+// }
 
 
 
@@ -187,14 +221,13 @@
 //   }
 // }
 
-// .color-matrix-legend.legend-bad-contrast {
-//   display: none;
-// }
+.color-matrix-legend.legend-bad-contrast {
+  display: none;
+}
 
-
-// td[scope="row"] > div {
-//   display: flex;
-// }
+td[scope="row"] > div {
+  display: flex;
+}
 
 // .color-matrix td.color-matrix-valid-color-combo,
 // .color-matrix td.color-matrix-invalid-color-combo {
@@ -213,78 +246,83 @@
 // }
 
 
-// table.color-matrix {
-//   display: block;
+table.color-matrix {
+  display: block;
 
-//   thead {
-//     display: none;
-//   }
+  thead {
+    display: none;
+  }
 
-//   tbody {
-//     display: block;
+  tbody {
+    display: block;
 
-//     tr {
-//       display: block;
+    tr {
+      display: block;
 
-//       td.color-matrix-valid-color-combo,
-//       td.color-matrix-invalid-color-combo, {
-//         display: flex;
-//         align-items: center;
+      td.color-matrix-valid-color-combo,
+      td.color-matrix-invalid-color-combo, {
+        display: flex;
+        align-items: center;
+        padding-left: 0;
 
-//         .color-matrix-color-combo-description {
-//           flex: 1;
-//           padding-left: 1em;
-//         }
-//       }
+        .color-matrix-color-combo-description {
+        //   flex: 1;
+          padding-left: 1em;
+        }
+      }
 
-//       td.color-matrix-invalid-color-combo {
-//         display: none;
-//       }
+      td.color-matrix-invalid-color-combo {
+        display: none;
+      }
 
-//       td[scope="row"] {
-//         display: none;
-//       }
-//     }
-//   }
-// }
+      td[scope="row"] {
+        display: none;
+      }
+    }
+  }
+}
 
-// @include at-media('tablet-lg') {
-// .usa-prose .color-matrix-legend  {
-//   align-items: center;
-// }
+@include at-media('tablet-lg') {
+  .usa-prose .color-matrix-legend  {
+    align-items: center;
+  }
 
-// .color-matrix-legend.legend-bad-contrast {
-//     display: flex;
-//   }
+  .color-matrix-legend.legend-bad-contrast {
+      display: flex;
+    }
 
-//   table.color-matrix {
-//     display: table;
+  table.color-matrix {
+    display: table;
 
-//     thead {
-//       display: table-header-group;
-//     }
+    thead {
+      display: table-header-group;
 
-//     tbody {
-//       display: table-row-group;
+      td[scope="col"] {
+        padding-left: units(1);
+      }
+    }
 
-//       tr {
-//         display: table-row;
+    tbody {
+      display: table-row-group;
 
+      tr {
+        display: table-row;
 
-//         td.color-matrix-valid-color-combo,
-//         td.color-matrix-invalid-color-combo, {
-//           display: table-cell;
+        td.color-matrix-valid-color-combo,
+        td.color-matrix-invalid-color-combo, {
+          display: table-cell;
 
-//           .color-matrix-color-combo-description {
-//             flex: 1;
-//             padding-left: 0;
-//           }
-//         }
+          .color-matrix-color-combo-description {
+            flex: 1;
+            padding-left: 0;
+          }
+        }
 
-//         td[scope="row"] {
-//           display: table-cell;
-//         }
-//       }
-//     }
-//   }
-// }
+        td[scope="row"] {
+          display: table-cell;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

@@ -32,7 +32,7 @@ For Adobe, Sketch, and Mac applications
   <div class="grid-row grid-gap-md margin-top-4">
   {%- for color in palette -%}
     <div class="grid-col-6 tablet:grid-col-2">
-      <div class="color-matrix-square color-matrix-{{ color.name }}"></div>
+      <div class="palette-square brand-background-{{ color.name }}"></div>
       <p class="margin-bottom-0 text-bold">{{- color.name | capitalize -}}</p>
       <p class="margin-y-0">#{{ color.hex }}</p>
     </div>
