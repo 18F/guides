@@ -1,5 +1,5 @@
 ---
-title: Incident Reports
+title: Incident reports
 sidenav: true
 sticky_sidenav: true
 tags: engineering
@@ -7,56 +7,41 @@ permalink: /engineering/our-approach/incident-reports/
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Incident Reports
+  key: Incident reports
   order: 5
-  title: Incident Reports
+  title: Incident reports
 redirect_from:
   /incident-reports/cloud-gov/
+subnav:
+  - text: Key components
+    href: "#key-components"
+  - text: Examples
+    href: "#examples"
+  - text: Additional resources
+    href: "#additional-resources"
 ---
 
-Though we fully expect to write dependable applications, every project will
-experience service disruptions and other significant failings. In all cases,
-we want to learn from our mistakes both within our projects and more broadly.
-Incident reports, which detail the events and how they were resolved, are an
-excellent mechanism for sharing this information.
+Though we fully expect to write dependable applications, every project will experience service disruptions and other significant failings. In all cases, we want to learn from our mistakes both within our projects and more broadly. Incident reports, which detail the events and how they were resolved, are an excellent mechanism for sharing this information.
 
-Note that this document won't discuss what to do during a security incident,
-if cloud.gov is having issues, what to report to your client, etc. For those,
-see:
-* https://github.com/18F/security-incidents
-* https://cloudgov.statuspage.io/
-* cloud-gov-support@gsa.gov
+Note that this document won't discuss what to do during a security incident, if cloud.gov is having issues, what to report to your client, etc. For those, see:
+* [18F security incidents](https://github.com/18F/security-incidents)
+* [Cloud.gov status](https://cloudgov.statuspage.io/)
+* [cloud-gov-support@gsa.gov](mailto:cloud-gov-support@gsa.gov)
 * Slack: #infrastructure, #incident-response, #cloud-gov-support
 
 ## Key components
 At the high level, we want to follow Mark Imbriaco's [formula for writing a great post-mortem report](https://www.digitalocean.com/blog/inside-digitalocean-mark-imbriaco/#:~:text=Departing%20From%20GitHub):
 1. Apologize for what happened.
-1. Demonstrate you understand what happened.
-1. Explain what you will do to reduce the likelihood of it happening again.
+2. Demonstrate you understand what happened.
+3. Explain what you will do to reduce the likelihood of it happening again.
 
-Before any deep analysis we should write a **timeline**, beginning at the time
-the incident was discovered and ending at the point the incident was declared
-over. Events in this timeline include deploys, configuration changes, key
-moments of discovery, client communications, and anything else that'd be
-relevant to understanding the incident. If further analysis discovers that
-certain events caused the incident, those events should also be added
+Before any deep analysis we should write a **timeline**, beginning at the time the incident was discovered and ending at the point the incident was declared over. Events in this timeline include deploys, configuration changes, key moments of discovery, client communications, and anything else that'd be relevant to understanding the incident. If further analysis discovers that certain events caused the incident, those events should also be added
 
-Analyze the **factors** that contributed to the incident. Here it's important
-to emphasize the [Retrospective Prime
-Directive](https://retrospectivewiki.org/index.php?title=The_Prime_Directive);
-paraphrased: everyone did their best; there should be no judgment of
-individuals. If lucky, we will discover a single **root cause**, but often we
-will find a sort-of comedy of errors or serious of unfortunate events that
-collectively led to the incident.
+Analyze the **factors** that contributed to the incident. Here it's important to emphasize the [Retrospective Prime Directive](https://retrospectivewiki.org/index.php?title=The_Prime_Directive); paraphrased: everyone did their best; there should be no judgment of individuals. If lucky, we will discover a single **root cause**, but often we will find a sort-of comedy of errors or serious of unfortunate events that collectively led to the incident.
 
-Propose, discuss, and prioritize **preventative measures**. This is the key
-outcome for the project team: we want to avoid these types of problems in the
-future.
+Propose, discuss, and prioritize **preventative measures**. This is the key outcome for the project team: we want to avoid these types of problems in the future.
 
-Define a single place to put these artifacts and be consistent. It doesn't
-matter if it's GitHub issues, Google Docs, a wiki, etc. so long as it's kept
-together and easy to reference by both the team and interested stakeholders.
-Don't make folks search for the information.
+Define a single place to put these artifacts and be consistent. It doesn't matter if it's GitHub issues, Google Docs, a wiki, etc. so long as it's kept together and easy to reference by both the team and interested stakeholders. Don't make folks search for the information.
 
 ## Examples
 * [C2]({{ "/assets/engineering/dist/c2-outage-report-2016-08-10.pdf" | url }})

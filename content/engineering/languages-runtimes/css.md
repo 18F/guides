@@ -47,39 +47,24 @@ subnav:
     href: "#variables"
 ---
 
-The purpose of the CSS coding styleguide is to create consistent CSS or
-preprocessor CSS code (such as [Sass]) in your projects. The styleguide should be treated as a guide
-&mdash; rules can be modified according to project needs.
+The purpose of the CSS coding styleguide is to create consistent CSS or preprocessor CSS code (such as [Sass]) in your projects. The styleguide should be treated as a guide &mdash; rules can be modified according to project needs.
 
-# Architecture
-A site's architecture should be based on its goals and purposes. This means the
-guidance here should be adapted to different sites and situations.
+## Architecture
+A site's architecture should be based on its goals and purposes. This means the guidance here should be adapted to different sites and situations.
 
-## Modular or component architecture
-When using a modular or component architecture, every page is broken into a
-series of modular components. There are two sets of these components:
-`components` and `modules`. The architecture starts out with basic HTML element
-rules: HTML, p, a, form, etc tags that than have components and modules written
-on top of them. Components are very basic structure such as buttons, blurbs,
-navs, and positioning structures like insets, island, and enclosure.  From
-here, modules are built with these components. This architecture also attempts
-to keep the specificity trend in an upwards curve as you move down in the file
-(more on this to come).
+### Modular or component architecture
+When using a modular or component architecture, every page is broken into a series of modular components. There are two sets of these components: `components` and `modules`. The architecture starts out with basic HTML element rules: HTML, p, a, form, etc tags that than have components and modules written on top of them. Components are very basic structure such as buttons, blurbs, navs, and positioning structures like insets, island, and enclosure.  From here, modules are built with these components. This architecture also attempts to keep the specificity trend in an upwards curve as you move down in the file (more on this to come).
 
 - Start with an elements file for all tag rules (a, h1-h5, p, \*, html, body).
-- Create component files for each structural element, such as buttons, navs,
-  etc. These are mainly class-based and use [BEM] or another naming scheme.
-- Create more specific structure with modules. For instance, if the logo image
-  and text needs very specific treatment, use a module.
-  - Build modules from components through mixins, extends, and HTML.
+- Create component files for each structural element, such as buttons, navs, etc. These are mainly class-based and use [BEM] or another naming scheme.
+- Create more specific structure with modules. For instance, if the logo image and text needs very specific treatment, use a module.
+  - Build modules from components through mixins, extends, and HTML. 
   - Modules can have higher specificity, it’s fine to use deeper nesting.
-- Have an overrides file or folder comprised of global rules that are meant to
-  override components and modules.
+- Have an overrides file or folder comprised of global rules that are meant to override components and modules.
   - These can be generic utilities.
-  - A good thing to put here are breakpoint-specific rules, such as hiding
-    something at small breakpoints.
+  - A good thing to put here are breakpoint-specific rules, such as hiding something at small breakpoints.
 
-### File structure
+#### File structure
 ```sh
 _elements.scss
 _mixins.scss
@@ -97,9 +82,7 @@ lib/neat.scss
 _overrides.scss
 ```
 
-For the `util`, `typography`, `elements`, and `overrides` files, once they grow
-too large (300 lines or more) in size, split them into their own folder with
-sub files.
+For the `util`, `typography`, `elements`, and `overrides` files, once they grow too large (300 lines or more) in size, split them into their own folder with sub files.
 
 ```sh
 elements/_all.scss
@@ -113,18 +96,15 @@ util/_center.scss
 util/_clearfix.scss
 ```
 
+### Importing
+As you likely know, CSS rules that are later in the file override earlier rules. This means Sass imports can be used to control inheritance and specificity.
 
-## Importing
-As you likely know, CSS rules that are later in the file override earlier
-rules. This means Sass imports can be used to control inheritance and
-specificity.
-
-- Start with base elements.
-- Move to single nested classes and utils.
-- Move next to more specific classes, often with nesting.
-- Move next to overrides, possibly with !important rules.
-- Import alphabetically.
-- Only modify import order for groups of files, not specific files.
+- Start with base elements
+- Move to single nested classes and utils
+- Move next to more specific classes, often with nesting
+- Move next to overrides, possibly with !important rules
+- Import alphabetically
+- Only modify import order for groups of files, not specific files
 
 ```scss
 // Bad
@@ -139,19 +119,16 @@ specificity.
 ```
 
 [BEM]: http://getbem.com/introduction/
-}
 
-# Documentation
-## Sass Comments
-Be intentional when you use `//` (silent comments) versus `/* */`
-(which are preserved in the CSS output). When in doubt, use `//`.
 
-## KSS
-Use KSS for documentation. More information on KSS can be found on the
-[official site](http://warpspire.com/kss/).
+## Documentation
+### Sass comments
+Be intentional when you use `//` (silent comments) versus `/* */` (which are preserved in the CSS output). When in doubt, use `//`.
 
-### Example
+### KSS
+Use KSS for documentation. More information on KSS can be found on the [official site](http://warpspire.com/kss/).
 
+#### Example
 ```scss
 // Button
 //
@@ -172,13 +149,10 @@ Use KSS for documentation. More information on KSS can be found on the
 .button-modified {
 }
 ```
+#### Rationale
+KSS is the most common CSS documentation method to date. While it’s not perfect, the generated documentation can be modified through templates.
 
-### Rationale
-KSS is the most common CSS documentation method to date. While it’s not perfect,
-the generated documentation can be modified through templates.
-}
-
-# Frameworks
+## Frameworks
 TTS recommends using the [U.S. Web Design System (USWDS)](https://github.com/uswds/uswds) as it is specifically designed to help build fast, accessible, mobile-friendly federal government websites.
 
 Sometimes, projects utilize other CSS frameworks such as:
@@ -186,28 +160,15 @@ Sometimes, projects utilize other CSS frameworks such as:
 1. [Bourbon](https://www.bourbon.io/)
 2. [BassCSS](https://basscss.com/)
 
-These frameworks were chosen because they're relatively unopinionated about
-design decisions while still providing the helpers that make frameworks
-essential to fast and accurate frontend work, for example, solutions for
-responsive design, grids, and common design patterns. In addition, both
-frameworks, through modular design and excellent documentation, make it easy
-for the designer or developer to only use the parts that they need, rather than
-including a hefty library.
+These frameworks were chosen because they're relatively unopinionated about design decisions while still providing the helpers that make frameworks essential to fast and accurate frontend work, for example, solutions for responsive design, grids, and common design patterns. In addition, both frameworks, through modular design and excellent documentation, make it easy for the designer or developer to only use the parts that they need, rather than including a hefty library.
 
-## Do not use Bootstrap
+### Do not use Bootstrap
+18F specifically does not recommend using [Bootstrap](http://getbootstrap.com/) for production work because it can be difficult to adapt its opinionated styles to bespoke design work.
 
-18F specifically does not recommend using [Bootstrap](http://getbootstrap.com/) for production work
-because it can be difficult to adapt its opinionated styles to bespoke design work.
+## Formatting
+We recommend using [Prettier](https://prettier.io), and enabling it in your editor by default. Prettier is an automatic code formatter that will make your code format consistent. This way we don't have to argue over how to format our code - we just let the tools enforce something! Prettier works with both plain CSS and SCSS.
 
-# Formatting
-We recommend using [Prettier](https://prettier.io), and enabling it in your
-editor by default. Prettier is an automatic code formatter that will make your
-code format consistent. This way we don't have to argue over how to format our
-code - we just let the tools enforce something! Prettier works with both plain
-CSS and SCSS.
-
-Do not use shorthand declarations unless you need to explicitly set all the
-available values.
+Do not use shorthand declarations unless you need to explicitly set all the available values.
 
 ```scss
 // Bad
@@ -220,8 +181,7 @@ margin-top: 3em;
 margin: 3em 4em 2em 1em;
 ```
 
-Avoid arbitrary numbers that are repeated, or linked, or dependent on other
-parts of the code, (aka “magic numbers”).
+Avoid arbitrary numbers that are repeated, or linked, or dependent on other parts of the code, (aka “magic numbers”).
 
 ```scss
 // Bad
@@ -245,10 +205,8 @@ $align_top: 100%;
 }
 ```
 
-## Order
-
+### Order
 - Use the following ordering:
-
   1. variables
   2. @extend directives
   3. @include directives
@@ -259,16 +217,11 @@ $align_top: 100%;
   7. nested elements
   8. nested classes
 
-- Use alphabetical order or type order for declarations. Pick one to keep the
-  whole project consistent.
-- Place a new line before nested selectors unless they are after the first
-  selector.
-- Treat nested includes, such as Neat's media includes –
-  `@include media($small-screen)` — as a standard media query, rather than a
-  Sass @include. So they would be sorted directly after the declaration list.
+- Use alphabetical order or type order for declarations. Pick one to keep the whole project consistent.
+- Place a new line before nested selectors unless they are after the first selector.
+- Treat nested includes, such as Neat's media includes – `@include media($small-screen)` — as a standard media query, rather than a Sass @include. So they would be sorted directly after the declaration list.
 - Place mixin calls with `@content` after nested selectors.
-- You may deviate the sorting order to better suit your project's needs, as
-  long as it's consistent throughout the project.
+- You may deviate the sorting order to better suit your project's needs, as long as it's consistent throughout the project.
 
 ```scss
 // Bad
@@ -308,10 +261,9 @@ $align_top: 100%;
 }
 ```
 
-# Inheritance
-## Mixins
-- Use mixins for groups of properties that appear together intentionally and
-  are used multiple times.
+## Inheritance
+### Mixins
+- Use mixins for groups of properties that appear together intentionally and are used multiple times.
 
   ```scss
   @mixin clearfix {
@@ -344,34 +296,28 @@ $align_top: 100%;
   }
   ```
 
-
 ## Extend
-Be very careful with using `@extend`. It's a powerful tool that can have
-disastrous side-effects. Before using please consider:
+Be very careful with using `@extend`. It's a powerful tool that can have disastrous side-effects. Before using please consider:
 
 - Where is my current selector going to be appended?
 - Am I likely to be causing undesired side-effects?
 - How large is the CSS generated by this single extend?
 
-If you're unsure of using `@extend`, follow these rules to avoid running into
-trouble:
+If you're unsure of using `@extend`, follow these rules to avoid running into trouble:
 
 - Use `@extend` from within a module, not across different modules.
 - Use `@extend` on [placeholders] exclusively, not on actual selectors.
-- Make sure the placeholder you extend is present as little as possible in the
-  stylesheet.
+- Make sure the placeholder you extend is present as little as possible in the stylesheet.
 
-You can use [mixins] in place of selectors. While mixins will copy more code,
-the difference will often be negligible once the output file has been gzipped.
+You can use [mixins] in place of selectors. While mixins will copy more code, the difference will often be negligible once the output file has been gzipped.
 
 [mixins]: http://sass-lang.com/guide#mixins
 [placeholders]: http://thesassway.com/intermediate/understanding-placeholder-selectors
 
-# Linting
-Using a linter will ensure that CSS code conforms to some consistent rules. A linting tool like 
-(Stylelint)[https://stylelint.io/] can issue warnings wherever your code differs from established rules.
+## Linting
+Using a linter will ensure that CSS code conforms to some consistent rules. A linting tool like [Stylelint](https://stylelint.io/) can issue warnings wherever your code differs from established rules.
 
-## Setting up Stylelint locally
+### Setting up Stylelint locally
 1. Run `npm install --save-dev stylelint stylelint-config-standard` to download the package and save it to your package.json
 2. Create a .stylelintrc.json configuration file in the root of your project with the following content:
 ```json
@@ -382,14 +328,11 @@ Using a linter will ensure that CSS code conforms to some consistent rules. A li
 3. Run Stylelint on all the CSS files in your project:
 `npx stylelint "**/*.css"`
 
-This utilizes stylelint's standard rules configuration for css linting. 
-If your project needs different rules or defaults, or you'd like to extend linting to other types of
-files, you can utilize custom syntaxes or write your own.
+This utilizes stylelint's standard rules configuration for css linting. If your project needs different rules or defaults, or you'd like to extend linting to other types of files, you can utilize custom syntaxes or write your own.
 
-Stylelint has a [user guide](https://stylelint.io/user-guide/get-started) that will give you more
-details about how to configure and extend your linting rules.
+Stylelint has a [user guide](https://stylelint.io/user-guide/get-started) that will give you more details about how to configure and extend your linting rules.
 
-# Naming 
+## Naming 
 - HTML elements should be in lowercase.
 
   ```scss
@@ -415,9 +358,7 @@ details about how to configure and extend your linting rules.
   .c1-xr { }
   ```
 
-- Avoid presentation- or location-specific words in names, as this will cause
-  problems when you (invariably) need to change the color, width, or feature
-  later.
+- Avoid presentation- or location-specific words in names, as this will cause problems when you (invariably) need to change the color, width, or feature later.
 
   ```scss
   // Bad
@@ -431,8 +372,7 @@ details about how to configure and extend your linting rules.
   .lg-box
   ```
 
-- Be wary of naming components based on content, as this limits the use of the
-  class.
+- Be wary of naming components based on content, as this limits the use of the class.
 
   ```scss
   // Danger zone
@@ -474,37 +414,24 @@ details about how to configure and extend your linting rules.
   }
   ```
 
-- If your CSS has to interface with other CSS libraries, consider namespacing
-  every class.
+- If your CSS has to interface with other CSS libraries, consider namespacing every class.
 
   ```css
   .f18-component
   ```
 
 
-## Naming Methodologies
+### Naming methodologies
+When it comes to naming, the most important thing is consistency. The recommended way to do this is using an existing methodology like [BEM](#bem), or use a custom one that’s clearly defined.
 
-When it comes to naming, the most important thing is consistency. The
-recommended way to do this is using an existing methodology like [BEM](#bem),
-or use a custom one that’s clearly defined.
+#### BEM
+[BEM][BEM] (**B**lock, **E**lement, **M**odifier) structures CSS such that every entity is composed of (you guessed it) blocks, elements and modifiers. From [Harry Roberts][mindbemding]:
 
-### BEM
+> The point of BEM is to tell other developers more about what a piece of markup is doing from its name alone. By reading some HTML with some classes in, you can see how – if at all – the chunks are related; something might just be a component, something might be a child, or element, of that component, and something might be a variation or modifier of that component.
 
-[BEM][BEM] (**B**lock, **E**lement, **M**odifier) structures CSS such that
-every entity is composed of (you guessed it) blocks, elements and modifiers.
-From [Harry Roberts][mindbemding]:
+TTS generally recommends using a modified BEM methodology outlined in the next subsection. However, you might want to use standard BEM when:
 
-> The point of BEM is to tell other developers more about what a piece of
-> markup is doing from its name alone. By reading some HTML with some classes
-> in, you can see how – if at all – the chunks are related; something might
-> just be a component, something might be a child, or element, of that
-> component, and something might be a variation or modifier of that component.
-
-TTS generally recommends using a modified BEM methodology outlined in the next
-subsection. However, you might want to use standard BEM when:
-
-* You need a naming scheme that general CSS developers will already be familiar
-  with or an existing naming scheme hasn’t been consistent enough.
+* You need a naming scheme that general CSS developers will already be familiar with or an existing naming scheme hasn’t been consistent enough.
 * When you want to use JavaScript to modify the BEM class names dynamically.
 
 Here is an example of BEM in SCSS:
@@ -535,12 +462,8 @@ Here is an example of BEM in SCSS:
 }
 ```
 
-
-### Suggested custom methodology
-
-The TTS recommendation for a naming methodology is a modified version of BEM.
-It still uses blocks, sections within blocks and modifiers, but with an
-abbreviated syntax.
+#### Suggested custom methodology
+The TTS recommendation for a naming methodology is a modified version of BEM. It still uses blocks, sections within blocks and modifiers, but with an abbreviated syntax.
 
 ```
 .accordion
@@ -552,14 +475,12 @@ abbreviated syntax.
 .nav_bar-link-clicked
 ```
 
-
-
-### Naming methodology resources
+#### Naming methodology resources
 - [article explaining BEM][mindbemding]
 - [BEM website][BEM]
 
 
-## js- flagged classes
+### js- flagged classes
 Don't attach styles to classes with a `js-` flag. These classes are reserved for javascript.
 
 ```css
@@ -569,10 +490,10 @@ Don't attach styles to classes with a `js-` flag. These classes are reserved for
 }
 ```
 
-### Rationale
+#### Rationale
 A `js-` flagged class needs to be highly portable. Adding styles to it breaks that portability.
 
-## test- flagged classes
+### test- flagged classes
 Don't attach styles to classes with a `test-` flag. These classes are reserved for testing hooks such as those used by selenium.
 
 ```css
@@ -582,36 +503,28 @@ Don't attach styles to classes with a `test-` flag. These classes are reserved f
 }
 ```
 
-
 [BEM]: https://en.bem.info/method/
 [mindbemding]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
-# Preprocessors 
-The most supported CSS preprocessor at TTS is [Sass]. Using this preprocessor means you'll
-get supported resources such as frameworks, libraries, tutorials, and a comprehensive styleguide
-as support.
+## Preprocessors 
+The most supported CSS preprocessor at TTS is [Sass]. Using this preprocessor means you'll get supported resources such as frameworks, libraries, tutorials, and a comprehensive styleguide as support.
 
-_That being said, any preprocessor is allowed as long as it's a sound project
-and has community support._
+_That being said, any preprocessor is allowed as long as it's a sound project and has community support._
 
-[Dart Sass](https://sass-lang.com/dart-sass) is the primary implementation of Sass and is
-recommended for use in your projects. 
+[Dart Sass](https://sass-lang.com/dart-sass) is the primary implementation of Sass and is recommended for use in your projects.
 
-## Command line installation 
+### Command line installation 
 
-### With npm
-
+#### With npm
 * run: `npm install -g sass`
 
-### With homebrew
-
+#### With homebrew
 * run `brew install sass/sass/sass`
 
-### Other installations
-
+#### Other installations
 You can read about other installation methods on [their website](https://sass-lang.com/install). 
 
-# Specificity 
+## Specificity 
 - IDs should be reserved for JavaScript. Don’t use IDs for styles.
 
   ```scss
@@ -637,9 +550,7 @@ You can read about other installation methods on [their website](https://sass-la
   }
   ```
 
-- Keep specificity low and trend upwards in specificity as you move further
-  down file. See the [specificity graph](#specificity-graph) section for more
-  info.
+- Keep specificity low and trend upwards in specificity as you move further down file. See the [specificity graph](#specificity-graph) section for more info.
 - Don't use unnecessary tag selectors.
 
   ```scss
@@ -657,50 +568,26 @@ You can read about other installation methods on [their website](https://sass-la
   .component.component { }
   ```
 
-## Specificity graph
-An easy rule to use when dealing with specificity is to start from a low
-specificity and curve to higher specificity as you move towards the bottom of
-the output file. Since CSS rules get replaced by rules further down in the
-file, you'll override rules in an expected way.
+### Specificity graph
+An easy rule to use when dealing with specificity is to start from a low specificity and curve to higher specificity as you move towards the bottom of the output file. Since CSS rules get replaced by rules further down in the file, you'll override rules in an expected way.
 
-There’s a tool that can graph your files’ specificity, [CSS specificity
-graph](http://jonassebastianohlsson.com/specificity-graph/). Run your final
-output file through this tool and strive for a curve trending upwards.
+There’s a tool that can graph your files’ specificity, [CSS specificity graph](http://jonassebastianohlsson.com/specificity-graph/). Run your final output file through this tool and strive for a curve trending upwards.
 
-### Resources
+#### Resources
 * [CSS specificity graph](http://jonassebastianohlsson.com/specificity-graph/)
 * [Explanation](http://csswizardry.com/2014/10/the-specificity-graph/)
 
-## Rationale
-With specificity comes great responsibility. Broad selectors allow us to be
-efficient, yet can have adverse consequences if not tested. Location-specific
-selectors can save us time, but will quickly lead to a cluttered stylesheet.
-Exercise your best judgement to create selectors that find the right balance
-between contributing to the overall style and layout of the DOM.
+### Rationale
+With specificity comes great responsibility. Broad selectors allow us to be efficient, yet can have adverse consequences if not tested. Location-specific selectors can save us time, but will quickly lead to a cluttered stylesheet. Exercise your best judgement to create selectors that find the right balance between contributing to the overall style and layout of the DOM.
 
-* When modifying an existing element for a specific use, try to use specific
-  class names. Instead of `.listings-layout.bigger` use rules like
-  `.listings-layout.listings-bigger`. Think about ack/grepping your code in the
-  future.
+* When modifying an existing element for a specific use, try to use specific class names. Instead of `.listings-layout.bigger` use rules like `.listings-layout.listings-bigger`. Think about ack/grepping your code in the future.
+* Use lowercase and separate words with hyphens when naming selectors. Avoid camelcase and underscores. Use human-readable selectors that describe what element(s) they style.
+* Attribute selectors should use double quotes around values. Refrain from using over-qualified selectors; `div.container` can simply be stated as `.container`.
+* IDs should be reserved for JavaScript. Unless you have a very good reason, all CSS should be attached to classes rather than IDs. When in doubt, use a class name. This prevents target confusion and allows CSS devs and JS devs to co-exist in the same code in peace. If you must use an id selector (`#id`) make sure that you have no more than one in your rule declaration.
 
-* Use lowercase and separate words with hyphens when naming selectors. Avoid
-  camelcase and underscores. Use human-readable selectors that describe what
-  element(s) they style.
-
-* Attribute selectors should use double quotes around values. Refrain from
-  using over-qualified selectors; `div.container` can simply be stated as
-  `.container`.
-
-* IDs should be reserved for JavaScript. Unless you have a very good reason,
-  all CSS should be attached to classes rather than IDs. When in doubt, use a
-  class name. This prevents target confusion and allows CSS devs and JS devs to
-  co-exist in the same code in peace. If you must use an id selector (`#id`)
-  make sure that you have no more than one in your rule declaration.
-
-# Units 
-## Measurements
-- Use **rem** units for font sizes with a px fallback. This can be done with
-  the following mixin:
+## Units 
+### Measurements
+- Use **rem** units for font sizes with a px fallback. This can be done with the following mixin:
 
   ```scss
   @mixin font-size($sizeValue: 1.6) {
@@ -718,9 +605,7 @@ between contributing to the overall style and layout of the DOM.
   ```
 
 - Use **em** units for positioning.
-- Use **percentages** when layout components stay relational to each other
-  (e.g. a main content area that takes up 75% of the screen and a sidebar that
-  takes up 25%).
+- Use **percentages** when layout components stay relational to each other (e.g. a main content area that takes up 75% of the screen and a sidebar that takes up 25%).
 
   ```scss
   // Good
@@ -733,8 +618,7 @@ between contributing to the overall style and layout of the DOM.
   }
   ```
 
-- Use **px** units for when a measurement shouldn't change based on user set
-  font size or browser zooming or for when requiring pixel values below 5.
+- Use **px** units for when a measurement shouldn't change based on user set font size or browser zooming or for when requiring pixel values below 5.
 
   ```scss
   // Bad
@@ -748,8 +632,7 @@ between contributing to the overall style and layout of the DOM.
   }
   ```
 
-- Use unitless values for `line-height` as this will inherit values from the
-  `font-size`.
+- Use unitless values for `line-height` as this will inherit values from the `font-size`.
 - Use up to 10 decimal places in em units to ensure accuracy.
 
   ```scss
@@ -789,12 +672,11 @@ between contributing to the overall style and layout of the DOM.
   ```
 
 
-## Colors
+### Colors
 - Use **hex** notation first, or then **rgb(a)**, or **hsl(a)**.
 - Both three-digit and six-digit hexadecimal notation are acceptable.
 - When denoting color using hexadecimal notation, use all lowercase letters.
-- When using HSL or RGB notation, always add a single space after a comma and
-  no space between parentheses and content.
+- When using HSL or RGB notation, always add a single space after a comma and no space between parentheses and content.
 
 ```scss
 // Bad
@@ -824,21 +706,18 @@ color: $secondary;
   }
   ```
 
-# Variables 
+## Variables 
 - Create new variables in the following circumstances:
   - The value is repeated twice
   - The value is likely to be updated at least once
-  - All occurrences of the value are tied to the variable (for example not by
-    coincidence)
-- When building scss that will be used across multiple projects use the
-  `!default` flag to allow overriding.
+  - All occurrences of the value are tied to the variable (for example not by coincidence)
+- When building scss that will be used across multiple projects use the `!default` flag to allow overriding.
 
   ```scss
   $baseline: 1em !default;
   ```
 
-- The `!global` flag should only be used when overriding a global variable from
-  a local scope.
+- The `!global` flag should only be used when overriding a global variable from a local scope.
 - Variables across the whole scss codebase should be placed in their own file.
 - When declaring color variables, don't base the name on the color content.
 
@@ -871,8 +750,7 @@ color: $secondary;
   ```
 
 - Name all used z-indexes with a variable.
-- Have a z-index variable for each z-index used, and a separate variable,
-  possibly aliased for where the z-index is used.
+- Have a z-index variable for each z-index used, and a separate variable, possibly aliased for where the z-index is used.
 
   ```scss
   $z_index-neg_1: -100;
@@ -884,19 +762,16 @@ color: $secondary;
   $z_index-show: $z_index-1;
   ```
 
-## Responsive Design & Breakpoints
-- Set variables for breakpoints at the top of your stylesheet. This
-  functionality is built into Bourbon.
+### Responsive design & breakpoints
+- Set variables for breakpoints at the top of your stylesheet. This functionality is built into Bourbon.
 
   ```scss
   $sm: new-breakpoint(min-width 0 max-width 40em $sm_cols);
   ```
 
-- Use variables to set the queries throughout so they are easy to adapt if
-  necessary.
+- Use variables to set the queries throughout so they are easy to adapt if necessary.
 - Place media queries nearest to the class they are affecting.
-- Rather than focusing on devices when deciding where to put breakpoints, focus
-  on content; name breakpoint variables relative to each other.
+- Rather than focusing on devices when deciding where to put breakpoints, focus on content; name breakpoint variables relative to each other.
 
   ```scss
   // Bad

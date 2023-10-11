@@ -1,5 +1,5 @@
 ---
-title: Laptop Setup 
+title: Laptop setup 
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/laptop-setup/
@@ -7,9 +7,14 @@ tags: engineering
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
-  key: Laptop Setup 
+  key: Laptop setup 
   order: 2
-  title: Laptop Setup 
+  title: Laptop setup 
+subnav:
+  - text: Licensed software
+    href: "#licensed-software"
+  - text: Other customizations
+    href: "#other-customizations"
 ---
 
 While you are welcome to customize your laptop, here are some tools that have worked for others on the engineering team!
@@ -55,8 +60,7 @@ While you are welcome to customize your laptop, here are some tools that have wo
 [Virtualenvwrapper]: http://virtualenvwrapper.readthedocs.org/en/latest/#
 [Zsh]: http://www.zsh.org/
 
-## Licensed Software
-
+## Licensed software
 * [Docker] for all your containerization needs
 
   The docker daemon and docker CLI tools are available on a free license.
@@ -67,7 +71,6 @@ While you are welcome to customize your laptop, here are some tools that have wo
 [Docker Desktop]: https://www.docker.com/products/docker-desktop/
 
 ## Other customizations
-
 * [Atom] - GitHub's open source text editor
 * [Exuberant Ctags] for indexing files for vim tab completion
 * [Firefox] for testing your website on a browser other than Chrome

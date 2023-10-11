@@ -12,6 +12,7 @@ USWDS Source
 Custom styling
 ----------------------------------------------------------*/
 @forward "custom-styles.scss";
+@forward "../../derisking/styles/derisking-styles.scss";
 
 // TODO: Delete
 // @forward "overrides/_hero.scss";

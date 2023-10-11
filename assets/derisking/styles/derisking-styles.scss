@@ -1,0 +1,126 @@
+@use 'uswds-core' as * ;
+
+/*----------------------------------------------------------
+# Styles specific to the De-risking guides
+-----------------------------------------------------------*/
+
+$bullet-spacing: 1.25rem; 
+
+.derisking {
+  blockquote {
+    @include u-font('sans', 'sm');
+    color: color('base-dark');
+  }
+
+  h1 {
+    @include u-font('sans', '3xl');
+  }
+
+  h2 {
+    @include u-font('sans', '2xl');
+    border-top: 1px solid color('primary-dark');
+    padding-top: units(1.5);
+  }
+
+  h3 {
+    @include u-font('sans', 'xl');
+  }
+
+  h4 {
+    @include u-font('sans', 'lg');
+  }
+
+  h5 {
+    @include u-font('sans', 'md');
+    color: color('primary');
+    margin-top: units(3);
+  }
+  
+  h4 + h5 {
+   margin-top: units(2);
+  }
+
+  h6 {
+    @include u-font('sans', 'sm');
+    color: color('primary');
+  }
+
+ // Extra specificty to override the nested list style in usa-prose without having
+ // to add a class for every nested list
+  ul li ul li p {
+    margin: 0 0 units(1) 0;
+  }
+}
+
+#footnotes {
+  @include u-font('sans', 'md');
+  border-top: 1px solid color('primary-dark');
+  padding-top: units(1.5);
+}
+
+.footnotes-list {
+  @include u-font('sans', 'xs');
+  max-width: measure(5);
+  padding-left: units(2);
+}
+
+.guide-checklist,
+.key-questions {
+  @include u-font('sans','md');
+  color: color('white');
+  padding: units(1);
+}
+
+.guide-checklist {
+  background-color: color('primary');
+}
+
+.key-questions {
+  background-color: color('primary-darker');
+}
+
+.guide-checklist + ul, 
+.key-questions + ul {
+  background-color: color('blue-5');
+  margin-top:0;
+  padding-top: units(1);
+  padding-right: units(2);
+  padding-bottom: units(1);
+}
+
+.guide-checklist + ul li, 
+.key-questions + ul li {
+  margin-bottom: units(1);
+}
+
+.guide-checklist + ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: units(1);
+}
+
+.guide-checklist + ul li {
+  padding-left: $bullet-spacing;
+  text-indent: (-1 * $bullet-spacing);
+
+  &:before {
+    content: '\25A1';
+    padding-right: units(1);
+  }
+}
+
+.guide-highlight {
+  background-color: color('blue-5');
+  padding: units(2);
+  border-left: 4px solid color('accent-cool');
+}
+
+.qasp-table {
+  width: units('tablet');
+}
+
+.qasp-table td, .qasp-table th {
+  @include u-font('body', 'xs');
+  vertical-align: top;
+}
+

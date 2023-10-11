@@ -26,6 +26,7 @@ module.exports = function (config) {
 
   // Specific scripts to guides
   config.addPassthroughCopy("./assets/_common/js/*");
+  config.addPassthroughCopy("./assets/**/js/*");
 
   config.addPassthroughCopy({'./assets/_common/_img/favicons/favicon.ico': './favicon.ico' });
   config.addPassthroughCopy({'./assets/_common/_img/favicons': './img/favicons' });

@@ -10,6 +10,15 @@ eleventyNavigation:
   key: Content Security Policy (CSP)
   order: 2
   title: Content Security Policy (CSP)
+subnav:
+  - text: What is Content Security Policy?
+    href: "#what-is-content-security-policy"
+  - text: Usage
+    href: "#usage"
+  - text: Caveats
+    href: "#caveats"
+  - text: Further reading
+    href: "#further-reading"
 ---
 
 ## What is Content Security Policy?
@@ -41,7 +50,7 @@ sources, and a usable sample policy could look something like this:
 
 Let's break this down:
 
-```
+```http
   default-src self : Only load content from the current
     origin, exluding subdomains
 
@@ -58,7 +67,6 @@ Let's break this down:
 The `default-src` directive should always be defined! This directive acts as a fallback for all other `*-src` directives that are not defined within in the policy or are unsupported.
 
 It might be useful to test your policies before letting them loose on your users. To do this, use the `Content-Security-Policy-Report-Only` HTTP header. Combined with the reporting information in the next section, you can monitor the kinds of content your user's are encountering and tweak the your policy accordingly.
-
 
 ### Reporting
 CSP can also be configured to send reports to an endpoint you control when content that violates your policies is encountered.
@@ -83,14 +91,14 @@ This data can of course be mixed with other request metadata, like IP address or
 
 Reporting can only be enabled via HTTP header, not inside a `<meta>` tag!
 
-### Client-side Implementation
+### Client-side implementation
 To implement CSP on the client, add a `<meta>` tag to your web site's `<head>`. Your policy will be a doubled-quoted string placed inside the `content` attribute of the tag.
 
 `<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">`
 
 You're done!
 
-### Server-side Implementation
+### Server-side implementation
 To include a CSP headers on the server, simply return a `Content-Security-Policy: {my-policy-string}` HTTP header in your web responses.
 
 <br>
@@ -120,9 +128,7 @@ This technique will allow those scripts to load, with the following caveats:
 
 As each project has its own needs, you should always perform your own research on a per-project basis to determine the best way to handle third-party scripts!
 
-
-## Further Reading
-
+## Further reading
 The information contained is this guide is only a primer, and was sourced from the following articles:
 - [MDN CSP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
 - [Google CSP Guide](https://developers.google.com/web/fundamentals/security/csp/)
@@ -130,6 +136,6 @@ The information contained is this guide is only a primer, and was sourced from t
 - [CSP Quick reference guide](https://content-security-policy.com/)
 - [Wikipedia reference](https://en.wikipedia.org/wiki/Content_Security_Policy)
 
-_the following links are fairly old, but pretty short and worth skimming_
+_The following links are fairly old, but pretty short and worth skimming_
 - [Twitter CSP blog post](https://blog.twitter.com/engineering/en_us/a/2011/improving-browser-security-with-csp.html)
 - [GitHub CSP blog post](https://blog.twitter.com/engineering/en_us/a/2011/improving-browser-security-with-csp.html)

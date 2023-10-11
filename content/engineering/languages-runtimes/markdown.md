@@ -1,5 +1,5 @@
 ---
-title: Markdown Guide
+title: Markdown guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/markdown/
