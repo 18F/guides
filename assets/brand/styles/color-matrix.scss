@@ -39,157 +39,6 @@ $brand-colors: (
   padding-bottom: 100%;
 }
 
-  // @include at-media(tablet) {
-  //   padding-bottom: units(10) + units(3);
-  //   width: units(10) + units(3);
-  // }
-// }
-
-
-
-// .color-matrix-short {
-//   height: 7rem;
-//   margin-bottom: 1rem;
-// }
-
-// //// color palette display
-
-// .color-matrix-name {
-//   font-weight: bold;
-//   margin-bottom: 0;
-//   margin-top: 1rem;
-//   text-transform: capitalize;
-// }
-
-// .color-matrix-hex {
-//   margin-bottom: 1em;
-//   margin-top: 0;
-
-//   @include at-media(tablet) {
-//     margin: 0;
-//   }
-// }
-
-// .color-matrix-row {
-//   margin-bottom: 3rem;
-//   margin-top: 1.5rem;
-// }
-
-// #color-guidance {
-//   margin-top: 5rem;
-// }
-
-// .usa-primary-color-section {
-//   @include at-media(tablet) {
-//     margin-bottom: 8rem;
-//   }
-//   margin-bottom: 0;
-
-//   .color-matrix-square {
-//     margin-bottom: 7rem;
-//     padding-bottom: 50%;
-//     width: 48%;
-//     float: left;
-//     margin-right: 2%;
-//     position: relative;
-
-//     @include at-media(tablet) {
-//       width: 14.66%;
-//       margin-bottom: 0;
-//       padding-bottom: 14.66%;
-//     }
-//   }
-// }
-
-// .color-matrix-inner-content {
-//   position: absolute;
-//   top: 100%;
-// }
-
-// //// color matrix
-
-// .usa-sr-invisible[aria-hidden="true"] {
-//   display: block !important;
-// }
-
-// .color-matrix-foreground-white {
-//   color: $color-white;
-
-//   // https://css-tricks.com/adding-stroke-to-web-text/
-//   text-shadow:
-//    -1px -1px 0 #000,
-//     1px -1px 0 #000,
-//     -1px 1px 0 #000,
-//      1px 1px 0 #000;
-// }
-
-// .color-matrix-foreground-light {
-//   color: $color-light;
-// }
-
-// .color-matrix-foreground-bright {
-//   color: $color-bright;
-// }
-
-// .color-matrix-foreground-medium {
-//   color: $color-medium;
-// }
-
-// .color-matrix-foreground-dark {
-//   color: $color-dark;
-// }
-
-// .color-matrix-foreground-black {
-//   color: $color-black;
-// }
-
-// .color-matrix td {
-//   vertical-align: top;
-// }
-
-// .color-matrix-square {
-//   width: 3.5em;
-//   height: 3.5em;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   margin-right: units(1);
-
-//   strong {
-//     text-shadow: none;
-//   }
-// }
-
-// .color-matrix-symbol-definitions {
-//   display: none;
-// }
-
-// .usa-prose .color-matrix-legend {
-//   display: flex;
-//   margin-top: 0.5em;
-//   justify-content: flex-start;
-//   align-items: top;
-
-//   svg, p {
-//     margin-top: 0.5em;
-//     margin-bottom: 0.5em;
-//   }
-
-//   svg{
-//     flex: 0 0 auto;
-//     width: 35px;
-//     height: 35px;
-//   }
-
-//   p {
-//     flex-grow: 1;
-//     flex-shrink: 1;
-//     max-width: measure(6);
-//     margin-left: 1em;
-//     font-size: .85em;
-//   }
-// }
-
 .color-matrix-legend.legend-bad-contrast {
   display: none;
 }
@@ -197,23 +46,6 @@ $brand-colors: (
 td[scope="row"] > div {
   display: flex;
 }
-
-// .color-matrix td.color-matrix-valid-color-combo,
-// .color-matrix td.color-matrix-invalid-color-combo {
-//   padding: .5em .25em;
-// }
-
-// .color-matrix-desc {
-//   font-size: .85em;
-//   flex: 1;
-//   line-height: lh('body', 3);
-// }
-
-// .color-matrix p {
-//   font-size: .85em;
-//   line-height: lh('body', 3);
-// }
-
 
 table.color-matrix {
   display: block;
@@ -234,7 +66,6 @@ table.color-matrix {
         padding-left: 0;
 
         .color-combo-description {
-        //   flex: 1;
           padding-left: 1em;
         }
       }
