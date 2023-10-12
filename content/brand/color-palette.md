@@ -1,7 +1,7 @@
 ---
 title: Color palette
 permalink: /brand/color-palette/
-layout: layouts/page
+layout: layouts/wide
 sidenav: false
 tags: brand
 eleventyNavigation:
@@ -29,17 +29,15 @@ For Adobe, Sketch, and Mac applications
 
 [Download color palettes]({{ "/assets/brand/dist/18F_Color_Palette.zip" | url }}){.usa-button}
 
-<div class="usa-grid-full usa-color-row usa-primary-color-section">
-  {% for color in palette %}
-  <div class="grid-gap-lg usa-color-square usa-color-{{ color.name }} {% cycle '', 'usa-mobile-end-row' %}">
-    <div class="usa-color-inner-content">
-      <p class="usa-color-name">{{ color.name }}</p>
-      <p class="usa-color-hex">#{{ color.hex }}</p>
+  <div class="grid-row grid-gap-md margin-top-4">
+  {%- for color in palette -%}
+    <div class="grid-col-6 tablet:grid-col-2">
+      <div class="palette-square brand-background-{{ color.name }}"></div>
+      <p class="margin-bottom-0 text-bold">{{- color.name | capitalize -}}</p>
+      <p class="margin-y-0">#{{ color.hex }}</p>
     </div>
+  {%- endfor -%}
   </div>
-  {% endfor %}
-</div>
-
 <br>
 
 

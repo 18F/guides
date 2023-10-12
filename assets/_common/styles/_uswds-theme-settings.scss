@@ -1,11 +1,4 @@
-/*----------------------------------------------------------
-# 18F colors
------------------------------------------------------------*/
-$brand-color-light: #B3EFFF;
-$brand-color-bright: #00CFFF;
-$brand-color-medium: #046B99;
-$brand-color-dark: #1C304A;
-
+@use 'brand-colors' as *;
 @use 'uswds-core' as * with (
 
   /*---------------------------------------------------------
@@ -67,7 +60,7 @@ $brand-color-dark: #1C304A;
   /*------------------------------------------------
   ## Error color
   -------------------------------------------------*/
-   $theme-color-error-lighter: 'red-warm-5v',
+  $theme-color-error-lighter: 'red-warm-5v',
    
   /*---------------------------------------------------------
   # Component Settings
@@ -76,7 +69,14 @@ $brand-color-dark: #1C304A;
   /*------------------------------------------------
   ## Header width
   -------------------------------------------------*/ 
-   $theme-header-logo-text-width: 70%,
+  $theme-header-logo-text-width: 70%,
+
+  /*---------------------------------------------------------
+  # Utility Settings
+  ----------------------------------------------------------*/
+  $theme-utility-breakpoints: (
+    'tablet-lg': true,
+  ),
 
   /*------------------------------------------------
   ## Tables

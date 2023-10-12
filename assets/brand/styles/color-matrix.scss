@@ -1,0 +1,133 @@
+@use '../../_common/styles/brand-colors' as *;
+@use 'uswds-core' as * ;
+
+$brand-colors: (
+  "white": white,
+  "light": $brand-color-light,
+  "bright": $brand-color-bright,
+  "medium": $brand-color-medium,
+  "dark": $brand-color-dark,
+  "black": black,
+);
+
+// Generate helper background and foreground classes
+@each $name, $brand-color in $brand-colors {
+  .brand-background-#{$name} {
+    background-color: $brand-color;
+    @if $name == "white" {
+      box-shadow: inset 0 0 0 1px color('base-light');
+    }
+  }
+
+  .brand-foreground-#{$name} {
+    color: $brand-color;
+  }
+}
+
+.color-matrix-square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+  height: units(7);
+  width: units(7);
+  max-width: units(7);
+}
+
+.palette-square {
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.color-matrix-legend.legend-bad-contrast {
+  display: none;
+}
+
+table.color-matrix {
+  display: block;
+
+  thead {
+    display: none;
+  }
+
+  tbody {
+    display: block;
+
+    tr {
+      display: block;
+
+      td.color-combo {
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+
+        .color-combo-description {
+          padding-left: 1em;
+        }
+      }
+
+      td.color-combo--invalid {
+        display: none;
+      }
+
+      td[scope="row"] {
+        display: none;
+      }
+    }
+  }
+}
+
+@include at-media('tablet-lg') {
+  .usa-prose .color-matrix-legend  {
+    align-items: center;
+  }
+
+  .color-matrix-legend.legend-bad-contrast {
+      display: flex;
+    }
+
+  table.color-matrix {
+    display: table;
+
+    thead {
+      display: table-header-group;
+
+      td[scope="col"] {
+        padding-left: units(1);
+      }
+
+      // https://css-tricks.com/adding-stroke-to-web-text/
+      .brand-foreground-white,
+      .brand-foreground-light,
+      .brand-foreground-bright {
+        text-shadow:
+          -1px -1px 0 color(base-darker),
+          1px -1px 0 color(base-darker),
+          -1px 1px 0 color(base-darker),
+          1px 1px 0 color(base-darker);
+      }
+    }
+
+    tbody {
+      display: table-row-group;
+
+      tr {
+        display: table-row;
+
+        td.color-combo {
+          display: table-cell;
+
+          .color-combo-description {
+            flex: 1;
+            padding-left: 0;
+          }
+        }
+
+        td[scope="row"] {
+          display: table-cell;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
