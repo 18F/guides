@@ -187,6 +187,15 @@ _Example:_
 If you'd like to run these locally you could run `npm run test:links`. Alternatively you could use `npm run test:links-internal`, which will run the test with colorized output if you find that helpful, but note that it will not return an accurate exit code.
 
 If there is a link that is still to be deteremined as we are moving guides, you can use '/TODO/' as the URL. This will visually highlight the link as TODO, and the link will be ignored in the link test.
-## Redirection
+## Temporary redirection during development
 We are planning to release the replatformed guides incrementally. During this time, replatformed guides that are still in development and have not yet been released will redirect users to the existing guide's URL (typically following the pattern of `<guide>.18f.gov`). This approach is implemented using client-side redirects. The `_data/redirect_bases.yaml` stores a mapping of each guide's tag key (the same one used to create the [collections](#collections--tags), to the base URL of the current guide. This base URL is then used to generate the URL the user will be redirected to. When a guide gets released, we will need to remove its corresponding key-value pair from `_data/redirect_bases.yaml`.
 
+### Accessibility impacts to client-side redirects
+
+While server-side redirects would be preferable, our deployment limitations have us using client-side redirects for this purpose.
+
+WCAG states that if using this technique, the `content` attribute should be set to 0 (meaning 0 seconds / immediate redirect), to avoid content "flashing" before the page is redirected.
+
+Since redirects will be immediate, we will leave the redirect page template empty of body content in order to avoid content flashing.
+
+Through manual testing, we’ve determined the redirect is unnoticeable visually and is smooth for screen readers. We welcome any feedback on how to improve this experience.
