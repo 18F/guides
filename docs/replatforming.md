@@ -187,4 +187,6 @@ _Example:_
 If you'd like to run these locally you could run `npm run test:links`. Alternatively you could use `npm run test:links-internal`, which will run the test with colorized output if you find that helpful, but note that it will not return an accurate exit code.
 
 If there is a link that is still to be deteremined as we are moving guides, you can use '/TODO/' as the URL. This will visually highlight the link as TODO, and the link will be ignored in the link test.
+## Redirection
+We are planning to release the replatformed guides incrementally. During this time, replatformed guides that are still in development and have not yet been released will redirect users to the existing guide's URL (typically following the pattern of `<guide>.18f.gov`). This approach is implemented using client-side redirects. The `_data/redirect_bases.yaml` stores a mapping of each guide's tag key (the same one used to create the [collections](#collections--tags), to the base URL of the current guide. This base URL is then used to generate the URL the user will be redirected to. When a guide gets released, we will need to remove its corresponding key-value pair from `_data/redirect_bases.yaml`.
 
