@@ -194,7 +194,7 @@ We are planning to release the replatformed guides incrementally. During this ti
 
 While server-side redirects would be preferable, our deployment limitations have us using client-side redirects for this purpose.
 
-WCAG states that if using this technique, the `content` attribute should be set to 0 (meaning 0 seconds / immediate redirect), to avoid content "flashing" before the page is redirected.
+[WCAG states](https://www.w3.org/TR/WCAG20-TECHS/H76.html) that if using this technique, the `content` attribute should be set to 0 (meaning 0 seconds / immediate redirect), to avoid content "flashing" before the page is redirected.
 
 Since redirects will be immediate, we will leave the redirect page template empty of body content in order to avoid content flashing.
 
