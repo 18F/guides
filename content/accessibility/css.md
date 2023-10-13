@@ -1,5 +1,4 @@
 ---
-redirect: true
 title: CSS dependence
 permalink: /accessibility/css/
 layout: layouts/page

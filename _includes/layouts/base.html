@@ -5,7 +5,7 @@ The home page uses wide.html layout, since it extends full width of page
 <!DOCTYPE html>
 <html lang="en">
 
-{% if redirect %}
+{% if redirect_bases[tags[0]] %}
   {% include "meta_redirect.html" %}
 {% else %}
   {% include "meta.html" %}

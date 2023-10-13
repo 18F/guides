@@ -1,5 +1,4 @@
 ---
-redirect: true
 title: Design 
 description: "About prototypes and how they inform the work of 18F, as well as resources on web publishing platforms and design systems to help you get started."
 permalink: /ux-guide/design/
