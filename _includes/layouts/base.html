@@ -5,40 +5,46 @@ The home page uses wide.html layout, since it extends full width of page
 <!DOCTYPE html>
 <html lang="en">
 
-{% include "meta.html" %}
+{% if redirect_bases[tags[0]] and env.production %}
+  {% include "meta_redirect.html" %}
+{% elsif page.url == "/" and env.production %}
+  <meta http-equiv="refresh" content="0;URL='https://18f.gsa.gov/guides'" />
+{% else %}
+  {% include "meta.html" %}
+  <body>
+    {% include "site-alert.html" %}
+    {% include "header.html" %}
+    {% if tags %}
+      {% assign primary_navigation = navigation[tags] %}
+    {% else %}
+      {% assign primary_navigation = site.primary_navigation %}
+    {% endif %}
 
-<body>
-  {% include "site-alert.html" %}
-  {% include "header.html" %}
-  {% if tags %} 
-    {% assign primary_navigation = navigation[tags] %}
-  {% else %} 
-    {% assign primary_navigation = site.primary_navigation %}
-  {% endif %}
+    {% include "menu.html" secondary_navigation: site.secondary_navigation %}
 
-  {% include "menu.html" secondary_navigation: site.secondary_navigation %}
+    {{ content }}
 
-  {{ content }}
+    {% include "footer.html" %}
 
-  {% include "footer.html" %}
+    {% comment %} Hide SVG Sprites {% endcomment %}
+    <div style="display: none;">
+      {% usa_icons_sprite %}
 
-  {% comment %} Hide SVG Sprites {% endcomment %}
-  <div style="display: none;">
-    {% usa_icons_sprite %}
+      {% comment %}
 
-    {% comment %}
+      TODO: Remove once this set of icons once we've determined the usa_icons
+      above is enough. Currently, keeping both adds two sets of SVGs with duplicate IDs,
+      which is flagged as by pa11y as an accessibility error.
 
-    TODO: Remove once this set of icons once we've determined the usa_icons
-    above is enough. Currently, keeping both adds two sets of SVGs with duplicate IDs,
-    which is flagged as by pa11y as an accessibility error.
+        {% uswds_icons_sprite %}
 
-      {% uswds_icons_sprite %}
+      {% endcomment %}
 
-    {% endcomment %}
+    </div>
 
-  </div>
+    {% include "scripts.html" %}
+  </body>
 
-  {% include "scripts.html" %}
-</body>
+  </html>
+{% endif %}
 
-</html>
