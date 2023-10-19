@@ -113,7 +113,7 @@ module.exports = function (config) {
     let prefixIcon = '';
     if (privateLinks.some((link) => token.attrGet('href').indexOf(link) >= 0)) {
       prefixIcon = '<span class="usa-sr-only"> 18F only, </span>' +
-                   '<svg class="usa-icon margin-top-2px margin-right-2px top-2px"' +
+                   '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" ' +
                    'aria-hidden="true" role="img">' +
                    '<use xlink:href="#svg-lock_outline"></use>' +
                    '</svg>'
