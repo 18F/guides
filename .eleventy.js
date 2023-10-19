@@ -8,9 +8,10 @@ const markdownItFootnote = require('markdown-it-footnote');
 const { readableDate, htmlDateString, head, min, filterTagList } = require("./config/filters");
 const { headingLinks } = require("./config/headingLinks");
 const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
-const yaml = require("js-yaml");
+const privateLinks = require ('./config/privateLinksList.js');
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const yaml = require("js-yaml");
 
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
@@ -98,6 +99,44 @@ module.exports = function (config) {
   '<section class="footnotes">\n' +
   '<ol class="footnotes-list">\n'
   );
+
+  // Add icons for links with locked resources and external links
+  // https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md
+  // Token methods:  https://github.com/markdown-it/markdown-it/blob/master/lib/token.js#L125
+  const openDefaultRender = markdownLibrary.renderer.rules.link_open ||
+    function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  markdownLibrary.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    let prefixIcon = '';
+    if (privateLinks.some((link) => token.attrGet('href').indexOf(link) >= 0)) {
+      prefixIcon = '<span class="usa-sr-only"> 18F only, </span>' +
+                   '<svg class="usa-icon margin-top-2px margin-right-2px top-2px"' +
+                   'aria-hidden="true" role="img">' +
+                   '<use xlink:href="#svg-lock_outline"></use>' +
+                   '</svg>'
+    }
+
+    // Check for external URLs
+    const baseURL = new URL('https://guides.18f.gov/');
+    const hrefValue = token.attrGet('href');
+
+    if (!(new URL(hrefValue, baseURL).hostname === baseURL.hostname)) {
+      // Add the external link class if it hasn't been added yet
+      if (!(token.attrGet('class')) || !(token.attrGet('class').includes('usa-link--external'))) {
+        token.attrJoin('class', 'usa-link usa-link--external');
+      }
+
+      // Set rel=noreferrer if it hasn't been set yet
+      if (!(token.attrGet('rel')) || !(token.attrGet('rel').includes('noreferrer'))) {
+        token.attrJoin('rel', 'noreferrer');
+      }
+    }
+
+    return openDefaultRender(tokens, idx, options, env, self) + `${prefixIcon}`;
+  };
 
   // Override Browsersync defaults (used only with --serve)
   config.setBrowserSyncConfig({
