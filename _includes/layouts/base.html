@@ -11,7 +11,7 @@ The home page uses wide.html layout, since it extends full width of page
   <meta http-equiv="refresh" content="0;URL='https://18f.gsa.gov/guides'" />
 {% else %}
   {% include "meta.html" %}
-  <body>
+  <body class="display-flex flex-column minh-viewport">
     {% include "site-alert.html" %}
     {% include "header.html" %}
     {% if tags %}
