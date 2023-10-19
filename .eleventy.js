@@ -123,7 +123,7 @@ module.exports = function (config) {
     const baseURL = new URL('https://guides.18f.gov/');
     const hrefValue = token.attrGet('href');
 
-    if (!(new URL(hrefValue, baseURL).hostname === baseURL.hostname)) {
+    if (new URL(hrefValue, baseURL).hostname !== baseURL.hostname) {
       // Add the external link class if it hasn't been added yet
       if (!(token.attrGet('class')) || !(token.attrGet('class').includes('usa-link--external'))) {
         token.attrJoin('class', 'usa-link usa-link--external');
