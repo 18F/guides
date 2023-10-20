@@ -156,6 +156,6 @@ We most commonly share our work via presentations. These presentations can vary 
 - [GSA + the Lab@OPM’s Human-Centered Design Discovery Stage Field Guide ](https://www.gsa.gov/cdnstatic/HCD-Discovery-Guide-Interagency-v12-1.pdf)
 - [Lab@OPM's HCD Discovery Concept Guide](https://the-lab-at-opm.github.io/HCD-Discovery-Concept-Guide/)
 - [Lab@OPM's HCD Discovery Operations Guide](https://the-lab-at-opm.github.io/HCD-Discovery-Operations-Guide/)
-- [NYC Civic Service Design: Tools and Tactics](https://www1.nyc.gov/assets/servicedesign/)
+- [NYC Civic Service Design: Tools and Tactics](https://www1.nyc.gov/assets/servicedesign/){.usa-link .usa-link--external}
 - [GOV.UK Service Manual: User Research](https://www.gov.uk/service-manual/user-research)
 - [18F UX Guide References](https://docs.google.com/document/d/1IYt7kcHMtVAKQdWPUZQB-u9qOvoUx6u3IR9UzF6EwO8/edit#heading=h.xr0ztr7noxa6)

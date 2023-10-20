@@ -63,7 +63,7 @@ As government designers, informal power might look like:
 
 As [government employees]({{ '../ethics/#you-as-a-government-employee' | url }}) and [designers]({{ '../ethics/#you-as-a-designer-and-project-team-member' | url }}), we hold both formal and informal power when working on projects. We hold official positions that give us authority and have experience and expertise that influence our decisions. Decision making is one of the greatest forms of power we have in our projects. We often have power to decide who participates, when decisions are made, by whom, and according to what criteria.
 
-Including those most impacted as decision makers is a primary way to share power. The [City of Philadelphia](https://engagement-toolkit.phila.gov/guides/power/#Share-your-power) describes sharing power as a spectrum of how a community is engaged:
+Including those most impacted as decision makers is a primary way to share power. The [City of Philadelphia](https://engagement-toolkit.phila.gov/guides/power/#Share-your-power){.usa-link .usa-link--external} describes sharing power as a spectrum of how a community is engaged:
 
 {:.list-item--margin-bottom-extra}
 - **Informed:** The project team makes decisions and communicates them to community members.
@@ -111,7 +111,7 @@ These links do not imply endorsement but are shared here as other resources on t
 
 - OMB’s [Equity Learning Community](https://community.max.gov/display/OMBExternal/Equity+Events+Recordings+and+Content) Session 3: Examining Power and Privilege with George Aye (must be logged into Max.gov to access) 
 - Beyond Sticky Notes, [What is co-design? An overview](https://www.beyondstickynotes.com/what-is-codesign)
-- The City of Philadelphia’s Equitable Community Engagement Toolkit, [Power Guide](https://engagement-toolkit.phila.gov/guides/power/#Share-your-power)
+- The City of Philadelphia’s Equitable Community Engagement Toolkit, [Power Guide](https://engagement-toolkit.phila.gov/guides/power/#Share-your-power){.usa-link .usa-link--external}
 - University of California, Los Angeles (UCLA) Library’s [Positionality & Research: How our Identities Shape Inquiry](https://www.youtube.com/watch?v=fTHFud7fr8c)
 - [Mapping Power and Money](https://www.greaterbostontoolkit.org/en/toolkit/mapping), Greater Boston’s Anti-Displacement toolkit
 - [Community asset mapping resources](https://www.caltrin.org/wp-content/uploads/2022/08/Asset-Mapping-Resource-Sheet.pdf) from the California Training Institute
