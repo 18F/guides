@@ -17,11 +17,11 @@ Prior to 2001, a majority of software development products failed to actually be
 
 In addition, the widely-held belief that development teams could predict customer needs far in advance--sometimes many years in advance--turned out to be incorrect. So even when working software was delivered, it often did not meet the expectations of customers.
 
-Analysis and experimentation conducted during the 1990’s suggested that the <a href="https://en.wikipedia.org/wiki/Winston_W._Royce" target="_blank">so-called waterfall development process</a> was largely responsible for this climate of failure. After ten years of work, the <a href="http://agilemanifesto.org/" target="_blank">Agile Manifesto</a> was published in 2001. The Manifesto ushered in the age of Agile software development by outlining a framework for a different approach to the problem. The (then) new Agile approach featured outreach to potential users of software, decomposition of large software projects into much smaller projects that were much less difficult and risky, and empowerment of development teams to respond to evolving requirements.
+Analysis and experimentation conducted during the 1990’s suggested that the <a href="https://en.wikipedia.org/wiki/Winston_W._Royce" target="_blank" class="usa-link usa-link--external">so-called waterfall development process</a> was largely responsible for this climate of failure. After ten years of work, the <a href="http://agilemanifesto.org/" target="_blank" class="usa-link usa-link--external">Agile Manifesto</a> was published in 2001. The Manifesto ushered in the age of Agile software development by outlining a framework for a different approach to the problem. The (then) new Agile approach featured outreach to potential users of software, decomposition of large software projects into much smaller projects that were much less difficult and risky, and empowerment of development teams to respond to evolving requirements.
 
 ## Open Source and Contributing
 
-This project is [open source](https://github.com/18F/agile/TODO/), and we welcome contributions from the public.
+This project is [open source](https://github.com/guides/){ .usa-link .usa-link--external }, and we welcome contributions from the public.
 
 ### License
 
