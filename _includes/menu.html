@@ -68,6 +68,10 @@ manage your navigation system {% endcomment %}
           {% endfor %}
         </ul>
         {% endif %}
+        {% comment %}
+          TODO re-enable search by uncommenting:
+          {% include "searchgov/form.html" searchgov: site.searchgov %}
+        {% endcomment %}
       </div>
     </div>
   </nav>
