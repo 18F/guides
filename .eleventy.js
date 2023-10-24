@@ -157,10 +157,10 @@ module.exports = function (config) {
       const contentUrl =  content.match(hrefRE)[1];
       if (privateLinks.some((privateLink) => contentUrl.indexOf(privateLink) >= 0)) {
         const prefixIcon = '<span class="usa-sr-only"> 18F only, </span>' +
-                     '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" ' +
-                     'aria-hidden="true" role="img">' +
-                     '<use xlink:href="#svg-lock_outline"></use>' +
-                     '</svg>'
+                           '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" ' +
+                           'aria-hidden="true" role="img">' +
+                           '<use xlink:href="#svg-lock_outline"></use>' +
+                           '</svg>'
         content = content.replace('>', `> ${prefixIcon}`);
         tokens[idx].content = content;
       }
@@ -171,7 +171,7 @@ module.exports = function (config) {
           tokens[idx].content = content.replace('class="', 'class="usa-link usa-link--external ');
         }
         else {
-          tokens[idx].content = content.replace('>', 'class="usa-link usa-link--external" >');
+          tokens[idx].content = content.replace('>', ' class="usa-link usa-link--external">');
         }
       }
     }
