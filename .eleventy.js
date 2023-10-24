@@ -136,9 +136,47 @@ module.exports = function (config) {
         token.attrJoin('rel', 'noreferrer');
       }
     }
-
     return openDefaultRender(tokens, idx, options, env, self) + `${prefixIcon}`;
   };
+
+  // Also need to add icon links to any html style links
+  const inlineHTMLDefaultRender = markdownLibrary.renderer.rules.html_inline ||
+    function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  const isLinkOpen = /^<a[>\s]/i;
+  markdownLibrary.renderer.rules.html_inline = (tokens, idx, options, env, self) => {
+    const token=tokens[idx];
+    if (isLinkOpen.test(token.content) && token.content.includes('http')) {
+      let content = token.content;
+
+      //Add private link icon
+      const hrefRE = /href=\"([^"]*)/;
+      // get the matching capture group
+      const contentUrl =  content.match(hrefRE)[1];
+      if (privateLinks.some((privateLink) => contentUrl.indexOf(privateLink) >= 0)) {
+        const prefixIcon = '<span class="usa-sr-only"> 18F only, </span>' +
+                     '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" ' +
+                     'aria-hidden="true" role="img">' +
+                     '<use xlink:href="#svg-lock_outline"></use>' +
+                     '</svg>'
+        content = content.replace('>', `> ${prefixIcon}`);
+        tokens[idx].content = content;
+      }
+
+      // Add external links, as definied above
+      if (!content.includes('.gov')) {
+        if (content.includes('class=')) {
+          tokens[idx].content = content.replace('class="', 'class="usa-link usa-link--external ');
+        }
+        else {
+          tokens[idx].content = content.replace('>', 'class="usa-link usa-link--external" >');
+        }
+      }
+    }
+    return inlineHTMLDefaultRender(tokens, idx, options, env, self);
+  }
 
   // Override Browsersync defaults (used only with --serve)
   config.setBrowserSyncConfig({
