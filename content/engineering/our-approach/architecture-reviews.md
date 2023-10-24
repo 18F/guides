@@ -29,12 +29,12 @@ Maintainable technology projects require handoffs between developers, and with n
 
 ## Simplicity
 
-We’ve done two projects exploring different aspects of simplicity — first, the [DATA Act Pilot: Simplicity is Key]({{ "/engineering/data-act-pilot/" | url }}) (2016) project explored the ideas of:
+We’ve done two projects exploring different aspects of simplicity — first, the [DATA Act Pilot: Simplicity is Key](#data-act-pilot-simplicity-is-key) (2016) project explored the ideas of:
 
 - Building for a least common denominator (CSVs) gave the project reach (more users could participate) and reduced code complexity
 - Pulling out validation rules into a separate, easy-to-modify format made the product flexible and simple to maintain
 
-The second explores the idea of simplifying acquisitions in [Micro-purchase: Do one thing well]({{ "/engineering/micro-purchase/" | url }}) (2016) by using code boundaries in projects to define lines between micro-purchases of developer time.
+The second explores the idea of simplifying acquisitions in [Micro-purchase: Do one thing well](#micro-purchase-do-one-thing-well) (2016) by using code boundaries in projects to define lines between micro-purchases of developer time.
 
 ## DATA Act Pilot: Simplicity is key
 
