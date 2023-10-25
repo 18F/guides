@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
       timer = setTimeout(() => {
         const c = confirm('Would you like more time to complete the form?');
         let timer;
-        if (c == true) {
+        if (c === true) {
           clearTimeout(timer);
         } else {
           pForm.reset();
