@@ -56,7 +56,7 @@
     "start-server-and-test": "^2.0.0"
   },
   "dependencies": {
-    "@uswds/uswds": "3.5.0",
+    "@uswds/uswds": "3.6.1",
     "markdown-it-footnote": "^3.0.3",
     "netlify-cms": "^2.10.192"
   }
