@@ -1,6 +1,6 @@
 # Title for each guide that will appear in the header, as well as the root subdirectory for the guide
 default:
-  title: 18F Approaches
+  title: Guides
   root: /
 accessibility:
   title: Accessibility
