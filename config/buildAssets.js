@@ -17,18 +17,18 @@ async function* getFilesInDirectory(dir) {
 }
 
 async function createAssetPaths() {
-  let pathPrefix = ''
+  let pathPrefix = '';
 
   if (process.env.BASEURL) {
-    pathPrefix = process.env.BASEURL
+    pathPrefix = process.env.BASEURL;
   }
 
   const assetPath = path.join(__dirname, '../_site/assets');
   const assetDirs = await fs.readdir(assetPath);
   const assetsFiles = await Promise.all(
     assetDirs.map(async (dir) => {
-      const files = []
-      for await (const f of getFilesInDirectory(path.join(__dirname, '../_site/assets',dir))) {
+      const files = [];
+      for await (const f of getFilesInDirectory(path.join(__dirname, '../_site/assets', dir))) {
         files.push(f);
       }
       return files.map((file) => {
@@ -42,7 +42,7 @@ async function createAssetPaths() {
           [key]: `${pathPrefix}/${assetDirs}`,
         };
       });
-    })
+    }),
   );
   const assets = Object.assign({}, ...assetsFiles.flat());
   const outputData = path.join(__dirname, '../_data/assetPaths.json');
@@ -67,12 +67,12 @@ esbuild
     minify: process.env.ELEVENTY_ENV === 'production',
     sourcemap: process.env.ELEVENTY_ENV !== 'production',
     target: ['chrome58', 'firefox57', 'safari11', 'edge18'],
-    plugins: [ 
+    plugins: [
       sassPlugin({
         loadPaths: [
-          "./node_modules/@uswds",
-          "./node_modules/@uswds/uswds/packages"
-        ]
+          './node_modules/@uswds',
+          './node_modules/@uswds/uswds/packages',
+        ],
       }),
     ],
     bundle: true,

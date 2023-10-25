@@ -7,14 +7,14 @@ const getText = (node) => {
   const texts = [];
 
   for (const child of node.children ?? []) {
-    if (child.type === "text") {
+    if (child.type === 'text') {
       texts.push(child.content);
     } else {
       texts.push(getText(child));
     }
   }
 
-  return texts.join("");
+  return texts.join('');
 };
 
 // https://www.npmjs.com/package/markdown-it-anchor#custom-permalink
@@ -35,22 +35,22 @@ const headingLinks = (slug, _, state, index) => {
   // We also need to find the index of the element that closes the header. We'll
   // put our link stuff right before that.
   let closeIndex = index + 1;
-  while (state.tokens[closeIndex].type !== "heading_close") {
+  while (state.tokens[closeIndex].type !== 'heading_close') {
     closeIndex += 1;
   }
 
   // Insert an HTML block into the markdown tree. This way markdown-it won't
   // try to parse it, it'll just dump it directly into the output.
   const headingLink = {
-    type: "html_block",
+    type: 'html_block',
     content: `
   <span aria-hidden="true">
     <a href="#${slug}"
       class="heading-permalink"
       aria-label="permanent link to ${headingText.replace(
-        /"/g,
-        "&quot;"
-      )} heading">
+    /"/g,
+    '&quot;',
+  )} heading">
       <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
         <use xlink:href="#svg-link"></use>
       </svg>
