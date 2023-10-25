@@ -115,6 +115,13 @@ We want to avoid commiting the `assetPaths.json` file, but need to keep it out o
 
 If that doesn't work, type in `git update-index --assume-unchanged _data/assetPaths.json` into the terminal.
 
+## Link icons
+Any link in the contents of the guides (i.e. not part of a layout or page component), will be tested to determine if it's an external link and if the access to the linked resource is restricted to 18F (e.g google docs, murals, etc...). We are using the patterns developed as part of [work on the UX guide](https://github.com/18F/ux-guide/issues/340).
+
+An external link is [defined](https://github.com/18F/ux-guide/issues/297) as any link that is not a federal .gov or .mil website. However, as there does not seem to be a programmatic way to distinguish between a federal and non-federal .gov domain, state and local-domains need to be marked as such manually. In order to mark a link as external we can add the USWDS `usa-link` and `usa-link--external` classes. To do so in markdown we can utilize the installed `markdown-it-attrs` plugin and append the class to the link using curly brackets (`{ }`). For example: `[external link](example.com){.usa-link .usa-link--external}`.
+
+Private or restricted links are determined by comparing against the list of links in `config/privateLinksList.js`. If there are other links that are restricted you should add them to this list. 
+
 ## Content migration process
 
 The general steps for migrating a guide:
