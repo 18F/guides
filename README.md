@@ -1,4 +1,4 @@
-# 18F approaches
+# 18F Guides
 
 A work in progress repository for consolidating the 18F Guides and Methods
 
