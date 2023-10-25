@@ -29,7 +29,7 @@ jobs:
         env:
           ELEVENTY_ENV: production
         run: npm run build
-
+      run: npm run lint
   pa11y-scan:
     # Pinned to 20.04 because pa11y-ci fails to run on 22.04
     # See the discussion on https://github.com/pa11y/pa11y-ci/issues/198
