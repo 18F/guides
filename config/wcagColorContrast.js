@@ -6,6 +6,8 @@
 
 const humanReadableContrastRatio = (ratio) => {
   // SMELL: This is less readable than ideal.
+  let digits = 0;
+
   if (ratio < 4) {
     digits = 1;
   } else if (ratio < 5) {
@@ -17,8 +19,11 @@ const humanReadableContrastRatio = (ratio) => {
 };
 
 const contrastRatio = (hex1, hex2) => {
-  lum1 = luminance(hex1);
-  lum2 = luminance(hex2);
+  const lum1 = luminance(hex1);
+  const lum2 = luminance(hex2);
+  let lighter = 0;
+  let darker = 0;
+
   if (lum1 >= lum2) {
     lighter = lum1;
     darker = lum2;
