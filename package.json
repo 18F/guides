@@ -18,6 +18,7 @@
     "dev:serve": "npx @11ty/eleventy --serve --watch",
     "dev:cms": "npx netlify-cms-proxy-server",
     "federalist": "npm run build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "pa11y-ci:sitemap": "sleep 10; pa11y-ci --sitemap http://localhost:8080/sitemap.xml --sitemap-exclude \"/*.pdf\"  --sitemap-exclude \"/admin\" --sitemap-find \"^/\" --sitemap-replace \"http://localhost:8080/\"",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
@@ -57,6 +58,7 @@
   },
   "dependencies": {
     "@uswds/uswds": "3.5.0",
+    "eslint": "^8.52.0",
     "markdown-it-footnote": "^3.0.3",
     "netlify-cms": "^2.10.192"
   }
