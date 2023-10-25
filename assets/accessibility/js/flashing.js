@@ -1,5 +1,4 @@
 window.addEventListener('DOMContentLoaded', () => {
-  console.log('foo');
   let blinking = false;
   let interval;
   const blinkEl = document.getElementsByClassName('blink')[0];

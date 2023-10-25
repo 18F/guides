@@ -79,10 +79,8 @@ esbuild
   })
   .then(() => createAssetPaths())
   .then(() => {
-    console.log('Assets have been built!');
     process.exit();
   })
-  .catch((err) => {
-    console.error(err);
+  .catch(() => {
     process.exit(1);
   });
