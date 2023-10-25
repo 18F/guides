@@ -18,6 +18,25 @@ const humanReadableContrastRatio = (ratio) => {
   return `${ratio.toFixed(digits)}:1`;
 };
 
+const hexToRgb = (hex) => {
+  hex = hex.slice(1);
+  const value = parseInt(hex, 16);
+  const r = (value >> 16) & 255;
+  const g = (value >> 8) & 255;
+  const b = value & 255;
+
+  return [r, g, b];
+};
+
+const luminance = (hex) => {
+  const [r8, g8, b8] = hexToRgb(hex);
+  const [r, g, b] = [r8, g8, b8].map((component) => {
+    const value = component / 255;
+    return value <= 0.03928 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
+  });
+  return r * 0.2126 + g * 0.7152 + b * 0.0722;
+};
+
 const contrastRatio = (hex1, hex2) => {
   const lum1 = luminance(hex1);
   const lum2 = luminance(hex2);
@@ -32,25 +51,6 @@ const contrastRatio = (hex1, hex2) => {
     lighter = lum2;
   }
   return (lighter + 0.05) / (darker + 0.05);
-};
-
-const luminance = (hex) => {
-  const [r8, g8, b8] = hexToRgb(hex);
-  const [r, g, b] = [r8, g8, b8].map((component) => {
-    const value = component / 255;
-    return value <= 0.03928 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
-  });
-  return r * 0.2126 + g * 0.7152 + b * 0.0722;
-};
-
-const hexToRgb = (hex) => {
-  hex = hex.slice(1);
-  const value = parseInt(hex, 16);
-  const r = (value >> 16) & 255;
-  const g = (value >> 8) & 255;
-  const b = value & 255;
-
-  return [r, g, b];
 };
 
 module.exports = { contrastRatio, humanReadableContrastRatio };
