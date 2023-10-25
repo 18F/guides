@@ -145,10 +145,10 @@ module.exports = function (config) {
       return self.renderToken(tokens, idx, options);
     };
 
-  const isLinkOpen = /^<a[>\s]/i;
+  const linkOpenRE = /^<a[>\s]/i;
   markdownLibrary.renderer.rules.html_inline = (tokens, idx, options, env, self) => {
     const token=tokens[idx];
-    if (isLinkOpen.test(token.content) && token.content.includes('http')) {
+    if (linkOpenRE.test(token.content) && token.content.includes('http')) {
       let content = token.content;
 
       //Add private link icon
@@ -168,10 +168,24 @@ module.exports = function (config) {
       // Add external links, as definied above
       if (!content.includes('.gov')) {
         if (content.includes('class=')) {
-          tokens[idx].content = content.replace('class="', 'class="usa-link usa-link--external ');
+          if (!content.includes('usa-link--external')) {
+            content = content.replace('class="', 'class="usa-link usa-link--external ');
+            tokens[idx].content = content;
+          }
         }
         else {
-          tokens[idx].content = content.replace('>', ' class="usa-link usa-link--external">');
+          content = content.replace('>', ' class="usa-link usa-link--external">');
+          tokens[idx].content = content;
+        }
+        if (content.includes('rel=')) {
+          if (!content.include('noreferrer')) {
+            content = content.replace('rel=', 'rel="noreferrer ">');
+            tokens[idx].content = content;
+          }
+        }
+        else {
+          content = content.replace('>', ' rel="noreferrer">');
+          tokens[idx].content = content;
         }
       }
     }
