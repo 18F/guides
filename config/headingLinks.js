@@ -1,3 +1,5 @@
+/* eslint no-restricted-syntax: 0 */
+/** eslint doesn't like iterators/generators */
 // From https://github.com/18F/handbook/blob/ddf9f29bce09d6c7ac1d0f2f33a99b75bc5c8223/config/headingLinks.js
 //
 // Given a Markdown node, recursively find all of the child text nodes and

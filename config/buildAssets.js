@@ -1,3 +1,5 @@
+/* eslint no-restricted-syntax: 0 no-shadow: 0 */
+/** eslint doesn't like iterators/generators */
 const fs = require('fs/promises');
 const path = require('path');
 const esbuild = require('esbuild');
@@ -28,13 +30,17 @@ async function createAssetPaths() {
   const assetsFiles = await Promise.all(
     assetDirs.map(async (dir) => {
       const files = [];
-      for await (const f of getFilesInDirectory(path.join(__dirname, '../_site/assets', dir))) {
+      for await (const f of getFilesInDirectory(
+        path.join(__dirname, '../_site/assets', dir),
+      )) {
         files.push(f);
       }
       return files.map((file) => {
         const { name, ext } = path.parse(file);
         const publicDir = '_site/';
-        const assetDirs = file.slice(file.indexOf(publicDir) + publicDir.length);
+        const assetDirs = file.slice(
+          file.indexOf(publicDir) + publicDir.length,
+        );
         const hashedAt = name.lastIndexOf('-');
         const originalName = name.slice(0, hashedAt);
         const key = `${originalName}${ext}`;
@@ -52,7 +58,11 @@ async function createAssetPaths() {
 
 esbuild
   .build({
-    entryPoints: ['assets/_common/styles/styles.scss', 'assets/_common/js/app.js', 'assets/_common/js/admin.js'],
+    entryPoints: [
+      'assets/_common/styles/styles.scss',
+      'assets/_common/js/app.js',
+      'assets/_common/js/admin.js',
+    ],
     entryNames: '[dir]/[name]-[hash]',
     outdir: '_site/assets/',
     format: 'iife',

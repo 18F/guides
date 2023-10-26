@@ -6,14 +6,14 @@ window.addEventListener('DOMContentLoaded', () => {
     keyboardTrapLinks[0].focus();
   }
 
-  Array.from(moveFocusLinks).map((el) => {
+  Array.from(moveFocusLinks).forEach((el) => {
     el.addEventListener('focus', handleFocus);
   });
 
-  Array.from(keyboardTrapLinks).map((el) => {
-    el.addEventListener('click', () => {
-      Array.from(moveFocusLinks).map((el) => {
-        el.removeEventListener('focus', handleFocus);
+  Array.from(keyboardTrapLinks).forEach((trapLinkEl) => {
+    trapLinkEl.addEventListener('click', () => {
+      Array.from(moveFocusLinks).forEach((focusLinkEl) => {
+        focusLinkEl.removeEventListener('focus', handleFocus);
       });
     });
   });

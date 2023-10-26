@@ -10,6 +10,9 @@
         "sourceType": "module"
     },
   "rules": {
-    "no-param-reassign": ["error", {"props": false}]
+    "no-param-reassign": ["error", {"props": false}],
+    "quotes": ["error", "single"],
+    "no-iterator": [ "off" ],
+    "no-return-await": [ "off" ]
     }
 }

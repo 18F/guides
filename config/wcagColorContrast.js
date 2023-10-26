@@ -1,3 +1,4 @@
+/* eslint no-bitwise: 0 */
 // WCAG Color Contrast functions
 // Implements the WCAG color contrast procedure: https://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-tests
 // With gratitude to:
@@ -18,8 +19,8 @@ const humanReadableContrastRatio = (ratio) => {
   return `${ratio.toFixed(digits)}:1`;
 };
 
-const hexToRgb = (hex) => {
-  hex = hex.slice(1);
+const hexToRgb = (hexParts) => {
+  const hex = hexParts.slice(1);
   const value = parseInt(hex, 16);
   const r = (value >> 16) & 255;
   const g = (value >> 8) & 255;
