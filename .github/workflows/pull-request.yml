@@ -79,6 +79,8 @@ jobs:
         run: npm run test:links
 
   lint:
+    name: Run linter
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Use Node
