@@ -5,6 +5,11 @@
 -----------------------------------------------------------*/
 
 $bullet-spacing: 1.25rem; 
+$tagline-image-size: 11.6rem; // Match current size 
+
+.tagline__image {
+  max-width: $tagline-image-size;
+}
 
 .derisking {
   blockquote {

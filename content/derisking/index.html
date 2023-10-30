@@ -20,7 +20,7 @@ eleventyNavigation:
         <a class="usa-button usa-button--outline usa-button--inverse" href="#workshops">Request a workshop</a>
       </div>
       <div class="tablet:grid-col-6 display-flex tablet:flex-justify-center margin-top-2">
-        {% image_with_class "assets/derisking/img/guide-covers-circle.png" "maxw-mobile" "guide covers" %}
+        {% image_with_class "assets/derisking/img/derisking-guides-covers.svg" "maxw-mobile" "guide covers" %}
       </div>
     </div>
   </div>
@@ -29,10 +29,10 @@ eleventyNavigation:
 <section class="usa-graphic-list usa-section usa-prose padding-bottom-0">
   <div class="grid-container">
     <div class="usa-graphic-list__row grid-row grid-gap">
-      <div class="usa-media-block">
-        {% image_with_class "assets/derisking/img/pie-chart-186.png" "display-none tablet:display-block tagline__image usa-media-block__img" "" %}
+      <div class="usa-media-block grid-col-12">
+        {% image_with_class "assets/derisking/img/pie-chart-medium.svg" "display-none tablet:display-block tagline__image usa-media-block__img" "" %}
         <div class="usa-media-block__body measure-5">
-          <h2 class="">
+          <h2 class="line-height-sans-3">
             Only 13% of large government IT projects&nbsp;succeed<sup>*</sup>
           </h2>
           <p>Implementing custom software projects can be extraordinarily costly and risky in a government setting. Waterfall software development remains standard at all levels of government. Outdated budgeting and oversight processes have been designed around these very waterfall processes. Moving toward a user-centered, agile approach to this work will save millions of dollars in spending on bad software.</p>
@@ -53,7 +53,7 @@ eleventyNavigation:
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
         <a href="{{'/derisking/state-field-guide/' | url }}">
-          {% image_with_class "assets/derisking/img/capitol-03-124.png" "" "" %}
+          {% image_with_class "assets/derisking/img/guide-icon-state.svg" "maxw-15" "" %}
           <h3 class="font-heading-lg margin-top-1 margin-bottom-0 usa-link">
             State Software Budgeting Handbook
           </h3>
@@ -63,7 +63,7 @@ eleventyNavigation:
 
       <div class="tablet:grid-col">
         <a href="{{'/derisking/federal-field-guide/' | url }}">
-          {% image_with_class "assets/derisking/img/shield-02-124.png" "" "" %}
+          {% image_with_class "assets/derisking/img/guide-icon-federal.svg" "maxw-15" "" %}
           <h3 class="font-heading-lg margin-top-1 margin-bottom-0 usa-link">
             Federal Field Guide
           </h3>
@@ -80,7 +80,7 @@ eleventyNavigation:
   <div class="grid-container">
     <div class="usa-graphic-list__row grid-row grid-gap">
       <div class="usa-media-block">
-        {% image_with_class "assets/derisking/img/workshop-01-124.png" "usa-media-block__img display-none tablet:display-block" "" %}
+        {% image_with_class "assets/derisking/img/workshop.svg" "usa-media-block__img display-none tablet:display-block maxw-15" "" %}
         <div class="usa-media-block__body measure-5">
           <h2 id="workshops">Workshops</h2>
           <p>18F can jump start your software development project with workshops that are tailored to reduce project risk, meet your goals, and deliver results to your users. These workshops are designed to teach the basics of modern software development best practices, coach your team through a shared understanding of the problem and likely solution, and deliver actionable next steps, such as a draft solicitation that is ready for release.
