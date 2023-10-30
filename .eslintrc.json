@@ -4,6 +4,7 @@
         "commonjs": true,
         "es2021": true
     },
+  "ignorePatterns": ["/_site"],
     "extends": "eslint-config-airbnb-base",
     "parserOptions": {
         "ecmaVersion": "latest",
