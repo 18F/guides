@@ -8,9 +8,10 @@ const markdownItFootnote = require('markdown-it-footnote');
 const { readableDate, htmlDateString, head, min, filterTagList } = require("./config/filters");
 const { headingLinks } = require("./config/headingLinks");
 const { contrastRatio, humanReadableContrastRatio } = require("./config/wcagColorContrast");
-const yaml = require("js-yaml");
+const privateLinks = require ('./config/privateLinksList.js');
 const svgSprite = require("eleventy-plugin-svg-sprite");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const yaml = require("js-yaml");
 
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
@@ -98,6 +99,98 @@ module.exports = function (config) {
   '<section class="footnotes">\n' +
   '<ol class="footnotes-list">\n'
   );
+
+  // Add icons for links with locked resources and external links
+  // https://github.com/markdown-it/markdown-it/blob/master/docs/architecture.md
+  // Token methods:  https://github.com/markdown-it/markdown-it/blob/master/lib/token.js#L125
+  const openDefaultRender = markdownLibrary.renderer.rules.link_open ||
+    function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  markdownLibrary.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    let prefixIcon = '';
+    if (privateLinks.some((link) => token.attrGet('href').indexOf(link) >= 0)) {
+      prefixIcon = '<span class="usa-sr-only"> 18F only, </span>' +
+                   '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" ' +
+                   'aria-hidden="true" role="img">' +
+                   '<use xlink:href="#svg-lock_outline"></use>' +
+                   '</svg>'
+    }
+
+    // Check for external URLs. External means any site that is not a federal .gov url
+    // This check can't detect state/local .gov domains. Those will need to be
+    // manually adjusted
+    const baseURL = new URL('https://guides.18f.gov/');
+    const hrefValue = token.attrGet('href');
+
+    if (!(new URL(hrefValue, baseURL).hostname.endsWith(".gov"))) {
+      // Add the external link class if it hasn't been added yet
+      if (!(token.attrGet('class')) || !(token.attrGet('class').includes('usa-link--external'))) {
+        token.attrJoin('class', 'usa-link usa-link--external');
+      }
+
+      // Set rel=noreferrer if it hasn't been set yet
+      if (!(token.attrGet('rel')) || !(token.attrGet('rel').includes('noreferrer'))) {
+        token.attrJoin('rel', 'noreferrer');
+      }
+    }
+    return openDefaultRender(tokens, idx, options, env, self) + `${prefixIcon}`;
+  };
+
+  // Also need to add icon links to any html style links
+  const inlineHTMLDefaultRender = markdownLibrary.renderer.rules.html_inline ||
+    function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  const linkOpenRE = /^<a[>\s]/i;
+  markdownLibrary.renderer.rules.html_inline = (tokens, idx, options, env, self) => {
+    const token=tokens[idx];
+    if (linkOpenRE.test(token.content) && token.content.includes('http')) {
+      let content = token.content;
+
+      //Add private link icon
+      const hrefRE = /href=\"([^"]*)/;
+      // get the matching capture group
+      const contentUrl =  content.match(hrefRE)[1];
+      if (privateLinks.some((privateLink) => contentUrl.indexOf(privateLink) >= 0)) {
+        const prefixIcon = '<span class="usa-sr-only"> 18F only, </span>' +
+                           '<svg class="usa-icon margin-top-2px margin-right-2px top-2px" ' +
+                           'aria-hidden="true" role="img">' +
+                           '<use xlink:href="#svg-lock_outline"></use>' +
+                           '</svg>'
+        content = content.replace('>', `> ${prefixIcon}`);
+        tokens[idx].content = content;
+      }
+
+      // Add external links, as definied above
+      if (!content.includes('.gov')) {
+        if (content.includes('class=')) {
+          if (!content.includes('usa-link--external')) {
+            content = content.replace('class="', 'class="usa-link usa-link--external ');
+            tokens[idx].content = content;
+          }
+        }
+        else {
+          content = content.replace('>', ' class="usa-link usa-link--external">');
+          tokens[idx].content = content;
+        }
+        if (content.includes('rel=')) {
+          if (!content.include('noreferrer')) {
+            content = content.replace('rel=', 'rel="noreferrer ">');
+            tokens[idx].content = content;
+          }
+        }
+        else {
+          content = content.replace('>', ' rel="noreferrer">');
+          tokens[idx].content = content;
+        }
+      }
+    }
+    return inlineHTMLDefaultRender(tokens, idx, options, env, self);
+  }
 
   // Override Browsersync defaults (used only with --serve)
   config.setBrowserSyncConfig({

@@ -12,7 +12,9 @@ eleventyNavigation:
   title: Resources
 ---
 
-Several resources are provided on specific topics within this guide to provide additional context, templates, and examples of doing the work. Some of these resources are available only to staff of GSA (General Services Administration) or TTS (Technology Transformation Services), and these are indicated by a lock icon (<span class="lock-icon"></span>).
+Several resources are provided on specific topics within this guide to provide additional context, templates, and examples of doing the work. Some of these resources are available only to staff of GSA (General Services Administration) or TTS (Technology Transformation Services), and these are indicated by a lock icon (<svg aria-hidden="true" role="img" class="usa-icon top-2px">
+<use xlink:href="#svg-lock_outline"></use>
+</svg>). 
 
 In addition to the resources provided in each section, here are more general resources related to product management at 18F that you may find helpful.
 

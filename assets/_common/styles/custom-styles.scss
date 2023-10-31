@@ -15,6 +15,15 @@ a[href*="/TODO/"] {
     color: color('blue-80v') !important;
   }
 }
+.todo-link.usa-link--external:after,
+a[href*="/TODO/"].usa-link--external:after {
+  background-color: inherit;
+  background-image: none;
+  margin-left: 0;
+  padding-left: units(0.5);
+  vertical-align: baseline;
+  -webkit-mask-image: none;
+}
 
 // Set heading colors
 h1, h2, h3, h4, h5, h6 {

@@ -96,5 +96,5 @@ If you’re publishing source code, see the [18F Open Source Style Guide](https:
 
 * [Federal Plain Language Guidelines](http://www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/TOC.cfm)
 * [Avoiding legal, foreign, and technical jargon](http://www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/writeNoJargon.cfm)
-* King County: [Shorter, simpler words](http://www.kingcounty.gov/exec/styleguide/concisewriting/simplerwords.aspx)
+* King County: [Shorter, simpler words](http://www.kingcounty.gov/exec/styleguide/concisewriting/simplerwords.aspx){.usa-link .usa-link--external}
 * Gov.uk: [Plain English](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#plain-english) and [Words to avoid](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#words-to-avoid)
