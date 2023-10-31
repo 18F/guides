@@ -2,7 +2,7 @@
 
 ## Status
 
-Pending
+Accepted
 
 ## Context
 
@@ -65,23 +65,25 @@ Merges would still need to pass our CI pipeline, which already checks for build 
 
 This does open up the question of how we could incorporate visual spot-checks into our CI pipeline, and if this is worth doing.
 
-## Proposal
+#### 3) The malicious behavior of others
 
-### 1) Start with option 2: auto-merge only patches, and track how it goes
+As a project depending on open source packages, we need to consider that we are always running and deploying code we didn’t write, and it’s our responsibility to ensure software is not malicious or harmful. It is not possible for any human to review all lines of source code used. We need to consider how we can best manage human attention, and rely on automated security tools and the open source community broadly to fill in the gaps. 
 
-Our hypothesis with option #2 is that this will offer some needed consistency, and the time that engineers will save will outweigh the risks of bugs entering production.
+From [npm](https://docs.npmjs.com/threats-and-mitigations#uploading-malicious-packages):
 
-In this trial period, pay attention to:
-- how many bugs enter production
-- how much engineering time is saved
+> In partnership with Microsoft, npm both scans packages for known malicious content, and runs the packages to look for new patterns of behavior that could be malicious.
 
-If bugs enter production at an unacceptable level, roll back to fully manual updates.
+## Decision
 
-### 2) Rotate responsiblities for Dependabot support among TLC Crew engineers
+- We will auto-merge patch updates only.
+- We will keep the [weekly PR cadence](https://github.com/18F/guides/blob/main/.github/dependabot.yml#L11) for Dependabot to continue to batch non-patch updates on a weekly basis.
+- For every weekly iteration of the TLC crew, we will assign a ticket to review and merge any non-patch updates from Dependabot.
 
-For every iteration, make a ticket for Dependabot support. Assign that ticket to a new engineer each week. Keep track of who's done it and how many times, to make sure work is delegated equitably.
+We will track how many bugs are introduced into production by auto-merged pull requests.
 
-This would only be for minor or major updates, as patches will now be automatic.
+## Consequences
 
-Keep the [weekly PR cadence](https://github.com/18F/guides/blob/main/.github/dependabot.yml#L11) for Dependabot so that updates can happen a little more synchronously for the supporter.
-
+- The time spent reviewing dependabot pull requests will be directed towards higher-risk reviews (major and minor version updates).
+- The speed and consistency of applying patches will both increase.
+- The number of bugs entering production will increase, but only to acceptable levels.
+- The overhead of generating an assigning a ticket to manage dependabot merges on a weekly basis will be automated or an acceptable manual burden.
