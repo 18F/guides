@@ -1,12 +1,11 @@
-window.addEventListener('DOMContentLoaded', function () {
-  console.log('foo')
-  var blinking = false,
-    interval,
-    blinkEl = document.getElementsByClassName('blink')[0],
-    blinkBtn = document.getElementById('blinkbutton');
+window.addEventListener('DOMContentLoaded', () => {
+  let blinking = false;
+  let interval;
+  const blinkEl = document.getElementsByClassName('blink')[0];
+  const blinkBtn = document.getElementById('blinkbutton');
 
   function toggleBlinking(el) {
-    var display = el.style.display;
+    const { display } = el.style;
     if (display === 'inline') {
       el.style.display = 'none';
     } else {
@@ -14,11 +13,11 @@ window.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  blinkBtn.addEventListener('click', function () {
+  blinkBtn.addEventListener('click', () => {
     if (!blinking) {
-      blinkBtn.innerText = 'Click to stop blinking'
-      interval = setInterval(function () {
-        toggleBlinking(blinkEl)
+      blinkBtn.innerText = 'Click to stop blinking';
+      interval = setInterval(() => {
+        toggleBlinking(blinkEl);
       }, 200);
       blinking = true;
     } else {
@@ -27,5 +26,5 @@ window.addEventListener('DOMContentLoaded', function () {
       blinkEl.style.display = 'none';
       blinking = false;
     }
-  })
+  });
 });

@@ -51,6 +51,19 @@ on every pull request, but it can also be run locally. To run locally, type:
 ```
 npm run test:pa11y-ci
 ```
+### Code Formatting ###
+  
+#### Prettier ####
+We use [Prettier](https://prettier.io/) for code formatting. You can run prettier manually with
+```
+npx prettier . --write
+```
+Note that this will overwrite files in place. See `npx prettier --help` for more CLI options.
+  
+An easier way to use prettier is to integrate it into your IDE/editor. For example, [integration exists for VS Code](https://github.com/prettier/prettier-vscode) such that prettier runs on a file every time you save it.
+  
+You can also add prettier as a [git commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks), but you will need to set up the script yourself. For example, you can symlink [this template](/utils/pre-commit) file into `.git/hooks/pre-commit`
+  
 ## Contributing
 If you are interested in contributing to this repository, you can read more at
 [CONTRIBUTING](CONTRIBUTING.md).

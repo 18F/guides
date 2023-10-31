@@ -40,7 +40,7 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@v3
         with:
-          node-version: '17.x'
+          node-version: 18
       - name: Install node dependencies
         run: npm install
       - name: Refresh assets
@@ -77,4 +77,18 @@ jobs:
           node-version: 18
       - name: Test all links
         run: npm run test:links
+
+  lint:
+    name: Run linter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install node dependencies
+        run: npm install
+      - name: Run eslint
+        run: npm run lint
 
