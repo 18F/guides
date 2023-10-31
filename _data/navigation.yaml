@@ -110,3 +110,7 @@ ux-guide:
     url: /ux-guide/research/
   - name: Design
     url: /ux-guide/design/
+
+default:
+  - name: 18F Guides home
+    url: https://18f.gsa.gov/guides/

@@ -14,10 +14,6 @@ dap:
 ga:
   ua: UA-48605964-19
 
-# Site Navigation
-primary_navigation:
-  - name: Home
-    url: /
       
 # secondary_navigation:
 #  - name: Secondary link
