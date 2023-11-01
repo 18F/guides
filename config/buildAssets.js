@@ -1,5 +1,9 @@
 /* eslint no-restricted-syntax: 0 no-shadow: 0 */
 /** eslint doesn't like iterators/generators */
+
+/* eslint-disable no-console */
+/** we are using console.logs for logging asset builds */
+
 const fs = require('fs/promises');
 const path = require('path');
 const esbuild = require('esbuild');
@@ -89,11 +93,10 @@ esbuild
   })
   .then(() => createAssetPaths())
   .then(() => {
-    process.stdout.write('Assets have been built!\n');
+    console.log('Assets have been built!');
     process.exit();
   })
   .catch((err) => {
-    process.stderr.write(err);
-    process.stderr.write('\n');
+    console.error(err);
     process.exit(1);
   });
