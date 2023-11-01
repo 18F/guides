@@ -1,8 +1,10 @@
 ---
-name: Issue
-about: Basic issue template
-description: Create an issue
-labels: Initiative 2, Guides
-projects: 18F/41
+name: Basic Issue
+about: Basic issue template, use this if you don't have a better idea of what to use
+title: ''
+labels: Guides, Initiative 2
+assignees: ''
 
 ---
+
+
