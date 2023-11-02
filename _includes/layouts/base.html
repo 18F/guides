@@ -4,14 +4,12 @@ The home page uses wide.html layout, since it extends full width of page
 {% endcomment %}
 <!DOCTYPE html>
 <html lang="en">
-  {%  assign was_redirected = false %}
-  {%  if env.production %}
-    {% if redirect_bases[tags[0]] %}
-      {%  assign was_redirected = true %}
-      {% include "meta_redirect.html" %}
-    {% elsif page.url == "/" %}
+  {% assign was_redirected = false %}
+  {% if env.production %}
+    {% assign is_index = page.url == "/" %}
+    {% if redirect_bases[tags[0]] or is_index %}
       {% assign was_redirected = true %}
-      {%  include "meta_redirect.html", is_index: true %}
+      {% include "meta_redirect.html", is_index: is_index %}
     {% endif %}
   {% endif %}
 
