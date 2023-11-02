@@ -10,12 +10,9 @@ The home page uses wide.html layout, since it extends full width of page
       {%  assign was_redirected = true %}
       {% include "meta_redirect.html" %}
     {% elsif page.url == "/" %}
-      {%  assign was_redirected = true %}
-      <meta name="robots" content="noindex" />
-      <meta http-equiv="refresh" content="0;URL='https://18f.gsa.gov/guides'" />
+      {% assign was_redirected = true %}
+      {%  include "meta_redirect.html", is_index: true %}
     {% endif %}
-  {% else %}
-    <meta name="robots" content="noindex, nofollow" />
   {% endif %}
 
   {%  unless was_redirected %}
