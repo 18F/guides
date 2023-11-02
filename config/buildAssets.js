@@ -1,5 +1,8 @@
-/* eslint no-restricted-syntax: 0 no-shadow: 0 */
+/* eslint no-restricted-syntax: 'off', no-shadow: 'off', no-console: 'off' */
 /** eslint doesn't like iterators/generators */
+
+/** we are using console.logs for logging asset builds */
+
 const fs = require('fs/promises');
 const path = require('path');
 const esbuild = require('esbuild');
