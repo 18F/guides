@@ -8,6 +8,6 @@
  * to force production to true.
  */
 module.exports = {
-  production:
-    process.env.NODE_ENV === 'production' || process.env.BRANCH === 'main',
+  production: process.env.NODE_ENV === 'production' || process.env.BRANCH === 'main',
+  preview_build: process.env.BRANCH && process.env.BRANCH !== 'main',
 };
