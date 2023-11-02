@@ -1,7 +1,6 @@
-/* eslint no-restricted-syntax: 0 no-shadow: 0 */
+/* eslint no-restricted-syntax: 0, no-shadow: 0, no-console: 0 */
 /** eslint doesn't like iterators/generators */
 
-/* eslint-disable no-console */
 /** we are using console.logs for logging asset builds */
 
 const fs = require('fs/promises');
