@@ -8,7 +8,8 @@ The home page uses wide.html layout, since it extends full width of page
 {% if redirect_bases[tags[0]] and env.production %}
   {% include "meta_redirect.html" %}
 {% elsif page.url == "/" and env.production %}
-  <meta http-equiv="refresh" content="0;URL='https://18f.gsa.gov/guides'" />
+<meta name="robots" content="noindex" />  
+<meta http-equiv="refresh" content="0;URL='https://18f.gsa.gov/guides'" />
 {% else %}
   {% include "meta.html" %}
   <body class="display-flex flex-column minh-viewport">
