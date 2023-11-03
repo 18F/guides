@@ -1,16 +1,40 @@
 const chai = require('chai');
-const utils = require("./utils.js");
-const {
-  redirects,
-  GUIDE_NAMES,
-  REPLATFORMED_GUIDE_NAMES,
-  REDIRECTED_GUIDE_NAMES,
-  runEleventy,
-  getDomForGuide
-} = utils;
+const yaml = require('js-yaml');
+const fs = require('fs');
+const path = require('path');
+const childProcess = require('child_process');
+const Eleventy = require('@11ty/eleventy');
+const jsdom = require('jsdom');
+const { JSDOM } = jsdom;
 const expect = chai.expect;
 const assert = chai.assert;
 
+const REDIRECTS_FILE = path.resolve(__dirname, "..", "_data", "redirect_bases.yaml");
+const redirectsData = fs.readFileSync(REDIRECTS_FILE, "utf8");
+const redirects = yaml.load(redirectsData);
+const GUIDE_NAMES = fs.readdirSync(path.resolve(__dirname, "..", "content"), {withFileTypes: true})
+      .filter(entry => entry.isDirectory())
+      .map(dirEntry => dirEntry.name);
+const REDIRECTED_GUIDE_NAMES = Object.keys(redirects);
+const REPLATFORMED_GUIDE_NAMES = GUIDE_NAMES.filter(name => !REDIRECTED_GUIDE_NAMES.includes(name));
+
+const runEleventy = async (envName="") => {
+  childProcess.execSync("npx @11ty/eleventy", {
+    cwd: path.resolve(__dirname, ".."),
+    timeout: 5000,
+    env: Object.assign({}, process.env, {NODE_ENV: envName})
+  });
+};
+
+const getGuideIndexPath = (guideName) => {
+  return path.resolve(__dirname, "..", "_site", guideName, "index.html");
+};
+
+const getDomForGuide = (guideName) => {
+  const guidePath = getGuideIndexPath(guideName);
+  const html = fs.readFileSync(guidePath, "utf8");
+  return new JSDOM(html, {url: "https://localhost/", referrer: "https://localhost/"});
+};
 
 
 describe("Redirection and indexing tests", () => {
@@ -69,6 +93,30 @@ describe("Redirection and indexing tests", () => {
             const expectedContent = `0;URL='${redirectUrl}'`;
 
             expect(redirectMeta.getAttribute('content')).to.equal(expectedContent);
+          });
+        });
+      });
+    });
+  });
+
+  describe("In a non-production environment", () => {
+    before(async() => {
+      await runEleventy('dev');
+    });
+    
+    describe("The replatformed guide", () => {
+      REPLATFORMED_GUIDE_NAMES.forEach(replatformedGuide => {
+        let document;
+        beforeEach(() => {
+          const dom = getDomForGuide(replatformedGuide);
+          document = dom.window.document;
+        });
+
+        describe(`${replatformedGuide}`, () => {
+          it('has a robots meta tag', () => {
+            const robotsMeta = document.querySelector('meta[name="robots"]');
+
+            expect(robotsMeta).to.exist;
           });
         });
       });
