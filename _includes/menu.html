@@ -57,12 +57,13 @@ manage your navigation system {% endcomment %}
         {% endunless %} {% endfor %}
       </ul>
       <div class="usa-nav__secondary">
-        {% if secondary_navigation %}
+        {% if navigation.secondary_navigation %}
         <ul class="usa-nav__secondary-links">
-          {% for nav_item in secondary_navigation %}
+          {% for nav_item in navigation.secondary_navigation %}
           <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url | url }}"
-              >{{ nav_item.name | escape }}</a
+            <a href="{{ nav_item.url | url }}" class="text-bold">
+              {{ nav_item.name | escape }}
+            </a
             >
           </li>
           {% endfor %}

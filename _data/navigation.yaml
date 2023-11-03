@@ -4,8 +4,6 @@ accessibility:
     url: /accessibility/
   - name: Other .Gov Accessibility Sites
     url: /accessibility/gov-resources
-  - name: More 18F guides
-    url: https://18f.gsa.gov/guides/
 
 agile:
   - name: Home
@@ -30,8 +28,6 @@ brand:
     url: /brand/images/
   - name: Principles
     url: /brand/principles/
-  - name: More 18F guides
-    url: https://18f.gsa.gov/guides/
 
 content-guide:
   - name: About this guide
@@ -111,6 +107,6 @@ ux-guide:
   - name: Design
     url: /ux-guide/design/
 
-default:
-  - name: 18F Guides home
-    url: https://18f.gsa.gov/guides/
+secondary_navigation:
+  - name: More 18F guides
+    url: /

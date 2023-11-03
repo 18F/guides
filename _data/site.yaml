@@ -14,13 +14,6 @@ dap:
 ga:
   ua: UA-48605964-19
 
-      
-# secondary_navigation:
-#  - name: Secondary link
-#    url: "#main-content"
-#  - name: Another secondary link
-#    url: "#main-content"
-      
 # Search.gov configuration
 #
 # TODO
