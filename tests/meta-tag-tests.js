@@ -36,12 +36,42 @@ const getDomForGuide = (guideName) => {
   return new JSDOM(html, {url: "https://localhost/", referrer: "https://localhost/"});
 };
 
+const getDomForIndexPage = () => {
+  const indexPath = path.resolve(__dirname, "..", "_site", "index.html");
+  const html = fs.readFileSync(indexPath, "utf8");
+  return new JSDOM(html, {url: "https://localhost/", referrer: "https://localhost/"});
+};
+
 
 describe("Redirection and indexing tests", () => {
   describe("In a production environment", () => {
     before(async() => {
       await runEleventy('production');
-      console.log(process.env.NODE_ENV);
+    });
+
+    describe("The index page", () => {
+      let document;
+      before(() => {
+        const dom = getDomForIndexPage();
+        document = dom.window.document;
+      });
+
+      it('has a robots meta tag with "noindex, nofollow"', () => {
+        const robotsMeta = document.querySelector('meta[name="robots"]');
+
+        expect(robotsMeta).to.exist;
+        expect(robotsMeta.getAttribute('content')).to.equal('noindex, nofollow');
+      });
+
+      it('has a redirect meta tag to the expected url', () => {
+        const redirectMeta = document.querySelector('meta[http-equiv="refresh"]');
+
+        expect(redirectMeta).to.exist;
+
+        const expectedContent = `0;URL='https://18f.gsa.gov/guides'`;
+
+        expect(redirectMeta.getAttribute('content')).to.equal(expectedContent);
+      });
     });
 
     describe("The replatformed guide named", () => {
@@ -103,6 +133,27 @@ describe("Redirection and indexing tests", () => {
     before(async() => {
       await runEleventy('dev');
     });
+
+    describe("The index page", () => {
+      let document;
+      before(() => {
+        const dom = getDomForIndexPage();
+        document = dom.window.document;
+      });
+
+      it('has a robots meta tag with "noindex, nofollow"', () => {
+        const robotsMeta = document.querySelector('meta[name="robots"]');
+
+        expect(robotsMeta).to.exist;
+        expect(robotsMeta.getAttribute('content')).to.equal('noindex, nofollow');
+      });
+
+      it('does not have a redirect meta tag', () => {
+        const redirectMeta = document.querySelector('meta[http-equiv="refresh"]');
+
+        expect(redirectMeta).to.not.exist;
+      });
+    });
     
     describe("The replatformed guide", () => {
       REPLATFORMED_GUIDE_NAMES.forEach(replatformedGuide => {
@@ -113,10 +164,42 @@ describe("Redirection and indexing tests", () => {
         });
 
         describe(`${replatformedGuide}`, () => {
-          it('has a robots meta tag', () => {
+          it('has a robots meta tag with "noindex, nofollow"', () => {
             const robotsMeta = document.querySelector('meta[name="robots"]');
 
             expect(robotsMeta).to.exist;
+            expect(robotsMeta.getAttribute('content')).to.equal('noindex, nofollow');
+          });
+
+          it('does not have a redirect meta tag', () => {
+            const redirectMeta = document.querySelector('meta[http-equiv="refresh"]');
+
+            expect(redirectMeta).to.not.exist;
+          });
+        });
+      });
+    });
+
+    describe("The draft guide", () => {
+      REDIRECTED_GUIDE_NAMES.forEach(draftGuideName => {
+        let document;
+        beforeEach(() => {
+          const dom = getDomForGuide(draftGuideName);
+          document = dom.window.document;
+        });
+
+        describe(`${draftGuideName}`, () => {
+          it('has a robots meta tag with "noindex, nofollow"', () => {
+            const robotsMeta = document.querySelector('meta[name="robots"]');
+
+            expect(robotsMeta).to.exist;
+            expect(robotsMeta.getAttribute('content')).to.equal('noindex, nofollow');
+          });
+
+          it('does not have a redirect meta tag', () => {
+            const redirectMeta = document.querySelector('meta[http-equiv="refresh"]');
+
+            expect(redirectMeta).to.not.exist;
           });
         });
       });
