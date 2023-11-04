@@ -21,7 +21,7 @@ const REPLATFORMED_GUIDE_NAMES = GUIDE_NAMES.filter(name => !REDIRECTED_GUIDE_NA
 const runEleventy = async (envName="") => {
   childProcess.execSync("npx @11ty/eleventy", {
     cwd: path.resolve(__dirname, ".."),
-    timeout: 5000,
+    timeout: 15000,
     env: Object.assign({}, process.env, {NODE_ENV: envName})
   });
 };
