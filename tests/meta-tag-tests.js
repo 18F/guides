@@ -1,55 +1,55 @@
+/* eslint no-unused-expressions: "off" */
 const chai = require('chai');
 const yaml = require('js-yaml');
 const fs = require('fs');
 const path = require('path');
 const childProcess = require('child_process');
-const Eleventy = require('@11ty/eleventy');
 const jsdom = require('jsdom');
+
 const { JSDOM } = jsdom;
-const expect = chai.expect;
-const assert = chai.assert;
+const {expect} = chai;
 
-const REDIRECTS_FILE = path.resolve(__dirname, "..", "_data", "redirect_bases.yaml");
-const redirectsData = fs.readFileSync(REDIRECTS_FILE, "utf8");
+const REDIRECTS_FILE = path.resolve(__dirname, '..', '_data', 'redirect_bases.yaml');
+const redirectsData = fs.readFileSync(REDIRECTS_FILE, 'utf8');
 const redirects = yaml.load(redirectsData);
-const GUIDE_NAMES = fs.readdirSync(path.resolve(__dirname, "..", "content"), {withFileTypes: true})
-      .filter(entry => entry.isDirectory())
-      .map(dirEntry => dirEntry.name);
+const GUIDE_NAMES = fs
+  .readdirSync(path.resolve(__dirname, '..', 'content'), { withFileTypes: true })
+  .filter((entry) => entry.isDirectory())
+  .map((dirEntry) => dirEntry.name);
 const REDIRECTED_GUIDE_NAMES = Object.keys(redirects);
-const REPLATFORMED_GUIDE_NAMES = GUIDE_NAMES.filter(name => !REDIRECTED_GUIDE_NAMES.includes(name));
+const REPLATFORMED_GUIDE_NAMES = GUIDE_NAMES.filter(
+  (name) => !REDIRECTED_GUIDE_NAMES.includes(name),
+);
 
-const runEleventy = async (envName="") => {
-  childProcess.execSync("npx @11ty/eleventy", {
-    cwd: path.resolve(__dirname, ".."),
+const runEleventy = async (envName = '') => {
+  childProcess.execSync('npx @11ty/eleventy', {
+    cwd: path.resolve(__dirname, '..'),
     timeout: 15000,
-    env: Object.assign({}, process.env, {NODE_ENV: envName})
+    env: { ...process.env, NODE_ENV: envName},
   });
 };
 
-const getGuideIndexPath = (guideName) => {
-  return path.resolve(__dirname, "..", "_site", guideName, "index.html");
-};
+const getGuideIndexPath = (guideName) => path.resolve(__dirname, '..', '_site', guideName, 'index.html');
 
 const getDomForGuide = (guideName) => {
   const guidePath = getGuideIndexPath(guideName);
-  const html = fs.readFileSync(guidePath, "utf8");
-  return new JSDOM(html, {url: "https://localhost/", referrer: "https://localhost/"});
+  const html = fs.readFileSync(guidePath, 'utf8');
+  return new JSDOM(html, { url: 'https://localhost/', referrer: 'https://localhost/' });
 };
 
 const getDomForIndexPage = () => {
-  const indexPath = path.resolve(__dirname, "..", "_site", "index.html");
-  const html = fs.readFileSync(indexPath, "utf8");
-  return new JSDOM(html, {url: "https://localhost/", referrer: "https://localhost/"});
+  const indexPath = path.resolve(__dirname, '..', '_site', 'index.html');
+  const html = fs.readFileSync(indexPath, 'utf8');
+  return new JSDOM(html, { url: 'https://localhost/', referrer: 'https://localhost/' });
 };
 
-
-describe("Redirection and indexing tests", () => {
-  describe("In a production environment", () => {
-    before(async() => {
+describe('Redirection and indexing tests', () => {
+  describe('In a production environment', () => {
+    before(async () => {
       await runEleventy('production');
     });
 
-    describe("The index page", () => {
+    describe('The index page', () => {
       let document;
       before(() => {
         const dom = getDomForIndexPage();
@@ -68,14 +68,14 @@ describe("Redirection and indexing tests", () => {
 
         expect(redirectMeta).to.exist;
 
-        const expectedContent = `0;URL='https://18f.gsa.gov/guides'`;
+        const expectedContent = '0;URL=\'https://18f.gsa.gov/guides\'';
 
         expect(redirectMeta.getAttribute('content')).to.equal(expectedContent);
       });
     });
 
-    describe("The replatformed guide named", () => {
-      REPLATFORMED_GUIDE_NAMES.forEach(replatformedGuide => {
+    describe('The replatformed guide named', () => {
+      REPLATFORMED_GUIDE_NAMES.forEach((replatformedGuide) => {
         let document;
         beforeEach(() => {
           const dom = getDomForGuide(replatformedGuide);
@@ -97,9 +97,9 @@ describe("Redirection and indexing tests", () => {
         });
       });
     });
-    
-    describe("The redirected guide named", () => {
-      REDIRECTED_GUIDE_NAMES.forEach(redirectedGuide => {
+
+    describe('The redirected guide named', () => {
+      REDIRECTED_GUIDE_NAMES.forEach((redirectedGuide) => {
         let document;
         beforeEach(() => {
           const dom = getDomForGuide(redirectedGuide);
@@ -111,10 +111,10 @@ describe("Redirection and indexing tests", () => {
             const robotMeta = document.querySelector('meta[name="robots"]');
 
             expect(robotMeta).to.exist;
-            expect(robotMeta.getAttribute('content')).to.equal("noindex");
+            expect(robotMeta.getAttribute('content')).to.equal('noindex');
           });
 
-          it(`has a meta redirect to the correct site`, () => {
+          it('has a meta redirect to the correct site', () => {
             const redirectMeta = document.querySelector('meta[http-equiv="refresh"]');
 
             expect(redirectMeta).to.exist;
@@ -129,12 +129,12 @@ describe("Redirection and indexing tests", () => {
     });
   });
 
-  describe("In a non-production environment", () => {
-    before(async() => {
+  describe('In a non-production environment', () => {
+    before(async () => {
       await runEleventy('dev');
     });
 
-    describe("The index page", () => {
+    describe('The index page', () => {
       let document;
       before(() => {
         const dom = getDomForIndexPage();
@@ -154,9 +154,9 @@ describe("Redirection and indexing tests", () => {
         expect(redirectMeta).to.not.exist;
       });
     });
-    
-    describe("The replatformed guide", () => {
-      REPLATFORMED_GUIDE_NAMES.forEach(replatformedGuide => {
+
+    describe('The replatformed guide', () => {
+      REPLATFORMED_GUIDE_NAMES.forEach((replatformedGuide) => {
         let document;
         beforeEach(() => {
           const dom = getDomForGuide(replatformedGuide);
@@ -180,8 +180,8 @@ describe("Redirection and indexing tests", () => {
       });
     });
 
-    describe("The draft guide", () => {
-      REDIRECTED_GUIDE_NAMES.forEach(draftGuideName => {
+    describe('The draft guide', () => {
+      REDIRECTED_GUIDE_NAMES.forEach((draftGuideName) => {
         let document;
         beforeEach(() => {
           const dom = getDomForGuide(draftGuideName);
