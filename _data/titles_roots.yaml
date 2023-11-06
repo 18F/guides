@@ -11,6 +11,9 @@ agile:
 brand:
   title: Visual identity
   root: /brand/
+buy_better:
+  title: Buy Better
+  root: /buy-better/
 content-guide:
   title: Content Guide
   root: /content-guide/
