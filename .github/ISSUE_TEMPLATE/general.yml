@@ -1,15 +1,11 @@
-name: Help Request
-description: Submit a help request
-title: "Help Request"
+name: General Request
+description: Submit a general request
+title: ""
 labels: ["Initiative 2", "Guides"]
 projects: ["18F/41"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: desc
     attributes:
