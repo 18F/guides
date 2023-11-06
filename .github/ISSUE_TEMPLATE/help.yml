@@ -29,13 +29,12 @@ body:
     id: skills
     attributes:
       label: Skills Needed
-      description: ''
+      description: What roles would be good to have for this work?
       options:
         - label: Any Human
         - label: Design
         - label: Content
         - label: Engineering
-        - label: Content
         - label: Acquisition
         - label: Product
         - label: Other
@@ -43,7 +42,7 @@ body:
     id: timeline
     attributes:
       label: Does this need to happen in the next 2 weeks?
-      description: ''
+      description: Choose one
       options:
         - label: "Yes"
         - label: "No"
@@ -51,7 +50,7 @@ body:
     id: work
     attributes:
       label: How much time do you anticipate this work taking?
-      description: ''
+      description: Hours? Days? Weeks? etc
   - type: textarea
     id: criteria
     attributes:
