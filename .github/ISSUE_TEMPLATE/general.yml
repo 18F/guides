@@ -1,6 +1,6 @@
 name: General Request
 description: Submit a general request
-title: ""
+title: "[Request]:"
 labels: ["Initiative 2", "Guides"]
 projects: ["18F/41"]
 assignees:
