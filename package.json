@@ -58,13 +58,15 @@
     "postcss-cli": "^9.1.0",
     "prettier": "3.0.3",
     "rimraf": "^3.0.2",
-    "start-server-and-test": "^2.0.1"
+    "start-server-and-test": "^2.0.2"
   },
   "dependencies": {
     "@11ty/eleventy-img": "^1.1.0",
     "@uswds/uswds": "3.6.1",
     "autoprefixer": "^10.4.16",
-    "esbuild": "^0.19.4",
+    "markdown-it-footnote": "^3.0.3",
+    "netlify-cms": "^2.10.192",
+    "esbuild": "^0.19.5",
     "esbuild-sass-plugin": "^2.16.0",
     "luxon": "^2.3.1",
     "markdown-it-footnote": "^3.0.3",
