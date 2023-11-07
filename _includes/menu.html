@@ -21,10 +21,10 @@ manage your navigation system {% endcomment %}
         {% for nav_item in primary_navigation %}
           {% unless nav_item.children %}
           {% if tags %}
-            {% assign basedir = page.url | remove: titles_roots[tags].root | split: '/' | first | lstrip %} 
+            {% assign basedir = page.url | remove: titles_roots[tags].root | split: '/' | first | lstrip %}
             {% assign linkdir = nav_item.url | remove: titles_roots[tags].root | replace: '/', '' | lstrip %}
           {% else %}
-            {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %} 
+            {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
             {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
           {% endif %}
         <li class="usa-nav__primary-item">
@@ -56,13 +56,18 @@ manage your navigation system {% endcomment %}
         </li>
         {% endunless %} {% endfor %}
       </ul>
-      <div class="usa-nav__secondary">
-        {% if secondary_navigation %}
+      {% comment %}
+      TODO: The conditional and bottom-2 class on the line below can be removed after launch.
+      It's there to fix wonky alignment when search is present on the index page
+      {% endcomment%}
+      <div class="usa-nav__secondary {% unless tags %} bottom-2 {% endunless %}">
+        {% if navigation.secondary_navigation %}
         <ul class="usa-nav__secondary-links">
-          {% for nav_item in secondary_navigation %}
+          {% for nav_item in navigation.secondary_navigation %}
           <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url | url }}"
-              >{{ nav_item.name | escape }}</a
+            <a href="{{ nav_item.url | url }}" class="text-bold">
+              {{ nav_item.name | escape }}
+            </a
             >
           </li>
           {% endfor %}
