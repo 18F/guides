@@ -2,7 +2,8 @@
   "env": {
     "browser": true,
     "commonjs": true,
-    "es2021": true
+    "es2021": true,
+    "mocha": true
   },
   "ignorePatterns": ["/_site"],
   "extends": ["eslint-config-airbnb-base", "prettier"],
