@@ -4,48 +4,49 @@ The home page uses wide.html layout, since it extends full width of page
 {% endcomment %}
 <!DOCTYPE html>
 <html lang="en">
-
-{% if redirect_bases[tags[0]] and env.production %}
-  {% include "meta_redirect.html" %}
-{% elsif page.url == "/" and env.production %}
-<meta name="robots" content="noindex" />  
-<meta http-equiv="refresh" content="0;URL='https://18f.gsa.gov/guides'" />
-{% else %}
-  {% include "meta.html" %}
-  <body class="display-flex flex-column minh-viewport">
-    {% include "site-alert.html" %}
-    {% include "header.html" %}
-    {% if tags %}
-      {% assign primary_navigation = navigation[tags] %}
-    {% else %}
-      {% assign primary_navigation = site.primary_navigation %}
+  {% assign was_redirected = false %}
+  {% if env.production %}
+    {% assign is_index = page.url == "/" %}
+    {% if redirect_bases[tags[0]] or is_index %}
+      {% assign was_redirected = true %}
+      {% include "meta_redirect.html", is_index: is_index %}
     {% endif %}
+  {% endif %}
 
-    {% include "menu.html" secondary_navigation: site.secondary_navigation %}
+  {%  unless was_redirected %}
+    {% include "meta.html" %}
+    <body class="display-flex flex-column minh-viewport">
+      {% include "site-alert.html" %}
+      {% include "header.html" %}
+      {% if tags %}
+        {% assign primary_navigation = navigation[tags] %}
+      {% else %}
+        {% assign primary_navigation = site.primary_navigation %}
+      {% endif %}
 
-    {{ content }}
+      {% include "menu.html" secondary_navigation: site.secondary_navigation %}
 
-    {% include "footer.html" %}
+      {{ content }}
 
-    {% comment %} Hide SVG Sprites {% endcomment %}
-    <div style="display: none;">
-      {% usa_icons_sprite %}
+      {% include "footer.html" %}
 
-      {% comment %}
+      {% comment %} Hide SVG Sprites {% endcomment %}
+      <div style="display: none;">
+        {% usa_icons_sprite %}
 
-      TODO: Remove once this set of icons once we've determined the usa_icons
-      above is enough. Currently, keeping both adds two sets of SVGs with duplicate IDs,
-      which is flagged as by pa11y as an accessibility error.
+        {% comment %}
+
+        TODO: Remove once this set of icons once we've determined the usa_icons
+        above is enough. Currently, keeping both adds two sets of SVGs with duplicate IDs,
+        which is flagged as by pa11y as an accessibility error.
 
         {% uswds_icons_sprite %}
 
-      {% endcomment %}
+        {% endcomment %}
 
-    </div>
+      </div>
 
-    {% include "scripts.html" %}
-  </body>
-
+      {% include "scripts.html" %}
+    </body>
+  {% endunless %}
   </html>
-{% endif %}
-
