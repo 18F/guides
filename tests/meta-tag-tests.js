@@ -7,7 +7,7 @@ const childProcess = require('child_process');
 const jsdom = require('jsdom');
 
 const { JSDOM } = jsdom;
-const {expect} = chai;
+const { expect } = chai;
 
 const REDIRECTS_FILE = path.resolve(__dirname, '..', '_data', 'redirect_bases.yaml');
 const redirectsData = fs.readFileSync(REDIRECTS_FILE, 'utf8');
@@ -25,11 +25,12 @@ const runEleventy = async (envName = '') => {
   childProcess.execSync('npx @11ty/eleventy', {
     cwd: path.resolve(__dirname, '..'),
     timeout: 15000,
-    env: { ...process.env, NODE_ENV: envName},
+    env: { ...process.env, NODE_ENV: envName },
   });
 };
 
-const getGuideIndexPath = (guideName) => path.resolve(__dirname, '..', '_site', guideName, 'index.html');
+const getGuideIndexPath = (guideName) =>
+  path.resolve(__dirname, '..', '_site', guideName, 'index.html');
 
 const getDomForGuide = (guideName) => {
   const guidePath = getGuideIndexPath(guideName);
