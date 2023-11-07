@@ -15,6 +15,8 @@ const yaml = require("js-yaml");
 
 const { imageShortcode, imageWithClassShortcode } = require('./config');
 
+const siteData = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
+
 module.exports = function (config) {
   // Set pathPrefix for site
   let pathPrefix = '/';
@@ -72,6 +74,12 @@ module.exports = function (config) {
   // Color contrast checkers for the color matrix in the Brand guide
   config.addFilter('contrastRatio', contrastRatio);
   config.addFilter('humanReadableContrastRatio', humanReadableContrastRatio);
+
+  // Create absolute urls
+  config.addFilter('asAbsoluteUrl', (relativeUrl) => {
+    const host = siteData.host;
+    return new URL(relativeUrl, host).href;
+  });
 
   // Create an array of all tags
   config.addCollection('tagList', function (collection) {
