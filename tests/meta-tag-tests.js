@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const childProcess = require('child_process');
 const jsdom = require('jsdom');
+const projectSettings = require('../package.json');
 
 const { JSDOM } = jsdom;
 const { expect } = chai;
@@ -24,7 +25,7 @@ const REPLATFORMED_GUIDE_NAMES = GUIDE_NAMES.filter(
 const runEleventy = async (envName = '') => {
   childProcess.execSync('npx @11ty/eleventy', {
     cwd: path.resolve(__dirname, '..'),
-    timeout: 15000,
+    timeout: projectSettings.mocha.timeout,
     env: { ...process.env, NODE_ENV: envName },
   });
 };

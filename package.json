@@ -27,7 +27,7 @@
     "test:links-internal": "npx check-html-links _site --ignore-link-pattern '**/TODO/'",
     "test:html-validation": "html-validate _site/**/*.html",
     "test:pa11y-ci": "npx start-server-and-test start 8080 pa11y-ci:sitemap",
-    "test:redirects": "npx mocha --timeout 15000 ./tests/meta-tag-tests.js"
+    "test:redirects": "npx mocha ./tests/meta-tag-tests.js"
   },
   "author": "",
   "license": "CC0-1.0",
@@ -69,5 +69,8 @@
     "luxon": "^2.3.1",
     "markdown-it-footnote": "^3.0.3",
     "netlify-cms": "^2.10.192"
+  },
+  "mocha": {
+    "timeout": 15000
   }
 }
