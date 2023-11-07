@@ -1,0 +1,55 @@
+name: General Request
+description: Submit a general request
+title: "[Request]:"
+labels: ["Initiative 2", "Guides"]
+projects: ["18F/41"]
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: A description of the work
+      description: A clear and concise description of what the work entails.
+  - type: input
+    id: contact
+    attributes:
+      label: Point of contact on this issue
+      description: Who can we follow-up with if we have questions?
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps (if necessary)
+      description: Be as specific as possible
+  - type: checkboxes
+    id: skills
+    attributes:
+      label: Skills Needed
+      description: What roles would be good to have for this work?
+      options:
+        - label: Any Human
+        - label: Design
+        - label: Content
+        - label: Engineering
+        - label: Acquisition
+        - label: Product
+        - label: Other
+  - type: checkboxes
+    id: timeline
+    attributes:
+      label: Does this need to happen in the next 2 weeks?
+      description: Choose one
+      options:
+        - label: "Yes"
+        - label: "No"
+  - type: input
+    id: work
+    attributes:
+      label: How much time do you anticipate this work taking?
+      description: Hours? Days? Weeks? etc
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What does "done" look like?
+
