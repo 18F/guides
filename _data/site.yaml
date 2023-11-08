@@ -26,17 +26,17 @@ searchgov:
   endpoint: https://search.usa.gov
 
   # Replace this with your search.gov account.
-  affiliate: federalist-uswds-example
+  affiliate: 18f-guides
 
   # Replace this with your access key.
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+  access_key: empty
 
   # This renders the results within the page instead of sending to user to search.gov.
-  inline: true
+  inline: false
 
   # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
   # If you do not want to present search suggestions, set this value to false.
-  suggestions: true
+  suggestions: false
 
 ##########################################################################################
 # The values below here are more advanced and should only be
