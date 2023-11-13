@@ -7,6 +7,7 @@ permissions:
 
 jobs:
   dependabot:
+    needs: [build, redirects-tests, pa11y-scan, validate_html, check_links, lint] # ensures the other checks pass before running this job
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
