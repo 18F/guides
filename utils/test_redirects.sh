@@ -13,7 +13,7 @@
 # Constants
 OUTPUT_FILE=./utils/test_redirects_output.csv
 # Remove names from this list as new guides are released
-GUIDE_NAMES_RGX="accessibility|agile|brand|content-guide|derisking|eng-hiring|engineering|product|ux-guide"
+GUIDE_NAMES_RGX="accessibility|brand|content-guide|derisking|eng-hiring|engineering|product|ux-guide"
 
 # parses xml for content
 read_xml () {
