@@ -86,7 +86,7 @@ We have training sessions for the folks who want help with hiring. The interview
 
 While we’re always looking to improve, we do not make changes to our process while in the middle of a hiring round to ensure equity in the process. This helps ensure consistency and fairness into the process. It also lets us collect statistics and compare results between groups, letting us take a more data-driven approach to hiring.
 
-These guides are [an open source project](https://github.com/18F/eng-hiring/TODO/).
+These guides are [an open source project](https://github.com/18F/guides/).
 
 ### Forking our work
 
