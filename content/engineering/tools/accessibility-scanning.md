@@ -84,6 +84,42 @@ jobs:
 
 Depending on the type of technology you have built your site in, the rest of this file will vary.
 
+###### Jekyll-specific setup
+
+Add pa11y-specific scripts to `package.json`:
+
+``` json
+    "scripts": {
+      "start-detached":
+        "bundle exec jekyll serve --detach",
+      "pa11y-ci:sitemap":
+        "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude \"/*.pdf\""
+    }
+```
+
+Add the following lines to your `accessibility-scan.yml` file at the end of the steps key:
+
+```yaml
+  # steps:
+    - name: Install jekyll site dependencies
+        uses: ruby/setup-ruby@v1
+        with:
+          # your preferred version here
+          ruby-version: 2.7.2
+          bundler-cache: true
+
+      - name: Install JS dependencies including pa11y-ci
+        run: npm install
+
+      - name: Start up jekyll server
+        run: npm run start-detached
+
+      - name: Run pa11y-ci
+        run: npm run pa11y-ci:sitemap
+```
+
+This installs Ruby and JavaScript dependencies, then starts Jekyll with the `start-detached` script you added to `package.json` in an earlier step. Once Jekyll has started and detached, pa11y-ci will scan URLs from the sitemap.
+
 ###### Eleventy-specific setup
 
 Install `start-server-and-test`:
