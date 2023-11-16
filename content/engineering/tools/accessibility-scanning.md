@@ -39,6 +39,7 @@ While Pa11y gives you the option of different test runners, we recommend using a
 #### Running pa11y in CI
 - [GitHub Actions](#github-actions-on-every-pull-request)
   - [Eleventy Specific Setup](#eleventy-specific-setup)
+  - [Jekyll Specific Setup](#jekyll-specific-setup)
 - [Circle CI](#circle-ci-setup-instructions)
 
 ##### GitHub Actions on every pull request
