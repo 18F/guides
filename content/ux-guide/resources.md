@@ -26,7 +26,7 @@ subnav:
     href: "#additional-reading"
 ---
 
-We’ve collected the following templates, presentations, checklists, etc. as starting points — feel free to [contribute to this guide via GitHub](https://github.com/18F/ux-guide/blob/main/CONTRIBUTING.md/TODO/) and help us keep this list up-to-date!
+We’ve collected the following templates, presentations, checklists, etc. as starting points — feel free to [contribute to this guide via GitHub](https://github.com/18F/guides/blob/main/CONTRIBUTING.md) and help us keep this list up-to-date!
 
 As indicated below, some of these resources are available only to staff of GSA (General Services Administration) or TTS (Technology Transformation Services).
 
@@ -121,7 +121,7 @@ We most commonly share our work via presentations. These presentations can vary 
 ## General
 
 - [GSA TTS Handbook](https://handbook.tts.gsa.gov/)
-- [18F Methods](https://methods.18f.gov/TODO/)
+- [18F Methods](https://methods.18f.gov/)
 - [USDS Playbook](https://playbook.cio.gov/)
 - [New Hire README](https://handbook.tts.gsa.gov/getting-started/)
 - [Project Start Guide](https://docs.google.com/document/d/1jFGksReKrt2PY_QVe7fj1aOCcyjHlGPf5hkKgv7nuMA/edit?pli=1#)
