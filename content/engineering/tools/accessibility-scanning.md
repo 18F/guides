@@ -57,17 +57,7 @@ Install pa11y locally:
 
 Create a `.pa11yci` in the root of your directory to [configure your pa11y CI run](https://github.com/pa11y/pa11y-ci#configuration). This step is optional, but helpful if you want to change any default configuration.
 
-For an example, take a look at the [18F accessibility site's .pallyci file](https://github.com/18F/accessibility/blob/18f-pages/.pa11yci/TODO/):
-
-```json
-    {
-      "defaults": {
-        "concurrency": 4,
-        "standard": "WCAG2AA",
-        "runners": ["axe"]
-      }
-    }
-```
+For an example, take a look at the [18F guides site's .pallyci file](https://github.com/18F/guides/blob/main/.pa11yci).
 
 Create a `.github/workflows` directory in the root of your project, and then add a file `accessibility-scan.yml` (or whatever you want to call it).
 
@@ -130,9 +120,6 @@ Add the following lines to your `accessibility-scan.yml` file at the end of the 
 ```
 
 This installs Ruby and JavaScript dependencies, then starts Jekyll with the `start-detached` script you added to `package.json` in an earlier step. Once Jekyll has started and detached, pa11y-ci will scan URLs from the sitemap.
-
-To see a pa11y.yml live in the wild, check out [18F Accessibility site's pa11y.yml](https://github.com/18F/accessibility/blob/18f-pages/.github/workflows/pa11y.yml/TODO/).
-
 
 ###### Eleventy-specific setup
 
