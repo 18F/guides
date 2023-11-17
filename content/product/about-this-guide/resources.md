@@ -29,7 +29,7 @@ In addition to the resources provided in each section, here are more general res
 - <a href="https://handbook.tts.gsa.gov/getting-started/">Getting started at TTS: Your first 90 days</a>
 - <a href="https://airtable.com/shru3CtqBATnV6zDP/tblcaK7gQ9d62Ll1p" class="private-link">18F Project Catalogue</a>
 - <a href="https://airtable.com/shr6fVT6bvANRe5LI" class="private-link">18F Project Resources Library</a>
-- [18F Methods](https://methods.18f.gov/TODO/)
+- [18F Methods](https://methods.18f.gov/)
 - [Checklist of requirements for federal government websites](https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/)
 - [USDS Playbook](https://playbook.cio.gov/)
 
