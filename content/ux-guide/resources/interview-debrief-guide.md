@@ -25,7 +25,7 @@ tags: ux-guide
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
 {% endcomment %}
 
-The following questions are provided as useful starting points for facilitating post-moderated research conversation (for example, after an [in-depth interview [18F design methods]](https://methods.18f.gov/stakeholder-and-user-interviews/TODO/) or a [usability test [18F design methods]](https://methods.18f.gov/usability-testing/TODO/)). We recommend copying the questions to collaborative writing tool and giving the team four minutes per section to respond, and then facilitating a section-wise discussion. GSA Staff, see this [Google Doc Template (GSA/TTS Access only)](https://docs.google.com/document/d/1f5Ue2vbeg4-95EevvlURzvl6yMLwMOXtiNwe6OMnb9E/edit#).
+The following questions are provided as useful starting points for facilitating post-moderated research conversation (for example, after an [in-depth interview [18F design methods]](https://methods.18f.gov/stakeholder-and-user-interviews/) or a [usability test [18F design methods]](https://methods.18f.gov/usability-testing/)). We recommend copying the questions to collaborative writing tool and giving the team four minutes per section to respond, and then facilitating a section-wise discussion. GSA Staff, see this [Google Doc Template (GSA/TTS Access only)](https://docs.google.com/document/d/1f5Ue2vbeg4-95EevvlURzvl6yMLwMOXtiNwe6OMnb9E/edit#).
 
 ## Warm-up (4 minutes)
 - What stood out about this interview?
@@ -46,4 +46,4 @@ The following questions are provided as useful starting points for facilitating 
 - How might the interview guide (or, if applicable wireframe or prototype) be updated before the next session?
 
 ## Acknowledgements
-This guide builds on the [Example Debriefing Worksheet from Portigal Consulting](https://rosenfeldmedia.com/wp-content/uploads/2014/10/Portigal-Consulting-Debriefing-Worksheet-2.pdf/TODO/).
+This guide builds on the [Example Debriefing Worksheet from Portigal Consulting](https://portigal.com/wp-content/uploads/2023/07/Portigal-Consulting-Debriefing-Worksheets.pdf).
