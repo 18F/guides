@@ -28,7 +28,7 @@ tags: ux-guide
 #    href: "#references"
 ---
 {% comment %}
-Note that the permalink here does not include /resources/ so there's no indication where this page actually sits. Also contains unformatted checklist items, which need a new ticket /TODO/. This content is also very similar (or identical) to the Interview Checklist at https://methods.18f.gov/interview-checklist/
+Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.. This content is also very similar (or identical) to the Interview Checklist at https://methods.18f.gov/interview-checklist/
 {% endcomment %}
 
 [Stakeholder and user interviews [18F design methods]](https://methods.18f.gov/stakeholder-and-user-interviews/) often progress through key moments: introductions lead to warm-up questions, which lead to topic-specific questions, activities, etc. This checklist outlines those key moments, and suggests things to do as you go through them. GSA Staff, please see this [Google Doc Template (GSA/TTS Access only)](https://docs.google.com/document/d/1zRA2EK9qZ5H_cM3Ki5xf6Gz72F6Ah6i0E87YpwHTC9A/edit)
