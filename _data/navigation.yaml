@@ -3,7 +3,7 @@ accessibility:
   - name: Home
     url: /accessibility/
   - name: Other .Gov Accessibility Sites
-    url: /accessibility/gov-resources
+    url: /accessibility/gov-resources/
 
 agile:
   - name: Home
