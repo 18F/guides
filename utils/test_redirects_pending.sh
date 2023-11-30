@@ -11,7 +11,7 @@
 # 3. Open utils/test_redirects_output.csv to see results
 
 # Constants
-OUTPUT_FILE=./utils/test_redirects_output.csv
+OUTPUT_FILE=./utils/test_redirects_pending_output.csv
 # Remove names from this list as new guides are released
 GUIDE_NAMES_RGX="accessibility|agile|brand|content-guide|derisking|eng-hiring|engineering|product|ux-guide"
 
