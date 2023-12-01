@@ -24,7 +24,7 @@
 
 # /content/accessibility/**/*.md   @jasnakai
 # /content/agile/**/*.md           @adunkman
-# /content/brand/**/*.md           @igorkorenfeld
+/content/brand/**/*.md           @igorkorenfeld
 # /content/content-guide/**/*.md   @michelle-rago
 # /content/derisking/**/*.md       @adunkman
 # /content/design/**/*.md          @MelissaBraxton
