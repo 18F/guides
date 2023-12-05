@@ -29,4 +29,6 @@ product:
 ux-guide:
   title: User Experience Design Guide
   root: /ux-guide/
-
+methods:
+  title: 18F Methods
+  root: /methods/
