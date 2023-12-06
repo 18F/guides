@@ -1,0 +1,10 @@
+/*
+  Overrides USWDS extended header submenu.
+  This is fixed in https://github.com/uswds/uswds/pull/5649
+  and will be released in v3.7.1
+*/
+@media (min-width: 64em) {
+  .usa-nav__submenu .usa-nav__submenu-item a {
+    padding-left: 1rem;
+  }
+}
