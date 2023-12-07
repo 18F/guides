@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
@@ -20,6 +21,8 @@ const siteData = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
 module.exports = function (config) {
   // Set pathPrefix for site
   let pathPrefix = '/';
+
+  config.addPlugin(EleventyRenderPlugin);
 
   // Copy the `admin` folders to the output
   config.addPassthroughCopy('admin');
@@ -79,6 +82,14 @@ module.exports = function (config) {
   config.addFilter('asAbsoluteUrl', (relativeUrl) => {
     const host = siteData.host;
     return new URL(relativeUrl, host).href;
+  });
+
+  config.addFilter("makeUppercase", (value) => {
+    return value.toUpperCase();
+  });
+
+  config.addFilter("capitalize", (value) =>{
+    return value.charAt(0).toUpperCase() + value.slice(1);
   });
 
   // Create an array of all tags

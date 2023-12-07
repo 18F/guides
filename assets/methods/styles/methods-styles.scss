@@ -1,0 +1,17 @@
+/*---------------------------------------------------------
+USWDS
+----------------------------------------------------------*/
+@forward "../../_common/styles/uswds-theme-settings";
+@forward "uswds";
+
+/*---------------------------------------------------------
+Custom styling for all guides
+----------------------------------------------------------*/
+@forward "../../_common/styles/custom-styles.scss";
+
+/*---------------------------------------------------------
+Custom styling for methods guide only
+----------------------------------------------------------*/
+@forward "methods-colors";
+@forward "category";
+@forward "method";
