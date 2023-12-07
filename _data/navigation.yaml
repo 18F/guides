@@ -110,3 +110,36 @@ ux-guide:
 secondary_navigation:
   - name: More 18F guides
     url: /
+
+methods:
+  - name: Discover
+    url: /discover/
+    children:
+      - name: Cognitive walkthrough
+        url: /methods/discover/cognitive-walkthrough/
+      - name: Contextual inquiry
+        url: /methods/discover/contextual-inquiry/
+  - name: Decide
+    url: /methods/decide/
+    children:
+      - name: Affinity mapping
+        url: /methods/decide/affinity-mapping/
+  - name: Make
+    url: /methods/make/
+    children:
+      - name: Design pattern library
+        url: /methods/make/design-pattern-library/
+  - name: Validate
+    url: /methods/validate/
+    children:
+      - name: Card sorting
+        url: /methods/validate/card-sorting/
+  - name: Fundamentals
+    url: /methods/fundamentals/
+    children:
+      - name: Compensation
+        url: /methods/fundamentals/compensation/
+  - name: About
+    url: /methods/about/
+  - name: Print the Methods
+    url: /methods/print/
