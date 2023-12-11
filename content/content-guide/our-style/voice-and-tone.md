@@ -1,6 +1,8 @@
 ---
 title: Voice and tone
 permalink: /content-guide/our-style/voice-and-tone/
+redirect_from:
+  - content-guide/voice-and-tone/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

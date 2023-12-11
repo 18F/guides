@@ -1,6 +1,8 @@
 ---
 title: Make content web-friendly
 permalink: /content-guide/our-approach/make-content-web-friendly/
+redirect_from:
+  - content-guide/make-content-web-friendly/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

@@ -1,6 +1,8 @@
 ---
 title: Be concise
 permalink: /content-guide/our-approach/be-concise/
+redirect_from:
+  - content-guide/be-concise/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

@@ -1,6 +1,8 @@
 ---
 title: Address the user
 permalink: /content-guide/our-approach/address-the-user/
+redirect_from:
+  - content-guide/address-the-user/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

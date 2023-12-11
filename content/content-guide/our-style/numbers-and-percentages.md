@@ -1,6 +1,8 @@
 ---
 title: Numbers, percentages, and dates
 permalink: /content-guide/our-style/numbers-and-percentages/
+redirect_from:
+  - content-guide/numbers-and-percentages/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

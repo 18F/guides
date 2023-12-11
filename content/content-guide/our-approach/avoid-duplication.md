@@ -1,6 +1,8 @@
 ---
 title: Avoid duplication
 permalink: /content-guide/our-approach/avoid-duplication/
+redirect_from:
+  - content-guide/avoid-duplication/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

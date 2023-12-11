@@ -1,6 +1,8 @@
 ---
 title: Gather feedback
 permalink: /content-guide/our-approach/gather-feedback/
+redirect_from:
+  - content-guide/giving-and-receiving-feedback/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

@@ -1,6 +1,8 @@
 ---
 title: About this guide
 permalink: /content-guide/
+redirect_from:
+  - content-guide/how-to-use-this-guide/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true
