@@ -1,8 +1,8 @@
-# 2. Improve long-term maintenance of styling assets
+# 2. Use multiple style bundles to improve long-term maintenance of styling assets
 
 ## Status
 
-Pending
+Approved
 
 ## Context
 
