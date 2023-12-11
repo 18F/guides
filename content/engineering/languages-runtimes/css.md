@@ -11,17 +11,18 @@ eleventyNavigation:
   order: 6
   title: CSS
 redirect_from:
-  - /css/architecture/
-  - /css/documentation/
-  - /css/frameworks/
-  - /css/formatting/
-  - /css/inheritance/
-  - /css/linting/
-  - /css/naming/
-  - /css/preprocessors/
-  - /css/specificity/
-  - /css/units/
-  - /css/variables/
+  - engineering/css/
+  - engineering/css/architecture/
+  - engineering/css/documentation/
+  - engineering/css/frameworks/
+  - engineering/css/formatting/
+  - engineering/css/inheritance/
+  - engineering/css/linting/
+  - engineering/css/naming/
+  - engineering/css/preprocessors/
+  - engineering/css/specificity/
+  - engineering/css/units/
+  - engineering/css/variables/
 subnav:
   - text: Architecture
     href: "#architecture"

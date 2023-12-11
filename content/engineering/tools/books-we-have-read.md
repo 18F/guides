@@ -3,6 +3,8 @@ title: Books we've read
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/books-we-have-read/
+redirect_from:
+  - engineering/books-we-have-read/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

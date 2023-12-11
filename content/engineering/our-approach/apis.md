@@ -4,6 +4,8 @@ sidenav: true
 sticky_sidenav: true
 tags: engineering
 permalink: /engineering/our-approach/apis/
+redirect_from:
+  - engineering/apis/
 layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach

@@ -3,6 +3,8 @@ title: Node.js
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/nodejs/
+redirect_from:
+  - engineering/nodejs/
 tags: engineering
 layout: layouts/page
 eleventyNavigation:

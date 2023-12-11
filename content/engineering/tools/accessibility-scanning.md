@@ -3,6 +3,8 @@ title: Accessibility scanning
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/accessibility-scanning/
+redirect_from:
+  - engineering/accessibility-scanning/
 tags: engineering
 layout: layouts/page
 eleventyNavigation:

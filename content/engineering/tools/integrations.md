@@ -3,6 +3,8 @@ title: Tools
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/
+redirect_from:
+  - engineering/integrations/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

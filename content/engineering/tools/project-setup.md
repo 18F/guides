@@ -3,6 +3,8 @@ title: Project setup
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/project-setup/
+redirect_from:
+  - engineering/project-setup/
 tags: engineering
 layout: layouts/page
 eleventyNavigation:

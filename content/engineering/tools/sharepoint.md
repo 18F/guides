@@ -3,6 +3,8 @@ title: A modern SharePoint primer
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/sharepoint/
+redirect_from:
+  - engineering/sharepoint/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

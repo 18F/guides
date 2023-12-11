@@ -3,6 +3,8 @@ title: Datastore selection
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/datastore-selection/
+redirect_from:
+  - engineering/datastore-selection/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

@@ -11,7 +11,8 @@ eleventyNavigation:
   order: 5
   title: Incident reports
 redirect_from:
-  /incident-reports/cloud-gov/
+  - engineering/incident-reports/
+  - engineering/incident-reports/cloud-gov/
 subnav:
   - text: Key components
     href: "#key-components"

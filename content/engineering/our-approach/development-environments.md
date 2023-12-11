@@ -1,6 +1,8 @@
 ---
 title: Development environments
-permalink: /engineering/our-approach/development-enivorments/
+permalink: /engineering/our-approach/development-environments/
+redirect_from:
+  - engineering/development-environments/
 sidenav: true
 sticky_sidenav: true
 tags: engineering

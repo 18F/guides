@@ -3,6 +3,8 @@ title: Automated testing
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/tests/
+redirect_from:
+  - engineering/tests/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 
