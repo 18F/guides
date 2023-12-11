@@ -3,6 +3,10 @@ title: Architecture reviews
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/architecture-reviews/
+redirect_from:
+  - engineering/architecture-reviews/
+  - engineering/architecture-reviews/data-act-pilot/
+  - engineering/architecture-reviews/micro-purchase/
 tags: engineering
 layout: layouts/page
 eleventyNavigation:

@@ -3,6 +3,8 @@ title: Browser testing
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/browser-testing/
+redirect_from:
+  - engineering/browser-testing/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

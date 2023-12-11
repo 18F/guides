@@ -11,9 +11,10 @@ eleventyNavigation:
   order: 2
   title: JavaScript
 redirect_from:
-  - /javascript/dependencies/
-  - /javascript/frameworks/
-  - /javascript/style/
+  - engineering/javascript/
+  - engineering/javascript/dependencies/
+  - engineering/javascript/frameworks/
+  - engineering/javascript/style/
 subnav:
   - text: Dependencies
     href: "#dependencies"

@@ -3,6 +3,8 @@ title: Python development guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/python/
+redirect_from:
+  - engineering/python/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

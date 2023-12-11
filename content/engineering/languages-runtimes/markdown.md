@@ -3,6 +3,8 @@ title: Markdown guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/markdown/
+redirect_from:
+  - engineering/markdown/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

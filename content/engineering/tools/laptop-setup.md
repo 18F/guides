@@ -3,6 +3,8 @@ title: Laptop setup
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/laptop-setup/
+redirect_from:
+  - engineering/laptop-setup/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

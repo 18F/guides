@@ -4,6 +4,8 @@ sidenav: true
 sticky_sidenav: true
 tags: engineering
 permalink: /engineering/our-approach/release-strategies/
+redirect_from:
+  - engineering/release-strategies/
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach

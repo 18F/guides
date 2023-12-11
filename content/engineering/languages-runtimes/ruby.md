@@ -3,6 +3,8 @@ title: Ruby guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/ruby/
+redirect_from:
+  - engineering/ruby/
 tags: engineering
 layout: layouts/page
 eleventyNavigation:

@@ -1,6 +1,8 @@
 ---
 title: Our approach
 permalink: /engineering/our-approach/
+redirect_from:
+  - engineering/workflow/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true
