@@ -1,6 +1,8 @@
 ---
 title: Technical and interface writing
 permalink: /content-guide/our-style/technical-and-interface-writing/
+redirect_from:
+  - content-guide/technical-and-interface-writing/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

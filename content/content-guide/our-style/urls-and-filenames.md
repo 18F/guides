@@ -1,6 +1,8 @@
 ---
 title: URLs and filenames
 permalink: /content-guide/our-style/urls-and-filenames/
+redirect_from:
+  - content-guide/urls-and-filenames/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

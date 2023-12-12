@@ -1,6 +1,8 @@
 ---
 title: Specific words and phrases
 permalink: /content-guide/our-style/specific-words-and-phrases/
+redirect_from:
+  - content-guide/specific-words-and-phrases/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

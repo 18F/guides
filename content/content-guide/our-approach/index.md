@@ -1,6 +1,8 @@
 ---
 title: Our approach
 permalink: /content-guide/our-approach/
+redirect_from:
+  - content-guide/our-approach/content-principles/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

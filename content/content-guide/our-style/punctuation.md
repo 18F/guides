@@ -1,6 +1,8 @@
 ---
 title: Punctuation
 permalink: /content-guide/our-style/punctuation/
+redirect_from:
+  - content-guide/punctuation/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

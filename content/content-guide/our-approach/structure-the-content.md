@@ -1,6 +1,8 @@
 ---
 title: Structure the content
 permalink: /content-guide/our-approach/structure-the-content/
+redirect_from:
+  - content-guide/structure-the-content/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

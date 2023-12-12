@@ -2,7 +2,7 @@
 title: Sample Quality Assessment Surveillance Plan (QASP)
 permalink: /derisking/qasp/
 redirect_from:
-  - /state-field-guide/qasp/
+  - derisking/state-field-guide/qasp/
 layout: layouts/page
 tags: derisking
 ---
