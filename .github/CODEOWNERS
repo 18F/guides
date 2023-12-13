@@ -22,16 +22,17 @@
 # Oct 2023: Commenting these out while we replatform
 # https://github.com/18F/guides/pull/65#issuecomment-1783084851
 
-# /content/accessibility/**/*.md   @jasnakai
+/content/accessibility/**/*.md   @jasnakai
 # /content/agile/**/*.md           @adunkman
 /content/brand/**/*.md           @igorkorenfeld
 /content/content-guide/**/*.md   @michelle-rago
 /content/derisking/**/*.md       @adunkman
 # /content/design/**/*.md          @MelissaBraxton
-# /content/eng-hiring/**/*.md      @amymok
-# /content/engineering/**/*.md     @amymok
-# /content/product/**/*.md         @allisonnorman
+/content/eng-hiring/**/*.md      @amymok
+/content/engineering/**/*.md     @amymok
+/content/product/**/*.md         @allisonnorman
 /content/ux-guide/**/*.md        @juliaklindpaintner
+
 
 # The pull request template and CODEOWNERS files should be reviewed by the Chief of Delivery;
 # placed at the end of the file to ensure they are not overridden by another rule.
