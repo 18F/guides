@@ -1,0 +1,224 @@
+@use 'methods-colors' as *;
+@use 'uswds-core' as * ;
+
+.card-header {
+  margin-bottom: units(3);
+  margin-top: units(1.5);
+  text-align: left;
+}
+
+.anchor { // maybe this is used for linking to a specific card when you're displaying a whole category
+  content: '';
+  display: block;
+  height: 7rem;
+  margin-top: -7rem;
+  visibility: hidden;
+}
+
+.method {
+  background: white;
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.08);
+  border-radius: 6px;
+  display: table;
+  margin-bottom: units(2.5);
+  position: relative;
+
+  &:target {
+    box-shadow: 0 5px 5px -2px rgba(0, 0, 0, .25);
+  }
+}
+
+.method p,
+.method li {
+  line-height: line-height('sans',3);
+  margin-bottom: units(1);
+  margin-top: 0;
+}
+
+.method ol,
+.method ul {
+  margin-left: units(3);
+}
+
+.method--title {
+  border-top: 8px solid;
+  font-size: font-size('heading',xl);
+  font-weight: font-weight('bold');
+  margin-top: units(2);
+  padding-top: units(3);
+}
+
+.method--title a,
+.method--title a:visited {
+  color: color('base-darker');
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+.layout--card .method--title a,
+.layout--card .method--title a:visited {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.method h2 {
+  font-size: font-size('heading',md);
+  font-weight: font-weight('bold');
+}
+
+.method--panel {
+  display: block;
+  padding: units(2.5) units(5);
+  width: auto;
+}
+
+.method--section--category {
+  min-width: 10rem;
+}
+
+.method--section--time-required {
+  width: 100%;
+}
+
+.method--section--category,
+.method--section--time-required {
+  border-top: 1px solid color('base-lightest');
+  display: table-cell;
+
+  p {
+    font-size: font-size(sans,2xs);
+  }
+}
+
+// method--panel--front
+.method--panel--front {
+  position: relative;
+}
+
+.method footer {
+  display: table;
+  margin-top: units(6);
+  position: relative;
+  width: 100%;
+}
+
+.method footer h1 {
+  font-size: font-size('heading',3xs);
+  text-transform: uppercase;
+}
+
+// method--panel--back
+.method--panel--back {
+  background: color('base-lightest');
+  font-size: font-size('heading',2xs);
+  border-radius: 0 0 6px 6px;
+  padding-top: units(4);
+  :first-child {
+    margin-top: 0;
+  }
+}
+
+.method--panel--back h1 {
+  font-size: font-size('heading',md);
+  margin-top: .6em;
+}
+
+.method--panel--back h2 {
+  font-size: font-size('heading',md);
+  margin-top: 1em;
+}
+
+.method--panel--back h4 {
+  font: inherit;
+  font-weight: font-weight('semibold');
+  margin-top: 1em;
+}
+
+.method--panel--back ol,
+.method--panel--back ul {
+  margin: 0 0 1rem 1.5rem;
+  padding-left: 0;
+  padding-top: 0;
+
+  ol,
+  ul {
+    list-style: disc;
+    margin-left: 1.4em;
+    padding-top: 0.4em;
+  }
+}
+
+.method--panel--back p,
+.method--panel--back li {
+  line-height: 1.4;
+  margin-bottom: .6em;
+}
+
+.method--panel--back .method--section {
+  margin-bottom: 1.4em
+}
+
+.method--section--government-considerations {
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+.method::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+
+@media screen and (min-width: 800px) {
+  .card-header {
+    text-align: right;
+  }
+
+  .method .method--panel {
+    display: table-cell;
+    padding: units(2.5) units(5);
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .method .method--panel--front {
+    padding-bottom: 10rem;
+    position: relative;
+  }
+
+  .method .method--panel--front footer {
+      bottom: 0;
+      display: table;
+      left: 0;
+      padding: 0 units(5) units(2.5);
+      position: absolute;
+      width: 100%;
+  }
+
+  .method .method--panel--back {
+    border-radius: 0 6px 6px 0;
+    padding-top: units(4);
+  }
+}
+
+.category--discover .method--title {
+  border-color: $color-blue;
+}
+.category--decide .method--title {
+  border-color: $color-green;
+}
+.category--make .method--title {
+  border-color: $color-gold;
+}
+.category--validate .method--title {
+  border-color: $color-red;
+}
+.category--fundamentals .method--title {
+  border-color: $color-blue-dark;
+}
