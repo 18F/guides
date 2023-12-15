@@ -1,26 +1,26 @@
-@use '../../_common/styles/brand-colors' as *;
+@use '../../_common/styles/site-colors' as *;
 @use 'uswds-core' as * ;
 
-$brand-colors: (
+$site-colors: (
   "white": white,
-  "light": $brand-color-light,
-  "bright": $brand-color-bright,
-  "medium": $brand-color-medium,
-  "dark": $brand-color-dark,
+  "light": $site-color-light,
+  "bright": $site-color-bright,
+  "medium": $site-color-medium,
+  "dark": $site-color-dark,
   "black": black,
 );
 
 // Generate helper background and foreground classes
-@each $name, $brand-color in $brand-colors {
+@each $name, $site-color in $site-colors {
   .brand-background-#{$name} {
-    background-color: $brand-color;
+    background-color: $site-color;
     @if $name == "white" {
       box-shadow: inset 0 0 0 1px color('base-light');
     }
   }
 
   .brand-foreground-#{$name} {
-    color: $brand-color;
+    color: $site-color;
   }
 }
 

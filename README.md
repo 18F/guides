@@ -71,6 +71,9 @@ If you are interested in contributing to this repository, you can read more at
 ## Replatforming 
 Documentation on the replatforming effort can be found in [/docs/replatforming.md](/docs/replatforming.md)
 
+## Asset compilation
+Documentation on assets can be found in [/docs/assets.md](/docs/assets.md)
+
 ## Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in

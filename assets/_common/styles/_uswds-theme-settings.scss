@@ -1,4 +1,4 @@
-@use 'brand-colors' as *;
+@use 'site-colors' as *;
 @use 'uswds-core' as * with (
 
   /*---------------------------------------------------------
@@ -32,12 +32,12 @@
   ## Primary color
   -------------------------------------------------*/
   $theme-color-primary-darkest: 'blue-90',
-  $theme-color-primary-darker: $brand-color-dark,
+  $theme-color-primary-darker: $site-color-dark,
   $theme-color-primary-dark: 'blue-70v',
-  $theme-color-primary: $brand-color-medium,
+  $theme-color-primary: $site-color-medium,
   $theme-color-primary-light: 'blue-cool-40v',
   $theme-color-primary-lighter: 'blue-cool-20v',
-  $theme-color-primary-lightest: $brand-color-light,
+  $theme-color-primary-lightest: $site-color-light,
 
   /*------------------------------------------------
   ## Ink color
@@ -50,7 +50,7 @@
   $theme-color-accent-cool-darkest: 'cyan-80v',
   $theme-color-accent-cool-darker: 'cyan-70v',
   $theme-color-accent-cool-dark: 'cyan-50v',
-  $theme-color-accent-cool: $brand-color-bright,
+  $theme-color-accent-cool: $site-color-bright,
   $theme-color-accent-cool-light: 'cyan-20v',
   $theme-color-accent-cool-lighter: 'cyan-10v',
   $theme-color-accent-cool-lightest: 'blue-5',

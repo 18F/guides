@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run assets:build && npx @11ty/eleventy",
-    "assets:autoprefix": "postcss _site/assets/styles/*.css _site/assets/methods/styles/*.css -r --use autoprefixer",
+    "assets:autoprefix": "./postcss.sh",
     "assets:build": "node ./config/buildAssets && npm run assets:autoprefix",
     "assets:clean": "rimraf _site/assets",
     "assets:refresh": "npm run assets:clean && npm run assets:build",
@@ -64,8 +64,6 @@
     "@11ty/eleventy-img": "^3.1.8",
     "@uswds/uswds": "3.7.1",
     "autoprefixer": "^10.4.16",
-    "markdown-it-footnote": "^3.0.3",
-    "netlify-cms": "^2.10.192",
     "esbuild": "^0.19.9",
     "esbuild-sass-plugin": "^2.16.0",
     "luxon": "^2.3.1",

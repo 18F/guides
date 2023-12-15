@@ -4,8 +4,8 @@
 # Styles specific to the De-risking guides
 -----------------------------------------------------------*/
 
-$bullet-spacing: 1.25rem; 
-$tagline-image-size: 11.6rem; // Match current size 
+$bullet-spacing: 1.25rem;
+$tagline-image-size: 11.6rem; // Match current size
 
 .tagline__image {
   max-width: $tagline-image-size;
@@ -40,7 +40,7 @@ $tagline-image-size: 11.6rem; // Match current size
     color: color('primary');
     margin-top: units(3);
   }
-  
+
   h4 + h5 {
    margin-top: units(2);
   }
@@ -84,7 +84,7 @@ $tagline-image-size: 11.6rem; // Match current size
   background-color: color('primary-darker');
 }
 
-.guide-checklist + ul, 
+.guide-checklist + ul,
 .key-questions + ul {
   background-color: color('blue-5');
   margin-top:0;
@@ -93,7 +93,7 @@ $tagline-image-size: 11.6rem; // Match current size
   padding-bottom: units(1);
 }
 
-.guide-checklist + ul li, 
+.guide-checklist + ul li,
 .key-questions + ul li {
   margin-bottom: units(1);
 }
@@ -128,4 +128,5 @@ $tagline-image-size: 11.6rem; // Match current size
   @include u-font('body', 'xs');
   vertical-align: top;
 }
+
 
