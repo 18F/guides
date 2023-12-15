@@ -1,6 +1,8 @@
 ---
 title: Capitalization
 permalink: /content-guide/our-style/capitalization/
+redirect_from:
+  - content-guide/capitalization/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

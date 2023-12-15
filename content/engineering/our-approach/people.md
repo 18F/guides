@@ -1,6 +1,8 @@
 ---
 title: Feedback guide
 permalink: /engineering/our-approach/people/
+redirect_from:
+  - engineering/people/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

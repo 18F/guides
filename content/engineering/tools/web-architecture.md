@@ -3,6 +3,8 @@ title: Choosing a web app architecture
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/tools/web-architecture/
+redirect_from:
+  - engineering/web-architecture/
 tags: engineering
 layout: layouts/page
 eleventyNavigation:

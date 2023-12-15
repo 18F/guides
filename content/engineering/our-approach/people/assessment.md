@@ -3,6 +3,8 @@ title: 18F Engineering end of year assessment guide
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/people/assessment/
+redirect_from:
+  - engineering/people/assessment/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

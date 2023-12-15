@@ -1,6 +1,8 @@
 ---
 title: Keep refining
 permalink: /content-guide/our-approach/keep-refining/
+redirect_from:
+  - content-guide/keep-refining/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

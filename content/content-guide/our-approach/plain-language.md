@@ -5,7 +5,8 @@ layout: layouts/page
 sidenav: true
 sticky_sidenav: true
 redirect_from:
-  - /legal-and-technical-terms/
+  - content-guide/plain-language/
+  - content-guide/legal-and-technical-terms/
 subnav:
   - text: Words to avoid
     href: '#words-to-avoid'

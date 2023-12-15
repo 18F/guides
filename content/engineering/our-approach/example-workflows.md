@@ -3,6 +3,8 @@ title: Example workflows
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/example-workflows/
+redirect_from:
+  - engineering/example-workflows/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

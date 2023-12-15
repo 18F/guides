@@ -3,6 +3,8 @@ title: On-call recommendations
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/our-approach/on-call/
+redirect_from:
+  - engineering/on-call/
 tags: engineering
 layout: layouts/page
 eleventyNavigation: 

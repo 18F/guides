@@ -1,6 +1,8 @@
 ---
 title: Resources
 permalink: /engineering/about/resources/
+redirect_from:
+  - engineering/resources/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

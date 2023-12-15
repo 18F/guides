@@ -31,7 +31,7 @@ Like [our content guide]({{ '/content-guide/' | url }}), the 18F UX guide is wri
 * the ability to skillfully navigate organizational relationships
 * the ability to deliver artifacts that guide development, like wireframes and prototypes
 
-This guide includes information that may be new to the designers we hire (who may be new to government), and useful starting points for conversations with the people we work with (who may be new to UX design). For details of specific UX activities and how to conduct them, see [18F's methods](https://methods.18f.gov/TODO/).
+This guide includes information that may be new to the designers we hire (who may be new to government), and useful starting points for conversations with the people we work with (who may be new to UX design). For details of specific UX activities and how to conduct them, see [18F's methods](https://methods.18f.gov/).
 
 18F staff should consult additional guidance:
 
@@ -50,7 +50,7 @@ This guide is divided into three sections:
 - **Research** describes the process by which we systematically frame problems, explore options, and evaluate solutions. It includes articles on research [basics]({{ 'research/clarify-the-basics/' | url }}) (working definitions) and how we [plan]({{ 'research/plan/' | url }}), [do]({{ 'research/do/' | url }}), and [analyze, synthesize, and share]({{ 'research/make-research-actionable/' | url }}) research.
 - **Design** describes how we communicate and clarify what we’re building throughout the design process. It includes articles on how we [build prototypes]({{ 'design/build-a-prototype/' | url }} ) and [use design systems]({{ 'design/use-a-design-system/' | url }}).
 
-If you have any suggestions or want to get involved, read [our contributing page](https://github.com/18F/ux-guide/blob/main/CONTRIBUTING.md#non-18F-contributors/TODO/); find us on Slack in either #ux, #ux-guide, or #g-research; or [create an issue in GitHub](https://github.com/18F/ux-guide/issues/TODO/).
+If you have any suggestions or want to get involved, read [our contributing page](https://github.com/18F/guides/blob/main/CONTRIBUTING.md); find us on Slack in either #ux, #ux-guide, or #g-research; or [create an issue in GitHub](https://github.com/18F/guides/issues).
 
 
 ## Reusing this guide in other organizations
@@ -59,7 +59,7 @@ As a work of the federal government, this project is in the public domain within
 
 This guide is written for internal use and is shared in the spirit of open source.  This guide is a product of what we’ve learned from doing UX research and design in government over the past few years, in collaboration with GSA’s Office of General Counsel, Privacy Office, PRA (Paperwork Reduction Act) Desk Officer, and our agency partners.
 
-Feel free to [fork this guide](https://help.github.com/articles/fork-a-repo/) on GitHub and personalize it for your organization; we trust you’ll change it in whatever ways best suit you. Also, if you have a suggestion, spot an error, or otherwise want to make constructive contribution to this guide, head over to [our contributing page](https://github.com/18F/ux-guide/blob/main/CONTRIBUTING.md#non-18F-contributors/TODO/).
+Feel free to [fork this guide](https://help.github.com/articles/fork-a-repo/) on GitHub and personalize it for your organization; we trust you’ll change it in whatever ways best suit you. Also, if you have a suggestion, spot an error, or otherwise want to make constructive contribution to this guide, head over to [our contributing page](https://github.com/18F/guides/blob/main/CONTRIBUTING.md).
 
 ## References
 

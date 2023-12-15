@@ -1,6 +1,6 @@
 ---
 title: Government Accessibility Resources
-permalink: /accessibility/gov-resources
+permalink: /accessibility/gov-resources/
 layout: layouts/page
 tags: accessibility
 ---

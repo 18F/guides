@@ -1,6 +1,8 @@
 ---
 title: Style guides
 permalink: /content-guide/our-style/style-guides/
+redirect_from:
+  - content-guide/style-guides/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

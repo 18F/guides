@@ -3,6 +3,8 @@ title: Languages & runtimes
 sidenav: true
 sticky_sidenav: true
 permalink: /engineering/languages-runtimes/
+redirect_from:
+  - engineering/language-selection/
 tags: engineering
 layout: layouts/page
 eleventyNavigation:

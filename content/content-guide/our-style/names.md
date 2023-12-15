@@ -1,6 +1,8 @@
 ---
 title: Names
 permalink: /content-guide/our-style/names/
+redirect_from:
+  - content-guide/names/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

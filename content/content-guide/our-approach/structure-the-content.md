@@ -1,12 +1,11 @@
 ---
 title: Structure the content
 permalink: /content-guide/our-approach/structure-the-content/
+redirect_from:
+  - content-guide/structure-the-content/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true
-redirect_from:
-  - /faqs
-  - /how-users-read/
 subnav:
   - text: Important information first
     href: '#important-information-first'

@@ -1,6 +1,8 @@
 ---
 title: Code review
 permalink: /engineering/our-approach/code-review/
+redirect_from:
+  - engineering/code-review/
 sidenav: true
 sticky_sidenav: true
 tags: engineering

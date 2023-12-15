@@ -1,6 +1,8 @@
 ---
 title: Active voice
 permalink: /content-guide/our-style/active-voice/
+redirect_from:
+  - content-guide/active-voice/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

@@ -46,13 +46,3 @@ Usted puede cambiar de opinión sobre las grabaciones hasta cuatro semanas despu
 *El estudio de investigación de la GSA se realiza siguiendo la Orden Ejecutiva 13571, Sección 2B, la cual ordena a las agencias "establecer mecanismos para pedir la opinión de los usuarios acerca de los servicios del Gobierno y utilizar con regularidad dicha opinión para realizar mejoras en el servicio". La recopilación de información de contacto hecha por la GSA está autorizada por la Ley de Administración Electrónica de 2002 (P.L. 107-347, 44 USC § 3501). Para proteger su privacidad, la GSA utiliza la información recopilada a través del estudio de investigación, cumpliendo con lo establecido en su aviso publicado sobre el sistema de registros de la Ley de Privacidad [DOCX - 18 KB] (GSA/CIO-3) y su Evaluación del Impacto en la Privacidad de este Estudio de Investigación.*
 
 *Gracias por ayudarnos a mejorar este sitio web del Gobierno.*
-
-
-<footer>
-  <h1 id="footnote-label">Footnotes</h1>
-  <ol>
-    <li id="footnote-pia">
-      <p>See <a href="https://www.gsa.gov/portal/content/162010/TODO/">https://www.gsa.gov/portal/content/162010</a> and <a href="https://www.gsa.gov/portal/content/102237/TODO/">https://www.gsa.gov/portal/content/102237</a></p>
-    </li>
-  </ol>
-</footer>

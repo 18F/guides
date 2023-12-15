@@ -4,6 +4,8 @@ sidenav: true
 sticky_sidenav: true
 tags: engineering
 permalink: /engineering/our-approach/frontend/
+redirect_from:
+  - engineering/frontend/
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach

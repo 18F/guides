@@ -1,6 +1,8 @@
 ---
 title: License
 permalink: /engineering/about/license/
+redirect_from:
+  - engineering/license/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

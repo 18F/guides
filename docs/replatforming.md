@@ -206,3 +206,21 @@ While server-side redirects would be preferable, our deployment limitations have
 Since redirects will be immediate, we will leave the redirect page template empty of body content in order to avoid content flashing.
 
 Through manual testing, we’ve determined the redirect is unnoticeable visually and is smooth for screen readers. We welcome any feedback on how to improve this experience.
+
+## Permanent redirection
+
+Many guides used Jekyll's `redirect_from` and `redirect_to` frontmatter keys to redirect old pages to current ones. In order to preserve past redirects from old guides, we ported over these frontmatter keys and implemented an 11ty version of this functionality, found in [/content/redirect.html](https://github.com/18F/guides/blob/main/content/redirect.html).
+
+Note that paths listed as values for these keys should **NOT** contain the beginning forward slash (like is needed for permalinks):
+
+#### Correct:
+```
+redirect_from:
+  - content-guide/foobar/
+```
+
+#### Incorrect:
+```
+redirect_from:
+  - /content-guide/foobar/
+```

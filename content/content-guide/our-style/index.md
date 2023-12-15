@@ -1,6 +1,10 @@
 ---
 title: Our style 
 permalink: /content-guide/our-style/
+redirect_from:
+  - content-guide/forms/
+  - content-guide/headings-and-titles/
+  - content-guide/images/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

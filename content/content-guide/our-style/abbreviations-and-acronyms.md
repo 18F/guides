@@ -5,8 +5,9 @@ layout: layouts/page
 sidenav: true
 sticky_sidenav: true
 redirect_from:
-  - /faqs
-  - /how-users-read/
+  - content-guide/faqs
+  - content-guide/how-users-read/
+  - content-guide/abbreviations-and-acronyms/
 tags: content-guide
 eleventyNavigation:
   key: content-abbrivs

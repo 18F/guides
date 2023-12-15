@@ -122,4 +122,4 @@ public
 node_modules
 
 # utils
-utils/test_redirects_output.csv
+utils/test_redirects_*_output.csv

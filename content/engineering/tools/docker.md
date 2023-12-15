@@ -11,7 +11,8 @@ eleventyNavigation:
   order: 4
   title: Docker for development
 redirect_from:
-  - /project-setup/docker/
+  - engineering/docker/
+  - engineering/project-setup/docker/
 subnav:
   - text: Why?
     href: "#why"

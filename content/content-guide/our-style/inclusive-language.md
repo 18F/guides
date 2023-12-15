@@ -16,7 +16,8 @@ subnav:
   - text: Race, ethnicity, and religion
     href: '#race-ethnicity-and-religion'        
 redirect_from:
-  - /conscious-style/
+  - content-guide/inclusive-language/
+  - content-guide/conscious-style/
 tags: content-guide
 eleventyNavigation:
   key: content-inclusive

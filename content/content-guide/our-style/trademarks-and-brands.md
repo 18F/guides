@@ -1,6 +1,8 @@
 ---
 title: Trademarks and brands
 permalink: /content-guide/our-style/trademarks-and-brands/
+redirect_from:
+  - content-guide/trademarks-and-brands/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

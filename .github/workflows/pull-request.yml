@@ -2,6 +2,10 @@ name: pull request
 
 on: [pull_request]
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   build:
     name: build
@@ -104,4 +108,3 @@ jobs:
         run: npm install
       - name: Run eslint
         run: npm run lint
-
