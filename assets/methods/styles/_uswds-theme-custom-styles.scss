@@ -1,0 +1,37 @@
+@use 'uswds-core' as * ;
+
+// 18F Button styles
+.usa-button,
+.usa-button:visited
+{
+  background-color: color('accent-cool-darker');
+  font-family: family('sans');
+  width: auto;
+  display: inline-block;
+
+  &:hover {
+    background-color: color('primary-dark');
+  }
+
+  &.usa-button--secondary,
+  &.usa-button--secondary:visited {
+    background-color: white;
+    color:  black;
+
+    &:hover {
+      background-color: color('base-lightest');
+    }
+
+    img.methods--cards-img {
+      width: 22px;
+    }
+
+    img.methods--printer-img {
+      width: 20px;
+    }
+  }
+}
+
+.usa-footer__return-to-top a {
+  text-decoration: none;
+}
