@@ -1,6 +1,6 @@
 # 18F Guides
 
-A work in progress repository for consolidating the 18F Guides and Methods
+A repository for consolidating the 18F Guides and Methods
 
 ## How do I update this content?
 
