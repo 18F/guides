@@ -65,7 +65,7 @@
 }
 
 .method h2 {
-  font-size: font-size('heading',md);
+  font-size: font-size('heading',lg);
   font-weight: font-weight('bold');
 }
 
@@ -122,12 +122,12 @@
 }
 
 .method--panel--back h1 {
-  font-size: font-size('heading',md);
+  font-size: font-size('heading',lg);
   margin-top: .6em;
 }
 
 .method--panel--back h2 {
-  font-size: font-size('heading',md);
+  font-size: font-size('heading',lg);
   margin-top: 1em;
 }
 
@@ -221,4 +221,9 @@
 }
 .category--fundamentals .method--title {
   border-color: $color-blue-dark;
+}
+
+.method--title a,
+.method--title a:visited {
+  text-decoration: none;
 }

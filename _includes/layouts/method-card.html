@@ -10,6 +10,8 @@ layout: layouts/default
     </div>
   </header>
   <div class="grid-container">
+    {%- include "methods/print-header.html" category: method.category -%}
     {%- include "methods/method.html" this_method: method -%}
+    {%- include "methods/return-to-top.html" -%}
   </div>
 </section>

@@ -13,6 +13,7 @@ Custom styling for all guides
 /*---------------------------------------------------------
 Custom styling for methods guide only
 ----------------------------------------------------------*/
+@forward "uswds-theme-custom-styles";
 @forward "methods-colors";
 @forward "category";
 @forward "method";
