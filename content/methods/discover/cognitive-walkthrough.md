@@ -13,6 +13,6 @@ method:
   why: To get quick and early feedback on whether a design solution is easy for a new or infrequent user to learn, and why it is or isn’t easy. This method is useful for catching big issues at any stage in the design process when you don't have access to real users, but it is not a substitute for user evaluation.
   timeRequired: 30 minutes to one hour per person
   category: discover
-  last_modified_at: example timestamp
   content: ./_includes/methods/markdown/cognitive-walkthrough.md
+  last_modified_at: example timestamp
 ---

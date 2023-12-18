@@ -1,7 +1,7 @@
 <div class="card-header no-print">
   <nav>
 
-      {% if layout == "method-category" %}
+      {% if layout == "layouts/method-category" %}
       <a href="{{ '/methods' | url }}/" class="usa-button usa-button--secondary">
         {% image_with_class "assets/methods/img/cards.png", "methods--cards-img", "" %}
         See all cards
@@ -13,7 +13,7 @@
           </a>
       {% endif %}
 
-      {% if layout == "category" %}
+      {% if layout == "layouts/method-category" %}
       <a href="javascript:window.print()" class="usa-button usa-button--secondary">
         {% image_with_class "assets/methods/img/printer.png", "methods--printer-img", "" %}
         Print all {{ category | capitalize }} cards

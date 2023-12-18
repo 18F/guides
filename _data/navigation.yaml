@@ -119,6 +119,8 @@ methods:
         url: /methods/discover/cognitive-walkthrough/
       - name: Contextual inquiry
         url: /methods/discover/contextual-inquiry/
+      - name: See all Discover cards
+        url: /methods/discover/
   - name: Decide
     url: /methods/decide/
     children:
