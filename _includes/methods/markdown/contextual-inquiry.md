@@ -27,7 +27,8 @@ A pair of 18F team members visited two Department of Labor/Wage Hour Division in
 
 ## Considerations for use in government
 
-No PRA implications, if done properly. Contextual interviews should be non-standardized, conversational, and based on observation. The PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3. See the methods for <a href="{{site.baseurl}}/fundamentals/recruiting/" class="usa-link">Recruiting</a> and <a href="{{site.baseurl}}/fundamentals/privacy/" class="usa-link">Privacy</a> for more tips on taking input from the public.
+No PRA implications, if done properly. Contextual interviews should be non-standardized, conversational, and based on observation. The PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3. See the methods for
+[Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.
 
 For internal folks, get permission from the right level of management. If participants could be under union agreements, contact the agency's labor relations team.
 </section>
