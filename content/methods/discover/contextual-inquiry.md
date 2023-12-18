@@ -2,7 +2,7 @@
 title: Contextual Inquiry
 permalink: /methods/discover/contextual-inquiry/
 redirect_from:
-  - /contextual-inquiry/
+  - contextual-inquiry/
 layout: layouts/page
 tags: methods
 eleventyNavigation:
