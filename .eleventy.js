@@ -102,6 +102,15 @@ module.exports = function (config) {
     return filterTagList([...tagSet]);
   });
 
+  config.addCollection('methods', (collectionApi) => {
+    /* sort all methods in alpha order */
+    return collectionApi.getFilteredByTag("methods").sort((a, b) => {
+      if(a.data.title < b.data.title) { return -1; }
+      if(a.data.title > b.data.title) { return 1; }
+      return 0;
+    });
+  });
+
   // Customize Markdown library and settings
   let markdownLibrary = markdownIt({
     html: true,
