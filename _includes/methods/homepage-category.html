@@ -8,9 +8,6 @@
         <a href="{{ category.path | url }}" class="usa-link a-see-all">See all {{ category.name | downcase }} methods</a>
       </div>
     </div>
-    <div class="grid-col-4 methods-listing">
-      <h3>Methods include</h3>
-      {% include "methods/homepage-methods-include.html" category_slug: category_slug %}
-    </div>
+    <div class="grid-col-4 methods-listing"><h3>Methods include</h3>{% include "methods/homepage-methods-include.html" category_slug: category_slug %}</div>
   </div>
 </section>
