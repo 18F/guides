@@ -3,7 +3,7 @@ title: Contextual Inquiry
 permalink: /methods/discover/contextual-inquiry/
 redirect_from:
   - contextual-inquiry/
-layout: layouts/page
+layout: layouts/method-card
 tags: methods
 eleventyNavigation:
   key: methods
@@ -16,5 +16,5 @@ method:
   timeRequired: 1-2 hours per user
   category: discover
   content: ./_includes/methods/markdown/contextual-inquiry.md
-  last_modified_at:
+  last_modified_at: example timestamp
 ---
