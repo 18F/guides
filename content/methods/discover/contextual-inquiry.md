@@ -16,5 +16,4 @@ method:
   timeRequired: 1-2 hours per user
   category: discover
   content: ./_includes/methods/markdown/contextual-inquiry.md
-  last_modified_at: example timestamp
 ---

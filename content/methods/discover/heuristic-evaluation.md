@@ -18,5 +18,4 @@ method:
   timeRequired: 1–2 hours
   category: discover
   content: ./_includes/methods/markdown/heuristic-evaluation.md
-  last_modified_at: example timestamp
 ---

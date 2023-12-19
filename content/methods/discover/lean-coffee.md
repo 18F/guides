@@ -16,5 +16,4 @@ method:
   timeRequired: Flexible
   category: discover
   content: ./_includes/methods/markdown/lean-coffee.md
-  last_modified_at: example timestamp
 ---

@@ -16,5 +16,4 @@ method:
   timeRequired: ~1 hour
   category: discover
   content: ./_includes/methods/markdown/stakeholder-influence-mapping.md
-  last_modified_at: example timestamp
 ---

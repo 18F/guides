@@ -16,5 +16,4 @@ method:
   timeRequired: 30–60 mins
   category: discover
   content: ./_includes/methods/markdown/hopes-and-fears.md
-  last_modified_at: example timestamp
 ---

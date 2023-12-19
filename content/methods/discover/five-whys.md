@@ -16,5 +16,4 @@ method:
   timeRequired: Less than 1 hour
   category: discover
   content: ./_includes/methods/markdown/five-whys.md
-  last_modified_at: example timestamp
 ---

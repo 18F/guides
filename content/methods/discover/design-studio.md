@@ -16,5 +16,4 @@ method:
   timeRequired: 3–4 hours
   category: discover
   content: ./_includes/methods/markdown/design-studio.md
-  last_modified_at: example timestamp
 ---

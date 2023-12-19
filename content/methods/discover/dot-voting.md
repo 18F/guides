@@ -18,5 +18,4 @@ method:
   timeRequired: 15 minutes
   category: discover
   content: ./_includes/methods/markdown/dot-voting.md
-  last_modified_at: example timestamp
 ---

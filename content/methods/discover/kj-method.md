@@ -16,5 +16,4 @@ method:
   timeRequired: 1–2 hours
   category: discover
   content: ./_includes/methods/markdown/kj-method.md
-  last_modified_at: example timestamp
 ---

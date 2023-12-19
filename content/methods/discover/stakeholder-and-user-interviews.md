@@ -16,5 +16,4 @@ method:
   timeRequired: 1–2 hours per interviewee
   category: discover
   content: ./_includes/methods/markdown/stakeholder-and-user-interviews.md
-  last_modified_at: example timestamp
 ---
