@@ -119,6 +119,24 @@ methods:
         url: /methods/discover/cognitive-walkthrough/
       - name: Contextual inquiry
         url: /methods/discover/contextual-inquiry/
+      - name: Design studio
+        url: /methods/discover/design-studio/
+      - name: Dot voting
+        url: /methods/discover/dot-voting/
+      - name: Five whys
+        url: /methods/discover/five-whys/
+      - name: Heuristic evaluation
+        url: /methods/discover/heuristic-evaluation/
+      - name: Hopes and fears
+        url: /methods/discover/hopes-and-fears/
+      - name: KJ method
+        url: /methods/discover/kj-method/
+      - name: Lean coffee
+        url: /methods/discover/lean-coffee/
+      - name: Stakeholder and user interviews
+        url: /methods/discover/stakeholder-and-user-interviews/
+      - name: Stakeholder influence mapping
+        url: /methods/discover/stakeholder-influence-mapping/
       - name: See all Discover cards
         url: /methods/discover/
   - name: Decide

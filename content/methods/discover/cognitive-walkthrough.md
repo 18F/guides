@@ -14,5 +14,4 @@ method:
   timeRequired: 30 minutes to one hour per person
   category: discover
   content: ./_includes/methods/markdown/cognitive-walkthrough.md
-  last_modified_at: example timestamp
 ---
