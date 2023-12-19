@@ -7,6 +7,7 @@ eleventyNavigation:
   key: methods
   parent: Make
   title: Design pattern library
+eleventyExcludeFromCollections: true
 ---
 
 

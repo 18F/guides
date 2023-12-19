@@ -60,8 +60,6 @@
 }
 
 
-
-
 .layout--methods {
   .category {
     background-color: #fff;
@@ -135,10 +133,12 @@
     .method-listing {
       li {
         margin-bottom: .5rem;
+        list-style-type: none;
       }
     }
   }
 }
+
 
 
 @media screen and (max-width: 600px) {
@@ -154,4 +154,3 @@
     }
   }
 }
-
