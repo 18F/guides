@@ -1,0 +1,9 @@
+<ul class="usa-list">
+{% for method_page in collections.methods %}
+{% if method_page.data.method.category == category_slug %}
+  <li>
+    <a href="{{ method_page.data.permalink | url }}" class="usa-link">{{ method_page.data.method.title }}</a>
+  </li>
+{% endif %}
+{% endfor %}
+</ul>

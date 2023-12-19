@@ -1,0 +1,16 @@
+<section class="usa-prose grid-container category usa-section category--{{ category_slug }}" id="{{ category_slug }}">
+  <h2 class="category--title category--{{ category.name | downcase }}--title">{{ category.name }}</h2>
+  <div class="grid-row">
+    <div class="grid-col-8">
+      <div class="category--header usa-content">
+        <p class="category--subtitle">{{ category.description }}</p>
+        <p>{{ category.info }}</p>
+        <a href="{{ category.path | url }}" class="usa-link a-see-all">See all {{ category.name | downcase }} methods</a>
+      </div>
+    </div>
+    <div class="grid-col-4 methods-listing">
+      <h3>Methods include</h3>
+      {% include "methods/homepage-methods-include.html" category_slug: category_slug %}
+    </div>
+  </div>
+</section>
