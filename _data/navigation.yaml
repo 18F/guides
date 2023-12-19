@@ -149,6 +149,12 @@ methods:
     children:
       - name: Design pattern library
         url: /methods/make/design-pattern-library/
+      - name: Prototyping
+        url: /methods/make/prototyping/
+      - name: Wireframing
+        url: /methods/make/wireframing/
+      - name: See all Make cards
+        url: /methods/make/
   - name: Validate
     url: /methods/validate/
     children:
