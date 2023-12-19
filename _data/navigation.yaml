@@ -154,6 +154,14 @@ methods:
     children:
       - name: Card sorting
         url: /methods/validate/card-sorting/
+      - name: Multivariate testing
+        url: /methods/validate/multivariate-testing/
+      - name: Usability testing
+        url: /methods/validate/usability-testing/
+      - name: Visual preference testing
+        url: /methods/validate/visual-preference-testing/
+      - name: See all Validate cards
+        url: /methods/validate/
   - name: Fundamentals
     url: /methods/fundamentals/
     children:
