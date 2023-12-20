@@ -203,6 +203,12 @@ methods:
     children:
       - name: Compensation
         url: /methods/fundamentals/compensation/
+      - name: Privacy
+        url: /methods/fundamentals/privacy/
+      - name: Recruiting
+        url: /methods/fundamentals/recruiting/
+      - name: See all Fundamentals cards
+        url: /methods/fundamentals/
   - name: About
     url: /methods/about/
   - name: Print the Methods
