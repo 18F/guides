@@ -119,6 +119,12 @@
   :first-child {
     margin-top: 0;
   }
+
+}
+
+/* this overrides some common custom styling */
+.usa-prose .method--panel--back li p {
+  margin-bottom: 0.6em;
 }
 
 .method--panel--back h1 {

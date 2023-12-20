@@ -144,6 +144,36 @@ methods:
     children:
       - name: Affinity mapping
         url: /methods/decide/affinity-mapping/
+      - name: Comparative analysis
+        url: /methods/decide/comparative-analysis/
+      - name: Content audit
+        url: /methods/decide/content-audit/
+      - name: Design hypothesis
+        url: /methods/decide/design-hypothesis/
+      - name: Design principles
+        url: /methods/decide/design-principles/
+      - name: Interface audit
+        url: /methods/decide/interface-audit/
+      - name: Journey mapping
+        url: /methods/decide/journey-mapping/
+      - name: Mental modeling
+        url: /methods/decide/mental-modeling/
+      - name: Personas
+        url: /methods/decide/personas/
+      - name: Service blueprint
+        url: /methods/decide/service-blueprint/
+      - name: Site mapping
+        url: /methods/decide/site-mapping/
+      - name: Storyboarding
+        url: /methods/decide/storyboarding/
+      - name: Style tiles
+        url: /methods/decide/style-tiles/
+      - name: Task flow analysis
+        url: /methods/decide/task-flow-analysis/
+      - name: User scenarios
+        url: /methods/decide/user-scenarios/
+      - name: See all Decide cards
+        url: /methods/decide/
   - name: Make
     url: /methods/make/
     children:
