@@ -7,6 +7,7 @@ eleventyNavigation:
   key: methods
   parent: Fundamentals
   title: Compensation
+eleventyExcludeFromCollections: true
 ---
 
 
