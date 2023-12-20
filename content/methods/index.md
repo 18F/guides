@@ -1,6 +1,10 @@
 ---
 title: methods homepage
 permalink: /methods/
+redirect_from:
+  # resolves redirects from methods.18f.gov
+  - methods/rolling-issues-log/
+  - methods/archive/bodystorming/
 layout: layouts/default
 tags: methods
 ---
