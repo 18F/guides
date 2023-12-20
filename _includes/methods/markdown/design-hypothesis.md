@@ -12,6 +12,7 @@
     <p>
       <em>We’ll know we’re right when we see [this metric/signal].</em>
     </p>
+
 1. Once you've formulated your hypothesis, consider the following harm prompt to help the team think about and guard against potential unintended consequences of your work.
 
     <p>
