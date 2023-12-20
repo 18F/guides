@@ -119,26 +119,96 @@ methods:
         url: /methods/discover/cognitive-walkthrough/
       - name: Contextual inquiry
         url: /methods/discover/contextual-inquiry/
+      - name: Design studio
+        url: /methods/discover/design-studio/
+      - name: Dot voting
+        url: /methods/discover/dot-voting/
+      - name: Five whys
+        url: /methods/discover/five-whys/
+      - name: Heuristic evaluation
+        url: /methods/discover/heuristic-evaluation/
+      - name: Hopes and fears
+        url: /methods/discover/hopes-and-fears/
+      - name: KJ method
+        url: /methods/discover/kj-method/
+      - name: Lean coffee
+        url: /methods/discover/lean-coffee/
+      - name: Stakeholder and user interviews
+        url: /methods/discover/stakeholder-and-user-interviews/
+      - name: Stakeholder influence mapping
+        url: /methods/discover/stakeholder-influence-mapping/
+      - name: See all Discover cards
+        url: /methods/discover/
   - name: Decide
     url: /methods/decide/
     children:
       - name: Affinity mapping
         url: /methods/decide/affinity-mapping/
+      - name: Comparative analysis
+        url: /methods/decide/comparative-analysis/
+      - name: Content audit
+        url: /methods/decide/content-audit/
+      - name: Design hypothesis
+        url: /methods/decide/design-hypothesis/
+      - name: Design principles
+        url: /methods/decide/design-principles/
+      - name: Interface audit
+        url: /methods/decide/interface-audit/
+      - name: Journey mapping
+        url: /methods/decide/journey-mapping/
+      - name: Mental modeling
+        url: /methods/decide/mental-modeling/
+      - name: Personas
+        url: /methods/decide/personas/
+      - name: Service blueprint
+        url: /methods/decide/service-blueprint/
+      - name: Site mapping
+        url: /methods/decide/site-mapping/
+      - name: Storyboarding
+        url: /methods/decide/storyboarding/
+      - name: Style tiles
+        url: /methods/decide/style-tiles/
+      - name: Task flow analysis
+        url: /methods/decide/task-flow-analysis/
+      - name: User scenarios
+        url: /methods/decide/user-scenarios/
+      - name: See all Decide cards
+        url: /methods/decide/
   - name: Make
     url: /methods/make/
     children:
       - name: Design pattern library
         url: /methods/make/design-pattern-library/
+      - name: Prototyping
+        url: /methods/make/prototyping/
+      - name: Wireframing
+        url: /methods/make/wireframing/
+      - name: See all Make cards
+        url: /methods/make/
   - name: Validate
     url: /methods/validate/
     children:
       - name: Card sorting
         url: /methods/validate/card-sorting/
+      - name: Multivariate testing
+        url: /methods/validate/multivariate-testing/
+      - name: Usability testing
+        url: /methods/validate/usability-testing/
+      - name: Visual preference testing
+        url: /methods/validate/visual-preference-testing/
+      - name: See all Validate cards
+        url: /methods/validate/
   - name: Fundamentals
     url: /methods/fundamentals/
     children:
       - name: Compensation
         url: /methods/fundamentals/compensation/
+      - name: Privacy
+        url: /methods/fundamentals/privacy/
+      - name: Recruiting
+        url: /methods/fundamentals/recruiting/
+      - name: See all Fundamentals cards
+        url: /methods/fundamentals/
   - name: About
     url: /methods/about/
   - name: Print the Methods

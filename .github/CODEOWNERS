@@ -23,7 +23,7 @@
 # https://github.com/18F/guides/pull/65#issuecomment-1783084851
 
 /content/accessibility/**/*.md   @jasnakai
-# /content/agile/**/*.md           @adunkman
+/content/agile/**/*.md           @adunkman
 /content/brand/**/*.md           @igorkorenfeld
 /content/content-guide/**/*.md   @michelle-rago
 /content/derisking/**/*.md       @adunkman

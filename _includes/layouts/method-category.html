@@ -1,0 +1,21 @@
+---
+layout: layouts/default
+---
+
+<section class="category category--{{ category | downcase }} usa-section usa-prose" id="{{ category | downcase }}">
+  <header class="category--header">
+    <div class="grid-container">
+      <h1 class="category--title">{{ category | capitalize }}</h1>
+      <p class="category--subtitle">{{ method_categories[category].description }}</p>
+    </div>
+  </header>
+  <div class="grid-container">
+    {%- include "methods/print-header.html" category: category -%}
+    {% for method_page in collections.methods %}
+      {% if method_page.data.method.category == category %}
+        {%- include "methods/method.html" this_method: method_page.data.method -%}
+      {% endif %}
+    {% endfor %}
+    {%- include "methods/return-to-top.html" -%}
+  </div>
+</section>

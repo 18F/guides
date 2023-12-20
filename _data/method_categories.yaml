@@ -1,0 +1,29 @@
+discover:
+  path: /methods/discover/
+  name: Discover
+  description: Build a greater understanding of your problem and the people it impacts.
+  info: Use the Discover Methods to build context for the problem you’re investigating. Get to know your potential users better and understand your stakeholders’ main concerns. The work you do during this phase will inform everything that follows, so take your time.
+
+decide:
+  path: /methods/decide/
+  name: Decide
+  description: Elaborate on research from your Discovery phase.
+  info: The Decide Methods help you derive insights from the information gathered during the Discovery phase. You’ll validate initial assumptions, develop a deeper understanding of workflows and processes, and develop design hypotheses.
+
+make:
+  path: /methods/make/
+  name: Make
+  description: Create a testable solution.
+  info: Once you’ve learned more about your users’ expectations, use the Make Methods to create testable designs. Sketching, wireframing, and prototyping will help you ensure your product reflects your users’ needs.
+
+validate:
+  path: /methods/validate/
+  name: Validate
+  description: Test a design hypothesis.
+  info: Testing (and re-testing) your designs with users will help you build the best possible product. Our Validate Methods cover varied testing scenarios and potential user groups.
+
+fundamentals:
+  path: /methods/fundamentals/
+  name: Fundamentals
+  description: Foundational methods for practicing design research.
+  info: Our Fundamentals Methods, which combine government-specific protocols and industry best practices, lay the groundwork for successful research, no matter what you’re testing. For best results, review them before you start recruiting.

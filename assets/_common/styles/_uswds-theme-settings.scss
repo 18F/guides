@@ -8,9 +8,6 @@
   $theme-font-path: '../../../node_modules/@uswds/uswds/dist/fonts',
   $theme-image-path: '../../../node_modules/@uswds/uswds/dist/img',
 
-  // TODO: remove
-  $theme-hero-image: '../_img/hero.png',
-
 
   /*---------------------------------------------------------
   # Global Settings
@@ -24,6 +21,7 @@
   $theme-font-type-sans: 'helvetica',
   $theme-font-role-heading: 'sans',
   $theme-body-font-size: 'md',
+  $theme-font-weight-semibold: 700,
 
 
   /*---------------------------------------------------------

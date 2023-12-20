@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
@@ -21,6 +22,8 @@ module.exports = function (config) {
   // Set pathPrefix for site
   let pathPrefix = '/';
 
+  config.addPlugin(EleventyRenderPlugin);
+
   // Copy the `admin` folders to the output
   config.addPassthroughCopy('admin');
 
@@ -37,6 +40,9 @@ module.exports = function (config) {
   // Set download paths
   // Place files for download in assets/{guide}/dist/{filename.ext}
   config.addPassthroughCopy("./assets/**/dist/*");
+
+  // methods pdfs
+  config.addPassthroughCopy({ "./content/methods/assets/downloads/": "./methods/assets/downloads/" });
 
   // Add plugins
   config.addPlugin(pluginRss);
@@ -81,6 +87,14 @@ module.exports = function (config) {
     return new URL(relativeUrl, host).href;
   });
 
+  config.addFilter("makeUppercase", (value) => {
+    return value.toUpperCase();
+  });
+
+  config.addFilter("capitalize", (value) =>{
+    return value.charAt(0).toUpperCase() + value.slice(1);
+  });
+
   // Create an array of all tags
   config.addCollection('tagList', function (collection) {
     let tagSet = new Set();
@@ -89,6 +103,15 @@ module.exports = function (config) {
     });
 
     return filterTagList([...tagSet]);
+  });
+
+  config.addCollection('methods', (collectionApi) => {
+    /* sort all methods in alpha order */
+    return collectionApi.getFilteredByTag("methods").sort((a, b) => {
+      if(a.data.title < b.data.title) { return -1; }
+      if(a.data.title > b.data.title) { return 1; }
+      return 0;
+    });
   });
 
   // Customize Markdown library and settings

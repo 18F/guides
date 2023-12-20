@@ -1,0 +1,17 @@
+---
+layout: layouts/default
+---
+
+<section class="category category--{{method.category | downcase }} usa-section usa-prose">
+  <header class="category--header" aria-labelledby="{{method_category.title | downcase }}">
+    <div class="grid-container">
+      <span class="category--title" id="{{method_category.title | downcase }}">{{ method.category | capitalize }}</span>
+      <p class="category--subtitle">{{ method_categories[method.category].description }}</p>
+    </div>
+  </header>
+  <div class="grid-container">
+    {%- include "methods/print-header.html" category: method.category -%}
+    {%- include "methods/method.html" this_method: method -%}
+    {%- include "methods/return-to-top.html" -%}
+  </div>
+</section>

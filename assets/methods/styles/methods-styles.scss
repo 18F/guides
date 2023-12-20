@@ -1,0 +1,23 @@
+/*---------------------------------------------------------
+USWDS
+----------------------------------------------------------*/
+@forward "../../_common/styles/uswds-theme-settings";
+@forward "uswds";
+
+/*---------------------------------------------------------
+Custom styling for all guides
+----------------------------------------------------------*/
+@forward "../../_common/styles/custom-styles.scss";
+@forward "../../_common/styles/overrides/extended-header.scss";
+
+/*---------------------------------------------------------
+Custom styling for methods guide only
+----------------------------------------------------------*/
+@forward "uswds-theme-custom-styles";
+@forward "methods-colors";
+@forward "category";
+@forward "method";
+@forward "homepage";
+@forward "service-blueprint";
+@forward "usability-test-script";
+@forward "interview-script";
