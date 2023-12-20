@@ -2,6 +2,8 @@
 title: Example design research participant agreement
 description: An example design research participant agreement
 permalink: /ux-guide/participant-agreement/
+redirect_from:
+  - methods/participant-agreement/
 layout: layouts/page
 tags: ux-guide
 # eleventyNavigation: 

@@ -2,6 +2,8 @@
 title: Contrato para participantes en el Estudio de Investigación (sin pagar)
 description: Design research participant agreement (without compensation)
 permalink: /ux-guide/participant-agreement-spanish/
+redirect_from:
+  - methods/participant-agreement-spanish/
 layout: layouts/page
 tags: ux-guide
 ---
