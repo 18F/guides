@@ -41,6 +41,9 @@ module.exports = function (config) {
   // Place files for download in assets/{guide}/dist/{filename.ext}
   config.addPassthroughCopy("./assets/**/dist/*");
 
+  // methods pdfs
+  config.addPassthroughCopy({ "./content/methods/assets/downloads/": "./methods/assets/downloads/" });
+
   // Add plugins
   config.addPlugin(pluginRss);
   config.addPlugin(pluginNavigation);
