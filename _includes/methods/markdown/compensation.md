@@ -1,4 +1,3 @@
-
 ## How to do it{#how-to-compensation}
 
 1. Figure out what's legal and appropriate. Consult your agency's Office of General Counsel on options for providing compensation to encourage participation in usability testing, consistent with your agency's authorities. The options will depend upon your agency's authorities and the specific facts.
