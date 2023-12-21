@@ -7,7 +7,7 @@
         See all cards
       </a>
       {% else %}
-      <a href="{{ '/methods' | url }}/{{ page.category | downcase}}" class="usa-button usa-button--secondary margin-bottom-1" onclick="ga('send', 'event', 'Navigate', 'Click method category link','Navigate to method categoy page');">
+      <a href="/methods/{{ category | downcase }}/" class="usa-button usa-button--secondary margin-bottom-1" onclick="ga('send', 'event', 'Navigate', 'Click method category link','Navigate to method categoy page');">
         {% image_with_class "assets/methods/img/cards.png", "methods--cards-img", "" %}
         See all {{ category | capitalize }} cards
           </a>
