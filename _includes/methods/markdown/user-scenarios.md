@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-user-scenario}
 
 1. Determine a few [personas]({{ "/methods/decide/personas/" | url }}) or user groups to focus on. Consider what scenario(s) might be the most critical for that user, including scenarios in which users face limited [accessibility]({{ "/accessibility/" | url }}).
 1. For each user, list out their goals, motivations, and the context/environment in which they interact with your product, service, or website.
@@ -16,7 +16,7 @@
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources
+## Additional resources{#add-user-scenario}
 
 - [Scenarios — Usability.gov](https://www.usability.gov/how-to-and-tools/methods/scenarios.html)
 
@@ -24,7 +24,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-user-scenario}
 
 No PRA implications. No information is collected from members of the public.
 </section>

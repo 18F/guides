@@ -1,6 +1,6 @@
 ---
 title: Print - Methods
 permalink: /methods/print/
-layout: layouts/page
+layout: layouts/methods-print
 tags: methods
 ---

@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-storyboard}
 
 1. Gather any documents that describe the different use cases or [scenarios]({{ "/methods/decide/user-scenarios/" | url }}) in which users will interact with your service.
 1. Sketch scenes that visually depict a user interacting with the service, including as much context as possible. For example: Are they on the move? Where are they? What else is in their environment?
@@ -8,7 +8,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-storyboard}
 
 No PRA implications. No information is collected from members of the public.
 </section>

@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-lean-coffee}
 
 1. Give meeting participants two minutes to write what they would like to talk about on sticky notes (one idea per sticky note)
 1. Have meeting participants review the topics generated and [dot vote]({{ "/methods/discover/dot-voting/" | url }}) on the topics they are most interested in
@@ -10,7 +10,7 @@
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Example from 18F
+## Example from 18F{#ex-lean-coffee}
 
 At 18F, Lean coffee is often used to facilitate community of practice meetings and team meetings when the objective is to provide a forum for the meeting attendees to raise issues that are of interest to them. This method provides structure to these meetings and ensures topics are democratically selected for conversation.
 
@@ -18,7 +18,7 @@ At 18F, Lean coffee is often used to facilitate community of practice meetings a
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-lean-coffee}
 
 No PRA implications. No information is collected from members of the public.
 

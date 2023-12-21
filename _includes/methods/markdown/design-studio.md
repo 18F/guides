@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-design-studio}
 
 1. Invite between six and 12 participants: stakeholders, users, and team members who need to build a shared understanding. Before the meeting, share applicable research, [user personas]({{ "/methods/decide/personas/" | url }}) (unless users will be present), and the design prompt for the exercise.
 1. Bring drawing materials. At the start of the meeting, review the design prompt and research you shared.
@@ -10,7 +10,7 @@
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Example from 18F
+## Example from 18F{#ex-design-studio}
 
 - ["User-centered design at 18F: a design studio for natural resource revenues"](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) Chris Cairns , Michelle Hertzfeld , Nick Bristow.
 
@@ -18,7 +18,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-design-studio}
 
 No PRA implications. If conducted with nine or fewer members of the public, the PRA does not apply, 5 CFR 1320.5(c)4. If participants are employees, the PRA does not apply.
 </section>

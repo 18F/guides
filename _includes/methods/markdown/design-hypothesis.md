@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-design-hypo}
 
 1. As a team, identify and make explicit the problem you’re trying to solve. What goals or needs aren’t being met? What measurable criteria would indicate progress toward those goals?
 
@@ -23,7 +23,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-design-hypo}
 
 No PRA implications. No information is collected from members of the public.
 </section>

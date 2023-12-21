@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-mental-model}
 
 1. Create one three-columned table per [persona]({{ "/methods/decide/personas/" | url }}). Label the columns "Past," "Present behavior," and "Future."
 1. In the middle column (Present behavior), list current user behaviors and pain points broadly related to the project, one per row.
@@ -7,7 +7,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-mental-model}
 
 No PRA implications. No information is collected from members of the public.
 </section>
