@@ -1,0 +1,29 @@
+name: Methods Design Review
+description: Submit an issue from the methods design review
+title: "[Bug]: "
+labels: ["Initiative 2", "Guides", "methods design review"]
+projects: ["18F/41"]
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description and Screenshots
+      description: Describe what you're seeing and what you'd expect. Screenshots really help!
+      placeholder: Tell us what you see
+      value: "Something's not right"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link to where you found the issue
+      description: add any urls to where the issue is happening
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps (if necessary)
+      description: Be as specific as possible
