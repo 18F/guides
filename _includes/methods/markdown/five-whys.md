@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-five-whys}
 
 Select a particular issue or problem from your user research to investigate further. This could be the most commonly occurring problem or a problem that has been prioritized by the team. 
 Ask why the problem occurred and write down an answer. Repeat this process another four times, building off of the previous response each time to drill down to a root cause. As you probe, make sure you remain sensistive to the emotional response of the interviewee. Sometimes asking why multiple times can cause the interviewee to feel frustrated or defensive if they don’t feel as if they are being heard. See example below:
@@ -21,7 +21,7 @@ After getting to a root cause, frame or reframe your problem solving approach to
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-five-whys}
 
 No PRA implications. No information is collected from members of the public.
 

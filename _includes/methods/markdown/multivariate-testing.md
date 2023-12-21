@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-multivariate}
 
 1. Identify the call to action, content section, or feature that needs to be improved to increase conversion rates or user engagement.
 1. Develop a list of possible issues that may be hurting conversion rates or engagement. Specify in advance what you are optimizing for (possibly through [design hypothesis]({{ "/methods/decide/design-hypothesis/" | url }})).
@@ -8,7 +8,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-multivariate}
 
 No PRA implications. No one asks the users questions, so the PRA does not apply. See the methods for
 [Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.

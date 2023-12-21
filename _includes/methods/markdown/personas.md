@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-personas}
 
 1. Gather research from earlier activities like [contextual inquiry]({{ "/methods/discover/contextual-inquiry/" | url }}) or [stakeholder interviews]({{ "/methods/discover/stakeholder-and-user-interviews/" | url }}) in a way that's easy to review. You can create placeholder personas without research to teach user-centered thinking, but because they're effectively stereotypes, avoid using them for implementable design decisions.
 1. Create a set of user archetypes based on how you believe people will use your solution. These typically get titles (for example, "data administrators" rather than "those who submit data"). Review the archetypes with "who questions:" Who is included? Who is being overlooked? Who is deciding whom to include?
@@ -8,7 +8,7 @@
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Example
+## Example{#ex-personas}
 
 - [Personas for Cloud.gov — 18F GitHub](https://github.com/18F/federalist-design/wiki/Personas)
 
@@ -16,7 +16,7 @@
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources
+## Additional resources{#add-personas}
 
 - [Improving customer experience with digital personas — Digital.gov](https://digital.gov/2017/06/20/improving-customer-experience-with-digital-personas/)
 
@@ -24,7 +24,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-personas}
 
 No PRA implications. No information is collected from members of the public.
 </section>

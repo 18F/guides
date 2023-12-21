@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-style-tiles}
 
 1. Gather all the feedback and information that was provided during the initial kickoff of the project.
 1. Distill the information into different directions a solution could take. Label these directions based on what kinds of interactions and brand identity they represent.
@@ -7,7 +7,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-style-tiles}
 
 No PRA implications. No information is collected from members of the public.
 </section>

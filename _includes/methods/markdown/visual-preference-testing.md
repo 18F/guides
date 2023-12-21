@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-visual-preference}
 
 1. Create iterations of a [style tiles]({{ "/methods/decide/style-tiles/" | url }}) or other asset that represent directions a final visual design may follow. If branding guidelines or attributes don’t exist, establish them with stakeholders beforehand.
 1. Interview participants about their reactions.
@@ -10,7 +10,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-visual-preference}
 
 No PRA implications. The PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3. See the methods for
 [Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.

@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-inter-audit}
 
 An interface audit can be conducted by an individual or in a group setting. Either way, the steps are as follows:
 1. Identify the website and take screenshots of all the pages you want to audit
@@ -11,14 +11,14 @@ An interface audit can be conducted by an individual or in a group setting. Eith
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources
+## Additional resources{#add-inter-audit}
 - [Conducting an interface inventory — Brad Frost](https://bradfrost.com/blog/post/conducting-an-interface-inventory/)
 
 </section>
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Applied in government research
+## Applied in government research{#app-inter-audit}
 
 No PRA implications. No information is collected from members of the public.
 </section>

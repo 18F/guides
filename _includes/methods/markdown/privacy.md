@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-to-privacy}
 
   1. Familiarize yourself with the [Fair Information Practice Principles](https://www.fpc.gov/resources/fipps/), a set of precepts at the heart of the U.S. Privacy Act of 1974.
   1. Consult your organization's privacy office, which may include your general counsel, if you plan to substantially make use of information that could potentially identify specific individuals.
@@ -7,7 +7,7 @@
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources
+## Additional resources{#add-privacy}
 
 - [Doing research at TTS — TTS Handbook](https://handbook.18f.gov/research-guidelines/)
 - [Privacy — TTS Handbook](https://handbook.tts.gsa.gov/launching-software/privacy)
@@ -15,7 +15,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-privacy}
 
 The government's use of information about people is subject to a number of laws and policies, including: <a href="https://www.justice.gov/opcl/overview-privacy-act-1974-2020-edition" class="usa-link">the Privacy Act of 1974</a>, the Federal Information Security Management Act of 2002, and the eGovernment Act of 2002.
 

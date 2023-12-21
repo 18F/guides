@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-site-mapping}
 
 1. List each page of a website or section.
 1. Take a screenshot of each page. Create a thumbnail for each screenshot.
@@ -7,7 +7,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-site-mapping}
 
 No PRA implications. No information is collected from members of the public.
 </section>

@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-prototype}
 
 1. Create a rudimentary version of your product. It can be static or functional. Think in the same way you would about a [wireframe]({{ "/methods/make/wireframing/" | url }}): demonstrate structure and relationships among different elements, but don't worry about stylized elements.
 1. Give the prototype to the user and observe their interactions without instruction.
@@ -8,7 +8,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-prototype}
 
 No PRA implications. The PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3. See the methods for
 [Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.

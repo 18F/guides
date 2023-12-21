@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-usability}
 
 1. Pick what you’ll test. Choose something, such as a sketch, [prototype]({{ "/methods/make/prototyping/" | url }}), or even a "competitor's product" that might help users accomplish their goals.
 1. Plan the test. Align your team on the scenarios the test will focus on, which users should participate (and how you'll [recruit]({{ "/methods/fundamentals/recruiting/" | url }}) them), and which team members will moderate and observe. Prepare a [usability test script]({{ "/methods/usability-test-script/" | url }}).
@@ -9,7 +9,7 @@ main
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Examples from 18F
+## Examples from 18F{#ex-usability}
 
 - [Usability testing plans from 18F’s Extractive Industries Transparency Initiative project with Department of the Interior — Office of Natural Resources Revenue GitHub](https://github.com/ONRR/doi-extractives-data/blob/research/research/summary-jan2016.md)
 
@@ -17,7 +17,7 @@ main
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources
+## Additional resources{#add-usability}
 
 - [Introduction to remote moderated usability testing, part 1: What and why — 18F Blog](https://18f.gsa.gov/2018/11/14/introduction-to-remote-moderated-usability-testing-part-1/)
 - [Introduction to remote moderated usability testing, part 2: How — 18F Blog](https://18f.gsa.gov/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/)

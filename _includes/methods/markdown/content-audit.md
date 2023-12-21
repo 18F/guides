@@ -1,4 +1,4 @@
-## How to do it
+## How to do it{#how-content-audit}
 
 1. Identify a specific user need or user question that you'd like to address.
 1. Create an inventory of content on your website. Navigate through the site from the home page and note the following about every piece of content. (For repeated items like blog posts, consider capturing just a sample.)
@@ -19,7 +19,7 @@
 
 <section class="method--section method--section--18f-example" markdown="1">
 
-## Example
+## Example{#ex-content-audit}
 
 - [Content debt: What it is, where to find it, and how to prevent it in the first place — 18F Blog](https://18f.gsa.gov/2016/05/19/content-debt-what-it-is-where-to-find-it-and-how-to-prevent-it-in-the-first-place/)
 
@@ -27,7 +27,7 @@
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources
+## Additional resources{#add-content-audit}
 
 - [Content plays: Audit your content — USDA](https://www.usda.gov/digital-strategy/content/plays#content3)
 
@@ -35,7 +35,7 @@
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government
+## Considerations for use in government{#con-content-audit}
 
 No PRA implications. No information is collected from members of the public.
 </section>
