@@ -64,7 +64,7 @@
     "@11ty/eleventy-img": "^3.1.8",
     "@uswds/uswds": "3.7.1",
     "autoprefixer": "^10.4.16",
-    "esbuild": "^0.19.9",
+    "esbuild": "^0.19.10",
     "esbuild-sass-plugin": "^2.16.1",
     "luxon": "^2.3.1",
     "markdown-it-footnote": "^3.0.3",
