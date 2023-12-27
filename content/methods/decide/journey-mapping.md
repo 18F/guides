@@ -34,7 +34,7 @@ method:
 
 ## Additional resources{#add-journey-mapping}
 
-- [3-part series on the what, why, and how of journey mapping  — GSA Customer Experience Center of Excellence](https://coe.gsa.gov/2019/04/17/cx-update-9.html)
+- [3-part series on the what, why, and how of journey mapping  — GSA Customer Experience Center of Excellence](https://coe.gsa.gov/2019/04/17/cx-update-9.html){.usa-link .usa-link--external}
 </section>
 
 <section class="method--section method--section--government-considerations" markdown="1" >

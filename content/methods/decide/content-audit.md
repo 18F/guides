@@ -40,7 +40,7 @@ method:
 
 ## Example{#ex-content-audit}
 
-- [Content debt: What it is, where to find it, and how to prevent it in the first place — 18F Blog](https://18f.gsa.gov/2016/05/19/content-debt-what-it-is-where-to-find-it-and-how-to-prevent-it-in-the-first-place/)
+- [Content debt: What it is, where to find it, and how to prevent it in the first place — 18F Blog](https://18f.gsa.gov/2016/05/19/content-debt-what-it-is-where-to-find-it-and-how-to-prevent-it-in-the-first-place/){.usa-link .usa-link--external}
 
 </section>
 
@@ -48,7 +48,7 @@ method:
 
 ## Additional resources{#add-content-audit}
 
-- [Content plays: Audit your content — USDA](https://www.usda.gov/digital-strategy/content/plays#content3)
+- [Content plays: Audit your content — USDA](https://www.usda.gov/digital-strategy/content/plays#content3){.usa-link .usa-link--external}
 
 </section>
 
