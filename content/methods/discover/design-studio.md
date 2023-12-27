@@ -23,7 +23,7 @@ method:
 1. Bring drawing materials. At the start of the meeting, review the design prompt and research you shared.
 1. Distribute drawing materials. Ask participants to individually sketch concepts that address the prompt. Remind them that anyone can draw and artistic accuracy is not the goal of the exercise. 15–20 minutes.
 1. Have participants present their ideas to one another in groups of three and solicit critiques.
-1. Ask the groups to create a design that combines the best aspects of members' individual contributions.
+1. Ask the groups to create a design that combines the best aspects of members’ individual contributions.
 1. Regroup as a whole. Have each group of three present their ideas to everyone. Discuss.
 1. After the meeting, note areas of consistent agreement or disagreement. Incorporate areas of consensus into design recommendations and areas of contention into a research plan.
 
@@ -31,7 +31,7 @@ method:
 
 ## Example from 18F{#ex-design-studio}
 
-- ["User-centered design at 18F: a design studio for natural resource revenues"](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) Chris Cairns , Michelle Hertzfeld , Nick Bristow.
+- [“User-centered design at 18F: a design studio for natural resource revenues”](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) Chris Cairns , Michelle Hertzfeld , Nick Bristow.
 
 </section>
 

@@ -20,9 +20,9 @@ method:
 
 ## How to do it{#how-to-compensation}
 
-1. Figure out what's legal and appropriate. Consult your agency's Office of General Counsel on options for providing compensation to encourage participation in usability testing, consistent with your agency's authorities. The options will depend upon your agency's authorities and the specific facts.
+1. Figure out what’s legal and appropriate. Consult your agency’s Office of General Counsel on options for providing compensation to encourage participation in usability testing, consistent with your agency’s authorities. The options will depend upon your agency’s authorities and the specific facts.
 1. Consider contracting for a recruiting service to help you get an effective research pool.
-1. If compensation is allowed, clearly communicate when and how participants will receive compensation. In the emails, postings, or other materials you use to recruit your participants, describe the compensation and how participants will receive it (via mail, pick up at an office, etc.). This is particularly important for "remote" research.
+1. If compensation is allowed, clearly communicate when and how participants will receive compensation. In the emails, postings, or other materials you use to recruit your participants, describe the compensation and how participants will receive it (via mail, pick up at an office, etc.). This is particularly important for “remote” research.
 
 <section class="method--section method--section--18f-example" markdown="1">
 
