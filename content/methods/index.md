@@ -7,6 +7,7 @@ redirect_from:
   - methods/archive/bodystorming/
 layout: layouts/default
 tags: methods
+eleventyExcludeFromCollections: true
 ---
 
 <div class="usa-section intro-header">

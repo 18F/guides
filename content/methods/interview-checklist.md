@@ -3,6 +3,7 @@ title: Interview checklist
 permalink: /methods/interview-checklist/
 layout: layouts/page
 tags: methods
+eleventyExcludeFromCollections: true
 ---
 
 <style type="text/css" media="print">
