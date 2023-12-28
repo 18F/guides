@@ -12,9 +12,9 @@ eleventyNavigation:
 method:
   title: Design hypothesis
   what: |
-    <p>Framing your work as a hypothesis means no longer just thinking about the thing you're making or building, but paying more attention to whether that work is achieving your intended goals and outcomes.</p>
+    <p>Framing your work as a hypothesis means no longer just thinking about the thing you’re making or building, but paying more attention to whether that work is achieving your intended goals and outcomes.</p>
 
-    <p>This in turn means thinking about your work as a series of experiments you do with your users to learn if you're on the right path. Instead of asking "Did we ship the shopping cart feature?" you ask: "Did we make it easier and simpler for our customers to buy from us?"</p>
+    <p>This in turn means thinking about your work as a series of experiments you do with your users to learn if you’re on the right path. Instead of asking “Did we ship the shopping cart feature?” you ask: “Did we make it easier and simpler for our customers to buy from us?”</p>
   why: When done collaboratively, hypothesis-building is powerful at getting a team on the same page about what it’s doing and why. It also allows the team to be flexible &mdash; if one approach doesn’t result in the outcome you expected, you have implicit permission to change course and try something else.
   timeRequired: 1-2 hours
   category: decide
@@ -35,7 +35,7 @@ method:
       <em>We’ll know we’re right when we see [this metric/signal].</em>
     </p>
 
-1. Once you've formulated your hypothesis, consider the following harm prompt to help the team think about and guard against potential unintended consequences of your work.
+1. Once you’ve formulated your hypothesis, consider the following harm prompt to help the team think about and guard against potential unintended consequences of your work.
 
     <p>
       <em>But, this could be harmful for [this user] if [this outcome happens].</em>
