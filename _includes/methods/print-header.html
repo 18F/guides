@@ -14,12 +14,12 @@
       {% endif %}
 
       {% if layout == "layouts/method-category" %}
-      <a href="javascript:window.print()" class="usa-button usa-button--secondary">
+      <a href="javascript:window.print()" class="usa-button usa-button--secondary usa-link usa-link--external">
         {% image_with_class "assets/methods/img/printer.png", "methods--printer-img", "" %}
         Print all {{ category | capitalize }} cards
         </a>
       {% else %}
-      <a href="javascript:window.print()" class="usa-button usa-button--secondary">
+      <a href="javascript:window.print()" class="usa-button usa-button--secondary usa-link usa-link--external">
         {% image_with_class "assets/methods/img/printer.png", "methods--printer-img", "" %}
         Print this card
       </a>
