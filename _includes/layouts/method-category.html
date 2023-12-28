@@ -13,7 +13,7 @@ layout: layouts/default
     {%- include "methods/print-header.html" category: category -%}
     {% for method_page in collections.methods %}
       {% if method_page.data.method.category == category %}
-        {%- include "methods/method.html" this_method: method_page.data.method -%}
+        {%- include "methods/method.html" this_method: method_page.data.method, method_path: method_page.url, content: method_page.templateContent -%}
       {% endif %}
     {% endfor %}
     {%- include "methods/return-to-top.html" -%}

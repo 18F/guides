@@ -1,7 +1,7 @@
 <span class="anchor" id="{{ this_method.title | slugify }}"></span>
 <article class="method" itemscope itemtype="http://schema.org/Article">
   <div class="method--panel method--panel--front">
-    <h1 class="method--title" itemprop="headline"><a href="{{ site.baseurl }}{{ method.url }}">
+    <h1 class="method--title" itemprop="headline"><a href="{{ method_path | url }}">
       {% if this_method.title %}
         {{ this_method.title }}
       {% endif %}
@@ -13,7 +13,7 @@
     <footer>
       <section class="method--section method--section--category">
         <h1>Phase</h1>
-        <p>{{ this_method.category }}</p>
+        <p>{{ this_method.category | capitalize }}</p>
       </section>
       <section class="method--section method--section--time-required">
         <h1>Time required</h1>
@@ -22,7 +22,7 @@
     </footer>
   </div>
   <div class="method--panel method--panel--back">
-    {% renderFile this_method.content, this_method, "md" %}
+    {{ content }}
   </div>
   <div class="usa-sr-only">
     <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">

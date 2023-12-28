@@ -167,6 +167,10 @@
   margin-bottom: 1.4em
 }
 
+.method--panel--back .usa-icon {
+  color: $color-body-dark;
+}
+
 .method--section--government-considerations {
   ul {
     list-style: none;
@@ -227,9 +231,4 @@
 }
 .category--fundamentals .method--title {
   border-color: $color-blue-dark;
-}
-
-.method--title a,
-.method--title a:visited {
-  text-decoration: none;
 }

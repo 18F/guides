@@ -4,6 +4,7 @@ description: An example script for use while leading a user interview
 layout: layouts/page
 tags: methods
 permalink: /methods/interview-script/
+eleventyExcludeFromCollections: true
 ---
 
 <style type="text/css" media="print">

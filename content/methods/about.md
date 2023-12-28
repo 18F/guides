@@ -3,6 +3,7 @@ title: About
 permalink: /methods/about/
 layout: layouts/page
 tags: methods
+eleventyExcludeFromCollections: true
 ---
 
 The 18F Methods are a collection of tools that describe how our teams put human-centered design into practice. We’ve gathered them here and created simplified instructions to help other organizations and federal offices adopt human-centered design into their own projects. These cards are focused on design in the context of digital services, but can be adapted to non-technical design projects as well.

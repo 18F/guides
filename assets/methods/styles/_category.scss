@@ -9,6 +9,7 @@
     line-height: line-height('sans',3);
     margin: 0;
     font-weight:bold;
+    color: $color-body-dark;
   }
 
   .category--subtitle {
@@ -16,7 +17,7 @@
     font-size: font-size('heading',lg);
     font-weight: font-weight('semibold');
     line-height: line-height('sans',4);
-    // max-width: measure(1);
+    color: $color-body-dark;
   }
 
   .category--header {

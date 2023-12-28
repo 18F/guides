@@ -4,6 +4,7 @@ description: A service blueprint of getting a burger
 permalink: /methods/service-blueprint-example/
 layout: layouts/default
 tags: methods
+eleventyExcludeFromCollections: true
 ---
 
 <style type="text/css" media="print">
