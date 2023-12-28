@@ -34,7 +34,8 @@ method:
 ## Additional resources{#add-heuristic-eval}
 
 - [10 usability heuristics for user interface design — Nielsen Norman Group](https://www.nngroup.com/articles/ten-usability-heuristics/)
-- [USDA Digital strategy tools — Research — Heuristic review template](https://www.usda.gov/digital-strategy/tools)
+- [USDA Digital strategy tools — Research — Heuristic review template](https://www.usda.gov/digital-strategy/tools){.usa-link .usa-link--external}
+
 </section>
 
 <section class="method--section method--section--government-considerations" markdown="1" >

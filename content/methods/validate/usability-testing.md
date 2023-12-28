@@ -39,13 +39,13 @@ main
 
 ## Additional resources{#add-usability}
 
-- [Introduction to remote moderated usability testing, part 1: What and why — 18F Blog](https://18f.gsa.gov/2018/11/14/introduction-to-remote-moderated-usability-testing-part-1/)
-- [Introduction to remote moderated usability testing, part 2: How — 18F Blog](https://18f.gsa.gov/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/)
-- [Example design research participant agreement](https://ux-guide.18f.gov/participant-agreement/) / [Ejemplo de acuerdo de participante de investigación de diseño](https://ux-guide.18f.gov/participant-agreement-spanish/)
-- [Example interview checklist](https://ux-guide.18f.gov/interview-checklist/)
-- [Example usability test guide](https://ux-guide.18f.gov/usability-test-script/)
-- [Example interview debrief worksheet](https://ux-guide.18f.gov/interview-debrief/)
-- [Usability test quality heuristics](https://ux-guide.18f.gov/usability-test-quality-heuristics/)
+- [Introduction to remote moderated usability testing, part 1: What and why — 18F Blog](https://18f.gsa.gov/2018/11/14/introduction-to-remote-moderated-usability-testing-part-1/){.usa-link .usa-link--external}
+- [Introduction to remote moderated usability testing, part 2: How — 18F Blog](https://18f.gsa.gov/2018/11/20/introduction-to-remote-moderated-usability-testing-part-2-how/){.usa-link .usa-link--external}
+- [Example design research participant agreement](https://ux-guide.18f.gov/participant-agreement/){.usa-link .usa-link--external} / [Ejemplo de acuerdo de participante de investigación de diseño](https://ux-guide.18f.gov/participant-agreement-spanish/){.usa-link .usa-link--external}
+- [Example interview checklist](https://ux-guide.18f.gov/interview-checklist/){.usa-link .usa-link--external}
+- [Example usability test guide](https://ux-guide.18f.gov/usability-test-script/){.usa-link .usa-link--external}
+- [Example interview debrief worksheet](https://ux-guide.18f.gov/interview-debrief/){.usa-link .usa-link--external}
+- [Usability test quality heuristics](https://ux-guide.18f.gov/usability-test-quality-heuristics/){.usa-link .usa-link--external}
 
 </section>
 

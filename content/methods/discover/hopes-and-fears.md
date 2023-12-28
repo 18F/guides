@@ -32,7 +32,7 @@ This format can be adapted to include other categories. For example, asking part
 
 ## Example{#ex-hopes-fears}
 
-- [Three small steps you can take to reboot agile in your organization — 18F Blog](https://18f.gsa.gov/2016/10/25/three-small-steps-you-can-take-to-reboot-agile-in-your-organization/)
+- [Three small steps you can take to reboot agile in your organization — 18F Blog](https://18f.gsa.gov/2016/10/25/three-small-steps-you-can-take-to-reboot-agile-in-your-organization/){.usa-link .usa-link--external}
 
 </section>
 
