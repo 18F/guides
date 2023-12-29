@@ -69,6 +69,12 @@
   font-weight: font-weight('bold');
 }
 
+/* custom header link icon color */
+.method h2 span a,
+.method h2 span a:visited {
+  color: $color-body-dark;
+}
+
 .method--panel {
   display: block;
   padding: units(2.5) units(5);

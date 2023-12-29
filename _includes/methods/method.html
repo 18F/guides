@@ -6,9 +6,11 @@
         {{ this_method.title }}
       {% endif %}
     </a></h1>
-      <h2>What</h2>
+      {% capture what_heading_slug %}what-{{ this_method.title | slugify }}{% endcapture %}
+      <h2 id="{{ what_heading_slug }}">What {% include "heading-link.html", slug: what_heading_slug %}</h2>
       <p>{{ this_method.what }}</p>
-      <h2>Why</h2>
+      {% capture why_heading_slug %}why-{{ this_method.title | slugify }}{% endcapture %}
+      <h2 id="{{ why_heading_slug }}">Why {% include "heading-link.html", slug: why_heading_slug %}</h2>
       <p>{{ this_method.why }}</p>
     <footer>
       <section class="method--section method--section--category">
