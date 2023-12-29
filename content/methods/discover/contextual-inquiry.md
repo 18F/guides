@@ -36,9 +36,7 @@ A pair of 18F team members visited two Department of Labor/Wage Hour Division in
 
 ## Additional resources{#add-contextual-inquiry}
 
-- <a href="https://hodigital.blog.gov.uk/2019/01/18/observational-research-5-tips-for-improving-your-approach%e2%80%af%e2%80%af/" class="usa-link">
-     Observational research: 5 tips for improving your approach - GOV.UK
-    </a>
+- [Observational research: 5 tips for improving your approach - GOV.UK](https://hodigital.blog.gov.uk/2019/01/18/observational-research-5-tips-for-improving-your-approach){.usa-link .usa-link--external}
 
 </section>
 

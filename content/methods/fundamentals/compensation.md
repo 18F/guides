@@ -28,7 +28,7 @@ method:
 
 ## Example{#example-compensation}
 
-- [Compensating research participants — TTS Handbook](https://handbook.tts.gsa.gov/18f/how-18f-works/research-guidelines/#compensating-user-research-participants)
+- [Compensating research participants — TTS Handbook](https://handbook.tts.gsa.gov/18f/how-18f-works/research-guidelines/#compensating-user-research-participants){.usa-link .usa-link--external}
 
 </section>
 

@@ -37,7 +37,7 @@ method:
 
 ## Additional resources{#add-personas}
 
-- [Improving customer experience with digital personas — Digital.gov](https://digital.gov/2017/06/20/improving-customer-experience-with-digital-personas/)
+- [Improving customer experience with digital personas — Digital.gov](https://digital.gov/2017/06/20/improving-customer-experience-with-digital-personas/){.usa-link .usa-link--external}
 
 </section>
 

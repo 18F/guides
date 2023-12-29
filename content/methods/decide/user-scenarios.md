@@ -37,7 +37,7 @@ method:
 
 ## Additional resources{#add-user-scenario}
 
-- [Scenarios — Usability.gov](https://www.usability.gov/how-to-and-tools/methods/scenarios.html)
+- [Scenarios — Usability.gov](https://www.usability.gov/how-to-and-tools/methods/scenarios.html){.usa-link .usa-link--external}
 
 </section>
 

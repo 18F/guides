@@ -29,7 +29,7 @@ method:
 
 ## Additional resources{#add-task-flow}
 
-- [Task Analysis - Usability.gov](https://www.usability.gov/how-to-and-tools/methods/task-analysis.html)
+- [Task Analysis - Usability.gov](https://www.usability.gov/how-to-and-tools/methods/task-analysis.html){.usa-link .usa-link--external}
 
 </section>
 

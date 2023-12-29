@@ -30,7 +30,7 @@ method:
 
 ## Examples{#ex-design-principals}
 - 18F Design Principles Guide — [Create](https://github.com/18F/design-principles-guide/blob/18f-pages/pages/create.md), [Define](https://github.com/18F/design-principles-guide/blob/18f-pages/pages/define.md), [Usage](https://github.com/18F/design-principles-guide/blob/18f-pages/pages/usage.md)
-- [Making more consistent decisions with design principles: A new 18F guide — 18F Blog](https://18f.gsa.gov/2016/04/08/making-more-consistent-decisions-with-design-principles-a-new-18f-guide/)
+- [Making more consistent decisions with design principles: A new 18F guide — 18F Blog](https://18f.gsa.gov/2016/04/08/making-more-consistent-decisions-with-design-principles-a-new-18f-guide/){.usa-link .usa-link--external}
 
 </section>
 

@@ -31,7 +31,7 @@ method:
 
 ## Example from 18F{#ex-design-studio}
 
-- [“User-centered design at 18F: a design studio for natural resource revenues”](https://18f.gsa.gov/2014/09/25/design-studio-onrr/) Chris Cairns , Michelle Hertzfeld , Nick Bristow.
+- [“User-centered design at 18F: a design studio for natural resource revenues”](https://18f.gsa.gov/2014/09/25/design-studio-onrr/){.usa-link .usa-link--external} Chris Cairns , Michelle Hertzfeld , Nick Bristow.
 
 </section>
 
