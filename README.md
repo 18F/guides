@@ -22,6 +22,8 @@ To run the site locally:
    ```
 3. Open http://localhost:8080
 
+For more information on testing and repo configurations, read our in-depth [development docs](/docs/development.md).
+
 ### Codespaces
 [Codespaces](https://github.com/features/codespaces) allows you to set up a development environment easily and without dependencies on a local machine.
 
@@ -44,26 +46,6 @@ To run the site locally:
 3. You will need to stage each file that you want to be committed. Once that's done, it's time to commit and push!  You can click "commit" and then "publish" or you can use the arrow to select "commit & push".
 4. On the lower right, it will ask you if you want to create a pull request.  If it's too soon, don't click this.  Otherwise, feel free!
 
-### Accessibility Scanning
-We use `pa11y-ci` is used to scan for accessibility issues. The scan runs as part of
-our CI setup (see the [pull-request.yml workflow](.github/workflows/pull-request.yml))
-on every pull request, but it can also be run locally. To run locally, type:
-```
-npm run test:pa11y-ci
-```
-### Code Formatting ###
-  
-#### Prettier ####
-We use [Prettier](https://prettier.io/) for code formatting. You can run prettier manually with
-```
-npx prettier . --write
-```
-Note that this will overwrite files in place. See `npx prettier --help` for more CLI options.
-  
-An easier way to use prettier is to integrate it into your IDE/editor. For example, [integration exists for VS Code](https://github.com/prettier/prettier-vscode) such that prettier runs on a file every time you save it.
-  
-You can also add prettier as a [git commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks), but you will need to set up the script yourself. For example, you can symlink [this template](/utils/pre-commit) file into `.git/hooks/pre-commit`
-  
 ## Contributing
 If you are interested in contributing to this repository, you can read more at
 [CONTRIBUTING](CONTRIBUTING.md).
