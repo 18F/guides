@@ -1,5 +1,6 @@
 ---
 title: Design studio
+description: An illustration-based way to facilitate communication (and brainstorming) between a project team and stakeholders.
 permalink: /methods/discover/design-studio/
 layout: layouts/method-card
 tags: methods

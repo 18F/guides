@@ -1,5 +1,6 @@
 ---
 title: Usability testing
+description: Observing users as they attempt to use a product or service while thinking out loud.
 permalink: /methods/validate/usability-testing/
 redirect_from:
   - usability-testing/

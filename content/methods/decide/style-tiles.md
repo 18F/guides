@@ -1,5 +1,6 @@
 ---
 title: Style tiles
+description: A design document that contains various fonts, colors, and UI elements that communicate the visual brand direction for a website or application.
 permalink: /methods/decide/style-tiles/
 redirect_from:
   - style-tiles/

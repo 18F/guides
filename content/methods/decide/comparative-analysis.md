@@ -1,5 +1,6 @@
 ---
 title: Comparative analysis
+description: A detailed review of existing experiences provided either by direct competitors or by related agencies or services.
 permalink: /methods/decide/comparative-analysis/
 redirect_from:
   - /comparative-analysis/

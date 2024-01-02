@@ -1,5 +1,6 @@
 ---
 title: Five whys
+description: An iterative process for identifying the root cause of a problem by posing the question "Why?" at least five times to help separate symptoms from causes.
 permalink: /methods/discover/five-whys/
 redirect_from:
   - five-whys/

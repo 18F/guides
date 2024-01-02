@@ -1,5 +1,6 @@
 ---
 title: Multivariate testing
+description: A test of variations to multiple sections or features of a page to see which combination of variants has the greatest effect. Different from an A/B test, which tests variation to just one section or feature.
 permalink: /methods/validate/multivariate-testing/
 redirect_from:
   - multivariate-testing/

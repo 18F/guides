@@ -1,5 +1,6 @@
 ---
 title: Wireframing
+description: A simple visual representation of a product or service interface.
 permalink: /methods/make/wireframing/
 redirect_from:
   - wireframing/

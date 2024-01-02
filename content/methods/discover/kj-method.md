@@ -1,5 +1,6 @@
 ---
 title: KJ method
+description: A facilitated exercise in which participants list their individual priorities onto cards, collect them as a group, organize them by relationship, and establish group priorities through individual voting.
 permalink: /methods/discover/kj-method/
 redirect_from:
   - kj-method/

@@ -1,5 +1,6 @@
 ---
 title: Dot voting
+description: A simple voting exercise to identify a group's collective priorities.
 permalink: /methods/discover/dot-voting/
 redirect_from:
   - discover/feature-dot-voting/

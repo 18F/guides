@@ -1,5 +1,6 @@
 ---
 title: Cognitive walkthrough
+description: An evaluation method in which people work through a set of representative tasks and ask questions about the task as they go.
 permalink: /methods/discover/cognitive-walkthrough/
 layout: layouts/method-card
 tags: methods

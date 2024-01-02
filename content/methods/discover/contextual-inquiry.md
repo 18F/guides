@@ -1,5 +1,6 @@
 ---
 title: Contextual inquiry
+description: The product team unobtrusively observes participants at work, with their permission, then asks questions.
 permalink: /methods/discover/contextual-inquiry/
 redirect_from:
   - contextual-inquiry/

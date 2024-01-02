@@ -1,5 +1,6 @@
 ---
 title: Design hypothesis
+description: A listing and analysis of all the content on an existing website (including pages, files, videos, audio or other data) that your users might reasonably encounter.
 permalink: /methods/decide/design-hypothesis/
 redirect_from:
   - design-hypothesis/

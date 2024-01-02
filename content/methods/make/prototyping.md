@@ -1,5 +1,6 @@
 ---
 title: Prototyping
+description: A rudimentary version, either static or functional, of something that exhibits realistic form and function.
 permalink: /methods/make/prototyping/
 redirect_from:
   - prototyping/

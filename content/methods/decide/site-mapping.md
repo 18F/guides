@@ -1,5 +1,6 @@
 ---
 title: Site mapping
+description: A comprehensive rendering of how a website's pages relate to one another.
 permalink: /methods/decide/site-mapping/
 redirect_from:
   - site-mapping/

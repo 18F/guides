@@ -1,5 +1,6 @@
 ---
 title: Card sorting
+description: A listing and analysis of all the content on an existing website (including pages, files, videos, audio or other data) that your users might reasonably encounter.
 permalink: /methods/validate/card-sorting/
 redirect_from:
   - card-sorting/

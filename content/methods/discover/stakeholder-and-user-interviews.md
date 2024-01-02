@@ -1,5 +1,6 @@
 ---
 title: Stakeholder and user interviews
+description: A wide-spanning set of semi-structured interviews with living experts who have an interest in a project's success, including stakeholders and users.
 permalink: /methods/discover/stakeholder-and-user-interviews/
 redirect_from:
   - stakeholder-and-user-interviews/
