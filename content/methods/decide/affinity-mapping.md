@@ -1,5 +1,6 @@
 ---
 title: Affinity mapping
+description: A way of finding themes in collections of ideas, quotes, or observations.
 permalink: /methods/decide/affinity-mapping/
 redirect_from:
   - affinity-mapping/

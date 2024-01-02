@@ -1,5 +1,6 @@
 ---
 title: Journey mapping
+description: A visualization of the major interactions shaping a user's experience of a product or service.
 permalink: /methods/decide/journey-mapping/
 redirect_from:
   - journey-mapping/

@@ -1,5 +1,6 @@
 ---
 title: Interview checklist
+description: Helpful reminders for moderating interviews
 permalink: /methods/interview-checklist/
 layout: layouts/page
 tags: methods

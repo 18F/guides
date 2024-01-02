@@ -1,5 +1,6 @@
 ---
 title: Personas
+description: User archetypes based on conversations with real people.
 permalink: /methods/decide/personas/
 redirect_from:
   - personas/

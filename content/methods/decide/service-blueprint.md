@@ -1,5 +1,6 @@
 ---
 title: Service blueprint
+description: A visual representation of the start-to-finish experience of both using and supporting the delivery of a service, including staff interactions and user experience.
 permalink: /methods/decide/service-blueprint/
 redirect_from:
   - service-blueprint/

@@ -1,5 +1,6 @@
 ---
 title: Storyboarding
+description: A wide-spanning set of semi-structured interviews with anyone who has an interest in a project's success, including users.
 permalink: /methods/decide/storyboarding/
 redirect_from:
   - storyboarding/

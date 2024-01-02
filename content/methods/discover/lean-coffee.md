@@ -1,5 +1,6 @@
 ---
 title: Lean coffee
+description: A format for running a meeting without a predefined agenda
 permalink: /methods/discover/lean-coffee/
 redirect_from:
   - lean-coffee/

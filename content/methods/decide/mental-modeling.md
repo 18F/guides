@@ -1,5 +1,6 @@
 ---
 title: Mental modeling
+description: A simple reference model that correlates existing and potential interfaces with user behaviors.
 permalink: /methods/decide/mental-modeling/
 redirect_from:
   - mental-modeling/

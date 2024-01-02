@@ -1,5 +1,6 @@
 ---
 title: Stakeholder influence mapping
+description: A visual representation of stakeholders — the people who are involved — and their potential influence and impact on a project or service system, in comparison to one another.
 permalink: /methods/discover/stakeholder-influence-mapping/
 redirect_from:
   - stakeholder-influence-mapping/

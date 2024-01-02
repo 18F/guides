@@ -1,5 +1,6 @@
 ---
 title: Visual preference testing
+description: A method that allows potential users to review and provide feedback on a solution's visual direction.
 permalink: /methods/validate/visual-preference-testing/
 redirect_from:
   - visual-preference-testing/

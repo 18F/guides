@@ -1,5 +1,6 @@
 ---
 title: Hopes and fears
+description: An exercise that quickly surfaces a group’s hopes and fears for the future
 permalink: /methods/discover/hopes-and-fears/
 redirect_from:
   - hopes-and-fears/
