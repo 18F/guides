@@ -11,7 +11,11 @@
       <p>{{ this_method.what }}</p>
       {% capture why_heading_slug %}why-{{ this_method.title | slugify }}{% endcapture %}
       <h2 id="{{ why_heading_slug }}">Why {% include "heading-link.html", slug: why_heading_slug %}</h2>
-      <p>{{ this_method.why }}</p>
+      <p>
+        {% renderTemplate "liquid,md", this_method %}
+          {{ why }}
+        {% endrenderTemplate %}
+      </p>
     <footer>
       <section class="method--section method--section--category">
         <h1>Phase</h1>
