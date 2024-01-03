@@ -179,7 +179,8 @@ h2.heading-md {
   margin-bottom: units(1);
 }
 
-.guide-checklist + ul {
+.guide-checklist + ul,
+.guide-checklist + ul ul {
   list-style: none;
   margin-left: 0;
   padding-left: units(1);
