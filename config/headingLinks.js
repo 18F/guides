@@ -32,7 +32,6 @@ const headingLinks = (slug, _, state, index) => {
   // immediately after the heading element, so... we can just grab the next
   // item in the list of tokens.
   const headingContent = state.tokens[index + 1];
-  const headingText = getText(headingContent);
 
   // We also need to find the index of the element that closes the header. We'll
   // put our link stuff right before that.
