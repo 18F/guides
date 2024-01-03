@@ -46,18 +46,14 @@ const headingLinks = (slug, _, state, index) => {
   const headingLink = {
     type: 'html_block',
     content: `
-  <span aria-hidden="true">
+  
     <a href="#${slug}"
       class="heading-permalink"
-      aria-label="permanent link to ${headingText.replace(
-    /"/g,
-    '&quot;',
-  )} heading">
+      aria-label="Permalink for this section">
       <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
         <use xlink:href="#svg-link"></use>
       </svg>
     </a>
-  </span>
 `,
   };
 
