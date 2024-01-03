@@ -61,11 +61,8 @@
     This prism CDN is for Prismjs, which is used in eleventy's syntax highlighting plugin. Eleventy recommends using one of Prism's CDN's to provide the css. More info in the docs: https://www.11ty.dev/docs/plugins/syntaxhighlight/
   {% endcomment %}
   <link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
-  {% if tags[0] == "methods" %}
-    <link rel="preload" as="style" href="{{ assetPaths['methods-styles.css'] }}" />
-    <link rel="stylesheet" href="{{ assetPaths['methods-styles.css'] }}" type="text/css" />
-  {% else %}
-    <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
-    <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
-  {% endif%}
+
+  <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
+  <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+
 </head>
