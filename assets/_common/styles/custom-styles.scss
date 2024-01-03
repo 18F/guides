@@ -180,13 +180,15 @@ h2.heading-md {
 }
 
 .guide-checklist + ul,
-.guide-checklist + ul ul {
+.guide-checklist + ul ul,
+.guide-checklist--single + ul {
   list-style: none;
   margin-left: 0;
   padding-left: units(1);
 }
 
-.guide-checklist + ul li {
+.guide-checklist + ul li,
+.guide-checklist--single + ul li {
   padding-left: $bullet-spacing;
   text-indent: (-1 * $bullet-spacing);
 

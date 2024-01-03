@@ -48,7 +48,9 @@ Contact info: `<researcher name>` `<researcher email>` `<researcher phone>`
 **We’d like to record this session.** We may record video, audio, or photo recordings from this session to help us review our time together and make sure we understood what you shared. We may also share recordings to help tell stories about what people want and need. In all cases we’ll take written notes. We might share quotes from people we interviewed. **Nothing shared will include your face or name.** When the design research project is completed, we’ll delete the full recordings. 
 
 Please check below if you approve recording this session. At any time during the session, you can ask us to stop recording, or you can end the discussion.
-- [ ] I approve recording this session
+
+{.guide-checklist--single}
+  - I approve recording this session
 
 **We’ll work to protect your privacy.** We’ll remove information that could be used to identify you, such as your face or name. (Your voice won’t be removed if you approved recording above.) There’s more information in this [Privacy Act Statement for Design Research [GSA.gov]](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research).
 
@@ -85,7 +87,9 @@ Contact info: `<researcher name>` `<researcher email>` `<researcher phone>`
 **We’d like to record this session.** We may record video, audio, or photo recordings from this session to help us review our time together and make sure we understood what you shared. We may also share recordings to help tell stories about what people want and need. In all cases we’ll take written notes. We might share quotes from people we interviewed. **Nothing shared will include your face or name.** When the design research project is completed, we’ll delete the full recordings. 
 
 Please check below if you approve recording this session. At any time during the session, you can ask us to stop recording, or you can end the discussion. You’d still receive compensation if you end the session early. 
-- [ ] I approve recording this session
+
+{.guide-checklist--single}
+  - I approve recording this session
 
 **We’ll work to protect your privacy.** We’ll remove information that could be used to identify you, such as your face or name. (Your voice won’t be removed if you approved recording above.) There’s more information in this [Privacy Act Statement for Design Research [GSA.gov]](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research).
 

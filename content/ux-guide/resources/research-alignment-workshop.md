@@ -37,14 +37,14 @@ As researchers, it's our role to collect *meaningful* information about our user
 
 A research alignment workshop publicizes team questions and prioritizes research themes, setting you up to create a research plan that drives maximum value for your team.
 
-## What you'll need
-- [ ] 1 hour with all key stakeholders + 15 minutes of prep-work
-- [ ] A large room with plenty of white board space
-- [ ] A dedicated note-taker (since you'll be playing the facilitator role, it's extremely helpful to have someone to help you document the session)
-- [ ] Post-it notes
-- [ ] Sharpies
-- [ ] Whiteboard markers
-- [ ] Dot voting stickers
+### What you'll need {.guide-checklist}
+- 1 hour with all key stakeholders + 15 minutes of prep-work
+- A large room with plenty of white board space
+- A dedicated note-taker (since you'll be playing the facilitator role, it's extremely helpful to have someone to help you document the session)
+- Post-it notes
+- Sharpies
+- Whiteboard markers
+- Dot voting stickers
 
 ## Prep-work - 10-15 minutes
 In the workshop, participants (including you!) will be sharing their burning research questions with the team. Prior to the workshop day, have each team member spend 10-15 minutes on a short homework assignment to maximize the efficiency of your workshop and ensure that team members bring thoughtful questions to the session.  
