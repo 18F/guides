@@ -1,5 +1,7 @@
 @use 'uswds-core' as * ;
 
+$bullet-spacing: 1.25rem;
+
 // Highlight TODO links to make them visually standout
 .todo-link,
 a[href*="/TODO/"] {
@@ -145,4 +147,51 @@ figcaption details {
 
 h2.heading-md {
   margin-top: units(2);
+}
+
+/* checklists and key questions */
+.guide-checklist,
+.key-questions {
+  @include u-font('sans','md');
+  color: color('white');
+  padding: units(1);
+}
+
+.guide-checklist {
+  background-color: color('primary');
+}
+
+.key-questions {
+  background-color: color('primary-darker');
+}
+
+.guide-checklist + ul,
+.key-questions + ul {
+  background-color: color('blue-5');
+  margin-top:0;
+  padding-top: units(1);
+  padding-right: units(2);
+  padding-bottom: units(1);
+}
+
+.guide-checklist + ul li,
+.key-questions + ul li {
+  margin-bottom: units(1);
+}
+
+.guide-checklist + ul,
+.guide-checklist + ul ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: units(1);
+}
+
+.guide-checklist + ul li {
+  padding-left: $bullet-spacing;
+  text-indent: (-1 * $bullet-spacing);
+
+  &:before {
+    content: '\25A1';
+    padding-right: units(1);
+  }
 }
