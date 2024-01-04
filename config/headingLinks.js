@@ -1,23 +1,6 @@
 /* eslint no-restricted-syntax: 0 */
 /** eslint doesn't like iterators/generators */
 // From https://github.com/18F/handbook/blob/ddf9f29bce09d6c7ac1d0f2f33a99b75bc5c8223/config/headingLinks.js
-//
-// Given a Markdown node, recursively find all of the child text nodes and
-// append them together. This will produce a similar result to the .innerText
-// property of DOM elements.
-const getText = (node) => {
-  const texts = [];
-
-  for (const child of node.children ?? []) {
-    if (child.type === 'text') {
-      texts.push(child.content);
-    } else {
-      texts.push(getText(child));
-    }
-  }
-
-  return texts.join('');
-};
 
 // https://www.npmjs.com/package/markdown-it-anchor#custom-permalink
 //
@@ -26,13 +9,6 @@ const getText = (node) => {
 // * state | a complete tree of the Markdown document as parsed by markdown-it
 // * index | the index of the token in the state of the current heading
 const headingLinks = (slug, _, state, index) => {
-  // Heading elements do not have children in Markdown. Instead, they have a
-  // sibling whose type is "inline." That inline element has children that
-  // represent the contents of the heading. The "inline" element always comes
-  // immediately after the heading element, so... we can just grab the next
-  // item in the list of tokens.
-  const headingContent = state.tokens[index + 1];
-  const headingText = getText(headingContent);
 
   // We also need to find the index of the element that closes the header. We'll
   // put our link stuff right before that.
@@ -46,18 +22,14 @@ const headingLinks = (slug, _, state, index) => {
   const headingLink = {
     type: 'html_block',
     content: `
-  <span aria-hidden="true">
+  
     <a href="#${slug}"
       class="heading-permalink"
-      aria-label="permanent link to ${headingText.replace(
-    /"/g,
-    '&quot;',
-  )} heading">
+      aria-label="Permalink for this section">
       <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
         <use xlink:href="#svg-link"></use>
       </svg>
     </a>
-  </span>
 `,
   };
 
