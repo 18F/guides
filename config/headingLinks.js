@@ -1,23 +1,6 @@
 /* eslint no-restricted-syntax: 0 */
 /** eslint doesn't like iterators/generators */
 // From https://github.com/18F/handbook/blob/ddf9f29bce09d6c7ac1d0f2f33a99b75bc5c8223/config/headingLinks.js
-//
-// Given a Markdown node, recursively find all of the child text nodes and
-// append them together. This will produce a similar result to the .innerText
-// property of DOM elements.
-const getText = (node) => {
-  const texts = [];
-
-  for (const child of node.children ?? []) {
-    if (child.type === 'text') {
-      texts.push(child.content);
-    } else {
-      texts.push(getText(child));
-    }
-  }
-
-  return texts.join('');
-};
 
 // https://www.npmjs.com/package/markdown-it-anchor#custom-permalink
 //
