@@ -11,19 +11,7 @@
 
 {% if site.ga.ua %}
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.ua }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  /**
-    * `forceSSL` was used for analytics.js (the older Google Analytics script).
-    * It isn't documented for gtag.js, but the term occurs in the gtag.js code;
-    * figure it doesn't hurt to leave it in. -@afeld, 5/29/19
-    */
-  gtag('config', '{{ site.ga.ua }}', { 'anonymize_ip': true, 'forceSSL': true });
-</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-94QF2Z1S0G"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-94QF2Z1S0G'); </script>
 {% endif %}
 
 {% if site.searchgov %}
