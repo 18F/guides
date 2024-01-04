@@ -3,6 +3,7 @@ title: Example Interview Debrief Worksheet
 permalink: /methods/interview-debrief/
 layout: layouts/page
 tags: methods
+eleventyExcludeFromCollections: true
 ---
 
 <style type="text/css" media="print">

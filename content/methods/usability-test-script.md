@@ -4,6 +4,8 @@ description: An example script for use while moderating a usability testing
 permalink: /methods/usability-test-script/
 tags: methods
 layout: layouts/page
+layout_class: layout--example-usability-test-script
+eleventyExcludeFromCollections: true
 ---
 
 This document provides example questions grouped along the key moments found in a usability test: introductions, warm up, task completion, follow up, and wrap up. If your participant’s time is scarce, consider sharing a few of your questions ahead of time. See also this [checklist for running an interview]({{ "/methods/interview-checklist/" | url }}). GSA staff, please see this [Google Doc Template](https://docs.google.com/document/d/1VimyVSt7qK3iKc2uZkobLWM0zuJuvO03vFk_R_EjhOU/edit#).

@@ -1,0 +1,28 @@
+---
+layout: layouts/default
+---
+
+{% for obj in method_categories %}
+  {% assign category_slug = obj[0] %}
+  {% assign category = obj[1] %}
+  <section class="category category--{{ category.name | downcase }} usa-section usa-prose" id="{{ category.name | downcase }}">
+    <header class="category--header">
+      <div class="grid-container">
+        <h1 class="category--title">{{ category.name | capitalize }}</h1>
+        <p class="category--subtitle">{{category.description }}</p>
+      </div>
+    </header>
+    <div class="grid-container">
+      {% for method_page in collections.methods %}
+        {% if method_page.data.method.category == category_slug %}
+          {%- include "methods/method.html" this_method: method_page.data.method, method_path: method_page.url, content: method_page.templateContent -%}
+        {% endif %}
+      {% endfor %}
+      {%- include "methods/return-to-top.html" -%}
+    </div>
+  </section>
+{% endfor %}
+
+<script type="text/javascript">
+  window.onload = print();
+</script>

@@ -44,7 +44,7 @@
   <meta property="og:type" content="article" />
   <link rel="canonical" href="{{ page.url }}" />
   <meta property="og:url" content="{{ page.url }}" />
-  <script async="" src="{{ assetPaths['uswds.js'] }} "></script>
+  <script async="" src={{ "/assets/js/uswds-init.js" | url }}></script>
 
   <!-- Favicon
        ================================================== -->
@@ -57,6 +57,9 @@
 
   <!-- CSS
        ================================================== -->
+  {% comment -%}
+    This prism CDN is for Prismjs, which is used in eleventy's syntax highlighting plugin. Eleventy recommends using one of Prism's CDN's to provide the css. More info in the docs: https://www.11ty.dev/docs/plugins/syntaxhighlight/
+  {% endcomment %}
   <link href="https://unpkg.com/prismjs@1.20.0/themes/prism.css" rel="stylesheet">
   {% if tags[0] == "methods" %}
     <link rel="preload" as="style" href="{{ assetPaths['methods-styles.css'] }}" />

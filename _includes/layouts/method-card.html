@@ -2,7 +2,7 @@
 layout: layouts/default
 ---
 
-<section class="category category--{{method.category | downcase }} usa-section usa-prose">
+<section class="category category--{{method.category | downcase }} usa-section usa-prose layout--card">
   <header class="category--header" aria-labelledby="{{method_category.title | downcase }}">
     <div class="grid-container">
       <span class="category--title" id="{{method_category.title | downcase }}">{{ method.category | capitalize }}</span>
@@ -11,7 +11,7 @@ layout: layouts/default
   </header>
   <div class="grid-container">
     {%- include "methods/print-header.html" category: method.category -%}
-    {%- include "methods/method.html" this_method: method -%}
+    {%- include "methods/method.html" this_method: method, method_path: page.url -%}
     {%- include "methods/return-to-top.html" -%}
   </div>
 </section>
