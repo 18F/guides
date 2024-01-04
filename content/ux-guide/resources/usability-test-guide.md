@@ -31,6 +31,8 @@ tags: ux-guide
 Note that the permalink here does not include /resources/ so there's no indication where this page actually sits.
 {% endcomment %}
 
+<div class="example-user-interview-script">
+
 This document provides example questions grouped along the key moments usually found in a usability test: introductions, warm up, task completion, follow up, and wrap up. If your participant’s time is scarce, consider sharing a few questions ahead of time. See also this [checklist for running an interview]({{ '/ux-guide/interview-checklist/' | url }}). GSA staff, please see this [Google Doc Template](https://docs.google.com/document/d/1VimyVSt7qK3iKc2uZkobLWM0zuJuvO03vFk_R_EjhOU/edit#).
 
 ## Introduction
@@ -85,3 +87,5 @@ Who else should we talk to?
 
 ## References
 - [Steve Krug’s Usability Test Script](https://sensible.com/downloads/test-script-web.pdf)
+
+</div>
