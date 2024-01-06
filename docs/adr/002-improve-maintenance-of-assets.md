@@ -27,3 +27,15 @@ We will do this before a lot of styling is added for the methods guide, as metho
 ## Consequences
 
 This approach will make the assets bundling process a bit more complex. Instead of bundling into one css file, we will bundle multiple css files. We can mitigate the risks of this with proper documentation.
+
+## Update 1/4/2023
+
+After migrating the final site (methods), we landed in a place where all guides use the same css bundle except for methods. Since methods was the most visually distinct and had the most custom code of all the guides, I determined that its css should not interfere with the rest of the guides. The rest of the guides were visually similar enough to use a shared bundle.
+
+The methods bundle inherits styling that is common to all guides (like for the header, footer, etc), but the shared bundle does not include any methods custom styling. The impact of this is that USWDS is imported into 2 different bundles. This has a negligible effect on page load time in production, but increases hot reloading in a dev environment by ~8 seconds. This is enough to cause some annoyance when developing styles.
+
+If we determine that hot reloading is too slow, here are the solutions I can think of:
+  1. Just use one css bundle and ensure that methods styling does not interfere with the other 9 guides.
+  2. Refine our hot reloading process by experimenting with other bundling tools. Others have recommended looking into https://vitejs.dev/
+
+I think the overall idea of the original ADR still stands—it doesn't make sense for guides to download styles they will never need, and there should be a clear place in the repo for all three types of styles. The issue is how to do this in a way that doesn't make builds too long.
