@@ -13,7 +13,7 @@ Per [the "Require demos, not memos" best practice]({{ "/derisking/state-field-gu
 
 | **Deliverable** | **Performance Standard(s)** | **Acceptable Quality Level** | **Method of Assessment** |
 | --- | --- | --- | --- |
-| **Tested Code** | Code delivered under the order must have substantial test code coverage and a clean code baseVersion-controlled, public repository of code comprising the product, which will remain in the government domain | Minimum of 90% test coverage of all code | Combination of manual review and automated testing |
+| **Tested Code** | Code delivered under the order must have substantial test code coverage and a clean code base<br/>Version-controlled, public repository of code comprising the product, which will remain in the government domain | Minimum of 90% test coverage of all code | Combination of manual review and automated testing |
 | **Properly Styled Code** | [GSA 18F Front-End Guide](https://frontend.18f.gov/) | 0 linting errors and 0 warnings | Combination of manual review and automated testing |
 | **Accessibility** | Web Content Accessibility Guidelines 2.1 AA standards | 0 errors reported using an automated scanner, and 0 errors reported in manual testing | [Pa11y](https://github.com/pa11y/pa11y) |
 | **Deployed** | Code must successfully build and deploy into staging environment | Successful build with a single command | Combination of manual review and automated testing |
