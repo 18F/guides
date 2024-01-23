@@ -117,10 +117,10 @@ web_modules/
 .pnp.*
 
 # 11ty Related
+_data/assetPaths.json
 _site
 public
 node_modules
 
 # utils
 utils/test_redirects_*_output.csv
-_data/assetPaths.json
