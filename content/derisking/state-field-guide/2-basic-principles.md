@@ -3,6 +3,7 @@ title: Basic principles of modern software design
 page_title_tag: h2
 hidden_guide_title: State Software Budgeting Handbook
 tags: derisking
+description: Introduction for state employees to user-centered design, agile software development, DevOps, loosely coupled parts, modular contracting and product ownership.
 permalink: /derisking/state-field-guide/basic-principles/
 layout: layouts/page
 sidenav: true
