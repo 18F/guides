@@ -4,6 +4,7 @@ title: Appendix
 page_title_tag: h2
 hidden_guide_title: Federal Field Guide
 tags: derisking
+description: Ask a vendor competing for a custom software project these questions during verbal interviews to clarify their technical approach.
 permalink: /derisking/federal-field-guide/appendix/
 eleventyNavigation:
   key: derisking-federal-doing

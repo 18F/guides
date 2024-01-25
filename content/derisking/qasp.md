@@ -5,6 +5,7 @@ redirect_from:
   - derisking/state-field-guide/qasp/
 layout: layouts/page
 tags: derisking
+description: Sample Quality Assurance Surveillance Plan (QASP), a vendor management tool for tracking, evaluating, and correcting performance.
 ---
 
 {% include 'derisking/chapter_image.html' img_path: "assets/derisking/img/qasp-checks.svg" %}
