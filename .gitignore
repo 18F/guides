@@ -117,7 +117,6 @@ web_modules/
 .pnp.*
 
 # 11ty Related
-_data/assetPaths.json
 _site
 public
 node_modules
