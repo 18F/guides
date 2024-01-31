@@ -4,6 +4,7 @@ title: Doing the work
 page_title_tag: h2
 hidden_guide_title: Federal Field Guide
 tags: derisking
+description: Vendor management best practices for software projects, from kick-off through measuring performance with a Quality Assurance Surveillance Plan (QASP). 
 permalink: /derisking/federal-field-guide/doing-the-work/
 eleventyNavigation:
   key: derisking-federal-doing

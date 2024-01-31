@@ -3,6 +3,7 @@ title: Questions to ask
 page_title_tag: h2
 hidden_guide_title: State Software Budgeting Handbook
 tags: derisking
+description: Questions for evaluating if a government custom software project is being set up to serve user needs and manage vendor performance effectively.
 permalink: /derisking/state-field-guide/questions-to-ask/
 layout: layouts/page
 sidenav: true

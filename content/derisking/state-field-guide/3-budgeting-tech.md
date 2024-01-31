@@ -4,6 +4,7 @@ page_title_tag: h2
 hidden_guide_title: State Software Budgeting Handbook
 seo_title: Budgeting and overseeing state-level tech projects
 tags: derisking
+description: Guidance for state agencies for budgeting and managing software projects, including tools for recognizing progress and warning signs.
 permalink: /derisking/state-field-guide/budgeting-tech/
 layout: layouts/page
 sidenav: true
