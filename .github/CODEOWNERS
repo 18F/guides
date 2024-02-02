@@ -27,7 +27,7 @@
 /content/brand/**/*.md           @igorkorenfeld
 /content/content-guide/**/*.md   @michelle-rago
 /content/derisking/**/*.md       @adunkman
-# /content/design/**/*.md          @MelissaBraxton
+/content/methods/**/*.md         @MelissaBraxton
 /content/eng-hiring/**/*.md      @amymok
 /content/engineering/**/*.md     @amymok
 /content/product/**/*.md         @allisonnorman
