@@ -27,7 +27,7 @@ product:
   title: Product Guide
   root: /product/
 ux-guide:
-  title: User Experience Guide
+  title: User Experience Design Guide
   root: /ux-guide/
 methods:
   title: Methods
