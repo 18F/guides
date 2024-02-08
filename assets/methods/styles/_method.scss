@@ -64,14 +64,14 @@
   }
 }
 
-.method h2 {
+.method h3 {
   font-size: font-size('heading',lg);
   font-weight: font-weight('bold');
 }
 
 /* custom header link icon color */
-.method h2 span a,
-.method h2 span a:visited {
+.method h3 span a,
+.method h3 span a:visited {
   color: $color-body-dark;
 }
 
@@ -111,7 +111,7 @@
   width: 100%;
 }
 
-.method footer h1 {
+.method footer h3 {
   font-size: font-size('heading',3xs);
   text-transform: uppercase;
 }
@@ -138,7 +138,7 @@
   margin-top: .6em;
 }
 
-.method--panel--back h2 {
+.method--panel--back h3 {
   font-size: font-size('heading',lg);
   margin-top: 1em;
 }
