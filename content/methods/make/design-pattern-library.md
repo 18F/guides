@@ -18,7 +18,7 @@ method:
   category: make
 ---
 
-## How to do it{#how-design-pat-lib}
+### How to do it{#how-design-pat-lib}
 
 1. Start identifying common components as early as possible, ideally while you and the team are creating new design elements. These common pieces form the patterns that you will create guidelines for. Specify the components that make up each UI pattern and note possible constraints or restrictions.
 1. Describe or visualize how someone will use the pattern and how it should respond to the user. (For example: how a button renders on load, hover, and click.) Provide any data as to why it is good for the end user.
@@ -28,7 +28,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-design-pat-lib}
+### Considerations for use in government{#con-design-pat-lib}
 
 No PRA implications. No information is collected from members of the public.
 </section>

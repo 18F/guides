@@ -19,7 +19,7 @@ method:
   content: ./_includes/methods/markdown/journey-mapping.md
 ---
 
-## How to do it{#how-journey-mapping}
+### How to do it{#how-journey-mapping}
 
 1. Document the elements of the project’s design context. This includes:
     - People involved and their related goals
@@ -33,14 +33,14 @@ method:
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources{#add-journey-mapping}
+### Additional resources{#add-journey-mapping}
 
 - [3-part series on the what, why, and how of journey mapping  — GSA Customer Experience Center of Excellence](https://coe.gsa.gov/2019/04/17/cx-update-9.html){.usa-link .usa-link--external}
 </section>
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-journey-mapping}
+### Considerations for use in government{#con-journey-mapping}
 
 No PRA implications. The PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3. See the methods for
 [Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.

@@ -18,7 +18,7 @@ method:
   category: decide
 ---
 
-## How to do it{#how-design-principals}
+### How to do it{#how-design-principals}
 
 1. Using internal documents and kickoff activities, gather terms or concepts that seem significant to project goals and organizational culture.
 1. Using existing research, list terms or concepts that seem particularly important to customers or user groups.
@@ -29,7 +29,7 @@ method:
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Examples{#ex-design-principals}
+### Examples{#ex-design-principals}
 - 18F Design Principles Guide — [Create](https://github.com/18F/design-principles-guide/blob/18f-pages/pages/create.md), [Define](https://github.com/18F/design-principles-guide/blob/18f-pages/pages/define.md), [Usage](https://github.com/18F/design-principles-guide/blob/18f-pages/pages/usage.md)
 - [Making more consistent decisions with design principles: A new 18F guide — 18F Blog](https://18f.gsa.gov/2016/04/08/making-more-consistent-decisions-with-design-principles-a-new-18f-guide/){.usa-link .usa-link--external}
 
@@ -37,7 +37,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-design-principals}
+### Considerations for use in government{#con-design-principals}
 
 No PRA implications. Generally, no information is collected from members of the public. Even when stakeholders are members of the public, the PRA explicitly exempts direct observation and non-standardized conversation (e.g., not a survey), 5 CFR 1320.3(h)3. See the methods for
 [Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.

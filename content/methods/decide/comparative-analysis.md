@@ -18,7 +18,7 @@ method:
   category: decide
 ---
 
-## How to do it{#how-to-comparative-analysis}
+### How to do it{#how-to-comparative-analysis}
 
 1. Identify a list of services that would be either direct or related competitors to your service.  Pare the list down to four or five.
 1. Establish which criteria or heuristics you will use to evaluate each competing service.
@@ -28,7 +28,7 @@ method:
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Example from TTS{#example-comparative-analysis}
+### Example from TTS{#example-comparative-analysis}
 
 - [Draft U.S. Web Design Standards comparative analysis — USWDS GitHub](https://github.com/18F/web-design-standards/wiki/Comparative-Analysis)
 
@@ -36,7 +36,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#considerations-comparative-analysis}
+### Considerations for use in government{#considerations-comparative-analysis}
 
 No PRA implications. No information is collected from members of the public.
 </section>

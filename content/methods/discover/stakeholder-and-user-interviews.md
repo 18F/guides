@@ -18,7 +18,7 @@ method:
   category: discover
 ---
 
-## How to do it{#how-stake}
+### How to do it{#how-stake}
 
   1. Create a guide for yourself of some topics you’d like to ask about, and some specific questions as a back up. Questions will often concern the individual’s role, the organization, the individuals’ needs, and metrics for success of the project. Consider how the interview could harm the participant, and adjust your questions to avoid those hazards. For example, might your questions trigger thoughts of painful experiences?
   1. Sit down one-on-one with the participant, or two-on-one with a note-taker or joint interviewer, in a focused environment. Introduce yourself. Explain the premise for the interview as far as you can without biasing their responses.
@@ -27,7 +27,7 @@ method:
 
 <section class="method--section method--section--additional-resources" markdown="1">
 
-## Additional resources
+### Additional resources
 
 - [Interview checklist]({{ "/methods/interview-checklist/" | url }})
 - [Tips for capturing the best data from user interviews — 18F Blog](https://18f.gsa.gov/2016/02/09/tips-for-capturing-the-best-data-from-user-interviews/){.usa-link .usa-link--external}
@@ -38,7 +38,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-stake}
+### Considerations for use in government{#con-stake}
 
 No PRA implications. The PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3. See the methods for [Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.
 </section>

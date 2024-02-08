@@ -20,7 +20,7 @@ method:
   category: decide
 ---
 
-## How to do it{#how-service}
+### How to do it{#how-service}
 
 1. Gather information on the service through desk research and  [interviews]({{ "/methods/discover/stakeholder-and-user-interviews/" | url }}) with users, frontline staff, and support staff
 2. Create a diagram with four rows:
@@ -32,7 +32,7 @@ method:
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Example from 18F{#ex-service}
+### Example from 18F{#ex-service}
 
 18F created [this service blueprint of getting a burger]({{ "/methods/service-blueprint-example/" | url }}) as an example to illustrate what this could look like
 
@@ -40,7 +40,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-service}
+### Considerations for use in government{#con-service}
 
 No PRA implications. No information is collected directly from members of the public.
 

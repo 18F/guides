@@ -16,7 +16,7 @@ method:
   category: discover
 ---
 
-## How to do it{#how-to-cog-walkthrough}
+### How to do it{#how-to-cog-walkthrough}
 
 1. Identify specific traits for new or infrequent users of a design solution.
 1. Develop a set of representative tasks that emphasize new use or infrequent use.
@@ -29,7 +29,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#considerations-cog-walkthrough}
+### Considerations for use in government{#considerations-cog-walkthrough}
 
 No PRA implications. The PRA explicitly exempts direct observation and non-standardized conversation (e.g., not a survey) that a cognitive walkthrough entails, 5 CFR 1320.3(h)3.
 

@@ -18,7 +18,7 @@ method:
   category: discover
 ---
 
-## How to do it{#how-stake-i}
+### How to do it{#how-stake-i}
 
 1. Gather the team and, ideally, at least one crucial  stakeholder familiar with their organization and how it works from both a technical and an interpersonal point of view.
 1. If meeting in person, you’ll need sticky notes and a whiteboard; if meeting remotely, use a virtual whiteboard or tools that support online document collaboration, ideally simultaneously.
@@ -33,7 +33,7 @@ method:
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Considerations for use in government{#con-stake-i}
+### Considerations for use in government{#con-stake-i}
 
 No PRA implications. No information is collected from members of the public.
 

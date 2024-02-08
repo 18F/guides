@@ -20,7 +20,7 @@ method:
   category: discover
 ---
 
-## How to do it{#how-dot-voting}
+### How to do it{#how-dot-voting}
 
 1. Bring plenty of sticky notes and colored stickers to the meeting.
 1. Gather everyone on the product team and anyone with a stake in the product.
@@ -32,7 +32,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-dot-voting}
+### Considerations for use in government{#con-dot-voting}
 
 No PRA implications: dot voting falls under “direct observation”, which is explicitly exempt from the PRA, 5 CFR 1320(h)3. See the methods for [Recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [Privacy]({{ "/methods/fundamentals/privacy/" | url }}) for more tips on taking input from the public.
 </section>
