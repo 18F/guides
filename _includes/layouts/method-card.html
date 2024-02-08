@@ -5,7 +5,7 @@ layout: layouts/default
 <section class="category category--{{method.category | downcase }} usa-section usa-prose layout--card">
   <header class="category--header" aria-labelledby="{{method_category.title | downcase }}">
     <div class="grid-container">
-      <span class="category--title" id="{{method_category.title | downcase }}">{{ method.category | capitalize }}</span>
+      <h1 class="category--title" id="{{method_category.title | downcase }}">{{ method.category | capitalize }}</h1>
       <p class="category--subtitle">{{ method_categories[method.category].description }}</p>
     </div>
   </header>

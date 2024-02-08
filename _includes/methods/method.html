@@ -1,24 +1,24 @@
 <span class="anchor" id="{{ this_method.title | slugify }}"></span>
 <article class="method" itemscope itemtype="http://schema.org/Article">
   <div class="method--panel method--panel--front">
-    <h1 class="method--title" itemprop="headline"><a href="{{ method_path | url }}">
+    <h2 class="method--title" itemprop="headline"><a href="{{ method_path | url }}">
       {% if this_method.title %}
         {{ this_method.title }}
       {% endif %}
-    </a></h1>
+    </a></h2>
       {% capture what_heading_slug %}what-{{ this_method.title | slugify }}{% endcapture %}
-      <h2 id="{{ what_heading_slug }}">What {% include "heading-link.html", slug: what_heading_slug %}</h2>
+      <h3 id="{{ what_heading_slug }}">What {% include "heading-link.html", slug: what_heading_slug %}</h3>
       <p>{{ this_method.what }}</p>
       {% capture why_heading_slug %}why-{{ this_method.title | slugify }}{% endcapture %}
-      <h2 id="{{ why_heading_slug }}">Why {% include "heading-link.html", slug: why_heading_slug %}</h2>
+      <h3 id="{{ why_heading_slug }}">Why {% include "heading-link.html", slug: why_heading_slug %}</h3>
       <p>{{ this_method.why }}</p>
     <footer>
       <section class="method--section method--section--category">
-        <h1>Phase</h1>
+        <h3>Phase</h3>
         <p>{{ this_method.category | capitalize }}</p>
       </section>
       <section class="method--section method--section--time-required">
-        <h1>Time required</h1>
+        <h3>Time required</h3>
         <p>{{ this_method.timeRequired }}</p>
       </section>
     </footer>
