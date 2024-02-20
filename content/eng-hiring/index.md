@@ -40,7 +40,7 @@ The process surrounding the standard engineering hiring process varies depending
 
 1. The 18F Engineering Hiring team performs a [resume review]({{ 'resume-review/' | url }}) to determine if a candidate will be phone screened. The TTS Talent team then performs a specialized experience review of the candidate, ensuring they will be able to be offered the position should they pass the interviews.
 1. The TTS Talent team schedules a [phone screen]({{ 'phone-screens/' | url }}) with the candidate and a representative from the 18F Engineering Hiring team. The 18F Engineering Hiring team then determines if the candidate will continue to the next round of interviews.
-1. The TTS Talent team notifies the candidate of their selection, and passing candidates are asked to provide or perform [technical pre-work]({{ 'pre-work/' | url }}). The candidate provides or completes the technical pre-work and shares the work with TTS.
+1. The TTS Talent team notifies the candidate of their selection, and passing candidates are asked to provide or perform [code review pre-work]({{ 'pre-work/' | url }}). The candidate provides or completes the code review pre-work and shares the work with TTS.
 1. The TTS Talent team schedules the candidate for a round of interviews.
 2. The Interview team conducts [interviews]({{ 'interviews/' | url }}) with the candidate to understand their [technical]({{ 'interviews/technical/' | url }}), [coding]({{ 'interviews/code-review/' | url }}), and collaborative ([core-values]({{ 'interviews/core-values/' | url }}) and [wrap-up]({{ 'interviews/wrap-up/' | url }})) skills and expereince.
 3. The Interview team holds a [debrief meeting]({{ 'debrief/' | url }}) to share information gathered about the candidate through interviews.

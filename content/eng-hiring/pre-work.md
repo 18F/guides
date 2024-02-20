@@ -1,5 +1,5 @@
 ---
-title: Technical pre-work
+title: Code review pre-work
 permalink: /eng-hiring/pre-work/
 layout: layouts/page
 tags: eng-hiring
@@ -7,7 +7,7 @@ eleventyNavigation:
   parent: pre-work
   key: eng-hiring-pre-work-home
   order: 1
-  title: Technical pre-work
+  title: Code review pre-work
 sidenav: true
 sticky_sidenav: true
 subnav:
@@ -15,7 +15,7 @@ subnav:
     href: "#instructions-to-candidates"
 ---
 
-The goal of technical pre-work is to enable an interviewer to ask thoughtful questions about the kind of code, thought processes, and choices that the candidate will make at 18F.
+The goal of code review pre-work is to enable an interviewer to ask thoughtful questions about the kind of code, thought processes, and choices that the candidate will make at 18F.
 
 Candidates have two options: complete a coding exercise, or bring an existing code sample. Interviewers will have read your code, run it, and prepared follow-up questions to ask as described in [the interviewer’s guide]({{ '../interviews/code-review/' | url }}).
 
