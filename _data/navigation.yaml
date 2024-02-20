@@ -54,7 +54,7 @@ eng-hiring:
     url: /eng-hiring/resume-review/
   - name: 2. Phone screen
     url: /eng-hiring/phone-screens/
-  - name: 3. Technical pre-work
+  - name: 3. Code rev pre-work
     url: /eng-hiring/pre-work/
   - name: 4. Interviews
     children:
