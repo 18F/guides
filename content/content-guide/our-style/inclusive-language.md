@@ -34,7 +34,7 @@ This guidance is influenced by the [Conscious Style Guide](http://consciousstyle
 - [Diversity Style Guide](http://www.diversitystyleguide.com/)
 - [Disability Language Style Guide](http://ncdj.org/style-guide/)
 - [Associated Press Stylebook](http://www.apstylebook.com/)
-- [Syracuse University Disability Cultural Center Language Guide](http://sudcc.syr.edu/resources/language-guide.html)
+- [Syracuse University Disability Cultural Center Language Guide](https://experience.syracuse.edu/dcc/resources/language-guide/)
 
 This page is not exhaustive, but aims to provide principles, resources, and specific suggestions for writing and talking about diverse groups of people.
 
