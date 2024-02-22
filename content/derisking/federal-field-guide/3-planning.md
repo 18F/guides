@@ -270,7 +270,7 @@ Leadership's role in an agile project should not be to dictate requirements, set
 
 Instead, leadership should support and empower the development teams, and give them permission to make small mistakes and learn from those mistakes.
 
-Leadership has an important role to play in establishing an organizational priority to adopt agile development, and aligning governance and [oversight processes](https://docs.google.com/document/d/1h3UBJk2PhggKu4LgCZQXCNvtXnFY3q6hv34bs-nysvo/edit#bookmark=id.cb8wc9gku3m8) to this methodology.
+Leadership has an important role to play in establishing an organizational priority to adopt agile development, and aligning governance and oversight processes to this methodology.
 
 The artifacts that agencies typically look at when reviewing a project's progress are time-consuming to produce and discourage agile development. "Waterfall muscle memory" is strong in most agencies; most of the internal practices and processes have been established and reinforced over decades, and are not suitable for agile development. Employees who have spent years performing work in the service of leadership's needs will need time to learn how to prioritize user needs.
 
