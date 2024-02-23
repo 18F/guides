@@ -1,5 +1,5 @@
 ---
-title: Deliver the “right way”
+title: Deliver incremental value
 permalink: /product/deliver/
 layout: layouts/page
 sidenav: true
@@ -9,7 +9,7 @@ eleventyNavigation:
   key: product-deliver-index
   parent: product-deliver
   order: 1
-  title: Deliver the “right way”
+  title: Deliver incremental value
 ---
 
 We have learned that value is best delivered on government software products by using an [agile or iterative](https://agile.18f.gov/) approach. By working closely with users and stakeholders, regularly delivering small chunks of value, and verifying direction and progress, we’re able to quickly deliver quality software that meets user needs.
