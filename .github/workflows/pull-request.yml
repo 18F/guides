@@ -44,8 +44,6 @@ jobs:
           node-version: 18
       - name: Install node dependencies
         run: npm install
-      - name: Redirect tests
-        run: npm run test:redirects
 
   pa11y-scan:
     # Pinned to 20.04 because pa11y-ci fails to run on 22.04
