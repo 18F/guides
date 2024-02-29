@@ -75,7 +75,7 @@ lorum ipsum
 </div>
 ```
 
-> This section has a main category and two sub categories. The sub categories are on the same level and as such use the the same heading element.
+> This section has a main category and two sub categories. The sub categories are on the same level and as such use the same heading element.
 
 ### Fails
 
