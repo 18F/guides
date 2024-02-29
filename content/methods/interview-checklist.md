@@ -53,7 +53,7 @@ eleventyExcludeFromCollections: true
 - Be polite; you’re a guest in the participant’s world
 - Give the participant your full attention (You can signal this by making eye contact, asking follow up questions, etc. Be aware that taking notes, especially on a laptop, can distract from the conversation itself)
 - Ask open-ended questions that will give you relevant information and help you form a better understanding of who this person is
-- Understand the degree to which this person is comfortable talking about themselves and their work, and at what speed. Be mindful and respectful of anything the the participant is uncomfortable talking about
+- Understand the degree to which this person is comfortable talking about themselves and their work, and at what speed. Be mindful and respectful of anything the participant is uncomfortable talking about
 - Give the participant time to respond; don’t be afraid of awkward pauses
 - Ask for a “tour”: note any organizations, tools, rituals, or processes that affect your participant’s perspective
 - Start broad (“So to start, could you tell us how you got into this line of work?” or “What’s a day in your work-life like?”), and then slowly direct the interview toward any planned activities (“Could you share your screen and show me how you do that?”) or topic-specific questions (“How often do you file TPS reports?”)
