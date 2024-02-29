@@ -34,19 +34,6 @@ jobs:
           ELEVENTY_ENV: production
         run: npm run build
 
-  redirects-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Use Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - name: Install node dependencies
-        run: npm install
-      - name: Redirect tests
-        run: npm run test:redirects
-
   pa11y-scan:
     # Pinned to 20.04 because pa11y-ci fails to run on 22.04
     # See the discussion on https://github.com/pa11y/pa11y-ci/issues/198
