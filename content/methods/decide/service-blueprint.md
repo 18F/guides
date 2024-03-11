@@ -34,7 +34,8 @@ method:
 
 ## Example from 18F{#ex-service}
 
-18F created [this service blueprint of getting a burger]({{ "/methods/service-blueprint-example/" | url }}) as an example to illustrate what this could look like
+- 18F created [this service blueprint of getting a burger]({{ "/methods/service-blueprint-example/" | url }}) as an example to illustrate what this could look like
+- Centers of Excellence and the U.S. Department of Agriculture [created a service blueprint](https://coe.gsa.gov/2019/12/18/cx-update-17.html) as part of the OneUSDA ecosystem project.
 
 </section>
 
