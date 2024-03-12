@@ -66,7 +66,7 @@ Your partners likely have an incomplete view of the current state or what their 
 
 - [How to conduct user research [1]](https://methods.18f.gov/): 18F Methods provide instruction on several different research activities to consider, including [interviews](https://methods.18f.gov/stakeholder-and-user-interviews), [contextual inquiries](https://methods.18f.gov/contextual-inquiry), [heuristic evaluation](https://methods.18f.gov/heuristic-evaluation), and more.
 
-- [How to conduct user research [2]](https://guides.18f.gov/ux-guide/research/): Guidelines on how research is done at TTS, including informing and getting consent, and managing Personally Identifiable Information (PII).
+- [How to conduct user research [2]](https://guides.18f.gov/ux-guide/research/): Guidelines on how research is done at 18F, from how to make a research plan to how to comply with the Paperwork Reduction Act (PRA), participant privacy, and research ethics.
 
 - [How to synthesize user research](https://methods.18f.gov/): 18F Methods provide instructions on several different ways to tell users’ stories, including [journey maps](https://methods.18f.gov/journey-mapping), [user scenarios](https://methods.18f.gov/user-scenarios), [storyboards](https://methods.18f.gov/storyboarding), and [task flow analysis](https://methods.18f.gov/decide/task-flow-analysis/).
 
