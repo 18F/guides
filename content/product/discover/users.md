@@ -74,4 +74,4 @@ Your partners likely have an incomplete view of the current state or what their 
 
 - [How to share user research](https://18f.gsa.gov/2018/02/06/getting-partners-on-board-with-research-findings/): How to present findings to your partner and allow room for reaching consensus before making recommendations.
 
-- [What is human-centered design](https://guides.18f.gov/ux-guide/): A guide introducing and defining human-centered design and explaining why it’s a good idea.
+- [18F User Experience Design Guide](https://guides.18f.gov/ux-guide/): The 18F UX Guide is a starting point for UX design: doing it, discussing it, and ensuring it’s done to a consistent level of quality.
