@@ -36,7 +36,7 @@ This guide is divided into 4 sections:
 
 This guide and our approach to product management are informed by several frameworks that years of experience have shown to be effective in driving low-risk, successful technology projects in government:
 
-- **[Agile delivery](https://agile.18f.gov/)**: iteratively develop functional software, deploying and testing continuously.
+- **[Agile delivery](https://guides.18f.gov/agile/)**: iteratively develop functional software, deploying and testing continuously.
 
 - **[User-centered design](https://guides.18f.gov/ux-guide/)**: design with, not for the users of a system or government service.
 
