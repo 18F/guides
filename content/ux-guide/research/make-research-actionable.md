@@ -16,7 +16,7 @@ subnav:
     href: '#from-data-to-insights'
   - text: Insights into action
     href: '#insights-into-action'
-  - text: Sharing Research
+  - text: Sharing research
     href: '#sharing-research'
   - text: Publishing on GitHub
     href: '#publishing-on-github'
