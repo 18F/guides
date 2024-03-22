@@ -66,7 +66,7 @@ Your partners likely have an incomplete view of the current state or what their 
 
 - [How to conduct user research [1]](https://methods.18f.gov/): 18F Methods provide instruction on several different research activities to consider, including [interviews](https://methods.18f.gov/stakeholder-and-user-interviews), [contextual inquiries](https://methods.18f.gov/contextual-inquiry), [heuristic evaluation](https://methods.18f.gov/heuristic-evaluation), and more.
 
-- [How to conduct user research [2]](https://handbook.tts.gsa.gov/research-guidelines/): Guidelines on how research is done at TTS, including informing and getting consent, and managing Personally Identifiable Information (PII).
+- [How to conduct user research [2]](https://guides.18f.gov/ux-guide/research/): Guidelines on how research is done at 18F, from how to make a research plan to how to comply with the Paperwork Reduction Act (PRA), participant privacy, and research ethics.
 
 - [How to synthesize user research](https://methods.18f.gov/): 18F Methods provide instructions on several different ways to tell users’ stories, including [journey maps](https://methods.18f.gov/journey-mapping), [user scenarios](https://methods.18f.gov/user-scenarios), [storyboards](https://methods.18f.gov/storyboarding), and [task flow analysis](https://methods.18f.gov/decide/task-flow-analysis/).
 
@@ -74,4 +74,4 @@ Your partners likely have an incomplete view of the current state or what their 
 
 - [How to share user research](https://18f.gsa.gov/2018/02/06/getting-partners-on-board-with-research-findings/): How to present findings to your partner and allow room for reaching consensus before making recommendations.
 
-- [What is human-centered design](https://docs.google.com/document/d/1njVM3rSV_1Tyd7emSK9gMnbv_vzi0Dhm9vhE7LiqLrs/edit): A one-pager introducing and defining human-centered design and explaining why it’s a good idea.
+- [18F User Experience Design Guide](https://guides.18f.gov/ux-guide/): The 18F UX Guide is a starting point for UX design: doing it, discussing it, and ensuring it’s done to a consistent level of quality.
