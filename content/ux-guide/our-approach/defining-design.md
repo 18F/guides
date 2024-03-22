@@ -66,7 +66,7 @@ Intentionally transitioning between divergence and convergence helps make the de
 
 ## Design shapes organizations and vice-versa
 
-Products and services impose requirements on the organizations that support them, and vice-versa. We shouldn't design an agency’s homepage to include images on every news post, for example,  if we haven’t yet made certain that the agency can reasonably source images for each of its news posts. To best support the endeavor as a whole, we want to proactively acknowledge when our work may require nw investments, organizational shifts or new resources.
+Products and services impose requirements on the organizations that support them, and vice-versa. We shouldn't design an agency’s homepage to include images on every news post, for example,  if we haven’t yet made certain that the agency can reasonably source images for each of its news posts. To best support the endeavor as a whole, we want to proactively acknowledge when our work may require new investments, organizational shifts or new resources.
 
 
 ## Design is never done
