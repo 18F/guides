@@ -1,6 +1,6 @@
 ---
 title: Stay lean
-description: "18F user experience (UX) designers take a collaborative, incremental, and outcome-focused approach to our work."
+description: "The Lean UX process involves research in each phase of a project to support continuous learning."
 permalink: /ux-guide/our-approach/stay-lean/
 layout: layouts/page
 tags: ux-guide
