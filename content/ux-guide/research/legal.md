@@ -1,6 +1,6 @@
 ---
 title: Legal
-description: "18F designs our research to account for The Antideficiency Act and The Paperwork Reduction Act of 1995 (PRA), among other laws."
+description: "How 18F conducts qualitative research that complies with the Paperwork Reduction Act of 1995 (PRA)."
 permalink: /ux-guide/research/legal/
 layout: layouts/page
 tags: ux-guide

@@ -1,6 +1,6 @@
 ---
 title: Make research actionable
-description: "Analysis, synthesis, and sharing helps 18F user experience (UX) designers reflect on the data we’ve collected and determine a course of action."
+description: "How to make UX research actionable, such as how to turn data into insights and share those with others."
 permalink: /ux-guide/research/make-research-actionable/
 layout: layouts/page
 tags: ux-guide

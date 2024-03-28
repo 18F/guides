@@ -1,6 +1,6 @@
 ---
 title: Do
-description: "After planning, doing research involves engaging with previously agreed upon knowledge, participants, and data."
+description: "How to conduct UX research, from designing, rehearsing, and moderating research sessions to debriefing as a team."
 permalink: /ux-guide/research/do/
 layout: layouts/page
 tags: ux-guide

@@ -1,6 +1,6 @@
 ---
 title: Ethics
-description: "The following ethical principles help guide 18F user experience (UX) designers through some of the choices that this work can present."
+description: "Ethical considerations for UX research and design, and how to acknowledge your power and privilege as a designer."
 permalink: /ux-guide/research/ethics/
 layout: layouts/page
 tags: ux-guide

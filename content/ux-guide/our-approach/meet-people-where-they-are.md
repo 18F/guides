@@ -1,6 +1,6 @@
 ---
 title: Meet partners where they are
-description: "18F user experience (UX) designers view government agency partners as co-creators, encouraging a more participatory and sustainable design process."
+description: "18F's approach to bringing partners into the design process as co-creators."
 permalink: /ux-guide/our-approach/meet-partners-where-they-are/
 layout: layouts/page
 tags: ux-guide

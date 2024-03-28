@@ -1,6 +1,6 @@
 ---
 title: Bias
-description: "These are 18F's starting points for proactively engaging with bias in the user research process."
+description: "Definitions of different types of bias and explanation of how 18F accounts for bias in research."
 permalink: /ux-guide/research/bias/
 layout: layouts/page
 tags: ux-guide

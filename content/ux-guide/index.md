@@ -19,7 +19,7 @@ subnav:
     href: "#reusing-this-guide-in-other-organizations"
   - text: References
     href: "#references"
-description: "How 18F user experience (UX) designers improve interactions between our government and the public"
+description: "How user experience (UX) designers at 18F approach their work, from conducting research to building prototypes."
 ---
 18F user experience (UX) designers join cross-functional teams to improve interactions between government agencies and the people they serve. The 18F UX Guide helps us get this job done. It’s a starting point for UX design at 18F: doing it, discussing it, and ensuring it’s done to a consistent level of quality.
 

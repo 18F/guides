@@ -1,6 +1,6 @@
 ---
 title: Use a design system
-description: "A design system can help your team prototype faster, scale, manage front-end design debt, and apply consistency across your applications."
+description: "On the benefits of using a design system, with a brief introduction to the U.S. Web Design System."
 permalink: /ux-guide/design/use-a-design-system/
 layout: layouts/page
 tags: ux-guide

@@ -1,6 +1,6 @@
 ---
 title: Privacy
-description: "18F’s research practices are grounded in building and maintaining trust with research participants, a large part of which is protecting their privacy."
+description: "How 18F protects the Personally Identifiable Information (PII) of research participants, including collecting consent and storing participant information."
 permalink: /ux-guide/research/privacy/
 layout: layouts/page
 tags: ux-guide

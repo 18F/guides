@@ -1,6 +1,6 @@
 ---
 title: Design 
-description: "About prototypes and how they inform the work of 18F, as well as resources on web publishing platforms and design systems to help you get started."
+description: "How 18F creates prototypes and uses them for communication."
 permalink: /ux-guide/design/
 layout: layouts/page
 tags: ux-guide

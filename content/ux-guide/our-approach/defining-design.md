@@ -1,6 +1,6 @@
 ---
 title: Defining design
-description: "18F user experience (UX) designers see design as a process of intentionally deciding, over and over, how interactions should work for users, based on research."
+description: "18F defines design as a process of deciding, over and over, how interactions and systems should work for people, based on research."
 permalink: /ux-guide/our-approach/defining-design/
 layout: layouts/page
 tags: ux-guide

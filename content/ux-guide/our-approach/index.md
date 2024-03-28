@@ -1,6 +1,6 @@
 ---
 title: Our approach
-description: "Read about 18F's essential approach to our design practice."
+description: "An introduction to 18F's UX design practice, including team values, definitions of design, and staying lean."
 permalink: /ux-guide/our-approach/
 layout: layouts/page
 tags: ux-guide
