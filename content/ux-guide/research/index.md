@@ -1,6 +1,6 @@
 ---
 title: Research
-description: "Design research explores possibilities, tests assumptions, and reduces risk by actively and systematically engaging with the world."
+description: "How to conduct ethical, inclusive, and unbiased research with people while protecting their Personally Identifiable Information (PII)."
 permalink: /ux-guide/research/
 layout: layouts/page
 tags: ux-guide
