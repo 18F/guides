@@ -1,5 +1,6 @@
 ---
 title: License
+description: "18F's User Experience Guide is in the public domain, and waives copyright and related rights."
 permalink: /ux-guide/license/
 layout: layouts/page
 tags: ux-guide

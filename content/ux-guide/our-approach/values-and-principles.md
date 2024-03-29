@@ -1,6 +1,6 @@
 ---
 title: Values and principles
-description: "These are the fundamentals that guide our work as 18F user experience (UX) designers."
+description: "Values and principles that guide 18F's UX design process, including collaboration, working iteratively, and learning from real people about their diverse needs."
 permalink: /ux-guide/our-approach/values-and-principles/
 layout: layouts/page
 tags: ux-guide

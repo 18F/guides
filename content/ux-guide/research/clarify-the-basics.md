@@ -1,6 +1,6 @@
 ---
 title: Clarify the basics
-description: "All 18F teams commit to continuous design research in order to make better decisions informed by end user perspectives."
+description: "The basics of conducting UX research, including making research collaborative, explanations of methods, and best practices."
 permalink: /ux-guide/research/clarify-the-basics/
 layout: layouts/page
 tags: ux-guide
