@@ -264,6 +264,12 @@ for this project is quite good, so this is fairly straightforward:
    **only** to the `package.json` and `package-lock.json` files and ideally
    they would be small changes, obviously connected to version updates. After
    reviewing the changes, you should approve the PR.
+
+   Semantic versioning practices suggest that for dependencies where the
+   "major" version changes (the first number, e.g. 3.x.y), breaking changes
+   might be present and additional testing might be warranted. The reviewer
+   could pull the Git branch and test the site build and function locally.
+
 1. When the automated tests have completed successfully and the PR is reviewed
    and approved, go ahead and merge the PR.
 
