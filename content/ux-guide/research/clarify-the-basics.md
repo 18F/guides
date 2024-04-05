@@ -62,19 +62,19 @@ Background research helps you ask: what do we already know?
 
 ### Foundational research
 
-Foundational research is the research you do to identify and clarify the team’s objectives, assumptions, and constraints. On the 18F Methods site, [discover methods](https://methods.18f.gov/discover/) help to build context for the problem you’re investigating. This includes; [stakeholder and user interviews](https://methods.18f.gov/discover/stakeholder-and-user-interviews/), [heuristic evaluation](https://methods.18f.gov/discover/heuristic-evaluation/), and [hopes and fears workshops](https://methods.18f.gov/discover/hopes-and-fears/). Foundational research is primarily (though not exclusively) the domain of [18F Path Analysis](https://18f.gsa.gov/how-we-work/#path-analysis) engagements and results in, among other things, a [problem statement as outlined on our GitHub repository](https://github.com/18F/path-analysis/blob/master/approach.md#2-draft-a-problem-statement).
+Foundational research is the research you do to identify and clarify the team’s objectives, assumptions, and constraints. On the 18F Methods site, [discover methods](https://guides.18f.gov/methods/discover/) help to build context for the problem you’re investigating. This includes; [stakeholder and user interviews](https://guides.18f.gov/methods/discover/stakeholder-and-user-interviews/), [heuristic evaluation](https://guides.18f.gov/methods/discover/heuristic-evaluation/), and [hopes and fears workshops](https://guides.18f.gov/methods/discover/hopes-and-fears/). Foundational research is primarily (though not exclusively) the domain of [18F Path Analysis](https://18f.gsa.gov/how-we-work/#path-analysis) engagements and results in, among other things, a [problem statement as outlined on our GitHub repository](https://github.com/18F/path-analysis/blob/master/approach.md#2-draft-a-problem-statement).
 
 Foundational research helps you ask: what problem are we trying to solve?
 
 ### Descriptive research
 
-Descriptive research focuses on understanding, validating, and documenting the context of an assumed problem. On the 18F Methods site, [decide methods](https://methods.18f.gov/#decide) help develop a deeper understanding of workflows and processes. It could look like describing the needs and characteristics of a particular audience like [journey mapping or Mental modeling](https://methods.18f.gov/decide/journey-mapping/).
+Descriptive research focuses on understanding, validating, and documenting the context of an assumed problem. On the 18F Methods site, [decide methods](https://guides.18f.gov/methods/#decide) help develop a deeper understanding of workflows and processes. It could look like describing the needs and characteristics of a particular audience like [journey mapping or Mental modeling](https://guides.18f.gov/methods/decide/journey-mapping/).
 
 Descriptive research helps you ask: who or what are we solving this problem for? 
 
 ### Generative research
 
-Generative research helps you better frame the problem(s) you’re solving, spark new ideas, and reveal opportunities. On the 18F Methods site, [make methods](https://methods.18f.gov/#make) help create testable designs like [prototyping and Wireframing](https://methods.18f.gov/make/wireframing/) to ensure your product reflects your users’ needs. 
+Generative research helps you better frame the problem(s) you’re solving, spark new ideas, and reveal opportunities. On the 18F Methods site, [make methods](https://guides.18f.gov/methods/#make) help create testable designs like [prototyping and Wireframing](https://guides.18f.gov/methods/make/wireframing/) to ensure your product reflects your users’ needs. 
 
 Generative research helps you better frame the problem(s) you’re solving, spark new ideas, and reveal opportunities. 
 
@@ -88,7 +88,7 @@ Generative research helps you ask:
 
 ### Evaluative research
 
-Evaluative research is the research you do to test assumptions, hypotheses, and the ease of use of design solutions. On the 18F Methods site, [validate methods](https://methods.18f.gov/#validate) like [multivariate testing](https://methods.18f.gov/validate/multivariate-testing/), and [usability testing ](https://methods.18f.gov/validate/usability-testing/) help to understand how to determine if the product or service delivers as you designed.
+Evaluative research is the research you do to test assumptions, hypotheses, and the ease of use of design solutions. On the 18F Methods site, [validate methods](https://guides.18f.gov/methods/#validate) like [multivariate testing](https://guides.18f.gov/methods/validate/multivariate-testing/), and [usability testing ](https://guides.18f.gov/methods/validate/usability-testing/) help to understand how to determine if the product or service delivers as you designed.
 
 Evaluative research helps you ask: 
 
@@ -116,7 +116,7 @@ As a distributed team, 18F defaults to remote-friendly ways of working. This giv
 
 ### In person
 
-With most projects you’ll conduct an in-person kickoff, during which you may have the chance to meet, interview, and conduct activities with stakeholders. If feasible, consider adding [contextual inquiry as described in the 18F methods](https://methods.18f.gov/discover/contextual-inquiry/) into your kick-off activities. Direct observation will provide firsthand understanding of your stakeholders’ and users’ processes and contexts.
+With most projects you’ll conduct an in-person kickoff, during which you may have the chance to meet, interview, and conduct activities with stakeholders. If feasible, consider adding [contextual inquiry as described in the 18F methods](https://guides.18f.gov/methods/discover/contextual-inquiry/) into your kick-off activities. Direct observation will provide firsthand understanding of your stakeholders’ and users’ processes and contexts.
 
 We prefer in-person research when we want to better understand the environment in which users normally interact with a government service. We also prefer in-person research when our participants aren’t especially proficient with, or don’t have access to, video conferencing software.
 

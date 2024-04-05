@@ -27,5 +27,5 @@ Before you publish something, check that the user need you’re trying to addres
 
 - Start significant projects with a [content audit][]. Identify how any existing information is used and whether it will be helpful to your users in its current state. If it isn’t, what must change for it to help you address your users’ needs? Focus your work on those changes.
 
-[content audit]: https://methods.18f.gov/decide/content-audit/
+[content audit]: https://guides.18f.gov/methods/decide/content-audit/
 [usa.gov]: https://www.usa.gov/

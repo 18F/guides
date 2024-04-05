@@ -80,7 +80,7 @@ Power shows up in visible and invisible ways. To be able to shift power, you hav
 - Identify who is impacted or plays a role in what you’re designing (e.g stakeholders, impacted communities, project team).
 - Identify the types of power these roles have (e.g. decision making, money, information, relationships)
     - With your project team, use the [positionality wheel tool](https://app.mural.co/template/f938753d-c323-4397-a462-f67d0f09fd3e/f79119d4-da91-41ad-a16d-b1e95ac8ad00) to help collectively reflect on your identities, including more visible factors (e.g. race, gender, age) and other invisible facets (e.g. ability status, class, education, languages), and how that might lead to potential power dynamics, privilege, or [biases]({{ '../bias/' | url }}) that might influence what you’re designing.
-- Visually map the roles and their respective power dynamics. There’s no one way to map power. Mapping power can start from a [stakeholder influence map](https://methods.18f.gov/discover/stakeholder-influence-mapping/) or a [systems map of the problem space](https://bailey.kumu.io/a-systems-map-of-generational-trauma-in-the-rural-south) by adding types of power as an additional lens.
+- Visually map the roles and their respective power dynamics. There’s no one way to map power. Mapping power can start from a [stakeholder influence map](https://guides.18f.gov/methods/discover/stakeholder-influence-mapping/) or a [systems map of the problem space](https://bailey.kumu.io/a-systems-map-of-generational-trauma-in-the-rural-south) by adding types of power as an additional lens.
 
 ### Shift power
 

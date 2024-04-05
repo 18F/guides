@@ -71,7 +71,7 @@ Products and services impose requirements on the organizations that support them
 
 ## Design is never done
 
-We don’t have all the answers. And that’s okay. We take an iterative, cyclical, participatory, [lean]({{ '../../our-approach/stay-lean/' | url }}) approach. We try things out and learn from them. We commit to continuous improvement using critiques, [wireframes](https://methods.18f.gov/make/wireframing/), [prototypes](https://methods.18f.gov/make/prototyping/), [usability tests](https://methods.18f.gov/usability-testing/), service blueprints, etc. and we strive to build the capacity of our partners to do the same. 
+We don’t have all the answers. And that’s okay. We take an iterative, cyclical, participatory, [lean]({{ '../../our-approach/stay-lean/' | url }}) approach. We try things out and learn from them. We commit to continuous improvement using critiques, [wireframes](https://guides.18f.gov/methods/make/wireframing/), [prototypes](https://guides.18f.gov/methods/make/prototyping/), [usability tests](https://guides.18f.gov/methods/usability-testing/), service blueprints, etc. and we strive to build the capacity of our partners to do the same. 
 
 {% image_with_class "assets/ux-guide/iterative-design.png" "" "A conceptual image that describes iterative design. The phrase 'iterative design' is surrounded by four labels connected by a circle of clockwise-pointing arrows. Starting at the top, the labels read 'concept', 'try it out', 'gather feedback', 'incorporate feedback" %}
 
