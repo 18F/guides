@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://agile.18f.gov/18f-agile-approach/</loc>
+<loc>https://guides.18f.gov/agile/18f-agile-approach/</loc>
 </url>
 <url>
-<loc>https://agile.18f.gov/agile-fundamentals/</loc>
+<loc>https://guides.18f.gov/agile/agile-fundamentals/</loc>
 </url>
 <url>
-<loc>https://agile.18f.gov/agile-is-a-thing-already/</loc>
+<loc>https://guides.18f.gov/agile/agile-is-a-thing-already/</loc>
 </url>
 <url>
-<loc>https://agile.18f.gov/agile-is-something-you-are/</loc>
+<loc>https://guides.18f.gov/agile/agile-is-something-you-are/</loc>
 </url>
 <url>
-<loc>https://agile.18f.gov/agile-lexicon/</loc>
+<loc>https://guides.18f.gov/agile/agile-lexicon/</loc>
 </url>
 <url>
-<loc>https://agile.18f.gov/</loc>
+<loc>https://guides.18f.gov/agile/</loc>
 </url>
 <url>
-<loc>https://agile.18f.gov/modern-software-product-development/</loc>
+<loc>https://guides.18f.gov/agile/modern-software-product-development/</loc>
 </url>
 </urlset>
