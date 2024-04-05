@@ -50,6 +50,6 @@ development process:
 
 * [Accessibility Insights](https://accessibilityinsights.io/) - Browser plugin (Chrome, Edge), Android and Windows applications for automated and guided manual testing for accessibility including WCAG 2.0 and 2.1. 
 * [axe](https://www.deque.com/axe/) - Suite of automated accessibility testing tools built around the open source [axe-core testing engine/ruleset](https://github.com/dequelabs/axe-core), by Deque.
-* [pa11y](http://pa11y.org/) consists of a suite of tools including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice), and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites. [Pa11y with axe-core is recommended in the 18F Engineering Practices Guide](https://engineering.18f.gov/accessibility-scanning/) for automated accessibility scans.
+* [pa11y](http://pa11y.org/) consists of a suite of tools including command-line and JavaScript APIs, a [web service](https://github.com/nature/pa11y-webservice), and a [dashboard](https://github.com/nature/pa11y-dashboard) for monitoring accessibility reports across multiple sites. [Pa11y with axe-core is recommended in the 18F Engineering Practices Guide](https://guides.18f.gov/engineering/accessibility-scanning/) for automated accessibility scans.
 
 There are many other [npm](https://www.npmjs.com/) packages tagged [wcag](https://www.npmjs.com/search?q=wcag) and [a11y](https://www.npmjs.com/search?q=a11y).

@@ -223,11 +223,11 @@ Install the CLI globally on your machine:
 and then you can run it against a live site.
 
 > ```
-> $ pa11y https://engineering.18f.gov/
+> $ pa11y https://guides.18f.gov/engineering/
 >
 > Welcome to Pa11y
 >
-> > Running Pa11y on URL https://engineering.18f.gov/
+> > Running Pa11y on URL https://guides.18f.gov/engineering/
 >
 > No issues found!
 > ```
