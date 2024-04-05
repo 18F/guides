@@ -18,7 +18,7 @@ The 18F Product Guide is primarily written for consulting product managers at 18
 
 ## How to use this guide
 
-As a product manager at 18F, you may find yourself in a partner-facing consulting role to help a government agency build or buy a mission-critical product. As we work across the entire federal government and can now support state and local governments, you may encounter subject matter that is entirely new to you. Or, you may be working on one of TTS’ flagship products, like [Federalist](https://federalist.18f.gov/), [cloud.gov](https://cloud.gov/) or [login.gov](https://login.gov/).
+As a product manager at 18F, you may find yourself in a partner-facing consulting role to help a government agency build or buy a mission-critical product. As we work across the entire federal government and can now support state and local governments, you may encounter subject matter that is entirely new to you. Or, you may be working on one of TTS’ flagship products, like [cloud.gov Pages](https://cloud.gov/pages), [cloud.gov](https://cloud.gov/) or [login.gov](https://login.gov/).
 
 In all cases, you will develop and steward a product vision and strategy, and drive a cross-functional team to deliver the right product to the right audience. This involves different activities and priorities at different phases of the work. Whether you're in discovery or implementation mode, you are creating the space and opportunity for your team to deliver on intended outcomes, rooted in empathy and evidence, that benefit members of the public and the government employees who serve them.
 
@@ -36,9 +36,9 @@ This guide is divided into 4 sections:
 
 This guide and our approach to product management are informed by several frameworks that years of experience have shown to be effective in driving low-risk, successful technology projects in government:
 
-- **[Agile delivery](https://derisking-guide.18f.gov/federal-field-guide/basic-principles/#agile-software-development)**: iteratively develop functional software, deploying and testing continuously.
+- **[Agile delivery](https://guides.18f.gov/agile/)**: iteratively develop functional software, deploying and testing continuously.
 
-- **[User-centered design](https://derisking-guide.18f.gov/federal-field-guide/basic-principles/#user-centered-design)**: design with, not for the users of a system or government service.
+- **[User-centered design](https://guides.18f.gov/ux-guide/)**: design with, not for the users of a system or government service.
 
 - **[Build and communicate in the open](https://18f.gsa.gov/2016/03/07/the-need-for-transparency-in-government/)**: build trust through transparency.
 

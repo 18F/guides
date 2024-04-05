@@ -1,6 +1,6 @@
 ---
 title: Build a prototype
-description: "18F encourages building something that will help you answer your questions with the least investment."
+description: "How to build a prototype, from a paper sketch to a static site in Cloud.gov Pages, and things to consider when designing one."
 permalink: /ux-guide/design/build-a-prototype/
 layout: layouts/page
 tags: ux-guide

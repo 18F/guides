@@ -1,6 +1,6 @@
 ---
 title: Plan
-description: "Planning helps 18F teams adapt our approaches to the real world and ensures everyone's time is respected throughout the research process."
+description: "How to plan UX research, including writing a plan, recruiting participants, defining outcomes, involving partners, and documentation."
 permalink: /ux-guide/research/plan/
 layout: layouts/page
 tags: ux-guide

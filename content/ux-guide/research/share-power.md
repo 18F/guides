@@ -1,6 +1,6 @@
 ---
 title: Power dynamics in research
-description: "Power is the ability to influence a situation. It is relative to where you fit within a situation, culture, or system. Power is not good or bad, it's how it is used or distributed that determines its value."
+description: "An overview of power dynamics in research, examples of formal and informal types of power, and methods for sharing and shifting power."
 permalink: /ux-guide/research/share-power/
 layout: layouts/page
 tags: ux-guide

@@ -1,6 +1,6 @@
 ---
 title: Defining design
-description: "18F user experience (UX) designers see design as a process of intentionally deciding, over and over, how interactions should work for users, based on research."
+description: "18F defines design as a process of deciding, over and over, how interactions and systems should work for people, based on research."
 permalink: /ux-guide/our-approach/defining-design/
 layout: layouts/page
 tags: ux-guide
@@ -66,7 +66,7 @@ Intentionally transitioning between divergence and convergence helps make the de
 
 ## Design shapes organizations and vice-versa
 
-Products and services impose requirements on the organizations that support them, and vice-versa. We shouldn't design an agency’s homepage to include images on every news post, for example,  if we haven’t yet made certain that the agency can reasonably source images for each of its news posts. To best support the endeavor as a whole, we want to proactively acknowledge when our work may require nw investments, organizational shifts or new resources.
+Products and services impose requirements on the organizations that support them, and vice-versa. We shouldn't design an agency’s homepage to include images on every news post, for example,  if we haven’t yet made certain that the agency can reasonably source images for each of its news posts. To best support the endeavor as a whole, we want to proactively acknowledge when our work may require new investments, organizational shifts or new resources.
 
 
 ## Design is never done
