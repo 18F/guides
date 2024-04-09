@@ -121,7 +121,7 @@ We most commonly share our work via presentations. These presentations can vary 
 ## General
 
 - [GSA TTS Handbook](https://handbook.tts.gsa.gov/)
-- [18F Methods](https://methods.18f.gov/)
+- [18F Methods](https://guides.18f.gov/methods/)
 - [USDS Playbook](https://playbook.cio.gov/)
 - [New Hire README](https://handbook.tts.gsa.gov/getting-started/)
 - [Project Start Guide](https://docs.google.com/document/d/1jFGksReKrt2PY_QVe7fj1aOCcyjHlGPf5hkKgv7nuMA/edit?pli=1#)

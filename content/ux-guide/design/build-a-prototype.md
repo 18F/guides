@@ -35,12 +35,12 @@ Use prototypes to:
 - Explore/set up the deployment process
 - Demonstrate a collaborative design process
 - Reduce risk (“What are the riskiest assumptions and how can we test them?”)
-- Validate a [design hypothesis [18F design methods]](https://methods.18f.gov/decide/design-hypothesis/)
+- Validate a [design hypothesis [18F design methods]](https://guides.18f.gov/methods/decide/design-hypothesis/)
 
 Prototypes can range in fidelity from basic paper prototypes to fully functional software.  Prototypes can be digital products as well as services. The idea is to build something that will help you answer your questions with the least investment. Prototyping can take many different forms depending on what you are trying to do. For example:
 
 - Paper sketches are fast to make and to change, and easy for the whole team to participate in designing
-- [Wireframes [18F design methods]](https://methods.18f.gov/make/wireframing/) are preliminary blueprints that can help teams align on structure, placement, and hierarchy for a product or service
+- [Wireframes [18F design methods]](https://guides.18f.gov/methods/make/wireframing/) are preliminary blueprints that can help teams align on structure, placement, and hierarchy for a product or service
 - Static visual mock-ups can help communicate and test things like brand identity and tone
 - Clickable prototypes can help test usability by finding out if users can complete the needed tasks
 - A service prototype or simulation that mimics, as much as possible, what users might experience which can include space, online and offline touchpoints, people, and time
@@ -50,7 +50,7 @@ Prototypes can range in fidelity from basic paper prototypes to fully functional
 
 ## Communicating with prototypes
 
-[Prototypes [18F design methods]](https://methods.18f.gov/make/prototyping/) provide realistic depictions of a user experience, so it’s important to carefully consider the elements that go into yours. Prototypes can help you convey several things:
+[Prototypes [18F design methods]](https://guides.18f.gov/methods/make/prototyping/) provide realistic depictions of a user experience, so it’s important to carefully consider the elements that go into yours. Prototypes can help you convey several things:
 
 ### 1. Elements of the design system
 
@@ -58,11 +58,11 @@ Prototypes can range in fidelity from basic paper prototypes to fully functional
 
 ### 2. Information architecture
 
-The **information** hierarchy gets communicated in the prototype. Global navigation menu, contextual navigation, and content hierarchy and structure are laid out in the prototype. Using real content is important, rather than grabbing placeholders like lorem ipsum, so the product team can determine if the proposed content works in the proposed design layout. Testing assumptions or [hypotheses [18F design methods]](https://methods.18f.gov/decide/design-hypothesis/) with real content will validate and identify if the content is appropriate and if changes are needed.
+The **information** hierarchy gets communicated in the prototype. Global navigation menu, contextual navigation, and content hierarchy and structure are laid out in the prototype. Using real content is important, rather than grabbing placeholders like lorem ipsum, so the product team can determine if the proposed content works in the proposed design layout. Testing assumptions or [hypotheses [18F design methods]](https://guides.18f.gov/methods/decide/design-hypothesis/) with real content will validate and identify if the content is appropriate and if changes are needed.
 
 ### 3. System behavior
 
-A prototype is a great way to communicate system behavior through interaction design. Adding drop-down menus, transitions, and/or gestures doesn’t just make the prototype slick; depicting interaction behaviors helps engineers assess the work to implement the design and identifies potential blockers. Also, [usability tests [18F design methods]](https://methods.18f.gov/validate/usability-testing/) will uncover if any of the interactions pose problems for your users or could be served better by a different design.
+A prototype is a great way to communicate system behavior through interaction design. Adding drop-down menus, transitions, and/or gestures doesn’t just make the prototype slick; depicting interaction behaviors helps engineers assess the work to implement the design and identifies potential blockers. Also, [usability tests [18F design methods]](https://guides.18f.gov/methods/validate/usability-testing/) will uncover if any of the interactions pose problems for your users or could be served better by a different design.
 
 
 ## Building prototypes with Cloud.gov Pages

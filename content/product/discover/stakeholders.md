@@ -56,12 +56,12 @@ Sometimes your partner will have a good understanding of who these stakeholders 
 
 - [How to identify stakeholders [2]](https://docs.google.com/presentation/d/10x0Lk9FywbNDL8_hGfeNqGfL3yJMhO8S79-F4tanB3w/edit#slide=id.p): How to identify who your executive stakeholders are and how to communicate with them.
 
-- [How to discover interests and priorities [1]](https://methods.18f.gov/discover/stakeholder-and-user-interviews/): How to prepare for and conduct semi-structured interviews with stakeholders to understand their needs and motivations.
+- [How to discover interests and priorities [1]](https://guides.18f.gov/methods/discover/stakeholder-and-user-interviews/): How to prepare for and conduct semi-structured interviews with stakeholders to understand their needs and motivations.
 
-- [How to discover interests and priorities [2]](https://methods.18f.gov/discover/hopes-and-fears/): How to run a “Hopes and Fears” exercise to uncover stakeholders’ goals and concerns for the project.
+- [How to discover interests and priorities [2]](https://guides.18f.gov/methods/discover/hopes-and-fears/): How to run a “Hopes and Fears” exercise to uncover stakeholders’ goals and concerns for the project.
 
 - [How to differentiate stakeholders](https://docs.google.com/presentation/d/1W-unkKmPbbpPCcV1CNOOl1TIQXpvvFJwg2fnITi_1lQ/edit#slide=id.g418759d6f2_0_1334): How to determine who is your core audience by sorting your stakeholders by their level of interest, influence, and availability.
 
-- [How to narrow down priorities](https://methods.18f.gov/discover/dot-voting/): How to use a simple dot voting exercise to gain consensus on priorities amongst different stakeholders.
+- [How to narrow down priorities](https://guides.18f.gov/methods/discover/dot-voting/): How to use a simple dot voting exercise to gain consensus on priorities amongst different stakeholders.
 
 - [How to build rapport](https://drive.google.com/drive/folders/0B5GqxshfZoAVdXVtY1gyQWJOOEk): Different activities to break the ice with your partner and build rapport.

@@ -46,7 +46,7 @@ This article covers tasks agreed to and implied during research planning such as
 
 Reviewing what’s already known helps your team draw connections and contribute new, original thought. The most fundamental technique for identifying what's already known (such as relevant business, technology, user, and content considerations) is in-depth interviews with stakeholders. It’s also generally helpful to review the current product or service, including its existing content or training materials.
 
-A knowledge inventory session helps capture what your team, including your agency partners, already knows about your research questions. To facilitate this session, you might bring the team together and ask everyone to independently make a mind map of what they know relative to the team’s research questions. Alternatively, you might ask the team to collaboratively create things like a swimlane diagram or a [journey map [18F design methods]](https://methods.18f.gov/decide/journey-mapping/).
+A knowledge inventory session helps capture what your team, including your agency partners, already knows about your research questions. To facilitate this session, you might bring the team together and ask everyone to independently make a mind map of what they know relative to the team’s research questions. Alternatively, you might ask the team to collaboratively create things like a swimlane diagram or a [journey map [18F design methods]](https://guides.18f.gov/methods/decide/journey-mapping/).
 
 Finally, ask your agency partners for any trusted sources, or proprietary information they’ve collected about your area of focus. You might also review:
 
@@ -104,9 +104,9 @@ Time moves fast in workshops, so be clear about what you want to accomplish and 
 
 ### Preparing a wireframe or prototype
 
-Identify in your [research plan]({{ '../../research/plan/' | url }}) if your sessions will require the creation or use of [wireframes [18F design methods]](https://methods.18f.gov/make/wireframing/) or [prototypes]({{ '../../design/build-a-prototype/' | url }}). This helps manage the team’s expectations, and gives the people creating those artifacts time to prepare them.
+Identify in your [research plan]({{ '../../research/plan/' | url }}) if your sessions will require the creation or use of [wireframes [18F design methods]](https://guides.18f.gov/methods/make/wireframing/) or [prototypes]({{ '../../design/build-a-prototype/' | url }}). This helps manage the team’s expectations, and gives the people creating those artifacts time to prepare them.
 
-In evaluative research such as [usability testing [18F design methods]](https://methods.18f.gov/validate/usability-testing/), prototypes often suggest how users might complete specific tasks. In this case:
+In evaluative research such as [usability testing [18F design methods]](https://guides.18f.gov/methods/validate/usability-testing/), prototypes often suggest how users might complete specific tasks. In this case:
 
 1. **Clarify the tasks your sessions will investigate.** Tasks are often included in artifacts such as personas or user stories. If your team doesn’t yet have those artifacts, ask them to identify “the most essential things that people need to do” relative to your research area of focus. Then pick the top two or three tasks the prototype will need to depict.
 2. **Prepare a scenario for each task.** Scenarios help your team create a more believable prototype; they also help moderators prepare research participants during the sessions themselves. If applicable, incorporate your scenarios into the guide you’ll use to moderate the session.
@@ -137,7 +137,7 @@ Most 18F interview guides include these sections:
 - Concluding thanks, questions, and opportunities to follow up
 - Ask who else you should meet with (if appropriate)
 
-For starting points, see this [example interview guide [18F design methods]](https://methods.18f.gov/interview-script/) ([Google Docs example interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).
+For starting points, see this [example interview guide [18F design methods]](https://guides.18f.gov/methods/interview-script/) ([Google Docs example interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).
 
 When interviewing stakeholders, ask about their work as it relates to your research area of focus. Ask about business processes in which they play a role, the information and tools they use, the things they produce or make, and the decisions they’re responsible for. Ask about the people they work with on a regular basis and any challenges they face.
 
@@ -281,7 +281,7 @@ Moderating a research session can be nuanced, but we encourage all team members 
 
 - If appropriate, ask if they know others who would be good for your team to talk to.
 
-While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://methods.18f.gov). We’ve also created a breakdown of [usability test quality heuristics]({{ '/ux-guide/usability-test-quality-heuristics/' | url }}) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research)) is a great place to find collaborators.
+While UX Designers heavily utilize interviews, we also use a variety of other methods. Tips for moderating other methods can be found in the [18F Method Cards](https://guides.18f.gov/methods). We’ve also created a breakdown of [usability test quality heuristics]({{ '/ux-guide/usability-test-quality-heuristics/' | url }}) ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)). For Technology Transformation Services staff interested in developing additional methods, the [Research guild (#g-research](https://gsa-tts.slack.com/messages/g-research)) is a great place to find collaborators.
 
 ### Moderating sensitive research sessions
 
