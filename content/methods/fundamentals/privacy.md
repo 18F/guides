@@ -41,5 +41,5 @@ The government’s use of information about people is subject to a number of law
 
 Conduct a Privacy Threshold Analysis in collaboration your agency’s privacy office whenever a design calls for the creation of a new data store (for example, a database).
 
-Ensure all collections of personally identifiable information (PII) are accompanied by a Privacy Act Notice. See, for example, <a href="https://www.gsa.gov/portal/content/162010" class="usa-link">GSA’s Privacy Act Notice for Design Research</a>.
+Ensure all collections of personally identifiable information (PII) are accompanied by a Privacy Act Notice. See, for example, <a href="[https://www.gsa.gov/portal/content/162010](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research?_gl=1*1l8yehn*_ga*OTQxMTY3NTUwLjE2OTAyOTc4MDQ.*_ga_HBYXWFP794*MTcxMzIxMzIzMS43NC4xLjE3MTMyMTM4NDQuMC4wLjA.)" class="usa-link">GSA’s Privacy Act Notice for Design Research</a>.
 </section>
