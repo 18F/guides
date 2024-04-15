@@ -173,9 +173,8 @@ We’ve now seen some of the implications of following a core philosophy through
 
 This document is the distillation of an architecture discussion between Alan deLevie, Jacob Harris, Brian Hedberg, CM Lubinski, Atul Varma, and Jessie Young. Many thanks also to Kane Baccigalupi for early technical leadership on the project. [See more information about the Micropurchase project](https://micropurchase.18f.gov/), their GitHub [repository](https://github.com/18F/micropurchase), and thoughts around [limiting technical debt](https://github.com/18F/micropurchase/blob/8c536e3064fa6bcc9c1c4d6131b9db51a8e456cb/docs/technical_debt.md).
 ## Documenting key decisions
-Some 18F projects have found success using [Architecture Decision Records](https://adr.github.io/) to capture key decisions and the context to which they were made, with the goal of allowing future project developers to know if a decision should be revisited or not. The decision records are typically stored in the repository alongside the code, using [this template](https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-michael-nygard/index.md). For example:
+Some 18F projects have found success using [Architecture Decision Records](https://adr.github.io/) to capture key decisions and the context to which they were made, with the goal of allowing future project developers to know if a decision should be revisited or not. The decision records are typically stored in the repository alongside the code, using [this template](https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates/decision-record-template-by-michael-nygard). For example:
 
-- [18F/piipan](https://github.com/18F/piipan/tree/main/docs/adr)
 - [HHS/Head-Start-TTADP](https://github.com/HHS/Head-Start-TTADP/tree/main/docs/adr)
-- [HHS/TANF-app](https://github.com/HHS/TANF-app/tree/main/docs/Architecture%20Decision%20Record)
+- [HHS/TANF-app](https://github.com/HHS/TANF-app/tree/main/docs/Technical-Documentation/Architecture-Decision-Record)
 - [transcom/mymove](https://github.com/transcom/mymove/tree/master/docs/adr)
