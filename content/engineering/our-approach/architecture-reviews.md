@@ -177,4 +177,4 @@ Some 18F projects have found success using [Architecture Decision Records](https
 
 - [HHS/Head-Start-TTADP](https://github.com/HHS/Head-Start-TTADP/tree/main/docs/adr)
 - [HHS/TANF-app](https://github.com/HHS/TANF-app/tree/main/docs/Technical-Documentation/Architecture-Decision-Record)
-- [transcom/mymove](https://github.com/transcom/mymove/tree/master/docs/adr)
+- [transcom/mymove](https://transcom.github.io/mymove-docs/docs/adrs/)
