@@ -170,6 +170,52 @@ module.exports = function (config) {
     return openDefaultRender(tokens, idx, options, env, self) + `${prefixIcon}`;
   };
 
+  const defaultHtmlBlockRender = markdownLibrary.renderer.rules.html_block ||
+    function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options);
+    };
+
+  markdownLibrary.renderer.rules.html_block = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    let content = token.content;
+    // Capture the class portion of the element if it exists so it can be interacted with later
+    // https://regexr.com/7udrd
+    const hrefRE = /<a href=\"[^"]*\" class=\"([^"]*)\">|href=\"([^"]*)\"/g;
+    const htmlIncludesLinks = content.includes('http') && hrefRE.test(token.content);
+
+    if (htmlIncludesLinks) {
+      const matches = content.match(hrefRE);
+
+      matches.forEach(anchorElement => {
+        if (!anchorElement.includes('.gov')) {
+          if (!anchorElement.includes('class=')) {
+            if (!anchorElement.includes('usa-link--external')) {
+              // Since no class is present, we can safely just append our classes after the href property
+              const newUrl = anchorElement + ' class="usa-link usa-link--external"';
+              content = content.replace(anchorElement, newUrl);
+              tokens[idx].content = content;
+            }
+          } else {
+            // Handle URLs with classes already present
+            const classRE = /class="([^"]*)"/;
+            const [classString, oldClassList] = anchorElement.match(classRE);
+            const newClassList = oldClassList + ' usa-link usa-link--external';
+
+            // If someone uses the class property but doesn't actually put any classes in it, the class list will be empty
+            if (classString === 'class=""') {
+              content = content.replace(classString, 'class="usa-link usa-link--external"');
+            } else {
+              content = content.replace(oldClassList, newClassList);
+            }
+            tokens[idx].content = content;
+          }
+        }
+      });
+    }
+
+    return defaultHtmlBlockRender(tokens, idx, options, env, self);
+  }
+
   // Also need to add icon links to any html style links
   const inlineHTMLDefaultRender = markdownLibrary.renderer.rules.html_inline ||
     function(tokens, idx, options, env, self) {
