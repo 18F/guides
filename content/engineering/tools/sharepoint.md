@@ -188,7 +188,7 @@ This document explains some possible ways that the SharePoint PowerShell module 
 
 ### SharePoint PowerShell uses
 
-[See documentation for all of the SharePoint PowerShell commands](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp). We describe a small selection of some useful commands here.
+[See documentation for all of the SharePoint PowerShell commands](https://learn.microsoft.com/en-us/powershell/sharepoint/). We describe a small selection of some useful commands here.
 
 #### Create a SharePoint site
 Using PowerShell it is possible to create new SharePoint sites even when the ability to create new sites is turned off in the web interface. Here’s an example:
