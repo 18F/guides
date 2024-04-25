@@ -41,6 +41,7 @@ When using [Django], we **default** to starting with the most recent [Long Term 
 Otherwise, our **standard** practice is to use the latest release of our libraries when first installing. Security updates (as indicated by GitHub or Snyk) should be applied ASAP, but all libs should be updated at some routine interval (e.g. quarterly).
 
 Finally, in an effort to ensure our deployments are repeatable, our code **standards** require all dependencies (including dependencies' dependencies) be pinned to specific versions. This should also apply to the development environment (e.g. linters, testing tools, etc.) **Suggestions** for implementing that include
+* [poetry](https://python-poetry.org/)
 * [pip-tools](https://github.com/jazzband/pip-tools)'s `pip-sync`
 * [pipenv](https://github.com/pypa/pipenv)'s `Pipfile.lock`
 * [vendoring dependencies](https://docs.cloudfoundry.org/buildpacks/python/index.html#vendoring)
