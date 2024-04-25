@@ -48,7 +48,6 @@ Finally, in an effort to ensure our deployments are repeatable, our code **stand
   (though this is only a partial solution)
 
 ## Style
-
 Our **standard** tool for ensuring consistency across Python code bases is [flake8](http://flake8.pycqa.org/en/latest/). Its **default** settings are a good first step, as is using its [integration with isort](https://pypi.python.org/pypi/flake8-isort) for import order. We **suggest** investigating flake8's [plugin ecosystem](https://pypi.python.org/pypi?%3Aaction=search&term=flake8&submit=search) for more functionality.
 
 Use [Black](https://black.readthedocs.io/en/stable/) for automatic code formatting.
