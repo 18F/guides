@@ -76,6 +76,6 @@ The Python ecosystem is large and full of alternative solutions to similar probl
 ## Type support
 Python 3.5 and beyond have had partial support for static type hints. Static typing can both make code authors' intent clearer and reduce the number of bugs through static analysis. It's also notorious for slowing down the pace of prototyping and requiring a great deal of boiler-plate.
 
-Given this state, we believe it's reasonable to **default** to using type annotations when they make your intent clearer (i.e. as a form of documentation). We **suggest** using a static analysis tool (such as [mypy](http://mypy.readthedocs.io/en/latest/)) to catch logic bugs, but only where it's practical. Consider a white-list of files to run against.
+Given this state, we believe it's reasonable to **default** to using type annotations when they make your intent clearer (i.e. as a form of documentation). We **suggest** using a static analysis tool (such as [mypy](http://mypy.readthedocs.io/en/latest/)) to catch logic bugs, but only where it's practical. Consider an allowlist of files to run against.
 
 [Django]: https://www.djangoproject.com/
