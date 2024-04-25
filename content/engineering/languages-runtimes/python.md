@@ -52,9 +52,9 @@ Our **standard** tool for ensuring consistency across Python code bases is [flak
 
 Use [Black](https://black.readthedocs.io/en/stable/) for automatic code formatting.
 
-We **suggest** using [Ruff](https://github.com/astral-sh/ruff) instead as it
-combines all of the above packages into one and runs faster, however this has
-not yet been adopted widely across TTS yet.
+You are welcome to use [Ruff](https://github.com/astral-sh/ruff) instead as it
+combines all of the above packages into one and runs faster. It may become our
+standard in the future.
 
 Using Code Climate to measure complexity scores (by way of [radon](https://pypi.python.org/pypi/radon)) is also a reasonable **default** to ensure you see potentially confounding functions and classes.
 
