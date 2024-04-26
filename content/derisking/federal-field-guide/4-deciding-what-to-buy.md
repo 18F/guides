@@ -321,7 +321,7 @@ By **Waldo Jaquith**, **Randy Hart**, **Mark Hopson**, and **Vicki McFadden**
 
 For more than 20 years, using non-performance based formats, such as the Statement of Work, for professional services, [has been strongly discouraged](https://obamawhitehouse.archives.gov/omb/procurement_index_pbsa/), as enshrined in FAR Part 37 - Service Contracting:
 
-> (a) Performance-based acquisition (see [subpart 37.6](https://www.acquisition.gov/content/part-37-service-contracting#i1077388)) is the preferred method for acquiring services (Public Law 106-398, section 821). When acquiring services, including those acquired under supply contracts or orders, agencies must --
+> (a) Performance-based acquisition (see [subpart 37.6](https://www.acquisition.gov/far/part-37#FAR_Subpart_37_6)) is the preferred method for acquiring services (Public Law 106-398, section 821). When acquiring services, including those acquired under supply contracts or orders, agencies must --
 
 > (1) Use performance-based acquisition methods to the maximum extent practicable
 {.guide-indent}
@@ -473,7 +473,7 @@ This overview supports the evaluation team and helps them identify both indicato
 
 #### Evaluation process
 
-At 18F, we typically conduct targeted market research to identify a strong candidate pool of companies. As a best practice, we use the procedures allowed under FAR Part [8.405-2(c)(3)(iii)(B)](https://www.acquisition.gov/content/part-8-required-sources-supplies-and-services#i1117591) to identify around ten potential companies interested in bidding before we issue any solicitation on [GSA Schedule 70](https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedules/gsa-schedule-offerings/list-of-legacy-schedules/schedule-70); this ensures that we solicit qualified and interested bidders. This method balances good competition and a reasonable number of proposals for the evaluation panel to assess.
+At 18F, we typically conduct targeted market research to identify a strong candidate pool of companies. As a best practice, we use the procedures allowed under FAR Part [8.405-2(c)(3)(iii)(B)](https://www.acquisition.gov/far/part-8#FAR_8_405_2) to identify around ten potential companies interested in bidding before we issue any solicitation on [GSA Schedule 70](https://www.gsa.gov/buying-selling/purchasing-programs/gsa-schedules/gsa-schedule-offerings/list-of-legacy-schedules/schedule-70); this ensures that we solicit qualified and interested bidders. This method balances good competition and a reasonable number of proposals for the evaluation panel to assess.
 
 Note: *Your agency can only use this process if your agency intends to use GSA Schedules as their acquisition strategy. If your agency doesn't intend to use Schedules, your agency needs to follow the procedures required under the FAR that pertain to their acquisition strategy.*
 
@@ -689,7 +689,7 @@ This list is not meant to be exhaustive, but it gives the evaluation team some t
 
 ### Footnotes
 [^needs]: FAR Part 2.101. The concept of an agency’s “needs” is used interchangeably by many agency personnel with the term “requirements.”
-[^requires]: See Aquisition.gov's <a href="https://www.acquisition.gov/content/part-10-market-research"> Market Research section</a> for specifics.
+[^requires]: See Aquisition.gov's <a href="https://www.acquisition.gov/far/part-10"> Market Research section</a> for specifics.
 [^formats]: COs awarding contracts under FAR Part 15 must prepare solicitations and resulting contracts using the uniform contract format.
 [^process]: See <a href="https://obamawhitehouse.archives.gov/omb/procurement_guide_pbsc/">Best Practices for Performance-Based Contracting</a> for more specifics.
 [^statement]: According to FAR Part 37.601 a performance based solicitation may either be a performance work statement or a statement of objectives. In our experience, it is far more difficult to meaningfully pivot from years of non-performance based contracts, anchored with a Statement of Work, than it is to start anew with a Statement of Objectives. Very frequently, agencies will end up simply rename their former Statement of Work into a “Performance Work Statement” without making the fundamental changes necessary to the actual substance of their operations, administration, and partnering methods.

@@ -56,12 +56,12 @@ Many web apps begin their life cycles with server-side rendering only, and add m
 See below for examples and heuristics to help you decide which architecture could make the most sense for your project as a starting point:
 
 ## If you can make it a static site, you should
-_When thinking about a static site, you might use words like: [Jekyll](https://jekyllrb.com), [Hugo](https://gohugo.io), [Federalist](https://federalist.18f.gov) {% include "engineering/tag-standard.html" %}, static HTML._
+_When thinking about a static site, you might use words like: [Jekyll](https://jekyllrb.com), [Hugo](https://gohugo.io), [Cloud Pages](https://cloud.gov/pages/) {% include "engineering/tag-standard.html" %}, static HTML._
 
 ### Benefits to this approach
 - Simple to keep running (low maintenance cost)
-- Can use Federalist to outsource deployment of the site
-- Quick path to ATO, or no ATO at all since Federalist has its own ATO
+- Can use Cloud.gov Pages to outsource deployment of the site
+- Quick path to ATO, or no ATO at all since Cloud.gov Pages has its own ATO
 - Automatic accessibility testing is extremely straightforward
 - Searching with search.gov/search engines is easy
 

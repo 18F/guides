@@ -49,7 +49,7 @@ Please see [our tools page for a listing of accessibility testing tools](tools/)
 * [Inclusive Components](https://inclusive-components.design/) - A blog about designing inclusive web interfaces, piece by piece.
 * [WebAIM's Blog](http://webaim.org/blog/)
 * [The Accessibility Project](https://a11yproject.com/) - Good accessibility blog.
-* [Knowbility's Blog - WCAG 2.1 Series](https://knowbility.org/blog/2018/WCAG21-intro/)
+* [Knowbility's Blog - WCAG 2.2 Series](https://knowbility.org/blog/2022/whats-new-in-wcag-2-2)
 * [Simply Accessible](http://simplyaccessible.com/archives/) - A great blog and resource with articles about modern accessibility.
 * [WebAIM's Accessibility Resources](https://webaim.org/resources/)
 * [Tips for creating Accessible SVGs](https://www.sitepoint.com/tips-accessible-svg/)

@@ -25,7 +25,7 @@ subnav:
 Though we fully expect to write dependable applications, every project will experience service disruptions and other significant failings. In all cases, we want to learn from our mistakes both within our projects and more broadly. Incident reports, which detail the events and how they were resolved, are an excellent mechanism for sharing this information.
 
 Note that this document won't discuss what to do during a security incident, if cloud.gov is having issues, what to report to your client, etc. For those, see:
-* [18F security incidents](https://github.com/18F/security-incidents)
+* [18F security incidents](https://handbook.tts.gsa.gov/general-information-and-resources/tech-policies/security-incidents/)
 * [Cloud.gov status](https://cloudgov.statuspage.io/)
 * [cloud-gov-support@gsa.gov](mailto:cloud-gov-support@gsa.gov)
 * Slack: #infrastructure, #incident-response, #cloud-gov-support

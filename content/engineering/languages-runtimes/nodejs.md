@@ -53,7 +53,7 @@ For libraries, our **standard** practice is to use the latest release when first
 
 Finally, in an effort to ensure our deployments are repeatable, our code **standards** require all dependencies (including dependencies' dependencies) be pinned to specific versions. This should also apply to the development environment (e.g. linters, testing tools, etc.) **Suggestions** for implementing that include
 * npm's [package-lock.json](https://docs.npmjs.com/files/package-lock.json) (npm &gt;= 5)
-* npm's [npm-shrinkwrap.json](https://docs.npmjs.com/files/shrinkwrap.json) (npm &lt; 5)
+* npm's [npm-shrinkwrap.json](https://docs.npmjs.com/cli/v10/configuring-npm/npm-shrinkwrap-json) (npm &lt; 5)
 * yarn's [yarn.lock](https://yarnpkg.com/lang/en/docs/yarn-lock/) 
 * [vendoring dependencies](http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring) (though this is only a partial solution)
 
