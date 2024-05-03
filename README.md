@@ -18,6 +18,8 @@ By developing this material in the open, we hope to encourage expert review and 
 
 The [CODEOWNERS file](.github/CODEOWNERS) keeps track of who is in review & approver roles for content in the guides — if you’re not receiving a timely (within two weeks) review or notice the list is outdated, reach out to 18F’s Chief of Delivery for assistance. These reviewers will be automatically tagged appropriately when opening pull requests. Read [CONTRIBUTING](CONTRIBUTING.md) for more information.
 
+Issues opened in this repo are automatically added to the [18F TLC project board](https://github.com/orgs/18F/projects/41/views/1) for prioritization for 18F staff in between projects to work on.
+
 ## Development
 The re-platformed sites use 11ty. If you could run Jekyll, you should be able to run 11ty! There are two approaches to working with the guides: [Local installation](#local-installation) and [Codespaces](#codespaces).
 

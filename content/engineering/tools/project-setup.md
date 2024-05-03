@@ -69,13 +69,12 @@ Below is an aspirational list of configuration and files for a source code repos
 1. [Code coverage metrics](#code-coverage-metrics)
 1. [Static analysis for code quality](#static-analysis-for-code-quality)
 1. [Static security analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/)
-1. [Accessibility scanning](https://engineering.18f.gov/accessibility-scanning/) (e.g., [Pa11y](https://pa11y.org/) {% include "engineering/tag-default.html" %})
+1. [Accessibility scanning](https://guides.18f.gov/engineering/accessibility-scanning/) (e.g., [Pa11y](https://pa11y.org/) {% include "engineering/tag-default.html" %})
 1. Integration test setup (e.g., [Selenium](https://www.selenium.dev/) {% include "engineering/tag-suggestion.html" %})
 1. Visual regression setup (e.g., [Backstop](https://github.com/garris/BackstopJS) {% include "engineering/tag-suggestion.html" %})
 
 ## Branch protection {% include "engineering/tag-requirement.html" %}
-Set up branch protection rules for each repository. The [most current ATO checklist](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/ato.md) requires it;
-it's also a good practice to prevent mistakes like an accidental force-push to main.
+Set up branch protection rules for each repository. It's a good practice to prevent mistakes like an accidental force-push to main.
 
 We recommend at the very least enabling:
 * Require pull request reviews before merging

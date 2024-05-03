@@ -35,7 +35,3 @@ The following questions are provided as useful starting points for facilitating 
 - What went poorly (for example, uncomfortable topics, awkward transitions, etc.)?
 - How might the interview guide (or, if applicable wireframe or prototype) be updated before the next session?
 
-
-### References
-
-- [Example Debriefing Worksheet from Portigal Consulting](https://rosenfeldmedia.com/wp-content/uploads/2014/10/Portigal-Consulting-Debriefing-Worksheet-2.pdf)

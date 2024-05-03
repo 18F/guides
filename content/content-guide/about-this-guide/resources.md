@@ -28,7 +28,6 @@ As we created this guide, we also referred to these resources:
 * [The U.S. Government Publishing Office](https://www.gpo.gov/)
 * [Conscious Style Guide](http://consciousstyleguide.com/)
 * [Plain Language Action and Information Network](http://www.plainlanguage.gov/)
-* [USAGov Bilingual Style Guide](https://www.usa.gov/style-guide/table-of-contents)
 * [Disability Language Style Guide](http://ncdj.org/style-guide/)
 * [Diversity Style Guide](http://www.diversitystyleguide.com/)
 * [GLAAD Media Reference Guide](http://www.glaad.org/reference)

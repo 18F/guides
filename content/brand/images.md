@@ -31,7 +31,7 @@ A variety of wallpaper images for MacBooks and Apple Displays.
 4. Choose your desktop wallpaper on the right.
 
 #### Image credits
-* Flag, [Eric Duvauchelle](https://unsplash.com/photos/xn4Lc-87_fM)
+* Flag, Eric Duvauchelle / Unsplash
 * Sky, [Tumprins](http://tumblr.unsplash.com/post/54230079634/download-tumprins)
 * Statue of Liberty, [Anthony Delanoix](https://unsplash.com/photos/ciJJ57qsQLs)
 * Highway, [Israel Sundseth](https://unsplash.com/photos/BYu8ITUWMfc/)

@@ -37,11 +37,11 @@ You can also review:
 * User feedback from surveys, call center logs, and support emails
 * Recurring themes from channels like Twitter, Facebook, and tech blogs
 
-You should make a habit of listening to users, too. Conduct [usability testing](https://methods.18f.gov/#usability-testing) sessions regularly to understand how people access, use, and interpret key pieces of content on your site. See [Looking at the different ways to test content](https://18f.gsa.gov/2016/04/19/looking-at-the-different-ways-to-test-content/) on the 18F Blog for more details.
+You should make a habit of listening to users, too. Conduct [usability testing](https://guides.18f.gov/methods/#usability-testing) sessions regularly to understand how people access, use, and interpret key pieces of content on your site. See [Looking at the different ways to test content](https://18f.gsa.gov/2016/04/19/looking-at-the-different-ways-to-test-content/) on the 18F Blog for more details.
 
 ### Additional resources
 
-* [Usability Testing](https://methods.18f.gov/#usability-testing), 18F Method Cards
+* [Usability Testing](https://guides.18f.gov/methods/#usability-testing), 18F Method Cards
 * [Testing Content](https://alistapart.com/article/testing-content), A List Apart
 * [What Does This Mean? Tips for Testing Your Words](https://userresearch.blog.gov.uk/2015/07/01/what-does-this-mean-tips-for-testing-your-words/), GDS Blog
 * [Testing Web Content for Accessibility](http://webaim.org/resources/evalquickref/), WebAim
@@ -51,7 +51,7 @@ You should make a habit of listening to users, too. Conduct [usability testing](
 
 You may occasionally need to archive or delete outdated content. Maybe it’s irrelevant after a recent policy change or redundant with other pages on your site. Avoid moving or deleting content without a good reason, because it can cause a lot of frustration for users. Changes to site structure may also slow down users who’ve learned specific navigation paths on your site.
 
-As part of ongoing site maintenance, you should [audit your content](https://methods.18f.gov/#content-audit) to keep everything updated and identify [potential duplication]({{ "/content-guide/our-approach/avoid-duplication/" | url }}). Depending on the size of your site, you may want to review everything on a yearly basis, for example, or look at one or two sections at a time.
+As part of ongoing site maintenance, you should [audit your content](https://guides.18f.gov/methods/#content-audit) to keep everything updated and identify [potential duplication]({{ "/content-guide/our-approach/avoid-duplication/" | url }}). Depending on the size of your site, you may want to review everything on a yearly basis, for example, or look at one or two sections at a time.
 
 Before you archive or delete anything, review your site analytics to understand how users are accessing the content now, and check in with the content owner or author to come up with a plan together. Be sure to consider cases that may not show up in analytics data too, such as:
 

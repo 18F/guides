@@ -1,6 +1,6 @@
 ---
 title: About this guide
-permalink: /engineering/about/
+permalink: /engineering/
 layout: layouts/page
 sidenav: true
 sticky_sidenav: true

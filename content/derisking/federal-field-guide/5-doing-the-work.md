@@ -43,7 +43,7 @@ A thoughtful post-award kick-off meeting should introduce new team members, empo
 
 #### Recommendations
 
-[FAR Part 42.5](https://www.acquisition.gov/content/part-42-contract-administration-and-audit-services#i1075565) encourages Contracting Officers (COs) to hold a post-award kick-off meeting with the winning contractor. That is often treated somewhere between a check-box exercise and an afterthought.
+[FAR Part 42.5](https://www.acquisition.gov/far/part-42#FAR_Subpart_42_5) encourages Contracting Officers (COs) to hold a post-award kick-off meeting with the winning contractor. That is often treated somewhere between a check-box exercise and an afterthought.
 
 We recommend being more intentional about the kick-offs, either as one combined meeting (contractual + project) or as two separate meetings scheduled in close proximity to one another. Some Contracting Officers have strong feelings about their procedures for a FAR-required kickoff, and prefer to hold their own separate meeting.
 
@@ -232,7 +232,7 @@ No agency can move to agile overnight. The shift requires a lot of difficult org
 
 Using the methods we recommend allows agencies to continue steering the ship while also allowing them to avoid the rocks.
 
-See [18F's agile principles and practices](https://agile.18f.gov/) for more information.
+See [18F's agile principles and practices](https://guides.18f.gov/agile/) for more information.
 
 ### Post-award contract administration looks different in agile
 By **Miatta Myers**, **Vicki McFadden**, and **Mark Hopson**
@@ -330,4 +330,4 @@ This is not a full-time job, but will likely take 4–8 hours per scrum team, pe
 
 ### Footnotes
 
-[^default]: See Aquisition.gov's [section on FAR 49.4](https://www.acquisition.gov/content/subpart-494-termination-default) for specifics.
+[^default]: See Aquisition.gov's [section on FAR 49.4](https://www.acquisition.gov/far/part-49#FAR_Subpart_49_4) for specifics.

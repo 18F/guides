@@ -147,7 +147,7 @@ A team may want to go with custom software development when:
 
 ##### Commercial designations and the FAR
 
-Agencies also mistakenly designate their development effort as _non-commercial_. This requires them to use restrictive and time-consuming parts of the Federal Acquisition Regulation (FAR), such as [FAR Part 15](https://www.acquisition.gov/content/part-15-contracting-negotiation). Most government purchases are commercial, whether they are custom software development or COTS purchases. Agencies should leverage simplified acquisition procedures whenever possible.
+Agencies also mistakenly designate their development effort as _non-commercial_. This requires them to use restrictive and time-consuming parts of the Federal Acquisition Regulation (FAR), such as [FAR Part 15](https://www.acquisition.gov/far/part-15). Most government purchases are commercial, whether they are custom software development or COTS purchases. Agencies should leverage simplified acquisition procedures whenever possible.
 
 FAR Part 2 defines "commercial" as:
 
@@ -564,7 +564,7 @@ The first meaningful step to provide the federal government with the same world-
 [^budget]: The A-11 memo section related to Information Technology can be found [here](https://www.whitehouse.gov/wp-content/uploads/2020/11/FY22ITBudget_CapitalPlanningGuidance.pdf).
 [^constitution]:  As a way to enforce its power of the purse on the executive, there is a significant body of law, called fiscal law, that controls how agencies may obligate Congressional appropriations. Examples include: the Purpose statute (31 U.S.C. § 1301(a)), Antideficiency Act (31 U.S.C. § 1341), Adequacy of Appropriations Act (41 USC 11), Miscellaneous Receipts Act (31 U.S.C. § 3302(b)), Bona Fide Needs (whose statutory basis is found at 31 U.S.C. § 1502, but is defined and interpreted through numerous GAO opinions), and Account Closing (31 U.S.C. § 1555). While readers should consult with their General Counsel on specific application or interpretation of laws, these topics are worth highlighting potential issues they present for modern software acquisitions in agencies.
 [^certainly]:Since 1977, the first year under the current system, Congress has passed appropriation bills on-time 4 times: 1977, 1989, 1995, 1997
-[^RDTE]: See [FY 2019 IT Budget — Capital Planning Guidance](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/assets/egov_docs/fy19_it_budget_guidance.pdf) for specifics.
+[^RDTE]: See [FY 2019 IT Budget — Capital Planning Guidance](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/assets/egov_docs/fy19_it_budget_guidance.pdf) for specifics.
 [^OM]: See the U.S. Government Accountability Office's report [Federal Agencies Need to Address Aging Legacy Systems](https://www.gao.gov/assets/680/677574.pdf) at 18 for specifics.
 [^funding]: See the U.S. Government Accountability Office's report [Federal Agencies Need to Address Aging Legacy Systems](https://www.gao.gov/assets/680/677574.pdf) at 18 for specifics.
 [^percent]: See the U.S. Government Accountability Office's report [Federal Agencies Need to Address Aging Legacy Systems](https://www.gao.gov/assets/680/677574.pdf) at 13 for specifics.

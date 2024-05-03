@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: "Additional templates, checklists, presentations, and other resources that 18F user experience (UX) designers use."
+description: "Templates, presentations, and checklists to use in a UX research and design process."
 permalink: /ux-guide/resources/
 layout: layouts/page
 tags: ux-guide

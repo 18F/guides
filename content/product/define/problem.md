@@ -60,8 +60,8 @@ Problem statements can be written at different levels or granularities, and you 
 
 - <a href="https://app.mural.co/t/gsa6/m/gsa6/1614280571328/064874369c7597eb3467fec790202b46ffe41f99" class="private-link">How to build a problem statement (3)</a>: An exercise to identify the problems experienced, who is affected, and the impacts, as well as understand hopes and fears for the initiative.
 
-- [How to prioritize problem statements (1)](https://methods.18f.gov/discover/kj-method/): KJ Method, a general prioritization method involving brainstorming, [affinity grouping](https://methods.18f.gov/decide/affinity-mapping/), and ranking (e.g., [dot voting](https://methods.18f.gov/discover/dot-voting/)).
+- [How to prioritize problem statements (1)](https://guides.18f.gov/methods/discover/kj-method/): KJ Method, a general prioritization method involving brainstorming, [affinity grouping](https://guides.18f.gov/methods/decide/affinity-mapping/), and ranking (e.g., [dot voting](https://guides.18f.gov/methods/discover/dot-voting/)).
 
 - [How to prioritize problem statements (2)](https://www.mindtheproduct.com/enter-matrix-lean-prioritisation/): 2x2 Prioritization Matrix, a method often used to prioritize tasks or backlog items but that can be used more generally to sort items based on factors such as Effort vs Value.
 
-- [How to identify the root cause of a problem](https://methods.18f.gov/discover/five-whys/): Five Whys, an iterative process for uncovering the root cause underlying the observable problem.
+- [How to identify the root cause of a problem](https://guides.18f.gov/methods/discover/five-whys/): Five Whys, an iterative process for uncovering the root cause underlying the observable problem.

@@ -1,6 +1,6 @@
 ---
 title: Defining design
-description: "18F user experience (UX) designers see design as a process of intentionally deciding, over and over, how interactions should work for users, based on research."
+description: "18F defines design as a process of deciding, over and over, how interactions and systems should work for people, based on research."
 permalink: /ux-guide/our-approach/defining-design/
 layout: layouts/page
 tags: ux-guide
@@ -66,12 +66,12 @@ Intentionally transitioning between divergence and convergence helps make the de
 
 ## Design shapes organizations and vice-versa
 
-Products and services impose requirements on the organizations that support them, and vice-versa. We shouldn't design an agency’s homepage to include images on every news post, for example,  if we haven’t yet made certain that the agency can reasonably source images for each of its news posts. To best support the endeavor as a whole, we want to proactively acknowledge when our work may require nw investments, organizational shifts or new resources.
+Products and services impose requirements on the organizations that support them, and vice-versa. We shouldn't design an agency’s homepage to include images on every news post, for example,  if we haven’t yet made certain that the agency can reasonably source images for each of its news posts. To best support the endeavor as a whole, we want to proactively acknowledge when our work may require new investments, organizational shifts or new resources.
 
 
 ## Design is never done
 
-We don’t have all the answers. And that’s okay. We take an iterative, cyclical, participatory, [lean]({{ '../../our-approach/stay-lean/' | url }}) approach. We try things out and learn from them. We commit to continuous improvement using critiques, [wireframes](https://methods.18f.gov/make/wireframing/), [prototypes](https://methods.18f.gov/make/prototyping/), [usability tests](https://methods.18f.gov/usability-testing/), service blueprints, etc. and we strive to build the capacity of our partners to do the same. 
+We don’t have all the answers. And that’s okay. We take an iterative, cyclical, participatory, [lean]({{ '../../our-approach/stay-lean/' | url }}) approach. We try things out and learn from them. We commit to continuous improvement using critiques, [wireframes](https://guides.18f.gov/methods/make/wireframing/), [prototypes](https://guides.18f.gov/methods/make/prototyping/), [usability tests](https://guides.18f.gov/methods/usability-testing/), service blueprints, etc. and we strive to build the capacity of our partners to do the same. 
 
 {% image_with_class "assets/ux-guide/iterative-design.png" "" "A conceptual image that describes iterative design. The phrase 'iterative design' is surrounded by four labels connected by a circle of clockwise-pointing arrows. Starting at the top, the labels read 'concept', 'try it out', 'gather feedback', 'incorporate feedback" %}
 

@@ -244,6 +244,35 @@ redirect_from:
 | timeRequired | short description of how much time is required for method activity | text | methods |
 | category | a method's category name; do not capitalize | text | methods |
 
+## Managing dependencies
+
+This project uses Github's Dependabot to keep the NPM dependencies up to date.
+Dependabot takes care of noticing version updates and proposing the updates to
+`package.json` and `package-lock.json` as pull requests (PRs). A human
+developer needs to review these Dependabot PRs and merge them into the `main`
+branch.
+
+If Dependabot PRs go un-reviewed for too long, they can have merge conflicts
+and complex interactions with other code changes. The best practice is to
+review and merge Dependabot PRs as soon as possible. The automated test suite
+for this project is quite good, so this is fairly straightforward:
+
+1. Comment `@dependabot recreate` on the PR to request Dependabot to update
+   the changes to the current state of `main`.
+1. After Dependabot updates the PR in accordance with the re-create request,
+   review the changes that are included in the PR. There should be changes
+   **only** to the `package.json` and `package-lock.json` files and ideally
+   they would be small changes, obviously connected to version updates. After
+   reviewing the changes, you should approve the PR.
+
+   Semantic versioning practices suggest that for dependencies where the
+   "major" version changes (the first number, e.g. 3.x.y), breaking changes
+   might be present and additional testing might be warranted. The reviewer
+   could pull the Git branch and test the site build and function locally.
+
+1. When the automated tests have completed successfully and the PR is reviewed
+   and approved, go ahead and merge the PR.
+
 ## Replatforming-specific information
 
 _This information was relevant during the replatforming effort to merge all 18F guides into this repo, but may not continue to be relevant after replatforming._

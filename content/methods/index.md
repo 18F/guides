@@ -2,7 +2,7 @@
 title: methods homepage
 permalink: /methods/
 redirect_from:
-  # resolves redirects from methods.18f.gov
+  # resolves redirects from guides.18f.gov/methods
   - methods/rolling-issues-log/
   - methods/archive/bodystorming/
 layout: layouts/default

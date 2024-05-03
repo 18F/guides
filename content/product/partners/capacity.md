@@ -58,6 +58,4 @@ Developing strong product leadership and management capacity with your partners 
 
 - [What are the responsibilities [1]](https://docs.google.com/document/d/1YJYFlUte6hbhSoDRRjdZEUZDwydn2XBfF1bywnNV7CE/edit): A case for dividing product management responsibilities into a strategic (i.e., supervisor) role and a tactical (i.e., manager) role.
 
-- [What are the responsibilities [2]](https://docs.google.com/document/d/1HdUoKIuA8xj-lYC1h8BlIFUX5sOtUV_PrKAT90lLitg/edit#heading=h.kxj9srha1axg): An example differentiation of the key responsibilities of the tactical vs strategic product roles.
-
 - [What is product management vs project management](https://www.mindtheproduct.com/product-management-not-responsible-project-management/): An explanation of how these are different roles that should be filled by different people.
