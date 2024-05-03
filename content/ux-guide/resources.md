@@ -87,23 +87,6 @@ An email asking participants to review and sign a participant agreement before t
 
 ## Design
 
-### Collaboration
-
-Designers at 18F should work together with other designers or people in our [Acquisition](https://handbook.tts.gsa.gov/acqstack/), [Product Management](https://handbook.tts.gsa.gov/product/) and [Engineering](https://handbook.tts.gsa.gov/engineering/) Chapters. Read their pages in the [TTS/18F Handbook](https://handbook.tts.gsa.gov/) for more information.
-
-
-18F/TTS staff can also participate in local communities of practice in by joining (18F/TTS access only):
-
-- [Content guild (#g-content in Slack)](https://gsa-tts.slack.com/messages/g-content)
-- [Accessibility guild (#g-accessibility in Slack)](https://gsa-tts.slack.com/messages/g-accessibility/)
-- [Research guild (Channel #g-research in Slack)](https://gsa-tts.slack.com/messages/g-research)
-
-### Requesting help
-
-If you’re in need of a particular skill — help with a presentation or design deliverable; writing and content strategy; or development tasks — 18F staff  may be able to provide support. You can request assistance from 18F colleagues for help on non-billable and billable projects in the [#18f-help-wanted](https://gsa-tts.slack.com/app_redirect?channel=18f-help-wanted) channel. Each discipline is represented at any time in the channel.
-
-The only limitation is that tasks must typically take fewer than 8 hours of work a week, over no more than 3 weeks, for the person providing the assistance. 
-
 ### Presenting the work
 We most commonly share our work via presentations. These presentations can vary widely based on the audience. Here are a few presentation-building tips:
 
@@ -120,28 +103,10 @@ We most commonly share our work via presentations. These presentations can vary 
 
 ## General
 
-- [GSA TTS Handbook](https://handbook.tts.gsa.gov/)
-- [18F Methods](https://guides.18f.gov/methods/)
-- [USDS Playbook](https://playbook.cio.gov/)
-- [New Hire README](https://handbook.tts.gsa.gov/getting-started/)
-- [Project Start Guide](https://docs.google.com/document/d/1jFGksReKrt2PY_QVe7fj1aOCcyjHlGPf5hkKgv7nuMA/edit?pli=1#)
-- [List of prior path analyses [Github]](https://github.com/18F/path-analysis/blob/master/projects.md)
-- [Project resources folder](https://drive.google.com/drive/folders/1L9qqS6-b-emvlWJ4JPCG58LW62bbV361)
 - [Six weird tips for protecting PII](https://drive.google.com/a/gsa.gov/open?id=1MM6tNlFc-Iwgw_cCUw_0KS8oQMS-FEN7sYftPQLmLAg)
 - [Artifacts from design-led projects](https://drive.google.com/drive/folders/1NZG-bxIeFiOw0sAn32a4APJc_TipCrQp)
 - [Checklist of requirements for federal government websites](https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/)
 - [Quickstart: Intercept (pop-up) research in GSA buildings](https://docs.google.com/document/d/1ph3fP2rGr0FeXSeueRD4YmIJYF3f-3yIoI-uDz6iwsI/edit#heading=h.ssdnqe2zdwhz)
-
-### Guides
-
-- [Project Start Guide](https://docs.google.com/document/d/1jFGksReKrt2PY_QVe7fj1aOCcyjHlGPf5hkKgv7nuMA/edit?pli=1#)
-- [18F Content Guide]({{ '/content-guide/' | url }})
-- [TTS Engineering Guide Front-end practices]({{ '/engineering/our-approach/frontend/' |url }})
-- [18F Analytics standards [Github]](https://github.com/18F/analytics-standards/)
-- [18F Accessibility Guide]({{ '/accessibility/' | url }})
-- [Agile Principles and 18F Practices]({{ '/agile/' | url }})
-- [Before You Ship: TTS guide to launching software](https://before-you-ship.18f.gov/)
-- [18F De-risking Government Technology]({{ '/derisking/' | url }})
 
 ## Presentations
 
@@ -158,4 +123,3 @@ We most commonly share our work via presentations. These presentations can vary 
 - [Lab@OPM's HCD Discovery Operations Guide](https://the-lab-at-opm.github.io/HCD-Discovery-Operations-Guide/)
 - [NYC Civic Service Design: Tools and Tactics](https://www1.nyc.gov/assets/servicedesign/){.usa-link .usa-link--external}
 - [GOV.UK Service Manual: User Research](https://www.gov.uk/service-manual/user-research)
-- [18F UX Guide References](https://docs.google.com/document/d/1IYt7kcHMtVAKQdWPUZQB-u9qOvoUx6u3IR9UzF6EwO8/edit#heading=h.xr0ztr7noxa6)
