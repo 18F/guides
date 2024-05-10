@@ -31,7 +31,7 @@
 /content/eng-hiring/**/*.md      @amymok
 /content/engineering/**/*.md     @amymok
 /content/product/**/*.md         @allisonnorman
-/content/ux-guide/**/*.md        @juliaklindpaintner
+/content/ux-guide/**/*.md        @bpdesigns
 
 
 # The pull request template and CODEOWNERS files should be reviewed by the Chief of Delivery;
