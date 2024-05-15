@@ -63,6 +63,6 @@ If 18F is brought in to help a partner that has an existing relationship with a 
 
 - [QASP Example [1]](https://derisking-guide.18f.gov/qasp/): QASP criteria from 18F’s de-risking guide.
 
-- [Acquistions toolkit](https://drive.google.com/drive/folders/1rj0lYJVjhClDQLLf-Hua_Xr6YtJAAN_X): Guidance and templates on acquisitions, contracting, and procurement.
+- [Acquisitions toolkit](https://drive.google.com/drive/folders/1rj0lYJVjhClDQLLf-Hua_Xr6YtJAAN_X): Guidance and templates on acquisitions, contracting, and procurement.
 
 - <a href="https://app.mural.co/t/gsa6/m/gsa6/1611637931895/f601104204b8159db7364ca7b97e807b19b06b84" class="private-link">Post-award management</a>: Common best practices and risks that exist around post-award management and vendor relationships.

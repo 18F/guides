@@ -136,7 +136,7 @@ Program or oversight staff can join sprint reviews periodically. Meetings are of
 The United Kingdom's National Audit Office's [Governance for Agile delivery](https://www.nao.org.uk/wp-content/uploads/2012/07/governance_agile_delivery.pdf) explains how to perform assessments, specifically section in 3.5, "Principles for governance":
 
 > External assessment or reviews of agile delivery should focus on the
-> teams' behaviours and not just processes and documentation. Assessors
+> teams' behaviors and not just processes and documentation. Assessors
 > are more effective in providing critical challenges if they have
 > high-end skills, including technical and agile delivery experience. In
 > addition, they provide better value if they continually review how the

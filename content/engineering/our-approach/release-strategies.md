@@ -39,7 +39,7 @@ Big bang releases heighten the risk of unknowns that can crop up as the release 
 #### Release to different user groups at different times
 **Recommendation**: Release to a subset of users at a time. This lets you test, creates a better user experience for them, and a better time post-release for your team.
 
-There are always going to be immediate bug fixes and customer asks in the aftermath of a release. Initally scoping a big release to a subset of user types at a time will narrow the developer and customer success team's focus, making debugging and prioritizing fixes easier.
+There are always going to be immediate bug fixes and customer asks in the aftermath of a release. Initially scoping a big release to a subset of user types at a time will narrow the developer and customer success team's focus, making debugging and prioritizing fixes easier.
 
 #### Practice data migrations often
 **Recommendation**: Do dry runs of any critical data or infrastructure migrations.
@@ -64,7 +64,7 @@ Launches often have predictable support requests, such as:
 * "This is broken."
 * "I can't find Z."
 
-Preparing responses ahead of time allows the customer support team to give the same suppport to anyone facing a predictable issue, allowing them to focus their energies on unexpected support needs. It also helps ensure a better, customer experience as users are consistently given thorough and well-thought-out answers to these common problems.
+Preparing responses ahead of time allows the customer support team to give the same guidance to anyone facing a predictable issue, allowing them to focus their energies on unexpected support needs. It also helps ensure a better, customer experience as users are consistently given thorough and well-thought-out answers to these common problems.
 
 ### Pushing back against Big Bang Release releases
 Partners are often deeply attached to big bang releases, but there are strategies you can deploy to try to convince partners to pivot to a smaller, more iterative release strategy.
@@ -84,7 +84,7 @@ Partners have a valid fear of the ATO process, and may be nervous that they must
 *Mitigation strategies:*
 * Engage security and ATO personnel early in the development process, or, ideally, embed someone onto the project team who can help advise. This strategy (among other improvements) helped GSA bring average ATO time from [six months to thirty days](https://18f.gsa.gov/2018/07/19/taking-the-ato-process-from-6-months-to-30-days/).
 * Familiarize yourself with TTS's [Launching Software](https://handbook.tts.gsa.gov/#launching-software) strategies so you can personally help alleviate some of their concerns.
-* Teams at 18F have also found success in employing the "Walking Skeleton" technique, where the main architectural components of a system are deployed early in a minumum viable way. Frontloading the infrastructure work creates an MVP for ATO work, and makes space for early compliance and security oversight.
+* Teams at 18F have also found success in employing the "Walking Skeleton" technique, where the main architectural components of a system are deployed early in a minimum viable way. Frontloading the infrastructure work creates an MVP for ATO work, and makes space for early compliance and security oversight.
 
 #### Legislative mandate
 When the system is a byproduct of a legislative mandate, there can be political or legal implications if a deadline is missed.  A mandate for a specific type or level of service may make partners wary of more iterative work.

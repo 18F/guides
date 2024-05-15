@@ -139,7 +139,7 @@ When choosing a JavaScript web framework, also consider if vanilla JavaScript wo
 #### When to use
 - Single page apps that requires data manipulation on the front end without a server side request/response architecture.
 - When there's a strong need to render JavaScript based UI on the server due to performance or accessibility reasons.
-- JavaScript UI that incorperates many nested components.
+- JavaScript UI that incorporates many nested components.
 - A UI with many components and updates that needs to be performance conscious.
 - When only a "view" framework is desired/required.
 - To ensure all front-end components conform to a single standard.

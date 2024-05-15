@@ -83,7 +83,7 @@ If you genuinely need to delete something, give users a path to find what they n
 
 - [A Sestina on Sunsetting Content](https://18f.gsa.gov/2016/05/23/a-sestina-on-sunsetting-content/), 18F Blog
 - [Guidance on Managing Web Records](https://www.archives.gov/records-mgmt/policy/managing-web-records-index.html), National Archives and Records Administration
-- [Withdrawing and Unpublishing Content, and Labelling Content from Previous Governments](https://www.gov.uk/guidance/content-design/gov-uk-content-retention-and-withdrawal-archiving-policy), GOV.UK
+- [Withdrawing or Unpublishing Content, and Content from Previous Governments](https://www.gov.uk/guidance/content-design/gov-uk-content-retention-and-withdrawal-archiving-policy), GOV.UK
 - [Unpublishing and Withdrawing ('Archiving')](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/unpublishing-and-archiving), GOV.UK
 - [Best Practice for Archiving and Deleting Content](http://www.contentstrategyinc.com/best-practices-for-archiving-and-deleting-content/), Content Strategy Inc.
 - [How Should You Handle Expired Content?](https://moz.com/blog/how-should-you-handle-expired-content), Moz
