@@ -164,7 +164,7 @@ We most commonly share our research findings via presentations. These presentati
 Avoid stereotyping and generalizing in how you present findings, especially when talking about underserved communities and historically marginalized groups. Critically look at the quotes and information collected to determine if a quote may reinforce stereotypes.
 
 - Contextualize quotes from participants. You should not assume identity based on appearance, rely solely on a participant’s self-identification.
-- Resist flattening complexity by oversimplifying peoples' expereinces by making the inherent complexity clearer. 
+- Resist flattening complexity by oversimplifying peoples' experiences by making the inherent complexity clearer. 
 - Instead of “LGBT+ people felt included with our new form design.” Try something like, “The two participants who selected the non-binary gender option remarked this addition made them feel included.”
 - Methodological triangulation (using multiple data sets; for example, augmenting qualitative interview data with quantitative statistical data) can help minimize the risk of unintentionally perpetuating biases expressed by individual interview participants
 

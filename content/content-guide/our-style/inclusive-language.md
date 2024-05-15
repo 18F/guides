@@ -40,7 +40,7 @@ This page is not exhaustive, but aims to provide principles, resources, and spec
 
 ## Ability and disability
 
-Every person is a whole person — no matter how they interact with the world. Focus on what they need to do, what tools they use, and avoid making assumptions. If a person’s situation, medical condition, illness, or injury is relevant to the content, be as specific as possible and avoid inserting value judgements about their circumstance (for example, use _has multiple sclerosis_, not _is afflicted with_ or _suffers from_).
+Every person is a whole person — no matter how they interact with the world. Focus on what they need to do, what tools they use, and avoid making assumptions. If a person’s situation, medical condition, illness, or injury is relevant to the content, be as specific as possible and avoid inserting value judgments about their circumstance (for example, use _has multiple sclerosis_, not _is afflicted with_ or _suffers from_).
 
 Just like with language around race, gender, or other identities, it’s always best to ask people how they identify rather than assuming. For help finding appropriate or accurate language, see the [Disability Language Style Guide](http://ncdj.org/style-guide/) from the National Center on Disability and Journalism.
 

@@ -61,7 +61,7 @@ Describe factors that the research will need to account for, including any share
 
 Design research is fundamentally about reducing risk and informing decisions. When writing your goals, use verbs that specify the output like “describe,” “evaluate,” “quantify,” or “identify.” Avoid vague words like “understand” or “explore.” Example goals could include: “describe user goals and pain points,” or “identify and evaluate the hypothesis behind our proposed design.”
 
-Make sure your goals work towards concrete positive change for your audiences. Goals poorly written can reinforce structural problems or only adress surface level issues. 
+Make sure your goals work towards concrete positive change for your audiences. Poorly-written goals can reinforce structural problems or only address surface level issues. 
 
 Research can also have subgoals. For example, some agencies choose to work with 18F to learn more about our approach. Explicitly stating these kinds of subgoals helps provide an honest account of the coaching work that the team will undertake alongside the research itself.
 
@@ -75,7 +75,7 @@ Next, engage your team in a conversation about bias. Bias is always present in r
 
 ### Research questions
 
-Research questions are high-level questions that reflect what you want to learn to make better evidence-based decisions. Research questions are different from interview questions. Research questions should be relevant, actionable, and practical. They should also be [ethical]({{ '../../research/ethics/' | url }}): consider whether answering your research questions would put participants in a compromising position. For example, studying the degree to which participants adhere to a law or policy enforced by the researcher’s own office or institution could jeopardize participants’ careers and/or pose authority and coercion issues. Take care when asking participants questions that might unintentionally exclude or harm interviewees. It’s your responsibility to make sure that participants' experience in your research session as smooth and painless as possible expecially when asking about what isn’t working about a product/service, or bringing up potentially sensitive emotional experiences. 
+Research questions are high-level questions that reflect what you want to learn to make better evidence-based decisions. Research questions are different from interview questions. Research questions should be relevant, actionable, and practical. They should also be [ethical]({{ '../../research/ethics/' | url }}): consider whether answering your research questions would put participants in a compromising position. For example, studying the degree to which participants adhere to a law or policy enforced by the researcher’s own office or institution could jeopardize participants’ careers and/or pose authority and coercion issues. Take care when asking participants questions that might unintentionally exclude or harm interviewees. It’s your responsibility to make sure that a participant's experience in your research session is as smooth and painless as possible, particularly when asking about what isn’t working about a product/service or bringing up potentially sensitive emotional experiences. 
 
 - **Bad question:** How do we get unemployed adults interested in our website?
 (This question is bad because it isn’t directly focused on users and their goals; it also assumes that a website is the right solution for unemployed adults.)
@@ -181,7 +181,7 @@ We have a responsibility to further the best interests of the people impacted by
 - Mitigate the chances of triggering a trauma response by not recruiting people at their most vulnerable 
   - For example, if your project is to develop a person centered addiction recovery website, instead of someone actively experiencing addiction you might recruit people who are at least 30 days into their recovery journey or the friends and family of people expreincing addiction or in recovery 
 - Protect employee safety during internal research 
-  - We want stakeholders to be engaged, but having them observe usability tests and interviews of collegues might cause participants anxiety or diminished honesty in conversations about topics that might have potential repercussions to their jobs or relationships
+  - We want stakeholders to be engaged, but having them observe usability tests and interviews with colleagues might cause participants anxiety or diminished honesty in conversations about topics that might have potential repercussions to their jobs or relationships
 
 
 #### Recruitment for demographic diversity
