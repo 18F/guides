@@ -42,7 +42,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
-    "html-validate": "^8.18.2",
+    "html-validate": "^8.19.0",
     "js-yaml": "^4.1.0",
     "jsdom": "^22.1.0",
     "markdown-it": "^12.3.2",
