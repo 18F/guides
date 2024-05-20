@@ -31,7 +31,6 @@ subnav:
 
 Planning ensures that everyone’s time is respected throughout the research process, and helps the team adapt its approach in response to the real world.
 
-
 ## Writing a research plan
 
 A research plan (sometimes also called a research protocol), describes the design of your research. Typical 18F research plans include:
