@@ -323,7 +323,6 @@ Hold a meeting to bring the team — including your agency partners — together
 Create an agenda and invite anyone who has an interest in the team’s research. Depending on where you’re at in the design process, you might begin the meeting with level-setting exercises such as:
 
 - [Hopes and fears exercise [18F Design methods]](https://guides.18f.gov/methods/discover/hopes-and-fears/)
-- [Research-alignment exercise]({{ '/ux-guide/research/alignment-workshop/' | url }})
 - User groups identification
 
 Next, review and confirm elements listed in the research plan. It’s especially important to confirm:
