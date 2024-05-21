@@ -31,6 +31,8 @@ subnav:
     href: "#dependency-management"
   - text: Deployment infrastructure
     href: "#deployment-infrastructure"
+  - text: Infrastructure as Code
+    href: "#infrastructure-as-code"
 ---
 
 While the specific setup for each TTS project varies widely, there are certain elements that should be present in all source code repositories. This document aims to detail those elements and suggest corresponding tools and resources.
@@ -72,6 +74,7 @@ Below is an aspirational list of configuration and files for a source code repos
 1. [Accessibility scanning](https://guides.18f.gov/engineering/accessibility-scanning/) (e.g., [Pa11y](https://pa11y.org/) {% include "engineering/tag-default.html" %})
 1. Integration test setup (e.g., [Selenium](https://www.selenium.dev/) {% include "engineering/tag-suggestion.html" %})
 1. Visual regression setup (e.g., [Backstop](https://github.com/garris/BackstopJS) {% include "engineering/tag-suggestion.html" %})
+1. [Infrastructure as Code](#infrastructure-as-code) (e.g., [Terraform](https://www.terraform.io/) {% include "engineering/tag-default.html" %})
 
 ## Branch protection {% include "engineering/tag-requirement.html" %}
 Set up branch protection rules for each repository. It's a good practice to prevent mistakes like an accidental force-push to main.
@@ -128,3 +131,17 @@ Developers needing to deploy their code beyond their local environment should us
 - or [Federalist](https://handbook.tts.gsa.gov/federalist/) (for static web sites) {% include "engineering/tag-standard.html" %}
 
 {% include "engineering/tag-caution.html" %} The use of tools such as `localtunnel` and `ngrok`, which make your locally running services visible to the internet, are not allowed because they present a large security concern. Consult [`#infrastructure`](https://gsa-tts.slack.com/archives/C039MHHF8) on Slack for any questions.
+
+## Infrastructure as Code
+
+When developers are responsible for setting up or configuring infrastructure, it is best to record the steps or configuration as reproducible code.
+
+A shell script is better than nothing and highly encouraged if infrastructure is simple. ([Example](https://github.com/18F/revampd/blob/develop/bin/setup-cloudgov)).
+
+Many cloud providers like Azure or AWS provide APIs for controlling their resources. [Terraform](https://www.terraform.io/) {% include "engineering/tag-default.html" %} is a wrapper over these APIs. You can write source-controlled configuration files (or even let Terraform generate them from existing deployments) and then use Terraform to create, modify, or delete resources. ([Example](https://github.com/18F/dns)). This is particularly handy when you need multiple environments (dev, staging, prod, etc) that differ only in small details.
+
+Be aware that you might encounter difficulty in managing user roles and permissions with Terraform and cloud.gov. See [this issue](https://github.com/GSA/data.gov/issues/1556) for context.
+
+{% include "engineering/tag-caution.html" %} As of 2023, Terraform is no longer open source. A fork, [OpenTofu](https://opentofu.org/), exists, which is stewarded by the Linux Foundation. You are welcome to use OpenTofu if it works for you and your partner; it may eventually become the default at TTS.
+
+Finally, although in many cases it is good to use containerized images, if it is necessary to do system configuration tasks on a physical server or a virtual machine, [Ansible](https://docs.ansible.com/) or [Chef](https://github.com/chef/chef) are tools to write down these tasks as playbooks or recipes and re-run them whenever needed.
