@@ -29,7 +29,7 @@ method:
 
 ## Additional resources
 
-- [Interview checklist]({{ "https://guides.18f.gov/ux-guide/interview-checklist/" | url }})
+- [Interview checklist]({{ "/ux-guide/interview-checklist/" | url }})
 - [Tips for capturing the best data from user interviews — 18F Blog](https://18f.gsa.gov/2016/02/09/tips-for-capturing-the-best-data-from-user-interviews/){.usa-link .usa-link--external}
 - [Build empathy with stakeholder interviews, part 1: Preparation — 18F Blog](https://18f.gsa.gov/2016/06/20/build-empathy-with-stakeholder-interviews-part-1-preparation/){.usa-link .usa-link--external}
 - [Build empathy with stakeholder interviews, part 2: Conversation — 18F Blog](https://18f.gsa.gov/2016/07/22/building-empathy-with-stakeholder-interviews-part-2-conversation/){.usa-link .usa-link--external}

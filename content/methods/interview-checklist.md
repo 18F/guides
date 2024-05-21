@@ -98,7 +98,7 @@ Once the interview is complete, **spend 15 minutes** completing a post-interview
 
 ### Make sure to
 - If you’ve recorded the interview: Move any recordings from your Google Drive to the project folder
-- Engage the team in a post-interview debrief ([example]({{ "https://guides.18f.gov/ux-guide/interview-debrief/" | url }})) to discuss surprises and reflect on what you heard
+- Engage the team in a post-interview debrief ([example]({{ "/ux-guide/interview-debrief/" | url }})) to discuss surprises and reflect on what you heard
 - Consider updating the interview guide based on this interview
 - If you promised the participant any follow-up communications, identify who will send them and when
 - Optional: Update your study contact list

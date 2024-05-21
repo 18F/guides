@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
 
 <div class="example-user-interview-script">
 
-This document is designed as a useful starting point for leading a user interview. It includes example questions grouped along the key moments often found in an interview: introductions, warm-up, topic-specific questions, demos, etc. Edit these questions as you see fit. If your questions are specific or your user’s time scarce, consider sharing some questions ahead of time.  See [this checklist]({{ "https://guides.18f.gov/ux-guide/interview-checklist/" | url }}) for running an interview. GSA Staff, please see this [Google Doc Template](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)
+This document is designed as a useful starting point for leading a user interview. It includes example questions grouped along the key moments often found in an interview: introductions, warm-up, topic-specific questions, demos, etc. Edit these questions as you see fit. If your questions are specific or your user’s time scarce, consider sharing some questions ahead of time.  See [this checklist]({{ "/ux-guide/interview-checklist/" | url }}) for running an interview. GSA Staff, please see this [Google Doc Template](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)
 
 ## Introduction
 
@@ -62,7 +62,7 @@ What’s one thing you wish were more straightforward about `[topic]`?
 
 ## Demo
 
-_Note: If you’re running a usability test, consider this [example usability test script]({{ "https://guides.18f.gov/ux-guide/usability-test-script/" | url }}) instead._
+_Note: If you’re running a usability test, consider this [example usability test script]({{ "/ux-guide/usability-test-script/" | url }}) instead._
 
 Thanks. Now I’m going to ask you to consider how you might respond to the following scenarios using this website. I’m going to read each scenario out loud, and I’ll also share the text of the scenario via chat.
 
