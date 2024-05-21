@@ -137,7 +137,7 @@ Most 18F interview guides include these sections:
 - Concluding thanks, questions, and opportunities to follow up
 - Ask who else you should meet with (if appropriate)
 
-For starting points, see this [example interview guide [18F design methods]](https://guides.18f.gov/methods/interview-script/) ([Google Docs example interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).
+For starting points, see this [example interview guide [18F design methods]](https://guides.18f.gov/ux-guide/interview-script/) ([Google Docs example interview guide](https://docs.google.com/document/d/1kju19eC5vjqAd6bZCprniLixr1_u1b4Qfs1zVwTn6UA/edit#)).
 
 When interviewing stakeholders, ask about their work as it relates to your research area of focus. Ask about business processes in which they play a role, the information and tools they use, the things they produce or make, and the decisions they’re responsible for. Ask about the people they work with on a regular basis and any challenges they face.
 
