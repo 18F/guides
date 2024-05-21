@@ -35,9 +35,6 @@ As indicated below, some of these resources are available only to staff of GSA (
 [Research plan]({{ '/ux-guide/resources/research-plan/' | url }}). ([Google Doc research Plan](https://docs.google.com/document/d/1M3GP1JWW9mlZAAONklogurd8qXZLLgBqcKfU5HiS9h0/edit#)).  
 Prompts for planning research. Pairs well with our [research planning]({{ '/ux-guide/research/plan/' | url }}) article.
 
-[Research alignment workshop]({{ '/ux-guide/research/alignment-workshop/' | url }}). ([Google Doc Research alignment workshop](https://docs.google.com/document/d/1NI_riUcrxaMaHihxzHOsr5Gr1n-FxAIqGZ5wzKt3wh4/edit#)).  
-A workshop template for publicizing team questions and prioritizing research themes, setting you up to create a research plan that drives maximum value for your team.
-
 [Usability test quality heuristics]({{ '/ux-guide/usability-test-quality-heuristics/' | url }}). ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)).  
 A list of indicators to help you and your team determine if your usability test will produce useful results.
 

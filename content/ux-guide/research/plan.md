@@ -31,7 +31,6 @@ subnav:
 
 Planning ensures that everyone’s time is respected throughout the research process, and helps the team adapt its approach in response to the real world.
 
-
 ## Writing a research plan
 
 A research plan (sometimes also called a research protocol), describes the design of your research. Typical 18F research plans include:
@@ -83,7 +82,6 @@ Research questions are high-level questions that reflect what you want to learn 
 
 Consider holding a research alignment workshop to help stakeholders share and discuss what they’re interested in learning. Regardless of how you build alignment, focus on the value of obtaining useful information.
 
-- [Research alignment workshop plan]({{ '/ux-guide/research/alignment-workshop/' | url }}).  ([Research alignment workshop plan in Google Docs](https://docs.google.com/document/d/1NI_riUcrxaMaHihxzHOsr5Gr1n-FxAIqGZ5wzKt3wh4/edit#heading=h.aou5xt3rvfpf))
 - [Research alignment presentation slides](https://docs.google.com/presentation/d/16z-oauPeHeBeVxYS3TFRXGFld4uVUEsUjAFZ87fM_IE/edit#slide=id.g4c9bb7ecb1_0_4)
 
 ### Methods
@@ -325,7 +323,6 @@ Hold a meeting to bring the team — including your agency partners — together
 Create an agenda and invite anyone who has an interest in the team’s research. Depending on where you’re at in the design process, you might begin the meeting with level-setting exercises such as:
 
 - [Hopes and fears exercise [18F Design methods]](https://guides.18f.gov/methods/discover/hopes-and-fears/)
-- [Research-alignment exercise]({{ '/ux-guide/research/alignment-workshop/' | url }})
 - User groups identification
 
 Next, review and confirm elements listed in the research plan. It’s especially important to confirm:
