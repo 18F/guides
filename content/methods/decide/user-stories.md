@@ -19,7 +19,6 @@ method:
 ---
 
 ## How to do it{#how-user-stories}
-<!-- 1. Gather any documents that describe the different use cases or [scenarios]({{ "/methods/decide/user-scenarios/" | url }}) in which users will interact with your service. -->
 1. Start by defining the project’s [epics](https://tech.gsa.gov/guides/glossary/#epic){.usa-link .usa-link--external} – typically the larger, high-level “themes” or bodies of work that make up the initiative.
 1. Break down each epic into pieces of work that can be independently estimated, developed, and tested. These will become your user stories.
 1. For each piece of work you identified, write a story from the user’s perspective of who they are, what they want to do, and why. User stories typically follow this template:
