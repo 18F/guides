@@ -39,7 +39,7 @@ method:
 
 ## Additional resources{#add-personas}
 
-- [Agile – 18F Guides]({{"/agile" | url}}){.usa-link .usa-link--external}
+- [Agile – 18F Guides]({{ "/agile/" | url}}){.usa-link .usa-link--external}
 - [Agile software development – 18F Federal Field Guide]({{"/derisking/federal-field-guide/basic-principles/#agile-software-development" | url}}){.usa-link .usa-link--external}
 - [Writing Effective User Stories – Tech at GSA](https://tech.gsa.gov/guides/effective_user_stories/){.usa-link .usa-link--external}
 - [User Story Examples – Tech at GSA](https://tech.gsa.gov/guides/user_story_example/){.usa-link .usa-link--external}
