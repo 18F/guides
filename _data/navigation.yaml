@@ -172,6 +172,8 @@ methods:
         url: /methods/decide/task-flow-analysis/
       - name: User scenarios
         url: /methods/decide/user-scenarios/
+      - name: User stories
+        url: /methods/decide/user-stories/
       - name: See all Decide cards
         url: /methods/decide/
   - name: Make
