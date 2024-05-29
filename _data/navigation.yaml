@@ -8,8 +8,6 @@ accessibility:
 agile:
   - name: Home
     url: /agile/
-  - name: More 18F guides
-    url: https://18f.gsa.gov/guides/
 
 brand:
   - name: Introduction
