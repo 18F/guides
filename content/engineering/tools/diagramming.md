@@ -31,7 +31,7 @@ Also, some people can't see colors or contrast very well, so avoid small fonts, 
 
 ## Mermaid
 
-[Mermaid](https://mermaid.js.org/intro/) is a JavaScript library for diagram rendering. Diagram code is written in Mermaid's own DSL (domain specific language). Cloud.gov does some of [their diagrams](diagrams.fr.cloud.gov) using it; the source code is in their [diagram repository](https://github.com/cloud-gov/cg-diagrams).
+[Mermaid](https://mermaid.js.org/intro/) is a JavaScript library for diagram rendering. Diagram code is written in Mermaid's own DSL (domain specific language). Cloud.gov does some of [their diagrams](https://diagrams.fr.cloud.gov/) using it; the source code is in their [diagram repository](https://github.com/cloud-gov/cg-diagrams).
 
 It also has [inline rendering support from GitHub](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) which makes it a good choice if you'd like to include diagrams as code directly in a markdown file to be viewed on GitHub's website.
 
@@ -43,7 +43,7 @@ Diagrams are typically rendered to an image file, like png.
 
 ## PlantUML (PUML)
 
-[PlantUML](https://plantuml.com/) is the heavy lifter in our diagramming toolbox. In spite of "UML" in the name, it renders many types of diagrams. It requires a Java runtime (and sometimes Graphviz) to generate diagrams. Diagram code is written in PlantUML's own DSL. Cloud.gov does some of [their diagrams](diagrams.fr.cloud.gov) using it; the source code is in their [diagram repository](https://github.com/cloud-gov/cg-diagrams).
+[PlantUML](https://plantuml.com/) is the heavy lifter in our diagramming toolbox. In spite of "UML" in the name, it renders many types of diagrams. It requires a Java runtime (and sometimes Graphviz) to generate diagrams. Diagram code is written in PlantUML's own DSL. Cloud.gov does some of [their diagrams](https://diagrams.fr.cloud.gov/) using it; the source code is in their [diagram repository](https://github.com/cloud-gov/cg-diagrams).
 
 The [PlantUML standard library](https://github.com/plantuml-stdlib/C4-PlantUML) supports [the C4 Model for representing system architecture](https://c4model.com/) well. You can see [examples of C4 PlantUML](https://github.com/GSA/datagov-compliance) for data.gov.
 
