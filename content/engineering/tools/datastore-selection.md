@@ -10,7 +10,7 @@ layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
   key: Datastore selection
-  order: 9
+  order: 10
   title: Datastore selection
 subnav:
   - text: Our use case

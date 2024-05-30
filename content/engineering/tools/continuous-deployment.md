@@ -10,7 +10,7 @@ layout: layouts/page
 eleventyNavigation:
   parent: engineering_tools
   key: Continuous deployment
-  order: 8
+  order: 9
   title: Continuous deployment
 subnav:
   - text: Pre-requisites
