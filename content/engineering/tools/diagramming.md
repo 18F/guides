@@ -45,7 +45,7 @@ Diagrams are typically rendered to an image file, like png.
 
 [PlantUML](https://plantuml.com/) is the heavy lifter in our diagramming toolbox. In spite of "UML" in the name, it renders many types of diagrams. It requires a Java runtime (and sometimes Graphviz) to generate diagrams. Diagram code is written in PlantUML's own DSL. Cloud.gov does some of [their diagrams](https://diagrams.fr.cloud.gov/) using it; the source code is in their [diagram repository](https://github.com/cloud-gov/cg-diagrams).
 
-The [PlantUML standard library](https://github.com/plantuml-stdlib/C4-PlantUML) supports [the C4 Model for representing system architecture](https://c4model.com/) well. You can see [examples of C4 PlantUML](https://github.com/GSA/datagov-compliance) for data.gov.
+The [PlantUML standard library](https://github.com/plantuml-stdlib/C4-PlantUML) supports [the C4 Model for representing system architecture](https://c4model.com/) well. For examples, see [data.gov's diagrams](https://github.com/GSA/datagov-compliance) or [Tock's diagrams](https://github.com/18F/tock/tree/main/docs/diagrams).
 
 The TTS [rails-template](https://github.com/18F/rails-template/tree/main/templates/doc/compliance) comes with instructions for using PlantUML to help with the ATO (authority to operate) process.
 
