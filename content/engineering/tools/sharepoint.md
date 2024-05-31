@@ -10,7 +10,7 @@ layout: layouts/page
 eleventyNavigation: 
   parent: engineering_tools
   key: SharePoint primer
-  order: 11
+  order: 12
   title: SharePoint primer
 subnav:
   - text: SharePoint presentation methods

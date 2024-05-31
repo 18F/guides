@@ -10,7 +10,7 @@ layout: layouts/page
 eleventyNavigation:
   parent: engineering_tools
   key: Choosing a web app architecture
-  order: 10
+  order: 11
   title: Choosing a web app architecture
 subnav:
   - text: Why push for simplicity
