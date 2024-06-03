@@ -176,10 +176,10 @@ Review your recruitment criteria with your team. Make sure you’re planning to 
 
 We have a responsibility to further the best interests of the people impacted by our works and to avoid actions that might bring harm to research participants.  
 
-- Mitigate the chances of triggering a trauma response by not recruiting people at their most vulnerable 
-  - For example, if your project is to develop a person centered addiction recovery website, instead of someone actively experiencing addiction you might recruit people who are at least 30 days into their recovery journey or the friends and family of people experiencing addiction or in recovery 
-- Protect employee safety during internal research 
-  - We want stakeholders to be engaged, but having them observe usability tests and interviews with colleagues might cause participants anxiety or diminished honesty in conversations about topics that might have potential repercussions to their jobs or relationships
+- Mitigate the chances of triggering a trauma response by not recruiting people at their most vulnerable. 
+  - For example, if your project is to develop a person centered addiction recovery website, instead of someone actively experiencing addiction you might recruit people who are at least 30 days into their recovery journey or the friends and family of people experiencing addiction or in recovery. 
+- Protect employee safety during internal research. 
+  - We want stakeholders to be engaged, but having them observe usability tests and interviews with colleagues might cause participants anxiety or diminished honesty in conversations about topics that might have potential repercussions to their jobs or relationships.
 
 
 #### Recruitment for demographic diversity
