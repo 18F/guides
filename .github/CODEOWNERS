@@ -16,18 +16,16 @@
 # or the Chief of Delivery.
 * @18F/18f-tlc-crew # @adunkman
 
+
 # Guides are currently organized by general topic area, and content approvals are 
 # delegated to relevant subject matter experts.
-
-# Oct 2023: Commenting these out while we replatform
-# https://github.com/18F/guides/pull/65#issuecomment-1783084851
 
 /content/accessibility/**/*.md   @jasnakai
 /content/agile/**/*.md           @adunkman
 /content/brand/**/*.md           @igorkorenfeld
 /content/content-guide/**/*.md   @michelle-rago
 /content/derisking/**/*.md       @adunkman
-# /content/design/**/*.md          @MelissaBraxton
+/content/methods/**/*.md          @MelissaBraxton
 /content/eng-hiring/**/*.md      @amymok
 /content/engineering/**/*.md     @amymok
 /content/product/**/*.md         @lalitha-jonnalagadda
