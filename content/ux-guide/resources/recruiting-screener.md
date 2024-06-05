@@ -1,6 +1,6 @@
 ---
 title: Recruiting screener [template]
-description: An example form for finding research participants in your target audience
+description: An example form to find research participants in your target audiences
 permalink: /ux-guide/resources/recruiting-screener/
 layout: layouts/page
 tags: ux-guide

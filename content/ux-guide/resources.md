@@ -38,6 +38,9 @@ Prompts for planning research. Pairs well with our [research planning]({{ '/ux-g
 [Usability test quality heuristics]({{ '/ux-guide/usability-test-quality-heuristics/' | url }}). ([Google Docs usability test quality heuristics](https://docs.google.com/document/d/1qfGp3H1pdOlNbMYuJNQGyBIkpOcQErduDAl0adv1X-w/edit)).  
 A list of indicators to help you and your team determine if your usability test will produce useful results.
 
+[Recruiting screener]({{ '/ux-guide/resources/recruiting-screener/' | url }}).  
+An example form to find research participants in your target audiences.
+
 ### Privacy and informed consent
 18F’s Design Research is covered by [GSA's Privacy Act Statement for Design Research.](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research)
 
