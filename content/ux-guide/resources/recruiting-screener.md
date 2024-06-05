@@ -5,8 +5,8 @@ permalink: /ux-guide/resources/recruiting-screener/
 layout: layouts/page
 tags: ux-guide
 eleventyNavigation: 
-  parent: 
-  key: 
+  parent: Resources
+  key: Recruiting screener
   order: 1
   title: Recruiting screener
 sidenav: true
