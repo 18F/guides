@@ -14,8 +14,8 @@ sticky_sidenav: true
 subnav:
   - text: Standard questions
     href: "#standard-questions"
-  - text: Questions to avoid unless necessary
-    href: "#avoid"
+  - text: Questions to avoid unless necessary for the research goals
+    href: "#questions-to-avoid"
 ---
 
 ## Participate in research for `[Example.gov]`
