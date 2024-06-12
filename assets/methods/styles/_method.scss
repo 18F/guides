@@ -44,8 +44,10 @@
   border-top: 8px solid;
   font-size: font-size('heading',xl);
   font-weight: font-weight('bold');
+  line-height: line-height('heading', 3);
   margin-top: units(2);
   padding-top: units(3);
+  
 }
 
 .method--title a,
