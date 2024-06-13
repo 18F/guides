@@ -5,7 +5,7 @@ layout: layouts/page
 tags: ux-guide
 ---
 
-Hey `[Participant name]`,  
+Hey `[Participant Name]`,  
 
 My name’s `[Researcher name]`. I'm a researcher working with `[Agency partner]` to incorporate feedback into our design process. I’m reaching out to you to see if you’re interested in participating in `[Research method]`.
 
