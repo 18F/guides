@@ -47,6 +47,6 @@ As government leaders, we must be good stewards of public money by demanding eas
 **Next**: [Basic principles of modern software design]({{ "/derisking/state-field-guide/basic-principles/" | url }})
 
 ### Footnotes
-[^13pct]: Projects valued at $6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group’s "<a href="https://www.standishgroup.com/sample_research_files/Haze4.pdf">Haze</a>," based on their CHAOS database.
+[^13pct]: Projects valued at $6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group based on their CHAOS database.
 
 [^ineffective]: Of the $90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "<a href="https://www.gao.gov/products/GAO-19-471">Agencies Need to Develop Modernization Plans for Critical Legacy Systems</a>." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs.

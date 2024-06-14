@@ -384,9 +384,9 @@ It is no kindness to fund a project that is going to fail. If the agency doesn�
 
 [^etc]: For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software maintenance is an anti-pattern"</a> on the 18F blog.
 
-[^project]: In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than $10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million.
+[^project]: In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that software projects that cost more than $10 million succeed only 8% of the time. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million.
 
-[^markedly]: In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects’ outcomes get worse as more money is spent</a>. Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed.
+[^markedly]: In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that software projects’ outcomes get worse as more money is spent. Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed.
 
 [^state]: Alaska’s Department of Health &amp; Social Services faced this challenge in 2017, and their Contracts and Procurement Manager wrote about the process that they used to attract small, agile, Alaskan vendors in "<a href="https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/">How Alaska is using transparency to attract modern software vendors</a>."
 

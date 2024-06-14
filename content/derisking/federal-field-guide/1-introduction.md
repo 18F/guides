@@ -49,4 +49,4 @@ Some portions of this handbook were written specifically as part of this broader
 **Next**: [Basic principles of modern software design]({{ "/derisking/federal-field-guide/basic-principles/" | url }})
 
 ### Footnotes
-[^successful]: Projects valued at $6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group’s "<a href="https://www.standishgroup.com/sample_research_files/Haze4.pdf">Haze</a>," based on their CHAOS database.
+[^successful]: Projects valued at $6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group based on their CHAOS database.
