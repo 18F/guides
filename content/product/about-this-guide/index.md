@@ -16,7 +16,7 @@ eleventyNavigation:
 
 The 18F Product Guide is primarily written for consulting product managers at 18F, offering resources for product management best practices across multiple phases and types of consulting work. This guide also communicates what a team might expect from a product manager. As such, we hope it will be a useful reference for <em>anyone</em> new to product management in government or new to working with a product manager.
 
-## How to use this guide
+## How to use this guide as an 18F Product Manager
 
 As a product manager at 18F, you may find yourself in a partner-facing consulting role to help a government agency build or buy a mission-critical product. As we work across the entire federal government and can now support state and local governments, you may encounter subject matter that is entirely new to you. Or, you may be working on one of TTS’ flagship products, like [cloud.gov Pages](https://cloud.gov/pages), [cloud.gov](https://cloud.gov/) or [login.gov](https://login.gov/).
 
