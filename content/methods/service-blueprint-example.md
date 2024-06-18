@@ -16,14 +16,14 @@ eleventyExcludeFromCollections: true
 <div class="layout--service-blueprint-example">
   <section class="category category--decide usa-section usa-prose">
     <section class="example-card grid-container">
-      <a class="usa-button usa-button--base" href="/methods/decide/service-blueprint/">Back to Service Blueprint Methods</a>
+      <a class="usa-button usa-button--base" href="/methods/decide/service-blueprint/">Back to service blueprint card</a>
 
       <h1>Service blueprint example</h1>
       <div class="grid-col-10">
 
         This simple [service blueprint]({{ "/methods/decide/service-blueprint/" | url }}) is an example of how you might lay out the layers of your service. There are many ways to create a service blueprint and adapt the structure to best represent and capture your context.
       
-        <p class="caption">This is a table showing an example service blueprint. The top row is the journey of a customer ordering and eating at a fast food restaurant. Each column is a different step in the customer's journey. The remaining rows describe different parts of the service and the support provided at each step in the customer’s journey.</p>
+        <p class="caption"><i>This is a table showing an example service blueprint. The top row is the journey of a customer ordering and eating at a fast food restaurant. Each column is a different step in the customer's journey. The remaining rows describe different parts of the service and the support provided at each step in the customer’s journey.</i></p>
 
       </div>
       <div class="usa-table-container--scrollable sticky-table-col" tabindex="0">
