@@ -92,7 +92,7 @@ When referring to a person’s race or ethnicity, use adjectives, not nouns (for
 
 ### Media style guides for race, ethnicity, and religion
 
-- [National Association of Black Journalists Style Guide](http://www.nabj.org/?styleguide)
+- [National Association of Black Journalists Style Guide](https://nabjonline.org/news-media-center/styleguide/)
 - [Guidance from the Asian American Journalists Association](https://www.aaja.org/news-and-resources/guidances/)
 - [Native American Journalists Association Reporter's Indigenous Terminology Guide](https://najanewsroom.com/wp-content/uploads/2018/11/NAJA_Reporting_and_Indigenous_Terminology_Guide.pdf)
 - [Religion Newswriters Association's Religion Stylebook](http://religionstylebook.com/)
