@@ -78,7 +78,6 @@ While you are welcome to customize your laptop, here are some tools that have wo
 * [Firefox] for testing your website on a browser other than Chrome
 * [iTerm2] - an awesome replacement for the OS X Terminal
 * [reattach-to-user-namespace] to allow copy and paste from Tmux
-* [Spectacle] - automatic window manipulation
 * [Sublime Text 3] for coding all the things
 * [Tmux] for saving project state and switching between projects
 * [Vim] for those who prefer the command line
@@ -89,7 +88,6 @@ While you are welcome to customize your laptop, here are some tools that have wo
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
 [iTerm2]: http://iterm2.com/
 [reattach-to-user-namespace]: https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard
-[Spectacle]: https://www.spectacleapp.com/
 [Sublime Text 3]: http://www.sublimetext.com/3
 [Tmux]: https://tmux.github.io/
 [Vim]: http://www.vim.org/
