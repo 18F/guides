@@ -34,7 +34,7 @@ subnav:
 
 **About this template:** A research plan is a living document. Sections can be added and removed as needed, and details added as you have them.
 
-[Read more about how to write a research plan](/ux-guide/research/plan/#methods)**.**
+[Read more about how to write a research plan](/ux-guide/research/plan/#writing-a-research-plan)**.**
 
 # **Title of research plan — [Name of effort] [method of research] [target participants]**
 
