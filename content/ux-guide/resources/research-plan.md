@@ -1,5 +1,5 @@
 ---
-title: Research plan
+title: "Resource: Research plan"
 description: "A high-level overview of questions, goals, roles, methods, and timelines for conducting research at 18F."
 permalink: /ux-guide/resources/research-plan/
 layout: layouts/page

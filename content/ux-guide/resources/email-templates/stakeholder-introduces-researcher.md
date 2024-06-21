@@ -1,5 +1,5 @@
 ---
-title: Email template - Stakeholder introduces researcher
+title: "Resource: Stakeholder introduces researcher"
 permalink: /ux-guide/resources/email-templates/stakeholder-introduces-researcher/
 layout: layouts/page
 tags: ux-guide

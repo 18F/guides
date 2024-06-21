@@ -1,5 +1,5 @@
 ---
-title: Interview guide [template]
+title: "Resource: Interview guide"
 description: An example script for use while leading a user interview
 permalink: /ux-guide/interview-script/
 layout: layouts/page

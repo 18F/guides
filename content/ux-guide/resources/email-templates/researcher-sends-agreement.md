@@ -1,5 +1,5 @@
 ---
-title: Email template - Researcher sends agreement to a participant
+title: "Resource: Researcher sends agreement to a participant"
 permalink: /ux-guide/resources/email-templates/researcher-sends-agreement/
 layout: layouts/page
 tags: ux-guide

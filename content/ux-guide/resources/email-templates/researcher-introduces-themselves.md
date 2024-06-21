@@ -1,5 +1,5 @@
 ---
-title: Email template - Researcher introduces themselves to a participant
+title: "Resource: Researcher introduces themselves to a participant"
 permalink: /ux-guide/resources/email-templates/researcher-introduces-themselves/
 layout: layouts/page
 tags: ux-guide
