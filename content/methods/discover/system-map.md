@@ -16,7 +16,7 @@ method:
   why: Mapping complex patterns can help us build consensus and identify opportunities. Maps can also be used to onboard new team members and inform product decisions.
   timeRequired: 4-8 hours
   category: discover
-  ---
+---
 
   ## How to do it{#how-system-map}
 
