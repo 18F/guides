@@ -1,6 +1,6 @@
 ---
-title: "Resource: Contrato para participantes en el Estudio de Investigación (sin pagar)"
-description: Design research participant agreement (without compensation)
+title: "Resource: Design research participant agreement in Spanish"
+description: Design research participant agreement (without compensation) in Spanish
 permalink: /ux-guide/participant-agreement-spanish/
 redirect_from:
   - methods/participant-agreement-spanish/
@@ -14,6 +14,7 @@ Note that the permalink here does not include /resources/ so there's no indicati
 
 [English version]({{ '/ux-guide/participant-agreement/' | url }})
 
+## Contrato para participantes en el Estudio de Investigación (sin pagar)
 
 El objeto de este contrato es la participación en una entrevista con la Administración General de Servicios de EE. UU. (GSA, sigla en inglés). La entrevista tiene como objetivo __________________. Le pedimos que lea y firme este contrato para que sepa cuáles son sus derechos o lo que debe esperar de nosotros.  Si tiene alguna duda o pregunta, por favor déjenos saber antes de firmar.
 
