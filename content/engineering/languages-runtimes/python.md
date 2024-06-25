@@ -41,6 +41,7 @@ When using [Django], we **default** to starting with the most recent [Long Term 
 Otherwise, our **standard** practice is to use the latest release of our libraries when first installing. Security updates (as indicated by GitHub or Snyk) should be applied ASAP, but all libs should be updated at some routine interval (e.g. quarterly).
 
 Finally, in an effort to ensure our deployments are repeatable, our code **standards** require all dependencies (including dependencies' dependencies) be pinned to specific versions. This should also apply to the development environment (e.g. linters, testing tools, etc.) **Suggestions** for implementing that include
+* [poetry](https://python-poetry.org/)
 * [pip-tools](https://github.com/jazzband/pip-tools)'s `pip-sync`
 * [pipenv](https://github.com/pypa/pipenv)'s `Pipfile.lock`
 * [vendoring dependencies](https://docs.cloudfoundry.org/buildpacks/python/index.html#vendoring)
@@ -50,6 +51,10 @@ Finally, in an effort to ensure our deployments are repeatable, our code **stand
 Our **standard** tool for ensuring consistency across Python code bases is [flake8](http://flake8.pycqa.org/en/latest/). Its **default** settings are a good first step, as is using its [integration with isort](https://pypi.python.org/pypi/flake8-isort) for import order. We **suggest** investigating flake8's [plugin ecosystem](https://pypi.python.org/pypi?%3Aaction=search&term=flake8&submit=search) for more functionality.
 
 Use [Black](https://black.readthedocs.io/en/stable/) for automatic code formatting.
+
+You are welcome to use [Ruff](https://github.com/astral-sh/ruff) instead as it
+combines all of the above packages into one and runs faster. It may become our
+standard in the future.
 
 Using Code Climate to measure complexity scores (by way of [radon](https://pypi.python.org/pypi/radon)) is also a reasonable **default** to ensure you see potentially confounding functions and classes.
 
@@ -68,6 +73,6 @@ The Python ecosystem is large and full of alternative solutions to similar probl
 ## Type support
 Python 3.5 and beyond have had partial support for static type hints. Static typing can both make code authors' intent clearer and reduce the number of bugs through static analysis. It's also notorious for slowing down the pace of prototyping and requiring a great deal of boiler-plate.
 
-Given this state, we believe it's reasonable to **default** to using type annotations when they make your intent clearer (i.e. as a form of documentation). We **suggest** using a static analysis tool (such as [mypy](http://mypy.readthedocs.io/en/latest/)) to catch logic bugs, but only where it's practical. Consider a white-list of files to run against.
+Given this state, we believe it's reasonable to **default** to using type annotations when they make your intent clearer (i.e. as a form of documentation). We **suggest** using a static analysis tool (such as [mypy](http://mypy.readthedocs.io/en/latest/)) to catch logic bugs, but only where it's practical. Consider an allowlist of files to run against.
 
 [Django]: https://www.djangoproject.com/
