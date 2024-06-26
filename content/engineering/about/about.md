@@ -16,7 +16,7 @@ eleventyNavigation:
 ---
 At [18F](https://18f.gsa.gov/), We empower our partners to create better digital experiences for the people of the United States. As engineers at 18F, we are federal employees who help other government agencies build, buy, and share technology products. This guide is meant as a resource for 18F engineers on how we approach technical issues. As part of working in the open, we share this guide publicly so that others can learn how we approach our work. 
 
-Or approach:
+Our approach:
 ### [Putting user experience first](https://guides.18f.gov/ux-guide/)
 We have amazing designers and strategists that are skilled in fulfilling the needs of the people that will use your product or service. We get to collaborate with them on creating the best way to serve our users.
 
