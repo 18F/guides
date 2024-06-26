@@ -21,7 +21,7 @@ Our approach:
 We have amazing designers and strategists who are skilled in fulfilling the needs of the people who will use your product or service. We collaborate with them on creating the best way to serve our users.
 
 ### [Reducing risk with agile practices](https://guides.18f.gov/derisking/)
-We use agile methodologies (usually SCRUM or Kanban) to achieve our goals and model how an agile, cross-functional team works. Being agile allows us to implement DevOps best practices. 
+We use agile methodologies (usually SCRUM or Kanban) to achieve our goals and model how an agile, cross-functional team works. Being agile allows us to implement DevOps best practices, adjust to what we learn as we proceed, and tighten feedback loops.
 
 ### [Open source](https://18f.gsa.gov/open-source-policy/)
 Delivering open source software helps ensure quality, security and reusability. It's also an additional way to encourage community involvement in government services.
