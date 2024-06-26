@@ -18,7 +18,7 @@ At [18F](https://18f.gsa.gov/), We empower our partners to create better digital
 
 Our approach:
 ### [Putting user experience first](https://guides.18f.gov/ux-guide/)
-We have amazing designers and strategists that are skilled in fulfilling the needs of the people that will use your product or service. We get to collaborate with them on creating the best way to serve our users.
+We have amazing designers and strategists who are skilled in fulfilling the needs of the people who will use your product or service. We collaborate with them on creating the best way to serve our users.
 
 ### [Reducing risk with agile practices](https://guides.18f.gov/derisking/)
 We use agile methodologies (usually SCRUM or Kanban) to achieve our goals and model how an agile, cross-functional team works. Being agile allows us to implement DevOps best practices. 
