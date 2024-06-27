@@ -1,5 +1,5 @@
 ---
-title: Research plan template
+title: "Resource: Research plan"
 description: "A template for planning research, including goals, questions, methods, assignments, and timelines."
 permalink: /ux-guide/resources/research-plan/
 layout: layouts/page

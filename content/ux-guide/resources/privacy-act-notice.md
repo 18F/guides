@@ -1,5 +1,5 @@
 ---
-title: Privacy Act Notice
+title: "Resource: Privacy Act Notice example"
 permalink: /ux-guide/resources/privacy-act-notice/
 layout: layouts/page
 tags: ux-guide

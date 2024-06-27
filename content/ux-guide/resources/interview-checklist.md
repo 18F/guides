@@ -1,5 +1,5 @@
 ---
-title: Interview checklist
+title: "Resource: Interview checklist"
 description: Helpful reminders for moderating interviews
 permalink: /ux-guide/interview-checklist/
 layout: layouts/page
