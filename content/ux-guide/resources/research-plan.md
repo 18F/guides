@@ -1,6 +1,6 @@
 ---
 title: "Resource: Research plan"
-description: "A high-level overview of questions, goals, roles, methods, and timelines for conducting research at 18F."
+description: "A template for planning research, including goals, questions, methods, assignments, and timelines."
 permalink: /ux-guide/resources/research-plan/
 layout: layouts/page
 tags: ux-guide
@@ -8,9 +8,9 @@ eleventyNavigation:
   parent: ux-guide-research-plan
   key: ux-guide-research-research-plan-home
   order: 1
-  title: Research plan
-sidenav: true
-sticky_sidenav: true
+  title: Research plan template
+sidenav: false
+sticky_sidenav: false
 subnav:
   - text: Background
     href: "#background"
@@ -32,42 +32,77 @@ subnav:
     href: "#expected-outcomes"
 ---
 
-## Background
-Describe factors that the research will need to account for, including any shared beliefs or forces motivating the research itself. Summarize any past research or information that shape the research context.
+**About this template:** A research plan is a living document. Sections can be added and removed as needed, and details added as you have them.
 
-## Goals
-When writing your [research goals]({{ '/ux-guide/research/plan/#goals' | url }}), use reality-oriented words like “describe”, “evaluate”, or “identify,” and avoid intangible ones like “understand” or “explore.” Consider how this research will help reduce risk and inform decisions.
+[Read more about how to write a research plan](/ux-guide/research/plan/#writing-a-research-plan)**.**
 
-## Research questions
-What do you want to learn to make better evidence-based decisions? [Good research questions]({{ '/ux-guide/research/plan/#research-questions' | url }}) are specific, actionable, and practical; they usually center around users' experiences and needs.
+# **Title of research plan — [Name of effort] [method of research] [target participants]**
 
-## Methods
-**Instructions:** Choose some [methods]({{ '/ux-guide/research/plan/#methods' | url }}) that are appropriate for meeting the goals and answering research questions.
+**In the title:** A good descriptive title includes the thing you're studying, the method you're using, and if appropriate, the target audience. Example: GSA.gov redesign readability interviews with senior citizens.
 
-## Research roles
-**Instructions:** Consider how research can be [a team activity]({{ '/ux-guide/research/clarify-the-basics/#a-team-activity' | url }}) and decide who will hold specific [research roles]({{ '/ux-guide/research/do/#clarify-team-roles' | url }}).
-- Research lead
-- Moderator
-- Observer(s)
+## **Authors/stakeholders**
 
-## Timeline
-**Instructions:** Document the estimated [timeline]({{ '/ux-guide/research/plan/#timeline' | url }}) for completing this research. Plan more time than you think you need.
+**In this section**: List the names and any other relevant information (organization, titles, contact information) for people designing your research. If you're getting stakeholders' buy-in for the plan, add their details as well. Remember, a diverse research team leads to better research outcomes.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Study design      |  [A reasonable date range] |
-| Recruiting   |  [A reasonable date range] |
-| Data collection (e.g., interviews) |  [A reasonable date range] |
-| Top-line synthesis   |  [A reasonable date range] |
-| Collaborative analysis   |  [A reasonable date range] |
-| Collaborative synthesis   |  [A reasonable date range] |
-| Summary/outputs   |  [A reasonable date range] |
+- [Name], [title/org]
 
-## Participants and recruiting
-Describe at a high-level [who should participate in this study]({{ '/ux-guide/research/plan/#participants-and-recruiting' | url }}), and how you’ll recruit them. Consider how the team will communicate with participants, for example [by email]({{ '/ux-guide/resources/#email-templates' | url }}) and how the team will get [informed consent]({{ '/ux-guide/research/do/#getting-informed-consent' | url }}) from participants. See the [legal section]({{ '/ux-guide/research/legal/' | url }}) of the UX Guide for more information.
+# **Context**
 
-## Ethics considerations
-Document the [ethical principles or concerns]({{ '/ux-guide/research/plan/#ethical-considerations' | url }}) that influence this research approach. Discuss as a team the [biases]({{ '/ux-guide/research/bias/' | url }}) that could influence the work.
+**In this section:** A maximum five lines description of relevant helpful context — this could be what led to the study, the history of the project, any details about the partner or stakeholders.
 
-## Expected outcomes
-Document what [outputs and outcomes]({{ '/ux-guide/research/plan/#outputs-and-outcomes' | url }}) the team expects from this research.
+## **Past research**
+
+**In this section:** If there were past research efforts, provide a summary and links to any available assets.
+
+# **Research goals and questions**
+
+**In this section:** Document why you are doing research, and the questions the research will answer.
+
+# **Research methods**
+
+**In this section:** Note the method or methods of research you'll be using. If this document is going to be shared outside the research team, consider including a description or links to a 18F Methods card.
+
+# **Roles and responsibilities**
+
+**In this section:** These typical roles and descriptions should be adjusted to fit your research effort. An activity can be assigned to an individual, or led by an individual with team participation.
+
+| Activities | Description | Who |
+| --- | --- | --- |
+| ***Before sessions***  ||--- || --- |
+| **Research design**| Formulating an overall research plan and plans for individual sessions, including interview guides |  |
+| **Screening and recruiting** | Determining who we want to learn from, and inviting them to participate |  |
+| **Coordinating and scheduling** | Managing research logistics (times, places, tools, people) |  |
+| ***During sessions*** |  |  |
+| **Interviewing and moderating** | Facilitating the interview or activity, generally use pre-prepared guides; joins debrief afterwards |  |
+| **Note taking and recording** | Documenting what happens during the research; joins debriefs afterwards |  |
+| **Observing** | Listening to interviews, observing usability tests, etc.; joins debriefs afterwards |  |
+| **Subject matter expert** |  |  |
+| ***After sessions*** |  |  |
+| **Synthesis** | Analyzing, finding patterns and themes across research activities |  |
+| **Clean-up/ de-identifying** | Making sure our notes reflect anonymity and PII standards, and can be understood by people who didn't join the interview |  |
+| **Reporting** | Communicating progress and findings from research to teammates, partners, and stakeholders |  |
+
+# **Timeline**
+
+**In this section:** A rough-estimate timeline helps manage expectations around the study execution. Remember to give more time than you think you need for analysis and synthesis (a safe estimate is twice as long as you give to data collection).
+
+| Activity | Estimated time to complete | Dates |
+| --- | --- | --- |
+| Research study design and planning | [# days] | [A reasonable date range] |
+| Recruiting | [# days] | [A reasonable date range] |
+| Data collection
+When the team will perform the individual research sessions or interviews. | [# days] | [A reasonable date range] |
+| Analysis and synthesis | [# days] | [A reasonable date range] |
+| Report delivery |  | [specific date] |
+
+# **Participants and recruiting**
+
+**In this section:** Document who you're hoping to talk to during the research. This can include information about the participants, how you're planning to recruit, logistical considerations, etc.
+
+# **Issues for awareness**
+
+**In this section:** Note if there are particular [legal](/ux-guide/research/legal/), [ethical](/ux-guide/research/ethics/), accessibility, [bias](/ux-guide/research/bias/), or [power](/ux-guide/research/share-power/) concerns raised in the research plan how the team will mitigate them.
+
+# **Important links**
+
+**In this section:** Keep a running list of links to key research documents, like your [interview roster](/ux-guide/research/plan/#set-up-a-roster) and any shared folders or assets.
