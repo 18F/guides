@@ -29,6 +29,8 @@ Usted puede cambiar de opinión sobre las grabaciones hasta cuatro semanas despu
 
 **Trabajaremos para proteger su privacidad.** Eliminaremos la información de identificación personal capturada (pero si nos da su permiso, mantendremos las grabaciones de su voz). Encontrará más información en la Declaración de la Ley de Privacidad de la GSA (puede verla al final).
 
+**Puedes solicitar alojamiento.** Si utiliza tecnología de asistencia para acceder a Internet, traiga esas herramientas a la sesión de investigación. Si podemos hacer algo para ayudarlo a participar en la sesión o necesita un intérprete, háganoslo saber.
+
 **Le agradecemos por su participación en este estudio.** Su opinión contribuirá a dar forma a los productos y servicios destinados al público estadounidense. ¡Muchas gracias por su tiempo y sus comentarios!
 
 <table class="signature-block">
