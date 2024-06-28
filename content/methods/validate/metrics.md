@@ -26,7 +26,7 @@ method:
     1. Quantitative metrics are numerical indicators (completion rates, time on task, and click-through rates). 
     1. Qualitative metrics capture subjective feedback and insights (user satisfaction, ease of use).
 Determine how you will collect data for each metric. This could involve user testing, surveys, analytics tools, interviews, or a combination.
-1. Choose metrics that are most effective yet easiest to measure.
+1. Choose metrics that are most effective yet easiest to measure. Be mindful that your prototype may not be the only effort being tested. People may be overwhelmed by the amount of data they’re asked to provide. Finding metrics that can be automatically collected can help relieve this burden. 
 1. Plan for who will be responsible for data collection and how often metrics will be reviewed.
 1. Establish benchmarks for each metric. These may be based on industry standards, historical data, or your desired outcomes. Benchmarks show whether the prototype meets expectations or needs further refinement. 
 1. Implement the prototype. Start collecting data based on your measurement plan. 
@@ -45,6 +45,6 @@ Determine how you will collect data for each metric. This could involve user tes
 
 ## Considerations for use in government{#con-metrics}
 
-Be mindful of survey fatigue. Your prototype may not be the only effort being tested. People may be overwhelmed by the amount of data they’re asked to provide. Finding metrics that can be automatically collected can help relieve this burden. 
+Surveys of more than 9 people require PRA approval. Learn more at PRA.Digital.gov. Direct observation and non-standardized conversations like semi-structured [interviews]({{ "/methods/discover/stakeholder-and-user-interviews/" | url }})) are not subject to PRA.  
 
 </section>
