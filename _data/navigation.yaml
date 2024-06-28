@@ -192,6 +192,8 @@ methods:
         url: /methods/validate/card-sorting/
       - name: Multivariate testing
         url: /methods/validate/multivariate-testing/
+      - name: Prototype success metrics
+        url: /methods/validate/metrics/
       - name: Usability testing
         url: /methods/validate/usability-testing/
       - name: Visual preference testing
