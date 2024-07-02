@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
 <div class="layout--service-blueprint-example">
   <section class="category category--decide usa-section usa-prose">
     <section class="example-card grid-container">
-      <a class="usa-button usa-button--base" href="/methods/decide/service-blueprint/">Back to service blueprint card</a>
+      <a class="usa-button usa-button--base" href="{{ "/methods/decide/service-blueprint/" | url }}">Back to service blueprint card</a>
 
       <h1>Service blueprint example</h1>
       <div class="grid-col-10">
