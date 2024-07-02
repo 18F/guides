@@ -106,7 +106,7 @@ Plan more time than you think you need, and consider especially:
 
 - If your research is meant to inform a decision, note when the team anticipates that it will make that decision (for example, is your research due before the next quarterly planning meeting?)
 - How you plan to involve the team in any level-setting exercises, such as [hopes and fears [18F methods]](https://guides.18f.gov/methods/discover/hopes-and-fears/), [provisional personas [18F blog]](https://18f.gsa.gov/2016/07/21/buying-better-digital-products-part-1-proto-personas-and-understanding-the-problem/), etc.
-- How you plan to handle any participant-related logistics (such as [inviting participation]({{ '../../research/do/#inviting-participation' | url }}), [accessibility]({{ '../../research/accessibility' | url }}), [getting informed consent]({{ '../../research/do/#getting-informed-consent' | url }}), and [scheduling]({{ '../../research/do/#scheduling' | url }}))
+- How you plan to handle any participant-related logistics (such as [inviting participation]({{ '../../research/do/#inviting-participation' | url }}), [accessibility]({{ '../../research/accessibility/' | url }}), [getting informed consent]({{ '../../research/do/#getting-informed-consent' | url }}), and [scheduling]({{ '../../research/do/#scheduling' | url }}))
 - If your research involves workshops and/or fieldwork:
     - Who needs to be where and when?
     - What do they need to do?
@@ -187,7 +187,7 @@ It’s important that the audiences you’re designing products and services for
 - Includes the many communities/geographies, identities, races, ethnicities, backgrounds, abilities, cultures, and beliefs of the American people, including underserved communities. 
 - Leads to consistent and systematic fair, just, and impartial treatment of all individuals, including individuals who belong to underserved communities that have been denied such treatment. 
 - Recognizes, appreciates, and uses the talents and skills of our employees and end users of all backgrounds. 
-- Allows all people, including [people with disabilities]({{ '../../research/accessibility' | url }}), to fully and independently use them. 
+- Allows all people, including [people with disabilities]({{ '../../research/accessibility/' | url }}), to fully and independently use them. 
 
 There are a few strategies you can use to include research participants who are representative of the users you’re designing for:
 
@@ -236,7 +236,7 @@ Examples of underserved communities:
 - Black, Latino, Indigenous and Native American people, Asian Americans and Pacific Islanders, and other people of color
 - Members of religious minorities
 - LGBTQ+ people
-- [People with disabilities]({{ '../../research/accessibility' | url }})
+- [People with disabilities]({{ '../../research/accessibility/' | url }})
 - People who live in rural areas
 - People otherwise adversely affected by persistent poverty or inequality
 
