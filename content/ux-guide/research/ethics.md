@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
   parent: ux-guide-research
   key: ux-guide-ethics
-  order: 9
+  order: 10
   title: Ethics
 sidenav: true
 sticky_sidenav: true

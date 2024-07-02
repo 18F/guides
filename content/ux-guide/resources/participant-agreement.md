@@ -54,6 +54,8 @@ Please check below if you approve recording this session. At any time during the
 
 **We’ll work to protect your privacy.** We’ll remove information that could be used to identify you, such as your face or name. (Your voice won’t be removed if you approved recording above.) There’s more information in this [Privacy Act Statement for Design Research [GSA.gov]](https://www.gsa.gov/reference/gsa-privacy-program/privacy-act-statement-for-design-research).
 
+**You can ask for accommodations.** If you use assistive technology to access the internet, please bring those tools to the research session. If we can do anything to help you participate in the session or you need an interpreter, please let us know.
+
 **You can withdraw your consent or change your mind about what you have shared with us.** You can do this during the session, at the end of the session, or up to <number days> after the session by contacting `<researcher name>` `<researcher email>` `<researcher phone>`.
 
 **We appreciate you taking part in this session.** Your perspective will help shape products and services for the American public. Thank you very much for your time and feedback!

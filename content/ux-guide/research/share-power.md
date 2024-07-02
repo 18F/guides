@@ -7,7 +7,7 @@ tags: ux-guide
 eleventyNavigation: 
   parent: ux-guide-research
   key: ux-guide-share-power
-  order: 10
+  order: 11
   title: Power dynamics in research
 sidenav: true
 sticky_sidenav: true
