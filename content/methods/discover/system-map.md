@@ -1,6 +1,6 @@
 ---
 title: System map
-description: A diagram that shows how different factors and forces affect a given system. Unlike [journey maps](https://guides.18f.gov/methods/decide/journey-mapping/) or [service blueprints](https://guides.18f.gov/methods/decide/service-blueprint/), which visualize specific services.
+description: A diagram that shows how different factors and forces affect a given system. This is unlike journey maps or service blueprints, which visualize specific services.
 permalink: /methods/discover/system-map/
 redirect_from:
   - system-map/
@@ -11,8 +11,8 @@ eleventyNavigation:
   parent: Discover
   title: System map
 method:
-  title: Stakeholder and user interviews
-  what: A diagram that shows how different factors and forces affect a given system. Unlike [journey maps](https://guides.18f.gov/methods/decide/journey-mapping/) or [service blueprints](https://guides.18f.gov/methods/decide/service-blueprint/), which visualize specific services.
+  title: System map
+  what: A diagram that shows how different factors and forces affect a given system. This is unlike journey maps or service blueprints, which visualize specific services.
   why: Mapping complex patterns can help us build consensus and identify opportunities. Maps can also be used to onboard new team members and inform product decisions.
   timeRequired: 4-8 hours
   category: discover
