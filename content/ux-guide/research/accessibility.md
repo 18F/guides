@@ -39,7 +39,7 @@ While these conditions are protected under the Americans with Disabilities Act (
 
 Here are some ways to support people with disabilities during the research process:
 
-- **Offer accommodations throughout the process.** We have suggested language in the [screener questions](https://airtable.com/appkBrEBVTMd9M5VC/pagxzSXmHxmvl7u8O?SlYml=allRecords&JVZOB=recyNUVODFwrEr7EZ) and [consent form](https://guides.18f.gov/ux-guide/research/do/#getting-informed-consent) templates. Check in with participants at the beginning of the session to see if they need anything or if there’s anything you should know before you get started. This gives them a chance to talk about what’s going on for them and add anything they’ve been thinking about.
+- **Offer accommodations throughout the process.** Check in with participants at the beginning of the session to see if they need anything or if there’s anything you should know before you get started. This gives them a chance to talk about what’s going on for them and add anything they’ve been thinking about.
 
 - **Provide materials in accessible formats.** Avoid using inaccessible formats such as [PDFs or images](https://www.section508.gov/create/) without HTML or plain text alternatives. Ensure participants can access the consent form, compensation instructions, and any prototypes or testing materials in their preferred format.
 
@@ -74,10 +74,6 @@ Build unstructured time into your interview guide to account for differences in 
 ### After the session
 
 - **Focus on user needs over limitations.** If someone is having difficulty navigating a website, it may have nothing to do with their disability or tech proficiency. When synthesizing things in archetypes or user stories, for example, tie insights to the user’s needs or goals rather than a particular disability.
-
-- **Keep talking about accessibility.**
-  - Contribute to this guide and the [18F Accessibility Guide](https://guides.18f.gov/accessibility/).
-  - Join related Slack channels: [#g-accessibility](https://gsa.enterprise.slack.com/archives/C02BT4H5Q), [#neurodiversity](https://gsa.enterprise.slack.com/archives/C01TB9GTX5Z), and [#g-diversity](https://gsa.enterprise.slack.com/archives/C02DJFR0V).
 
 ## Supporting neurodiversity in research
 
