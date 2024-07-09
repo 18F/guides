@@ -1,5 +1,5 @@
 ---
-title: Setting metrics
+title: Metrics setting
 description: A step to determine what success looks like for a design prototype by determining ideal outcomes and defining measurements indicating progress towards said outcomes.
 permalink: /methods/validate/metrics/
 redirect_from:
@@ -9,9 +9,9 @@ tags: methods
 eleventyNavigation:
   key: methods
   parent: Validate
-  title: Setting metrics
+  title: Metrics setting
 method:
-  title: Setting metrics
+  title: Metrics setting
   what: How to measure the success of a prototype.
   why: To know if your prototype is successful, you need to define the outcomes you hope it achieves. You also need to define metrics to know if it's achieving them.
   timeRequired: 2-3 hours to brainstorm and select metrics. <br> Length of prototype run to collect data.
