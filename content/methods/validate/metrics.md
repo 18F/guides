@@ -23,14 +23,14 @@ method:
 
 1. Define the desired outcomes for your prototype. Invite stakeholders to brainstorm. Your outcomes may be based on your [design hypothesis]({{ "/methods/decide/design-hypothesis/" | url }}).
 1. List ways to measure whether your prototype is achieving those outcomes. Consider quantitative and qualitative metrics:
-    1. Quantitative metrics are numerical indicators.
-    1. Qualitative metrics capture subjective feedback and insights.
+    1. Quantitative metrics are numerical indicators (e.g. time on task, and click-through rates). 
+    1. Qualitative metrics capture subjective feedback and insights (e.g. usability ratings, user satisfaction).
 1. Determine how you will collect data for each metric. This could involve user testing, surveys, analytics tools, and/or interviews.
 1. Choose metrics that are most effective yet easiest to measure. 
 1. Plan who will be responsible for data collection and how often metrics will be reviewed.
 1. Establish benchmarks for each metric. These may be based on industry standards, historical data, or your desired outcomes.
 1. Implement the prototype. Start collecting data based on your measurement plan. 
-1. Analyze the results against your benchmarks. Identify strengths and areas of improvement. Iterate the prototype and refine metrics if necessary. 
+1. Analyze the results against your benchmarks. Iterate the prototype and refine metrics if necessary. 
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
