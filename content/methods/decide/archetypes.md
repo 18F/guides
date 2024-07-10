@@ -13,7 +13,7 @@ eleventyNavigation:
 method:
   title: Archetypes
   what: Archetypes are visual documents that represent a group of users based on their shared goals, needs, attitudes, behaviors, and/or pain points.
-  why: Unlike demographic data that can explicitly introduce creative blocks or bias, archetypes can help better understand product or service users who share the same core desires.
+  why: Unlike demographic data that can unintentionally introduce creative blocks or bias, archetypes can help better understand product or service users who share the same behaviors and core desires.
   timeRequired: 30 mins-1 hour per archetype
   category: decide
 ---
