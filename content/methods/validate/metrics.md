@@ -1,5 +1,5 @@
 ---
-title: Metrics setting
+title: Success metrics
 description: A step to determine what success looks like for a design prototype by determining ideal outcomes and defining measurements indicating progress towards said outcomes.
 permalink: /methods/validate/metrics/
 redirect_from:
@@ -9,9 +9,9 @@ tags: methods
 eleventyNavigation:
   key: methods
   parent: Validate
-  title: Metrics setting
+  title: Success metrics
 method:
-  title: Metrics setting
+  title: Success metrics
   what: How to measure whether your design is successful in achieving the intended outcomes.
   why: No matter what you’re designing (software, a service, content, etc.), you need to define what your design should enable people to do and how you’ll measure whether it performs well.  
   timeRequired: 2-3 hours to brainstorm and select metrics. <br> Length of prototype run to collect data.
@@ -21,7 +21,7 @@ method:
 
 ## How to do it{#how-to-metrics}
 
-1. Define the outcomes you expect when your design performs well. Invite stakeholders to brainstorm. Your outcomes may be based on your [design hypothesis]({{ "/methods/decide/design-hypothesis/" | url }}) or user needs statements.
+1. Define the outcomes you expect when your design performs well. Invite stakeholders to brainstorm. Your outcomes may be based on your [design hypotheses]({{ "/methods/decide/design-hypothesis/" | url }}) or user needs statements.
 1. List ways to measure whether your design is achieving expected outcomes. Consider quantitative and qualitative metrics:
     1. Quantitative metrics are numerical indicators (e.g. time on task, click-through rates). 
     1. Qualitative metrics capture subjective feedback and insights (e.g. usability ratings, user satisfaction).
