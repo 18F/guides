@@ -27,7 +27,7 @@ The location of these secrets may be obvious, like in a configuration file that 
 
 ### Practice the principle of least privilege
 
-Limit the scope of your keys and secrets to particular environments and activities. A secret used with a development database should be different then the secret for the production database, and neither environment should have access or visibility into the secrets of the other.
+Limit the scope of your keys and secrets to particular environments and activities. A secret used with a development database should be different than the secret for the production database, and neither environment should have access or visibility into the secrets of the other.
 
 Additionally, keys and secrets should be available only to the people and services that require access. This may require you to have multiple secrets for different levels of authorization.
 
