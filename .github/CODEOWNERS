@@ -26,8 +26,8 @@
 /content/content-guide/**/*.md   @michelle-rago
 /content/derisking/**/*.md       @adunkman
 /content/methods/**/*.md         @MelissaBraxton
-/content/eng-hiring/**/*.md      @hbillings
 /content/engineering/**/*.md     @18f/18f-engineering-leadership
+/content/eng-hiring/**/*.md      @alexbielen
 /content/product/**/*.md         @lalitha-jonnalagadda
 /content/ux-guide/**/*.md        @bpdesigns
 
