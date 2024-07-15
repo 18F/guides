@@ -142,6 +142,8 @@ methods:
     children:
       - name: Affinity mapping
         url: /methods/decide/affinity-mapping/
+      - name: Coding qualitative data
+        url: /methods/decide/qualitative-data-analysis/
       - name: Comparative analysis
         url: /methods/decide/comparative-analysis/
       - name: Content audit
