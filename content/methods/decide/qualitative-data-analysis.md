@@ -1,6 +1,6 @@
 ---
 title: Coding qualitative data
-description: Using coding tools like Google Sheets, Excel, or Airtable to sort and analyze qualitative data.
+description: Using flexible coding tools for sorting spreadsheets or databases to analyze qualitative data.
 permalink: /methods/decide/qualitative-data-analysis/
 redirect_from:
   - /qualitative-data-analysis/
@@ -12,7 +12,7 @@ eleventyNavigation:
   title: Coding qualitative data
 method:
   title: Coding qualitative data
-  what: Using coding tools like Google Sheets, Excel, or Airtable to sort and analyze qualitative data.
+  what: Using flexible coding tools for sorting spreadsheets or databases to analyze qualitative data.
   why: Quickly organize research to help you see patterns and relationships. To help make qualitative data actionable and to give it an even playing ground with quantitative data.
   timeRequired: 3–4 hours or more depending on the amount of data collected.
   category: decide
@@ -37,15 +37,6 @@ Common for multiple team members to break off to take a pass at sorting data for
 </section>
 
 <section class="method--section method--section--government-considerations" markdown="1" >
-
-<section class="method--section method--section--additional-resources" markdown="1">
-
-## Additional resources{#add-resources}
-
-- [Essential Guide to Coding Qualitative Data](https://delvetool.com/guide){.usa-link .usa-link--external}
-- [Coding Qualitative Data: How To Guide](https://getthematic.com/insights/coding-qualitative-data/){.usa-link .usa-link--external}
-
-</section>
 
 
 ## Considerations for use in government{#con-personas}
