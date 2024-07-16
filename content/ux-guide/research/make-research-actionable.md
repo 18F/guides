@@ -107,10 +107,10 @@ Artifacts that we use to do this include:
 - [Personas [18F design methods]](https://guides.18f.gov/methods/decide/personas/)
 - [Mental models [18F design methods]](https://guides.18f.gov/methods/decide/mental-modeling/)
 - [User scenarios [18F design methods]](https://guides.18f.gov/methods/decide/user-scenarios/)
-- User stories
+- [User stories [18F design methods]](https://guides.18f.gov/methods/decide/user-stories/)
 - [Storyboards [18F design methods]](https://guides.18f.gov/methods/decide/storyboarding/)
 - [Journey maps [18F design methods]](https://guides.18f.gov/methods/decide/journey-mapping/)
-- Service blueprints 
+- [Service blueprints [18F design methods]](https://guides.18f.gov/methods/decide/service-blueprint/)
 - [Prototypes [18F design methods]](https://guides.18f.gov/methods/make/prototyping/)
 - Other creative outputs
 

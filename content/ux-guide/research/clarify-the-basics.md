@@ -118,7 +118,7 @@ As a distributed team, 18F defaults to remote-friendly ways of working. This giv
 
 With most projects you’ll conduct an in-person kickoff, during which you may have the chance to meet, interview, and conduct activities with stakeholders. If feasible, consider adding [contextual inquiry as described in the 18F methods](https://guides.18f.gov/methods/discover/contextual-inquiry/) into your kick-off activities. Direct observation will provide firsthand understanding of your stakeholders’ and users’ processes and contexts.
 
-We prefer in-person research when we want to better understand the environment in which users normally interact with a government service. We also prefer in-person research when our participants aren’t especially proficient with, or don’t have access to, video conferencing software.
+We prefer in-person research when we want to better understand the environment in which users normally interact with a government service. We also prefer in-person research when our participants aren’t especially proficient with, or don’t have access to, video conferencing software. Work with your partner agency to ensure the facility is [ADA-compliant](https://www.ada.gov/topics/intro-to-ada/) and accessible with public transportation.
 
 
 ## Good practices

@@ -35,6 +35,13 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
+## Additional resources{#add-usability}
+
+- [Example design research participant agreement](https://guides.18f.gov/ux-guide/participant-agreement/){.usa-link .usa-link--external} / [Ejemplo de acuerdo de participante de investigación de diseño](https://guides.18f.gov/ux-guide/participant-agreement-spanish/){.usa-link .usa-link--external}
+</section>
+
+<section class="method--section method--section--government-considerations" markdown="1" >
+
 ## Considerations for use in government{#con-recruiting}
 
 No PRA implications. No information is collected from members of the public.
