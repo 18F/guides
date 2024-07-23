@@ -13,7 +13,7 @@ eleventyNavigation:
 method:
   title: Archetypes
   what: Archetypes are visual documents that represent a group of users based on their shared goals, needs, attitudes, behaviors, and/or pain points.
-  why: Unlike demographic data that can explicitly introduce creative blocks or bias, archetypes can help better understand product or service users who share the same core desires.
+  why: Unlike demographic data that can unintentionally introduce creative blocks or bias, archetypes can help better understand product or service users who share the same behaviors and core desires.
   timeRequired: 30 mins-1 hour per archetype
   category: decide
 ---
@@ -43,8 +43,6 @@ Archetypes can be created virtually using any variety of digital whiteboards or 
 <section class="method--section method--section--additional-resources" markdown="1">
 
 ## Additional resources{#add-archetypes}
-
-- [Personas vs. Archetypes - NNG](https://www.nngroup.com/articles/personas-archetypes/#:~:text=With%20personas%2C%20we%20invent%20a,characteristics%20of%20that%20user%20type.){.usa-link .usa-link--external}
 - [Difference Between User Personas and Archetypes](https://uxtbe.medium.com/difference-between-user-personas-and-archetypes-6b21a35c6bac){.usa-link .usa-link--external}
 
 </section>
