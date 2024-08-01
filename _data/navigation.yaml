@@ -140,6 +140,8 @@ methods:
   - name: Decide
     url: /methods/decide/
     children:
+      - name: Archetypes
+        url: /methods/decide/archetypes/
       - name: Affinity mapping
         url: /methods/decide/affinity-mapping/
       - name: Comparative analysis
@@ -156,8 +158,6 @@ methods:
         url: /methods/decide/journey-mapping/
       - name: Mental modeling
         url: /methods/decide/mental-modeling/
-      - name: Personas
-        url: /methods/decide/personas/
       - name: Service blueprint
         url: /methods/decide/service-blueprint/
       - name: Site mapping
