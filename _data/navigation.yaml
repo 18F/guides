@@ -48,12 +48,6 @@ derisking:
 derisking-government-tech:
   - name: Home
     url: /derisking-government-tech/
-  - name: About
-    url: /derisking-government-tech/about/
-  - name: Resources
-    url: /derisking-government-tech/resources/
-  - name: Download
-    url: /derisking-government-tech/download/
 
 eng-hiring:
   - name: Overview
