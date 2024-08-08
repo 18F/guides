@@ -12,6 +12,10 @@
   .usa-card__body {
     padding: 0;
 
+    .introduction_card_header {
+      font-size: size('body', 8);
+    }
+
     ol {
       list-style-position: inside;
       margin: 0;
