@@ -9,6 +9,17 @@
     border-style: none;
   }
   
+  .usa-card__body {
+    padding: 0;
+
+    ol {
+      list-style-position: inside;
+      margin: 0;
+      padding: 0;
+      padding-inline-start: 0.5rem;
+    }
+  }
+
   .usa-card__img {
     border-radius: 0;
     display: flex;
