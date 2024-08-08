@@ -1,0 +1,24 @@
+@use 'uswds-core' as * ;
+
+/*----------------------------------------------------------
+# Styles specific to the De-risking Government Tech guide
+-----------------------------------------------------------*/
+
+.usa-card {
+  .usa-card__container {
+    border-style: none;
+  }
+  
+  .usa-card__img {
+    border-radius: 0;
+    display: flex;
+  
+    img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      padding-bottom: 14%;
+      padding-top: 14%;
+    }
+  }
+}
