@@ -4,6 +4,7 @@
 # Styles specific to the De-risking Government Tech guide
 -----------------------------------------------------------*/
 
+// Styles for the card layout on the Introduction page
 .usa-card {
   .usa-card__container {
     border-style: none;
@@ -14,6 +15,8 @@
 
     .introduction_card_header {
       font-size: size('body', 8);
+      margin-bottom: 1rem;
+      margin-top: 1rem;
     }
 
     ol {
@@ -35,5 +38,12 @@
       padding-bottom: 14%;
       padding-top: 14%;
     }
+  }
+}
+
+.usa-prose {
+  hr {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 }
