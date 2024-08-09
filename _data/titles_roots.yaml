@@ -17,6 +17,9 @@ content-guide:
 derisking:
   title: De-risking Guide
   root: /derisking/
+derisking-government-tech:
+  title: De-risking Government Technology Guide
+  root: /derisking-government-tech/
 eng-hiring:
   title: Engineering Hiring Guide
   root: /eng-hiring/
