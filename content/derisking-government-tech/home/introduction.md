@@ -35,7 +35,7 @@ This guide was written to give government tools to lower the high risk of failur
           </div>
         </div>
         <div class="usa-card__body">
-          <p><a href="{{ '/derisking-government-tech/software-solutions/' | url }}">Understanding and choosing a software solution</a>, which explains:</p>
+          <p class="introduction_card_header"><a href="{{ '/derisking-government-tech/software-solutions/' | url }}"><strong>Understanding and choosing a software solution</strong></a>, which explains:</p>
           <ol>
             <li>The trade-offs between buying commercially available off-the-shelf (COTS) software and investing in building custom software</li>
             <li>When to use COTS or custom software, and why most projects will require both</li>
@@ -52,7 +52,7 @@ This guide was written to give government tools to lower the high risk of failur
           </div>
         </div>
         <div class="usa-card__body">
-          <p><a href="{{ '/derisking-government-tech/principles/' | url }}">Four key principles for effective custom software development</a>:</p>
+          <p class="introduction_card_header"><a href="{{ '/derisking-government-tech/principles/' | url }}"><strong>Four key principles for effective custom software development</strong></a>:</p>
           <ol>
             <li>Understand and commit to modern software development practices</li>
             <li>Use performance-based services contracting</li>
@@ -70,7 +70,7 @@ This guide was written to give government tools to lower the high risk of failur
           </div>
         </div>
         <div class="usa-card__body">
-          <p><a href="{{ '/derisking-government-tech/buying-development-services/' | url }}">Buying custom software development services</a>, including:</p>
+          <p class="introduction_card_header"><a href="{{ '/derisking-government-tech/buying-development-services/' | url }}"><strong>Buying custom software development services</strong></a>, including:</p>
           <ol>
             <li>How to write a solicitation for a performance-based services contract</li>
             <li>Things to keep in mind when budgeting for custom software development</li>
@@ -86,7 +86,7 @@ This guide was written to give government tools to lower the high risk of failur
           </div>
         </div>
         <div class="usa-card__body">
-          <p><a href="{{ '/derisking-government-tech/vendor-management/' | url }}">Working with a vendor development team</a>, including:</p>
+          <p class="introduction_card_header"><a href="{{ '/derisking-government-tech/vendor-management/' | url }}"><strong>Working with a vendor development team</strong></a>, including:</p>
           <ol>
             <li>Approaching vendor management as a partnership</li>
             <li>Leading product direction</li>
