@@ -32,11 +32,10 @@
     display: flex;
   
     img {
-      max-height: 100%;
+      height: 72%;
+      max-height: 72%;
       max-width: 100%;
       object-fit: contain;
-      padding-bottom: 14%;
-      padding-top: 14%;
     }
   }
 }
