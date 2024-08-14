@@ -79,7 +79,7 @@ UMOTS describes the frequent and risky tendency of government agencies to choose
 
 We advise you to avoid UMOTS. It increases the risk of project failure and eliminates the primary benefit of COTS, which is to not reinvent the wheel. When you modify a COTS product, it becomes difficult and expensive to maintain. It may function poorly or not at all. It has the least amount of transparency and control for the buyer. It typically results in your agency becoming locked into long-term reliance on a single vendor (known as “vendor lock-in”). 
 
-In the federal context, another reason to avoid extensive modification of COTS software is that you aren’t complying with regulations. The Federal Acquisition Regulation (FAR) states that *if it is necessary to make* customizations or modifications to the technology to meet federal requirements, *it isn’t* a commercially off-the-shelf item. By law, [only minor modifications are allowed for a product to still be considered commercial](https://www.dsp.dla.mil/Policy-Guidance/FAQs/Commercial-and-Nondevelopmental-Items/). Minor modifications refer to those that “*do not significantly alter the nongovernmental function or essential physical characteristics of an item or component, or change the purpose of a process*” ([FAR Part 2.101](https://www.acquisition.gov/dars/2.101-definitions)).
+In the federal context, another reason to avoid extensive modification of COTS software is that you aren’t complying with regulations. The Federal Acquisition Regulation (FAR) states that *if it is necessary to make* customizations or modifications to the technology to meet federal requirements, *it isn’t* a commercially off-the-shelf item. By law, [only minor modifications are allowed for a product to still be considered commercial](https://www.dsp.dla.mil/Policy-Guidance/FAQs/Commercial-and-Nondevelopmental-Items/). Minor modifications refer to those that “*do not significantly alter the nongovernmental function or essential physical characteristics of an item or component, or change the purpose of a process*” ([FAR Part 2.101](https://www.acquisition.gov/far/2.101)).
 
 You can avoid the risk involved in customizing COTS software if you:
 
@@ -96,7 +96,7 @@ If you’re thinking about acquiring a COTS solution that would need *any degree
 If the answer is “yes,” you’ll very likely end up with UMOTS. This is because one or both of these things will happen:
 
 * The modification will alter the nongovernmental function of what the software was originally designed to do.  
-* The labor costs to change the code will be higher than the base price (licensing plus sometimes hosting fees) of the product itself. (Derived from [FAR 2.101(b)](https://www.acquisition.gov/dars/2.101-definitions.))
+* The labor costs to change the code will be higher than the base price (licensing plus sometimes hosting fees) of the product itself. (Derived from [FAR 2.101(b)](https://www.acquisition.gov/far/2.101))
 
 Typically, customizing COTS software results in both things happening. Modifying a commercial product from its nongovernmental function takes a lot of developers’ time and effort. As a result, the costs for that work will almost certainly exceed the base costs. 
 
@@ -114,7 +114,7 @@ If the vendor won’t provide an itemized list of labor costs, it’s also a sig
   
   <ul class="font-body-sm">
     <li>Will modifying the COTS software mean it can no longer follow the routine schedule for upgrades and patches? If yes, it fails.</li>
-    <li>Once modified, will the vendor own modifications to the resulting product or system? If yes, it fails.</li>
+    <li>Once modified, will the vendor own modifications to Fthe resulting product or system? If yes, it fails.</li>
     <li>Is the COTS vendor being unclear about the cost to customize, maintain modifications, or migrate existing data? Or about ownership of and access to government data, or how to export data when the contract ends? If yes, it fails.</li>
   </ul>
 </div>
