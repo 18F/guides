@@ -63,8 +63,26 @@
 }
 
 .usa-prose {
+  h4 {
+    color: $brand-color-medium;
+  }
+  
   hr {
     margin-bottom: 2rem;
     margin-top: 2rem;
+  }
+}
+
+.usa-summary-box {
+  div {
+    color: $brand-color-medium;
+
+    .font-body-lg {
+      color: $brand-color-medium;
+    }
+    .usa-icon--size-4 {
+      color: $brand-color-medium;
+      flex-shrink: 0;
+    }
   }
 }

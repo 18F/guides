@@ -17,6 +17,8 @@ subnav:
   href: '#custom-software'
 - text: Customizing COTS
   href: '#unrecognizably-modified-off-the-shelf-umots-software'
+- text: No-code/low-code
+  href: '#a-cautionary-note-on-no-code-and-low-code-software'
 ---
 
 <p class="chapter-summary">Understanding the benefits and risks of commercially available off-the-shelf (COTS) and custom software will help government agencies choose a solution appropriate to their needs.</p>
@@ -82,8 +84,8 @@ In the federal context, another reason to avoid extensive modification of COTS s
 You can avoid the risk involved in customizing COTS software if you:
 
 * [Use our test questions for identifying UMOTS]({{'\#testing-for-umots' | url}}).   
-* Conducting thorough [market research]({{'\#how-to-conduct-market-research' | url}}) before and during the solicitation process. Along with informing you of what’s available, market research should help you sort out if the agency’s needs are best served by custom software or by adapting agency processes to be compatible with a COTS product.  
-* Use [risk mitigation prototyping]({{'\#budget-for-a-“risk-mitigation-prototype”' | url}}). 
+* Conducting thorough [market research]({{'/derisking-government-tech/resources/market-research/' | url}}) before and during the solicitation process. Along with informing you of what’s available, market research should help you sort out if the agency’s needs are best served by custom software or by adapting agency processes to be compatible with a COTS product.  
+* Use [risk mitigation prototyping]({{'/derisking-government-tech/buying-development-services#budget-for-a-“risk-mitigation-prototype”' | url}}). 
 
 ### Testing for UMOTS {#testing-for-umots}
 
@@ -106,11 +108,11 @@ If the vendor won’t provide an itemized list of labor costs, it’s also a sig
 
 <div class="usa-summary-box display-flex flex-column">
   <div class="display-flex flex-row">
-    <svg aria-hidden="true" focusable="false" role="img" class="usa-icon top-2px"><use xlink:href="#svg-info"/></svg>
-    <p class="margin-0">Other questions to ask to figure out if your custom code will result in UMOTS:</p>
+    <svg aria-hidden="true" focusable="false" role="img" class="usa-icon--size-4 margin-right-05 margin-top-2px top-2px"><use xlink:href="#svg-info"/></svg>
+    <p class="font-body-lg margin-0"><strong>Other questions to ask to figure out if your custom code will result in UMOTS:</strong></p>
   </div>
   
-  <ul>
+  <ul class="font-body-sm">
     <li>Will modifying the COTS software mean it can no longer follow the routine schedule for upgrades and patches? If yes, it fails.</li>
     <li>Once modified, will the vendor own modifications to the resulting product or system? If yes, it fails.</li>
     <li>Is the COTS vendor being unclear about the cost to customize, maintain modifications, or migrate existing data? Or about ownership of and access to government data, or how to export data when the contract ends? If yes, it fails.</li>
@@ -128,3 +130,19 @@ When it comes to COTS software, you should expect to find — or that the vendor
 If you can’t find those examples, the solution is UMOTS.
 
 ---
+
+## A cautionary note on no-code and low-code software
+
+{% include 'derisking-government-tech/section_image.html' img_path: "assets/derisking-government-tech/img/no-code.svg" %}
+
+**No-code** and **low-code** software platforms allow you to build applications with back-end databases without writing any code or significantly less code. They are being sold aggressively to government as an alternative to developing custom software applications. This is an appealing sales pitch for agencies that don’t have the resources or experience to manage custom software, but these solutions often require custom development to make them work for agencies’ needs. While they may seem like easy and fast solutions compared to custom development, they can actually be more difficult and expensive, and lead to greater risk of failure.  
+
+As with any COTS product, these solutions can be an appropriate choice when your needs are straightforward and can be served by the platform’s standard functionality. However, agencies often find out after they have committed to a no-code or low-code platform that its core functionality can’t do something the agency needs. The agency must then pursue custom development to enable additional functionality within the limitations of the platform, which is often expensive, clunky, and makes the application more difficult to maintain. In the end, the agency often has to make compromises and accept a lower level of performance — while still paying a premium.
+
+The following sections of this guide are specific to writing a solicitation for and managing custom development projects, so they don’t apply specifically to implementing a no-code/low-code solution. Still, as these platforms don’t eliminate the need for careful development practices, some of the principles for designing, building, and evaluating applications apply to developing applications regardless of the underlying technology. 
+
+As with any technology project, you may lower risk by selecting the right technologies to use to build the end product from the beginning.
+
+---
+
+**Next:** [Four key principles for effective custom software development]({{ "/derisking-government-tech/principles/" | url }})
