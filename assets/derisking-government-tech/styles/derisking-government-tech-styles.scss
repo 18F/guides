@@ -4,7 +4,26 @@
 # Styles specific to the De-risking Government Tech guide
 -----------------------------------------------------------*/
 
-// Styles for the card layout on the Introduction page
+$color-18f-light: #B3EFFF;
+
+// Section headers within pages
+.section-image {
+  background-color: $color-18f-light;
+
+  img {
+    height: 80%;
+    max-height: 80%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
+
+.chapter-summary {
+  font-size: 1.375rem;
+  margin-top: 1rem;
+}
+
+// Card layout on the Introduction page
 .usa-card {
   .usa-card__container {
     border-style: none;
