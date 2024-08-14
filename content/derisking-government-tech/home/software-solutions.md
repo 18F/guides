@@ -13,6 +13,8 @@ sticky_sidenav: true
 subnav:
 - text: Commercial (COTS)
   href: '#commercially-available-off-the-shelf-cots-software'
+- text: Custom
+  href: '#custom-software'
 ---
 
 <p class="chapter-summary">Understanding the benefits and risks of commercially available off-the-shelf (COTS) and custom software will help government agencies choose a solution appropriate to their needs.</p>
@@ -46,5 +48,17 @@ The rationale for these changes was that the pressures of a competitive market w
 ### When to choose COTS
 
 COTS is the right choice for meeting a need that *many* other buyers have, like email. An agency could develop its own email system, but it would be a waste of time, money, and effort since existing COTS email systems come with a wide array of features and functions that any buyer can use to meet its needs.
+
+---
+
+## Custom software
+
+{% include 'derisking-government-tech/section_image.html' img_path: "assets/derisking-government-tech/img/software-solution-custom.svg" %}
+
+**Custom software** refers to software code written specifically for a buyer’s needs. Rather than being a commercially available *item*, custom software is built by a development team working in-house or through a vendor that builds the product and works with your IT department to put it into production online for its intended users.
+
+### When to choose custom software
+
+If your agency has a unique need that is currently not served by a large marketplace — something other than email or video conferencing, for example — you should invest in building custom software to meet that need. This is a likely scenario for government agencies, which often have unique requirements and specifications, as well as laws and policies they must follow.
 
 ---
