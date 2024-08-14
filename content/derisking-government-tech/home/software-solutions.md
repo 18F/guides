@@ -104,13 +104,18 @@ If the labor costs exceed the base cost, the solution is UMOTS.
 
 If the vendor won’t provide an itemized list of labor costs, it’s also a sign you will end up with UMOTS. 
 
-<svg aria-hidden="true" focusable="false" role="img" class="usa-icon top-2px">
-<use xlink:href="#svg-info"></use>
-</svg> Other questions to ask to figure out if your custom code will result in UMOTS:
-
-* Will modifying the COTS software mean it can no longer follow the routine schedule for upgrades and patches? If yes, it fails.
-* Once modified, will the vendor own modifications to the resulting product or system? If yes, it fails.
-* Is the COTS vendor being unclear about the cost to customize, maintain modifications, or migrate existing data? Or about ownership of and access to government data, or how to export data when the contract ends? If yes, it fails.
+<div class="usa-summary-box display-flex flex-column">
+  <div class="display-flex flex-row">
+    <svg aria-hidden="true" focusable="false" role="img" class="usa-icon top-2px"><use xlink:href="#svg-info"/></svg>
+    <p class="margin-0">Other questions to ask to figure out if your custom code will result in UMOTS:</p>
+  </div>
+  
+  <ul>
+    <li>Will modifying the COTS software mean it can no longer follow the routine schedule for upgrades and patches? If yes, it fails.</li>
+    <li>Once modified, will the vendor own modifications to the resulting product or system? If yes, it fails.</li>
+    <li>Is the COTS vendor being unclear about the cost to customize, maintain modifications, or migrate existing data? Or about ownership of and access to government data, or how to export data when the contract ends? If yes, it fails.</li>
+  </ul>
+</div>
 
 #### Has any organization successfully implemented the COTS solution …
 

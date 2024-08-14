@@ -1,14 +1,13 @@
+@use '../../_common/styles/brand-colors' as *;
 @use 'uswds-core' as * ;
 
 /*----------------------------------------------------------
 # Styles specific to the De-risking Government Tech guide
 -----------------------------------------------------------*/
 
-$color-18f-light: #B3EFFF;
-
 // Section headers within pages
 .section-image {
-  background-color: $color-18f-light;
+  background-color: $brand-color-light;
 
   img {
     height: 80%;
