@@ -5,8 +5,8 @@ layout: layouts/page
 tags: derisking-government-tech
 description: A guide for government agencies to deliver successful technology projects, from pre-award planning through post-award vendor management.
 eleventyNavigation:
-  parent: derisking-government-tech
-  key: derisking-government-tech-introduction
+  parent: derisking-government-tech-home
+  key: derisking-government-tech-home-introduction
   order: 1
   title: Introduction
 sidenav: true

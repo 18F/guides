@@ -4,7 +4,7 @@ permalink: /derisking-government-tech/vendor-management/
 layout: layouts/page
 tags: derisking-government-tech
 eleventyNavigation:
-  parent: derisking-government-tech
+  parent: derisking-government-tech-home
   key: vendor-management
   order: 5
   title: Vendor management
