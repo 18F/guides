@@ -86,7 +86,7 @@ You can avoid the risk involved in customizing COTS software if you:
 
 * [Use our test questions for identifying UMOTS]({{'\#testing-for-umots' | url}}).   
 * Conducting thorough [market research]({{'/derisking-government-tech/resources/market-research/' | url}}) before and during the solicitation process. Along with informing you of what’s available, market research should help you sort out if the agency’s needs are best served by custom software or by adapting agency processes to be compatible with a COTS product.  
-* Use [risk mitigation prototyping]({{'/derisking-government-tech/buying-development-services#budget-for-a-“risk-mitigation-prototype”' | url}}). 
+* Use [risk mitigation prototyping]({{'/derisking-government-tech/buying-development-services/#budget-for-a-risk-mitigation-prototype' | url}}). 
 
 ### Testing for UMOTS {#testing-for-umots}
 
