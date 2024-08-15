@@ -6,6 +6,8 @@
 -----------------------------------------------------------*/
 
 .derisking-government-tech {
+  $user-story-color: #FAF3D1;
+
   h4 {
     color: $brand-color-medium;
   }
@@ -92,5 +94,13 @@
     ul {
       padding-inline-start: 6.5%;
     }
+  }
+
+  // User story examples on the key principles page
+  .user-story {
+    @include typeset('body', 'sm', 4);
+
+    background-color: $user-story-color;
+    padding: 1rem;
   }
 }
