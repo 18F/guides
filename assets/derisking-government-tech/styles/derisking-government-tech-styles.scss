@@ -1,10 +1,28 @@
+@use '../../_common/styles/brand-colors' as *;
 @use 'uswds-core' as * ;
 
 /*----------------------------------------------------------
 # Styles specific to the De-risking Government Tech guide
 -----------------------------------------------------------*/
 
-// Styles for the card layout on the Introduction page
+// Section headers within pages
+.section-image {
+  background-color: $brand-color-light;
+
+  img {
+    height: 80%;
+    max-height: 80%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
+
+.chapter-summary {
+  font-size: 1.375rem;
+  margin-top: 1rem;
+}
+
+// Card layout on the Introduction page
 .usa-card {
   .usa-card__container {
     border-style: none;
@@ -45,8 +63,32 @@
 }
 
 .usa-prose {
+  h4 {
+    color: $brand-color-medium;
+  }
+  
   hr {
     margin-bottom: 2rem;
     margin-top: 2rem;
+  }
+}
+
+.usa-summary-box {
+  padding: 4%;
+
+  div {
+    color: $brand-color-medium;
+
+    .font-body-lg {
+      color: $brand-color-medium;
+    }
+    .usa-icon--size-4 {
+      fill: $brand-color-medium;
+      flex-shrink: 0;
+    }
+  }
+
+  ul {
+    padding-inline-start: 6.5%;
   }
 }
