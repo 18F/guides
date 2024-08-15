@@ -14,6 +14,10 @@ sticky_sidenav: true
 
 TK
 
+## Writing a solicitation for a performance-based services contract {#writing-a-solicitation-for-a-performance-based-services-contract}
+
+TK
+
 ### Budget for a “risk mitigation prototype” {#budget-for-a-risk-mitigation-prototype}
 
 TK
