@@ -4,7 +4,7 @@ permalink: /derisking-government-tech/principles/
 layout: layouts/page
 tags: derisking-government-tech
 eleventyNavigation:
-  parent: derisking-government-tech
+  parent: derisking-government-tech-home
   key: principles
   order: 3
   title: Key principles
