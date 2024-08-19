@@ -223,7 +223,7 @@ Government agencies often struggle with enabling remote collaboration due to net
 
 Determine which collaboration tools teams will need and make those available to them. As an interim step, agencies may want to develop a provisional Authorization to Operate (ATO) process for piloting tools that are relatively low risk. This process could inform decisions about which tools should go through the ATO process to be rolled out more broadly.
 
-### Clear the “path to production”  {#clear-the-“path-to-production”}
+### Clear the “path to production”  {#clear-the-path-to-production}
 
 Unlike in the private sector, making government systems available to end users is a highly regulated and scrutinized activity. It requires technical, legal, legislative, and other approvals, along with extra layers of development. 
 
