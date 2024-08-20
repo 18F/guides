@@ -64,11 +64,11 @@ Your partners likely have an incomplete view of the current state or what their 
 
 ## Resources
 
-- [How to conduct user research [1]](https://guides.18f.gov/methods/): 18F Methods provide instruction on several different research activities to consider, including [interviews](https://guides.18f.gov/methods/stakeholder-and-user-interviews), [contextual inquiries](https://guides.18f.gov/methods/contextual-inquiry), [heuristic evaluation](https://guides.18f.gov/methods/heuristic-evaluation), and more.
+- [How to conduct user research [1]](https://guides.18f.gov/methods/discover): 18F Methods provide instruction on several different research activities to consider, including [interviews](https://guides.18f.gov/methods/discover/stakeholder-and-user-interviews), [contextual inquiries](https://guides.18f.gov/methods/discover/contextual-inquiry), [heuristic evaluation](https://guides.18f.gov/methods/discover/heuristic-evaluation), and more.
 
 - [How to conduct user research [2]](https://guides.18f.gov/ux-guide/research/): Guidelines on how research is done at 18F, from how to make a research plan to how to comply with the Paperwork Reduction Act (PRA), participant privacy, and research ethics.
 
-- [How to synthesize user research](https://guides.18f.gov/methods/): 18F Methods provide instructions on several different ways to tell users’ stories, including [journey maps](https://guides.18f.gov/methods/journey-mapping), [user scenarios](https://guides.18f.gov/methods/user-scenarios), [storyboards](https://guides.18f.gov/methods/storyboarding), and [task flow analysis](https://guides.18f.gov/methods/decide/task-flow-analysis/).
+- [How to synthesize user research](https://guides.18f.gov/methods/decide): 18F Methods provide instructions on several different ways to tell users’ stories, including [journey maps](https://guides.18f.gov/methods/decide/journey-mapping), [user scenarios](https://guides.18f.gov/methods/decide/user-scenarios), [storyboards](https://guides.18f.gov/methods/decide/storyboarding), and [task flow analysis](https://guides.18f.gov/methods/decide/task-flow-analysis/).
 
 - Examples of user journeys: [Example 1](https://docs.google.com/drawings/d/1SqxnC-smn2nE7tCk3_79YpPH5XlcltKPN3nsLf8F6PU/edit), Example 2 (<a href="https://app.mural.co/t/gsa6/m/gsa6/1611637245217/2d6ef2c9a78cdc2849c07edaf26d855381f50975" class="private-link">detailed</a>, [summary](https://docs.google.com/presentation/d/1G2jx7adxkDifD_wihWD3Ak1xnxH0ePQVJWH6RL7ibQs/edit#slide=id.g4e82d6a821_2_101))
 
