@@ -1,0 +1,15 @@
+{% comment %}
+An info box with an (i) icon next to the header, based on the USWDS usa-summary-box component.
+If the link-slug parameter is set, add an ID and heading link to the header.
+{% endcomment %}
+<div class="info-box display-flex flex-column usa-summary-box">
+  <div class="info-box-header display-flex flex-row">
+    <svg aria-hidden="true" focusable="false" role="img" class="usa-icon--size-4 margin-left-neg-2px margin-right-05"><use xlink:href="#svg-info"/></svg>
+    <p class="flex-align-self-center font-body-lg margin-0" {% if link-slug %}id="{{ link-slug }}"{% endif %}>
+      <strong>{{ header }}</strong>{% if link-slug %}{% include 'heading-link.html' slug: link-slug %}{% endif %}
+    </p>
+  </div>
+  <div class="info-box-content font-body-sm">
+    {{ content }}
+  </div>
+</div>

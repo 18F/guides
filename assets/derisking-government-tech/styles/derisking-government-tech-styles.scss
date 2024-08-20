@@ -6,13 +6,83 @@
 -----------------------------------------------------------*/
 
 .derisking-government-tech {
+  $user-story-color: #FAF3D1;
+
   h4 {
     color: $brand-color-medium;
+  }
+
+  h5 {
+    @include u-font('sans', 'sm');
+    color: $brand-color-medium;
+    font-weight: normal;
+    text-transform: uppercase;
   }
 
   hr {
     margin-bottom: 2rem;
     margin-top: 2rem;
+  }
+
+  table {
+    text-align: left;
+
+    caption {
+      @include typeset('body', 'md', 3);
+    }
+
+    thead {
+      th {
+        background-color: $brand-color-medium;
+        border-color: $brand-color-dark;
+        color: white;
+        width: 50%;
+        vertical-align: top;
+
+        .scrum-table-subheader {
+          @include u-font('sans', '2xs');
+          font-weight: normal;
+          margin: 0;
+        }
+      }
+
+      th.scrum-table-position-header {
+        width: 33%;
+      }
+
+      th.scrum-table-people-header {
+        width: 17%;
+      }
+
+      th.scrum-table-rate-header {
+        width: 21%;
+      }
+
+      th.scrum-table-cost-header {
+        width: 29%;
+      }
+    }
+
+    tr {
+      td {
+        @include u-line-height('body', 4);
+        border-color: $brand-color-medium;
+        vertical-align: top;
+      }
+
+      td.numeric {
+        text-align: right;
+      }
+    }
+
+    tr.total-row td {
+      background-color: $brand-color-light;
+    }
+  }
+
+  .table-footnote {
+    @include typeset('body', '2xs', 4);
+    max-width: 100%;
   }
 
   // Section headers within pages
@@ -73,10 +143,10 @@
     }
   }
 
-  .usa-summary-box {
+  .info-box {
     padding: 4%;
 
-    div {
+    .info-box-header {
       color: $brand-color-medium;
 
       .font-body-lg {
@@ -89,8 +159,18 @@
       }
     }
 
-    ul {
-      padding-inline-start: 6.5%;
+    .info-box-content {
+      ul {
+        padding-inline-start: 6.5%;
+      }
     }
+  }
+
+  // User story examples on the key principles page
+  .user-story {
+    @include typeset('body', 'sm', 4);
+
+    background-color: $user-story-color;
+    padding: 1rem;
   }
 }
