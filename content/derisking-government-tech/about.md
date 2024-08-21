@@ -24,12 +24,15 @@ The current guide reflects the contributions of many current and former 18F staf
 * Authors and editors of the De-risking Government Technology Guide 2.0  
     * Alan Atlas, Elizabeth Ayer, Brian Burns, Stacy Dion, Randy Hart, Mark Hopson, Selena Juneau-Vogel, Miatta Myers, Laura Poncé, Peter Rowland, Amelia Wong, and Lindsay Young
 
-With thanks to the many people who shared feedback on the guide’s content:
+With thanks to:
 
-* From 18F: Claire Blaustein, Lalitha Jonnalagadda, Amanda Kennedy, Jason Nakai, Allison Norman, Cale Rubenstein   
-* From Technology Transformation Services: Davida Marion   
-* The several state employees who participated in user research
-
-Special thanks to Igor Korenfeld for designing the PDF template of the guide; Mel Choyce for designing new visual elements, updating the layout, and refining the PDF template; Nate Borrebach for building the new online version; and Komal Rasheed, for her invaluable guidance and support throughout the entirety of the Facing Financial Shock project.
+* All who shared feedback on the guide’s content:
+    * From 18F: Claire Blaustein, Lalitha Jonnalagadda, Amanda Kennedy, Jason Nakai, Allison Norman, Cale Rubenstein
+    * From Technology Transformation Services: Davida Marion
+    * The several state employees who participated in user research
+* Igor Korenfeld for designing the PDF template of the guide
+* Mel Choyce for designing new visual elements, updating the layout, and refining the PDF template
+* Nate Borrebach for building the new online version
+* Komal Rasheed for her invaluable guidance and support throughout the entirety of the Facing Financial Shock project
 
 If you have feedback on this guide, please let us know through the [18F Guides GitHub repo]({{ "https://github.com/18F/guides/issues/new/choose" | url }}).
