@@ -50,7 +50,7 @@ Done well, market research shapes the final product as well as a product’s req
 
 Consult our detailed guidance for [conducting market research]({{ "/derisking-government-tech/resources/market-research/" | url }}).
 
-### Writing the solicitation using 18F’s Agile Contract Format {#writing-the-solicitation-using-18f’s-agile-contract-format}
+### Writing the solicitation using 18F’s Agile Contract Format {#writing-the-solicitation-using-18fs-agile-contract-format}
 
 Our **Agile Contract Format** has three elements:
 
@@ -75,7 +75,7 @@ We use a statement of objectives for the purpose of competition since, unlike a 
 
 18F has created a statement of objectives template for writing a solicitation for agile software development services. ([Download 18F’s statement of objectives template (Microsoft Word).]({{ "https://18f.gsa.gov/assets/presentations/agile-software-development-solicitation-template.docx" | url }})) To use our template to create an Agile Contract Format, you will plug agile artifacts into the sections as follows:
 
-| SOO section | Agile analog |
+| SOO section{.width-50-percent} | Agile analog{.width-50-percent} |
 | ----- | ----- |
 | Scope or mission | Product vision  |
 | Performance objectives (that is, required results) | Product backlog |
@@ -97,7 +97,7 @@ We use a not-to-exceed (NTE) ceiling, provided regardless of the actual proposal
 
 The FAR states that a [T\&M contract]({{ "https://www.acquisition.gov/far/subpart-16.6#FAR_16_601__d1049e207" | url }}) is not supposed to exceed three calendar years. Consequently, the period of performance is between one to three calendar years in total. ([18F’s Determinations & Findings artifact (Microsoft Word)]({{ "https://18f.gsa.gov/assets/presentations/determinations-findings-for-a-time-and-materials-contract-type-sample.docx" | url }}) provides a full justification for using T\&M type contracts and explains this aspect in depth.)
 
-#### Quality indicators defined in a Quality Assurance Surveillance Plan (QASP) {#quality-indicators-defined-in-a-quality-assurance-surveillance-plan-(qasp)}
+#### Quality indicators defined in a Quality Assurance Surveillance Plan (QASP) {#quality-indicators-defined-in-a-quality-assurance-surveillance-plan}
 
 [The FAR allows for a range of ways to establish and monitor contract performance.]({{ "https://www.acquisition.gov/far/part-46#FAR_46_201" | url }}) Quality indicators for software development are best declared through a well defined, objective set of criteria that serve as an assessment tool for both the government agency and the vendor. At the federal level, these criteria are put into a **Quality Assurance Surveillance Plan** (QASP).
 
@@ -156,7 +156,7 @@ Proposals are evaluated as follows:
 
 Inform vendors their proposed technical approach will be evaluated for how it describes its approach to modern software development practices. In particular, ask them to include the process they will follow to meet the solicitation’s quality expectations for the software. Ask them also to identify any risks they anticipate in regard to the specific project’s development effort and how it would address them. 
 
-##### Staffing approach
+##### Staffing approach {#staffing-approach}
 
 We’ve found that how a vendor proposes to staff a project is a strong indicator of how much experience they’ve had in working in iterative ways. As a result, the solicitation should inform vendors that evaluation of their proposed approach to staffing the project will focus on the stated skills and team composition. 
 
