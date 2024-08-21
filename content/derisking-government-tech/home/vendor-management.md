@@ -432,15 +432,15 @@ The research approach and methods used on a particular project will vary dependi
 When reviewing user research materials, processes, or deliverables, these are good signs that reflect the use of best practices:
 
 * Recruiting from a diverse population  
-  * The team should be recruiting participants with a diverse range of perspectives, needs, and abilities. This helps ensure a product or service will be accessible to anyone who may use it. It’s also important the team consider barriers to use and inclusion faced by various groups who may use the software and recruit people from those groups.   
+    * The team should be recruiting participants with a diverse range of perspectives, needs, and abilities. This helps ensure a product or service will be accessible to anyone who may use it. It’s also important the team consider barriers to use and inclusion faced by various groups who may use the software and recruit people from those groups.   
 * Research plan(s) with clear and appropriate goals  
-  * Planning ensures that participants’ and the team’s time is respected throughout the research process. It also helps the team adapt its approach in response to real-world conditions. A research plan should include clearly stated and appropriate goals, methods, and research questions.  
+    * Planning ensures that participants’ and the team’s time is respected throughout the research process. It also helps the team adapt its approach in response to real-world conditions. A research plan should include clearly stated and appropriate goals, methods, and research questions.  
 * The whole team is part of the research process  
-  * It’s a good sign to see active team participation in research planning, observing research sessions, debriefing, and discussing the findings because it indicates shared investment in learning and serving the needs of users. (Every member of a team need not participate in every aspect of research.)   
+    * It’s a good sign to see active team participation in research planning, observing research sessions, debriefing, and discussing the findings because it indicates shared investment in learning and serving the needs of users. (Every member of a team need not participate in every aspect of research.)   
 * Research participants’ privacy is protected  
-  * When participants trust you, they are more likely to share full and accurate accounts of their experiences. A large part of maintaining trust with participants involves protecting their privacy. Signs that the vendor is protecting PII (personally identifiable information) include the use of pseudonyms, keeping access to raw notes limited, collecting informed consent, and de-identifying research data before synthesizing.  
+    * When participants trust you, they are more likely to share full and accurate accounts of their experiences. A large part of maintaining trust with participants involves protecting their privacy. Signs that the vendor is protecting PII (personally identifiable information) include the use of pseudonyms, keeping access to raw notes limited, collecting informed consent, and de-identifying research data before synthesizing.  
 * Actionable research findings  
-  * After each round of research, the whole team should identify how the research findings change the work planned for the next sprint or for future design efforts. Articulating insights from findings involves various activities that allow the project team to work together to begin to map out larger patterns and themes. 
+    * After each round of research, the whole team should identify how the research findings change the work planned for the next sprint or for future design efforts. Articulating insights from findings involves various activities that allow the project team to work together to begin to map out larger patterns and themes. 
 
 Learn more about [user research in the 18F User Experience Guide]({{ "https://guides.18f.gov/ux-guide/research/" | url }}).
 
