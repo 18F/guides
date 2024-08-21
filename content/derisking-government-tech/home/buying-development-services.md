@@ -26,7 +26,7 @@ To acquire a development team to build custom software using modern software dev
 
 ---
 
-## Writing a solicitation for a performance-based services contract {#writing-a-solicitation-for-a-performance-based-services-contract}
+## Writing a solicitation for a performance-based services contract
 
 {% include 'derisking-government-tech/section_image.html' img_path: "assets/derisking-government-tech/img/custom-development-solicitation.svg" %}
 
@@ -81,7 +81,7 @@ We use a statement of objectives for the purpose of competition since, unlike a 
 | Performance objectives (that is, required results) | Product backlog |
 | Any operating constraints | Non-functional requirements |
 
-#### Time-and-materials type contract {#time-and-materials-type-contract}
+#### Time-and-materials type contract
 
 A **time-and-materials (T\&M) type contract** is used for acquiring services at fixed hourly rates for labor, and supplies or materials used to create and/or make the end product available to users. 
 
@@ -138,7 +138,7 @@ Note: If vendors request more narrative space, it indicates one of two things:
 * The vendor might not be experienced or comfortable working with an iterative approach to software development. A vendor experienced in responding to more traditional solicitations for waterfall development will be used to providing long, detailed explanations of how they would meet every requirement. Don’t let vendors’ requests for more narrative space dissuade you from keeping a page or word limit. We’ve found most vendors appreciate the request for brief explanations.
 * The government’s request was poorly written and is confusing to potential bidders.
 
-#### Evidence-based evaluation methods {#evidence-based-evaluation-methods}
+#### Evidence-based evaluation methods
 
 A solicitation explains the factors and methods the agency will use for evaluating proposals. 
 
@@ -152,11 +152,11 @@ Proposals are evaluated as follows:
 * Proposals will not be evaluated by a numeric point or color scoring scheme. Instead, each member of the evaluation team will review each proposal and list its pros and cons. The whole team will discuss the proposals’ pros and cons to determine the strongest ones.  
 * Evaluation teams may use whatever materials are available beyond the proposals to help them decide: websites, news articles, samples of prior work, etc. (Include a statement in the solicitation that the government may use such information at its discretion.) 
 
-##### Technical approach {#technical-approach}
+##### Technical approach
 
 Inform vendors their proposed technical approach will be evaluated for how it describes its approach to modern software development practices. In particular, ask them to include the process they will follow to meet the solicitation’s quality expectations for the software. Ask them also to identify any risks they anticipate in regard to the specific project’s development effort and how it would address them. 
 
-##### Staffing approach {#staffing-approach}
+##### Staffing approach
 
 We’ve found that how a vendor proposes to staff a project is a strong indicator of how much experience they’ve had in working in iterative ways. As a result, the solicitation should inform vendors that evaluation of their proposed approach to staffing the project will focus on the stated skills and team composition. 
 
@@ -179,7 +179,7 @@ Verbal interviews should be tailored to each proposal. Consult our [sample inter
 
 {% include 'derisking-government-tech/info_box.html' header: "Adding a key personnel clause" content: keyPersonnelClauseContent link-slug: 'adding-a-key-personnel-clause' %}
 
-##### Similar experience {#similar-experience}
+##### Similar experience
 
 Actual code is a far better indicator of how a vendor team is likely to perform under real-world conditions than exercises like “bake-offs” or “hackathons.” Similar experience is best evaluated by reviewing concrete evidence of the vendor’s work so you may assess its quality. 
 
@@ -252,7 +252,7 @@ Check out our in-depth guidance on [how to evaluate proposals and bids]({{'/deri
 
 ---
 
-## Budgeting for custom software development {#budgeting-for-custom-software-development}
+## Budgeting for custom software development
 
 {% include 'derisking-government-tech/section_image.html' img_path: "assets/derisking-government-tech/img/custom-development-budgeting.svg" %}
 
