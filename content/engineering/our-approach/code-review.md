@@ -25,7 +25,7 @@ eleventyNavigation:
   title: Code review
 ---
 
-_A friendly guide for reviewing code — and not each other — at TTS._
+_A friendly guide for reviewing code — and not each other — at 18F._
 
 ## Why reviews?
 Code reviews are an incredibly important part of the development process. Our goals when reviewing code are to:
