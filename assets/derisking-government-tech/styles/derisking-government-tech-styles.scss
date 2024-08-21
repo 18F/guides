@@ -36,7 +36,6 @@
         background-color: $brand-color-medium;
         border-color: $brand-color-dark;
         color: white;
-        width: 50%;
         vertical-align: top;
 
         .scrum-table-subheader {
@@ -68,6 +67,10 @@
         @include u-line-height('body', 4);
         border-color: $brand-color-medium;
         vertical-align: top;
+
+        ul {
+          margin: 0;
+        }
       }
 
       td.numeric {
@@ -83,6 +86,14 @@
   .table-footnote {
     @include typeset('body', '2xs', 4);
     max-width: 100%;
+  }
+
+  .width-33-percent {
+    width: 33.333%;
+  }
+
+  .width-50-percent {
+    width: 50%;
   }
 
   // Section headers within pages
@@ -160,6 +171,14 @@
     }
 
     .info-box-content {
+      h4 {
+        margin: 0.5rem 0 0 0;
+      }
+
+      p {
+        margin: 0.5rem 0 0 0;
+      }
+
       ul {
         padding-inline-start: 6.5%;
       }
