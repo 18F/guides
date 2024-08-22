@@ -14,7 +14,7 @@ method:
   title: Affinity mapping
   what: A way of finding themes in collections of ideas, quotes, or observations.
   why: To draw out insights from qualitative data quickly and collaboratively.
-  timeRequired: 1 hour
+  timeRequired: 2 hour
   category: decide
 ---
 
