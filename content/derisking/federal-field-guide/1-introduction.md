@@ -2,6 +2,7 @@
 layout: layouts/page
 title: Federal Field Guide
 tags: derisking
+redirect-url: https://guides.18f.gov/derisking-government-tech/
 description: Guidance for federal agencies about how to procure, customize, or build user-centered software while reducing risk of wasteful spending.
 permalink: /derisking/federal-field-guide/
 eleventyNavigation:
