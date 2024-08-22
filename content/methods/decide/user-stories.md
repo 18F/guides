@@ -40,7 +40,7 @@ method:
 ## Additional resources{#add-personas}
 
 - [Agile — 18F Guides]({{ "/agile/" | url}}){.usa-link .usa-link--external}
-- [Agile software development — 18F De-risking Guide]({{ "/derisking/federal-field-guide/basic-principles/#agile-software-development" | url}}){.usa-link .usa-link--external}
+- [Agile software development — 18F De-risking Guide]({{ '/derisking-government-tech/principles-effective-software/#modern-software-dev-practices/' | url}}){.usa-link .usa-link--external}
 - [Writing Effective User Stories — Tech at GSA](https://tech.gsa.gov/guides/effective_user_stories/){.usa-link .usa-link--external}
 - [User Story Examples — Tech at GSA](https://tech.gsa.gov/guides/user_story_example/){.usa-link .usa-link--external}
 - [Government Product Managers Play a Key Role in UX — Digital.gov](https://digital.gov/2015/11/27/government-product-managers-play-a-key-role-in-ux/){.usa-link .usa-link--external}
