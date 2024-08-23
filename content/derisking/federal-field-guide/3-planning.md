@@ -4,6 +4,7 @@ title: Planning
 page_title_tag: h2
 hidden_guide_title: Federal Field Guide
 tags: derisking
+redirect-url: /derisking-government-tech/principles/
 description: How to reduce risk when planning software projects by empowering a product owner, doing user research, picking open source and scoping work tightly.
 permalink: /derisking/federal-field-guide/planning/
 eleventyNavigation:
