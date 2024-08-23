@@ -1,6 +1,7 @@
 ---
 title: State Software Budgeting Handbook
 tags: derisking
+redirect-url: /derisking-government-tech/
 description: Guidance for state agencies about how to procure, customize, or build user-centered software while reducing risk of wasteful spending.
 permalink: /derisking/state-field-guide/
 layout: layouts/page
