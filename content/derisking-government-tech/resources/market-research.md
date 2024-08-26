@@ -49,18 +49,14 @@ It involves more pointed questions than those used in market surveillance. If yo
 * Are any of them under a recognized socioeconomic program or status, such as the [8(a) program]({{ "https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program" | url }}) or [Service-Disabled Veteran-Owned Small Business]({{ "https://business.defense.gov/Socioeconomic-Programs/SDVOSB/" | url }}) (SDVSOB) program?
 {% endcapture %}
 
-<ol class="market-research-summary-list">
-  <li>
-    <div>
-      <p class="market-research-summary"><span class="keyword">Market surveillance</span> is a continuous process to stay informed about industry trends, new technologies, and other information about a marketplace of goods and services needed to fulfill an agency’s mission.</p>
-      <div class="padding-top-2">{{ marketSurveillanceBody }}</div>
-    </div>
+<ol class="usa-process-list market-research-summary-list">
+  <li class="usa-process-list__item">
+    <h3><span class="keyword">Market surveillance</span> is a continuous process to stay informed about industry trends, new technologies, and other information about a marketplace of goods and services needed to fulfill an agency’s mission.</h3>
+    <div>{{ marketSurveillanceBody }}</div>
   </li>
-  <li>
-    <div>
-      <p class="market-research-summary"><span class="keyword">Market investigation</span> is research focused on specific sources, materials, or potential competitors to fulfill a particular agency requirement. It is usually done to complete a market research report for an active procurement.</p>
-      <div class="padding-top-2">{{ marketInvestigationBody }}</div>
-    </div>
+  <li class="usa-process-list__item">
+    <h3><span class="keyword">Market investigation</span> is research focused on specific sources, materials, or potential competitors to fulfill a particular agency requirement. It is usually done to complete a market research report for an active procurement.</h3>
+    <div>{{ marketInvestigationBody }}</div>
   </li>
 </ol>
 
