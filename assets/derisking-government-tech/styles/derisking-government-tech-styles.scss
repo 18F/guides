@@ -220,22 +220,21 @@
     padding: 1rem;
   }
 
-  .market-research-summary-list {
-    padding-left: 3.5rem;
-
-    li::marker {
-      color: $brand-color-dark;
-      font-size: large;
-      font-weight: bold;
+  // Customize the process list at the top of the market research page
+  ol.market-research-summary-list {
+    li::before {
+      border-color: $brand-color-medium;
+      color: $brand-color-medium;
     }
 
-    .market-research-summary {
-      @include typeset('sans', 'lg', 2);
-      color: $brand-color-dark;
-      font-weight: bold;
+    li.usa-process-list__item {
+      border-left-style: none;
+      h3 {
+        @include typeset('sans', 'lg', 2);
   
-      .keyword {
-        color: $brand-color-medium;
+        .keyword {
+          color: $brand-color-medium;
+        }
       }
     }
   }
