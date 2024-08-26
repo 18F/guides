@@ -402,7 +402,7 @@ As part of the solicitation, you will have asked vendors to submit [code reposit
 
 ## Evaluator worksheet
 
-{% include 'derisking-government-tech/evaluator_worksheet_download.html' %}
+{% include 'derisking-government-tech/pdf_document_download.html' doc_type_name: "worksheet" pdf_url: "/assets/derisking-government-tech/dist/18F-de-risking-guide-v2-evaluator-worksheet.pdf" %}
 
 A downloadable resource to evaluate proposals for a custom software project.
 

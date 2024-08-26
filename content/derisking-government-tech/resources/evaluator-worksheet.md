@@ -6,8 +6,7 @@ tags: derisking-government-tech
 description: 18F's worksheet for evaluating proposals and bids for a performance-based services contract to build custom software for a government agency.
 sidenav: false
 ---
-
-{% include 'derisking-government-tech/evaluator_worksheet_download.html' %}
+{% include 'derisking-government-tech/pdf_document_download.html' doc_type_name: "worksheet" pdf_url: "/assets/derisking-government-tech/dist/18F-de-risking-guide-v2-evaluator-worksheet.pdf" %}
 
 **Evaluator name:** {.font-body-sm}
    
@@ -215,4 +214,4 @@ In evaluating a contractor’s similar experience, the government will consider 
 
 {% include 'derisking-government-tech/evaluation_factor_table.html' %}
 
-{% include 'derisking-government-tech/evaluator_worksheet_download.html' %}
+{% include 'derisking-government-tech/pdf_document_download.html' doc_type_name: "worksheet" pdf_url: "/assets/derisking-government-tech/dist/18F-de-risking-guide-v2-evaluator-worksheet.pdf" %}
