@@ -26,7 +26,7 @@ This guide was written to give government tools to lower the high risk of failur
 ## What’s in this guide
 
 <div class="margin-top-2">
-  <ul class="usa-card-group flex-align-start">
+  <ul class="usa-card-group flex-align-start introduction-cards">
     <li class="usa-card tablet:grid-col-6">
       <div class="usa-card__container">
         <div class="usa-card__media">

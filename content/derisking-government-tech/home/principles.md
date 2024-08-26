@@ -77,7 +77,7 @@ Project stakeholders and team members can only guess how users will use software
 
 Consult the [18F User Experience Guide](https://guides.18f.gov/ux-guide/research/) for more detail on approaches.
 
-### Iterative and incremental development  {#iterative-and-incremental-development}
+### Iterative and incremental development
 
 Effective software systems are built by a development team that uses iterative and incremental methods. 
 
