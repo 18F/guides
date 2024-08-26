@@ -9,8 +9,8 @@ sidenav: false
 
 {% include 'derisking-government-tech/chapter_image.html' img_path: "assets/derisking-government-tech/img/resources.svg" %}
 
-<ul class="usa-card-group grid-gap-6 padding-top-3">
-  <li class="usa-card grid-col-4">
+<ul class="usa-card-group padding-top-3">
+  <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4">
     <div class="usa-card__container border-width-1px">
       <div class="usa-card__header">
         <h4 class="usa-card__heading">Market research</h4>
@@ -23,7 +23,7 @@ sidenav: false
       </div>
     </div>
   </li>
-  <li class="usa-card grid-col-4">
+  <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4">
     <div class="usa-card__container border-width-1px">
       <div class="usa-card__header">
         <h4 class="usa-card__heading">Verbal interview questions</h4>
@@ -36,7 +36,7 @@ sidenav: false
       </div>
     </div>
   </li>
-  <li class="usa-card grid-col-4">
+  <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4">
     <div class="usa-card__container border-width-1px">
       <div class="usa-card__header">
         <h4 class="usa-card__heading">Evaluating bids</h4>
@@ -49,7 +49,7 @@ sidenav: false
       </div>
     </div>
   </li>
-  <li class="usa-card grid-col-4">
+  <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4">
     <div class="usa-card__container border-width-1px">
       <div class="usa-card__header">
         <h4 class="usa-card__heading">Kick-off agenda</h4>
@@ -62,7 +62,7 @@ sidenav: false
       </div>
     </div>
   </li>
-  <li class="usa-card grid-col-4">
+  <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4">
     <div class="usa-card__container border-width-1px">
       <div class="usa-card__header">
         <h4 class="usa-card__heading">Open source security</h4>
@@ -75,7 +75,7 @@ sidenav: false
       </div>
     </div>
   </li>
-  <li class="usa-card grid-col-4">
+  <li class="usa-card tablet:grid-col-6 tablet-lg:grid-col-4">
     <div class="usa-card__container border-width-1px">
       <div class="usa-card__header">
         <h4 class="usa-card__heading">Quality indicators plan</h4>
