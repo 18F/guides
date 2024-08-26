@@ -154,7 +154,7 @@ Use KSS for documentation. More information on KSS can be found on the [official
 KSS is the most common CSS documentation method to date. While it’s not perfect, the generated documentation can be modified through templates.
 
 ## Frameworks
-TTS recommends using the [U.S. Web Design System (USWDS)](https://github.com/uswds/uswds) as it is specifically designed to help build fast, accessible, mobile-friendly federal government websites.
+18F recommends using the [U.S. Web Design System (USWDS)](https://github.com/uswds/uswds) as it is specifically designed to help build fast, accessible, mobile-friendly federal government websites.
 
 Sometimes, projects utilize other CSS frameworks such as:
 
@@ -430,7 +430,7 @@ When it comes to naming, the most important thing is consistency. The recommende
 
 > The point of BEM is to tell other developers more about what a piece of markup is doing from its name alone. By reading some HTML with some classes in, you can see how – if at all – the chunks are related; something might just be a component, something might be a child, or element, of that component, and something might be a variation or modifier of that component.
 
-TTS generally recommends using a modified BEM methodology outlined in the next subsection. However, you might want to use standard BEM when:
+18F generally recommends using a modified BEM methodology outlined in the next subsection. However, you might want to use standard BEM when:
 
 * You need a naming scheme that general CSS developers will already be familiar with or an existing naming scheme hasn’t been consistent enough.
 * When you want to use JavaScript to modify the BEM class names dynamically.
@@ -464,7 +464,7 @@ Here is an example of BEM in SCSS:
 ```
 
 #### Suggested custom methodology
-The TTS recommendation for a naming methodology is a modified version of BEM. It still uses blocks, sections within blocks and modifiers, but with an abbreviated syntax.
+The 18F recommendation for a naming methodology is a modified version of BEM. It still uses blocks, sections within blocks and modifiers, but with an abbreviated syntax.
 
 ```
 .accordion
@@ -508,7 +508,7 @@ Don't attach styles to classes with a `test-` flag. These classes are reserved f
 [mindbemding]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
 ## Preprocessors 
-The most supported CSS preprocessor at TTS is [Sass]. Using this preprocessor means you'll get supported resources such as frameworks, libraries, tutorials, and a comprehensive styleguide as support.
+The most supported CSS preprocessor at 18F is [Sass]. Using this preprocessor means you'll get supported resources such as frameworks, libraries, tutorials, and a comprehensive styleguide as support.
 
 _That being said, any preprocessor is allowed as long as it's a sound project and has community support._
 

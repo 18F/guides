@@ -26,7 +26,7 @@ subnav:
     href: "#related-topics"
 ---
 
-The purpose of the JavaScript coding styleguide is to create and utilize consistent JS across TTS. The styleguide should be treated as a guide &mdash; rules can be modified according to project needs.
+The purpose of the JavaScript coding styleguide is to create and utilize consistent JS across 18F. The styleguide should be treated as a guide &mdash; rules can be modified according to project needs.
 
 ## Dependencies
 The word "dependency" refers to all of the frameworks, libraries, and other tools that your project relies on. *Dependency management* is the process by which tools are incorporated into your project, removed and updated (for instance, when you need a new version of [jQuery]). Here are the tools that we recommend for managing dependencies:
@@ -77,11 +77,11 @@ When git notices a difference during a merge, it will tenatively accept the curr
 #### Safely installing packages from npm
 While npm is generally a safe environment to install code from, there are certain aspects of the system that are vulnerable to dangerous script execution. Luckily there are steps that can be taken to minimize these risks.
 
-It's recommended that developers at TTS follow these guidelines when installing unknown or new packages.
+It's recommended that developers at 18F follow these guidelines when installing unknown or new packages.
 
 npm allows various hooks to be executed during the install process. These scripts are where potential dangerous scripts can be executed. To limit this it's recommended to:
 
-1. Install npm in a manner so sudo is never required. The TTS recommended way of doing this is to [install with nvm](#install-npm).
+1. Install npm in a manner so sudo is never required. The 18F recommended way of doing this is to [install with nvm](#install-npm).
 2. Check which scripts will be run on install by running `npm show $module scripts`.
   - Each script under `preinstall`, `install`, `postinstall` will be run when installing.
   - Each script under `postuninstall`, `preuninstall`, `uninstall` will be run on uninstall.
@@ -204,7 +204,7 @@ AngularJS is the legacy version of Angular and is not actively developed. Mainte
 {% include "engineering/tag-standard.html" %}
 We recommend combining [Prettier](https://prettier.io) with the [Airbnb JavaScript style guide](https://github.com/airbnb/javascript) plugins for [eslint](https://eslint.org).
 
-Maintaining stylistic consistency across TTS code helps lower the barrier to jumping in and helping with or reviewing other projects because we'll all be familiar with reading and working with code that looks similar. Having consistent rules for styling also removes generally non-productive discussions (aka bikeshedding) around personal code-formatting preferences.
+Maintaining stylistic consistency across 18F code helps lower the barrier to jumping in and helping with or reviewing other projects because we'll all be familiar with reading and working with code that looks similar. Having consistent rules for styling also removes generally non-productive discussions (aka bikeshedding) around personal code-formatting preferences.
 
 [Prettier](https://prettier.io) is an automatic code formatter that will handle converting between tabs and spaces, moving brackets onto the appropriate line, removing excess whitespace, and other stylistic . Using an automatic formatter makes it easier to keep code consistent while also freeing us from having to make arbitrary choices on which styles we prefer. It can [integrate with your code editor](https://prettier.io/docs/en/editors.html) to apply styles on save automatically.
 

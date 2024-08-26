@@ -103,7 +103,7 @@ For an example manifest and manifest-staging see:
 
 ## Zero downtime deploy options
 - {% include "engineering/tag-standard.html" %} The native Cloud Foundry [rolling app deployments](https://docs.cloudfoundry.org/devguide/deploy-apps/rolling-deploy.html#deploy) CLI is preferred over other options.
-- {% include "engineering/tag-caution.html" %} [Autopilot](https://github.com/contraband/autopilot) is a plugin historically used by a lot of TTS projects and used in both of the above examples. **It is now unmaintained and archived and does not support buildpacks.** We recommend moving to the official CF deployment commands.
+- {% include "engineering/tag-caution.html" %} [Autopilot](https://github.com/contraband/autopilot) is a plugin historically used by a lot of 18F projects and used in both of the above examples. **It is now unmaintained and archived and does not support buildpacks.** We recommend moving to the official CF deployment commands.
   - If you are using autopilot and your application successfully deploys to cloud.gov but does not start, which may happen for an application that does not have an adequate test suite, you may have to go into the cf target space and manually delete the "APP_NAME-venerable" application in order to make use of `autopilot` again.
 - [`blue-green-deploy`](https://github.com/bluemixgaragelondon/cf-blue-green-deploy) another plugin similar to autopilot.
 - See an [official CircleCI / Cloud Foundry Orb](https://circleci.com/orbs/registry/orb/circleci/cloudfoundry)

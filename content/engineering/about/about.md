@@ -28,7 +28,7 @@ Delivering open source software helps ensure quality, security and reusability. 
 
 ## Updates 
 
-Getting new practices into the guide is pretty light on process. Feel free to raise a topic in Slack or at a guild meeting and drive to some consensus. Once you've done that, document your findings, submit a PR, and ask in #dev for a quick review. If you think a proposal might be controversial after getting some consensus prior, please post the draft PR to #dev (and elsewhere if you don’t think target audience is in that channel) and solicit feedback.
+Getting new practices into the guide is pretty light on process. Feel free to raise a topic in Slack or at a guild meeting and drive to some consensus. Once you've done that, document your findings, submit a PR, and ask in #18f-engineering for a quick review. If you think a proposal might be controversial after getting some consensus prior, please post the draft PR to #18f-engineering (and elsewhere if you don’t think target audience is in that channel) and solicit feedback.
 
 ## How we classify best practices
 These documents are structured by topic; under topics we have classified we indicate "Requirement", "Standard", "Default", "Suggestion", and "Caution".
@@ -37,7 +37,7 @@ If a classification is not present on a topic or a reference to a tool or practi
 
 {% include "engineering/tag-requirement.html" %} indicates practices that _must_ be done for regulatory, legal, compliance, or other reasons.
 
-{% include "engineering/tag-standard.html" %} signifies practices that have a strong consensus across TTS; they should generally be followed to ease the ATO process and make on-boarding simpler.
+{% include "engineering/tag-standard.html" %} signifies practices that have a strong consensus across 18F; they should generally be followed to ease the ATO process and make on-boarding simpler.
 
 {% include "engineering/tag-default.html" %} practices are safe selections that tend to be used by a large number of our projects; you may find yourself with a better or more tailored solution, however.
 
