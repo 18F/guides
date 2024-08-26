@@ -35,8 +35,6 @@ We have three Google Docs templates: a [basic outline](https://docs.google.com/a
 ## Google Slides presentation templates
 {% image_with_class "assets/brand/img/18F-slide-theme-cover.svg" "" "18F slide template cover" %}
 
-[GSA slide template gallery](https://docs.google.com/presentation/u/0/?ftv=1&folder=0BwWYNZcEDfwabE13dnZpbFN5QmM&tgif=d){.usa-button}
-
 ### Instructions
 #### To make a new Google Slides presentation
 1. In Google Drive, click **New > Google Slides > From a template**.
