@@ -5,7 +5,7 @@ layout: layouts/page
 tags: derisking-government-tech
 description: Overview and tips for conducting thorough and ethical market research to acquire software development services to build custom software for government.
 eleventyNavigation:
-  parent: derisking-government-tech-resources
+  parent: derisking-government-tech-resources-market-research
   key: market-research
   order: 1
   title: How to conduct market research
