@@ -7,6 +7,7 @@
 
 .derisking-government-tech {
   $user-story-color: #FAF3D1;
+  $kick-off-session-time-color: #71767A;
 
   h4 {
     color: $brand-color-medium;
@@ -105,6 +106,44 @@
 
     tr.short-row {
       height: 84px;
+    }
+  }
+
+  table.kick-off-table {
+    margin-top: 2rem;
+
+    caption {
+      background-color: $brand-color-medium;
+      border-color: $brand-color-dark;
+      border-style: solid;
+      border-width: 1px;
+      margin: 0;
+      vertical-align: top;
+      
+      h3 {
+        @include typeset('body', 'lg', 2);
+        color: white;
+        margin: 0.5rem 0 0.5rem 1rem;
+      }
+    }
+
+    thead tr th {
+      background-color: white;
+      border-color: $brand-color-medium;
+      color: black;
+      width: 50%;
+    }
+
+    tbody tr td {
+      .session-name {
+        margin-bottom: 0.25rem;
+      }
+
+      .session-time {
+        color: $kick-off-session-time-color;
+        font-size: size('body', 'sm');
+        margin: 0 0 1rem 0;
+      }
     }
   }
 
