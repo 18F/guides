@@ -281,4 +281,18 @@
       }
     }
   }
+
+  // The workshop call-to-action at the bottom of some pages
+  .workshop-cta {
+    div div {
+      img {
+        height: 240px;
+        width: auto;
+      }
+
+      p {
+      max-width: measure(6);
+      }
+    }
+  }
 }

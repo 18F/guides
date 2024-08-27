@@ -4,6 +4,7 @@ permalink: /derisking-government-tech/
 layout: layouts/page
 tags: derisking-government-tech
 description: A guide for government agencies to deliver successful technology projects, from pre-award planning through post-award vendor management.
+show-workshop-cta: true
 eleventyNavigation:
   parent: derisking-government-tech-home
   key: derisking-government-tech-home-introduction

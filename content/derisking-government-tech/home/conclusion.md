@@ -4,6 +4,7 @@ permalink: /derisking-government-tech/conclusion/
 layout: layouts/page
 tags: derisking-government-tech
 description: Words of encouragement for government staff trying to use modern software development practices in technology projects.
+show-workshop-cta: true
 eleventyNavigation:
   parent: derisking-government-tech-home
   key: conclusion

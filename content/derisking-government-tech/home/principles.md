@@ -4,6 +4,7 @@ permalink: /derisking-government-tech/principles/
 layout: layouts/page
 tags: derisking-government-tech
 description: To build user-centered custom software, agencies must understand modern software development practices and how to acquire and manage vendors who use them.
+show-workshop-cta: true
 eleventyNavigation:
   parent: derisking-government-tech-home
   key: principles

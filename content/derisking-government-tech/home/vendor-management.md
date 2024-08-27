@@ -4,6 +4,7 @@ permalink: /derisking-government-tech/vendor-management/
 layout: layouts/page
 tags: derisking-government-tech
 description: Managing a vendor software development team involves knowing how to lead product direction, monitor performance, and resolve issues.
+show-workshop-cta: true
 eleventyNavigation:
   parent: derisking-government-tech-home
   key: vendor-management

@@ -4,6 +4,7 @@ permalink: /derisking-government-tech/buying-development-services/
 layout: layouts/page
 tags: derisking-government-tech
 description: Government agencies should buy and budget for custom software development using professional-based services contracting.
+show-workshop-cta: true
 eleventyNavigation:
   parent: derisking-government-tech-home
   key: buying-development-services
