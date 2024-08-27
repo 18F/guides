@@ -29,7 +29,7 @@ subnav:
 ---
 
 <table class="kick-off-table">
-  <caption><h3 id="day-1">Day 1</h3></caption>
+  <caption><h2 id="day-1">Day 1</h2></caption>
   <thead>
     <tr>
       <th>Session</th>
@@ -60,7 +60,7 @@ subnav:
 </table>
 
 <table class="kick-off-table">
-  <caption><h3 id="day-2">Day 2</h3></caption>
+  <caption><h2 id="day-2">Day 2</h2></caption>
   <thead>
     <tr>
       <th>Session</th>
@@ -99,7 +99,7 @@ subnav:
 </table>
 
 <table class="kick-off-table">
-  <caption><h3 id="day-3">Day 3</h3></caption>
+  <caption><h2 id="day-3">Day 3</h2></caption>
   <thead>
     <tr>
       <th>Session</th>
@@ -120,7 +120,7 @@ subnav:
 </table>
 
 <table class="kick-off-table">
-  <caption><h3 id="day-4">Day 4</h3></caption>
+  <caption><h2 id="day-4">Day 4</h2></caption>
   <thead>
     <tr>
       <th>Session</th>
@@ -150,7 +150,7 @@ subnav:
 </table>
 
 <table class="kick-off-table">
-  <caption><h3 id="day-5">Day 5</h3></caption>
+  <caption><h2 id="day-5">Day 5</h2></caption>
   <thead>
     <tr>
       <th>Session</th>
