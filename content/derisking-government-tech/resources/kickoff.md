@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: derisking-government-tech-resources-kickoff
   key: kickoff
   order: 1
-  title: Sample kick-off week agenda
+  title: Kick-off agenda
 sidenav: true
 sticky_sidenav: true
 subnav:
