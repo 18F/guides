@@ -4,6 +4,7 @@ permalink: /derisking-government-tech/software-solutions/
 layout: layouts/page
 tags: derisking-government-tech
 description: Why government technology projects are almost always a mix of custom and commercially available off-the-shelf software.
+show-workshop-cta: true
 eleventyNavigation:
   parent: derisking-government-tech-home
   key: derisking-government-tech-home-software-solutions
