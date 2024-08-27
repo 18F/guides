@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: derisking-government-tech-resources-open-source-security
   key: open-source-security
   order: 1
-  title: Best practices for open source software security
+  title: Open source security
 sidenav: true
 sticky_sidenav: true
 subnav:
