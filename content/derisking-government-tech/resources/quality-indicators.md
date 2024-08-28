@@ -39,7 +39,7 @@ A system diagram is provided
     </tr>
     <tr>
       <td>Accessibility</td>
-      <td><a href={{ "https://www.w3.org/TR/WCAG21/" | url }}>Web Content Accessibility Guidelines 2.2 – ‘AA’ standards</a></td>
+      <td><a href={{ "https://www.w3.org/TR/WCAG22/" | url }}>Web Content Accessibility Guidelines 2.2 – ‘AA’ standards</a></td>
       <td>0 errors reported using an automated scanner, and 0 errors reported in manual testing</td>
       <td>Automated and manual testing</td>
     </tr>
