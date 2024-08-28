@@ -66,7 +66,7 @@ Before starting, keep in mind that market research shouldn’t identify a prefer
 
 Also, expect things to change. Needs often change by the end of a market research process.
 
-### Sources of market information
+## Sources of market information
 
 As a best practice, government buyers should rely on many primary and secondary sources of information. 
 
@@ -96,7 +96,7 @@ Secondary sources include:
 * Databases
 * Case studies
 
-### Engaging with sources
+## Engaging with sources
 
 Agencies can engage directly or indirectly with a source.
 
@@ -106,7 +106,7 @@ Agencies can engage directly or indirectly with a source.
 
 Most market research should be done indirectly. It is easier than direct and less prone to the risk of creating bias towards a vendor.
 
-### Requests for Information (RFIs) {#requests-for-information}
+## Requests for Information (RFIs) {#requests-for-information}
 
 Requests for Information are a popular market research tool. Often they’re the *only* market research an agency conducts before awarding a contract. 
 
@@ -119,7 +119,7 @@ Before using an RFI, consider that:
 * Most RFIs are made up of boilerplate marketing material — regardless of the agency or topic.
 * RFIs increase the likelihood of a protest because even though vendors reuse content, they are labor-intensive and often expensive for a company to prepare.
 
-### Mitigating the risks of vendor sales and “capture management” {#mitigating-the-risks-of-vendor-sales-and-capture-management}
+## Mitigating the risks of vendor sales and “capture management” {#mitigating-the-risks-of-vendor-sales-and-capture-management}
 
 The U.S. government is the largest buying entity in the world. In general, government agencies are primary targets for vendor sales and “capture management” or “capture planning,” in which a company tries to gain an advantage for winning a contract. 
 

@@ -32,7 +32,7 @@ Draw from the following questions to get details that will help you evaluate a v
 
 ---
 
-### Engineering
+## Engineering
 
 * Talk about your process for determining which software and programming languages the development team would use to build the software, and explain the rationale for choosing those languages.   
 * What is your technology stack of choice for this project? Why? Which technology stacks does this particular team have the most experience with? What other stacks or technologies is the team experienced with?   
@@ -49,7 +49,7 @@ Draw from the following questions to get details that will help you evaluate a v
 
 ---
 
-### Collaboration
+## Collaboration
 
 * How would you ensure good communication within the team and with government partners?  
 * How do you see the designers and developers interacting as you build the product?   
@@ -63,14 +63,14 @@ Draw from the following questions to get details that will help you evaluate a v
 
 ---
 
-### Staffing
+## Staffing
 
 * If awarded the contract, how would you quickly staff your design and/or development team?  
 * Tell us more about the different team roles you envision for this project. 
 
 ---
 
-### Research and design
+## Research and design
 
 * How do you plan to address the needs of the multiple user groups for this product?   
 * How have you incorporated changes into projects based on user research?  
@@ -83,7 +83,7 @@ Draw from the following questions to get details that will help you evaluate a v
 
 ---
 
-### Product and strategy
+## Product and strategy
 
 * What do you think are the most important risks for this project and how will you help \[agency name\] mitigate them?   
 * What do you need from the government product owner to make this project succeed?   
@@ -93,7 +93,7 @@ Draw from the following questions to get details that will help you evaluate a v
 
 ---
 
-### Iterative development
+## Iterative development
 
 * Describe the agile project management practices and tools you would use for estimating, planning, and managing risk, and for team collaboration and communicating status. Why use them in particular?   
 * How will you keep developers, designers, and researchers engaged in building features to fulfill a user story without having to extend a sprint or rely on a waterfall development process?   
