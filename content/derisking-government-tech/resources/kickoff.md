@@ -24,7 +24,7 @@ subnav:
   href: '#day-5'
 ---
 
-{% include 'derisking-government-tech/pdf_document_download.html' doc_type_name: "agenda" pdf_url: "/assets/derisking-government-tech/dist/18F-de-risking-guide-v2-sample-kick-off-week-agenda.pdf" %}
+{% include 'derisking-government-tech/pdf_document_download.html' doc_type_name: "agenda" pdf_url: "/assets/derisking-government-tech/dist/sample-kickoff-agenda.pdf" %}
 
 ---
 

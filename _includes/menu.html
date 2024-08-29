@@ -31,6 +31,7 @@ manage your navigation system {% endcomment %}
           <a
             class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
             href="{{ nav_item.url | url }}"
+            {% if nav_item.download %}download{% endif %}
             ><span>{{ nav_item.name | escape }}</span></a
           >
         </li>
