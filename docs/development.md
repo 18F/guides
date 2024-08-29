@@ -131,6 +131,17 @@ agile:
     url: /agile/
 ```
 
+You can add the `download` attribute to a primary navigation link and specify a file name by setting the optional `download` key to `true`.
+
+_Example:_
+```
+derisking-government-tech:
+  - name: Download
+    url: /assets/derisking-government-tech/dist/18F-de-risking-guide-2_0.pdf
+    download: true
+```
+
+
 ### Sidenavs
 
 We can use the [EleventyNavigation](https://www.11ty.dev/docs/plugins/navigation/) plugin to programmatically create a sidenav for any collection. In order to group pages within a subsection together, all pages within a section should have a common `eleventyNavigation` `parent` key. For example the introduction page for the content guide "Our style" would include the following front matter:

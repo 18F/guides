@@ -54,6 +54,7 @@ derisking-government-tech:
     url: /derisking-government-tech/resources/
   - name: Download
     url: /assets/derisking-government-tech/dist/18f-derisking-guide.pdf
+    download: true
 
 eng-hiring:
   - name: Overview
