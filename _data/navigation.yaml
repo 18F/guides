@@ -129,6 +129,9 @@ ux-guide:
     url: /ux-guide/design/
 
 secondary_navigation:
+  - name: Previous version
+    url: /derisking/
+    guides: [derisking-government-tech]
   - name: More 18F guides
     url: /
 
