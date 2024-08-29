@@ -344,7 +344,7 @@ Review 18F’s recommendation for linters for [JavaScript]({{ "https://guides.18
 
 | Performance standard{.width-33-percent} | Acceptable quality level{.width-33-percent} | Method of assessment{.width-33-percent} |
 | :---- | :---- | :---- |
-| [Web Content Accessibility Guidelines 2.2 – ‘AA’ standards]({{ "https://www.w3.org/TR/WCAG21/" | url }}) | 0 errors reported using an automated scanner, and 0 errors reported in manual testing | Automated and manual testing |
+| [Web Content Accessibility Guidelines 2.2 – ‘AA’ standards]({{ "https://www.w3.org/TR/WCAG22/" | url }}) | 0 errors reported using an automated scanner, and 0 errors reported in manual testing | Automated and manual testing |
 
 Note: [Section 508]({{ "https://www.section508.gov/" | url }}) obligates federal agencies to make all their public-facing websites and digital services accessible. [Many states have their own accessibility standards.]({{ "https://www.section508.gov/manage/laws-and-policies/state/" | url }})
 
