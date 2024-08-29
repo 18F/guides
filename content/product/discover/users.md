@@ -64,14 +64,14 @@ Your partners likely have an incomplete view of the current state or what their 
 
 ## Resources
 
-- [How to conduct user research [1]]({{ "/methods/discover" | url }}): 18F Methods provide instruction on several different research activities to consider, including [interviews]({{ “/methods/discover/stakeholder-and-user-interviews" | url }}), [contextual inquiries]({{ “/methods/discover/contextual-inquiry" | url }}), [heuristic evaluation]({{ “/methods/discover/heuristic-evaluation" | url }}), and more.
+- [How to conduct user research [1]]({{ "/methods/discover" | url }}): 18F Methods provide instruction on several different research activities to consider, including [interviews]({{ "/methods/discover/stakeholder-and-user-interviews" | url }}), [contextual inquiries]({{ “/methods/discover/contextual-inquiry" | url }}), [heuristic evaluation]({{ “/methods/discover/heuristic-evaluation" | url }}), and more.
 
-- [How to conduct user research [2]]({{ “/ux-guide/research" | url }}): Guidelines on how research is done at 18F, from how to make a research plan to how to comply with the Paperwork Reduction Act (PRA), participant privacy, and research ethics.
+- [How to conduct user research [2]]({{ "/ux-guide/research" | url }}): Guidelines on how research is done at 18F, from how to make a research plan to how to comply with the Paperwork Reduction Act (PRA), participant privacy, and research ethics.
 
-- [How to synthesize user research](({{ “/methods/decide" | url }}): 18F Methods provide instructions on several different ways to tell users’ stories, including [journey maps]({{ “/methods/decide/journey-mapping" | url }}), [user scenarios]({{ “/methods/decide/user-scenarios" | url }}), [storyboards]({{ “/methods/decide/storyboarding" | url }}), and [task flow analysis]({{ “/methods/decide/task-flow-analysis" | url }}).
+- [How to synthesize user research](({{ "/methods/decide" | url }}): 18F Methods provide instructions on several different ways to tell users’ stories, including [journey maps]({{ "/methods/decide/journey-mapping" | url }}), [user scenarios]({{ “/methods/decide/user-scenarios" | url }}), [storyboards]({{ “/methods/decide/storyboarding" | url }}), and [task flow analysis]({{ “/methods/decide/task-flow-analysis" | url }}).
 
 - Examples of user journeys: [Example 1](https://docs.google.com/drawings/d/1SqxnC-smn2nE7tCk3_79YpPH5XlcltKPN3nsLf8F6PU/edit), Example 2 (<a href="https://app.mural.co/t/gsa6/m/gsa6/1611637245217/2d6ef2c9a78cdc2849c07edaf26d855381f50975" class="private-link">detailed</a>, [summary](https://docs.google.com/presentation/d/1G2jx7adxkDifD_wihWD3Ak1xnxH0ePQVJWH6RL7ibQs/edit#slide=id.g4e82d6a821_2_101))
 
 - [How to share user research](https://18f.gsa.gov/2018/02/06/getting-partners-on-board-with-research-findings/): How to present findings to your partner and allow room for reaching consensus before making recommendations.
 
-- [18F User Experience Design Guide]({{ “/ux-guide" | url }}): The 18F UX Guide is a starting point for UX design: doing it, discussing it, and ensuring it’s done to a consistent level of quality.
+- [18F User Experience Design Guide]({{ "/ux-guide" | url }}): The 18F UX Guide is a starting point for UX design: doing it, discussing it, and ensuring it’s done to a consistent level of quality.
