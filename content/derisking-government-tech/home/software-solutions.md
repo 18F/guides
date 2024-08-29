@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: derisking-government-tech-home
   key: derisking-government-tech-home-software-solutions
   order: 2
-  title: Software solutions
+  title: Choosing a software solution
 sidenav: true
 sticky_sidenav: true
 subnav:

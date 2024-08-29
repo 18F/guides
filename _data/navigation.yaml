@@ -46,8 +46,20 @@ derisking:
     url: /derisking/qasp/
 
 derisking-government-tech:
-  - name: Home
-    url: /derisking-government-tech/
+  - name: Read the guide
+    children:
+      - name: Introduction
+        url: /derisking-government-tech/
+      - name: Choosing a software solution
+        url: /derisking-government-tech/software-solutions/
+      - name: Key principles
+        url: /derisking-government-tech/principles/
+      - name: Buying custom software
+        url: /derisking-government-tech/buying-development-services/
+      - name: Vendor management
+        url: /derisking-government-tech/vendor-management/
+      - name: Conclusion
+        url: /derisking-government-tech/conclusion/
   - name: About
     url: /derisking-government-tech/about/
   - name: Resources

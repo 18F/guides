@@ -9,7 +9,7 @@ eleventyNavigation:
   parent: derisking-government-tech-home
   key: buying-development-services
   order: 4
-  title: Buying custom development services
+  title: Buying custom software
 sidenav: true
 sticky_sidenav: true
 subnav:
