@@ -13,6 +13,8 @@ eleventyNavigation:
 sidenav: true
 sticky_sidenav: true
 subnav:
+- text: Introduction
+  href: '#introduction-to-vendor-management'
 - text: Leading product direction
   href: '#leading-product-direction'
 - text: Setting up the relationship
