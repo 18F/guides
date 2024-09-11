@@ -23,9 +23,9 @@ Most of the icons retain the base styling of Feather icons. The 18F version incl
 * Minimum of 2px between elements.
 
 ## Get the icons
-You can access a set of common icons in the [18F Google Slides template]({{ "/brand/templates/" | url }}) (only available to GSA staff), or [download the full set]({{ "/assets/brand/dist/18F_feather.zip" | url }}).
+You can access a set of common icons in the [18F Google Slides template]({{ "/brand/templates/" | url }}) and view the entire icon library [in Figma](https://www.figma.com/design/4REk2fD6r4EmszRHuG1OaF/18F-Feather-Icons?node-id=244-18292) (only available to GSA staff), or [download the full set (zip file)]({{ "/assets/brand/dist/18F_feather.zip" | url }}).
 
 The download includes:
 * Searchable PDF sticker sheets of [all 300+ icons]({{ "/assets/brand/dist/18F-Feather-Icons--all.pdf" | url }}) and [top requested icons]({{ "/assets/brand/dist/18F-Feather-Icons--top-hits.pdf" | url }}). Icons with a "--c" name are customized.
 * SVG and PNG exports of all icons, by color.
-* A sketch file of all icons for designers.
+* A sketch file of all icons for designers (deprecated).
