@@ -13,7 +13,8 @@ function setCurrentLink() {
     return;
   }
 
-  const h2s = document.querySelectorAll('h2');
+  /* h2 elements with an ID attribute are expected to be in the subnav */
+  const h2s = document.querySelectorAll('h2[id]');
   if (h2s.length <= 1) {
     return;
   }

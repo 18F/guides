@@ -122,6 +122,8 @@ _Examples:_
 
 ## Navigation
 
+### Primary navigation
+
 The `_data/navigation.yaml` file is used to define the primary navigation for each guide. The guide’s tag is used as a key which maps to its list of link names and urls.
 
 _Example:_
@@ -129,6 +131,31 @@ _Example:_
 agile:
   - name: Home
     url: /agile/
+```
+
+You can add the `download` attribute to a primary navigation link and specify a file name by setting the optional `download` key to `true`.
+
+_Example:_
+```
+derisking-government-tech:
+  - name: Download
+    url: /assets/derisking-government-tech/dist/18F-de-risking-guide-2_0.pdf
+    download: true
+```
+
+### Secondary navigation
+
+Within `_data/navigation.yaml`, the `secondary_navigation` list defines the secondary links that appear above the primary nav and search bar in the site's [extended header](https://designsystem.digital.gov/components/header/extended/).
+
+The mapping for each item requires a `name` and `url` key. An optional `guides` key can define the list of guides that will include the link in its secondary nav. In the example below, all guides will include the secondary link for "More 18F guides", but only the derisking-government-tech guide will include the secondary link to "Previous version":
+
+```
+secondary_navigation:
+  - name: Previous version
+    url: /derisking/
+    guides: [derisking-government-tech]
+  - name: More 18F guides
+    url: /
 ```
 
 ### Sidenavs

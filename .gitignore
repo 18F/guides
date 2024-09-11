@@ -106,6 +106,9 @@ web_modules/
 .env.production.local
 .env.local
 
+# VSCode files, e.g. launch configuration
+.vscode
+
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 

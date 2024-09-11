@@ -36,7 +36,7 @@ In addition to the resources provided in each section, here are more general res
 ## Guides
 
 - [Project Start Guide](https://docs.google.com/document/d/1jFGksReKrt2PY_QVe7fj1aOCcyjHlGPf5hkKgv7nuMA/edit?pli=1#)
-- [18F De-risking Government Technology Guide]({{ '/derisking/' | url }})
+- [18F De-risking Government Technology Guide]({{ '/derisking-government-tech/' | url }})
 - [18F User Experience Design Guide]({{ '/ux-guide/' | url }})
 - [18F Content Guide]({{ '/content-guide/' | url }})
 - [TTS Engineering Guide Front-end practices]({{ '/engineering/our-approach/frontend/' | url }})
