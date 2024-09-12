@@ -33,7 +33,7 @@ subnav:
 
 Once an agency has awarded a contract to a vendor to build custom software, its goal is to foster a healthy working relationship with the development team and make sure it delivers working software that meets the needs of its intended users. This work is typically called “vendor management.” 
 
-As day-to-day management of a vendor’s work on a custom software development project is the responsibility of the [government product owner]]({{ "/derisking-government-tech/principles/#principle-3-product-ownership" | url }}), this section is written primarily for people in that role. Where government technical leads and other staff should be involved, they are mentioned specifically.
+As day-to-day management of a vendor’s work on a custom software development project is the responsibility of the [government product owner]({{ "/derisking-government-tech/principles/#principle-3-product-ownership" | url }}), this section is written primarily for people in that role. Where government technical leads and other staff should be involved, they are mentioned specifically.
 
 In government contracting, “**vendor management**” means the activities and interactions with a vendor that occur after a contract has been awarded. That work should result in the vendor fully performing its duties under the contract and the organization achieving its desired outcomes from the contract. 
 
