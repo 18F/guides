@@ -26,6 +26,7 @@ The current guide reflects the contributions of many current and former 18F staf
 
 With thanks to:
 
+* GSA’s [10x program](https://10x.gsa.gov/investments/05-investments-in-tools-for-feds/) for enabling the De-risking Guide’s first launch, including evaluating and selecting the idea and providing phased funding from 2018 to 2020
 * All who shared feedback on the guide’s content:
     * From 18F: Claire Blaustein, Lalitha Jonnalagadda, Amanda Kennedy, Jason Nakai, Allison Norman, Cale Rubenstein
     * From Technology Transformation Services: Davida Marion
