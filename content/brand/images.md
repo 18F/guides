@@ -11,7 +11,10 @@ eleventyNavigation:
   title: Images
 ---
 ## Representing humans
-In order to offer more diverse and expressive ways to represent humans, we created a custom set of [Open Peeps](https://www.openpeeps.com/) based on the work of Pablo Stanley. These are great for showing emotion and to represent anonymous user groups.
+
+In order to represent a diverse spectrum of human experiences, we’ve adopted an illustration style called *18F Folks*. 
+
+*18F Folks* is based on Pablo Stanley’s open-source library [Open Peeps](https://www.openpeeps.com/). These are great for showing emotion and to represent anonymous user groups.
 
 These are available to GSA staff in two formats:
 * Via the [starter deck](https://docs.google.com/presentation/d/1fAzoUwkfKAS2hy4YkqjHLqSQa_rvqiUyFpgACq6tRpY/edit#slide=id.g2efd29ee28c_0_0), which includes several character sets and a range of emotions as well as guidance on different ways to represent humans.
