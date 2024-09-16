@@ -111,7 +111,7 @@ If the vendor won’t provide an itemized list of labor costs, it’s also a sig
 {% capture umotsQuestionContent %}
 <ul>
   <li>Will modifying the COTS software mean it can no longer follow the routine schedule for upgrades and patches? If yes, it fails.</li>
-  <li>Once modified, will the vendor own modifications to Fthe resulting product or system? If yes, it fails.</li>
+  <li>Once modified, will the vendor own modifications to the resulting product or system? If yes, it fails.</li>
   <li>Is the COTS vendor being unclear about the cost to customize, maintain modifications, or migrate existing data? Or about ownership of and access to government data, or how to export data when the contract ends? If yes, it fails.</li>
 </ul>
 {% endcapture %}
