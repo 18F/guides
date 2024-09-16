@@ -28,7 +28,7 @@ subnav:
 
 ## Lean design at 18F
 
-18F engagements generally transition between two phases: [Path Analysis](https://18f.gsa.gov/how-we-work/#path-analysis) (PA), during which the problem is framed, and Experiment & Iterate, when solutions are explored. The first stage of any effort is to do research and identify the highest-impact opportunity areas.
+18F engagements generally transition between two phases: [Strategy Development](https://18f.gsa.gov/work-with-us/), during which the problem is framed, and Experiment & Iterate, when solutions are explored. The first stage of any effort is to do research and identify the highest-impact opportunity areas.
 
 Lean Design becomes particularly relevant during the [Experiment & Iterate](https://18f.gsa.gov/how-we-work/#experiment--iterate) (E&I) phase of 18F engagements when we iteratively test hypotheses and assumptions. The result of this series of experiments is a product designed to take into account user needs.  
 

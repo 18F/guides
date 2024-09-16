@@ -23,7 +23,7 @@ subnav:
     href: "#chrome-family-browsers-and-firefox"
 ---
 
-Regular cross-browser testing helps ensures your web site or application is accessible and functional to a broad audience, especially as Internet Explorer 11 is pervasive in federal government but TTS developers use Chrome on macOS almost exclusively.
+Regular cross-browser testing helps ensures your web site or application is accessible and functional to a broad audience, especially as Internet Explorer 11 is pervasive in federal government but 18F developers use Chrome on macOS almost exclusively.
 
 Using a responsive web design and a standards-based approach will result in wide compatibility across modern browsers, but at the edges your product can still trip up on browser-specific quirks. For example, compare the [list of web technologies supported in Internet Explorer 11 versus Chrome](https://caniuse.com/#compare=ie+11,chrome+86). [Progressive Web Application](https://web.dev/progressive-web-apps/)-related features and behaviors also vary widely across devices and browsers.
 

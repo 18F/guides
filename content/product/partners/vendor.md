@@ -61,7 +61,7 @@ If 18F is brought in to help a partner that has an existing relationship with a 
 
 - [18F QASP Template](https://docs.google.com/document/d/1dzD5-Z85rxl_NS4xt9kWG3-Gmmr_wrp5Grfm6FIrmgU/edit): 18F’s foundational criteria for monitoring the quality of a vendor’s deliverables and performance.
 
-- [QASP Example [1]](https://derisking-guide.18f.gov/qasp/): QASP criteria from 18F’s de-risking guide.
+- [QASP Example [1]]({{ '/derisking-government-tech/resources/quality-indicators/' | url }}): QASP criteria from 18F’s De-risking Guide.
 
 - [Acquisitions toolkit](https://drive.google.com/drive/folders/1rj0lYJVjhClDQLLf-Hua_Xr6YtJAAN_X): Guidance and templates on acquisitions, contracting, and procurement.
 

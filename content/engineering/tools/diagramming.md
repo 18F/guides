@@ -16,7 +16,7 @@ eleventyNavigation:
 
 Diagrams are helpful for making sense of complex systems and may be requested or required by an agency partner as part of their security and compliance process. They can also just be fun!
 
-While the diagramming tools chosen for each TTS project varies, a good tool will:
+While the diagramming tools chosen for each 18F project varies, a good tool will:
 
 - produce clear, readable diagrams
 - not share sensitive data with any unauthorized person
@@ -47,7 +47,7 @@ Diagrams are typically rendered to an image file, like png.
 
 The [PlantUML standard library](https://github.com/plantuml-stdlib/C4-PlantUML) supports [the C4 Model for representing system architecture](https://c4model.com/) well. For examples, see [data.gov's diagrams](https://github.com/GSA/datagov-compliance) or [Tock's diagrams](https://github.com/18F/tock/tree/main/docs/diagrams).
 
-The TTS [rails-template](https://github.com/18F/rails-template/tree/main/templates/doc/compliance) comes with instructions for using PlantUML to help with the ATO (authority to operate) process.
+The 18F [rails-template](https://github.com/18F/rails-template/tree/main/templates/doc/compliance) comes with instructions for using PlantUML to help with the ATO (authority to operate) process.
 
 In the case of maintaining a large number of diagrams which need to be updated frequently, some teams may opt to host a PlantUML server to render the images on the fly. This saves having to manually regenerate images each time the diagrams change.
 

@@ -17,14 +17,14 @@ subnav:
     href: "#when-should-i-be-thinking-about-security"
 ---
 
-Security is everybody's responsibility at TTS but if you're not used to thinking about security in your day-to-day job, that's understandable. We come from a range of different backgrounds, some of which involved security more than others. 
+Security is everybody's responsibility at 18F but if you're not used to thinking about security in your day-to-day job, that's understandable. We come from a range of different backgrounds, some of which involved security more than others. 
 
 There are practices that we as developers should adhere to as much as possible when building websites. We aim to give everyone a framework to think about security, and ways to approach it with our partners.
 
 This is an ever-expanding list; if an important issue is unrepresented, please feel free to open up a PR with your expertise or add an issue!
 
 ## FISMA
-Every system you'll work on at TTS has a FISMA level of impact. The [Federal Information Security Modernization Act](https://www.cisa.gov/federal-information-security-modernization-act) (FISMA) was introduced to ensure that all government systems have a framework to handle confidential and sensitive information in a secure way.
+Every system you'll work on at 18F has a FISMA level of impact. The [Federal Information Security Modernization Act](https://www.cisa.gov/federal-information-security-modernization-act) (FISMA) was introduced to ensure that all government systems have a framework to handle confidential and sensitive information in a secure way.
 
 The impact level of a system is determined by how adverse the impact would be if the confidentiality, integrity and/or availability of system was compromised:
 - The potential impact is **LOW** if the loss of confidentiality, integrity, or availability could be expected to have a limited adverse effect on organizational operations, organizational assets, or individuals.

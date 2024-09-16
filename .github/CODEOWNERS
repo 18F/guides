@@ -25,11 +25,11 @@
 /content/brand/**/*.md           @igorkorenfeld
 /content/content-guide/**/*.md   @michelle-rago
 /content/derisking/**/*.md       @adunkman
-/content/methods/**/*.md         @MelissaBraxton
+/content/engineering/**/*.md     @18f/18f-engineering-leadership
 /content/eng-hiring/**/*.md      @alexbielen
-/content/engineering/**/*.md     @alexbielen
 /content/product/**/*.md         @lalitha-jonnalagadda
-/content/ux-guide/**/*.md        @bpdesigns
+/content/methods/**/*.md         @quarterback
+/content/ux-guide/**/*.md        @quarterback
 
 
 # The pull request template and CODEOWNERS files should be reviewed by the Chief of Delivery;

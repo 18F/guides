@@ -4,6 +4,7 @@ title: Basic principles of modern software design
 page_title_tag: h2
 hidden_guide_title: Federal Field Guide
 tags: derisking
+redirect-url: /derisking-government-tech/principles/
 description: Introduction for federal employees to user-centered design, agile software development, DevOps, loosely coupled parts, modular contracting and product ownership.
 permalink: /derisking/federal-field-guide/basic-principles/
 eleventyNavigation:

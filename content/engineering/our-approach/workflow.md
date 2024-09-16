@@ -21,7 +21,7 @@ subnav:
     href: "#code-style"
 ---
 
-Project teams may vary, but across TTS engineering we aim for consistency around deployments, git etiquette, and similar workflow conventions.
+Project teams may vary, but across 18F engineering we aim for consistency around deployments, git etiquette, and similar workflow conventions.
 
 ## Continuous integration & deployment
 
