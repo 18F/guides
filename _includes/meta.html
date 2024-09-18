@@ -36,6 +36,19 @@
   <meta name="description" content="{{description}}" />
   <meta property="og:description" content="{{description}}" />
 
+  {% comment %}
+    Meta image and alt text, if specified. og:image requires an absolute URL. Outside of production,
+    the environment config doesn't include the domain, so use a relative path for testing purposes.
+  {% endcomment %}
+  {% if meta_images[guide] and meta_images[guide].path %}
+    {% assign meta_image_url = meta_images[guide].path | imageUrl %}
+    {% if env.production %}
+      {% assign meta_image_url = meta_image_url | asAbsoluteUrl %}
+    {% endif %}
+    <meta property="og:image" content="{{ meta_image_url }}" />
+    <meta property="og:image:alt" content="{{ meta_images[guide].alt }}" />
+  {% endif %}
+
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:description" content="{{description}}" />

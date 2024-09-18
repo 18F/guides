@@ -23,14 +23,19 @@ function getPathPrefix() {
   return pathPrefix;
 }
 
+async function imageUrl(src) {
+  const pathPrefix = getPathPrefix();
+  const data = await imageData(src);
+  return `${pathPrefix}${data.url}`;
+}
+
 async function imageWithClassShortcode(
   src,
   cls,
   alt,
 ) {
-  const pathPrefix = getPathPrefix();
-  const data = await imageData(src);
-  return `<img src="${pathPrefix}${data.url}" class="${cls}" alt="${alt}" loading="lazy" decoding="async">`;
+  const url = await imageUrl(src);
+  return `<img src="${url}" class="${cls}" alt="${alt}" loading="lazy" decoding="async">`;
 }
 
 async function imageShortcode(src, alt) {
@@ -40,4 +45,5 @@ async function imageShortcode(src, alt) {
 module.exports = {
   imageWithClassShortcode,
   imageShortcode,
+  imageUrl,
 };

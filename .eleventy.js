@@ -14,7 +14,7 @@ const svgSprite = require("eleventy-plugin-svg-sprite");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const yaml = require("js-yaml");
 
-const { imageShortcode, imageWithClassShortcode } = require('./config');
+const { imageShortcode, imageWithClassShortcode, imageUrl } = require('./config');
 
 const siteData = yaml.load(fs.readFileSync('./_data/site.yaml', 'utf8'));
 
@@ -96,6 +96,11 @@ module.exports = function (config) {
 
   config.addFilter("capitalize", (value) =>{
     return value.charAt(0).toUpperCase() + value.slice(1);
+  });
+
+  // Get the URL for an image given the relative path to its source
+  config.addFilter('imageUrl', (imageSource) => {
+    return imageUrl(imageSource);
   });
 
   // Create an array of all tags
