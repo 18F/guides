@@ -25,7 +25,7 @@ subnav:
 
 <p class="chapter-summary">Understanding the benefits and risks of commercially available off-the-shelf (COTS) and custom software will help government agencies choose a solution appropriate to their needs.</p>
 
-{% include 'derisking-government-tech/chapter_image.html' img_path: "assets/derisking-government-tech/img/software-solution.png" %}
+{% include 'derisking-government-tech/chapter_image.html' img_path: "assets/derisking-government-tech/img/software-solution.svg" %}
 
 A major reason that government technology projects fail or struggle is that government agencies often approach obtaining software as a matter of building *or* buying it. The reality is more complex. 
 

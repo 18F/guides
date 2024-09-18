@@ -32,7 +32,7 @@ This guide was written to give government tools to lower the high risk of failur
       <div class="usa-card__container">
         <div class="usa-card__media">
           <div class="usa-card__img bg-primary-darker flex-align-center flex-justify-center height-card-lg">
-            {%- image_with_class "assets/derisking-government-tech/img/software-solution.png" "" -%}
+            {%- image_with_class "assets/derisking-government-tech/img/software-solution.svg" "" -%}
           </div>
         </div>
         <div class="usa-card__body">
