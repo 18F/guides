@@ -271,6 +271,38 @@ redirect_from:
 | timeRequired | short description of how much time is required for method activity | text | methods |
 | category | a method's category name; do not capitalize | text | methods |
 
+## Meta tags
+
+Pages define metadata via HTML `meta` tags implemented in the [_includes/meta.html](https://github.com/18F/guides/blob/main/_includes/meta.html) file. A subset of tags that are defined based on the page configuration are documented below.
+
+### OpenGraph meta tags
+
+#### Page data
+
+| property | content |
+|---|---|
+| `og:description` | The description set in the page's [front matter](#top-level). |
+| `og:title` | "[\<page title\>](#page-titles) \| 18F \<guide title\>" |
+| `og:type` | "article" |
+| `og:url` | The page URL. |
+
+#### Image tags
+
+OpenGraph image tags can be configured optionally at a guide level in the [_data/meta_images.yaml](https://github.com/18F/guides/blob/main/_data/meta_images.html) file. If no configuration exists for a guide, by default no `og:image` or `og:image:alt` tags will be rendered.
+
+| property | content |
+|---|---|
+| `og:image` | The URL of the image at the configured asset path set in the `path` value for the guide, if any. |
+| `og:image:alt` | The alt text set in the `alt` value for the guide, or "" if `alt` is unspecified. |
+
+### Twitter meta tags
+
+| name | content |
+|---|---|
+| `twitter:card` | "summary" |
+| `twitter:description` | The description set in the page's [front matter](#top-level). |
+| `twitter:site` | The Twitter handle configured in the [_data/site.yaml](https://github.com/18F/guides/blob/main/_data/site.yaml) file. |
+
 ## Managing dependencies
 
 This project uses Github's Dependabot to keep the NPM dependencies up to date.
