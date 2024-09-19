@@ -31,6 +31,7 @@ manage your navigation system {% endcomment %}
           <a
             class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
             href="{{ nav_item.url | url }}"
+            {% if nav_item.download %}download{% endif %}
             ><span>{{ nav_item.name | escape }}</span></a
           >
         </li>
@@ -64,12 +65,14 @@ manage your navigation system {% endcomment %}
         {% if navigation.secondary_navigation %}
         <ul class="usa-nav__secondary-links">
           {% for nav_item in navigation.secondary_navigation %}
+            {% if nav_item.guides == nil or nav_item.guides contains tags[0] %}
           <li class="usa-nav__secondary-item">
             <a href="{{ nav_item.url | url }}" class="text-bold">
               {{ nav_item.name | escape }}
             </a
             >
           </li>
+            {% endif %}
           {% endfor %}
         </ul>
         {% endif %}

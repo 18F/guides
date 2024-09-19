@@ -1,4 +1,4 @@
-.service-blueprint caption {
+.caption {
     caption-side: bottom;
     font-size: smaller;
     font-weight: normal;
@@ -40,8 +40,27 @@ tr.pink th, tr.pink td {
 }
 
   table.service-blueprint th.role {
-    border-top: solid #58B84F;
+    border-top: solid #aeddaa;
     border-width: 8px;
+}
+
+table.service-blueprint tr>th:first-child {
+    background: #fafafa;
+}
+
+@media (min-width: 1000px) {
+    table.service-blueprint tr>th:first-child {
+        left: 0;
+        position: sticky;
+    }
+  }
+
+table.service-blueprint tr>th:second-child {
+    padding-left:14px;
+}
+
+.sticky-table-col{
+    overflow-x:auto;
 }
 
 .service-blueprint tbody th.steps {

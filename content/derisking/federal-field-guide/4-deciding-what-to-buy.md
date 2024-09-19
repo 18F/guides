@@ -4,6 +4,7 @@ title: Deciding what to buy
 page_title_tag: h2
 hidden_guide_title: Federal Field Guide
 tags: derisking
+redirect-url: /derisking-government-tech/software-solutions/
 description: How to reduce risk when buying custom software during the research and solicitation phases of acquisition.
 permalink: /derisking/federal-field-guide/deciding-what-to-buy/
 eleventyNavigation:

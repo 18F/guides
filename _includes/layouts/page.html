@@ -36,3 +36,7 @@ This template is for a single page that does not have a date associated with it.
 {%- if script -%}
   <script src="{{ script | url }}"></script>
 {%- endif -%}
+
+{% if tags[0] == 'derisking-government-tech' and show-workshop-cta %}
+  {% include 'derisking-government-tech/workshop_cta_section.html' %}
+{% endif %}

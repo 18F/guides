@@ -21,7 +21,7 @@ subnav:
     href: "#not-a-requirement"
 ---
 
-We're fortunate to have dozens of battle-tested datastores available to us, filling many different niches and general use cases. Each has its own strengths, weaknesses, configuration, backup system, security profile, and cognitive overhead. In an effort to make this selection simpler, TTS engineering **defaults** to using Postgres for the majority of our applications. This also allows us to collectively learn best practices around security configurations, indexing strategies, and so forth, particularly between large, open data projects.
+We're fortunate to have dozens of battle-tested datastores available to us, filling many different niches and general use cases. Each has its own strengths, weaknesses, configuration, backup system, security profile, and cognitive overhead. In an effort to make this selection simpler, 18F engineering **defaults** to using Postgres for the majority of our applications. This also allows us to collectively learn best practices around security configurations, indexing strategies, and so forth, particularly between large, open data projects.
 
 ## Our use case
 Though we build many different types of systems, we have enough commonality across projects that we can note some generalities.

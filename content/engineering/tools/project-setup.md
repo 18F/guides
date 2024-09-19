@@ -35,7 +35,7 @@ subnav:
     href: "#infrastructure-as-code"
 ---
 
-While the specific setup for each TTS project varies widely, there are certain elements that should be present in all source code repositories. This document aims to detail those elements and suggest corresponding tools and resources.
+While the specific setup for each 18F project varies widely, there are certain elements that should be present in all source code repositories. This document aims to detail those elements and suggest corresponding tools and resources.
 
 ## Source code management
 TTS projects use GitHub for source code management, with their repositories under a [government-owned organization](https://handbook.tts.gsa.gov/github/#organizations).
@@ -127,7 +127,7 @@ Applications require specific versions of programming languages, libraries, data
 Developers needing to deploy their code beyond their local environment should use either:
 
 - a [cloud.gov sandbox](https://cloud.gov/docs/pricing/free-limited-sandbox/) {% include "engineering/tag-standard.html" %}
-- a TTS-managed [AWS sandbox account](https://before-you-ship.18f.gov/infrastructure/sandbox/#aws-sandbox-accounts) {% include "engineering/tag-standard.html" %}
+- an 18F-managed [AWS sandbox account](https://before-you-ship.18f.gov/infrastructure/sandbox/#aws-sandbox-accounts) {% include "engineering/tag-standard.html" %}
 - or [Federalist](https://handbook.tts.gsa.gov/federalist/) (for static web sites) {% include "engineering/tag-standard.html" %}
 
 {% include "engineering/tag-caution.html" %} The use of tools such as `localtunnel` and `ngrok`, which make your locally running services visible to the internet, are not allowed because they present a large security concern. Consult [`#infrastructure`](https://gsa-tts.slack.com/archives/C039MHHF8) on Slack for any questions.
@@ -142,6 +142,6 @@ Many cloud providers like Azure or AWS provide APIs for controlling their resour
 
 Be aware that you might encounter difficulty in managing user roles and permissions with Terraform and cloud.gov. See [this issue](https://github.com/GSA/data.gov/issues/1556) for context.
 
-{% include "engineering/tag-caution.html" %} As of 2023, Terraform is no longer open source. A fork, [OpenTofu](https://opentofu.org/), exists, which is stewarded by the Linux Foundation. You are welcome to use OpenTofu if it works for you and your partner; it may eventually become the default at TTS.
+{% include "engineering/tag-caution.html" %} As of 2023, Terraform is no longer open source. A fork, [OpenTofu](https://opentofu.org/), exists, which is stewarded by the Linux Foundation. You are welcome to use OpenTofu if it works for you and your partner; it may eventually become the default at 18F.
 
 Finally, although in many cases it is good to use containerized images, if it is necessary to do system configuration tasks on a physical server or a virtual machine, [Ansible](https://docs.ansible.com/) or [Chef](https://github.com/chef/chef) are tools to write down these tasks as playbooks or recipes and re-run them whenever needed.
