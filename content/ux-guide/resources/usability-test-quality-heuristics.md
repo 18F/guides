@@ -1,5 +1,5 @@
 ---
-title: Usability Test Quality Heuristics
+title: "Resource: Usability Test Quality Heuristics"
 description: A list of indicators to help you and your team determine if your usability test will produce useful results.
 permalink: /ux-guide/usability-test-quality-heuristics/
 layout: layouts/page

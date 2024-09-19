@@ -1,5 +1,5 @@
 ---
-title: Example design research participant agreement
+title: "Resource: Design research participant agreement"
 description: An example design research participant agreement
 permalink: /ux-guide/participant-agreement/
 redirect_from:

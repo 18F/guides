@@ -1,5 +1,5 @@
 ---
-title: Interview debrief guide [Template]
+title: "Resource: Interview debrief guide"
 description: An example worksheet to engage research teams in post-moderated research conversation
 permalink: /ux-guide/interview-debrief/
 layout: layouts/page

@@ -1,5 +1,5 @@
 ---
-title: Usability test guide [Template]
+title: "Resource: Usability test script"
 description: An example script for use while moderating a usability testing
 permalink: /ux-guide/usability-test-script/
 layout: layouts/page
