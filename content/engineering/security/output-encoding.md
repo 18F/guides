@@ -26,7 +26,7 @@ To get a more extensive understanding of XSS, see [excess xss](https://excess-xs
 ## How to correctly encode output
 Protecting from XSS attacks requires developers to consider how data is being displayed on a page. If the data could come from a user's input in any way (including through the site's URL), then correct encoding of the output has to be considered.
 
-Since most web applications at TTS are built through JavaScript or backend frameworks, this guide will go over output encoding issues by those frameworks in addition to plain JavaScript.
+Since most web applications at 18F are built through JavaScript or backend frameworks, this guide will go over output encoding issues by those frameworks in addition to plain JavaScript.
 
 ### Vanilla JavaScript
 When writing plain JavaScript, developers have to consider where data is coming from whenever it's being output in the web application. While data that comes from a backend database usually needs output encoding, code also could need output encoding when extracting data from the current page's url (which an attacker could modify and send to a user).

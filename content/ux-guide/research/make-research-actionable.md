@@ -80,7 +80,7 @@ Making meaning out of research can involve any number of different [methods [18F
 Outside of writing a summary, you should choose your methods based on the desired outputs and outcomes of your research. For example:
 
 - To build empathy for users and inform future design strategy, you might create a [mental model [18F design methods]](https://guides.18f.gov/methods/decide/mental-modeling/) diagram, by combing through transcripts looking for reasonings, reactions, and guiding principles
-- To create reusable archetypes for grounding user stories and scenarios, you might create a [persona [18F design methods]](https://guides.18f.gov/methods/decide/personas/), by reviewing transcripts for goals, behaviors, and pain points
+- To create reusable archetypes for grounding user stories and scenarios, you might create an [archetype [18F design methods]](https://guides.18f.gov/methods/decide/archetype/), by reviewing transcripts for goals, behaviors, and pain points
 - To find themes in your data via a bottom-up process, try [affinity diagramming [18F design methods]](https://guides.18f.gov/methods/decide/affinity-mapping/). Record ideas, quotes, or observations from your research on sticky notes (one idea per sticky note), place them on a wall or whiteboard, and then move the sticky notes into related groups. If working virtually, you can use digital whiteboarding tools such as Mural. Once you have the groupings, you can label them according to a theme or pattern.
 - To make the complexities of a work process or service visible, you might use [task flow analysis [18F design methods]](https://guides.18f.gov/methods/decide/task-flow-analysis/), service blueprints, or [journey mapping [18F design methods]](https://guides.18f.gov/methods/decide/journey-mapping/): these show connections between stakeholders or across organizational silos. Once you’ve visualized the process or journey, you can analyze for key interactions, pain points, and dependencies.
 - To get buy-in from agency stakeholders or to validate insights and opportunities further with groups most impacted by the work, consider storytelling approaches within reporting, blog posts or press releases, presentations, or sharing sessions. 
@@ -107,10 +107,10 @@ Artifacts that we use to do this include:
 - [Personas [18F design methods]](https://guides.18f.gov/methods/decide/personas/)
 - [Mental models [18F design methods]](https://guides.18f.gov/methods/decide/mental-modeling/)
 - [User scenarios [18F design methods]](https://guides.18f.gov/methods/decide/user-scenarios/)
-- User stories
+- [User stories [18F design methods]](https://guides.18f.gov/methods/decide/user-stories/)
 - [Storyboards [18F design methods]](https://guides.18f.gov/methods/decide/storyboarding/)
 - [Journey maps [18F design methods]](https://guides.18f.gov/methods/decide/journey-mapping/)
-- Service blueprints 
+- [Service blueprints [18F design methods]](https://guides.18f.gov/methods/decide/service-blueprint/)
 - [Prototypes [18F design methods]](https://guides.18f.gov/methods/make/prototyping/)
 - Other creative outputs
 

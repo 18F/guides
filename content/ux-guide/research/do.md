@@ -201,6 +201,7 @@ Getting informed consent ensures that:
 - The research is ethically sound (see [Ethics]({{ '../../research/ethics/' | url }}))
 - The research complies with The Privacy Act of 1974 (see [Privacy]({{ '../../research/privacy/' | url }}))
 - The research complies with The Antideficiency Act (see [Legal]({{ '../../research/legal/' | url }}))
+- The research complies with the [Americans with Disabilities Act](https://www.ada.gov/) and [Section 508](https://www.section508.gov/) (see [Accessibility]({{ '../../research/accessibility/' | url }}))
 
 Copy and customize one of the participant agreements below to reflect your research design. This is the agreement you'll ask participants to sign before they participate.
 
@@ -316,7 +317,7 @@ Note: Remote-only research can exclude some people with visual or hearing impair
 In-person research happens most often when we go on-site with an agency partner or meet participants in the field. At on-sites we often conduct workshops. They are a great time to conduct interviews as well. Regardless of the method, here a few things to keep in mind when facilitating in-person research:
 
 - Try to get as much information about the room(s) you will be in and arrive early. Security at partner buildings can take time.
-- Make sure the room is accessible for all of your participants.
+- Make sure the room is [accessible]({{ '../../research/accessibility/' | url }}) for all of your participants.
 - Take note of how the environment affects your participants. This may mean limiting the number of team members in the session.  
 - Spend less effort on note taking and more effort on connecting with participants. Utilize photography and voice/video recording with permission. If it makes sense, try to involve participants and/or partners in capturing information.
 - Make sure to document your thoughts as a team shortly after the session to fill in any gaps in your notes (see debriefing, below).

@@ -62,7 +62,7 @@ Background research helps you ask: what do we already know?
 
 ### Foundational research
 
-Foundational research is the research you do to identify and clarify the team’s objectives, assumptions, and constraints. On the 18F Methods site, [discover methods](https://guides.18f.gov/methods/discover/) help to build context for the problem you’re investigating. This includes; [stakeholder and user interviews](https://guides.18f.gov/methods/discover/stakeholder-and-user-interviews/), [heuristic evaluation](https://guides.18f.gov/methods/discover/heuristic-evaluation/), and [hopes and fears workshops](https://guides.18f.gov/methods/discover/hopes-and-fears/). Foundational research is primarily (though not exclusively) the domain of [18F Path Analysis](https://18f.gsa.gov/how-we-work/#path-analysis) engagements and results in, among other things, a [problem statement as outlined on our GitHub repository](https://github.com/18F/path-analysis/blob/master/approach.md#2-draft-a-problem-statement).
+Foundational research is the research you do to identify and clarify the team’s objectives, assumptions, and constraints. On the 18F Methods site, [discover methods](https://guides.18f.gov/methods/discover/) help to build context for the problem you’re investigating. This includes; [stakeholder and user interviews](https://guides.18f.gov/methods/discover/stakeholder-and-user-interviews/), [heuristic evaluation](https://guides.18f.gov/methods/discover/heuristic-evaluation/), and [hopes and fears workshops](https://guides.18f.gov/methods/discover/hopes-and-fears/). Foundational research is primarily (though not exclusively) the domain of [18F Strategy Development ](https://18f.gsa.gov/work-with-us/) engagements and results in, among other things, a [problem statement as outlined on our GitHub repository](https://github.com/18F/path-analysis/blob/master/approach.md#2-draft-a-problem-statement).
 
 Foundational research helps you ask: what problem are we trying to solve?
 
@@ -118,7 +118,7 @@ As a distributed team, 18F defaults to remote-friendly ways of working. This giv
 
 With most projects you’ll conduct an in-person kickoff, during which you may have the chance to meet, interview, and conduct activities with stakeholders. If feasible, consider adding [contextual inquiry as described in the 18F methods](https://guides.18f.gov/methods/discover/contextual-inquiry/) into your kick-off activities. Direct observation will provide firsthand understanding of your stakeholders’ and users’ processes and contexts.
 
-We prefer in-person research when we want to better understand the environment in which users normally interact with a government service. We also prefer in-person research when our participants aren’t especially proficient with, or don’t have access to, video conferencing software.
+We prefer in-person research when we want to better understand the environment in which users normally interact with a government service. We also prefer in-person research when our participants aren’t especially proficient with, or don’t have access to, video conferencing software. Work with your partner agency to ensure the facility is [ADA-compliant](https://www.ada.gov/topics/intro-to-ada/) and accessible with public transportation.
 
 
 ## Good practices

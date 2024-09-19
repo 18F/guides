@@ -65,4 +65,10 @@ official government website
     </div>
   </div>
   <div class="usa-overlay"></div>
+{% comment %}
+This is a temporary include to render redirects from the original de-risking guide to version 2
+{% endcomment %}
+  {% if tags[0] == 'derisking' and redirect-url %}
+    {% include 'derisking/redirect_url.html' %}
+  {% endif %}
 </div>
