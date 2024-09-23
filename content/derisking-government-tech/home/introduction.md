@@ -20,7 +20,7 @@ Only 13 percent of large government technology projects succeed.[^only] The majo
 
 Why? Agencies at all levels of government face common challenges at every phase of a project. These include, for instance, the difficulty of choosing a software approach to serve needs that are often complex and unique, tension between bureaucratic processes and modern software development practices, and lacking in-house knowledge to assess the quality of code.
 
-This guide was written to give government tools to lower the high risk of failure for technology projects. It addresses two main challenges—**how to choose a software solution** and **how to work with a vendor to build quality custom software quickly**—in four main sections. Building one upon the other, this guidance can help agency staff make and explain choices that can improve a project’s chances of success.
+This guide was written to give government tools to lower the high risk of failure for technology projects. It addresses two main challenges — **how to choose a software solution** and **how to work with a vendor to build quality custom software quickly** — in four main sections. Building one upon the other, this guidance can help agency staff make and explain choices that can improve a project’s chances of success.
 
 ---
 
