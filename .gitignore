@@ -123,6 +123,7 @@ web_modules/
 _site
 public
 node_modules
+_data/assetPaths.json
 
 # utils
 utils/test_redirects_*_output.csv
