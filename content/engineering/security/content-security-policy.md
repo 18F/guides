@@ -119,11 +119,11 @@ However, there are scenarios in which you may want to use an inline content tag,
 Another potential issue is third-party libraries that automatically inject JavaScript and CSS into your HTML. If your project utilizes a library that does this, the only guaranteed solution is
 to use the `unsafe-inline` value when setting the `script-src` directive; this obviously defeats the purpose of having a CSP for your JavaScript.
 
-If you must load external scripts inline and are not allowed to use the `unsafe-inline` keyword, you could also make a SHA hash of the script being included, and whitelist that in your content security policy.
+If you must load external scripts inline and are not allowed to use the `unsafe-inline` keyword, you could also make a SHA hash of the script being included, and allowlist that in your content security policy.
 
 This technique will allow those scripts to load, with the following caveats:
 
-* Each the time the third-party script changes, a new hash will have to be computed, and your policy's `script-src` whitelist will need to be updated
+* Each the time the third-party script changes, a new hash will have to be computed, and your policy's `script-src` allowlist will need to be updated
 * Inline the SHAs of multiple scripts adds bloat to the policy, and increases the number of bytes needed to transmit the header to the browser.
 
 As each project has its own needs, you should always perform your own research on a per-project basis to determine the best way to handle third-party scripts!
