@@ -34,14 +34,6 @@ method:
 1. Share the user scenarios that you’ve written with the user group (and other relevant team members) for validation, feedback, and refinement.
 1. Examine your product, service, or website in light of these user scenarios and identify opportunities to make adjustments that would improve users’ experiences.
 
-<section class="method--section method--section--additional-resources" markdown="1">
-
-## Additional resources{#add-user-scenario}
-
-- [Scenarios — Usability.gov](https://www.usability.gov/how-to-and-tools/methods/scenarios.html){.usa-link .usa-link--external}
-
-</section>
-
 <section class="method--section method--section--government-considerations" markdown="1" >
 
 ## Considerations for use in government{#con-user-scenario}
