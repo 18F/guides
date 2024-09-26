@@ -28,3 +28,8 @@
     <script async src="https://search.usa.gov/javascripts/remote.loader.js" type="text/javascript"></script>
   {% endif %}
 {% endif %}
+
+{% if site.touchpoints and site.touchpoints.script %}
+  <!-- Touchpoints survey -->
+  <script src="{{ site.touchpoints.script }}" async></script>
+{% endif %}

@@ -303,6 +303,22 @@ OpenGraph image tags can be configured optionally at a guide level in the [_data
 | `twitter:description` | The description set in the page's [front matter](#top-level). |
 | `twitter:site` | The Twitter handle configured in the [_data/site.yaml](https://github.com/18F/guides/blob/main/_data/site.yaml) file. |
 
+## User feedback forms
+
+The Guides site implements customer feedback collecting using [Touchpoints](https://touchpoints.digital.gov/), a GSA product that provides
+Paperwork Reduction Act-friendly survey forms.
+
+The survey form is defined within the Touchpoints system and managed by the 18F team. It is integrated into every guide page using a modal
+and custom button element and modal, as documented in the [Touchpoints product wiki](https://github.com/GSA/touchpoints/wiki/Delivery-Options#open-a-modal-by-clicking-a-custom-button-element).
+
+The Touchpoints javascript code and the ID of the custom button element are defined within the Touchpoints survey configuration
+and configured in this project in the [_data/site.yaml](https://github.com/18F/guides/blob/main/_data/site.yaml) file.
+
+| configuration key | value |
+|---|---|
+| `touchpoints.script` | The absolute URL of the survey's javascript file. If this value is absent, the modal and button won't be included. |
+| `touchpoints.button_id` | The ID of the button element that opens the survey modal. If this value is absent, the ID defaults to "touchpoints-form". |
+
 ## Managing dependencies
 
 This project uses Github's Dependabot to keep the NPM dependencies up to date.

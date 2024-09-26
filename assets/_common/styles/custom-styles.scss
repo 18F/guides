@@ -1,3 +1,4 @@
+@use '../../_common/styles/brand-colors' as *;
 @use 'uswds-core' as * ;
 
 $bullet-spacing: 1.25rem;
@@ -202,4 +203,20 @@ h2.heading-md {
 
 .example-user-interview-script code {
   background: yellow;
+}
+
+/* Touchpoints feedback button */
+#touchpoints-form {
+  @include u-font('sans', '3xs');
+  background-color: $brand-color-medium;
+  border-radius: 0.25rem 0.25rem 0 0;
+  bottom: 0;
+  position: fixed;
+  right: 0.75rem;
+  z-index: 9999;
+
+  span .usa-icon {
+    font-size: size('body', 'sm');
+    vertical-align: middle;
+  }
 }
