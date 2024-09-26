@@ -1,0 +1,11 @@
+{% comment %} If a Touchpoints feedback survey is configured, render its custom button. {% endcomment %}
+{% if site.touchpoints and site.touchpoints.script %}
+  {% if site.touchpoints.button_id %}
+    {% assign button_id = site.touchpoints.button_id %}
+  {% else %}
+    {% assign button_id = 'touchpoints-form' %}
+  {% endif %}
+  <div aria-label="Feedback button" role="complementary">
+    <button class="usa-button" id="{{ button_id }}"><span>{% uswds_icon "chat" %}</span>Was this page helpful?</button>
+  </div>
+{% endif %}

@@ -38,6 +38,11 @@ searchgov:
   # If you do not want to present search suggestions, set this value to false.
   suggestions: false
 
+# Touchpoints survey form data, if any. See: https://github.com/GSA/touchpoints/wiki/Delivery-Options
+touchpoints:
+  script: https://touchpoints.app.cloud.gov/touchpoints/7d891616.js
+  button_id: touchpoints-form
+
 ##########################################################################################
 # The values below here are more advanced and should only be
 # changed if you know what they do
