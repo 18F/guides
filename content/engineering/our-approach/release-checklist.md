@@ -9,9 +9,9 @@ redirect_from:
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Releasing Checklist
+  key: Release checklist
   order: 10
-  title: Releasing Checklist
+  title: Release checklist
 subnav:
   - text: What is a release checklist?
     href: "#what-is-a-release-checklist"
