@@ -14,11 +14,11 @@ eleventyNavigation:
   title: Releasing Checklist
 subnav:
   - text: What is a release checklist?
-    href: "#what-is-it"
+    href: "#what-is-a-release-checklist"
   - text: Why does having a release checklist matter?
-    href: "#why"
+    href: "#why-does-having-a-release-checklist-matter"
   - text: What should be included in the checklist?
-    href: "#what-included"
+    href: "#what-should-be-included-in-the-checklist"
   - text: Resources
     href: "#resources"
 ---
