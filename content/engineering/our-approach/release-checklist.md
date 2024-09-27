@@ -91,6 +91,6 @@ The release checklist is typically tailored to the specific needs and processes 
 ### Resources:
 [18F Launch Preparation](https://docs.google.com/document/d/1gJcvQ-o0DMEUY3m19KGPw8y6qFPvdX7FWC6OSlURRmM/edit)
 
-[Examples of other project release checklist](https://drive.google.com/drive/folders/1zpBpZ9OjfHDuCJIrF8Uqzuu7VsdZ1s8-)
+[Examples of other project release checklists](https://drive.google.com/drive/folders/1zpBpZ9OjfHDuCJIrF8Uqzuu7VsdZ1s8-)
 
 **Slack:** #wg-18f-launch-preparation
