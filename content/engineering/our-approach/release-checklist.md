@@ -1,5 +1,5 @@
 ---
-title: Release Checklist
+title: Release checklist
 sidenav: true
 sticky_sidenav: true
 tags: engineering
