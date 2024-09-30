@@ -133,7 +133,7 @@ agile:
     url: /agile/
 ```
 
-You can add the `download` attribute to a primary navigation link and specify a file name by setting the optional `download` key to `true`.
+If you set the optional `download` key to `true` for a navigation item, it will add the `download` attribute to the link and display a file download icon next to its name.
 
 _Example:_
 ```

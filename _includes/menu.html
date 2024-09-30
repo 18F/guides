@@ -32,8 +32,11 @@ manage your navigation system {% endcomment %}
             class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
             href="{{ nav_item.url | url }}"
             {% if nav_item.download %}download{% endif %}
-            ><span>{{ nav_item.name | escape }}</span></a
-          >
+            ><span>{{ nav_item.name | escape }}</span>
+            {% if nav_item.download %}
+              <span class="download-icon">{% uswds_icon "file_download" %}</span>
+            {% endif %}
+          </a>
         </li>
         {% else %} {% assign nav_id = 'primary-nav-' | append: forloop.index %}
         <li class="usa-nav__primary-item">
