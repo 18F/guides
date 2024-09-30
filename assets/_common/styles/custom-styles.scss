@@ -220,3 +220,14 @@ h2.heading-md {
     vertical-align: middle;
   }
 }
+
+/* Primary navigation icons */
+.usa-nav__primary-item .usa-nav__link .download-icon {
+  padding-left: 2px;
+
+  .usa-icon {
+    min-height: 1rem;
+    min-width: 1rem;
+    vertical-align: middle;
+  }
+}

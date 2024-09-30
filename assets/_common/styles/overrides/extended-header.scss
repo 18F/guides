@@ -17,4 +17,10 @@
     border-style: solid;
     border-top: 0;
   }
+
+  /* Position the file download icon in the primary nav */
+  .usa-nav__primary-item .usa-nav__link span.download-icon .usa-icon {
+    display: inline-block;
+    margin-top: 1px;
+  }
 }
