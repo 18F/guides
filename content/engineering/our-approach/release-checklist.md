@@ -66,7 +66,7 @@ Here are some key components typically included in a release checklist:
 
 7.  **Backup and Rollback Plans**: Verify that backup procedures are in place and tested, and that rollback procedures are documented and ready to be executed if needed.
 
-8.  **Compliance Checks**: Ensure that the release complies with legal, regulatory, and organizational policies (e.g., licensing, data protection). Your system may need a new ATO (Authority to Operate) or to be covered under an existing ATO. 
+8.  **Compliance Checks**: Ensure that the release complies with legal, regulatory, and organizational policies (e.g., licensing, data protection). Your system may need a new ATO (Authority to Operate) or to be covered under an existing ATO. [Learn more about the ATO](https://digital.gov/resources/an-introduction-to-ato/).
 
 9.  **Communication Plan**: Plan for communicating the release to stakeholders, end-users, and support teams, including notifications, release announcements, and support availability. Does your agency have a process to approve communications outside of your agency?
 
