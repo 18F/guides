@@ -9,9 +9,9 @@ body:
     attributes:
       label: Did you find this page useful?
       options:
-        - Yes
-        - Somewhat
-        - No
+        - "Yes"
+        - "Somewhat"
+        - "No"
     validations:
       required: true
   - type: textarea
@@ -20,3 +20,11 @@ body:
       label: Please share some details about your answer.
     validations:
       required: true
+  - type: input
+    id: url
+    atributes:
+      label: Page URL
+  - type: input
+    id: browser
+    atributes:
+      label: Browser details
