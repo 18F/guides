@@ -1,0 +1,22 @@
+name: Touchpoints Feedback
+description: Document feedback received from Touchpoints
+title: "[Touchpoints]: "
+labels: []
+projects: ["18F/41"]
+body:
+  - type: dropdown
+    id: did_you_find_useful
+    attributes:
+      label: Did you find this page useful?
+      options:
+        - Yes
+        - Somewhat
+        - No
+    validations:
+      required: true
+  - type: textarea
+    id: more_details
+    attributes:
+      label: Please share some details about your answer.
+    validations:
+      required: true
