@@ -22,9 +22,9 @@ body:
       required: true
   - type: input
     id: url
-    atributes:
+    attributes:
       label: Page URL
   - type: input
     id: browser
-    atributes:
+    attributes:
       label: Browser details
