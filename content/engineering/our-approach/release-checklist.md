@@ -85,6 +85,14 @@ The following “columns” are strongly recommended in order to make informatio
 
 **Notes**: Any notes that would like to be reviewed at a later time. This can be used for reflection meetings and to improve the checklist after the release for the next release.
 
+**Examples**
+| Date | Time | Owner | Status | Task | Comments |
+| --- | --- | --- | --- | --- | --- |
+| 04/12 | 9:30 am | Project Manager- Sam | In progress | Host launch meeting | All people who are part of launch should attend this |
+| 04/12 | 9:50 am | Lead Developer- Jill | Completed | Redirect traffic to new site | |
+| 04/12 | 9:55 am | Web Developer- Mark | In Progress | Monitor feedback of new site | |
+| 04/12 | 10:30 am | User Experience- Ashley | Pending | Send Email | |
+
 
 The release checklist is typically tailored to the specific needs and processes of the agency, the department, or project. It is often managed and maintained by a project manager, release manager or a release team to ensure consistency and thoroughness across releases. By following a release checklist, teams can reduce the risk of releasing faulty or incomplete software, improve communication and collaboration among team members, and enhance overall confidence in the software release process.
 
