@@ -32,15 +32,15 @@ Being transparent and communicating about what is going on is very important to 
 
 The following "columns" are recommended:
 
-**Owner**: Who owns this item in the checklist?
+>**Owner**: Who owns this item in the checklist?
 
-**Date and Time**: What is expected for this to be completed? How long will it take to complete this?
+>**Date and Time**: What is expected for this to be completed? How long will it take to complete this?
 
-**Explanation of Task**: What is expected of the task being completed in this?
+>**Explanation of Task**: What is expected of the task being completed in this?
 
-**Status**: What is the status of this? It can be set to the following fields: Pending, Started/In Progress, Completed/Done, Blocked
+>**Status**: What is the status of this? It can be set to the following fields: Pending, Started/In Progress, Completed/Done, Blocked
 
-**Notes**: Any notes that would like to be reviewed at a later time. This can be used for reflection meetings and to improve the checklist after the release for the next release.
+>**Notes**: Any notes that would like to be reviewed at a later time. This can be used for reflection meetings and to improve the checklist after the release for the next release.
 
 **Examples**
 | Date | Time | Owner | Status | Task | Comments |
