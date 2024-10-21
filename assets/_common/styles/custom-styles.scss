@@ -62,9 +62,13 @@ h1, h2, h3, h4, h5, h6 {
     word-wrap: break-word;
   }
 
+  h2, h3, h4, h5, h6 {
+      // prevent orphans and not using the Chromium-only "pretty"
+      text-wrap: balance;
+  }
+
   h2 {
     margin-top: units(5);
-    text-wrap: balance;
     &.page-title {
       margin-top: units(0);
       &.derisking {
