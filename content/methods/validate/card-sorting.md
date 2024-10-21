@@ -42,6 +42,14 @@ There are two types of card sorting: open and closed. Most card sorts are perfor
 
 </section>
 
+<section class="method--section method--section--additional-resources" markdown="1">
+
+## Additional resources
+
+- [18F card sort template (Figma)](https://www.figma.com/board/jhPXgKic2ory6wWu27XcDj/18F-Card-Sort-Template)
+
+</section
+
 <section class="method--section method--section--government-considerations" markdown="1" >
 
 ## Considerations for use in government{#con-card-sort}
