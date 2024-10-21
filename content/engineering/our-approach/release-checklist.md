@@ -30,15 +30,15 @@ Being transparent and communicating about what is going on is very important to 
 
 ## What should it look like?
 
-The following "columns" are recommended:
-
->**Owner**: Who owns this item in the checklist?
+No matter what tool you use to create a release checklist, each item on the list should have the following fields associated with it:
 
 >**Date and Time**: What is expected for this to be completed? How long will it take to complete this?
 
->**Explanation of Task**: What is expected of the task being completed in this?
+>**Owner**: Who owns this item in the checklist?
 
 >**Status**: What is the status of this? It can be set to the following fields: Pending, Started/In Progress, Completed/Done, Blocked
+
+>**Explanation of Task**: What is expected of the task being completed in this?
 
 >**Notes**: Any notes that would like to be reviewed at a later time. This can be used for reflection meetings and to improve the checklist after the release for the next release.
 
