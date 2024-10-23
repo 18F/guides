@@ -13,8 +13,8 @@ eleventyNavigation:
   order: 10
   title: Release checklist
 subnav:
-  - text: Introducing release checklist
-    href: "#introducing-release-checklist"
+  - text: Software launch checklist
+    href: "#software-launch-checklist"
   - text: What should it look like?
     href: "#what-should-it-look-like"
   - text: Questions to consider
@@ -22,7 +22,7 @@ subnav:
   - text: Resources
     href: "#resources"
 ---
-## Introducing release checklist
+## Software launch checklist
 
 The release checklist is a list of tasks that need to be completed during a major release, like an initial site launch. 
 
