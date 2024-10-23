@@ -24,7 +24,9 @@ subnav:
 ---
 ## Introducing release checklist
 
-The release checklist is a list of all tasks that need to be completed during the release process -- be it a launch or updating software. The checklist helps ensure that all tasks are completed prior to a release, reducing risk, and helps with following up on what needs to be done once release is complete.  When people see all the tasks listed and who owns each item, it increases confidence that the release will be successful. 
+The release checklist is a list of tasks that need to be completed during a major release, like an initial site launch. 
+
+The checklist helps ensure that all tasks are completed prior to a release, reducing risk, and helps with following up on what needs to be done once release is complete.  When people see all the tasks listed and who owns each item, it increases confidence that the release will be successful. 
 
 Being transparent and communicating about what is going on is very important to the success of the release. We encourage people to follow and document everything on the checklist so it can be revisited after release and use that information to improve the checklist for the upcoming release. 
 
