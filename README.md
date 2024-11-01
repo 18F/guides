@@ -60,6 +60,10 @@ For more information on testing and repo configurations, read our in-depth [deve
 3. You will need to stage each file that you want to be committed. Once that's done, it's time to commit and push!  You can click "commit" and then "publish" or you can use the arrow to select "commit & push".
 4. On the lower right, it will ask you if you want to create a pull request.  If it's too soon, don't click this.  Otherwise, feel free!
 
+## Analytics
+
+For information on the metrics used to evaluate the Guides' impact and reach, read our [analytics docs](/docs/analytics.md).
+
 ## Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in
