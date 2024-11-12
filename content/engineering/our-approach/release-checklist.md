@@ -1,5 +1,5 @@
 ---
-title: Release checklist
+title: Software launch checklist
 sidenav: true
 sticky_sidenav: true
 tags: engineering
@@ -22,8 +22,6 @@ subnav:
   - text: Resources
     href: "#resources"
 ---
-## Software launch checklist
-
 The release checklist is a list of tasks that need to be completed during a major release, like an initial site launch. 
 
 The checklist helps ensure that all tasks are completed prior to a release, reducing risk, and helps with following up on what needs to be done once release is complete.  When people see all the tasks listed and who owns each item, it increases confidence that the release will be successful. 
