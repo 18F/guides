@@ -3,18 +3,16 @@ title: Software launch checklist
 sidenav: true
 sticky_sidenav: true
 tags: engineering
-permalink: /engineering/our-approach/release-checklist/
+permalink: /engineering/our-approach/software-launch-checklist/
 redirect_from:
-  - engineering/release-checklist/
+  - engineering/software-launch-checklist/
 layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
-  key: Release checklist
+  key: Software launch checklist
   order: 10
-  title: Release checklist
+  title: Software launch checklist
 subnav:
-  - text: Software launch checklist
-    href: "#software-launch-checklist"
   - text: What should it look like?
     href: "#what-should-it-look-like"
   - text: Questions to consider
@@ -22,7 +20,7 @@ subnav:
   - text: Resources
     href: "#resources"
 ---
-The release checklist is a list of tasks that need to be completed during a major release, like an initial site launch. 
+The software launch checklist is a list of tasks that need to be completed during a major release, like an initial site launch. 
 
 The checklist helps ensure that all tasks are completed prior to a release, reducing risk, and helps with following up on what needs to be done once release is complete.  When people see all the tasks listed and who owns each item, it increases confidence that the release will be successful. 
 
@@ -30,7 +28,7 @@ Being transparent and communicating about what is going on is very important to 
 
 ## What should it look like?
 
-No matter what tool you use to create a release checklist, each item on the list should have the following fields associated with it:
+No matter what tool you use to create a software launch checklist, each item on the list should have the following fields associated with it:
 
 >**Date and Time**: What is expected for this to be completed? How long will it take to complete this?
 
@@ -53,9 +51,9 @@ No matter what tool you use to create a release checklist, each item on the list
 
 
 ## Questions to consider
-The release checklist should have all tasks that have impact on the release, as well as preparation and the checks after the release. 
+The software launch checklist should have all tasks that have impact on the release, as well as preparation and the checks after the release. 
 
-Here are some questions to consider when creating your release checklist.
+Here are some questions to consider when creating your checklist.
 
 **Readiness plans**- *What could we do to get this release ready?*
 - Are there any known bugs that need to be addressed and/or communicated? Are they considered blockers? What is the plan to handle these bugs? Will they affect users’ experience? What is the back up plan?
