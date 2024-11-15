@@ -27,7 +27,7 @@ subnav:
 
 Many factors should influence how 18F engineers make technology selections for their projects. Here, we discuss recommendations on how to select the _language_ used in your projects. This document doesn't offer hard-and-fast rules, focusing instead on several language aspects which should be balanced against each other. Also, we explicitly note that language selection is ultimately the decision (and responsibility) of the project team. The guidance below is meant to _assist_ your team make this decision.
 
-This is a living document. After looking at [existing tickets](https://github.com/18F/development-guide/issues), [start an issue](https://github.com/18F/development-guide/issues/new) or pull request in GitHub to suggest changes to these standards.
+This is a living document. After looking at [existing tickets](https://github.com/18F/guides/issues), [start an issue](https://github.com/18F/guides/issues/new) or pull request in GitHub to suggest changes to these standards.
 
 ## Our strongest languages
 18F has historically worked in three **primary** languages: JavaScript, Python, and Ruby. While we certainly have a healthy smattering of other odds and ends, these three are our primary strength as indicated by data from past projects, engineer skill sets, and billable hours. These languages are generally a safe bet as we know we can support them and be productive with them.

@@ -23,7 +23,7 @@ subnav:
     href: "#type-support"
 ---
 
-This is a **WORK IN PROGRESS**. Help us make it better by [submitting an issue](https://github.com/18F/development-guide) or joining us in the [#python](https://gsa-tts.slack.com/messages/C02ES0C3R) channel!
+This is a **WORK IN PROGRESS**. Help us make it better by [submitting an issue](https://github.com/18F/guides/issues/new) or joining us in the [#python](https://gsa-tts.slack.com/messages/C02ES0C3R) channel!
 
 This document is structured by topic; under each, we include “Standards”, “Defaults”, and “Suggestions”.
 
