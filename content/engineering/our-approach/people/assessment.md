@@ -10,7 +10,7 @@ layout: layouts/page
 eleventyNavigation: 
   parent: engineering_approach
   key: Assessment guide
-  order: 10
+  order: 12
   title: Assessment guide
 subnav:
   - text: Desired outcomes
