@@ -55,7 +55,7 @@ For more information on testing and repo configurations, read our in-depth [deve
 1. Select a file from the file explorer that you want to edit.  Make some changes!  You should be able to refresh the preview tab to see them immediately. If you will be making changes to styles, you will need to restart the server via ```npm run dev``` for those to be reflected.
 
 #### Commit your changes
-1. When you’re happy with how things look, switch on the left-hand menu to the "sourcecode" view. It will show you any changes you have made. Click the file name (on the left) to view things you've removed/added to that file.
+1. When you’re happy with how things look, switch on the left-hand menu to the "sourcecode" view. It will show you any changes you have made. Click the file name (on the left) to view things you've removed or added to that file.
 2. This is a good time to create a new branch if you haven't already started on one!  Click the three dots at the top of that menu, then "Branch" then "Create Branch".  Give it a name like "design-update" or "cool-new-footer" and hit enter.
 3. You will need to stage each file that you want to be committed. Once that's done, it's time to commit and push!  You can click "commit" and then "publish" or you can use the arrow to select "commit & push".
 4. On the lower right, it will ask you if you want to create a pull request.  If it's too soon, don't click this.  Otherwise, feel free!
