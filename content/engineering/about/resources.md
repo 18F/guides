@@ -30,4 +30,4 @@ This guide evolved from work spearheaded by the 18F Engineering Chapter and the 
 - [Cloud.gov Production-ready guide](https://cloud.gov/docs/deployment/production-ready/)
 - [Login.gov Identity Playbook](https://login.gov/playbook/)
 - [Digital.gov Guides and Resources](https://digital.gov/resources/)
-- [GSA Tech Guides](https://tech.gsa.gov/)
+- [GSA Tech Guides](https://tech.gsa.gov/guides)
