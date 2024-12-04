@@ -39,9 +39,7 @@ Words ending in *–ion* and *-ment* tend to make sentences longer and more comp
 
 ## Keep sentences short and sweet
 
-Craft sentences at 25 words or fewer, whenever possible. If a sentence has fewer than 14 words, [readers understand 90 percent of content](http://comprehension.prsa.org/?p=217). At 25 words, sentences are markedly more difficult to comprehend.
-
-We also recommend varying sentence length. Switching things up helps you keep readers interested. This tactic will also give you better control of your content’s [tone]({{ "/content-guide/our-style/voice-and-tone/" | url }}) — a text with only short sentences can unintentionally sound terse. The occasional longer sentence adds a bit of narrative interest (and can help a piece of writing sound friendlier, too).
+Try to keep sentences at 25 words or fewer. Resist the temptation to put everything in one sentence. Express only one idea in each sentence.  
 
 Here’s an example of how you might transform a too-long sentence into something more manageable.
 
@@ -53,9 +51,7 @@ Use:
 
 > Unfortunately, we can’t replace lost or stolen passes. [Get a new pass on our website](https://www.recreation.gov/pass/).
 
+## Additional resources
+- [Plainlanguage.gov: Write short sentences](https://www.plainlanguage.gov/guidelines/concise/write-short-sentences/)
+- [Gov.UK writing guide: Be concise](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#be-concise)
 
-
-
----
-
-_Thanks to [GDS](https://www.gov.uk/guidance/content-design/writing-for-gov-uk), whom we looked to for inspiration when writing this page._
