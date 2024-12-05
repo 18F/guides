@@ -44,7 +44,7 @@ method:
 
 In general, content highlighter testing doesn’t require PRA approval. 
 
-- Read the [PRA guidance on usability testing from the Office of Information and Regulatory Affairs](https://www.whitehouse.gov/wp-content/uploads/2024/11/PRA-Usability-Testing-Guidance-Memo.pdf)(PDF).
+- Read the [PRA guidance on usability testing from the Office of Information and Regulatory Affairs](https://www.whitehouse.gov/wp-content/uploads/2024/11/PRA-Usability-Testing-Guidance-Memo.pdf) (PDF).
 - Consult the methods for [recruiting]({{ "/methods/fundamentals/recruiting/" | url }}) and [privacy]({{ "/methods/fundamentals/privacy/" | url }}) for tips on getting input from the public.
 
 </section>
