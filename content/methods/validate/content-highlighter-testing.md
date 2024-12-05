@@ -40,7 +40,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#gov-content-highlighter}
+## Considerations for use in government
 
 In general, content highlighter testing doesn’t require PRA approval. 
 
