@@ -39,7 +39,7 @@ Words ending in *–ion* and *-ment* tend to make sentences longer and more comp
 
 ## Keep sentences short and sweet
 
-Try to keep sentences at 25 words or fewer. Resist the temptation to put everything in one sentence. Express only one idea in each sentence.  
+Express only one idea in each sentence. Try to keep sentences at 25 words or fewer. Resist the temptation to put everything in one sentence.  
 
 Here’s an example of how you might transform a too-long sentence into something more manageable.
 
