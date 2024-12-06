@@ -22,7 +22,7 @@ subnav:
   href: '#additional-questions'
 ---
 
-18F designs our research to account for the [The Paperwork Reduction Act of 1995 (PRA)](https://pra.digital.gov/), among other laws. This article summarizes what we’ve learned through conversations with [GSA’s Privacy Office [GSA.gov]](https://www.gsa.gov/reference/gsa-privacy-program) and [GSA’s Office of General Counsel [GSA.gov]](https://www.gsa.gov/about-us/organization/office-of-general-counsel-overview).
+18F designs our research to account for the [The Paperwork Reduction Act of 1995 (PRA)](https://pra.digital.gov/), among other laws. This article summarizes what we’ve learned through conversations with [GSA’s Privacy Office [GSA.gov]](https://www.gsa.gov/reference/gsa-privacy-program) and [GSA’s Office of General Counsel [GSA.gov]](https://www.gsa.gov/about-us/organization/office-of-the-general-counsel-overview). 
 
 *Disclaimer: This article is intended for internal use. It’s shared in the spirit of open source, to prompt conversations around design research as it relates to the law. GSA has no regulatory authority over any of the laws discussed in this article, so don’t just take our word for it.*
 

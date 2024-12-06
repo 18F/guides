@@ -59,7 +59,7 @@ Install pa11y locally:
 
 Create a `.pa11yci` in the root of your directory to [configure your pa11y CI run](https://github.com/pa11y/pa11y-ci#configuration). This step is optional, but helpful if you want to change any default configuration.
 
-For an example, take a look at the [18F guides site's .pallyci file](https://github.com/18F/guides/blob/main/.pa11yci).
+For an example, take a look at the [18F guides site's .pa11yc.jsi file](https://github.com/18F/guides/blob/main/.pa11yci.js).
 
 Create a `.github/workflows` directory in the root of your project, and then add a file `accessibility-scan.yml` (or whatever you want to call it).
 

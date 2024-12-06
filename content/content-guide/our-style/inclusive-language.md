@@ -68,7 +68,7 @@ Use descriptors of gender identity or sexual orientation as modifiers, not as no
 - Avoid _guys_ as a way to refer to mixed-gender groups.
 - Don't make assumptions about marital or family relationships (for example, use _spouse_ or _partner_ instead of _husband_ and _wife_; use _parent_ instead of _mother_ and _father_).
 
-For more detailed guidance, see the [National Lesbian and Gay Journalists Association Style Guide](http://www.nlgja.org/stylebook/terminology/) or the [GLAAD Media Reference Guide](https://www.glaad.org/reference/).
+For more detailed guidance, see the [National Lesbian and Gay Journalists Association Style Guide](https://www.nlgja.org/stylebook-on-lgbtq-terminology/) or the [GLAAD Media Reference Guide](https://www.glaad.org/reference/).
 
 ## Nationality
 
