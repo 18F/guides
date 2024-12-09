@@ -1,5 +1,5 @@
 ---
-title: Modern Software Product Development
+title: Modern software product development
 permalink: /agile/modern-software-product-development/
 layout: layouts/page
 sidenav: true
@@ -8,7 +8,7 @@ eleventyNavigation:
   key: modern
   parent: agile
   order: 2
-  title: Modern Software Product Development
+  title: Modern software product development
 ---
 
 There are three basic approaches to software development: Waterfall, Agile, and Chaos.
