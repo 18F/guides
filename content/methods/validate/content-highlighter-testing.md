@@ -33,8 +33,8 @@ method:
 ## Example from 18F{#ex-content-highlighter}
 
 - **Project**: [pra.digital.gov](https://pra.digital.gov/)
-- **Problem**: Site content was based on an internal document and not written for a public audience. The content needed to be approved by the general counsel before moving forward.
-- **Highlighter test**: The content was rewritten in plain language. Two attorneys reviewed it for clarity and accuracy using the highlighter method. Both attorneys reviewed the content at the same time, sitting at the same table, with their own copies of the content and colored highlighters. They discussed legal terms and wording with each other and the content strategist. In addition to improving the content, this test allowed us to avoid a later legal review. 
+  - **Problem**: Site content was based on an internal document and not written for a public audience. The content needed to be approved by the general counsel before moving forward.
+  - **Highlighter test**: The content was rewritten in plain language. Two attorneys reviewed it for clarity and accuracy using the highlighter method. Both attorneys reviewed the content at the same time, sitting at the same table, with their own copies of the content and colored highlighters. They discussed legal terms and wording with each other and the content strategist. In addition to improving the content, this test allowed us to avoid a later legal review. 
 
 </section>
 
