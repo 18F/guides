@@ -27,7 +27,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-wireframe}
+## Government considerations{#con-wireframe}
 
 No PRA implications. No information is collected from members of the public.
 </section>
