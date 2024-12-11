@@ -44,7 +44,7 @@ method:
 
 ## Government considerations{#con-metrics}
 
-Surveys of more than nine people require PRA approval. Learn more at [pra.digital.gov](pra.digital.gov). Direct observation and non-standardized conversations like semi-structured [interviews]({{ "/methods/discover/stakeholder-and-user-interviews/" | url }})) are not subject to PRA.
+Surveys of more than nine people require PRA approval. Learn more at [pra.digital.gov](https://pra.digital.gov). Direct observation and non-standardized conversations like semi-structured [interviews]({{ "/methods/discover/stakeholder-and-user-interviews/" | url }})) are not subject to PRA.
 
 Your prototype may not be the only effort being tested. People may be overwhelmed by the amount of data they’re asked to provide. Finding metrics that can be automatically collected can help relieve this burden.
 
