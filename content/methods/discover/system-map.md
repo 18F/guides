@@ -33,7 +33,7 @@ method:
 
 ## Additional resources{#add-system-map}
 
-- [The VA Community Playbook](https://department.va.gov/veterans-experience/wp-content/uploads/sites/2/2022/10/va-community-playbook.pdf), pages 12 and 13, The Department of Veterans Affairs
+- [The VA Community Playbook](https://department.va.gov/veterans-experience/wp-content/uploads/sites/2/2024/06/Community-Playbook_update_508_FINAL.pdf), pages 12 and 13, The Department of Veterans Affairs
 - [Example systems map](https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit#iterative-and-cyclical-flow-of-the-toolkit), gov.uk
 - [An introductory systems thinking toolkit for civil servants](https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit#introduction-to-systems-thinking), gov.uk
 - [A brief overview of systems mapping](https://mojdigital.blog.gov.uk/2020/06/02/systems-mapping-a-brief-overview-of-what-why-and-how-part-1/), gov.uk
