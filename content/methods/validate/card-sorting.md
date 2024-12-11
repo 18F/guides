@@ -52,7 +52,7 @@ There are two types of card sorting: open and closed. Most card sorts are perfor
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-card-sort}
+## Government considerations{#con-card-sort}
 
 No PRA implications if done as directly moderated sessions. The PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3.
 </section>
