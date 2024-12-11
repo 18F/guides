@@ -42,7 +42,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-recruiting}
+## Government considerations{#con-recruiting}
 
 No PRA implications. No information is collected from members of the public.
 </section>
