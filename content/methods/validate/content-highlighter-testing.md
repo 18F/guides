@@ -2,6 +2,8 @@
 title: Content highlighter testing
 description: Find out how to improve your content with content highlighter testing.
 permalink: /methods/validate/content-highlighter-testing/
+redirect_from:
+  - content-highlighter-testing/
 layout: layouts/method-card
 tags: methods
 eleventyNavigation:
