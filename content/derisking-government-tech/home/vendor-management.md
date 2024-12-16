@@ -435,7 +435,7 @@ The research approach and methods used on a particular project will vary dependi
 When reviewing user research materials, processes, or deliverables, these are good signs that reflect the use of best practices:
 
 * Recruiting from a diverse population  
-    * The team should be recruiting participants with a diverse range of perspectives, needs, and abilities. This helps ensure a product or service will be accessible to anyone who may use it. It’s also important the team consider barriers to use and inclusion faced by various groups who may use the software and recruit people from those groups.   
+    * To ensure a product or service is accessible to any user, the team recruits participants with diverse backgrounds, needs, and abilities. This includes recruiting people who may face barriers to using the product or service.  
 * Research plan(s) with clear and appropriate goals  
     * Planning ensures that participants’ and the team’s time is respected throughout the research process. It also helps the team adapt its approach in response to real-world conditions. A research plan should include clearly stated and appropriate goals, methods, and research questions.  
 * The whole team is part of the research process  
