@@ -41,7 +41,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-service}
+## Government considerations{#con-service}
 
 No PRA implications. No information is collected directly from members of the public.
 

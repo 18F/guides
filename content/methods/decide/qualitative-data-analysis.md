@@ -39,7 +39,7 @@ Common for multiple team members to break off to take a pass at sorting data for
 <section class="method--section method--section--government-considerations" markdown="1" >
 
 
-## Considerations for use in government{#con-personas}
+## Government considerations{#con-personas}
 
 When using qualitative data, remove any personally identifiable information (PII) from your documents before sharing.
 </section>

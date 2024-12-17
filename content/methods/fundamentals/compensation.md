@@ -34,11 +34,11 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#considerations-compensation}
+## Government considerations{#considerations-compensation}
 
 No PRA implications. Even when users are present, the PRA explicitly exempts direct observation and non-standardized conversation, 5 CFR 1320.3(h)3.
 
-If you are not working with government employees, you will need to observe standard precautions for archiving personally identifiable information.
+If you are not working with federal government employees, you will need to observe standard precautions for archiving personally identifiable information.
 
 </section>
 

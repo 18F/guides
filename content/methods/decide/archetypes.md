@@ -49,7 +49,7 @@ Archetypes can be created virtually using any variety of digital whiteboards or 
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Applied in government{#con-personas}
+## Government considerations{#con-personas}
 
 No PRA implications. No information is collected from members of the public.
 </section>
