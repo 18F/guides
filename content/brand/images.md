@@ -11,7 +11,7 @@ eleventyNavigation:
   title: Images
 ---
 ## Representing humans
-In order to represent a more diverse spectrum of human experiences, we’ve created an illustration library called *18F Folks*. 
+To represent a more diverse spectrum of human experiences, we’ve created an illustration library called *18F Folks*. 
 
 *18F Folks* is based on Pablo Stanley’s open-source library [Open Peeps](https://www.openpeeps.com/). These are great for showing emotion and to represent anonymous user groups.
 
