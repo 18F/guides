@@ -10,7 +10,7 @@ layout: layouts/page
 eleventyNavigation:
   parent: engineering_approach
   key: Releasing software
-  order: 10
+  order: 9
   title: Releasing software
 subnav:
   - text: Small, iterative releases
