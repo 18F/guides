@@ -16,8 +16,8 @@ To represent a more diverse spectrum of human experiences, we’ve created an il
 *18F Folks* is based on Pablo Stanley’s open-source library [Open Peeps](https://www.openpeeps.com/). These are great for showing emotion and to represent anonymous user groups.
 
 These are available to GSA staff in two formats:
-* Via the [starter deck](https://docs.google.com/presentation/d/1fAzoUwkfKAS2hy4YkqjHLqSQa_rvqiUyFpgACq6tRpY/edit#slide=id.g2efd29ee28c_0_0), which includes several character sets and a range of emotions as well as guidance on different ways to represent humans.
-* Via the [full Figma library](https://www.figma.com/design/sA9t0Msi5Ycvx5ITVMJylU/18F_Open_Peeps_Mainfile?node-id=2328-21896&t=qWFSkRL1ga6yHdnO-0) for designers.
+* [Starter deck](https://docs.google.com/presentation/d/1fAzoUwkfKAS2hy4YkqjHLqSQa_rvqiUyFpgACq6tRpY/edit#slide=id.g2efd29ee28c_0_0), which includes several character sets and a range of emotions as well as guidance on different ways to represent humans.
+* [Full Figma library](https://www.figma.com/design/sA9t0Msi5Ycvx5ITVMJylU/18F_Open_Peeps_Mainfile?node-id=2328-21896&t=qWFSkRL1ga6yHdnO-0) for designers.
 
 {% image_with_class "assets/brand/img/open_peeps_splash.png" "" "" %}
 
@@ -28,8 +28,8 @@ A collection of images containing the 18F logo that can be used as virtual backg
 
 [Download virtual backgrounds]({{ "/assets/brand/dist/18F_VideoBackgrounds.zip" | url }}){.usa-button}
 
-## Desktop Art
-A variety of wallpaper images for MacBooks and Apple Displays.
+## Desktop art
+A variety of wallpaper images for MacBooks and Apple displays.
 
 {% image_with_class "assets/brand/img/18FDesktop-Preview.png" "" "" %}
 
