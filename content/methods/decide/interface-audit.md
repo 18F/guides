@@ -38,7 +38,7 @@ An interface audit can be conducted by an individual or in a group setting. Eith
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Applied in government research{#app-inter-audit}
+## Government considerations{#app-inter-audit}
 
 No PRA implications. No information is collected from members of the public.
 </section>

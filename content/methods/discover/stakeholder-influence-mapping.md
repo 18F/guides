@@ -28,7 +28,7 @@ method:
 
 <section class="method--section method--section--18f-example" markdown="1" >
 
-## Considerations for use in government{#con-stake-i}
+## Government considerations{#con-stake-i}
 
 No PRA implications. No information is collected from members of the public.
 

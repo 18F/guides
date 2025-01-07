@@ -26,7 +26,7 @@ method:
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#consideration-affinity-mapping}
+## Government considerations{#consideration-affinity-mapping}
 
 No PRA implications. This method may use data gathered from members of the public, but does not require their involvement.
 </section>

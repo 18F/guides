@@ -41,7 +41,7 @@ After getting to a root cause, frame or reframe your problem solving approach to
 
 <section class="method--section method--section--government-considerations" markdown="1" >
 
-## Considerations for use in government{#con-five-whys}
+## Government considerations{#con-five-whys}
 
 No PRA implications. No information is collected from members of the public.
 
