@@ -37,11 +37,28 @@ Looking at this same data and applying preferences from the guiding factors belo
 ## Frequently-used frameworks
 The following are used widely at 18F:
 
-| Purpose  |  Tool  |
-| ---- | ---- |
-| CSS framework  |  [_More info_]({{ "/engineering/languages-runtimes/css/#frameworks" | url }})  |
-| Infrastructure/configuration as code | [Terraform](https://www.terraform.io/)  |  
-| Static site generator  | [Jekyll](https://jekyllrb.com/) (with the [uswds-jekyll](https://github.com/18F/uswds-jekyll) theme) or Hugo |
+<table>
+  <thead>
+    <tr>
+      <th>Purpose</th>
+      <th>Tool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CSS framework</td>
+      <td><a href="{{ "/engineering/languages-runtimes/css/#frameworks" | url }}"><em>More info</em></a></td>
+    </tr>
+    <tr>
+      <td>Infrastructure/configuration as code</td>
+      <td><a href="https://www.terraform.io/">Terraform</a></td>
+    </tr>
+    <tr>
+      <td>Static site generator</td>
+      <td>{% include "engineering/tag-default.html" %} <a href="https://www.11ty.dev/">11ty/Eleventy</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Project scope
 Perhaps the most important factor to weigh when considering languages is the estimated project scope. If we anticipate a large, long-standing project which will be handed off to our agency partners, we should be conservative in our language selection. These projects warrant our most standard approach, which generally translates to the selection of one of our primary languages.  On the other hand, if writing a one-off script or small internal project, we have significantly more latitude to try experimental languages.
