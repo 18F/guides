@@ -70,7 +70,7 @@ Your partners likely have an incomplete view of the current state or what their 
 
 - [How to synthesize user research]({{ "/methods/decide/" | url }}): 18F Methods provide instructions on several different ways to tell users’ stories, including [journey maps]({{ "/methods/decide/journey-mapping/" | url }}), [user scenarios]({{ "/methods/decide/user-scenarios/" | url }}), [storyboards]({{ "/methods/decide/storyboarding/" | url }}), and [task flow analysis]({{ "/methods/decide/task-flow-analysis/" | url }}).
 
-- Examples of user journeys: [Example 1]({{ "https://docs.google.com/drawings/d/1SqxnC-smn2nE7tCk3_79YpPH5XlcltKPN3nsLf8F6PU/edit" | url }}), Example 2 ([detailed]({{ "https://app.mural.co/t/gsa6/m/gsa6/1611637245217/2d6ef2c9a78cdc2849c07edaf26d855381f50975" | url }}), [summary]({{ "https://docs.google.com/presentation/d/1G2jx7adxkDifD_wihWD3Ak1xnxH0ePQVJWH6RL7ibQs/edit#slide=id.g4e82d6a821_2_101" | url }}))
+- Examples of user journeys: [Example 1]({{ "https://docs.google.com/drawings/d/1SqxnC-smn2nE7tCk3_79YpPH5XlcltKPN3nsLf8F6PU/edit" | url }}), Example 2 ([detailed]({{ "https://www.figma.com/board/eHEDJhP6ncrXICN9mEYkN3/EXAMPLE-User-Journey-(DOJ-CRT)_2025-01-14_19-27-25?node-id=0-1&p=f&t=U7Xi5LpEiimxjjhZ-0" | url }}), [summary]({{ "https://docs.google.com/presentation/d/1G2jx7adxkDifD_wihWD3Ak1xnxH0ePQVJWH6RL7ibQs/edit#slide=id.g4e82d6a821_2_101" | url }}))
 
 - [How to share user research]({{ "https://18f.gsa.gov/2018/02/06/getting-partners-on-board-with-research-findings/" | url }}): How to present findings to your partner and allow room for reaching consensus before making recommendations.
 

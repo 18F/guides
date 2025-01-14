@@ -52,7 +52,7 @@ Sometimes your partner will have a good understanding of who these stakeholders 
 
 ## Resources
 
-- <a href="https://app.mural.co/t/gsa6/m/gsa6/1603921593244/a37e126788a75cbf3aad53c52cecbf266bdecd41" class="private-link">How to identify stakeholders [1]</a>: A template for a facilitated stakeholder mapping exercise to identify different stakeholders and how you plan to engage them.
+- <a href="https://www.figma.com/board/yRfsSg0ZDf1WjFMKuE1pO5/TEMPLATE-Stakeholder-mapping_2025-01-14_20-32-47?t=pURnUDyevaoTeJmm-0" class="private-link">How to identify stakeholders [1]</a>: A template for a facilitated stakeholder mapping exercise to identify different stakeholders and how you plan to engage them.
 
 - [How to identify stakeholders [2]](https://docs.google.com/presentation/d/10x0Lk9FywbNDL8_hGfeNqGfL3yJMhO8S79-F4tanB3w/edit#slide=id.p): How to identify who your executive stakeholders are and how to communicate with them.
 

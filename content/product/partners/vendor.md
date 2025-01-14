@@ -57,7 +57,7 @@ If 18F is brought in to help a partner that has an existing relationship with a 
 
 - <a href="https://app.mural.co/t/gsa6/m/gsa6/1611637592630/fa9cddf94e1bc4f52a4676f59401a304c8ec8b2f" class="private-link">Vendor onboarding [1]</a>: An exercise to identify what information needs to be shared and with whom to successfully onboard a vendor.
 
-- <a href="https://app.mural.co/t/gsa6/m/gsa6/1611637739398/6f7525bce81f9cf99b17f3bd4c582e5c5d8c2446" class="private-link">Vendor onboarding [2]</a>: An exercise to collect feedback about what's going well and what questions remain as a project goes from preparing a procurement to onboarding a vendor to disengaging with 18F.
+- <a href="https://www.figma.com/board/8jlSD5JqUZPuYTGOHbJASP/EXAMPLE-Vendor-Onboarding-Readiness-(CMS-eAPD)_2025-01-14_20-23-30?t=NbyQzGSLBHFW2reC-0" class="private-link">Vendor onboarding [2]</a>: An exercise to collect feedback about what's going well and what questions remain as a project goes from preparing a procurement to onboarding a vendor to disengaging with 18F.
 
 - [18F QASP Template](https://docs.google.com/document/d/1dzD5-Z85rxl_NS4xt9kWG3-Gmmr_wrp5Grfm6FIrmgU/edit): 18F’s foundational criteria for monitoring the quality of a vendor’s deliverables and performance.
 
@@ -65,4 +65,4 @@ If 18F is brought in to help a partner that has an existing relationship with a 
 
 - [Acquisitions toolkit](https://drive.google.com/drive/folders/1rj0lYJVjhClDQLLf-Hua_Xr6YtJAAN_X): Guidance and templates on acquisitions, contracting, and procurement.
 
-- <a href="https://app.mural.co/t/gsa6/m/gsa6/1611637931895/f601104204b8159db7364ca7b97e807b19b06b84" class="private-link">Post-award management</a>: Common best practices and risks that exist around post-award management and vendor relationships.
+- <a href="https://www.figma.com/board/bMlOCRlPBDmDa2R8eSTPyS/GUIDE-Post-award-Management_2025-01-14_20-24-23?t=pURnUDyevaoTeJmm-0" class="private-link">Post-award management</a>: Common best practices and risks that exist around post-award management and vendor relationships.
