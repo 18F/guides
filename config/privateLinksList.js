@@ -2,6 +2,7 @@ const privateLinks = [
   '18f.slack.com',
   'anywhere.gsa.gov',
   'app.mural.co',
+  'figma.com',
   'bookit.gsa.gov',
   'calendar.gsa.gov',
   'connect.gsa.gov',

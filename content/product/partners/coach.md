@@ -52,7 +52,7 @@ Because product management practices are new to government, one of your most imp
 
 - [Our coaching philosophy](https://18f.gsa.gov/2019/08/22/building-product-management-capacity-in-government-part-1/): More about our approach to developing product managers in government, including our model-pair-coach approach to product ownership.
 
-- <a href="https://app.mural.co/t/gsa6/m/gsa6/1541527303519/03f89a5368417be2a3de2042a45874413e2779b7" class="private-link">Skills assessment and growth tracking [1]</a>: An exercise to map a partner’s starting maturity level for several target product management behaviors, identify activities to promote growth, and track their progress over time.
+- <a href="https://www.figma.com/board/X3Xw8fpT3Ej8CfqoD0SRK6/SHAREABLE-product-owner-growth-metrics?t=WtgsY1l4dwAtXwHR-0" class="private-link">Skills assessment and growth tracking [1]</a>: An exercise to map a partner’s starting maturity level for several target product management behaviors, identify activities to promote growth, and track their progress over time.
 
 - [Skills assessment and growth tracking [2]](https://docs.google.com/document/d/1YDPU1EdtCtb4uSDF7ZAcjwv_LkZyVmnrRRdvyrMBJKo/edit): A list of responsibilities for a product owner, as well as success criteria for beginner, intermediate, and advanced levels.
 

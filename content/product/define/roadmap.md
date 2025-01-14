@@ -72,6 +72,6 @@ While the process of roadmapping may look different at the start of a product th
 
 - [Selecting a first slice [1]](https://docs.google.com/document/d/1TzgCxGxv1431OuEhTnXF87V1YY9VwsBZerd-RZLqMtM/edit#): Guidance for selecting an initial project focus that aligns with the partner’s goals when their major strategic question is “how to start?”
 
-- <a href="https://app.mural.co/t/gsa6/m/gsa6/1615314081299/35bd60fe1b024e005a2b201d2d1ac3acd206fe2d" class="private-link">Selecting a first slice [2]</a>: Example of criteria developed to help a partner strategically select what major piece of work to focus on first, based on the desired business/mission impact, technical goals, and organization dynamics.
+- <a href="https://www.figma.com/board/hngQqvizRREElK8Gjurluo/EXAMPLE%3A-Criteria-for-selecting-a-slice?node-id=0-1&p=f&t=pURnUDyevaoTeJmm-0" class="private-link">Selecting a first slice [2]</a>: Example of criteria developed to help a partner strategically select what major piece of work to focus on first, based on the desired business/mission impact, technical goals, and organization dynamics.
 
 - [Evaluating roadmap items](https://medium.com/@johnpcutler/40-roadmap-item-questions-1a6895bf2e5a): Questions to consider when deciding what items to place on your roadmap.
