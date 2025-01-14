@@ -58,7 +58,7 @@ Problem statements can be written at different levels or granularities, and you 
 
 - [How to build a problem statement (2)](https://docs.google.com/document/d/1GjzpUHQZGWG8lEzg8ZAMqRG3tZhaw_V010OUnt9yKeI/edit#): Elements of a good problem statement, along with sample formats and examples.
 
-- <a href="https://app.mural.co/t/gsa6/m/gsa6/1614280571328/064874369c7597eb3467fec790202b46ffe41f99" class="private-link">How to build a problem statement (3)</a>: An exercise to identify the problems experienced, who is affected, and the impacts, as well as understand hopes and fears for the initiative.
+- <a href="https://www.figma.com/board/3laLEZnD8kfrBysGzOQ9me/EXAMPLE-Hopes-%26-Fears-and-Problem-Statements---SEC-Intake_2025-01-14_20-26-02?t=pURnUDyevaoTeJmm-0" class="private-link">How to build a problem statement (3)</a>: An exercise to identify the problems experienced, who is affected, and the impacts, as well as understand hopes and fears for the initiative.
 
 - [How to prioritize problem statements (1)](https://guides.18f.gov/methods/discover/kj-method/): KJ Method, a general prioritization method involving brainstorming, [affinity grouping](https://guides.18f.gov/methods/decide/affinity-mapping/), and ranking (e.g., [dot voting](https://guides.18f.gov/methods/discover/dot-voting/)).
 
