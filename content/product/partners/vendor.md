@@ -55,7 +55,7 @@ If 18F is brought in to help a partner that has an existing relationship with a 
 
 ## Resources
 
-- <a href="https://app.mural.co/t/gsa6/m/gsa6/1611637592630/fa9cddf94e1bc4f52a4676f59401a304c8ec8b2f" class="private-link">Vendor onboarding [1]</a>: An exercise to identify what information needs to be shared and with whom to successfully onboard a vendor.
+- <a href="https://www.figma.com/board/L6bDVE1hiApntA1hEqr0vL/EXAMPLE-Vendor-Onboarding-(CMS-eAPD)_2025-01-14_20-22-20?t=NbyQzGSLBHFW2reC-0" class="private-link">Vendor onboarding [1]</a>: An exercise to identify what information needs to be shared and with whom to successfully onboard a vendor.
 
 - <a href="https://www.figma.com/board/8jlSD5JqUZPuYTGOHbJASP/EXAMPLE-Vendor-Onboarding-Readiness-(CMS-eAPD)_2025-01-14_20-23-30?t=NbyQzGSLBHFW2reC-0" class="private-link">Vendor onboarding [2]</a>: An exercise to collect feedback about what's going well and what questions remain as a project goes from preparing a procurement to onboarding a vendor to disengaging with 18F.
 
