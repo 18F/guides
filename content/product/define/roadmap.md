@@ -68,7 +68,7 @@ While the process of roadmapping may look different at the start of a product th
 
 - [How to craft a roadmap [3]](https://medium.com/@itamargilad/why-i-stopped-using-product-roadmaps-and-switched-to-gist-planning-3b7f54e271d1): Guidance on how to maintain and update a roadmap for an existing product rather than a new one.
 
-- Examples of roadmaps: Additional examples of strategic and tactical roadmaps [here](https://github.com/USDAForestService/fs-open-forest/wiki/Short-term-roadmap), <a href="https://www.figma.com/board/np9UJyk3jwVG9WVedoToUw/EXAMPLE-FRTIB-tsp.gov-roadmap_2025-01-14_20-17-45?t=NbyQzGSLBHFW2reC-0" class="private-link">here</a>, and <a href="https://www.figma.com/board/L6bDVE1hiApntA1hEqr0vL/EXAMPLE-Vendor-Onboarding-(CMS-eAPD)_2025-01-14_20-22-20?t=NbyQzGSLBHFW2reC-0" class="private-link">here.</a>
+- Examples of roadmaps: Additional examples of strategic and tactical roadmaps [here](https://github.com/USDAForestService/fs-open-forest/wiki/Short-term-roadmap), <a href="https://www.figma.com/board/np9UJyk3jwVG9WVedoToUw/EXAMPLE-FRTIB-tsp.gov-roadmap_2025-01-14_20-17-45?t=NbyQzGSLBHFW2reC-0" class="private-link">here</a>, and <a href="https://www.figma.com/board/rXvEsPY1cAT2MBJH8noqyh/EXAMPLE-USFS-Firewood-permitting-roadmap?node-id=0-1&p=f&t=1eUdP6rE79QU2K92-0" class="private-link">here.</a>
 
 - [Selecting a first slice [1]](https://docs.google.com/document/d/1TzgCxGxv1431OuEhTnXF87V1YY9VwsBZerd-RZLqMtM/edit#): Guidance for selecting an initial project focus that aligns with the partner’s goals when their major strategic question is “how to start?”
 
