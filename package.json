@@ -43,7 +43,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.31.0",
     "html-validate": "^8.24.2",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "jsdom": "^22.1.0",
     "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^8.6.7",
