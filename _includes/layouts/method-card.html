@@ -12,6 +12,8 @@ layout: layouts/default
   <div class="grid-container">
     {%- include "methods/print-header.html" category: method.category -%}
     {%- include "methods/method.html" this_method: method, method_path: page.url -%}
-    {%- include "methods/return-to-top.html" -%}
   </div>
 </section>
+<div class="grid-container">
+  {%- include "methods/return-to-top.html" -%}
+</div>
