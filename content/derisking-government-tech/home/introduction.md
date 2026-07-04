@@ -129,4 +129,4 @@ We’re federal employees who work for [18F](https://18f.gsa.gov/){.usa-link .us
 
 **Next:** [Understanding and choosing a software solution]({{ "/derisking-government-tech/software-solutions/" | url }})
 
-[^only]:  The Standish Group’s Haze Report, 2015.
+[^only]:  The Standish Group’s [Haze Report](https://web.archive.org/web/20240913080525/https://www.standishgroup.com/sample_research_files/Haze4.pdf), 2015.
